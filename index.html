@@ -4,10 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>VOX | Professional Language Learning</title>
+    <!-- Montserrat for the logo/branding and Inter for UI -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@800&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
     <style>
         :root {
-            --primary: #2563eb;
-            --primary-hover: #1d4ed8;
+            /* Updated to match MegaLiberta Cyan #29D1F1 */
+            --primary: #29D1F1;
+            --primary-hover: #1bbcd9;
+            --vox-dark: #0D1117;
             --secondary: #64748b;
             --success: #10b981;
             --error: #ef4444;
@@ -21,6 +25,7 @@
             --shadow-lg: 0 10px 15px -3px rgb(0 0 0 / 0.1);
             --radius: 12px;
             --font-main: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+            --font-brand: 'Montserrat', sans-serif;
         }
 
         * { box-sizing: border-box; }
@@ -43,7 +48,7 @@
             backdrop-filter: blur(12px);
             border-bottom: 1px solid var(--border);
             z-index: 1000;
-            padding: 12px 0;
+            padding: 8px 0;
         }
 
         .header-content {
@@ -57,18 +62,23 @@
             flex-wrap: wrap;
         }
 
-        .logo-text {
-            font-weight: 800;
-            font-size: 1.25rem;
-            letter-spacing: -0.025em;
-            color: var(--text-main);
+        .logo-container {
+            height: 48px;
             display: flex;
             align-items: center;
-            gap: 8px;
             cursor: pointer;
+            transition: transform 0.2s;
+        }
+        
+        .logo-container:hover {
+            transform: scale(1.02);
         }
 
-        .logo-accent { color: var(--primary); }
+        .logo-svg {
+            height: 100%;
+            width: auto;
+            max-width: 320px; /* Increased to allow single-line logo */
+        }
 
         /* Navigation & Selects */
         .nav-controls {
@@ -119,7 +129,14 @@
         }
 
         /* Components */
-        h2 { font-size: 1.875rem; font-weight: 700; margin-top: 0; }
+        h2 { 
+            font-family: var(--font-brand);
+            font-size: 1.875rem; 
+            font-weight: 800; 
+            margin-top: 0; 
+            color: var(--vox-dark);
+        }
+        
         h3 { font-size: 1.25rem; font-weight: 600; margin-bottom: 24px; }
 
         .stage-grid {
@@ -164,7 +181,7 @@
             border-radius: var(--radius);
             background: white;
             font-size: 1rem;
-            font-weight: 500;
+            font-weight: 600;
             cursor: pointer;
             transition: all 0.15s ease;
             text-align: left;
@@ -173,15 +190,15 @@
 
         .option-btn:hover {
             border-color: var(--primary);
-            background: #f0f7ff;
-            color: var(--primary);
+            background: #f0fdfa; /* Tint of primary */
+            color: var(--primary-hover);
         }
 
         /* Feedback and Modals */
         .feedback-overlay {
             position: fixed;
             top: 0; left: 0; right: 0; bottom: 0;
-            background: rgba(15, 23, 42, 0.4);
+            background: rgba(13, 17, 23, 0.4);
             backdrop-filter: blur(4px);
             display: none;
             justify-content: center;
@@ -227,7 +244,7 @@
             bottom: 32px;
             right: 32px;
             padding: 14px 24px;
-            background: var(--text-main);
+            background: var(--vox-dark);
             color: white;
             border: none;
             border-radius: 50px;
@@ -263,16 +280,20 @@
         @keyframes spin { to { transform: rotate(360deg); } }
 
         @media (max-width: 768px) {
-            .header-content { flex-direction: column; align-items: flex-start; }
-            .nav-controls { width: 100%; justify-content: space-between; }
+            .header-content { flex-direction: column; align-items: center; padding: 12px; }
+            .nav-controls { width: 100%; justify-content: center; flex-wrap: wrap; }
+            #app-container { margin: 20px 10px; padding: 24px; }
         }
     </style>
 </head>
 <body>
     <header class="main-header">
         <div class="header-content">
-            <div class="logo-text" onclick="window.location.reload()">
-                <span class="logo-accent">VOX</span> MegaLiberta
+            <div class="logo-container" onclick="window.location.reload()">
+                <svg class="logo-svg" viewBox="0 0 750 150" xmlns="http://www.w3.org/2000/svg">
+                    <text x="20" y="100" fill="#0D1117" style="font-family: 'Montserrat', sans-serif; font-weight: 800; font-size: 80px;">Vox</text>
+                    <text x="210" y="100" fill="#29D1F1" style="font-family: 'Montserrat', sans-serif; font-weight: 800; font-size: 80px;">MegaLiberta</text>
+                </svg>
             </div>
             
             <div class="nav-controls">
@@ -313,7 +334,7 @@
         <div id="game-container">
             <div style="text-align: center; padding: 100px 0;">
                 <div class="spinner" style="margin: 0 auto 24px;"></div>
-                <h2 style="color: var(--secondary)">Initializing...</h2>
+                <h2 style="color: var(--secondary)">Initializing VOX...</h2>
             </div>
         </div>
     </div>
@@ -323,7 +344,7 @@
     <div id="feedback-overlay" class="feedback-overlay">
         <div class="feedback-card">
             <span id="feedback-icon" style="font-size: 5rem; display: block; margin-bottom: 16px;"></span>
-            <h2 id="feedback-title"></h2>
+            <h2 id="feedback-title" style="font-family: var(--font-brand);"></h2>
         </div>
     </div>
 
@@ -405,7 +426,7 @@
                 container.appendChild(q);
                 const p = document.createElement('p');
                 p.style.cssText = 'font-size: 1.5rem; margin: 32px 0; padding: 24px; background: #f8fafc; border-radius: 12px; text-align: center;';
-                p.innerHTML = ex.question.replace('___', '<span id="blank" style="color: var(--primary); border-bottom: 3px solid; padding: 0 12px;">...</span>');
+                p.innerHTML = ex.question.replace('___', `<span id=\"blank\" style=\"color: var(--primary); border-bottom: 3px solid; padding: 0 12px;\">...</span>`);
                 container.appendChild(p);
                 const pool = document.createElement('div');
                 pool.style.cssText = 'display: flex; gap: 12px; flex-wrap: wrap; justify-content: center;';
@@ -431,7 +452,7 @@
                 container.appendChild(p);
                 const btn = document.createElement('button');
                 btn.className = 'option-btn'; btn.style.textAlign = 'center';
-                btn.style.background = 'var(--text-main)'; btn.style.color = 'white';
+                btn.style.background = 'var(--vox-dark)'; btn.style.color = 'white';
                 btn.innerHTML = '🎤 Tap to Record';
                 btn.onclick = async () => {
                     btn.textContent = 'Recording...';
@@ -457,8 +478,6 @@
 
         function generateStageMenu(manifest, userState, container, onSelect) {
             container.innerHTML = '';
-            // We focus on the 'all' key as per current manifest structure, 
-            // but we filter the content based on the level dropdown.
             const langData = manifest.languages['all']; 
             const selectedLevel = userState.level;
 
@@ -486,6 +505,7 @@
                 const secTitle = document.createElement('h4');
                 secTitle.style.margin = '24px 0 16px';
                 secTitle.style.color = 'var(--primary)';
+                secTitle.style.fontWeight = '700';
                 secTitle.textContent = sec.title;
                 container.appendChild(secTitle);
 
@@ -518,7 +538,6 @@
                 try {
                     const data = await fetchData('secondary.json');
                     const entry = data[exId];
-                    // Logic: fallback to English if the translation language doesn't have an entry
                     const val = entry ? (entry[lang] || entry['en'] || entry) : "No context available.";
                     con.innerHTML = `<p style="font-size: 1.25rem; line-height: 1.6; font-weight: 500; color: var(--text-main);">"${val}"</p>`;
                 } catch(e) { con.textContent = "Analysis unavailable."; }
@@ -528,7 +547,6 @@
         let state = initSession();
         let currentManifest = null;
 
-        // Initialize Header Selects
         function setupHeader() {
             const siteSelect = document.getElementById('site-lang-select');
             const targetSelect = document.getElementById('target-lang-select');
@@ -543,7 +561,7 @@
             levelSelect.onchange = (e) => { 
                 state.level = e.target.value; 
                 saveProgress(state); 
-                showMenu(); // Refresh menu when level changes
+                showMenu(); 
             };
         }
 
@@ -575,11 +593,11 @@
             if (idx >= data.exercises.length) {
                 unlockStage(state, 'all', level, section, stageId + 1);
                 document.getElementById('game-container').innerHTML = `
-                    <div class="text-center" style="padding: 40px 0;">
-                        <div style="font-size: 4rem; margin-bottom: 24px;">🏆</div>
+                    <div class=\"text-center\" style=\"padding: 40px 0; text-align: center;\">
+                        <div style=\"font-size: 4rem; margin-bottom: 24px;\">🏆</div>
                         <h2>Mastery Achieved!</h2>
-                        <p style="color: var(--secondary); margin-bottom: 32px;">You have successfully completed this module.</p>
-                        <button class="option-btn" style="text-align: center; background: var(--primary); color: white; border: none;" onclick="location.reload()">Next Module</button>
+                        <p style=\"color: var(--secondary); margin-bottom: 32px;\">You have successfully completed this module.</p>
+                        <button class=\"option-btn\" style=\"text-align: center; background: var(--vox-dark); color: white; border: none; max-width: 250px; margin: 0 auto;\" onclick=\"location.reload()\">Next Module</button>
                     </div>
                 `;
                 return;
@@ -590,16 +608,15 @@
             const progress = ((idx) / data.exercises.length) * 100;
             
             container.innerHTML = `
-                <div style="display:flex; justify-content:space-between; align-items:center;">
-                    <span style="font-size: 0.75rem; font-weight: 700; color: var(--secondary); text-transform: uppercase;">Exercise ${idx + 1} / ${data.exercises.length}</span>
+                <div style=\"display:flex; justify-content:space-between; align-items:center;\">
+                    <span style=\"font-size: 0.75rem; font-weight: 700; color: var(--secondary); text-transform: uppercase;\">Exercise ${idx + 1} / ${data.exercises.length}</span>
                 </div>
-                <div class="progress-bar-container"><div class="progress-fill" style="width: ${progress}%"></div></div>
+                <div class=\"progress-bar-container\"><div class=\"progress-fill\" style=\"width: ${progress}%\"></div></div>
             `;
             
             const contentArea = document.createElement('div');
             container.appendChild(contentArea);
             
-            // Site Language determines the translation lookup in secondary.json
             updateTranslationButton(ex.id, state.siteLanguage, document.getElementById('translate-btn'));
 
             const renderer = renderers[ex.type];
