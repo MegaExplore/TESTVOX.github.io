@@ -1,13 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>VOX Language Engine</title>
     <link rel="stylesheet" href="css/styles.css">
-    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>⚡</text></svg>">
+    <link rel="icon"
+        href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>⚡</text></svg>">
 </head>
+
 <body>
+    <header class="main-header">
+        <div class="header-content">
+            <div class="logo">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 250" preserveAspectRatio="xMidYMid meet">
+                    <text x="50" y="90" fill="#0D1117"
+                        style="font-family: 'Montserrat', sans-serif; font-weight: 800; font-size: 80px;">Vox</text>
+                    <text x="50" y="190" fill="#29D1F1"
+                        style="font-family: 'Montserrat', sans-serif; font-weight: 800; font-size: 80px;">MegaLiberta</text>
+                </svg>
+
+            </div>
+
+            <div class="lang-switcher">
+                <select id="language-select">
+                    <option value="en">English</option>
+                    <option value="es">Español</option>
+                </select>
+            </div>
+        </div>
+    </header>
 
     <div id="app-container">
         <!-- Floating Translation Button -->
@@ -33,7 +56,8 @@
     <div id="translation-modal" class="translation-modal">
         <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:16px;">
             <h4 style="margin:0;">Translation</h4>
-            <button onclick="document.getElementById('translation-modal').classList.remove('open')" style="color:var(--text-muted);">✕</button>
+            <button onclick="document.getElementById('translation-modal').classList.remove('open')"
+                style="color:var(--text-muted);">✕</button>
         </div>
         <div id="translation-content">
             <!-- Dynamic Content -->
@@ -43,4 +67,5 @@
     <!-- Scripts -->
     <script type="module" src="js/app.js"></script>
 </body>
+
 </html>

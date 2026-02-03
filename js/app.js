@@ -19,17 +19,25 @@ const menuContainer = document.getElementById('game-container'); // Reusing cont
 async function initApp() {
     try {
         userState = initSession();
+        manifest = await fetchData('manifest.json');
 
-        // Load Manifest (assuming it's at a known path or CID, here local for dev)
-        manifest = await fetchData('./schemas/manifest.example.json');
+        // Logic for your new sticky header menu:
+        const langSelect = document.getElementById('language-select');
+        if (langSelect) {
+            langSelect.value = userState.targetLanguage || 'en';
+            langSelect.addEventListener('change', (e) => {
+                userState.targetLanguage = e.target.value;
+                renderRoute(); // This triggers the UI update
+            });
+        }
 
-        // Initial Routing
         renderRoute();
     } catch (e) {
         console.error("App Init Failed:", e);
-        document.getElementById('game-container').innerHTML = `<p>Error loading content: ${e.message}</p>`;
     }
 }
+
+
 
 function renderRoute() {
     const gameContainer = document.getElementById('game-container');
@@ -58,24 +66,17 @@ async function loadStage(cid) {
     gameContainer.innerHTML = '<p class="text-center">Loading Stage...</p>';
 
     try {
-        // Fetch Stage Data
-        // In real app: cid would be an IPFS hash. 
-        // For local prototype: we might map 'cid1' to './schemas/primary.example.json' for testing.
-        // Let's implement a simple mock resolver for the prototype if the CID isn't a real path.
-        let fetchUrl = cid;
-        if (cid === 'QmHash1...' || cid === 'cid1') fetchUrl = './schemas/primary.example.json';
+        // CLEANED: Removed the 'QmHash' and 'example.json' logic.
+        // 'cid' now comes directly from your manifest (e.g., "EA1VS1.json")
+        const stageData = await fetchData(cid);
 
-        const stageData = await fetchData(fetchUrl);
-
-        // Start Exercises
         let currentIndex = 0;
-
-        // Resume logic could go here: if userState.stage === stageData.stage, currentIndex = userState.exerciseIndex
+        // Resume logic could go here: if userState.currentStage === cid, currentIndex = userState.lastIndex
 
         runExercise(stageData, currentIndex);
 
     } catch (e) {
-        console.error(e);
+        console.error("Stage Load Error:", e);
         gameContainer.innerHTML = '<p>Failed to load stage.</p><button onclick="window.location.reload()">Retry</button>';
     }
 }
