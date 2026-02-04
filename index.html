@@ -408,7 +408,7 @@
         }
 
         const renderers = {
-            multiple_choice: (ex, container, onAnswer) => {
+                multiple_choice: (ex, container, onAnswer) => {
                 const q = document.createElement('h3');
                 q.textContent = ex.question;
                 container.appendChild(q);
@@ -420,7 +420,134 @@
                     container.appendChild(btn);
                 });
             },
-            tap_fill: (ex, container, onAnswer) => {
+
+
+    matching: (ex, container, onAnswer) => {
+    const q = document.createElement('h3');
+    q.textContent = "Match the Pairs:";
+    container.appendChild(q);
+
+    const grid = document.createElement('div');
+    grid.style.cssText = 'display: grid; grid-template-columns: 1fr 1fr; gap: 10px;';
+    
+    let selectedLeft = null;
+    const pairs = ex.pairs; // Format: [{left: "Hello", right: "Hola"}, ...]
+    const leftSide = pairs.map(p => p.left).sort(() => Math.random() - 0.5);
+    const rightSide = pairs.map(p => p.right).sort(() => Math.random() - 0.5);
+
+    const checkMatch = (rightVal, btn) => {
+        const correctRight = pairs.find(p => p.left === selectedLeft).right;
+        if (rightVal === correctRight) {
+            btn.style.background = 'var(--success)';
+            btn.style.color = 'white';
+            // Simple logic: once one pair is found, we call onAnswer with a success flag
+            // For a complex matching game, you'd track all pairs before calling onAnswer
+            setTimeout(() => onAnswer(rightVal), 500);
+        } else {
+            btn.style.background = 'var(--error)';
+            setTimeout(() => btn.style.background = 'white', 500);
+        }
+    };
+
+    leftSide.forEach(text => {
+        const b = document.createElement('button');
+        b.className = 'option-btn';
+        b.textContent = text;
+        b.onclick = () => {
+            selectedLeft = text;
+            container.querySelectorAll('.left-btn').forEach(btn => btn.style.borderColor = 'var(--border)');
+            b.style.borderColor = 'var(--primary)';
+        };
+        b.classList.add('left-btn');
+        grid.appendChild(b);
+    });
+
+    rightSide.forEach(text => {
+        const b = document.createElement('button');
+        b.className = 'option-btn';
+        b.textContent = text;
+        b.onclick = () => { if(selectedLeft) checkMatch(text, b); };
+        grid.appendChild(b);
+    });
+    container.appendChild(grid);
+},
+
+    sentence_ordering: (ex, container, onAnswer) => {
+    const q = document.createElement('h3');
+    q.textContent = "Arrange in order:";
+    container.appendChild(q);
+
+    const dropZone = document.createElement('div');
+    dropZone.style.cssText = 'min-height: 60px; border-bottom: 2px solid var(--primary); margin-bottom: 20px; display: flex; gap: 8px; flex-wrap: wrap; padding: 10px;';
+    container.appendChild(dropZone);
+
+    const wordPool = document.createElement('div');
+    wordPool.style.cssText = 'display: flex; gap: 8px; flex-wrap: wrap;';
+    
+    let currentSentence = [];
+    ex.words.sort(() => Math.random() - 0.5).forEach(word => {
+        const b = document.createElement('button');
+        b.className = 'option-btn'; b.style.width = 'auto';
+        b.textContent = word;
+        b.onclick = () => {
+            currentSentence.push(word);
+            const span = document.createElement('span');
+            span.textContent = word + " ";
+            dropZone.appendChild(span);
+            b.style.display = 'none';
+            if (currentSentence.length === ex.words.length) {
+                setTimeout(() => onAnswer(currentSentence.join(' ')), 600);
+            }
+        };
+        wordPool.appendChild(b);
+    });
+    container.appendChild(wordPool);
+},
+
+    flashcards: (ex, container, onAnswer) => {
+    const card = document.createElement('div');
+    card.style.cssText = 'height: 200px; background: var(--vox-dark); color: white; border-radius: 20px; display: flex; align-items: center; justify-content: center; font-size: 2rem; cursor: pointer; transition: transform 0.6s; transform-style: preserve-3d;';
+    card.textContent = ex.front;
+    
+    let flipped = false;
+    card.onclick = () => {
+        flipped = !flipped;
+        card.style.transform = flipped ? 'rotateY(180deg)' : 'rotateY(0)';
+        setTimeout(() => {
+            card.textContent = flipped ? ex.back : ex.front;
+            card.style.background = flipped ? 'var(--primary)' : 'var(--vox-dark)';
+        }, 150);
+    };
+    container.appendChild(card);
+
+    const done = document.createElement('button');
+    done.className = 'option-btn'; done.style.marginTop = '30px';
+    done.textContent = "I've memorized this";
+    done.onclick = () => onAnswer(ex.answer);
+    container.appendChild(done);
+   },
+
+   fill_blank_typing: (ex, container, onAnswer) => {
+    const q = document.createElement('h3');
+    q.textContent = "Type the missing word:";
+    container.appendChild(q);
+
+    const p = document.createElement('p');
+    p.style.fontSize = '1.25rem';
+    p.innerHTML = ex.question.replace('___', `<input type="text" id="typing-input" style="border:none; border-bottom: 2px solid var(--primary); outline: none; width: 120px; text-align: center; font-size: 1.25rem; font-family: inherit;">`);
+    container.appendChild(p);
+
+    const btn = document.createElement('button');
+    btn.className = 'option-btn'; btn.style.background = 'var(--vox-dark)'; btn.style.color = 'white';
+    btn.textContent = "Check Answer";
+    btn.onclick = () => {
+        const val = document.getElementById('typing-input').value;
+        onAnswer(val);
+    };
+    container.appendChild(btn);
+},
+            
+                tap_fill: (ex, container, onAnswer) => {
                 const q = document.createElement('h3');
                 q.textContent = "Complete the sequence:";
                 container.appendChild(q);
