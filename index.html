@@ -592,11 +592,17 @@
             }
         };
 
-        function isStageAccessible(lang, level, section, stage, state) {
-            if (stage === 1) return true;
-            const unlocked = state.unlockedStages[lang]?.[level]?.[section] || [];
-            return unlocked.includes(stage - 1);
-        }
+       function isStageAccessible(lang, level, section, stage, state, manifestStage) {
+    // 1. If the manifest says it's free, allow access immediately
+    if (manifestStage && manifestStage.isFree) return true;
+    
+    // 2. Default logic for first stage
+    if (stage === 1) return true;
+    
+    // 3. Sequential logic for everything else (Premium content)
+    const unlocked = state.unlockedStages[lang]?.[level]?.[section] || [];
+    return unlocked.includes(stage - 1);
+}
 
         function checkAnswer(input, solution) {
             const norm = s => s.toString().toLowerCase().trim().replace(/[.,!]/g, '');
@@ -641,7 +647,7 @@
 
                 sec.stages.forEach(stg => {
                     const secKey = sec.title.replace(/\s+/g, '_');
-                    const ok = isStageAccessible('all', selectedLevel, secKey, stg.id, userState);
+                    const ok = isStageAccessible('all', selectedLevel, secKey, stg.id, userState, stg);
                     const btn = document.createElement('button');
                     btn.className = `stage-card ${ok ? '' : 'locked'}`;
                     btn.innerHTML = `
