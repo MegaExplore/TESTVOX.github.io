@@ -8,7 +8,6 @@
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@800&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
     <style>
         :root {
-            /* Updated to match MegaLiberta Cyan #29D1F1 */
             --primary: #29D1F1;
             --primary-hover: #1bbcd9;
             --vox-dark: #0D1117;
@@ -70,9 +69,7 @@
             transition: transform 0.2s;
         }
         
-        .logo-container:hover {
-            transform: scale(1.02);
-        }
+        .logo-container:hover { transform: scale(1.02); }
 
         .logo-svg {
             height: 100%;
@@ -80,7 +77,6 @@
             max-width: 320px;
         }
 
-        /* Navigation & Selects */
         .nav-controls {
             display: flex;
             gap: 12px;
@@ -116,9 +112,10 @@
             margin-left: 2px;
         }
 
-        /* App Container */
+        /* App Container - Expanded for wider screens */
         #app-container {
-            max-width: 800px;
+            width: 95%;
+            max-width: 1100px; /* Increased from 800px */
             margin: 40px auto;
             padding: 40px;
             background: var(--card-bg);
@@ -126,9 +123,9 @@
             box-shadow: var(--shadow-lg);
             border: 1px solid var(--border);
             min-height: 500px;
+            transition: max-width 0.3s ease;
         }
 
-        /* Components */
         h2 { 
             font-family: var(--font-brand);
             font-size: 1.875rem; 
@@ -141,8 +138,8 @@
 
         .stage-grid {
             display: grid;
-            grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
-            gap: 20px;
+            grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); /* Wider columns for wider layout */
+            gap: 24px;
             margin-top: 24px;
         }
 
@@ -150,7 +147,7 @@
             display: flex;
             flex-direction: column;
             align-items: center;
-            padding: 24px;
+            padding: 32px 24px;
             background: var(--card-bg);
             border: 2px solid var(--border);
             border-radius: var(--radius);
@@ -194,7 +191,6 @@
             color: var(--primary-hover);
         }
 
-        /* Nav Buttons Style */
         .nav-btn {
             background: #f1f5f9;
             color: var(--secondary);
@@ -217,7 +213,6 @@
             border-color: var(--secondary);
         }
 
-        /* Feedback and Modals */
         .feedback-overlay {
             position: fixed;
             top: 0; left: 0; right: 0; bottom: 0;
@@ -302,7 +297,6 @@
         }
         @keyframes spin { to { transform: rotate(360deg); } }
 
-        /* Sentence Ordering Specifics */
         .ordered-word {
             background: var(--primary);
             color: white;
@@ -318,7 +312,6 @@
             background: var(--primary-hover);
         }
 
-        /* Speaker/Audio Button Style */
         .audio-btn {
             background: var(--vox-dark);
             color: white;
@@ -344,6 +337,7 @@
             .header-content { flex-direction: column; align-items: center; padding: 12px; }
             .nav-controls { width: 100%; justify-content: center; flex-wrap: wrap; }
             #app-container { margin: 20px 10px; padding: 24px; }
+            .stage-grid { grid-template-columns: repeat(auto-fill, minmax(160px, 1fr)); }
         }
     </style>
 </head>
@@ -504,7 +498,6 @@
                 const pairs = ex.pairs; 
                 const leftSide = pairs.map(p => p.left).sort(() => Math.random() - 0.5);
                 const rightSide = pairs.map(p => p.right).sort(() => Math.random() - 0.5);
-
                 let matchedCount = 0;
 
                 const checkMatch = (rightVal, rightBtn) => {
@@ -518,11 +511,9 @@
                         leftBtn.style.color = 'white';
                         rightBtn.disabled = true;
                         leftBtn.disabled = true;
-                        
                         matchedCount++;
                         selectedLeft = null;
                         leftBtn = null;
-
                         if (matchedCount === pairs.length) {
                             setTimeout(() => onAnswer(rightVal), 600);
                         }
@@ -607,7 +598,6 @@
                         };
                         dropZone.appendChild(span);
                     });
-
                     if (currentSentence.length === ex.words.length) {
                         setTimeout(() => onAnswer(currentSentence.join(' ')), 600);
                     }
@@ -653,12 +643,10 @@
                 const q = document.createElement('h3');
                 q.textContent = "Type the missing word:";
                 container.appendChild(q);
-
                 const p = document.createElement('p');
                 p.style.fontSize = '1.25rem';
                 p.innerHTML = ex.question.replace('___', `<input type="text" id="typing-input" style="border:none; border-bottom: 2px solid var(--primary); outline: none; width: 120px; text-align: center; font-size: 1.25rem; font-family: inherit;">`);
                 container.appendChild(p);
-
                 const btn = document.createElement('button');
                 btn.className = 'option-btn'; btn.style.background = 'var(--vox-dark)'; btn.style.color = 'white';
                 btn.textContent = "Check Answer";
@@ -732,7 +720,6 @@
             container.innerHTML = '';
             const langData = manifest.languages['all']; 
             const selectedLevel = userState.level;
-
             const levelData = langData.levels[selectedLevel];
             
             if (!levelData || !levelData.sections || levelData.sections.length === 0) {
