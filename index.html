@@ -77,7 +77,7 @@
         .logo-svg {
             height: 100%;
             width: auto;
-            max-width: 320px; /* Increased to allow single-line logo */
+            max-width: 320px;
         }
 
         /* Navigation & Selects */
@@ -190,8 +190,31 @@
 
         .option-btn:hover {
             border-color: var(--primary);
-            background: #f0fdfa; /* Tint of primary */
+            background: #f0fdfa;
             color: var(--primary-hover);
+        }
+
+        /* Nav Buttons Style */
+        .nav-btn {
+            background: #f1f5f9;
+            color: var(--secondary);
+            border: 1px solid var(--border);
+            padding: 4px 12px;
+            border-radius: 6px;
+            font-size: 0.75rem;
+            font-weight: 700;
+            text-transform: uppercase;
+            cursor: pointer;
+            transition: all 0.2s;
+            display: inline-block;
+            width: auto;
+            margin: 0;
+        }
+
+        .nav-btn:hover {
+            background: #e2e8f0;
+            color: var(--text-main);
+            border-color: var(--secondary);
         }
 
         /* Feedback and Modals */
@@ -260,7 +283,7 @@
             height: 8px;
             background: #e2e8f0;
             border-radius: 4px;
-            margin: 24px 0;
+            margin: 12px 0 24px 0;
             overflow: hidden;
         }
         .progress-fill {
@@ -278,6 +301,44 @@
             animation: spin 0.8s linear infinite;
         }
         @keyframes spin { to { transform: rotate(360deg); } }
+
+        /* Sentence Ordering Specifics */
+        .ordered-word {
+            background: var(--primary);
+            color: white;
+            padding: 8px 16px;
+            border-radius: 8px;
+            font-weight: 600;
+            cursor: pointer;
+            transition: transform 0.1s;
+            user-select: none;
+        }
+        .ordered-word:hover {
+            transform: scale(1.05);
+            background: var(--primary-hover);
+        }
+
+        /* Speaker/Audio Button Style */
+        .audio-btn {
+            background: var(--vox-dark);
+            color: white;
+            border: none;
+            border-radius: 50%;
+            width: 44px;
+            height: 44px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+            transition: transform 0.2s, background 0.2s;
+            box-shadow: var(--shadow-md);
+            margin-left: 12px;
+        }
+        .audio-btn:hover {
+            transform: scale(1.1);
+            background: var(--primary);
+        }
+        .audio-btn svg { width: 24px; height: 24px; fill: currentColor; }
 
         @media (max-width: 768px) {
             .header-content { flex-direction: column; align-items: center; padding: 12px; }
@@ -395,6 +456,15 @@
             saveProgress(state);
         }
 
+        function speakText(text, lang = 'en-US') {
+            if (!window.speechSynthesis) return;
+            window.speechSynthesis.cancel();
+            const utterance = new SpeechSynthesisUtterance(text);
+            utterance.lang = lang;
+            utterance.rate = 0.9;
+            window.speechSynthesis.speak(utterance);
+        }
+
         const SpeechRecognition = window.SpeechRecognition || window.webkitSpeechRecognition;
         function startListening(lang = 'en-US') {
             return new Promise((resolve, reject) => {
@@ -408,7 +478,7 @@
         }
 
         const renderers = {
-                multiple_choice: (ex, container, onAnswer) => {
+            multiple_choice: (ex, container, onAnswer) => {
                 const q = document.createElement('h3');
                 q.textContent = ex.question;
                 container.appendChild(q);
@@ -421,133 +491,185 @@
                 });
             },
 
+            matching: (ex, container, onAnswer) => {
+                const q = document.createElement('h3');
+                q.textContent = "Match the Pairs:";
+                container.appendChild(q);
 
-    matching: (ex, container, onAnswer) => {
-    const q = document.createElement('h3');
-    q.textContent = "Match the Pairs:";
-    container.appendChild(q);
+                const grid = document.createElement('div');
+                grid.style.cssText = 'display: grid; grid-template-columns: 1fr 1fr; gap: 10px;';
+                
+                let selectedLeft = null;
+                let leftBtn = null;
+                const pairs = ex.pairs; 
+                const leftSide = pairs.map(p => p.left).sort(() => Math.random() - 0.5);
+                const rightSide = pairs.map(p => p.right).sort(() => Math.random() - 0.5);
 
-    const grid = document.createElement('div');
-    grid.style.cssText = 'display: grid; grid-template-columns: 1fr 1fr; gap: 10px;';
-    
-    let selectedLeft = null;
-    const pairs = ex.pairs; // Format: [{left: "Hello", right: "Hola"}, ...]
-    const leftSide = pairs.map(p => p.left).sort(() => Math.random() - 0.5);
-    const rightSide = pairs.map(p => p.right).sort(() => Math.random() - 0.5);
+                let matchedCount = 0;
 
-    const checkMatch = (rightVal, btn) => {
-        const correctRight = pairs.find(p => p.left === selectedLeft).right;
-        if (rightVal === correctRight) {
-            btn.style.background = 'var(--success)';
-            btn.style.color = 'white';
-            // Simple logic: once one pair is found, we call onAnswer with a success flag
-            // For a complex matching game, you'd track all pairs before calling onAnswer
-            setTimeout(() => onAnswer(rightVal), 500);
-        } else {
-            btn.style.background = 'var(--error)';
-            setTimeout(() => btn.style.background = 'white', 500);
-        }
-    };
+                const checkMatch = (rightVal, rightBtn) => {
+                    const pair = pairs.find(p => p.left === selectedLeft);
+                    const isMatch = rightVal === pair.right;
+                    
+                    if (isMatch) {
+                        rightBtn.style.background = 'var(--success)';
+                        rightBtn.style.color = 'white';
+                        leftBtn.style.background = 'var(--success)';
+                        leftBtn.style.color = 'white';
+                        rightBtn.disabled = true;
+                        leftBtn.disabled = true;
+                        
+                        matchedCount++;
+                        selectedLeft = null;
+                        leftBtn = null;
 
-    leftSide.forEach(text => {
-        const b = document.createElement('button');
-        b.className = 'option-btn';
-        b.textContent = text;
-        b.onclick = () => {
-            selectedLeft = text;
-            container.querySelectorAll('.left-btn').forEach(btn => btn.style.borderColor = 'var(--border)');
-            b.style.borderColor = 'var(--primary)';
-        };
-        b.classList.add('left-btn');
-        grid.appendChild(b);
-    });
+                        if (matchedCount === pairs.length) {
+                            setTimeout(() => onAnswer(rightVal), 600);
+                        }
+                    } else {
+                        rightBtn.style.background = 'var(--error)';
+                        rightBtn.style.color = 'white';
+                        setTimeout(() => {
+                            showFeedback(false, () => {
+                                rightBtn.style.background = 'white';
+                                rightBtn.style.color = 'var(--text-main)';
+                                leftBtn.style.borderColor = 'var(--border)';
+                                selectedLeft = null;
+                                leftBtn = null;
+                            });
+                        }, 400);
+                    }
+                };
 
-    rightSide.forEach(text => {
-        const b = document.createElement('button');
-        b.className = 'option-btn';
-        b.textContent = text;
-        b.onclick = () => { if(selectedLeft) checkMatch(text, b); };
-        grid.appendChild(b);
-    });
-    container.appendChild(grid);
-},
+                leftSide.forEach(text => {
+                    const b = document.createElement('button');
+                    b.className = 'option-btn left-btn';
+                    b.textContent = text;
+                    b.onclick = () => {
+                        selectedLeft = text;
+                        leftBtn = b;
+                        container.querySelectorAll('.left-btn').forEach(btn => btn.style.borderColor = 'var(--border)');
+                        b.style.borderColor = 'var(--primary)';
+                    };
+                    grid.appendChild(b);
+                });
 
-    sentence_ordering: (ex, container, onAnswer) => {
-    const q = document.createElement('h3');
-    q.textContent = "Arrange in order:";
-    container.appendChild(q);
+                rightSide.forEach(text => {
+                    const b = document.createElement('button');
+                    b.className = 'option-btn';
+                    b.textContent = text;
+                    b.onclick = () => { if(selectedLeft) checkMatch(text, b); };
+                    grid.appendChild(b);
+                });
+                container.appendChild(grid);
+            },
 
-    const dropZone = document.createElement('div');
-    dropZone.style.cssText = 'min-height: 60px; border-bottom: 2px solid var(--primary); margin-bottom: 20px; display: flex; gap: 8px; flex-wrap: wrap; padding: 10px;';
-    container.appendChild(dropZone);
+            sentence_ordering: (ex, container, onAnswer) => {
+                const headerBox = document.createElement('div');
+                headerBox.style.cssText = 'display: flex; align-items: center; justify-content: space-between; margin-bottom: 24px;';
+                
+                const q = document.createElement('h3');
+                q.textContent = "Arrange in order:";
+                q.style.margin = '0';
+                
+                const audioBtn = document.createElement('button');
+                audioBtn.className = 'audio-btn';
+                audioBtn.title = "Listen to sentence";
+                audioBtn.innerHTML = `<svg viewBox="0 0 24 24"><path d="M3 9v6h4l5 5V4L7 9H3zm13.5 3c0-1.77-1.02-3.29-2.5-4.03v8.05c1.48-.73 2.5-2.25 2.5-4.02zM14 3.23v2.06c2.89.86 5 3.54 5 6.71s-2.11 5.85-5 6.71v2.06c4.01-.91 7-4.49 7-8.77s-2.99-7.86-7-8.77z"/></svg>`;
+                audioBtn.onclick = () => speakText(ex.answer, ex.voiceLang || 'en-US');
+                
+                headerBox.appendChild(q);
+                headerBox.appendChild(audioBtn);
+                container.appendChild(headerBox);
 
-    const wordPool = document.createElement('div');
-    wordPool.style.cssText = 'display: flex; gap: 8px; flex-wrap: wrap;';
-    
-    let currentSentence = [];
-    ex.words.sort(() => Math.random() - 0.5).forEach(word => {
-        const b = document.createElement('button');
-        b.className = 'option-btn'; b.style.width = 'auto';
-        b.textContent = word;
-        b.onclick = () => {
-            currentSentence.push(word);
-            const span = document.createElement('span');
-            span.textContent = word + " ";
-            dropZone.appendChild(span);
-            b.style.display = 'none';
-            if (currentSentence.length === ex.words.length) {
-                setTimeout(() => onAnswer(currentSentence.join(' ')), 600);
-            }
-        };
-        wordPool.appendChild(b);
-    });
-    container.appendChild(wordPool);
-},
+                const dropZone = document.createElement('div');
+                dropZone.style.cssText = 'min-height: 80px; border-bottom: 2px solid var(--primary); margin-bottom: 20px; display: flex; gap: 8px; flex-wrap: wrap; padding: 10px; align-items: center;';
+                container.appendChild(dropZone);
 
-    flashcards: (ex, container, onAnswer) => {
-    const card = document.createElement('div');
-    card.style.cssText = 'height: 200px; background: var(--vox-dark); color: white; border-radius: 20px; display: flex; align-items: center; justify-content: center; font-size: 2rem; cursor: pointer; transition: transform 0.6s; transform-style: preserve-3d;';
-    card.textContent = ex.front;
-    
-    let flipped = false;
-    card.onclick = () => {
-        flipped = !flipped;
-        card.style.transform = flipped ? 'rotateY(180deg)' : 'rotateY(0)';
-        setTimeout(() => {
-            card.textContent = flipped ? ex.back : ex.front;
-            card.style.background = flipped ? 'var(--primary)' : 'var(--vox-dark)';
-        }, 150);
-    };
-    container.appendChild(card);
+                const wordPool = document.createElement('div');
+                wordPool.style.cssText = 'display: flex; gap: 8px; flex-wrap: wrap;';
+                container.appendChild(wordPool);
+                
+                let currentSentence = [];
+                const shuffledWords = [...ex.words].sort(() => Math.random() - 0.5);
 
-    const done = document.createElement('button');
-    done.className = 'option-btn'; done.style.marginTop = '30px';
-    done.textContent = "I've memorized this";
-    done.onclick = () => onAnswer(ex.answer);
-    container.appendChild(done);
-   },
+                const updateSequence = () => {
+                    dropZone.innerHTML = '';
+                    currentSentence.forEach((word, index) => {
+                        const span = document.createElement('div');
+                        span.className = 'ordered-word';
+                        span.textContent = word;
+                        span.onclick = () => {
+                            const poolBtn = Array.from(wordPool.children).find(b => b.textContent === word && b.style.visibility === 'hidden');
+                            if (poolBtn) poolBtn.style.visibility = 'visible';
+                            currentSentence.splice(index, 1);
+                            updateSequence();
+                        };
+                        dropZone.appendChild(span);
+                    });
 
-   fill_blank_typing: (ex, container, onAnswer) => {
-    const q = document.createElement('h3');
-    q.textContent = "Type the missing word:";
-    container.appendChild(q);
+                    if (currentSentence.length === ex.words.length) {
+                        setTimeout(() => onAnswer(currentSentence.join(' ')), 600);
+                    }
+                };
 
-    const p = document.createElement('p');
-    p.style.fontSize = '1.25rem';
-    p.innerHTML = ex.question.replace('___', `<input type="text" id="typing-input" style="border:none; border-bottom: 2px solid var(--primary); outline: none; width: 120px; text-align: center; font-size: 1.25rem; font-family: inherit;">`);
-    container.appendChild(p);
+                shuffledWords.forEach(word => {
+                    const b = document.createElement('button');
+                    b.className = 'option-btn'; b.style.width = 'auto';
+                    b.textContent = word;
+                    b.onclick = () => {
+                        currentSentence.push(word);
+                        b.style.visibility = 'hidden';
+                        updateSequence();
+                    };
+                    wordPool.appendChild(b);
+                });
+            },
 
-    const btn = document.createElement('button');
-    btn.className = 'option-btn'; btn.style.background = 'var(--vox-dark)'; btn.style.color = 'white';
-    btn.textContent = "Check Answer";
-    btn.onclick = () => {
-        const val = document.getElementById('typing-input').value;
-        onAnswer(val);
-    };
-    container.appendChild(btn);
-},
+            flashcards: (ex, container, onAnswer) => {
+                const card = document.createElement('div');
+                card.style.cssText = 'height: 200px; background: var(--vox-dark); color: white; border-radius: 20px; display: flex; align-items: center; justify-content: center; font-size: 2rem; cursor: pointer; transition: transform 0.6s; transform-style: preserve-3d;';
+                card.textContent = ex.front;
+                
+                let flipped = false;
+                card.onclick = () => {
+                    flipped = !flipped;
+                    card.style.transform = flipped ? 'rotateY(180deg)' : 'rotateY(0)';
+                    setTimeout(() => {
+                        card.textContent = flipped ? ex.back : ex.front;
+                        card.style.background = flipped ? 'var(--primary)' : 'var(--vox-dark)';
+                    }, 150);
+                };
+                container.appendChild(card);
+
+                const done = document.createElement('button');
+                done.className = 'option-btn'; done.style.marginTop = '30px';
+                done.textContent = "I've memorized this";
+                done.onclick = () => onAnswer(ex.answer || ex.back);
+                container.appendChild(done);
+            },
+
+            fill_blank_typing: (ex, container, onAnswer) => {
+                const q = document.createElement('h3');
+                q.textContent = "Type the missing word:";
+                container.appendChild(q);
+
+                const p = document.createElement('p');
+                p.style.fontSize = '1.25rem';
+                p.innerHTML = ex.question.replace('___', `<input type="text" id="typing-input" style="border:none; border-bottom: 2px solid var(--primary); outline: none; width: 120px; text-align: center; font-size: 1.25rem; font-family: inherit;">`);
+                container.appendChild(p);
+
+                const btn = document.createElement('button');
+                btn.className = 'option-btn'; btn.style.background = 'var(--vox-dark)'; btn.style.color = 'white';
+                btn.textContent = "Check Answer";
+                btn.onclick = () => {
+                    const val = document.getElementById('typing-input').value;
+                    onAnswer(val);
+                };
+                container.appendChild(btn);
+            },
             
-                tap_fill: (ex, container, onAnswer) => {
+            tap_fill: (ex, container, onAnswer) => {
                 const q = document.createElement('h3');
                 q.textContent = "Complete the sequence:";
                 container.appendChild(q);
@@ -569,6 +691,7 @@
                 });
                 container.appendChild(pool);
             },
+
             pronunciation: (ex, container, onAnswer) => {
                 const q = document.createElement('h3');
                 q.textContent = "Voice Articulation:";
@@ -592,20 +715,16 @@
             }
         };
 
-       function isStageAccessible(lang, level, section, stage, state, manifestStage) {
-    // 1. If the manifest says it's free, allow access immediately
-    if (manifestStage && manifestStage.isFree) return true;
-    
-    // 2. Default logic for first stage
-    if (stage === 1) return true;
-    
-    // 3. Sequential logic for everything else (Premium content)
-    const unlocked = state.unlockedStages[lang]?.[level]?.[section] || [];
-    return unlocked.includes(stage - 1);
-}
+        function isStageAccessible(lang, level, section, stage, state, manifestStage) {
+            if (manifestStage && manifestStage.isFree) return true;
+            if (stage === 1) return true;
+            const unlocked = state.unlockedStages[lang]?.[level]?.[section] || [];
+            return unlocked.includes(stage - 1);
+        }
 
         function checkAnswer(input, solution) {
-            const norm = s => s.toString().toLowerCase().trim().replace(/[.,!]/g, '');
+            if (!solution) return true;
+            const norm = s => s.toString().toLowerCase().trim().replace(/[.,!?;]/g, '');
             return norm(input) === norm(solution);
         }
 
@@ -613,14 +732,6 @@
             container.innerHTML = '';
             const langData = manifest.languages['all']; 
             const selectedLevel = userState.level;
-
-            const head = document.createElement('div');
-            head.style.marginBottom = '40px';
-            head.innerHTML = `
-                <h2 style="margin-bottom:8px;">Learning Paths</h2>
-                <p style="color: var(--secondary)">Available modules for level <strong>${selectedLevel}</strong></p>
-            `;
-            container.appendChild(head);
 
             const levelData = langData.levels[selectedLevel];
             
@@ -635,10 +746,11 @@
             }
 
             levelData.sections.forEach(sec => {
-                const secTitle = document.createElement('h4');
-                secTitle.style.margin = '24px 0 16px';
+                const secTitle = document.createElement('h3');
+                secTitle.style.margin = '32px 0 20px';
                 secTitle.style.color = 'var(--primary)';
-                secTitle.style.fontWeight = '700';
+                secTitle.style.fontWeight = '800';
+                secTitle.style.fontSize = '1.75rem';
                 secTitle.textContent = sec.title;
                 container.appendChild(secTitle);
 
@@ -704,7 +816,7 @@
                 currentManifest = await fetchData('manifest.json');
                 showMenu();
             } catch(e) { 
-                document.getElementById('game-container').innerHTML = `<h3>Connection Error</h3><p>Ensure your GitHub repository is public.</p>`;
+                document.getElementById('game-container').innerHTML = `<h3>Connection Error</h3><p>Ensure repository is public and schemas are correct.</p>`;
             }
         }
 
@@ -738,11 +850,17 @@
 
             const ex = data.exercises[idx];
             const container = document.getElementById('game-container');
-            const progress = ((idx) / data.exercises.length) * 100;
+            const progress = (idx / data.exercises.length) * 100;
             
             container.innerHTML = `
-                <div style=\"display:flex; justify-content:space-between; align-items:center;\">
-                    <span style=\"font-size: 0.75rem; font-weight: 700; color: var(--secondary); text-transform: uppercase;\">Exercise ${idx + 1} / ${data.exercises.length}</span>
+                <div style=\"display:flex; justify-content:space-between; align-items:center; margin-bottom: 8px;\">
+                    <span style=\"font-size: 0.75rem; font-weight: 700; color: var(--secondary); text-transform: uppercase;\">
+                        Exercise ${idx + 1} / ${data.exercises.length}
+                    </span>
+                    <div style=\"display:flex; gap:8px;\">
+                        ${idx > 0 ? `<button id=\"back-btn\" class=\"nav-btn\">back</button>` : ''}
+                        <button id=\"skip-btn\" class=\"nav-btn\">skip</button>
+                    </div>
                 </div>
                 <div class=\"progress-bar-container\"><div class=\"progress-fill\" style=\"width: ${progress}%\"></div></div>
             `;
@@ -750,11 +868,19 @@
             const contentArea = document.createElement('div');
             container.appendChild(contentArea);
             
+            document.getElementById('skip-btn').onclick = () => runExercise(data, idx + 1, level, section, stageId);
+            
+            const backBtn = document.getElementById('back-btn');
+            if (backBtn) {
+                backBtn.onclick = () => runExercise(data, idx - 1, level, section, stageId);
+            }
+
             updateTranslationButton(ex.id, state.siteLanguage, document.getElementById('translate-btn'));
 
             const renderer = renderers[ex.type];
             renderer(ex, contentArea, (input) => {
-                const correct = checkAnswer(input, ex.answer);
+                const solution = ex.type === 'matching' ? input : ex.answer; 
+                const correct = checkAnswer(input, solution);
                 showFeedback(correct, () => {
                     if (correct) runExercise(data, idx + 1, level, section, stageId);
                 });
