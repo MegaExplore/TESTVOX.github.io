@@ -529,17 +529,17 @@
                 if (!SpeechRecognition) return reject('Not supported');
                 const rec = new SpeechRecognition();
                 rec.lang = lang;
-                rec.continuous = false;
-                rec.interimResults = true; // Enable to check for partial matches
+                rec.continuous = true; // CHANGED: Keep listening to catch longer/delayed speech
+                rec.interimResults = true;
                 rec.maxAlternatives = 1;
 
                 console.log(`Starting speech recognition for lang: ${lang}`);
 
-                // Prevent GC
                 window._speechRec = rec;
 
                 let resolved = false;
                 let soundDetected = false;
+                let safetyTimer = null;
 
                 rec.onsoundstart = () => {
                     soundDetected = true;
@@ -547,17 +547,16 @@
                 };
 
                 rec.onresult = (e) => {
-                    // Log everything
                     console.log('Speech result event:', e);
                     const results = e.results;
 
-                    // Look for any final result
                     for (let i = e.resultIndex; i < results.length; ++i) {
                         if (results[i].isFinal) {
                             console.log('Final result:', results[i][0].transcript);
                             resolved = true;
                             resolve(results[i][0].transcript);
-                            rec.stop(); // Ensure it stops after one match
+                            rec.stop();
+                            if (safetyTimer) clearTimeout(safetyTimer);
                             return;
                         } else {
                             console.log('Interim result:', results[i][0].transcript);
@@ -579,15 +578,21 @@
 
                 rec.onend = () => {
                     console.log('Speech ended');
+                    if (safetyTimer) clearTimeout(safetyTimer);
                     if (!resolved) {
                         if (soundDetected) reject('No sensitivity/match: Sound detected but no text recognized.');
-                        else reject('No sound detected'); // Silence
+                        else reject('No sound detected');
                     }
                 };
 
                 try {
                     rec.start();
                     console.log('Speech processing started');
+                    // Safety timeout to prevent infinite recording in continuous mode
+                    safetyTimer = setTimeout(() => {
+                        console.log('Safety timeout triggered');
+                        rec.stop();
+                    }, 5000);
                 } catch (e) {
                     reject(e);
                 }
