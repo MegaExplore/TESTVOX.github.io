@@ -797,7 +797,20 @@
                     try {
                         const res = await startListening(ex.voiceLang || 'en-US');
                         onAnswer(res);
-                    } catch (e) { btn.textContent = '🎤 Try Again'; }
+                    } catch (e) {
+                        console.error('Mic Error:', e);
+                        const errMap = {
+                            'no-speech': 'No speech detected',
+                            'not-allowed': 'Mic access denied',
+                            'audio-capture': 'No mic found',
+                            'network': 'Network error',
+                            'not-supported': 'Not supported',
+                            'service-not-allowed': 'Service not allowed'
+                        };
+                        // Use mapped error, or the error string itself if custom, or generic fallback
+                        const msg = errMap[e] || (typeof e === 'string' ? e : 'Try Again');
+                        btn.textContent = `🎤 ${msg}`;
+                    }
                 };
                 container.appendChild(btn);
             }
