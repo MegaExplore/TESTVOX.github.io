@@ -536,6 +536,12 @@
                 window._speechRec = rec;
 
                 let resolved = false;
+                let soundDetected = false;
+
+                rec.onsoundstart = () => {
+                    soundDetected = true;
+                    console.log('Sound detected');
+                };
 
                 rec.onresult = (e) => {
                     console.log('Speech result:', e.results);
@@ -559,7 +565,10 @@
 
                 rec.onend = () => {
                     console.log('Speech ended');
-                    if (!resolved) reject('No speech detected');
+                    if (!resolved) {
+                        if (soundDetected) reject('No sensitivity/match'); // Sound was heard but no result
+                        else reject('No sound detected'); // Silence
+                    }
                 };
 
                 try {
