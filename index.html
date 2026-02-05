@@ -821,9 +821,10 @@
                 btn.style.background = 'var(--vox-dark)'; btn.style.color = 'white';
                 btn.innerHTML = '🎤 Tap to Record';
                 btn.onclick = async () => {
-                    btn.textContent = 'Recording...';
+                    const lang = ex.voiceLang || 'en-US';
+                    btn.textContent = `Recording (${lang})...`;
                     try {
-                        const res = await startListening(ex.voiceLang || 'en-US');
+                        const res = await startListening(lang);
                         onAnswer(res);
                     } catch (e) {
                         console.error('Mic Error:', e);
