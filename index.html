@@ -530,7 +530,10 @@
                 const rec = new SpeechRecognition();
                 rec.lang = lang;
                 rec.continuous = false;
-                rec.interimResults = false;
+                rec.interimResults = true; // Enable to check for partial matches
+                rec.maxAlternatives = 1;
+
+                console.log(`Starting speech recognition for lang: ${lang}`);
 
                 // Prevent GC
                 window._speechRec = rec;
@@ -544,10 +547,21 @@
                 };
 
                 rec.onresult = (e) => {
-                    console.log('Speech result:', e.results);
-                    if (e.results.length > 0) {
-                        resolved = true;
-                        resolve(e.results[0][0].transcript);
+                    // Log everything
+                    console.log('Speech result event:', e);
+                    const results = e.results;
+
+                    // Look for any final result
+                    for (let i = e.resultIndex; i < results.length; ++i) {
+                        if (results[i].isFinal) {
+                            console.log('Final result:', results[i][0].transcript);
+                            resolved = true;
+                            resolve(results[i][0].transcript);
+                            rec.stop(); // Ensure it stops after one match
+                            return;
+                        } else {
+                            console.log('Interim result:', results[i][0].transcript);
+                        }
                     }
                 };
 
@@ -566,7 +580,7 @@
                 rec.onend = () => {
                     console.log('Speech ended');
                     if (!resolved) {
-                        if (soundDetected) reject('No sensitivity/match'); // Sound was heard but no result
+                        if (soundDetected) reject('No sensitivity/match: Sound detected but no text recognized.');
                         else reject('No sound detected'); // Silence
                     }
                 };
