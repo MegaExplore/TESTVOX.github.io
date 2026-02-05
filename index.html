@@ -465,8 +465,22 @@
                 if (!SpeechRecognition) return reject('Not supported');
                 const rec = new SpeechRecognition();
                 rec.lang = lang;
-                rec.onresult = (e) => resolve(e.results[0][0].transcript);
-                rec.onerror = (e) => reject(e.error);
+                let resolved = false;
+
+                rec.onresult = (e) => {
+                    resolved = true;
+                    resolve(e.results[0][0].transcript);
+                };
+
+                rec.onerror = (e) => {
+                    resolved = true;
+                    reject(e.error);
+                };
+
+                rec.onend = () => {
+                    if (!resolved) reject('No speech detected');
+                };
+
                 rec.start();
             });
         }
