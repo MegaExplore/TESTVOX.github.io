@@ -1,11 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>VOX | Professional Language Learning</title>
     <!-- Montserrat for the logo/branding and Inter for UI -->
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@800&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@800&family=Inter:wght@400;500;600;700&display=swap"
+        rel="stylesheet">
     <style>
         :root {
             --primary: #29D1F1;
@@ -27,7 +30,9 @@
             --font-brand: 'Montserrat', sans-serif;
         }
 
-        * { box-sizing: border-box; }
+        * {
+            box-sizing: border-box;
+        }
 
         body {
             margin: 0;
@@ -68,8 +73,10 @@
             cursor: pointer;
             transition: transform 0.2s;
         }
-        
-        .logo-container:hover { transform: scale(1.02); }
+
+        .logo-container:hover {
+            transform: scale(1.02);
+        }
 
         .logo-svg {
             height: 100%;
@@ -96,7 +103,9 @@
             transition: border-color 0.2s;
         }
 
-        .header-select:hover { border-color: var(--primary); }
+        .header-select:hover {
+            border-color: var(--primary);
+        }
 
         .select-group {
             display: flex;
@@ -115,7 +124,8 @@
         /* App Container - Expanded for wider screens */
         #app-container {
             width: 95%;
-            max-width: 1100px; /* Increased from 800px */
+            max-width: 1100px;
+            /* Increased from 800px */
             margin: 40px auto;
             padding: 40px;
             background: var(--card-bg);
@@ -126,19 +136,24 @@
             transition: max-width 0.3s ease;
         }
 
-        h2 { 
+        h2 {
             font-family: var(--font-brand);
-            font-size: 1.875rem; 
-            font-weight: 800; 
-            margin-top: 0; 
+            font-size: 1.875rem;
+            font-weight: 800;
+            margin-top: 0;
             color: var(--vox-dark);
         }
-        
-        h3 { font-size: 1.25rem; font-weight: 600; margin-bottom: 24px; }
+
+        h3 {
+            font-size: 1.25rem;
+            font-weight: 600;
+            margin-bottom: 24px;
+        }
 
         .stage-grid {
             display: grid;
-            grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); /* Wider columns for wider layout */
+            grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+            /* Wider columns for wider layout */
             gap: 24px;
             margin-top: 24px;
         }
@@ -215,7 +230,10 @@
 
         .feedback-overlay {
             position: fixed;
-            top: 0; left: 0; right: 0; bottom: 0;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
             background: rgba(13, 17, 23, 0.4);
             backdrop-filter: blur(4px);
             display: none;
@@ -224,7 +242,9 @@
             z-index: 2000;
         }
 
-        .feedback-overlay.active { display: flex; }
+        .feedback-overlay.active {
+            display: flex;
+        }
 
         .feedback-card {
             background: white;
@@ -236,8 +256,15 @@
         }
 
         @keyframes popIn {
-            from { transform: scale(0.8); opacity: 0; }
-            to { transform: scale(1); opacity: 1; }
+            from {
+                transform: scale(0.8);
+                opacity: 0;
+            }
+
+            to {
+                transform: scale(1);
+                opacity: 1;
+            }
         }
 
         .translation-modal {
@@ -250,12 +277,14 @@
             background: white;
             padding: 32px;
             border-radius: 24px 24px 0 0;
-            box-shadow: 0 -10px 40px rgba(0,0,0,0.15);
+            box-shadow: 0 -10px 40px rgba(0, 0, 0, 0.15);
             transition: bottom 0.4s cubic-bezier(0.4, 0, 0.2, 1);
             z-index: 3000;
         }
 
-        .translation-modal.open { bottom: 0; }
+        .translation-modal.open {
+            bottom: 0;
+        }
 
         .translate-btn {
             position: fixed;
@@ -281,6 +310,7 @@
             margin: 12px 0 24px 0;
             overflow: hidden;
         }
+
         .progress-fill {
             height: 100%;
             background: var(--primary);
@@ -292,10 +322,16 @@
             border: 3px solid #e2e8f0;
             border-top: 3px solid var(--primary);
             border-radius: 50%;
-            width: 32px; height: 32px;
+            width: 32px;
+            height: 32px;
             animation: spin 0.8s linear infinite;
         }
-        @keyframes spin { to { transform: rotate(360deg); } }
+
+        @keyframes spin {
+            to {
+                transform: rotate(360deg);
+            }
+        }
 
         .ordered-word {
             background: var(--primary);
@@ -307,6 +343,7 @@
             transition: transform 0.1s;
             user-select: none;
         }
+
         .ordered-word:hover {
             transform: scale(1.05);
             background: var(--primary-hover);
@@ -327,30 +364,55 @@
             box-shadow: var(--shadow-md);
             margin-left: 12px;
         }
+
         .audio-btn:hover {
             transform: scale(1.1);
             background: var(--primary);
         }
-        .audio-btn svg { width: 24px; height: 24px; fill: currentColor; }
+
+        .audio-btn svg {
+            width: 24px;
+            height: 24px;
+            fill: currentColor;
+        }
 
         @media (max-width: 768px) {
-            .header-content { flex-direction: column; align-items: center; padding: 12px; }
-            .nav-controls { width: 100%; justify-content: center; flex-wrap: wrap; }
-            #app-container { margin: 20px 10px; padding: 24px; }
-            .stage-grid { grid-template-columns: repeat(auto-fill, minmax(160px, 1fr)); }
+            .header-content {
+                flex-direction: column;
+                align-items: center;
+                padding: 12px;
+            }
+
+            .nav-controls {
+                width: 100%;
+                justify-content: center;
+                flex-wrap: wrap;
+            }
+
+            #app-container {
+                margin: 20px 10px;
+                padding: 24px;
+            }
+
+            .stage-grid {
+                grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+            }
         }
     </style>
 </head>
+
 <body>
     <header class="main-header">
         <div class="header-content">
             <div class="logo-container" onclick="window.location.reload()">
                 <svg class="logo-svg" viewBox="0 0 750 150" xmlns="http://www.w3.org/2000/svg">
-                    <text x="20" y="100" fill="#0D1117" style="font-family: 'Montserrat', sans-serif; font-weight: 800; font-size: 80px;">Vox</text>
-                    <text x="210" y="100" fill="#29D1F1" style="font-family: 'Montserrat', sans-serif; font-weight: 800; font-size: 80px;">MegaLiberta</text>
+                    <text x="20" y="100" fill="#0D1117"
+                        style="font-family: 'Montserrat', sans-serif; font-weight: 800; font-size: 80px;">Vox</text>
+                    <text x="210" y="100" fill="#29D1F1"
+                        style="font-family: 'Montserrat', sans-serif; font-weight: 800; font-size: 80px;">MegaLiberta</text>
                 </svg>
             </div>
-            
+
             <div class="nav-controls">
                 <div class="select-group">
                     <label class="select-label">Site</label>
@@ -405,15 +467,17 @@
 
     <div id="translation-modal" class="translation-modal">
         <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:20px;">
-            <h3 style="margin:0; font-size: 1.1rem; color: var(--secondary); text-transform: uppercase;">Linguistic Insight</h3>
-            <button onclick="document.getElementById('translation-modal').classList.remove('open')" style="background:none; border:none; font-size:1.5rem; cursor:pointer; color: var(--secondary)">✕</button>
+            <h3 style="margin:0; font-size: 1.1rem; color: var(--secondary); text-transform: uppercase;">Linguistic
+                Insight</h3>
+            <button onclick="document.getElementById('translation-modal').classList.remove('open')"
+                style="background:none; border:none; font-size:1.5rem; cursor:pointer; color: var(--secondary)">✕</button>
         </div>
         <div id="translation-content"></div>
     </div>
 
     <script type="module">
         const GITHUB_BASE = 'https://raw.githubusercontent.com/MegaExplore/vox.github.io/main/schemas/';
-        
+
         async function fetchData(path) {
             const url = path.startsWith('http') ? path : `${GITHUB_BASE}${path}`;
             const response = await fetch(url);
@@ -465,23 +529,45 @@
                 if (!SpeechRecognition) return reject('Not supported');
                 const rec = new SpeechRecognition();
                 rec.lang = lang;
+                rec.continuous = false;
+                rec.interimResults = false;
+
+                // Prevent GC
+                window._speechRec = rec;
+
                 let resolved = false;
 
                 rec.onresult = (e) => {
-                    resolved = true;
-                    resolve(e.results[0][0].transcript);
+                    console.log('Speech result:', e.results);
+                    if (e.results.length > 0) {
+                        resolved = true;
+                        resolve(e.results[0][0].transcript);
+                    }
                 };
 
                 rec.onerror = (e) => {
+                    console.error('Speech error:', e.error);
                     resolved = true;
                     reject(e.error);
                 };
 
+                rec.onnomatch = () => {
+                    console.log('Speech no match');
+                    resolved = true;
+                    reject('No match');
+                };
+
                 rec.onend = () => {
+                    console.log('Speech ended');
                     if (!resolved) reject('No speech detected');
                 };
 
-                rec.start();
+                try {
+                    rec.start();
+                    console.log('Speech processing started');
+                } catch (e) {
+                    reject(e);
+                }
             });
         }
 
@@ -506,10 +592,10 @@
 
                 const grid = document.createElement('div');
                 grid.style.cssText = 'display: grid; grid-template-columns: 1fr 1fr; gap: 10px;';
-                
+
                 let selectedLeft = null;
                 let leftBtn = null;
-                const pairs = ex.pairs; 
+                const pairs = ex.pairs;
                 const leftSide = pairs.map(p => p.left).sort(() => Math.random() - 0.5);
                 const rightSide = pairs.map(p => p.right).sort(() => Math.random() - 0.5);
                 let matchedCount = 0;
@@ -517,7 +603,7 @@
                 const checkMatch = (rightVal, rightBtn) => {
                     const pair = pairs.find(p => p.left === selectedLeft);
                     const isMatch = rightVal === pair.right;
-                    
+
                     if (isMatch) {
                         rightBtn.style.background = 'var(--success)';
                         rightBtn.style.color = 'white';
@@ -563,7 +649,7 @@
                     const b = document.createElement('button');
                     b.className = 'option-btn';
                     b.textContent = text;
-                    b.onclick = () => { if(selectedLeft) checkMatch(text, b); };
+                    b.onclick = () => { if (selectedLeft) checkMatch(text, b); };
                     grid.appendChild(b);
                 });
                 container.appendChild(grid);
@@ -572,17 +658,17 @@
             sentence_ordering: (ex, container, onAnswer) => {
                 const headerBox = document.createElement('div');
                 headerBox.style.cssText = 'display: flex; align-items: center; justify-content: space-between; margin-bottom: 24px;';
-                
+
                 const q = document.createElement('h3');
                 q.textContent = "Arrange in order:";
                 q.style.margin = '0';
-                
+
                 const audioBtn = document.createElement('button');
                 audioBtn.className = 'audio-btn';
                 audioBtn.title = "Listen to sentence";
                 audioBtn.innerHTML = `<svg viewBox="0 0 24 24"><path d="M3 9v6h4l5 5V4L7 9H3zm13.5 3c0-1.77-1.02-3.29-2.5-4.03v8.05c1.48-.73 2.5-2.25 2.5-4.02zM14 3.23v2.06c2.89.86 5 3.54 5 6.71s-2.11 5.85-5 6.71v2.06c4.01-.91 7-4.49 7-8.77s-2.99-7.86-7-8.77z"/></svg>`;
                 audioBtn.onclick = () => speakText(ex.answer, ex.voiceLang || 'en-US');
-                
+
                 headerBox.appendChild(q);
                 headerBox.appendChild(audioBtn);
                 container.appendChild(headerBox);
@@ -594,7 +680,7 @@
                 const wordPool = document.createElement('div');
                 wordPool.style.cssText = 'display: flex; gap: 8px; flex-wrap: wrap;';
                 container.appendChild(wordPool);
-                
+
                 let currentSentence = [];
                 const shuffledWords = [...ex.words].sort(() => Math.random() - 0.5);
 
@@ -634,7 +720,7 @@
                 const card = document.createElement('div');
                 card.style.cssText = 'height: 200px; background: var(--vox-dark); color: white; border-radius: 20px; display: flex; align-items: center; justify-content: center; font-size: 2rem; cursor: pointer; transition: transform 0.6s; transform-style: preserve-3d;';
                 card.textContent = ex.front;
-                
+
                 let flipped = false;
                 card.onclick = () => {
                     flipped = !flipped;
@@ -670,7 +756,7 @@
                 };
                 container.appendChild(btn);
             },
-            
+
             tap_fill: (ex, container, onAnswer) => {
                 const q = document.createElement('h3');
                 q.textContent = "Complete the sequence:";
@@ -711,7 +797,7 @@
                     try {
                         const res = await startListening(ex.voiceLang || 'en-US');
                         onAnswer(res);
-                    } catch(e) { btn.textContent = '🎤 Try Again'; }
+                    } catch (e) { btn.textContent = '🎤 Try Again'; }
                 };
                 container.appendChild(btn);
             }
@@ -732,10 +818,10 @@
 
         function generateStageMenu(manifest, userState, container, onSelect) {
             container.innerHTML = '';
-            const langData = manifest.languages['all']; 
+            const langData = manifest.languages['all'];
             const selectedLevel = userState.level;
             const levelData = langData.levels[selectedLevel];
-            
+
             if (!levelData || !levelData.sections || levelData.sections.length === 0) {
                 container.innerHTML += `
                     <div style="text-align:center; padding: 60px 0; color: var(--secondary);">
@@ -786,7 +872,7 @@
                     const entry = data[exId];
                     const val = entry ? (entry[lang] || entry['en'] || entry) : "No context available.";
                     con.innerHTML = `<p style="font-size: 1.25rem; line-height: 1.6; font-weight: 500; color: var(--text-main);">"${val}"</p>`;
-                } catch(e) { con.textContent = "Analysis unavailable."; }
+                } catch (e) { con.textContent = "Analysis unavailable."; }
             };
         }
 
@@ -804,10 +890,10 @@
 
             siteSelect.onchange = (e) => { state.siteLanguage = e.target.value; saveProgress(state); };
             targetSelect.onchange = (e) => { state.targetLanguage = e.target.value; saveProgress(state); };
-            levelSelect.onchange = (e) => { 
-                state.level = e.target.value; 
-                saveProgress(state); 
-                showMenu(); 
+            levelSelect.onchange = (e) => {
+                state.level = e.target.value;
+                saveProgress(state);
+                showMenu();
             };
         }
 
@@ -816,7 +902,7 @@
             try {
                 currentManifest = await fetchData('manifest.json');
                 showMenu();
-            } catch(e) { 
+            } catch (e) {
                 document.getElementById('game-container').innerHTML = `<h3>Connection Error</h3><p>Ensure repository is public and schemas are correct.</p>`;
             }
         }
@@ -832,7 +918,7 @@
             try {
                 const stageData = await fetchData(cid);
                 runExercise(stageData, 0, level, section, stageId);
-            } catch(e) { gameArea.textContent = "Stage load error."; }
+            } catch (e) { gameArea.textContent = "Stage load error."; }
         }
 
         function runExercise(data, idx, level, section, stageId) {
@@ -852,7 +938,7 @@
             const ex = data.exercises[idx];
             const container = document.getElementById('game-container');
             const progress = (idx / data.exercises.length) * 100;
-            
+
             container.innerHTML = `
                 <div style=\"display:flex; justify-content:space-between; align-items:center; margin-bottom: 8px;\">
                     <span style=\"font-size: 0.75rem; font-weight: 700; color: var(--secondary); text-transform: uppercase;\">
@@ -865,12 +951,12 @@
                 </div>
                 <div class=\"progress-bar-container\"><div class=\"progress-fill\" style=\"width: ${progress}%\"></div></div>
             `;
-            
+
             const contentArea = document.createElement('div');
             container.appendChild(contentArea);
-            
+
             document.getElementById('skip-btn').onclick = () => runExercise(data, idx + 1, level, section, stageId);
-            
+
             const backBtn = document.getElementById('back-btn');
             if (backBtn) {
                 backBtn.onclick = () => runExercise(data, idx - 1, level, section, stageId);
@@ -880,7 +966,7 @@
 
             const renderer = renderers[ex.type];
             renderer(ex, contentArea, (input) => {
-                const solution = ex.type === 'matching' ? input : ex.answer; 
+                const solution = ex.type === 'matching' ? input : ex.answer;
                 const correct = checkAnswer(input, solution);
                 showFeedback(correct, () => {
                     if (correct) runExercise(data, idx + 1, level, section, stageId);
@@ -903,4 +989,5 @@
         window.onload = start;
     </script>
 </body>
+
 </html>
