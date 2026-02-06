@@ -592,7 +592,7 @@
                     safetyTimer = setTimeout(() => {
                         console.log('Safety timeout triggered');
                         rec.stop();
-                    }, 5000);
+                    }, 10000);
                 } catch (e) {
                     reject(e);
                 }
@@ -837,7 +837,7 @@
                             'service-not-allowed': 'Service not allowed'
                         };
                         // Use mapped error, or the error string itself if custom, or generic fallback
-                        const msg = errMap[e] || (typeof e === 'string' ? e : 'Try Again');
+                        const msg = errMap[e] || (typeof e === 'string' ? e : `Error: ${e.error || 'Unknown'}`);
                         btn.textContent = `🎤 ${msg}`;
                     }
                 };
