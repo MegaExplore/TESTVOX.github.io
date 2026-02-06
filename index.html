@@ -479,7 +479,12 @@
         const GITHUB_BASE = 'https://raw.githubusercontent.com/MegaExplore/vox.github.io/main/schemas/';
 
         async function fetchData(path) {
-            const url = path.startsWith('http') ? path : `${GITHUB_BASE}${path}`;
+            let url;
+            if (path.startsWith('./') || path.startsWith('/')) {
+                url = path;
+            } else {
+                url = path.startsWith('http') ? path : `${GITHUB_BASE}${path}`;
+            }
             const response = await fetch(url);
             if (!response.ok) throw new Error(`Fetch failed`);
             return await response.json();
@@ -903,19 +908,29 @@
             });
         }
 
+        let translationCache = null;
+
         async function updateTranslationButton(exId, lang, btn) {
             btn.style.display = 'block';
             btn.onclick = async () => {
                 const mod = document.getElementById('translation-modal');
                 const con = document.getElementById('translation-content');
                 mod.classList.add('open');
-                con.innerHTML = '<div class="spinner" style="margin: 20px auto;"></div>';
-                try {
-                    const data = await fetchData('secondary.json');
-                    const entry = data[exId];
-                    const val = entry ? (entry[lang] || entry['en'] || entry) : "No context available.";
-                    con.innerHTML = `<p style="font-size: 1.25rem; line-height: 1.6; font-weight: 500; color: var(--text-main);">"${val}"</p>`;
-                } catch (e) { con.textContent = "Analysis unavailable."; }
+
+                if (!translationCache) {
+                    con.innerHTML = '<div class="spinner" style="margin: 20px auto;"></div>';
+                    try {
+                        // Use local path relative to index.html
+                        translationCache = await fetchData('./schemas/secondary.json');
+                    } catch (e) {
+                        con.textContent = "Analysis unavailable.";
+                        return;
+                    }
+                }
+
+                const entry = translationCache[exId];
+                const val = entry ? (entry[lang] || entry['en'] || entry) : "No context available.";
+                con.innerHTML = `<p style="font-size: 1.25rem; line-height: 1.6; font-weight: 500; color: var(--text-main);">"${val}"</p>`;
             };
         }
 
