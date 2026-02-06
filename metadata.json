@@ -1,7 +1,0 @@
-{
-  "name": "VOX | Professional Language Learning",
-  "description": "A professional language learning application featuring multiple exercise types, voice recognition, and progress tracking.",
-  "requestFramePermissions": [
-    "microphone"
-  ]
-}

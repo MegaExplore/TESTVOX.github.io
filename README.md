@@ -1,20 +1,24 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+# How to Run
 
-# Run and deploy your AI Studio app
+To run the application locally, you must serve the files using a local web server. Opening `index.html` directly in the browser may cause issues with module loading and filefetching.
 
-This contains everything you need to run your app locally.
+## Browser Notes
 
-View your app in AI Studio: https://ai.studio/apps/temp/4
+- Chrome / Edge recommended for full Web Speech API support
+- Microphone access requires HTTPS or localhost
+- Safari voice support may be limited
 
-## Run Locally
+## Session Persistence
+The app automatically resumes the last session using localStorage.
+Stored state includes:
+- targetLanguage
+- translationLanguage
+- current level / section / stage
+- exercise index
+- unlocked languages
 
-**Prerequisites:**  Node.js
-
-
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+## Authoring Exercises
+- Exercises are delivered in pre-randomized order from JSON
+- Use "___" in Tap-Fill questions to define blanks
+- Voice exercises may optionally define `voiceLang`
+- Translation is optional and lazy-loaded

@@ -1,78 +1,1035 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>VOX | Professional Language Learning</title>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@800&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
-    <script src="https://cdn.tailwindcss.com"></script>
-    <script>
-        tailwind.config = {
-            theme: {
-                extend: {
-                    colors: {
-                        primary: '#29D1F1',
-                        'primary-hover': '#1bbcd9',
-                        'vox-dark': '#0D1117',
-                        success: '#10b981',
-                        error: '#ef4444',
-                        bg: '#f8fafc',
-                    },
-                    fontFamily: {
-                        sans: ['Inter', 'sans-serif'],
-                        brand: ['Montserrat', 'sans-serif'],
-                    },
-                    boxShadow: {
-                        'card': '0 10px 15px -3px rgb(0 0 0 / 0.1)',
-                    }
-                }
-            }
-        }
-    </script>
+    <!-- Montserrat for the logo/branding and Inter for UI -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@800&family=Inter:wght@400;500;600;700&display=swap"
+        rel="stylesheet">
     <style>
+        :root {
+            --primary: #29D1F1;
+            --primary-hover: #1bbcd9;
+            --vox-dark: #0D1117;
+            --secondary: #64748b;
+            --success: #10b981;
+            --error: #ef4444;
+            --bg-color: #f8fafc;
+            --card-bg: #ffffff;
+            --text-main: #0f172a;
+            --text-muted: #64748b;
+            --border: #e2e8f0;
+            --shadow-sm: 0 1px 2px 0 rgb(0 0 0 / 0.05);
+            --shadow-md: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+            --shadow-lg: 0 10px 15px -3px rgb(0 0 0 / 0.1);
+            --radius: 12px;
+            --font-main: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+            --font-brand: 'Montserrat', sans-serif;
+        }
+
+        * {
+            box-sizing: border-box;
+        }
+
         body {
-            background-color: #f8fafc;
+            margin: 0;
+            font-family: var(--font-main);
+            background-color: var(--bg-color);
+            color: var(--text-main);
+            line-height: 1.5;
             -webkit-font-smoothing: antialiased;
         }
-        /* Custom spinner animation since Tailwind doesn't have one by default in this config */
-        @keyframes spin {
-            to { transform: rotate(360deg); }
+
+        /* Header */
+        .main-header {
+            position: sticky;
+            top: 0;
+            width: 100%;
+            background: rgba(255, 255, 255, 0.9);
+            backdrop-filter: blur(12px);
+            border-bottom: 1px solid var(--border);
+            z-index: 1000;
+            padding: 8px 0;
         }
+
+        .header-content {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 24px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+
+        .logo-container {
+            height: 48px;
+            display: flex;
+            align-items: center;
+            cursor: pointer;
+            transition: transform 0.2s;
+        }
+
+        .logo-container:hover {
+            transform: scale(1.02);
+        }
+
+        .logo-svg {
+            height: 100%;
+            width: auto;
+            max-width: 320px;
+        }
+
+        .nav-controls {
+            display: flex;
+            gap: 12px;
+            align-items: center;
+        }
+
+        .header-select {
+            padding: 8px 12px;
+            border-radius: 8px;
+            border: 1px solid var(--border);
+            background: white;
+            font-size: 0.875rem;
+            font-weight: 500;
+            color: var(--text-main);
+            cursor: pointer;
+            outline: none;
+            transition: border-color 0.2s;
+        }
+
+        .header-select:hover {
+            border-color: var(--primary);
+        }
+
+        .select-group {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .select-label {
+            font-size: 0.65rem;
+            text-transform: uppercase;
+            font-weight: 700;
+            color: var(--secondary);
+            margin-bottom: 2px;
+            margin-left: 2px;
+        }
+
+        /* App Container - Expanded for wider screens */
+        #app-container {
+            width: 95%;
+            max-width: 1100px;
+            /* Increased from 800px */
+            margin: 40px auto;
+            padding: 40px;
+            background: var(--card-bg);
+            border-radius: 24px;
+            box-shadow: var(--shadow-lg);
+            border: 1px solid var(--border);
+            min-height: 500px;
+            transition: max-width 0.3s ease;
+        }
+
+        h2 {
+            font-family: var(--font-brand);
+            font-size: 1.875rem;
+            font-weight: 800;
+            margin-top: 0;
+            color: var(--vox-dark);
+        }
+
+        h3 {
+            font-size: 1.25rem;
+            font-weight: 600;
+            margin-bottom: 24px;
+        }
+
+        .stage-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+            /* Wider columns for wider layout */
+            gap: 24px;
+            margin-top: 24px;
+        }
+
+        .stage-card {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 32px 24px;
+            background: var(--card-bg);
+            border: 2px solid var(--border);
+            border-radius: var(--radius);
+            cursor: pointer;
+            transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+            text-align: center;
+        }
+
+        .stage-card:hover:not(.locked) {
+            border-color: var(--primary);
+            transform: translateY(-4px);
+            box-shadow: var(--shadow-md);
+        }
+
+        .stage-card.locked {
+            opacity: 0.5;
+            background: #f8fafc;
+            cursor: not-allowed;
+            filter: grayscale(1);
+        }
+
+        .option-btn {
+            display: block;
+            width: 100%;
+            padding: 16px 20px;
+            margin: 12px 0;
+            border: 1px solid var(--border);
+            border-radius: var(--radius);
+            background: white;
+            font-size: 1rem;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.15s ease;
+            text-align: left;
+            color: var(--text-main);
+        }
+
+        .option-btn:hover {
+            border-color: var(--primary);
+            background: #f0fdfa;
+            color: var(--primary-hover);
+        }
+
+        .nav-btn {
+            background: #f1f5f9;
+            color: var(--secondary);
+            border: 1px solid var(--border);
+            padding: 4px 12px;
+            border-radius: 6px;
+            font-size: 0.75rem;
+            font-weight: 700;
+            text-transform: uppercase;
+            cursor: pointer;
+            transition: all 0.2s;
+            display: inline-block;
+            width: auto;
+            margin: 0;
+        }
+
+        .nav-btn:hover {
+            background: #e2e8f0;
+            color: var(--text-main);
+            border-color: var(--secondary);
+        }
+
+        .feedback-overlay {
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: rgba(13, 17, 23, 0.4);
+            backdrop-filter: blur(4px);
+            display: none;
+            justify-content: center;
+            align-items: center;
+            z-index: 2000;
+        }
+
+        .feedback-overlay.active {
+            display: flex;
+        }
+
+        .feedback-card {
+            background: white;
+            padding: 48px;
+            border-radius: 32px;
+            text-align: center;
+            box-shadow: var(--shadow-lg);
+            animation: popIn 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+        }
+
+        @keyframes popIn {
+            from {
+                transform: scale(0.8);
+                opacity: 0;
+            }
+
+            to {
+                transform: scale(1);
+                opacity: 1;
+            }
+        }
+
+        .translation-modal {
+            position: fixed;
+            bottom: -100%;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 95%;
+            max-width: 550px;
+            background: white;
+            padding: 32px;
+            border-radius: 24px 24px 0 0;
+            box-shadow: 0 -10px 40px rgba(0, 0, 0, 0.15);
+            transition: bottom 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+            z-index: 3000;
+        }
+
+        .translation-modal.open {
+            bottom: 0;
+        }
+
+        .translate-btn {
+            position: fixed;
+            bottom: 32px;
+            right: 32px;
+            padding: 14px 24px;
+            background: var(--vox-dark);
+            color: white;
+            border: none;
+            border-radius: 50px;
+            font-weight: 600;
+            cursor: pointer;
+            box-shadow: var(--shadow-lg);
+            z-index: 1500;
+            transition: transform 0.2s;
+        }
+
+        .progress-bar-container {
+            width: 100%;
+            height: 8px;
+            background: #e2e8f0;
+            border-radius: 4px;
+            margin: 12px 0 24px 0;
+            overflow: hidden;
+        }
+
+        .progress-fill {
+            height: 100%;
+            background: var(--primary);
+            width: 0%;
+            transition: width 0.4s ease;
+        }
+
         .spinner {
             border: 3px solid #e2e8f0;
-            border-top: 3px solid #29D1F1;
+            border-top: 3px solid var(--primary);
             border-radius: 50%;
             width: 32px;
             height: 32px;
             animation: spin 0.8s linear infinite;
         }
-        /* Flip card styles */
-        .perspective-1000 {
-            perspective: 1000px;
+
+        @keyframes spin {
+            to {
+                transform: rotate(360deg);
+            }
         }
-        .transform-style-3d {
-            transform-style: preserve-3d;
+
+        .ordered-word {
+            background: var(--primary);
+            color: white;
+            padding: 8px 16px;
+            border-radius: 8px;
+            font-weight: 600;
+            cursor: pointer;
+            transition: transform 0.1s;
+            user-select: none;
         }
-        .backface-hidden {
-            backface-visibility: hidden;
+
+        .ordered-word:hover {
+            transform: scale(1.05);
+            background: var(--primary-hover);
         }
-        .rotate-y-180 {
-            transform: rotateY(180deg);
+
+        .audio-btn {
+            background: var(--vox-dark);
+            color: white;
+            border: none;
+            border-radius: 50%;
+            width: 44px;
+            height: 44px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+            transition: transform 0.2s, background 0.2s;
+            box-shadow: var(--shadow-md);
+            margin-left: 12px;
+        }
+
+        .audio-btn:hover {
+            transform: scale(1.1);
+            background: var(--primary);
+        }
+
+        .audio-btn svg {
+            width: 24px;
+            height: 24px;
+            fill: currentColor;
+        }
+
+        @media (max-width: 768px) {
+            .header-content {
+                flex-direction: column;
+                align-items: center;
+                padding: 12px;
+            }
+
+            .nav-controls {
+                width: 100%;
+                justify-content: center;
+                flex-wrap: wrap;
+            }
+
+            #app-container {
+                margin: 20px 10px;
+                padding: 24px;
+            }
+
+            .stage-grid {
+                grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+            }
         }
     </style>
-<script type="importmap">
-{
-  "imports": {
-    "react": "https://esm.sh/react@^19.2.4",
-    "react-dom/": "https://esm.sh/react-dom@^19.2.4/",
-    "react/": "https://esm.sh/react@^19.2.4/"
-  }
-}
-</script>
-<link rel="stylesheet" href="/index.css">
 </head>
+
 <body>
-    <div id="root"></div>
-<script type="module" src="/index.tsx"></script>
+    <header class="main-header">
+        <div class="header-content">
+            <div class="logo-container" onclick="window.location.reload()">
+                <svg class="logo-svg" viewBox="0 0 750 150" xmlns="http://www.w3.org/2000/svg">
+                    <text x="20" y="100" fill="#0D1117"
+                        style="font-family: 'Montserrat', sans-serif; font-weight: 800; font-size: 80px;">Vox</text>
+                    <text x="210" y="100" fill="#29D1F1"
+                        style="font-family: 'Montserrat', sans-serif; font-weight: 800; font-size: 80px;">MegaLiberta</text>
+                </svg>
+            </div>
+
+            <div class="nav-controls">
+                <div class="select-group">
+                    <label class="select-label">Site</label>
+                    <select id="site-lang-select" class="header-select">
+                        <option value="en">English</option>
+                        <option value="es">Español</option>
+                        <option value="fr">Français</option>
+                    </select>
+                </div>
+
+                <div class="select-group">
+                    <label class="select-label">Learning</label>
+                    <select id="target-lang-select" class="header-select">
+                        <option value="all">All Modules</option>
+                        <option value="en">English</option>
+                        <option value="es">Spanish</option>
+                    </select>
+                </div>
+
+                <div class="select-group">
+                    <label class="select-label">Your Level</label>
+                    <select id="level-select" class="header-select">
+                        <option value="A1">A1</option>
+                        <option value="A2">A2</option>
+                        <option value="B1">B1</option>
+                        <option value="B2">B2</option>
+                        <option value="C1">C1</option>
+                        <option value="C2">C2</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <div id="app-container">
+        <div id="game-container">
+            <div style="text-align: center; padding: 100px 0;">
+                <div class="spinner" style="margin: 0 auto 24px;"></div>
+                <h2 style="color: var(--secondary)">Initializing VOX...</h2>
+            </div>
+        </div>
+    </div>
+
+    <button id="translate-btn" class="translate-btn" style="display:none;">🌐 Deep Analysis</button>
+
+    <div id="feedback-overlay" class="feedback-overlay">
+        <div class="feedback-card">
+            <span id="feedback-icon" style="font-size: 5rem; display: block; margin-bottom: 16px;"></span>
+            <h2 id="feedback-title" style="font-family: var(--font-brand);"></h2>
+        </div>
+    </div>
+
+    <div id="translation-modal" class="translation-modal">
+        <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:20px;">
+            <h3 style="margin:0; font-size: 1.1rem; color: var(--secondary); text-transform: uppercase;">Linguistic
+                Insight</h3>
+            <button onclick="document.getElementById('translation-modal').classList.remove('open')"
+                style="background:none; border:none; font-size:1.5rem; cursor:pointer; color: var(--secondary)">✕</button>
+        </div>
+        <div id="translation-content"></div>
+    </div>
+
+    <script type="module">
+        const GITHUB_BASE = 'https://raw.githubusercontent.com/MegaExplore/vox.github.io/main/schemas/';
+
+        async function fetchData(path) {
+            const url = path.startsWith('http') ? path : `${GITHUB_BASE}${path}`;
+            const response = await fetch(url);
+            if (!response.ok) throw new Error(`Fetch failed`);
+            return await response.json();
+        }
+
+        const STORAGE_KEY = 'vox_user_progress';
+        const defaultState = {
+            siteLanguage: 'en',
+            targetLanguage: 'all',
+            level: 'A1',
+            unlockedStages: {}
+        };
+
+        function initSession() {
+            try {
+                const stored = localStorage.getItem(STORAGE_KEY);
+                return stored ? { ...defaultState, ...JSON.parse(stored) } : { ...defaultState };
+            } catch (e) { return { ...defaultState }; }
+        }
+
+        function saveProgress(state) {
+            localStorage.setItem(STORAGE_KEY, JSON.stringify(state));
+        }
+
+        function unlockStage(state, lang, level, section, stage) {
+            if (!state.unlockedStages[lang]) state.unlockedStages[lang] = {};
+            if (!state.unlockedStages[lang][level]) state.unlockedStages[lang][level] = {};
+            if (!state.unlockedStages[lang][level][section]) state.unlockedStages[lang][level][section] = [];
+            if (!state.unlockedStages[lang][level][section].includes(stage)) {
+                state.unlockedStages[lang][level][section].push(stage);
+            }
+            saveProgress(state);
+        }
+
+        function speakText(text, lang = 'en-US') {
+            if (!window.speechSynthesis) return;
+            window.speechSynthesis.cancel();
+            const utterance = new SpeechSynthesisUtterance(text);
+            utterance.lang = lang;
+            utterance.rate = 0.9;
+            window.speechSynthesis.speak(utterance);
+        }
+
+        const SpeechRecognition = window.SpeechRecognition || window.webkitSpeechRecognition;
+        function startListening(lang = 'en-US') {
+            return new Promise((resolve, reject) => {
+                if (!SpeechRecognition) return reject('Not supported');
+                const rec = new SpeechRecognition();
+                rec.lang = lang;
+                rec.continuous = true; // CHANGED: Keep listening to catch longer/delayed speech
+                rec.interimResults = true;
+                rec.maxAlternatives = 1;
+
+                console.log(`Starting speech recognition for lang: ${lang}`);
+
+                window._speechRec = rec;
+
+                let resolved = false;
+                let soundDetected = false;
+                let safetyTimer = null;
+
+                rec.onsoundstart = () => {
+                    soundDetected = true;
+                    console.log('Sound detected');
+                };
+
+                rec.onresult = (e) => {
+                    console.log('Speech result event:', e);
+                    const results = e.results;
+
+                    for (let i = e.resultIndex; i < results.length; ++i) {
+                        if (results[i].isFinal) {
+                            console.log('Final result:', results[i][0].transcript);
+                            resolved = true;
+                            resolve(results[i][0].transcript);
+                            rec.stop();
+                            if (safetyTimer) clearTimeout(safetyTimer);
+                            return;
+                        } else {
+                            console.log('Interim result:', results[i][0].transcript);
+                        }
+                    }
+                };
+
+                rec.onerror = (e) => {
+                    console.error('Speech error:', e.error);
+                    resolved = true;
+                    reject(e.error);
+                };
+
+                rec.onnomatch = () => {
+                    console.log('Speech no match');
+                    resolved = true;
+                    reject('No match');
+                };
+
+                rec.onend = () => {
+                    console.log('Speech ended');
+                    if (safetyTimer) clearTimeout(safetyTimer);
+                    if (!resolved) {
+                        if (soundDetected) reject('No sensitivity/match: Sound detected but no text recognized.');
+                        else reject('No sound detected');
+                    }
+                };
+
+                try {
+                    rec.start();
+                    console.log('Speech processing started');
+                    // Safety timeout to prevent infinite recording in continuous mode
+                    safetyTimer = setTimeout(() => {
+                        console.log('Safety timeout triggered');
+                        rec.stop();
+                    }, 5000);
+                } catch (e) {
+                    reject(e);
+                }
+            });
+        }
+
+        const renderers = {
+            multiple_choice: (ex, container, onAnswer) => {
+                const q = document.createElement('h3');
+                q.textContent = ex.question;
+                container.appendChild(q);
+                ex.options.forEach(opt => {
+                    const btn = document.createElement('button');
+                    btn.className = 'option-btn';
+                    btn.textContent = opt;
+                    btn.onclick = () => onAnswer(opt);
+                    container.appendChild(btn);
+                });
+            },
+
+            matching: (ex, container, onAnswer) => {
+                const q = document.createElement('h3');
+                q.textContent = "Match the Pairs:";
+                container.appendChild(q);
+
+                const grid = document.createElement('div');
+                grid.style.cssText = 'display: grid; grid-template-columns: 1fr 1fr; gap: 10px;';
+
+                let selectedLeft = null;
+                let leftBtn = null;
+                const pairs = ex.pairs;
+                const leftSide = pairs.map(p => p.left).sort(() => Math.random() - 0.5);
+                const rightSide = pairs.map(p => p.right).sort(() => Math.random() - 0.5);
+                let matchedCount = 0;
+
+                const checkMatch = (rightVal, rightBtn) => {
+                    const pair = pairs.find(p => p.left === selectedLeft);
+                    const isMatch = rightVal === pair.right;
+
+                    if (isMatch) {
+                        rightBtn.style.background = 'var(--success)';
+                        rightBtn.style.color = 'white';
+                        leftBtn.style.background = 'var(--success)';
+                        leftBtn.style.color = 'white';
+                        rightBtn.disabled = true;
+                        leftBtn.disabled = true;
+                        matchedCount++;
+                        selectedLeft = null;
+                        leftBtn = null;
+                        if (matchedCount === pairs.length) {
+                            setTimeout(() => onAnswer(rightVal), 600);
+                        }
+                    } else {
+                        rightBtn.style.background = 'var(--error)';
+                        rightBtn.style.color = 'white';
+                        setTimeout(() => {
+                            showFeedback(false, () => {
+                                rightBtn.style.background = 'white';
+                                rightBtn.style.color = 'var(--text-main)';
+                                leftBtn.style.borderColor = 'var(--border)';
+                                selectedLeft = null;
+                                leftBtn = null;
+                            });
+                        }, 400);
+                    }
+                };
+
+                leftSide.forEach(text => {
+                    const b = document.createElement('button');
+                    b.className = 'option-btn left-btn';
+                    b.textContent = text;
+                    b.onclick = () => {
+                        selectedLeft = text;
+                        leftBtn = b;
+                        container.querySelectorAll('.left-btn').forEach(btn => btn.style.borderColor = 'var(--border)');
+                        b.style.borderColor = 'var(--primary)';
+                    };
+                    grid.appendChild(b);
+                });
+
+                rightSide.forEach(text => {
+                    const b = document.createElement('button');
+                    b.className = 'option-btn';
+                    b.textContent = text;
+                    b.onclick = () => { if (selectedLeft) checkMatch(text, b); };
+                    grid.appendChild(b);
+                });
+                container.appendChild(grid);
+            },
+
+            sentence_ordering: (ex, container, onAnswer) => {
+                const headerBox = document.createElement('div');
+                headerBox.style.cssText = 'display: flex; align-items: center; justify-content: space-between; margin-bottom: 24px;';
+
+                const q = document.createElement('h3');
+                q.textContent = "Arrange in order:";
+                q.style.margin = '0';
+
+                const audioBtn = document.createElement('button');
+                audioBtn.className = 'audio-btn';
+                audioBtn.title = "Listen to sentence";
+                audioBtn.innerHTML = `<svg viewBox="0 0 24 24"><path d="M3 9v6h4l5 5V4L7 9H3zm13.5 3c0-1.77-1.02-3.29-2.5-4.03v8.05c1.48-.73 2.5-2.25 2.5-4.02zM14 3.23v2.06c2.89.86 5 3.54 5 6.71s-2.11 5.85-5 6.71v2.06c4.01-.91 7-4.49 7-8.77s-2.99-7.86-7-8.77z"/></svg>`;
+                audioBtn.onclick = () => speakText(ex.answer, ex.voiceLang || 'en-US');
+
+                headerBox.appendChild(q);
+                headerBox.appendChild(audioBtn);
+                container.appendChild(headerBox);
+
+                const dropZone = document.createElement('div');
+                dropZone.style.cssText = 'min-height: 80px; border-bottom: 2px solid var(--primary); margin-bottom: 20px; display: flex; gap: 8px; flex-wrap: wrap; padding: 10px; align-items: center;';
+                container.appendChild(dropZone);
+
+                const wordPool = document.createElement('div');
+                wordPool.style.cssText = 'display: flex; gap: 8px; flex-wrap: wrap;';
+                container.appendChild(wordPool);
+
+                let currentSentence = [];
+                const shuffledWords = [...ex.words].sort(() => Math.random() - 0.5);
+
+                const updateSequence = () => {
+                    dropZone.innerHTML = '';
+                    currentSentence.forEach((word, index) => {
+                        const span = document.createElement('div');
+                        span.className = 'ordered-word';
+                        span.textContent = word;
+                        span.onclick = () => {
+                            const poolBtn = Array.from(wordPool.children).find(b => b.textContent === word && b.style.visibility === 'hidden');
+                            if (poolBtn) poolBtn.style.visibility = 'visible';
+                            currentSentence.splice(index, 1);
+                            updateSequence();
+                        };
+                        dropZone.appendChild(span);
+                    });
+                    if (currentSentence.length === ex.words.length) {
+                        setTimeout(() => onAnswer(currentSentence.join(' ')), 600);
+                    }
+                };
+
+                shuffledWords.forEach(word => {
+                    const b = document.createElement('button');
+                    b.className = 'option-btn'; b.style.width = 'auto';
+                    b.textContent = word;
+                    b.onclick = () => {
+                        currentSentence.push(word);
+                        b.style.visibility = 'hidden';
+                        updateSequence();
+                    };
+                    wordPool.appendChild(b);
+                });
+            },
+
+            flashcards: (ex, container, onAnswer) => {
+                const card = document.createElement('div');
+                card.style.cssText = 'height: 200px; background: var(--vox-dark); color: white; border-radius: 20px; display: flex; align-items: center; justify-content: center; font-size: 2rem; cursor: pointer; transition: transform 0.6s; transform-style: preserve-3d;';
+                card.textContent = ex.front;
+
+                let flipped = false;
+                card.onclick = () => {
+                    flipped = !flipped;
+                    card.style.transform = flipped ? 'rotateY(180deg)' : 'rotateY(0)';
+                    setTimeout(() => {
+                        card.textContent = flipped ? ex.back : ex.front;
+                        card.style.background = flipped ? 'var(--primary)' : 'var(--vox-dark)';
+                    }, 150);
+                };
+                container.appendChild(card);
+
+                const done = document.createElement('button');
+                done.className = 'option-btn'; done.style.marginTop = '30px';
+                done.textContent = "I've memorized this";
+                done.onclick = () => onAnswer(ex.answer || ex.back);
+                container.appendChild(done);
+            },
+
+            fill_blank_typing: (ex, container, onAnswer) => {
+                const q = document.createElement('h3');
+                q.textContent = "Type the missing word:";
+                container.appendChild(q);
+                const p = document.createElement('p');
+                p.style.fontSize = '1.25rem';
+                p.innerHTML = ex.question.replace('___', `<input type="text" id="typing-input" style="border:none; border-bottom: 2px solid var(--primary); outline: none; width: 120px; text-align: center; font-size: 1.25rem; font-family: inherit;">`);
+                container.appendChild(p);
+                const btn = document.createElement('button');
+                btn.className = 'option-btn'; btn.style.background = 'var(--vox-dark)'; btn.style.color = 'white';
+                btn.textContent = "Check Answer";
+                btn.onclick = () => {
+                    const val = document.getElementById('typing-input').value;
+                    onAnswer(val);
+                };
+                container.appendChild(btn);
+            },
+
+            tap_fill: (ex, container, onAnswer) => {
+                const q = document.createElement('h3');
+                q.textContent = "Complete the sequence:";
+                container.appendChild(q);
+                const p = document.createElement('p');
+                p.style.cssText = 'font-size: 1.5rem; margin: 32px 0; padding: 24px; background: #f8fafc; border-radius: 12px; text-align: center;';
+                p.innerHTML = ex.question.replace('___', `<span id=\"blank\" style=\"color: var(--primary); border-bottom: 3px solid; padding: 0 12px;\">...</span>`);
+                container.appendChild(p);
+                const pool = document.createElement('div');
+                pool.style.cssText = 'display: flex; gap: 12px; flex-wrap: wrap; justify-content: center;';
+                ex.options.forEach(opt => {
+                    const b = document.createElement('button');
+                    b.className = 'option-btn'; b.style.width = 'auto';
+                    b.textContent = opt;
+                    b.onclick = () => {
+                        document.getElementById('blank').textContent = opt;
+                        setTimeout(() => onAnswer(opt), 400);
+                    };
+                    pool.appendChild(b);
+                });
+                container.appendChild(pool);
+            },
+
+            pronunciation: (ex, container, onAnswer) => {
+                const q = document.createElement('h3');
+                q.textContent = "Voice Articulation:";
+                container.appendChild(q);
+                const p = document.createElement('p');
+                p.style.cssText = 'font-size: 2rem; font-weight: 800; text-align: center; margin: 40px 0; color: var(--primary);';
+                p.textContent = ex.question;
+                container.appendChild(p);
+                const btn = document.createElement('button');
+                btn.className = 'option-btn'; btn.style.textAlign = 'center';
+                btn.style.background = 'var(--vox-dark)'; btn.style.color = 'white';
+                btn.innerHTML = '🎤 Tap to Record';
+                btn.onclick = async () => {
+                    const lang = ex.voiceLang || 'en-US';
+                    btn.textContent = `Recording (${lang})...`;
+                    try {
+                        const res = await startListening(lang);
+                        onAnswer(res);
+                    } catch (e) {
+                        console.error('Mic Error:', e);
+                        const errMap = {
+                            'no-speech': 'No speech detected',
+                            'not-allowed': 'Mic access denied',
+                            'audio-capture': 'No mic found',
+                            'network': 'Network error',
+                            'not-supported': 'Not supported',
+                            'service-not-allowed': 'Service not allowed'
+                        };
+                        // Use mapped error, or the error string itself if custom, or generic fallback
+                        const msg = errMap[e] || (typeof e === 'string' ? e : 'Try Again');
+                        btn.textContent = `🎤 ${msg}`;
+                    }
+                };
+                container.appendChild(btn);
+            }
+        };
+
+        function isStageAccessible(lang, level, section, stage, state, manifestStage) {
+            if (manifestStage && manifestStage.isFree) return true;
+            if (stage === 1) return true;
+            const unlocked = state.unlockedStages[lang]?.[level]?.[section] || [];
+            return unlocked.includes(stage - 1);
+        }
+
+        function checkAnswer(input, solution) {
+            if (!solution) return true;
+            const norm = s => s.toString().toLowerCase().trim().replace(/[.,!?;]/g, '');
+            return norm(input) === norm(solution);
+        }
+
+        function generateStageMenu(manifest, userState, container, onSelect) {
+            container.innerHTML = '';
+            const langData = manifest.languages['all'];
+            const selectedLevel = userState.level;
+            const levelData = langData.levels[selectedLevel];
+
+            if (!levelData || !levelData.sections || levelData.sections.length === 0) {
+                container.innerHTML += `
+                    <div style="text-align:center; padding: 60px 0; color: var(--secondary);">
+                        <div style="font-size: 3rem; margin-bottom: 16px;">⏳</div>
+                        <p>Level ${selectedLevel} content is currently being prepared.</p>
+                    </div>
+                `;
+                return;
+            }
+
+            levelData.sections.forEach(sec => {
+                const secTitle = document.createElement('h3');
+                secTitle.style.margin = '32px 0 20px';
+                secTitle.style.color = 'var(--primary)';
+                secTitle.style.fontWeight = '800';
+                secTitle.style.fontSize = '1.75rem';
+                secTitle.textContent = sec.title;
+                container.appendChild(secTitle);
+
+                const grid = document.createElement('div');
+                grid.className = 'stage-grid';
+
+                sec.stages.forEach(stg => {
+                    const secKey = sec.title.replace(/\s+/g, '_');
+                    const ok = isStageAccessible('all', selectedLevel, secKey, stg.id, userState, stg);
+                    const btn = document.createElement('button');
+                    btn.className = `stage-card ${ok ? '' : 'locked'}`;
+                    btn.innerHTML = `
+                        <div style="font-size:2.5rem; margin-bottom: 12px;">${ok ? (stg.icon || '📖') : '🔒'}</div>
+                        <div style="font-weight:700;">${stg.name}</div>
+                    `;
+                    if (ok) btn.onclick = () => onSelect(stg.cid, selectedLevel, secKey, stg.id);
+                    grid.appendChild(btn);
+                });
+                container.appendChild(grid);
+            });
+        }
+
+        async function updateTranslationButton(exId, lang, btn) {
+            btn.style.display = 'block';
+            btn.onclick = async () => {
+                const mod = document.getElementById('translation-modal');
+                const con = document.getElementById('translation-content');
+                mod.classList.add('open');
+                con.innerHTML = '<div class="spinner" style="margin: 20px auto;"></div>';
+                try {
+                    const data = await fetchData('secondary.json');
+                    const entry = data[exId];
+                    const val = entry ? (entry[lang] || entry['en'] || entry) : "No context available.";
+                    con.innerHTML = `<p style="font-size: 1.25rem; line-height: 1.6; font-weight: 500; color: var(--text-main);">"${val}"</p>`;
+                } catch (e) { con.textContent = "Analysis unavailable."; }
+            };
+        }
+
+        let state = initSession();
+        let currentManifest = null;
+
+        function setupHeader() {
+            const siteSelect = document.getElementById('site-lang-select');
+            const targetSelect = document.getElementById('target-lang-select');
+            const levelSelect = document.getElementById('level-select');
+
+            siteSelect.value = state.siteLanguage;
+            targetSelect.value = state.targetLanguage;
+            levelSelect.value = state.level;
+
+            siteSelect.onchange = (e) => { state.siteLanguage = e.target.value; saveProgress(state); };
+            targetSelect.onchange = (e) => { state.targetLanguage = e.target.value; saveProgress(state); };
+            levelSelect.onchange = (e) => {
+                state.level = e.target.value;
+                saveProgress(state);
+                showMenu();
+            };
+        }
+
+        async function start() {
+            setupHeader();
+            try {
+                currentManifest = await fetchData('manifest.json');
+                showMenu();
+            } catch (e) {
+                document.getElementById('game-container').innerHTML = `<h3>Connection Error</h3><p>Ensure repository is public and schemas are correct.</p>`;
+            }
+        }
+
+        function showMenu() {
+            document.getElementById('translate-btn').style.display = 'none';
+            generateStageMenu(currentManifest, state, document.getElementById('game-container'), loadStage);
+        }
+
+        async function loadStage(cid, level, section, stageId) {
+            const gameArea = document.getElementById('game-container');
+            gameArea.innerHTML = '<div class="spinner" style="margin:50px auto;"></div>';
+            try {
+                const stageData = await fetchData(cid);
+                runExercise(stageData, 0, level, section, stageId);
+            } catch (e) { gameArea.textContent = "Stage load error."; }
+        }
+
+        function runExercise(data, idx, level, section, stageId) {
+            if (idx >= data.exercises.length) {
+                unlockStage(state, 'all', level, section, stageId + 1);
+                document.getElementById('game-container').innerHTML = `
+                    <div class=\"text-center\" style=\"padding: 40px 0; text-align: center;\">
+                        <div style=\"font-size: 4rem; margin-bottom: 24px;\">🏆</div>
+                        <h2>Mastery Achieved!</h2>
+                        <p style=\"color: var(--secondary); margin-bottom: 32px;\">You have successfully completed this module.</p>
+                        <button class=\"option-btn\" style=\"text-align: center; background: var(--vox-dark); color: white; border: none; max-width: 250px; margin: 0 auto;\" onclick=\"location.reload()\">Next Module</button>
+                    </div>
+                `;
+                return;
+            }
+
+            const ex = data.exercises[idx];
+            const container = document.getElementById('game-container');
+            const progress = (idx / data.exercises.length) * 100;
+
+            container.innerHTML = `
+                <div style=\"display:flex; justify-content:space-between; align-items:center; margin-bottom: 8px;\">
+                    <span style=\"font-size: 0.75rem; font-weight: 700; color: var(--secondary); text-transform: uppercase;\">
+                        Exercise ${idx + 1} / ${data.exercises.length}
+                    </span>
+                    <div style=\"display:flex; gap:8px;\">
+                        ${idx > 0 ? `<button id=\"back-btn\" class=\"nav-btn\">back</button>` : ''}
+                        <button id=\"skip-btn\" class=\"nav-btn\">skip</button>
+                    </div>
+                </div>
+                <div class=\"progress-bar-container\"><div class=\"progress-fill\" style=\"width: ${progress}%\"></div></div>
+            `;
+
+            const contentArea = document.createElement('div');
+            container.appendChild(contentArea);
+
+            document.getElementById('skip-btn').onclick = () => runExercise(data, idx + 1, level, section, stageId);
+
+            const backBtn = document.getElementById('back-btn');
+            if (backBtn) {
+                backBtn.onclick = () => runExercise(data, idx - 1, level, section, stageId);
+            }
+
+            updateTranslationButton(ex.id, state.siteLanguage, document.getElementById('translate-btn'));
+
+            const renderer = renderers[ex.type];
+            renderer(ex, contentArea, (input) => {
+                const solution = ex.type === 'matching' ? input : ex.answer;
+                const correct = checkAnswer(input, solution);
+                showFeedback(correct, () => {
+                    if (correct) runExercise(data, idx + 1, level, section, stageId);
+                });
+            });
+        }
+
+        function showFeedback(ok, next) {
+            const over = document.getElementById('feedback-overlay');
+            document.getElementById('feedback-icon').textContent = ok ? '✅' : '❌';
+            document.getElementById('feedback-title').textContent = ok ? 'Precision' : 'Try Again';
+            document.getElementById('feedback-title').style.color = ok ? 'var(--success)' : 'var(--error)';
+            over.classList.add('active');
+            setTimeout(() => {
+                over.classList.remove('active');
+                next();
+            }, 1000);
+        }
+
+        window.onload = start;
+    </script>
 </body>
+
 </html>
