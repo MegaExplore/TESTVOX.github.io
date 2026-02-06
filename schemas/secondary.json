@@ -4,5 +4,9 @@
         "es": "Análisis profundo para el ejercicio 1: Esta palabra se usa comúnmente en contextos formales.",
         "fr": "Analyse approfondie de l'exercice 1 : Ce mot est couramment utilisé dans des contextes formels."
     },
-    "2": "Contextual note for exercise 2."
+    "2": "Contextual note for exercise 2.",
+    "ex_mc_01": {
+        "en": "Context: 'Good morning' is the standard formal greeting used before noon. 'Hey', 'Yo', and 'What's up' are informal.",
+        "es": "Traducción: ¿Cuál de estos es un saludo formal en inglés? Nota: 'Good morning' es el saludo formal estándar usado antes del mediodía."
+    }
 }
