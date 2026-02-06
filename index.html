@@ -1,482 +1,103 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>VOX | Professional Language Learning</title>
-    <!-- Montserrat for the logo/branding and Inter for UI -->
-    <link
-        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@800&family=Inter:wght@400;500;600;700&display=swap"
-        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@800&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        primary: '#29D1F1',
+                        'primary-hover': '#1bbcd9',
+                        'vox-dark': '#0D1117',
+                        secondary: '#64748b',
+                        success: '#10b981',
+                        error: '#ef4444',
+                        'bg-color': '#f8fafc',
+                        'card-bg': '#ffffff',
+                    },
+                    fontFamily: {
+                        main: ['Inter', 'sans-serif'],
+                        brand: ['Montserrat', 'sans-serif'],
+                    },
+                    boxShadow: {
+                        'vox-lg': '0 10px 15px -3px rgb(0 0 0 / 0.1)',
+                    }
+                }
+            }
+        }
+    </script>
     <style>
-        :root {
-            --primary: #29D1F1;
-            --primary-hover: #1bbcd9;
-            --vox-dark: #0D1117;
-            --secondary: #64748b;
-            --success: #10b981;
-            --error: #ef4444;
-            --bg-color: #f8fafc;
-            --card-bg: #ffffff;
-            --text-main: #0f172a;
-            --text-muted: #64748b;
-            --border: #e2e8f0;
-            --shadow-sm: 0 1px 2px 0 rgb(0 0 0 / 0.05);
-            --shadow-md: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
-            --shadow-lg: 0 10px 15px -3px rgb(0 0 0 / 0.1);
-            --radius: 12px;
-            --font-main: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
-            --font-brand: 'Montserrat', sans-serif;
-        }
-
-        * {
-            box-sizing: border-box;
-        }
-
         body {
-            margin: 0;
-            font-family: var(--font-main);
-            background-color: var(--bg-color);
-            color: var(--text-main);
-            line-height: 1.5;
+            background-color: #f8fafc;
             -webkit-font-smoothing: antialiased;
         }
-
-        /* Header */
-        .main-header {
-            position: sticky;
-            top: 0;
-            width: 100%;
-            background: rgba(255, 255, 255, 0.9);
-            backdrop-filter: blur(12px);
-            border-bottom: 1px solid var(--border);
-            z-index: 1000;
-            padding: 8px 0;
+        @keyframes spin {
+            to { transform: rotate(360deg); }
         }
-
-        .header-content {
-            max-width: 1200px;
-            margin: 0 auto;
-            padding: 0 24px;
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            gap: 20px;
-            flex-wrap: wrap;
-        }
-
-        .logo-container {
-            height: 48px;
-            display: flex;
-            align-items: center;
-            cursor: pointer;
-            transition: transform 0.2s;
-        }
-
-        .logo-container:hover {
-            transform: scale(1.02);
-        }
-
-        .logo-svg {
-            height: 100%;
-            width: auto;
-            max-width: 320px;
-        }
-
-        .nav-controls {
-            display: flex;
-            gap: 12px;
-            align-items: center;
-        }
-
-        .header-select {
-            padding: 8px 12px;
-            border-radius: 8px;
-            border: 1px solid var(--border);
-            background: white;
-            font-size: 0.875rem;
-            font-weight: 500;
-            color: var(--text-main);
-            cursor: pointer;
-            outline: none;
-            transition: border-color 0.2s;
-        }
-
-        .header-select:hover {
-            border-color: var(--primary);
-        }
-
-        .select-group {
-            display: flex;
-            flex-direction: column;
-        }
-
-        .select-label {
-            font-size: 0.65rem;
-            text-transform: uppercase;
-            font-weight: 700;
-            color: var(--secondary);
-            margin-bottom: 2px;
-            margin-left: 2px;
-        }
-
-        /* App Container - Expanded for wider screens */
-        #app-container {
-            width: 95%;
-            max-width: 1100px;
-            /* Increased from 800px */
-            margin: 40px auto;
-            padding: 40px;
-            background: var(--card-bg);
-            border-radius: 24px;
-            box-shadow: var(--shadow-lg);
-            border: 1px solid var(--border);
-            min-height: 500px;
-            transition: max-width 0.3s ease;
-        }
-
-        h2 {
-            font-family: var(--font-brand);
-            font-size: 1.875rem;
-            font-weight: 800;
-            margin-top: 0;
-            color: var(--vox-dark);
-        }
-
-        h3 {
-            font-size: 1.25rem;
-            font-weight: 600;
-            margin-bottom: 24px;
-        }
-
-        .stage-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
-            /* Wider columns for wider layout */
-            gap: 24px;
-            margin-top: 24px;
-        }
-
-        .stage-card {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            padding: 32px 24px;
-            background: var(--card-bg);
-            border: 2px solid var(--border);
-            border-radius: var(--radius);
-            cursor: pointer;
-            transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
-            text-align: center;
-        }
-
-        .stage-card:hover:not(.locked) {
-            border-color: var(--primary);
-            transform: translateY(-4px);
-            box-shadow: var(--shadow-md);
-        }
-
-        .stage-card.locked {
-            opacity: 0.5;
-            background: #f8fafc;
-            cursor: not-allowed;
-            filter: grayscale(1);
-        }
-
-        .option-btn {
-            display: block;
-            width: 100%;
-            padding: 16px 20px;
-            margin: 12px 0;
-            border: 1px solid var(--border);
-            border-radius: var(--radius);
-            background: white;
-            font-size: 1rem;
-            font-weight: 600;
-            cursor: pointer;
-            transition: all 0.15s ease;
-            text-align: left;
-            color: var(--text-main);
-        }
-
-        .option-btn:hover {
-            border-color: var(--primary);
-            background: #f0fdfa;
-            color: var(--primary-hover);
-        }
-
-        .nav-btn {
-            background: #f1f5f9;
-            color: var(--secondary);
-            border: 1px solid var(--border);
-            padding: 4px 12px;
-            border-radius: 6px;
-            font-size: 0.75rem;
-            font-weight: 700;
-            text-transform: uppercase;
-            cursor: pointer;
-            transition: all 0.2s;
-            display: inline-block;
-            width: auto;
-            margin: 0;
-        }
-
-        .nav-btn:hover {
-            background: #e2e8f0;
-            color: var(--text-main);
-            border-color: var(--secondary);
-        }
-
-        .feedback-overlay {
-            position: fixed;
-            top: 0;
-            left: 0;
-            right: 0;
-            bottom: 0;
-            background: rgba(13, 17, 23, 0.4);
-            backdrop-filter: blur(4px);
-            display: none;
-            justify-content: center;
-            align-items: center;
-            z-index: 2000;
-        }
-
-        .feedback-overlay.active {
-            display: flex;
-        }
-
-        .feedback-card {
-            background: white;
-            padding: 48px;
-            border-radius: 32px;
-            text-align: center;
-            box-shadow: var(--shadow-lg);
-            animation: popIn 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
-        }
-
-        @keyframes popIn {
-            from {
-                transform: scale(0.8);
-                opacity: 0;
-            }
-
-            to {
-                transform: scale(1);
-                opacity: 1;
-            }
-        }
-
-        .translation-modal {
-            position: fixed;
-            bottom: -100%;
-            left: 50%;
-            transform: translateX(-50%);
-            width: 95%;
-            max-width: 550px;
-            background: white;
-            padding: 32px;
-            border-radius: 24px 24px 0 0;
-            box-shadow: 0 -10px 40px rgba(0, 0, 0, 0.15);
-            transition: bottom 0.4s cubic-bezier(0.4, 0, 0.2, 1);
-            z-index: 3000;
-        }
-
-        .translation-modal.open {
-            bottom: 0;
-        }
-
-        .translate-btn {
-            position: fixed;
-            bottom: 32px;
-            right: 32px;
-            padding: 14px 24px;
-            background: var(--vox-dark);
-            color: white;
-            border: none;
-            border-radius: 50px;
-            font-weight: 600;
-            cursor: pointer;
-            box-shadow: var(--shadow-lg);
-            z-index: 1500;
-            transition: transform 0.2s;
-        }
-
-        .progress-bar-container {
-            width: 100%;
-            height: 8px;
-            background: #e2e8f0;
-            border-radius: 4px;
-            margin: 12px 0 24px 0;
-            overflow: hidden;
-        }
-
-        .progress-fill {
-            height: 100%;
-            background: var(--primary);
-            width: 0%;
-            transition: width 0.4s ease;
-        }
-
-        .spinner {
-            border: 3px solid #e2e8f0;
-            border-top: 3px solid var(--primary);
-            border-radius: 50%;
-            width: 32px;
-            height: 32px;
+        .animate-spin-custom {
             animation: spin 0.8s linear infinite;
         }
-
-        @keyframes spin {
-            to {
-                transform: rotate(360deg);
-            }
+        .perspective-1000 {
+            perspective: 1000px;
         }
-
-        .ordered-word {
-            background: var(--primary);
-            color: white;
-            padding: 8px 16px;
-            border-radius: 8px;
-            font-weight: 600;
-            cursor: pointer;
-            transition: transform 0.1s;
-            user-select: none;
+        .transform-style-3d {
+            transform-style: preserve-3d;
         }
-
-        .ordered-word:hover {
-            transform: scale(1.05);
-            background: var(--primary-hover);
+        .backface-hidden {
+            backface-visibility: hidden;
         }
-
-        .audio-btn {
-            background: var(--vox-dark);
-            color: white;
-            border: none;
-            border-radius: 50%;
-            width: 44px;
-            height: 44px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            cursor: pointer;
-            transition: transform 0.2s, background 0.2s;
-            box-shadow: var(--shadow-md);
-            margin-left: 12px;
+        .rotate-y-180 {
+            transform: rotateY(180deg);
         }
-
-        .audio-btn:hover {
-            transform: scale(1.1);
-            background: var(--primary);
+        /* Fade in animation for overlays */
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
         }
-
-        .audio-btn svg {
-            width: 24px;
-            height: 24px;
-            fill: currentColor;
+        .animate-fade-in {
+            animation: fadeIn 0.3s ease-out forwards;
         }
-
-        @media (max-width: 768px) {
-            .header-content {
-                flex-direction: column;
-                align-items: center;
-                padding: 12px;
-            }
-
-            .nav-controls {
-                width: 100%;
-                justify-content: center;
-                flex-wrap: wrap;
-            }
-
-            #app-container {
-                margin: 20px 10px;
-                padding: 24px;
-            }
-
-            .stage-grid {
-                grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
-            }
+        /* Pop in animation */
+        @keyframes popIn {
+            from { transform: scale(0.8); opacity: 0; }
+            to { transform: scale(1); opacity: 1; }
+        }
+        .animate-pop-in {
+            animation: popIn 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275) forwards;
         }
     </style>
+<script type="importmap">
+{
+  "imports": {
+    "react": "https://esm.sh/react@^19.2.4",
+    "react/": "https://esm.sh/react@^19.2.4/"
+  }
+}
+</script>
 </head>
+<body class="bg-bg-color text-vox-dark font-main pb-20">
+    <div id="root"></div>
 
-<body>
-    <header class="main-header">
-        <div class="header-content">
-            <div class="logo-container" onclick="window.location.reload()">
-                <svg class="logo-svg" viewBox="0 0 750 150" xmlns="http://www.w3.org/2000/svg">
-                    <text x="20" y="100" fill="#0D1117"
-                        style="font-family: 'Montserrat', sans-serif; font-weight: 800; font-size: 80px;">Vox</text>
-                    <text x="210" y="100" fill="#29D1F1"
-                        style="font-family: 'Montserrat', sans-serif; font-weight: 800; font-size: 80px;">MegaLiberta</text>
-                </svg>
-            </div>
-
-            <div class="nav-controls">
-                <div class="select-group">
-                    <label class="select-label">Site</label>
-                    <select id="site-lang-select" class="header-select">
-                        <option value="en">English</option>
-                        <option value="es">Español</option>
-                        <option value="fr">Français</option>
-                    </select>
-                </div>
-
-                <div class="select-group">
-                    <label class="select-label">Learning</label>
-                    <select id="target-lang-select" class="header-select">
-                        <option value="all">All Modules</option>
-                        <option value="en">English</option>
-                        <option value="es">Spanish</option>
-                    </select>
-                </div>
-
-                <div class="select-group">
-                    <label class="select-label">Your Level</label>
-                    <select id="level-select" class="header-select">
-                        <option value="A1">A1</option>
-                        <option value="A2">A2</option>
-                        <option value="B1">B1</option>
-                        <option value="B2">B2</option>
-                        <option value="C1">C1</option>
-                        <option value="C2">C2</option>
-                    </select>
-                </div>
-            </div>
-        </div>
-    </header>
-
-    <div id="app-container">
-        <div id="game-container">
-            <div style="text-align: center; padding: 100px 0;">
-                <div class="spinner" style="margin: 0 auto 24px;"></div>
-                <h2 style="color: var(--secondary)">Initializing VOX...</h2>
-            </div>
-        </div>
-    </div>
-
-    <button id="translate-btn" class="translate-btn" style="display:none;">🌐 Deep Analysis</button>
-
-    <div id="feedback-overlay" class="feedback-overlay">
-        <div class="feedback-card">
-            <span id="feedback-icon" style="font-size: 5rem; display: block; margin-bottom: 16px;"></span>
-            <h2 id="feedback-title" style="font-family: var(--font-brand);"></h2>
-        </div>
-    </div>
-
-    <div id="translation-modal" class="translation-modal">
-        <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:20px;">
-            <h3 style="margin:0; font-size: 1.1rem; color: var(--secondary); text-transform: uppercase;">Linguistic
-                Insight</h3>
-            <button onclick="document.getElementById('translation-modal').classList.remove('open')"
-                style="background:none; border:none; font-size:1.5rem; cursor:pointer; color: var(--secondary)">✕</button>
-        </div>
-        <div id="translation-content"></div>
-    </div>
-
-    <script type="module">
+    <script>
+        /**
+         * ------------------------------------------------------------------
+         * SERVICES
+         * ------------------------------------------------------------------
+         */
         const GITHUB_BASE = 'https://raw.githubusercontent.com/MegaExplore/vox.github.io/main/schemas/';
+        const STORAGE_KEY = 'vox_user_progress';
+
+        const defaultState = {
+            siteLanguage: 'en',
+            targetLanguage: 'all',
+            level: 'A1',
+            unlockedStages: {}
+        };
 
         async function fetchData(path) {
             const url = path.startsWith('http') ? path : `${GITHUB_BASE}${path}`;
@@ -485,19 +106,13 @@
             return await response.json();
         }
 
-        const STORAGE_KEY = 'vox_user_progress';
-        const defaultState = {
-            siteLanguage: 'en',
-            targetLanguage: 'all',
-            level: 'A1',
-            unlockedStages: {}
-        };
-
         function initSession() {
             try {
                 const stored = localStorage.getItem(STORAGE_KEY);
                 return stored ? { ...defaultState, ...JSON.parse(stored) } : { ...defaultState };
-            } catch (e) { return { ...defaultState }; }
+            } catch (e) {
+                return { ...defaultState };
+            }
         }
 
         function saveProgress(state) {
@@ -505,13 +120,16 @@
         }
 
         function unlockStage(state, lang, level, section, stage) {
-            if (!state.unlockedStages[lang]) state.unlockedStages[lang] = {};
-            if (!state.unlockedStages[lang][level]) state.unlockedStages[lang][level] = {};
-            if (!state.unlockedStages[lang][level][section]) state.unlockedStages[lang][level][section] = [];
-            if (!state.unlockedStages[lang][level][section].includes(stage)) {
-                state.unlockedStages[lang][level][section].push(stage);
+            const newState = { ...state };
+            if (!newState.unlockedStages[lang]) newState.unlockedStages[lang] = {};
+            if (!newState.unlockedStages[lang][level]) newState.unlockedStages[lang][level] = {};
+            if (!newState.unlockedStages[lang][level][section]) newState.unlockedStages[lang][level][section] = [];
+            
+            if (!newState.unlockedStages[lang][level][section].includes(stage)) {
+                newState.unlockedStages[lang][level][section].push(stage);
             }
-            saveProgress(state);
+            saveProgress(newState);
+            return newState;
         }
 
         function speakText(text, lang = 'en-US') {
@@ -523,19 +141,18 @@
             window.speechSynthesis.speak(utterance);
         }
 
-        const SpeechRecognition = window.SpeechRecognition || window.webkitSpeechRecognition;
         function startListening(lang = 'en-US') {
             return new Promise((resolve, reject) => {
+                const SpeechRecognition = window.SpeechRecognition || window.webkitSpeechRecognition;
                 if (!SpeechRecognition) return reject('Not supported');
+                
                 const rec = new SpeechRecognition();
                 rec.lang = lang;
-                rec.continuous = true; // CHANGED: Keep listening to catch longer/delayed speech
+                rec.continuous = false; // Fix for mobile
                 rec.interimResults = true;
                 rec.maxAlternatives = 1;
 
                 console.log(`Starting speech recognition for lang: ${lang}`);
-
-                window._speechRec = rec;
 
                 let resolved = false;
                 let soundDetected = false;
@@ -547,9 +164,7 @@
                 };
 
                 rec.onresult = (e) => {
-                    console.log('Speech result event:', e);
                     const results = e.results;
-
                     for (let i = e.resultIndex; i < results.length; ++i) {
                         if (results[i].isFinal) {
                             console.log('Final result:', results[i][0].transcript);
@@ -558,8 +173,6 @@
                             rec.stop();
                             if (safetyTimer) clearTimeout(safetyTimer);
                             return;
-                        } else {
-                            console.log('Interim result:', results[i][0].transcript);
                         }
                     }
                 };
@@ -571,13 +184,11 @@
                 };
 
                 rec.onnomatch = () => {
-                    console.log('Speech no match');
                     resolved = true;
                     reject('No match');
                 };
 
                 rec.onend = () => {
-                    console.log('Speech ended');
                     if (safetyTimer) clearTimeout(safetyTimer);
                     if (!resolved) {
                         if (soundDetected) reject('No sensitivity/match: Sound detected but no text recognized.');
@@ -587,449 +198,755 @@
 
                 try {
                     rec.start();
-                    console.log('Speech processing started');
-                    // Safety timeout to prevent infinite recording in continuous mode
                     safetyTimer = setTimeout(() => {
-                        console.log('Safety timeout triggered');
                         rec.stop();
-                    }, 5000);
+                    }, 8000); // Increased timeout to 8s
                 } catch (e) {
                     reject(e);
                 }
             });
         }
 
-        const renderers = {
-            multiple_choice: (ex, container, onAnswer) => {
-                const q = document.createElement('h3');
-                q.textContent = ex.question;
-                container.appendChild(q);
-                ex.options.forEach(opt => {
-                    const btn = document.createElement('button');
-                    btn.className = 'option-btn';
-                    btn.textContent = opt;
-                    btn.onclick = () => onAnswer(opt);
-                    container.appendChild(btn);
-                });
-            },
+        /**
+         * ------------------------------------------------------------------
+         * UI UTILITIES
+         * ------------------------------------------------------------------
+         */
+        function el(tag, props = {}, children = []) {
+            const element = document.createElement(tag);
+            if (props.className) element.className = props.className;
+            
+            Object.entries(props).forEach(([key, value]) => {
+                if (key === 'className') return;
+                if (key.startsWith('on') && typeof value === 'function') {
+                    element.addEventListener(key.toLowerCase().substring(2), value);
+                } else if (key === 'innerHTML') {
+                    element.innerHTML = value;
+                } else if (key === 'style' && typeof value === 'object') {
+                    Object.assign(element.style, value);
+                } else if (key === 'selected' && value) {
+                    element.selected = true;
+                } else if (key === 'disabled' && value) {
+                    element.disabled = true;
+                } else if (key === 'value') {
+                    element.value = value;
+                } else {
+                    element.setAttribute(key, value);
+                }
+            });
 
-            matching: (ex, container, onAnswer) => {
-                const q = document.createElement('h3');
-                q.textContent = "Match the Pairs:";
-                container.appendChild(q);
+            children.forEach(child => {
+                if (child === null || child === undefined) return;
+                if (typeof child === 'string' || typeof child === 'number') {
+                    element.appendChild(document.createTextNode(child));
+                } else if (child instanceof Node) {
+                    element.appendChild(child);
+                }
+            });
+            return element;
+        }
 
-                const grid = document.createElement('div');
-                grid.style.cssText = 'display: grid; grid-template-columns: 1fr 1fr; gap: 10px;';
+        /**
+         * ------------------------------------------------------------------
+         * COMPONENTS
+         * ------------------------------------------------------------------
+         */
 
-                let selectedLeft = null;
-                let leftBtn = null;
-                const pairs = ex.pairs;
-                const leftSide = pairs.map(p => p.left).sort(() => Math.random() - 0.5);
-                const rightSide = pairs.map(p => p.right).sort(() => Math.random() - 0.5);
-                let matchedCount = 0;
+        // --- Header Component ---
+        function createHeader(userState, onStateChange, onLogoClick) {
+            const logoSvg = `<svg class="h-full w-auto max-w-[320px]" viewBox="0 0 750 150" xmlns="http://www.w3.org/2000/svg">
+                <text x="20" y="100" fill="#0D1117" style="font-family: 'Montserrat', sans-serif; font-weight: 800; font-size: 80px">Vox</text>
+                <text x="210" y="100" fill="#29D1F1" style="font-family: 'Montserrat', sans-serif; font-weight: 800; font-size: 80px">MegaLiberta</text>
+            </svg>`;
 
-                const checkMatch = (rightVal, rightBtn) => {
-                    const pair = pairs.find(p => p.left === selectedLeft);
-                    const isMatch = rightVal === pair.right;
+            const createSelect = (label, key, options) => {
+                const select = el('select', {
+                    className: "px-3 py-2 rounded-lg border border-gray-200 bg-white text-sm font-medium text-vox-dark cursor-pointer outline-none transition-colors hover:border-primary",
+                    onChange: (e) => onStateChange(key, e.target.value)
+                }, options.map(opt => {
+                    const option = el('option', { value: opt.value }, [opt.label]);
+                    if (userState[key] === opt.value) option.selected = true;
+                    return option;
+                }));
+                
+                return el('div', { className: "flex flex-col" }, [
+                    el('label', { className: "text-[0.65rem] uppercase font-bold text-secondary mb-[2px] ml-[2px]" }, [label]),
+                    select
+                ]);
+            };
 
-                    if (isMatch) {
-                        rightBtn.style.background = 'var(--success)';
-                        rightBtn.style.color = 'white';
-                        leftBtn.style.background = 'var(--success)';
-                        leftBtn.style.color = 'white';
-                        rightBtn.disabled = true;
-                        leftBtn.disabled = true;
-                        matchedCount++;
-                        selectedLeft = null;
-                        leftBtn = null;
-                        if (matchedCount === pairs.length) {
-                            setTimeout(() => onAnswer(rightVal), 600);
-                        }
-                    } else {
-                        rightBtn.style.background = 'var(--error)';
-                        rightBtn.style.color = 'white';
-                        setTimeout(() => {
-                            showFeedback(false, () => {
-                                rightBtn.style.background = 'white';
-                                rightBtn.style.color = 'var(--text-main)';
-                                leftBtn.style.borderColor = 'var(--border)';
-                                selectedLeft = null;
-                                leftBtn = null;
-                            });
-                        }, 400);
-                    }
-                };
+            const logoContainer = el('div', { 
+                className: "h-12 flex items-center cursor-pointer transition-transform hover:scale-102",
+                innerHTML: logoSvg,
+                onClick: onLogoClick
+            });
 
-                leftSide.forEach(text => {
-                    const b = document.createElement('button');
-                    b.className = 'option-btn left-btn';
-                    b.textContent = text;
-                    b.onclick = () => {
-                        selectedLeft = text;
-                        leftBtn = b;
-                        container.querySelectorAll('.left-btn').forEach(btn => btn.style.borderColor = 'var(--border)');
-                        b.style.borderColor = 'var(--primary)';
-                    };
-                    grid.appendChild(b);
-                });
+            const controls = el('div', { className: "flex gap-3 items-center w-full md:w-auto justify-center md:justify-end flex-wrap" }, [
+                createSelect('Site', 'siteLanguage', [{value:'en',label:'English'}, {value:'es',label:'Español'}, {value:'fr',label:'Français'}]),
+                createSelect('Learning', 'targetLanguage', [{value:'all',label:'All Modules'}, {value:'en',label:'English'}, {value:'es',label:'Spanish'}]),
+                createSelect('Your Level', 'level', ['A1','A2','B1','B2','C1','C2'].map(l => ({value:l, label:l})))
+            ]);
 
-                rightSide.forEach(text => {
-                    const b = document.createElement('button');
-                    b.className = 'option-btn';
-                    b.textContent = text;
-                    b.onclick = () => { if (selectedLeft) checkMatch(text, b); };
-                    grid.appendChild(b);
-                });
-                container.appendChild(grid);
-            },
+            return el('header', { className: "sticky top-0 w-full bg-white/90 backdrop-blur-md border-b border-gray-200 z-[1000] py-2" }, [
+                el('div', { className: "max-w-[1200px] mx-auto px-6 flex justify-between items-center gap-5 flex-wrap md:flex-nowrap" }, [
+                    logoContainer,
+                    controls
+                ])
+            ]);
+        }
 
-            sentence_ordering: (ex, container, onAnswer) => {
-                const headerBox = document.createElement('div');
-                headerBox.style.cssText = 'display: flex; align-items: center; justify-content: space-between; margin-bottom: 24px;';
-
-                const q = document.createElement('h3');
-                q.textContent = "Arrange in order:";
-                q.style.margin = '0';
-
-                const audioBtn = document.createElement('button');
-                audioBtn.className = 'audio-btn';
-                audioBtn.title = "Listen to sentence";
-                audioBtn.innerHTML = `<svg viewBox="0 0 24 24"><path d="M3 9v6h4l5 5V4L7 9H3zm13.5 3c0-1.77-1.02-3.29-2.5-4.03v8.05c1.48-.73 2.5-2.25 2.5-4.02zM14 3.23v2.06c2.89.86 5 3.54 5 6.71s-2.11 5.85-5 6.71v2.06c4.01-.91 7-4.49 7-8.77s-2.99-7.86-7-8.77z"/></svg>`;
-                audioBtn.onclick = () => speakText(ex.answer, ex.voiceLang || 'en-US');
-
-                headerBox.appendChild(q);
-                headerBox.appendChild(audioBtn);
-                container.appendChild(headerBox);
-
-                const dropZone = document.createElement('div');
-                dropZone.style.cssText = 'min-height: 80px; border-bottom: 2px solid var(--primary); margin-bottom: 20px; display: flex; gap: 8px; flex-wrap: wrap; padding: 10px; align-items: center;';
-                container.appendChild(dropZone);
-
-                const wordPool = document.createElement('div');
-                wordPool.style.cssText = 'display: flex; gap: 8px; flex-wrap: wrap;';
-                container.appendChild(wordPool);
-
-                let currentSentence = [];
-                const shuffledWords = [...ex.words].sort(() => Math.random() - 0.5);
-
-                const updateSequence = () => {
-                    dropZone.innerHTML = '';
-                    currentSentence.forEach((word, index) => {
-                        const span = document.createElement('div');
-                        span.className = 'ordered-word';
-                        span.textContent = word;
-                        span.onclick = () => {
-                            const poolBtn = Array.from(wordPool.children).find(b => b.textContent === word && b.style.visibility === 'hidden');
-                            if (poolBtn) poolBtn.style.visibility = 'visible';
-                            currentSentence.splice(index, 1);
-                            updateSequence();
-                        };
-                        dropZone.appendChild(span);
-                    });
-                    if (currentSentence.length === ex.words.length) {
-                        setTimeout(() => onAnswer(currentSentence.join(' ')), 600);
-                    }
-                };
-
-                shuffledWords.forEach(word => {
-                    const b = document.createElement('button');
-                    b.className = 'option-btn'; b.style.width = 'auto';
-                    b.textContent = word;
-                    b.onclick = () => {
-                        currentSentence.push(word);
-                        b.style.visibility = 'hidden';
-                        updateSequence();
-                    };
-                    wordPool.appendChild(b);
-                });
-            },
-
-            flashcards: (ex, container, onAnswer) => {
-                const card = document.createElement('div');
-                card.style.cssText = 'height: 200px; background: var(--vox-dark); color: white; border-radius: 20px; display: flex; align-items: center; justify-content: center; font-size: 2rem; cursor: pointer; transition: transform 0.6s; transform-style: preserve-3d;';
-                card.textContent = ex.front;
-
-                let flipped = false;
-                card.onclick = () => {
-                    flipped = !flipped;
-                    card.style.transform = flipped ? 'rotateY(180deg)' : 'rotateY(0)';
-                    setTimeout(() => {
-                        card.textContent = flipped ? ex.back : ex.front;
-                        card.style.background = flipped ? 'var(--primary)' : 'var(--vox-dark)';
-                    }, 150);
-                };
-                container.appendChild(card);
-
-                const done = document.createElement('button');
-                done.className = 'option-btn'; done.style.marginTop = '30px';
-                done.textContent = "I've memorized this";
-                done.onclick = () => onAnswer(ex.answer || ex.back);
-                container.appendChild(done);
-            },
-
-            fill_blank_typing: (ex, container, onAnswer) => {
-                const q = document.createElement('h3');
-                q.textContent = "Type the missing word:";
-                container.appendChild(q);
-                const p = document.createElement('p');
-                p.style.fontSize = '1.25rem';
-                p.innerHTML = ex.question.replace('___', `<input type="text" id="typing-input" style="border:none; border-bottom: 2px solid var(--primary); outline: none; width: 120px; text-align: center; font-size: 1.25rem; font-family: inherit;">`);
-                container.appendChild(p);
-                const btn = document.createElement('button');
-                btn.className = 'option-btn'; btn.style.background = 'var(--vox-dark)'; btn.style.color = 'white';
-                btn.textContent = "Check Answer";
-                btn.onclick = () => {
-                    const val = document.getElementById('typing-input').value;
-                    onAnswer(val);
-                };
-                container.appendChild(btn);
-            },
-
-            tap_fill: (ex, container, onAnswer) => {
-                const q = document.createElement('h3');
-                q.textContent = "Complete the sequence:";
-                container.appendChild(q);
-                const p = document.createElement('p');
-                p.style.cssText = 'font-size: 1.5rem; margin: 32px 0; padding: 24px; background: #f8fafc; border-radius: 12px; text-align: center;';
-                p.innerHTML = ex.question.replace('___', `<span id=\"blank\" style=\"color: var(--primary); border-bottom: 3px solid; padding: 0 12px;\">...</span>`);
-                container.appendChild(p);
-                const pool = document.createElement('div');
-                pool.style.cssText = 'display: flex; gap: 12px; flex-wrap: wrap; justify-content: center;';
-                ex.options.forEach(opt => {
-                    const b = document.createElement('button');
-                    b.className = 'option-btn'; b.style.width = 'auto';
-                    b.textContent = opt;
-                    b.onclick = () => {
-                        document.getElementById('blank').textContent = opt;
-                        setTimeout(() => onAnswer(opt), 400);
-                    };
-                    pool.appendChild(b);
-                });
-                container.appendChild(pool);
-            },
-
-            pronunciation: (ex, container, onAnswer) => {
-                const q = document.createElement('h3');
-                q.textContent = "Voice Articulation:";
-                container.appendChild(q);
-                const p = document.createElement('p');
-                p.style.cssText = 'font-size: 2rem; font-weight: 800; text-align: center; margin: 40px 0; color: var(--primary);';
-                p.textContent = ex.question;
-                container.appendChild(p);
-                const btn = document.createElement('button');
-                btn.className = 'option-btn'; btn.style.textAlign = 'center';
-                btn.style.background = 'var(--vox-dark)'; btn.style.color = 'white';
-                btn.innerHTML = '🎤 Tap to Record';
-                btn.onclick = async () => {
-                    const lang = ex.voiceLang || 'en-US';
-                    btn.textContent = `Recording (${lang})...`;
-                    try {
-                        const res = await startListening(lang);
-                        onAnswer(res);
-                    } catch (e) {
-                        console.error('Mic Error:', e);
-                        const errMap = {
-                            'no-speech': 'No speech detected',
-                            'not-allowed': 'Mic access denied',
-                            'audio-capture': 'No mic found',
-                            'network': 'Network error',
-                            'not-supported': 'Not supported',
-                            'service-not-allowed': 'Service not allowed'
-                        };
-                        // Use mapped error, or the error string itself if custom, or generic fallback
-                        const msg = errMap[e] || (typeof e === 'string' ? e : 'Try Again');
-                        btn.textContent = `🎤 ${msg}`;
-                    }
-                };
-                container.appendChild(btn);
+        // --- Stage Menu Component ---
+        function createStageMenu(manifest, userState, onSelectStage) {
+            if (!manifest) {
+                return el('div', { className: "text-center py-24" }, [
+                    el('div', { className: "w-8 h-8 mx-auto mb-6 border-4 border-gray-200 border-t-primary rounded-full animate-spin-custom" }),
+                    el('h2', { className: "text-secondary text-xl font-semibold" }, ["Initializing VOX..."])
+                ]);
             }
-        };
 
-        function isStageAccessible(lang, level, section, stage, state, manifestStage) {
-            if (manifestStage && manifestStage.isFree) return true;
-            if (stage === 1) return true;
-            const unlocked = state.unlockedStages[lang]?.[level]?.[section] || [];
-            return unlocked.includes(stage - 1);
-        }
-
-        function checkAnswer(input, solution) {
-            if (!solution) return true;
-            const norm = s => s.toString().toLowerCase().trim().replace(/[.,!?;]/g, '');
-            return norm(input) === norm(solution);
-        }
-
-        function generateStageMenu(manifest, userState, container, onSelect) {
-            container.innerHTML = '';
             const langData = manifest.languages['all'];
             const selectedLevel = userState.level;
             const levelData = langData.levels[selectedLevel];
 
             if (!levelData || !levelData.sections || levelData.sections.length === 0) {
-                container.innerHTML += `
-                    <div style="text-align:center; padding: 60px 0; color: var(--secondary);">
-                        <div style="font-size: 3rem; margin-bottom: 16px;">⏳</div>
-                        <p>Level ${selectedLevel} content is currently being prepared.</p>
-                    </div>
-                `;
-                return;
+                return el('div', { className: "text-center py-16 text-secondary" }, [
+                    el('div', { className: "text-5xl mb-4" }, ["⏳"]),
+                    el('p', {}, [`Level ${selectedLevel} content is currently being prepared.`])
+                ]);
             }
+
+            const isStageAccessible = (lang, level, section, stageId, manifestStage) => {
+                if (manifestStage.isFree) return true;
+                if (stageId === 1) return true;
+                const unlocked = userState.unlockedStages[lang]?.[level]?.[section] || [];
+                return unlocked.includes(stageId - 1);
+            };
+
+            const container = el('div', {});
 
             levelData.sections.forEach(sec => {
-                const secTitle = document.createElement('h3');
-                secTitle.style.margin = '32px 0 20px';
-                secTitle.style.color = 'var(--primary)';
-                secTitle.style.fontWeight = '800';
-                secTitle.style.fontSize = '1.75rem';
-                secTitle.textContent = sec.title;
-                container.appendChild(secTitle);
-
-                const grid = document.createElement('div');
-                grid.className = 'stage-grid';
+                const secKey = sec.title.replace(/\s+/g, '_');
+                const title = el('h3', { className: "mt-8 mb-5 text-primary font-extrabold text-2xl" }, [sec.title]);
+                
+                const grid = el('div', { className: "grid grid-cols-[repeat(auto-fill,minmax(160px,1fr))] md:grid-cols-[repeat(auto-fill,minmax(220px,1fr))] gap-6 mt-6" });
 
                 sec.stages.forEach(stg => {
-                    const secKey = sec.title.replace(/\s+/g, '_');
-                    const ok = isStageAccessible('all', selectedLevel, secKey, stg.id, userState, stg);
-                    const btn = document.createElement('button');
-                    btn.className = `stage-card ${ok ? '' : 'locked'}`;
-                    btn.innerHTML = `
-                        <div style="font-size:2.5rem; margin-bottom: 12px;">${ok ? (stg.icon || '📖') : '🔒'}</div>
-                        <div style="font-weight:700;">${stg.name}</div>
-                    `;
-                    if (ok) btn.onclick = () => onSelect(stg.cid, selectedLevel, secKey, stg.id);
+                    const ok = isStageAccessible('all', selectedLevel, secKey, stg.id, stg);
+                    
+                    const btnClass = `flex flex-col items-center p-8 md:p-6 bg-white border-2 border-gray-200 rounded-xl transition-all duration-200 text-center ${
+                        ok ? 'cursor-pointer hover:border-primary hover:-translate-y-1 hover:shadow-md' : 'opacity-50 bg-slate-50 cursor-not-allowed grayscale'
+                    }`;
+
+                    const btn = el('button', { 
+                        className: btnClass,
+                        disabled: !ok,
+                        onClick: () => ok && onSelectStage(stg.cid, selectedLevel, secKey, stg.id)
+                    }, [
+                        el('div', { className: "text-4xl mb-3" }, [ok ? (stg.icon || '📖') : '🔒']),
+                        el('div', { className: "font-bold text-vox-dark" }, [stg.name])
+                    ]);
+
                     grid.appendChild(btn);
                 });
+
+                container.appendChild(title);
                 container.appendChild(grid);
             });
+
+            return container;
         }
 
-        async function updateTranslationButton(exId, lang, btn) {
-            btn.style.display = 'block';
-            btn.onclick = async () => {
-                const mod = document.getElementById('translation-modal');
-                const con = document.getElementById('translation-content');
-                mod.classList.add('open');
-                con.innerHTML = '<div class="spinner" style="margin: 20px auto;"></div>';
-                try {
-                    const data = await fetchData('secondary.json');
-                    const entry = data[exId];
-                    const val = entry ? (entry[lang] || entry['en'] || entry) : "No context available.";
-                    con.innerHTML = `<p style="font-size: 1.25rem; line-height: 1.6; font-weight: 500; color: var(--text-main);">"${val}"</p>`;
-                } catch (e) { con.textContent = "Analysis unavailable."; }
-            };
-        }
+        // --- Feedback Overlay ---
+        function showFeedbackOverlay(isCorrect, callback) {
+            const icon = isCorrect ? '✅' : '❌';
+            const title = isCorrect ? 'Precision' : 'Try Again';
+            const colorClass = isCorrect ? 'text-success' : 'text-error';
 
-        let state = initSession();
-        let currentManifest = null;
+            const overlay = el('div', { className: "fixed inset-0 bg-vox-dark/40 backdrop-blur-sm flex justify-center items-center z-[2000] animate-fade-in" }, [
+                el('div', { className: "bg-white p-12 rounded-[32px] text-center shadow-vox-lg animate-pop-in" }, [
+                    el('span', { className: "text-[5rem] block mb-4" }, [icon]),
+                    el('h2', { className: `text-3xl font-brand font-bold ${colorClass}` }, [title])
+                ])
+            ]);
 
-        function setupHeader() {
-            const siteSelect = document.getElementById('site-lang-select');
-            const targetSelect = document.getElementById('target-lang-select');
-            const levelSelect = document.getElementById('level-select');
+            document.body.appendChild(overlay);
 
-            siteSelect.value = state.siteLanguage;
-            targetSelect.value = state.targetLanguage;
-            levelSelect.value = state.level;
-
-            siteSelect.onchange = (e) => { state.siteLanguage = e.target.value; saveProgress(state); };
-            targetSelect.onchange = (e) => { state.targetLanguage = e.target.value; saveProgress(state); };
-            levelSelect.onchange = (e) => {
-                state.level = e.target.value;
-                saveProgress(state);
-                showMenu();
-            };
-        }
-
-        async function start() {
-            setupHeader();
-            try {
-                currentManifest = await fetchData('manifest.json');
-                showMenu();
-            } catch (e) {
-                document.getElementById('game-container').innerHTML = `<h3>Connection Error</h3><p>Ensure repository is public and schemas are correct.</p>`;
-            }
-        }
-
-        function showMenu() {
-            document.getElementById('translate-btn').style.display = 'none';
-            generateStageMenu(currentManifest, state, document.getElementById('game-container'), loadStage);
-        }
-
-        async function loadStage(cid, level, section, stageId) {
-            const gameArea = document.getElementById('game-container');
-            gameArea.innerHTML = '<div class="spinner" style="margin:50px auto;"></div>';
-            try {
-                const stageData = await fetchData(cid);
-                runExercise(stageData, 0, level, section, stageId);
-            } catch (e) { gameArea.textContent = "Stage load error."; }
-        }
-
-        function runExercise(data, idx, level, section, stageId) {
-            if (idx >= data.exercises.length) {
-                unlockStage(state, 'all', level, section, stageId + 1);
-                document.getElementById('game-container').innerHTML = `
-                    <div class=\"text-center\" style=\"padding: 40px 0; text-align: center;\">
-                        <div style=\"font-size: 4rem; margin-bottom: 24px;\">🏆</div>
-                        <h2>Mastery Achieved!</h2>
-                        <p style=\"color: var(--secondary); margin-bottom: 32px;\">You have successfully completed this module.</p>
-                        <button class=\"option-btn\" style=\"text-align: center; background: var(--vox-dark); color: white; border: none; max-width: 250px; margin: 0 auto;\" onclick=\"location.reload()\">Next Module</button>
-                    </div>
-                `;
-                return;
-            }
-
-            const ex = data.exercises[idx];
-            const container = document.getElementById('game-container');
-            const progress = (idx / data.exercises.length) * 100;
-
-            container.innerHTML = `
-                <div style=\"display:flex; justify-content:space-between; align-items:center; margin-bottom: 8px;\">
-                    <span style=\"font-size: 0.75rem; font-weight: 700; color: var(--secondary); text-transform: uppercase;\">
-                        Exercise ${idx + 1} / ${data.exercises.length}
-                    </span>
-                    <div style=\"display:flex; gap:8px;\">
-                        ${idx > 0 ? `<button id=\"back-btn\" class=\"nav-btn\">back</button>` : ''}
-                        <button id=\"skip-btn\" class=\"nav-btn\">skip</button>
-                    </div>
-                </div>
-                <div class=\"progress-bar-container\"><div class=\"progress-fill\" style=\"width: ${progress}%\"></div></div>
-            `;
-
-            const contentArea = document.createElement('div');
-            container.appendChild(contentArea);
-
-            document.getElementById('skip-btn').onclick = () => runExercise(data, idx + 1, level, section, stageId);
-
-            const backBtn = document.getElementById('back-btn');
-            if (backBtn) {
-                backBtn.onclick = () => runExercise(data, idx - 1, level, section, stageId);
-            }
-
-            updateTranslationButton(ex.id, state.siteLanguage, document.getElementById('translate-btn'));
-
-            const renderer = renderers[ex.type];
-            renderer(ex, contentArea, (input) => {
-                const solution = ex.type === 'matching' ? input : ex.answer;
-                const correct = checkAnswer(input, solution);
-                showFeedback(correct, () => {
-                    if (correct) runExercise(data, idx + 1, level, section, stageId);
-                });
-            });
-        }
-
-        function showFeedback(ok, next) {
-            const over = document.getElementById('feedback-overlay');
-            document.getElementById('feedback-icon').textContent = ok ? '✅' : '❌';
-            document.getElementById('feedback-title').textContent = ok ? 'Precision' : 'Try Again';
-            document.getElementById('feedback-title').style.color = ok ? 'var(--success)' : 'var(--error)';
-            over.classList.add('active');
             setTimeout(() => {
-                over.classList.remove('active');
-                next();
+                overlay.remove();
+                if (callback) callback();
             }, 1000);
         }
 
-        window.onload = start;
+        // --- Translation Modal ---
+        function createTranslationModal(isOpen, exId, siteLang, onClose) {
+            const modalContainer = el('div', { 
+                className: `fixed bottom-0 left-1/2 -translate-x-1/2 w-[95%] max-w-[550px] bg-white p-8 rounded-t-3xl shadow-[0_-10px_40px_rgba(0,0,0,0.15)] transition-all duration-400 z-[3000] transform ${isOpen ? 'translate-y-0' : 'translate-y-full'}`,
+            });
+            
+            const header = el('div', { className: "flex justify-between items-center mb-5" }, [
+                el('h3', { className: "m-0 text-lg text-secondary uppercase font-semibold" }, ["Linguistic Insight"]),
+                el('button', { 
+                    className: "bg-transparent border-none text-2xl cursor-pointer text-secondary hover:text-vox-dark",
+                    onClick: onClose
+                }, ["✕"])
+            ]);
+
+            const contentDiv = el('div', { className: "min-h-[100px]" });
+
+            if (isOpen && exId) {
+                contentDiv.appendChild(el('div', { className: "flex justify-center py-6" }, [
+                    el('div', { className: "w-8 h-8 border-4 border-gray-200 border-t-primary rounded-full animate-spin-custom" })
+                ]));
+                
+                fetchData('secondary.json')
+                    .then(data => {
+                        const entry = data[exId];
+                        let val = "No context available.";
+                        if (entry) {
+                            if (typeof entry === 'string') val = entry;
+                            else if (typeof entry === 'object') val = entry[siteLang] || entry['en'] || "No context available.";
+                        }
+                        contentDiv.innerHTML = '';
+                        contentDiv.appendChild(el('p', { className: "text-xl leading-relaxed font-medium text-vox-dark" }, [`"${val}"`]));
+                    })
+                    .catch(() => {
+                        contentDiv.innerHTML = '';
+                        contentDiv.appendChild(el('p', { className: "text-xl leading-relaxed font-medium text-vox-dark" }, ["Analysis unavailable."]));
+                    });
+            }
+
+            modalContainer.appendChild(header);
+            modalContainer.appendChild(contentDiv);
+            
+            return modalContainer;
+        }
+
+        // --- EXERCISE RENDERERS ---
+
+        const ExerciseRenderers = {
+            multiple_choice: (exercise, onAnswer) => {
+                const container = el('div', {});
+                container.appendChild(el('h3', { className: "text-xl font-semibold mb-6 text-vox-dark" }, [exercise.question]));
+                
+                exercise.options?.forEach((opt) => {
+                    const btn = el('button', { 
+                        className: "block w-full text-left p-4 my-3 border border-gray-200 rounded-xl bg-white text-base font-semibold text-vox-dark hover:border-primary hover:bg-cyan-50 hover:text-primary-hover transition-all",
+                        onClick: () => onAnswer(opt)
+                    }, [opt]);
+                    container.appendChild(btn);
+                });
+                return container;
+            },
+
+            matching: (exercise, onAnswer, showFeedback) => {
+                const container = el('div', {});
+                container.appendChild(el('h3', { className: "text-xl font-semibold mb-6 text-vox-dark" }, ["Match the Pairs:"]));
+
+                let leftSide = [], rightSide = [];
+                if (exercise.pairs) {
+                    leftSide = [...exercise.pairs.map(p => p.left)].sort(() => Math.random() - 0.5);
+                    rightSide = [...exercise.pairs.map(p => p.right)].sort(() => Math.random() - 0.5);
+                }
+
+                let selectedLeft = null;
+                const matchedPairs = new Set();
+                const leftBtns = [];
+                const rightBtns = [];
+
+                const updateUI = (errorRightText = null) => {
+                    leftBtns.forEach(btn => {
+                        const text = btn.textContent;
+                        const isMatched = matchedPairs.has(text);
+                        const isSelected = selectedLeft === text;
+                        btn.disabled = isMatched;
+                        btn.className = `option-btn w-full p-4 border rounded-xl font-semibold text-left transition-all ${
+                            isMatched ? 'bg-success text-white border-success' : 
+                            isSelected ? 'border-primary bg-white text-vox-dark' : 
+                            'border-gray-200 bg-white text-vox-dark hover:bg-cyan-50'
+                        }`;
+                    });
+
+                    rightBtns.forEach(btn => {
+                        const text = btn.textContent;
+                        const pair = exercise.pairs?.find(p => p.right === text);
+                        const isMatched = pair && matchedPairs.has(pair.left);
+                        const isError = errorRightText === text;
+                        btn.disabled = !!isMatched;
+                        btn.className = `option-btn w-full p-4 border rounded-xl font-semibold text-left transition-all ${
+                            isMatched ? 'bg-success text-white border-success' : 
+                            isError ? 'bg-error text-white border-error' : 
+                            'border-gray-200 bg-white text-vox-dark hover:bg-cyan-50'
+                        }`;
+                    });
+                };
+
+                const grid = el('div', { className: "grid grid-cols-2 gap-4" });
+                const leftCol = el('div', { className: "flex flex-col gap-3" });
+                const rightCol = el('div', { className: "flex flex-col gap-3" });
+
+                leftSide.forEach(text => {
+                    const btn = el('button', {
+                        onClick: () => {
+                            if (matchedPairs.has(text)) return;
+                            selectedLeft = text;
+                            updateUI();
+                        }
+                    }, [text]);
+                    leftBtns.push(btn);
+                    leftCol.appendChild(btn);
+                });
+
+                rightSide.forEach(text => {
+                    const btn = el('button', {
+                        onClick: () => {
+                            if (!selectedLeft) return;
+                            const pair = exercise.pairs?.find(p => p.left === selectedLeft);
+                            const isMatch = pair && pair.right === text;
+
+                            if (isMatch) {
+                                matchedPairs.add(selectedLeft);
+                                const finished = matchedPairs.size === exercise.pairs.length;
+                                selectedLeft = null;
+                                updateUI();
+                                if (finished) {
+                                    setTimeout(() => onAnswer(text), 600);
+                                }
+                            } else {
+                                updateUI(text); // show error
+                                setTimeout(() => {
+                                    showFeedback(false, () => {
+                                        selectedLeft = null;
+                                        updateUI();
+                                    });
+                                }, 400);
+                            }
+                        }
+                    }, [text]);
+                    rightBtns.push(btn);
+                    rightCol.appendChild(btn);
+                });
+                
+                updateUI();
+                grid.appendChild(leftCol);
+                grid.appendChild(rightCol);
+                container.appendChild(grid);
+                return container;
+            },
+
+            sentence_ordering: (exercise, onAnswer) => {
+                const container = el('div', {});
+                
+                const header = el('div', { className: "flex items-center justify-between mb-6" }, [
+                    el('h3', { className: "text-xl font-semibold m-0 text-vox-dark" }, ["Arrange in order:"]),
+                    el('button', {
+                        className: "bg-vox-dark text-white rounded-full w-11 h-11 flex items-center justify-center shadow-md hover:scale-110 hover:bg-primary transition-all",
+                        onClick: () => speakText(exercise.answer || '', exercise.voiceLang || 'en-US'),
+                        innerHTML: `<svg class="w-6 h-6 fill-current" viewBox="0 0 24 24"><path d="M3 9v6h4l5 5V4L7 9H3zm13.5 3c0-1.77-1.02-3.29-2.5-4.03v8.05c1.48-.73 2.5-2.25 2.5-4.02zM14 3.23v2.06c2.89.86 5 3.54 5 6.71s-2.11 5.85-5 6.71v2.06c4.01-.91 7-4.49 7-8.77s-2.99-7.86-7-8.77z"/></svg>`
+                    })
+                ]);
+
+                container.appendChild(header);
+
+                let currentSentence = [];
+                let shuffledWords = [...(exercise.words || [])].sort(() => Math.random() - 0.5);
+                let hiddenIndices = new Set();
+
+                const sentenceContainer = el('div', { className: "min-h-[80px] border-b-2 border-primary mb-5 flex gap-2 flex-wrap p-3 items-center" });
+                const poolContainer = el('div', { className: "flex gap-2 flex-wrap" });
+
+                const renderState = () => {
+                    sentenceContainer.innerHTML = '';
+                    poolContainer.innerHTML = '';
+
+                    // Sentence Area
+                    currentSentence.forEach((word, idx) => {
+                        const wordEl = el('div', {
+                            className: "bg-primary text-white px-4 py-2 rounded-lg font-semibold cursor-pointer hover:scale-105 hover:bg-primary-hover transition-all select-none",
+                            onClick: () => {
+                                // Remove from sentence
+                                const wordToRemove = currentSentence[idx];
+                                currentSentence.splice(idx, 1);
+                                // Find first hidden index for this word to show it again
+                                for (let i = 0; i < shuffledWords.length; i++) {
+                                    if (shuffledWords[i] === wordToRemove && hiddenIndices.has(i)) {
+                                        hiddenIndices.delete(i);
+                                        break;
+                                    }
+                                }
+                                renderState();
+                            }
+                        }, [word]);
+                        sentenceContainer.appendChild(wordEl);
+                    });
+
+                    // Pool Area
+                    shuffledWords.forEach((word, idx) => {
+                        const wordBtn = el('button', {
+                            className: `px-5 py-4 border border-gray-200 rounded-xl bg-white font-semibold text-vox-dark hover:border-primary hover:bg-cyan-50 hover:text-primary-hover transition-all ${hiddenIndices.has(idx) ? 'invisible' : 'visible'}`,
+                            onClick: () => {
+                                if (hiddenIndices.has(idx)) return;
+                                currentSentence.push(word);
+                                hiddenIndices.add(idx);
+                                renderState();
+                                if (currentSentence.length === exercise.words.length) {
+                                    setTimeout(() => onAnswer(currentSentence.join(' ')), 600);
+                                }
+                            }
+                        }, [word]);
+                        poolContainer.appendChild(wordBtn);
+                    });
+                };
+
+                renderState();
+                container.appendChild(sentenceContainer);
+                container.appendChild(poolContainer);
+                return container;
+            },
+
+            flashcards: (exercise, onAnswer) => {
+                const container = el('div', { className: "flex flex-col items-center w-full" });
+                let flipped = false;
+
+                const cardInner = el('div', { className: "w-full h-full duration-500 transform-style-3d relative transition-transform" });
+                const cardContainer = el('div', { 
+                    className: "w-full h-[250px] relative perspective-1000 cursor-pointer group",
+                    onClick: () => {
+                        flipped = !flipped;
+                        cardInner.className = `w-full h-full duration-500 transform-style-3d relative transition-transform ${flipped ? 'rotate-y-180' : ''}`;
+                    }
+                }, [cardInner]);
+
+                const front = el('div', { className: "absolute w-full h-full backface-hidden bg-vox-dark text-white rounded-3xl flex items-center justify-center text-3xl font-bold shadow-xl p-4 text-center" }, [exercise.front]);
+                const back = el('div', { className: "absolute w-full h-full backface-hidden bg-primary text-white rounded-3xl flex items-center justify-center text-3xl font-bold shadow-xl rotate-y-180 p-4 text-center" }, [exercise.back]);
+
+                cardInner.appendChild(front);
+                cardInner.appendChild(back);
+
+                const btn = el('button', {
+                    className: "w-full mt-8 py-4 px-5 bg-white border border-gray-200 rounded-xl text-lg font-semibold text-vox-dark hover:border-primary hover:bg-cyan-50 hover:text-primary-hover transition-all shadow-sm",
+                    onClick: () => onAnswer(exercise.answer || exercise.back)
+                }, ["I've memorized this"]);
+
+                container.appendChild(cardContainer);
+                container.appendChild(btn);
+                return container;
+            },
+
+            fill_blank_typing: (exercise, onAnswer) => {
+                const parts = exercise.question.split('___');
+                let value = '';
+                
+                const input = el('input', {
+                    type: "text",
+                    className: "border-none border-b-2 border-primary outline-none w-[140px] text-center text-xl font-inherit mx-2 bg-transparent focus:border-primary-hover",
+                    onInput: (e) => { value = e.target.value; }
+                });
+
+                const container = el('div', {}, [
+                    el('h3', { className: "text-xl font-semibold mb-6 text-vox-dark" }, ["Type the missing word:"]),
+                    el('div', { className: "text-xl leading-loose mb-8" }, [
+                        parts[0],
+                        input,
+                        parts[1]
+                    ]),
+                    el('button', {
+                        className: "w-full py-4 bg-vox-dark text-white rounded-xl font-semibold hover:bg-gray-800 transition-colors",
+                        onClick: () => onAnswer(value)
+                    }, ["Check Answer"])
+                ]);
+                return container;
+            },
+
+            tap_fill: (exercise, onAnswer) => {
+                const parts = exercise.question.split('___');
+                let filledWord = null;
+
+                const blankSpan = el('span', { className: "text-primary border-b-[3px] border-primary px-3 font-bold" }, ["..."]);
+                const questionDisplay = el('div', { className: "text-2xl my-8 p-8 bg-slate-50 rounded-xl text-center border border-gray-100" }, [
+                    parts[0], blankSpan, parts[1]
+                ]);
+
+                const optionsContainer = el('div', { className: "flex gap-3 flex-wrap justify-center" });
+                exercise.options?.forEach(opt => {
+                    const btn = el('button', {
+                        className: "px-6 py-4 bg-white border border-gray-200 rounded-xl font-semibold hover:border-primary hover:bg-cyan-50 hover:text-primary-hover transition-all shadow-sm",
+                        onClick: () => {
+                            blankSpan.textContent = opt;
+                            setTimeout(() => onAnswer(opt), 400);
+                        }
+                    }, [opt]);
+                    optionsContainer.appendChild(btn);
+                });
+
+                return el('div', {}, [
+                    el('h3', { className: "text-xl font-semibold mb-6 text-vox-dark" }, ["Complete the sequence:"]),
+                    questionDisplay,
+                    optionsContainer
+                ]);
+            },
+
+            pronunciation: (exercise, onAnswer) => {
+                const statusSpan = el('span', {}, ["Tap to Record"]);
+                const btnContent = el('span', {}, ["🎤 ", statusSpan]);
+                let isRecording = false;
+
+                const btn = el('button', {
+                    className: "w-full py-5 rounded-xl text-white font-bold text-lg transition-all shadow-md bg-vox-dark hover:bg-gray-800",
+                    onClick: async () => {
+                        const lang = exercise.voiceLang || 'en-US';
+                        statusSpan.textContent = `Recording (${lang})...`;
+                        isRecording = true;
+                        btn.className = "w-full py-5 rounded-xl text-white font-bold text-lg transition-all shadow-md bg-error animate-pulse";
+                        btn.disabled = true;
+
+                        try {
+                            const res = await startListening(lang);
+                            isRecording = false;
+                            btn.disabled = false;
+                            onAnswer(res);
+                        } catch (e) {
+                            console.error('Mic Error:', e);
+                            isRecording = false;
+                            btn.disabled = false;
+                            btn.className = "w-full py-5 rounded-xl text-white font-bold text-lg transition-all shadow-md bg-vox-dark hover:bg-gray-800";
+                            
+                            const errMap = {
+                                'no-speech': 'No speech detected',
+                                'not-allowed': 'Mic access denied',
+                                'audio-capture': 'No mic found',
+                                'network': 'Network error',
+                                'not-supported': 'Not supported',
+                                'service-not-allowed': 'Service not allowed'
+                            };
+                            const msg = errMap[e] || (typeof e === 'string' ? e : 'Try Again');
+                            statusSpan.textContent = msg;
+                        }
+                    }
+                }, [btnContent]);
+
+                return el('div', { className: "text-center" }, [
+                    el('h3', { className: "text-xl font-semibold mb-4 text-vox-dark" }, ["Voice Articulation:"]),
+                    el('p', { className: "text-4xl font-extrabold text-primary my-10" }, [exercise.question]),
+                    btn
+                ]);
+            }
+        };
+
+        // --- Exercise Runner Controller ---
+        class ExerciseRunner {
+            constructor(container, params, siteLanguage, onComplete, onBack, onTranslationRequest) {
+                this.container = container;
+                this.params = params;
+                this.siteLanguage = siteLanguage;
+                this.onComplete = onComplete;
+                this.onBack = onBack;
+                this.onTranslationRequest = onTranslationRequest;
+                
+                this.data = null;
+                this.currentIdx = 0;
+                this.loading = true;
+                this.error = false;
+            }
+
+            async init() {
+                try {
+                    this.renderLoading();
+                    this.data = await fetchData(this.params.cid);
+                    this.loading = false;
+                    this.render();
+                } catch (e) {
+                    this.error = true;
+                    this.loading = false;
+                    this.render();
+                }
+            }
+
+            renderLoading() {
+                this.container.innerHTML = '';
+                this.container.appendChild(el('div', { className: "text-center py-20" }, [
+                    el('div', { className: "w-8 h-8 mx-auto border-4 border-gray-200 border-t-primary rounded-full animate-spin-custom" })
+                ]));
+            }
+
+            renderError() {
+                this.container.innerHTML = '';
+                const backBtn = el('button', { className: "text-primary underline", onClick: this.onBack }, ["Go Back"]);
+                this.container.appendChild(el('div', { className: "text-center py-20" }, ["Stage load error. ", backBtn]));
+            }
+
+            handleAnswer(input) {
+                const ex = this.data.exercises[this.currentIdx];
+                const solution = ex.type === 'matching' ? input : ex.answer;
+                
+                const norm = (s) => String(s).toLowerCase().trim().replace(/[.,!?;]/g, '');
+                const correct = !solution || norm(input) === norm(solution);
+
+                showFeedbackOverlay(correct, () => {
+                    if (correct) {
+                        this.currentIdx++;
+                        this.render();
+                    }
+                });
+            }
+
+            render() {
+                if (this.loading) { this.renderLoading(); return; }
+                if (this.error || !this.data) { this.renderError(); return; }
+
+                if (this.currentIdx >= this.data.exercises.length) {
+                    this.container.innerHTML = '';
+                    this.container.appendChild(el('div', { className: "text-center py-10" }, [
+                        el('div', { className: "text-6xl mb-6" }, ["🏆"]),
+                        el('h2', { className: "text-3xl font-extrabold text-vox-dark mb-2" }, ["Mastery Achieved!"]),
+                        el('p', { className: "text-secondary mb-8 text-lg" }, ["You have successfully completed this module."]),
+                        el('button', {
+                            className: "px-8 py-3 bg-vox-dark text-white rounded-xl font-bold hover:scale-105 transition-transform",
+                            onClick: () => this.onComplete(this.params.level, this.params.section, this.params.stageId)
+                        }, ["Next Module"])
+                    ]));
+                    return;
+                }
+
+                const ex = this.data.exercises[this.currentIdx];
+                const progress = (this.currentIdx / this.data.exercises.length) * 100;
+
+                this.container.innerHTML = '';
+                
+                // Top Bar
+                const topBar = el('div', { className: "flex justify-between items-center mb-2" }, [
+                    el('span', { className: "text-xs font-bold text-secondary uppercase tracking-wider" }, [`Exercise ${this.currentIdx + 1} / ${this.data.exercises.length}`]),
+                    el('div', { className: "flex gap-2" }, [
+                        this.currentIdx > 0 ? el('button', {
+                            className: "bg-slate-100 text-secondary border border-gray-200 px-3 py-1 rounded-md text-xs font-bold uppercase hover:bg-gray-200 hover:text-vox-dark transition-colors",
+                            onClick: () => { this.currentIdx--; this.render(); }
+                        }, ["back"]) : null,
+                        el('button', {
+                            className: "bg-slate-100 text-secondary border border-gray-200 px-3 py-1 rounded-md text-xs font-bold uppercase hover:bg-gray-200 hover:text-vox-dark transition-colors",
+                            onClick: () => { this.currentIdx++; this.render(); }
+                        }, ["skip"])
+                    ])
+                ]);
+
+                // Progress Bar
+                const progressBar = el('div', { className: "w-full h-2 bg-gray-200 rounded-full mb-6 overflow-hidden" }, [
+                    el('div', { className: "h-full bg-primary transition-all duration-300 ease-out", style: { width: `${progress}%` } })
+                ]);
+
+                // Exercise Content
+                let exerciseContent;
+                if (ExerciseRenderers[ex.type]) {
+                    exerciseContent = ExerciseRenderers[ex.type](ex, this.handleAnswer.bind(this), showFeedbackOverlay);
+                } else {
+                    exerciseContent = el('div', {}, ["Unknown exercise type"]);
+                }
+
+                this.container.appendChild(topBar);
+                this.container.appendChild(progressBar);
+                this.container.appendChild(exerciseContent);
+
+                // Deep Analysis Floating Button
+                const deepBtn = el('div', { className: "fixed bottom-8 right-8 z-[1500]" }, [
+                    el('button', {
+                        className: "px-6 py-3 bg-vox-dark text-white rounded-full font-semibold shadow-vox-lg hover:scale-105 transition-transform",
+                        onClick: () => this.onTranslationRequest(ex.id, this.siteLanguage)
+                    }, ["🌐 Deep Analysis"])
+                ]);
+                this.container.appendChild(deepBtn);
+            }
+        }
+
+        /**
+         * ------------------------------------------------------------------
+         * MAIN APP
+         * ------------------------------------------------------------------
+         */
+
+        const root = document.getElementById('root');
+        let userState = initSession();
+        let manifest = null;
+        let view = 'menu';
+        let activeStage = null;
+        
+        // Translation Modal State
+        let transModalOpen = false;
+        let transExId = null;
+        let activeModalEl = null;
+
+        function updateState(key, value) {
+            userState[key] = value;
+            saveProgress(userState);
+            renderApp();
+        }
+
+        function handleSelectStage(cid, level, section, stageId) {
+            activeStage = { cid, level, section, stageId };
+            view = 'exercise';
+            transModalOpen = false;
+            renderApp();
+        }
+
+        function handleStageComplete(level, section, stageId) {
+            userState = unlockStage(userState, 'all', level, section, stageId + 1);
+            view = 'menu';
+            activeStage = null;
+            renderApp();
+        }
+
+        function toggleTransModal(isOpen, exId) {
+            transModalOpen = isOpen;
+            transExId = exId || null;
+            if (activeModalEl) activeModalEl.remove();
+            
+            // Re-render modal only
+            activeModalEl = createTranslationModal(transModalOpen, transExId, userState.siteLanguage, () => toggleTransModal(false));
+            document.body.appendChild(activeModalEl);
+        }
+
+        async function initApp() {
+            try {
+                manifest = await fetchData('manifest.json');
+            } catch (e) {
+                console.error("Failed to load manifest", e);
+            }
+            renderApp();
+        }
+
+        function renderApp() {
+            root.innerHTML = '';
+            
+            // Header
+            root.appendChild(createHeader(userState, updateState, () => window.location.reload()));
+
+            // Main Container
+            const mainContainer = el('div', { className: "w-[95%] max-w-[1100px] mx-auto mt-10 p-6 md:p-10 bg-card-bg rounded-3xl shadow-vox-lg border border-gray-200 min-h-[500px] transition-all duration-300" });
+            
+            if (view === 'menu') {
+                mainContainer.appendChild(createStageMenu(manifest, userState, handleSelectStage));
+            } else if (view === 'exercise' && activeStage) {
+                // Initialize Exercise Runner
+                const runner = new ExerciseRunner(
+                    mainContainer, 
+                    activeStage, 
+                    userState.siteLanguage,
+                    handleStageComplete,
+                    () => { view = 'menu'; renderApp(); },
+                    (exId, lang) => toggleTransModal(true, exId)
+                );
+                runner.init();
+            }
+
+            root.appendChild(mainContainer);
+
+            // Re-mount modal if open
+            if(transModalOpen && !activeModalEl?.parentNode) {
+                 activeModalEl = createTranslationModal(transModalOpen, transExId, userState.siteLanguage, () => toggleTransModal(false));
+                 document.body.appendChild(activeModalEl);
+            }
+        }
+
+        // Start
+        initApp();
+
     </script>
 </body>
-
 </html>
