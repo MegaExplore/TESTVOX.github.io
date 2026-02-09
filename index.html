@@ -676,55 +676,72 @@
                 const grid = document.createElement('div');
                 grid.style.cssText = 'display: grid; grid-template-columns: 1fr 1fr; gap: 10px;';
 
-                let selectedLeft = null;
-                let leftBtn = null;
+                let firstSelection = null;
+                let firstBtn = null;
+                let firstSide = null;
                 const pairs = ex.pairs;
                 const leftSide = pairs.map(p => p.left).sort(() => Math.random() - 0.5);
                 const rightSide = pairs.map(p => p.right).sort(() => Math.random() - 0.5);
                 let matchedCount = 0;
 
-                const checkMatch = (rightVal, rightBtn) => {
-                    const pair = pairs.find(p => p.left === selectedLeft);
-                    const isMatch = rightVal === pair.right;
+                const checkMatch = (secondVal, secondBtn, secondSide) => {
+                    const leftVal = secondSide === 'left' ? secondVal : firstSelection;
+                    const rightVal = secondSide === 'right' ? secondVal : firstSelection;
+
+                    const pair = pairs.find(p => p.left === leftVal);
+                    const isMatch = pair && rightVal === pair.right;
 
                     if (isMatch) {
-                        rightBtn.style.background = 'var(--success)';
-                        rightBtn.style.color = 'white';
-                        leftBtn.style.background = 'var(--success)';
-                        leftBtn.style.color = 'white';
-                        rightBtn.disabled = true;
-                        leftBtn.disabled = true;
+                        secondBtn.style.background = 'var(--success)';
+                        secondBtn.style.color = 'white';
+                        firstBtn.style.background = 'var(--success)';
+                        firstBtn.style.color = 'white';
+                        secondBtn.disabled = true;
+                        firstBtn.disabled = true;
                         matchedCount++;
-                        selectedLeft = null;
-                        leftBtn = null;
+                        resetSelection();
                         if (matchedCount === pairs.length) {
                             setTimeout(() => onAnswer(rightVal), 600);
                         }
                     } else {
-                        rightBtn.style.background = 'var(--error)';
-                        rightBtn.style.color = 'white';
+                        secondBtn.style.background = 'var(--error)';
+                        secondBtn.style.color = 'white';
+                        const storedFirstBtn = firstBtn;
                         setTimeout(() => {
                             showFeedback(false, () => {
-                                rightBtn.style.background = 'white';
-                                rightBtn.style.color = 'var(--text-main)';
-                                leftBtn.style.borderColor = 'var(--border)';
-                                selectedLeft = null;
-                                leftBtn = null;
+                                secondBtn.style.background = 'white';
+                                secondBtn.style.color = 'var(--text-main)';
+                                storedFirstBtn.style.borderColor = 'var(--border)';
+                                resetSelection();
                             });
                         }, 400);
                     }
                 };
 
+                const resetSelection = () => {
+                    firstSelection = null;
+                    firstBtn = null;
+                    firstSide = null;
+                    container.querySelectorAll('.option-btn').forEach(btn => btn.style.borderColor = 'var(--border)');
+                };
+
+                const handleSelection = (text, btn, side) => {
+                    if (!firstSelection || firstSide === side) {
+                        firstSelection = text;
+                        firstBtn = btn;
+                        firstSide = side;
+                        container.querySelectorAll('.option-btn').forEach(b => b.style.borderColor = 'var(--border)');
+                        btn.style.borderColor = 'var(--primary)';
+                    } else {
+                        checkMatch(text, btn, side);
+                    }
+                };
+
                 leftSide.forEach(text => {
                     const b = document.createElement('button');
-                    b.className = 'option-btn left-btn';
+                    b.className = 'option-btn';
                     b.textContent = text;
-                    b.onclick = () => {
-                        selectedLeft = text;
-                        leftBtn = b;
-                        container.querySelectorAll('.left-btn').forEach(btn => btn.style.borderColor = 'var(--border)');
-                        b.style.borderColor = 'var(--primary)';
-                    };
+                    b.onclick = () => handleSelection(text, b, 'left');
                     grid.appendChild(b);
                 });
 
@@ -732,7 +749,7 @@
                     const b = document.createElement('button');
                     b.className = 'option-btn';
                     b.textContent = text;
-                    b.onclick = () => { if (selectedLeft) checkMatch(text, b); };
+                    b.onclick = () => handleSelection(text, b, 'right');
                     grid.appendChild(b);
                 });
                 container.appendChild(grid);
