@@ -543,7 +543,8 @@
             siteLanguage: 'en',
             targetLanguage: 'all',
             level: 'A1',
-            unlockedStages: {}
+            unlockedStages: {},
+            exerciseProgress: {}
         };
 
         function initSession() {
@@ -1042,12 +1043,15 @@
             gameArea.innerHTML = '<div class="spinner" style="margin:50px auto;"></div>';
             try {
                 const stageData = await fetchData(cid);
-                runExercise(stageData, 0, level, section, stageId);
+                const savedIdx = (state.exerciseProgress && state.exerciseProgress[cid]) || 0;
+                runExercise(stageData, savedIdx, level, section, stageId, cid);
             } catch (e) { gameArea.textContent = "Stage load error."; }
         }
 
-        function runExercise(data, idx, level, section, stageId) {
+        function runExercise(data, idx, level, section, stageId, cid) {
             if (idx >= data.exercises.length) {
+                if (state.exerciseProgress) delete state.exerciseProgress[cid];
+                saveProgress(state);
                 unlockStage(state, 'all', level, section, stageId + 1);
                 document.getElementById('game-container').innerHTML = `
                     <div class=\"text-center\" style=\"padding: 40px 0; text-align: center;\">
@@ -1081,13 +1085,17 @@
             const contentArea = document.createElement('div');
             container.appendChild(contentArea);
 
-            document.getElementById('skip-btn').onclick = () => runExercise(data, idx + 1, level, section, stageId);
+            document.getElementById('skip-btn').onclick = () => runExercise(data, idx + 1, level, section, stageId, cid);
             document.getElementById('home-btn').onclick = () => showMenu();
 
             const backBtn = document.getElementById('back-btn');
             if (backBtn) {
-                backBtn.onclick = () => runExercise(data, idx - 1, level, section, stageId);
+                backBtn.onclick = () => runExercise(data, idx - 1, level, section, stageId, cid);
             }
+
+            if (!state.exerciseProgress) state.exerciseProgress = {};
+            state.exerciseProgress[cid] = idx;
+            saveProgress(state);
 
             updateTranslationButton(ex.id, state.siteLanguage, document.getElementById('translate-btn'));
 
@@ -1096,7 +1104,7 @@
                 const solution = ex.type === 'matching' ? input : ex.answer;
                 const correct = checkAnswer(input, solution);
                 showFeedback(correct, () => {
-                    if (correct) runExercise(data, idx + 1, level, section, stageId);
+                    if (correct) runExercise(data, idx + 1, level, section, stageId, cid);
                 });
             });
         }
