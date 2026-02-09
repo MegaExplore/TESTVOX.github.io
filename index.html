@@ -463,7 +463,7 @@
 
             <div class="nav-controls">
                 <div class="select-group">
-                    <label class="select-label">Site</label>
+                    <label id="lbl-site" class="select-label">Site</label>
                     <select id="site-lang-select" class="header-select">
                         <option value="en">English</option>
                         <option value="es">Español</option>
@@ -472,7 +472,7 @@
                 </div>
 
                 <div class="select-group">
-                    <label class="select-label">Learning</label>
+                    <label id="lbl-learning" class="select-label">Learning</label>
                     <select id="target-lang-select" class="header-select">
                         <option value="all">All Modules</option>
                         <option value="en">English</option>
@@ -481,7 +481,7 @@
                 </div>
 
                 <div class="select-group">
-                    <label class="select-label">Your Level</label>
+                    <label id="lbl-level" class="select-label">Your Level</label>
                     <select id="level-select" class="header-select">
                         <option value="A1">A1</option>
                         <option value="A2">A2</option>
@@ -524,6 +524,54 @@
     </div>
 
     <script type="module">
+        const translations = {
+            en: {
+                site: "Site", learning: "Learning", level: "Your Level", initial: "Initializing VOX...",
+                all: "All Modules", prep: "Level {0} content is currently being prepared.",
+                match: "Match the Pairs:", order: "Arrange in order:", listen: "Listen to sentence",
+                memorized: "I've memorized this", typeMissing: "Type the missing word:",
+                check: "Check Answer", completeSeq: "Complete the sequence:", voiceArtic: "Voice Articulation:",
+                tapRecord: "🎤 Tap to Record", recording: "Recording ({0})...", mastery: "Mastery Achieved!",
+                completed: "You have successfully completed this module.", next: "Next Module",
+                exercise: "Exercise", home: "home", back: "back", skip: "skip",
+                insight: "Linguistic Insight", precision: "Precision", tryAgain: "Try Again",
+                analysis: "🌐 Deep Analysis"
+            },
+            es: {
+                site: "Sitio", learning: "Aprendizaje", level: "Tu Nivel", initial: "Iniciando VOX...",
+                all: "Todos los Módulos", prep: "El contenido del Nivel {0} se está preparando.",
+                match: "Emparejar los Pares:", order: "Organizar en orden:", listen: "Escuchar frase",
+                memorized: "He memorizado esto", typeMissing: "Escribe la palabra que falta:",
+                check: "Verificar", completeSeq: "Completa la secuencia:", voiceArtic: "Articulación de Voz:",
+                tapRecord: "🎤 Toca para Grabar", recording: "Grabando ({0})...", mastery: "¡Dominio Alcanzado!",
+                completed: "Has completado este módulo con éxito.", next: "Siguiente Módulo",
+                exercise: "Ejercicio", home: "inicio", back: "atrás", skip: "saltar",
+                insight: "Visión Lingüística", precision: "Precisión", tryAgain: "Inténtalo de nuevo",
+                analysis: "🌐 Análisis Profundo"
+            },
+            fr: {
+                site: "Site", learning: "Apprentissage", level: "Votre Niveau", initial: "Initialisation de VOX...",
+                all: "Tous les Modules", prep: "Le contenu du Niveau {0} est en cours de préparation.",
+                match: "Associez les Paires :", order: "Organisez par ordre :", listen: "Écouter la phrase",
+                memorized: "J'ai mémorisé ceci", typeMissing: "Tapez le mot manquant :",
+                check: "Vérifier", completeSeq: "Complétez la séquence :", voiceArtic: "Articulation Vocale :",
+                tapRecord: "🎤 Appuyer pour Enregistrer", recording: "Enregistrement ({0})...", mastery: "Maîtrise Atteinte !",
+                completed: "Vous avez terminé ce module avec succès.", next: "Module Suivant",
+                exercise: "Exercice", home: "accueil", back: "retour", skip: "passer",
+                insight: "Aperçu Linguistique", precision: "Précision", tryAgain: "Réessayez",
+                analysis: "🌐 Analyse Profonde"
+            }
+        };
+
+        function t(key, ...args) {
+            const lang = state.siteLanguage || 'en';
+            let str = translations[lang][key] || translations['en'][key] || key;
+            args.forEach((val, i) => {
+                str = str.replace(`{${i}}`, val);
+            });
+            return str;
+        }
+
         const GITHUB_BASE = 'https://raw.githubusercontent.com/MegaExplore/vox.github.io/main/schemas/';
 
         async function fetchData(path) {
@@ -670,7 +718,7 @@
 
             matching: (ex, container, onAnswer) => {
                 const q = document.createElement('h3');
-                q.textContent = "Match the Pairs:";
+                q.textContent = t('match');
                 container.appendChild(q);
 
                 const grid = document.createElement('div');
@@ -760,12 +808,12 @@
                 headerBox.style.cssText = 'display: flex; align-items: center; justify-content: space-between; margin-bottom: 24px;';
 
                 const q = document.createElement('h3');
-                q.textContent = "Arrange in order:";
+                q.textContent = t('order');
                 q.style.margin = '0';
 
                 const audioBtn = document.createElement('button');
                 audioBtn.className = 'audio-btn';
-                audioBtn.title = "Listen to sentence";
+                audioBtn.title = t('listen');
                 audioBtn.innerHTML = `<svg viewBox="0 0 24 24"><path d="M3 9v6h4l5 5V4L7 9H3zm13.5 3c0-1.77-1.02-3.29-2.5-4.03v8.05c1.48-.73 2.5-2.25 2.5-4.02zM14 3.23v2.06c2.89.86 5 3.54 5 6.71s-2.11 5.85-5 6.71v2.06c4.01-.91 7-4.49 7-8.77s-2.99-7.86-7-8.77z"/></svg>`;
                 audioBtn.onclick = () => speakText(ex.answer, ex.voiceLang || 'en-US');
 
@@ -834,14 +882,14 @@
 
                 const done = document.createElement('button');
                 done.className = 'option-btn'; done.style.marginTop = '30px';
-                done.textContent = "I've memorized this";
+                done.textContent = t('memorized');
                 done.onclick = () => onAnswer(ex.answer || ex.back);
                 container.appendChild(done);
             },
 
             fill_blank_typing: (ex, container, onAnswer) => {
                 const q = document.createElement('h3');
-                q.textContent = "Type the missing word:";
+                q.textContent = t('typeMissing');
                 container.appendChild(q);
                 const p = document.createElement('p');
                 p.style.fontSize = '1.25rem';
@@ -849,7 +897,7 @@
                 container.appendChild(p);
                 const btn = document.createElement('button');
                 btn.className = 'option-btn'; btn.style.background = 'var(--vox-dark)'; btn.style.color = 'white';
-                btn.textContent = "Check Answer";
+                btn.textContent = t('check');
                 btn.onclick = () => {
                     const val = document.getElementById('typing-input').value;
                     onAnswer(val);
@@ -859,7 +907,7 @@
 
             tap_fill: (ex, container, onAnswer) => {
                 const q = document.createElement('h3');
-                q.textContent = "Complete the sequence:";
+                q.textContent = t('completeSeq');
                 container.appendChild(q);
                 const p = document.createElement('p');
                 p.style.cssText = 'font-size: 1.5rem; margin: 32px 0; padding: 24px; background: #f8fafc; border-radius: 12px; text-align: center;';
@@ -882,7 +930,7 @@
 
             pronunciation: (ex, container, onAnswer) => {
                 const q = document.createElement('h3');
-                q.textContent = "Voice Articulation:";
+                q.textContent = t('voiceArtic');
                 container.appendChild(q);
                 const p = document.createElement('p');
                 p.style.cssText = 'font-size: 2rem; font-weight: 800; text-align: center; margin: 40px 0; color: var(--primary);';
@@ -891,10 +939,10 @@
                 const btn = document.createElement('button');
                 btn.className = 'option-btn'; btn.style.textAlign = 'center';
                 btn.style.background = 'var(--vox-dark)'; btn.style.color = 'white';
-                btn.innerHTML = '🎤 Tap to Record';
+                btn.innerHTML = t('tapRecord');
                 btn.onclick = async () => {
                     const lang = ex.voiceLang || 'en-US';
-                    btn.textContent = `Recording (${lang})...`;
+                    btn.textContent = t('recording', lang);
                     try {
                         const res = await startListening(lang);
                         onAnswer(res);
@@ -940,7 +988,7 @@
                 container.innerHTML += `
                     <div style="text-align:center; padding: 60px 0; color: var(--secondary);">
                         <div style="font-size: 3rem; margin-bottom: 16px;">⏳</div>
-                        <p>Level ${selectedLevel} content is currently being prepared.</p>
+                        <p>${t('prep', selectedLevel)}</p>
                     </div>
                 `;
                 return;
@@ -997,9 +1045,11 @@
 
         async function updateTranslationButton(exId, lang, btn) {
             btn.style.display = 'block';
+            btn.textContent = t('analysis');
             btn.onclick = async () => {
                 const mod = document.getElementById('translation-modal');
                 const con = document.getElementById('translation-content');
+                document.querySelector('#translation-modal h3').textContent = t('insight');
                 mod.classList.add('open');
 
                 if (!translationCache) {
@@ -1027,11 +1077,32 @@
             const targetSelect = document.getElementById('target-lang-select');
             const levelSelect = document.getElementById('level-select');
 
+            const refreshLabels = () => {
+                document.getElementById('lbl-site').textContent = t('site');
+                document.getElementById('lbl-learning').textContent = t('learning');
+                document.getElementById('lbl-level').textContent = t('level');
+                targetSelect.options[0].textContent = t('all');
+            };
+
             siteSelect.value = state.siteLanguage;
             targetSelect.value = state.targetLanguage;
             levelSelect.value = state.level;
+            refreshLabels();
 
-            siteSelect.onchange = (e) => { state.siteLanguage = e.target.value; saveProgress(state); };
+            siteSelect.onchange = (e) => {
+                state.siteLanguage = e.target.value;
+                saveProgress(state);
+                refreshLabels();
+                // Determine current view and re-render
+                const gameArea = document.getElementById('game-container');
+                if (gameArea.querySelector('.stage-grid')) {
+                    showMenu();
+                } else if (window.currentExerciseData) {
+                    runExercise(window.currentExerciseData.data, window.currentExerciseData.idx,
+                        window.currentExerciseData.level, window.currentExerciseData.section,
+                        window.currentExerciseData.stageId, window.currentExerciseData.cid);
+                }
+            };
             targetSelect.onchange = (e) => { state.targetLanguage = e.target.value; saveProgress(state); };
             levelSelect.onchange = (e) => {
                 state.level = e.target.value;
@@ -1041,6 +1112,12 @@
         }
 
         async function start() {
+            document.getElementById('game-container').innerHTML = `
+                <div style="text-align: center; padding: 100px 0;">
+                    <div class="spinner" style="margin: 0 auto 24px;"></div>
+                    <h2 style="color: var(--secondary)">${t('initial')}</h2>
+                </div>
+            `;
             setupHeader();
             try {
                 currentManifest = await fetchData('manifest.json');
@@ -1066,6 +1143,7 @@
         }
 
         function runExercise(data, idx, level, section, stageId, cid) {
+            window.currentExerciseData = { data, idx, level, section, stageId, cid };
             if (idx >= data.exercises.length) {
                 if (state.exerciseProgress) delete state.exerciseProgress[cid];
                 saveProgress(state);
@@ -1073,9 +1151,9 @@
                 document.getElementById('game-container').innerHTML = `
                     <div class=\"text-center\" style=\"padding: 40px 0; text-align: center;\">
                         <div style=\"font-size: 4rem; margin-bottom: 24px;\">🏆</div>
-                        <h2>Mastery Achieved!</h2>
-                        <p style=\"color: var(--secondary); margin-bottom: 32px;\">You have successfully completed this module.</p>
-                        <button class=\"option-btn\" style=\"text-align: center; background: var(--vox-dark); color: white; border: none; max-width: 250px; margin: 0 auto;\" onclick=\"location.reload()\">Next Module</button>
+                        <h2>${t('mastery')}</h2>
+                        <p style=\"color: var(--secondary); margin-bottom: 32px;\">${t('completed')}</p>
+                        <button class=\"option-btn\" style=\"text-align: center; background: var(--vox-dark); color: white; border: none; max-width: 250px; margin: 0 auto;\" onclick=\"location.reload()\">${t('next')}</button>
                     </div>
                 `;
                 return;
@@ -1088,12 +1166,12 @@
             container.innerHTML = `
                 <div style=\"display:flex; justify-content:space-between; align-items:center; margin-bottom: 8px;\">
                     <span style=\"font-size: 0.75rem; font-weight: 700; color: var(--secondary); text-transform: uppercase;\">
-                        Exercise ${idx + 1} / ${data.exercises.length}
+                        ${t('exercise')} ${idx + 1} / ${data.exercises.length}
                     </span>
                     <div style=\"display:flex; gap:8px;\">
-                        <button id=\"home-btn\" class=\"nav-btn\">home</button>
-                        ${idx > 0 ? `<button id=\"back-btn\" class=\"nav-btn\">back</button>` : ''}
-                        <button id=\"skip-btn\" class=\"nav-btn\">skip</button>
+                        <button id=\"home-btn\" class=\"nav-btn\">${t('home')}</button>
+                        ${idx > 0 ? `<button id=\"back-btn\" class=\"nav-btn\">${t('back')}</button>` : ''}
+                        <button id=\"skip-btn\" class=\"nav-btn\">${t('skip')}</button>
                     </div>
                 </div>
                 <div class=\"progress-bar-container\"><div class=\"progress-fill\" style=\"width: ${progress}%\"></div></div>
@@ -1129,7 +1207,7 @@
         function showFeedback(ok, next) {
             const over = document.getElementById('feedback-overlay');
             document.getElementById('feedback-icon').textContent = ok ? '✅' : '❌';
-            document.getElementById('feedback-title').textContent = ok ? 'Precision' : 'Try Again';
+            document.getElementById('feedback-title').textContent = ok ? t('precision') : t('tryAgain');
             document.getElementById('feedback-title').style.color = ok ? 'var(--success)' : 'var(--error)';
             over.classList.add('active');
             setTimeout(() => {
