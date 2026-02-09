@@ -966,7 +966,7 @@
                     btn.className = `stage-card ${ok ? '' : 'locked'}`;
                     btn.innerHTML = `
                         <div style="font-size:2.5rem; margin-bottom: 12px;">${ok ? (stg.icon || '📖') : '🔒'}</div>
-                        <div style="font-weight:700;">${stg.name}</div>
+                        <div style="font-weight:700; font-size: 1.4rem;">${stg.name}</div>
                     `;
                     if (ok) btn.onclick = () => onSelect(stg.cid, selectedLevel, secKey, stg.id);
                     grid.appendChild(btn);
