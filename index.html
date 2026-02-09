@@ -888,10 +888,28 @@
                 secTitle.style.fontWeight = '800';
                 secTitle.style.fontSize = '1.75rem';
                 secTitle.textContent = sec.title;
+                secTitle.style.cursor = 'pointer';
+                secTitle.style.userSelect = 'none';
+                secTitle.style.transition = 'color 0.2s, opacity 0.2s';
+
+                secTitle.onmouseenter = () => {
+                    secTitle.style.color = 'var(--primary)';
+                    secTitle.style.opacity = '0.8';
+                };
+                secTitle.onmouseleave = () => {
+                    secTitle.style.color = 'var(--vox-dark)';
+                    secTitle.style.opacity = '1';
+                };
+
                 container.appendChild(secTitle);
 
                 const grid = document.createElement('div');
                 grid.className = 'stage-grid';
+                grid.style.display = 'none';
+
+                secTitle.onclick = () => {
+                    grid.style.display = grid.style.display === 'none' ? 'grid' : 'none';
+                };
 
                 sec.stages.forEach(stg => {
                     const secKey = sec.title.replace(/\s+/g, '_');
