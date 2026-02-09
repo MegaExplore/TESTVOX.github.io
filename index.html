@@ -634,7 +634,8 @@
                 completed: "You have successfully completed this module.", next: "Next Module",
                 exercise: "Exercise", home: "Home", back: "back", skip: "skip",
                 insight: "Linguistic Insight", precision: "Precision", tryAgain: "Try Again",
-                analysis: "🌐 Deep Analysis", subscriptions: "Your Subscriptions"
+                analysis: "🌐 Deep Analysis", subscriptions: "Your Subscriptions",
+                choose: "Choose the correct answer:"
             },
             es: {
                 site: "Sitio", learning: "Aprendizaje", level: "Tu Nivel", initial: "Iniciando VOX...",
@@ -646,7 +647,8 @@
                 completed: "Has completado este módulo con éxito.", next: "Siguiente Módulo",
                 exercise: "Ejercicio", home: "Inicio", back: "atrás", skip: "saltar",
                 insight: "Visión Lingüística", precision: "Precisión", tryAgain: "Inténtalo de nuevo",
-                analysis: "🌐 Análisis Profundo", subscriptions: "Tus Suscripciones"
+                analysis: "🌐 Análisis Profundo", subscriptions: "Tus Suscripciones",
+                choose: "Elige la respuesta correcta:"
             },
             fr: {
                 site: "Site", learning: "Apprentissage", level: "Votre Niveau", initial: "Initialisation de VOX...",
@@ -658,7 +660,8 @@
                 completed: "Vous avez terminé ce module avec succès.", next: "Module Suivant",
                 exercise: "Exercice", home: "Accueil", back: "retour", skip: "passer",
                 insight: "Aperçu Linguistique", precision: "Précision", tryAgain: "Réessayez",
-                analysis: "🌐 Analyse Profonde", subscriptions: "Vos Abonnements"
+                analysis: "🌐 Analyse Profonde", subscriptions: "Vos Abonnements",
+                choose: "Choisissez la bonne réponse :"
             }
         };
 
@@ -804,8 +807,14 @@
         const renderers = {
             multiple_choice: (ex, container, onAnswer) => {
                 const q = document.createElement('h3');
-                q.textContent = ex.question;
+                q.textContent = t('choose');
                 container.appendChild(q);
+
+                const p = document.createElement('p');
+                p.style.cssText = 'font-size: 1.5rem; margin: 32px 0; padding: 24px; background: #f8fafc; border-radius: 12px; text-align: center;';
+                p.innerHTML = ex.question.replace('___', `<span style="color: var(--primary); border-bottom: 3px solid; padding: 0 12px;">...</span>`);
+                container.appendChild(p);
+
                 ex.options.forEach(opt => {
                     const btn = document.createElement('button');
                     btn.className = 'option-btn';
