@@ -1,0 +1,345 @@
+[
+    {
+        "id": "b3_01",
+        "type": "mcq",
+        "words": [
+            "egg",
+            "rice",
+            "cheese"
+        ],
+        "question": "Select the egg.",
+        "correct_answer": "egg",
+        "hint": "White and yellow food",
+        "voice_input": false,
+        "example_sentence": "I cook an egg.",
+        "media": {}
+    },
+    {
+        "id": "b3_02",
+        "type": "tap_fill",
+        "words": [
+            "face",
+            "sun",
+            "moon",
+            "star"
+        ],
+        "question": "Wash the ___.",
+        "correct_answer": "face",
+        "hint": "Part of head",
+        "voice_input": false,
+        "example_sentence": "Wash the face.",
+        "media": {}
+    },
+    {
+        "id": "b3_03",
+        "type": "sentence_ordering",
+        "words": [
+            "rice",
+            "Cook",
+            "the"
+        ],
+        "question": "Order the sentence.",
+        "correct_answer": [
+            "Cook",
+            "the",
+            "rice"
+        ],
+        "hint": "Imperative",
+        "voice_input": false,
+        "example_sentence": "Cook the rice.",
+        "media": {}
+    },
+    {
+        "id": "b3_04",
+        "type": "matching",
+        "words": [
+            "eye",
+            "see",
+            "nose",
+            "smell"
+        ],
+        "question": "Match part to action.",
+        "correct_answer": [
+            [
+                "eye",
+                "see"
+            ],
+            [
+                "nose",
+                "smell"
+            ]
+        ],
+        "hint": "Senses",
+        "voice_input": false,
+        "example_sentence": "See with eye. Smell with nose.",
+        "media": {}
+    },
+    {
+        "id": "b3_05",
+        "type": "pronunciation",
+        "words": [
+            "fruit"
+        ],
+        "question": "Say 'fruit'.",
+        "correct_answer": "fruit",
+        "hint": "Healthy food",
+        "voice_input": true,
+        "example_sentence": "Eat fruit.",
+        "media": {}
+    },
+    {
+        "id": "b3_06",
+        "type": "mcq",
+        "words": [
+            "leg",
+            "arm",
+            "head"
+        ],
+        "question": "Select the leg.",
+        "correct_answer": "leg",
+        "hint": "For walking",
+        "voice_input": false,
+        "example_sentence": "I walk on one leg.",
+        "media": {}
+    },
+    {
+        "id": "b3_07",
+        "type": "tap_fill",
+        "words": [
+            "wear",
+            "eat",
+            "drink",
+            "sleep"
+        ],
+        "question": "I ___ the shirt.",
+        "correct_answer": "wear",
+        "hint": "Put on clothes",
+        "voice_input": false,
+        "example_sentence": "I wear the shirt.",
+        "media": {}
+    },
+    {
+        "id": "b3_08",
+        "type": "sentence_ordering",
+        "words": [
+            "cheese",
+            "eats",
+            "The",
+            "boy"
+        ],
+        "question": "Order the sentence.",
+        "correct_answer": [
+            "The",
+            "boy",
+            "eats",
+            "cheese"
+        ],
+        "hint": "Subject + Verb + Object",
+        "voice_input": false,
+        "example_sentence": "The boy eats cheese.",
+        "media": {}
+    },
+    {
+        "id": "b3_09",
+        "type": "matching",
+        "words": [
+            "foot",
+            "walk",
+            "hand",
+            "wash"
+        ],
+        "question": "Match part to action.",
+        "correct_answer": [
+            [
+                "foot",
+                "walk"
+            ],
+            [
+                "hand",
+                "wash"
+            ]
+        ],
+        "hint": "Body actions",
+        "voice_input": false,
+        "example_sentence": "Walk with foot. Wash hand.",
+        "media": {}
+    },
+    {
+        "id": "b3_10",
+        "type": "mcq",
+        "words": [
+            "mouth",
+            "eye",
+            "nose"
+        ],
+        "question": "Select the mouth.",
+        "correct_answer": "mouth",
+        "hint": "For eating",
+        "voice_input": false,
+        "example_sentence": "Open the mouth.",
+        "media": {}
+    },
+    {
+        "id": "b3_11",
+        "type": "tap_fill",
+        "words": [
+            "sleeps",
+            "rains",
+            "opens",
+            "closes"
+        ],
+        "question": "The girl ___.",
+        "correct_answer": "sleeps",
+        "hint": "Rest at night",
+        "voice_input": false,
+        "example_sentence": "The girl sleeps.",
+        "media": {}
+    },
+    {
+        "id": "b3_12",
+        "type": "sentence_ordering",
+        "words": [
+            "juice",
+            "I",
+            "drink"
+        ],
+        "question": "Order the sentence.",
+        "correct_answer": [
+            "I",
+            "drink",
+            "juice"
+        ],
+        "hint": "Subject + Verb + Object",
+        "voice_input": false,
+        "example_sentence": "I drink juice.",
+        "media": {}
+    },
+    {
+        "id": "b3_13",
+        "type": "matching",
+        "words": [
+            "shirt",
+            "wear",
+            "bed",
+            "sleep"
+        ],
+        "question": "Match object to action.",
+        "correct_answer": [
+            [
+                "shirt",
+                "wear"
+            ],
+            [
+                "bed",
+                "sleep"
+            ]
+        ],
+        "hint": "Daily actions",
+        "voice_input": false,
+        "example_sentence": "Wear shirt. Sleep in bed.",
+        "media": {}
+    },
+    {
+        "id": "b3_14",
+        "type": "mcq",
+        "words": [
+            "cook",
+            "wash",
+            "sleep"
+        ],
+        "question": "Select 'cook'.",
+        "correct_answer": "cook",
+        "hint": "Make food",
+        "voice_input": false,
+        "example_sentence": "I cook rice.",
+        "media": {}
+    },
+    {
+        "id": "b3_15",
+        "type": "tap_fill",
+        "words": [
+            "hand",
+            "run",
+            "jump",
+            "sleep"
+        ],
+        "question": "See the ___.",
+        "correct_answer": "hand",
+        "hint": "Body part",
+        "voice_input": false,
+        "example_sentence": "See the hand.",
+        "media": {}
+    },
+    {
+        "id": "b3_16",
+        "type": "sentence_ordering",
+        "words": [
+            "man",
+            "wakes",
+            "The"
+        ],
+        "question": "Order the sentence.",
+        "correct_answer": [
+            "The",
+            "man",
+            "wakes"
+        ],
+        "hint": "Subject + Verb",
+        "voice_input": false,
+        "example_sentence": "The man wakes.",
+        "media": {}
+    },
+    {
+        "id": "b3_17",
+        "type": "pronunciation",
+        "words": [
+            "wash"
+        ],
+        "question": "Say 'wash'.",
+        "correct_answer": "wash",
+        "hint": "Clean with water",
+        "voice_input": true,
+        "example_sentence": "Wash the fruit.",
+        "media": {}
+    },
+    {
+        "id": "b3_18",
+        "type": "matching",
+        "words": [
+            "fruit",
+            "eat",
+            "juice",
+            "drink"
+        ],
+        "question": "Match food to action.",
+        "correct_answer": [
+            [
+                "fruit",
+                "eat"
+            ],
+            [
+                "juice",
+                "drink"
+            ]
+        ],
+        "hint": "Eat vs Drink",
+        "voice_input": false,
+        "example_sentence": "Eat fruit. Drink juice.",
+        "media": {}
+    },
+    {
+        "id": "b3_19",
+        "type": "mcq",
+        "words": [
+            "shirt",
+            "rice",
+            "leg"
+        ],
+        "question": "Select the clothes.",
+        "correct_answer": "shirt",
+        "hint": "You wear this",
+        "voice_input": false,
+        "example_sentence": "I wear a shirt.",
+        "media": {}
+    }
+]

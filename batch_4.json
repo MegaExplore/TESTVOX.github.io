@@ -1,0 +1,347 @@
+[
+    {
+        "id": "b4_01",
+        "type": "mcq",
+        "words": [
+            "shoes",
+            "socks",
+            "hat"
+        ],
+        "question": "Select the shoes.",
+        "correct_answer": "shoes",
+        "hint": "For feet",
+        "voice_input": false,
+        "example_sentence": "I wear shoes.",
+        "media": {}
+    },
+    {
+        "id": "b4_02",
+        "type": "tap_fill",
+        "words": [
+            "pants",
+            "apple",
+            "car",
+            "tree"
+        ],
+        "question": "The boy wears ___.",
+        "correct_answer": "pants",
+        "hint": "Leg clothing",
+        "voice_input": false,
+        "example_sentence": "The boy wears pants.",
+        "media": {}
+    },
+    {
+        "id": "b4_03",
+        "type": "sentence_ordering",
+        "words": [
+            "box",
+            "Open",
+            "the"
+        ],
+        "question": "Order the sentence.",
+        "correct_answer": [
+            "Open",
+            "the",
+            "box"
+        ],
+        "hint": "Imperative",
+        "voice_input": false,
+        "example_sentence": "Open the box.",
+        "media": {}
+    },
+    {
+        "id": "b4_04",
+        "type": "matching",
+        "words": [
+            "key",
+            "box",
+            "phone",
+            "bag"
+        ],
+        "question": "Match related items.",
+        "correct_answer": [
+            [
+                "key",
+                "box"
+            ],
+            [
+                "phone",
+                "bag"
+            ]
+        ],
+        "hint": "Things we use",
+        "voice_input": false,
+        "example_sentence": "Key for box. Phone in bag.",
+        "media": {}
+    },
+    {
+        "id": "b4_05",
+        "type": "pronunciation",
+        "words": [
+            "rain"
+        ],
+        "question": "Say 'rain'.",
+        "correct_answer": "rain",
+        "hint": "Water from sky",
+        "voice_input": true,
+        "example_sentence": "The rain comes.",
+        "media": {}
+    },
+    {
+        "id": "b4_06",
+        "type": "mcq",
+        "words": [
+            "star",
+            "sky",
+            "park"
+        ],
+        "question": "Select the star.",
+        "correct_answer": "star",
+        "hint": "Night light",
+        "voice_input": false,
+        "example_sentence": "See the star.",
+        "media": {}
+    },
+    {
+        "id": "b4_07",
+        "type": "tap_fill",
+        "words": [
+            "park",
+            "apple",
+            "pen",
+            "hat"
+        ],
+        "question": "Go to the ___.",
+        "correct_answer": "park",
+        "hint": "Place to play",
+        "voice_input": false,
+        "example_sentence": "Go to the park.",
+        "media": {}
+    },
+    {
+        "id": "b4_08",
+        "type": "sentence_ordering",
+        "words": [
+            "to",
+            "girl",
+            "The",
+            "goes",
+            "park"
+        ],
+        "question": "Order the sentence.",
+        "correct_answer": [
+            "The",
+            "girl",
+            "goes",
+            "to",
+            "park"
+        ],
+        "hint": "Subject + Verb + Object",
+        "voice_input": false,
+        "example_sentence": "The girl goes to park.",
+        "media": {}
+    },
+    {
+        "id": "b4_09",
+        "type": "matching",
+        "words": [
+            "socks",
+            "shoes",
+            "hat",
+            "head"
+        ],
+        "question": "Match clothing to body.",
+        "correct_answer": [
+            [
+                "socks",
+                "shoes"
+            ],
+            [
+                "hat",
+                "head"
+            ]
+        ],
+        "hint": "Where they go",
+        "voice_input": false,
+        "example_sentence": "Socks in shoes. Hat on head.",
+        "media": {}
+    },
+    {
+        "id": "b4_10",
+        "type": "mcq",
+        "words": [
+            "computer",
+            "phone",
+            "clock"
+        ],
+        "question": "Select the computer.",
+        "correct_answer": "computer",
+        "hint": "Machine for work",
+        "voice_input": false,
+        "example_sentence": "Use the computer.",
+        "media": {}
+    },
+    {
+        "id": "b4_11",
+        "type": "tap_fill",
+        "words": [
+            "clock",
+            "run",
+            "jump",
+            "sleep"
+        ],
+        "question": "Look at the ___.",
+        "correct_answer": "clock",
+        "hint": "Tells time",
+        "voice_input": false,
+        "example_sentence": "Look at the clock.",
+        "media": {}
+    },
+    {
+        "id": "b4_12",
+        "type": "sentence_ordering",
+        "words": [
+            "stars",
+            "See",
+            "the"
+        ],
+        "question": "Order the sentence.",
+        "correct_answer": [
+            "See",
+            "the",
+            "stars"
+        ],
+        "hint": "Imperative",
+        "voice_input": false,
+        "example_sentence": "See the stars.",
+        "media": {}
+    },
+    {
+        "id": "b4_13",
+        "type": "matching",
+        "words": [
+            "street",
+            "car",
+            "park",
+            "walk"
+        ],
+        "question": "Match place to item/action.",
+        "correct_answer": [
+            [
+                "street",
+                "car"
+            ],
+            [
+                "park",
+                "walk"
+            ]
+        ],
+        "hint": "Where things are",
+        "voice_input": false,
+        "example_sentence": "Car on street. Walk in park.",
+        "media": {}
+    },
+    {
+        "id": "b4_14",
+        "type": "mcq",
+        "words": [
+            "dress",
+            "pants",
+            "shoes"
+        ],
+        "question": "Select the dress.",
+        "correct_answer": "dress",
+        "hint": "Clothing",
+        "voice_input": false,
+        "example_sentence": "She wears a dress.",
+        "media": {}
+    },
+    {
+        "id": "b4_15",
+        "type": "tap_fill",
+        "words": [
+            "Open",
+            "Eat",
+            "Drink",
+            "Wear"
+        ],
+        "question": "___ the door.",
+        "correct_answer": "Open",
+        "hint": "Action",
+        "voice_input": false,
+        "example_sentence": "Open the door.",
+        "media": {}
+    },
+    {
+        "id": "b4_16",
+        "type": "sentence_ordering",
+        "words": [
+            "comes",
+            "rain",
+            "The"
+        ],
+        "question": "Order the sentence.",
+        "correct_answer": [
+            "The",
+            "rain",
+            "comes"
+        ],
+        "hint": "Subject + Verb",
+        "voice_input": false,
+        "example_sentence": "The rain comes.",
+        "media": {}
+    },
+    {
+        "id": "b4_17",
+        "type": "pronunciation",
+        "words": [
+            "shoes"
+        ],
+        "question": "Say 'shoes'.",
+        "correct_answer": "shoes",
+        "hint": "Footwear",
+        "voice_input": true,
+        "example_sentence": "I like shoes.",
+        "media": {}
+    },
+    {
+        "id": "b4_18",
+        "type": "matching",
+        "words": [
+            "computer",
+            "phone",
+            "dress",
+            "pants"
+        ],
+        "question": "Match similar items.",
+        "correct_answer": [
+            [
+                "computer",
+                "phone"
+            ],
+            [
+                "dress",
+                "pants"
+            ]
+        ],
+        "hint": "Tech and Clothes",
+        "voice_input": false,
+        "example_sentence": "",
+        "media": {}
+    },
+    {
+        "id": "b4_19",
+        "type": "mcq",
+        "words": [
+            "hat",
+            "box",
+            "key"
+        ],
+        "question": "Select the one you wear.",
+        "correct_answer": "hat",
+        "hint": "On your head",
+        "voice_input": false,
+        "example_sentence": "Wear a hat.",
+        "media": {}
+    }
+]

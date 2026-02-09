@@ -1,0 +1,292 @@
+[
+    {
+        "id": "b7_01",
+        "type": "mcq",
+        "words": [
+            "guitar",
+            "radio",
+            "ball"
+        ],
+        "question": "Select the guitar.",
+        "correct_answer": "guitar",
+        "hint": "Music instrument",
+        "voice_input": false,
+        "example_sentence": "Play the guitar.",
+        "media": {}
+    },
+    {
+        "id": "b7_02",
+        "type": "tap_fill",
+        "words": [
+            "game",
+            "guitar",
+            "robot",
+            "sun"
+        ],
+        "question": "Play the ___.",
+        "correct_answer": "game",
+        "hint": "Fun activity",
+        "voice_input": false,
+        "example_sentence": "Play the game.",
+        "media": {}
+    },
+    {
+        "id": "b7_03",
+        "type": "sentence_ordering",
+        "words": [
+            "radio",
+            "to",
+            "Listen",
+            "the"
+        ],
+        "question": "Order the sentence.",
+        "correct_answer": [
+            "Listen",
+            "to",
+            "the",
+            "radio"
+        ],
+        "hint": "Imperative",
+        "voice_input": false,
+        "example_sentence": "Listen to the radio.",
+        "media": {}
+    },
+    {
+        "id": "b7_04",
+        "type": "matching",
+        "words": [
+            "sun",
+            "day",
+            "moon",
+            "night"
+        ],
+        "question": "Match object to time.",
+        "correct_answer": [
+            [
+                "sun",
+                "day"
+            ],
+            [
+                "moon",
+                "night"
+            ]
+        ],
+        "hint": "When you see them",
+        "voice_input": false,
+        "example_sentence": "Sun in day. Moon at night.",
+        "media": {}
+    },
+    {
+        "id": "b7_05",
+        "type": "pronunciation",
+        "words": [
+            "robot"
+        ],
+        "question": "Say 'robot'.",
+        "correct_answer": "robot",
+        "hint": "Machine",
+        "voice_input": true,
+        "example_sentence": "The robot moves.",
+        "media": {}
+    },
+    {
+        "id": "b7_06",
+        "type": "mcq",
+        "words": [
+            "ball",
+            "toy",
+            "game"
+        ],
+        "question": "Select the round toy.",
+        "correct_answer": "ball",
+        "hint": "Play catch",
+        "voice_input": false,
+        "example_sentence": "Throw the ball.",
+        "media": {}
+    },
+    {
+        "id": "b7_07",
+        "type": "tap_fill",
+        "words": [
+            "moves",
+            "eats",
+            "sleeps",
+            "drinks"
+        ],
+        "question": "The robot ___.",
+        "correct_answer": "moves",
+        "hint": "Action",
+        "voice_input": false,
+        "example_sentence": "The robot moves.",
+        "media": {}
+    },
+    {
+        "id": "b7_08",
+        "type": "sentence_ordering",
+        "words": [
+            "friend",
+            "See",
+            "the"
+        ],
+        "question": "Order the sentence.",
+        "correct_answer": [
+            "See",
+            "the",
+            "friend"
+        ],
+        "hint": "Imperative",
+        "voice_input": false,
+        "example_sentence": "See the friend.",
+        "media": {}
+    },
+    {
+        "id": "b7_09",
+        "type": "matching",
+        "words": [
+            "guitar",
+            "play",
+            "radio",
+            "listen"
+        ],
+        "question": "Match object to action.",
+        "correct_answer": [
+            [
+                "guitar",
+                "play"
+            ],
+            [
+                "radio",
+                "listen"
+            ]
+        ],
+        "hint": "Music actions",
+        "voice_input": false,
+        "example_sentence": "Play guitar. Listen to radio.",
+        "media": {}
+    },
+    {
+        "id": "b7_10",
+        "type": "mcq",
+        "words": [
+            "night",
+            "day",
+            "sun"
+        ],
+        "question": "Select 'night'.",
+        "correct_answer": "night",
+        "hint": "Dark time",
+        "voice_input": false,
+        "example_sentence": "Sleep at night.",
+        "media": {}
+    },
+    {
+        "id": "b7_11",
+        "type": "tap_fill",
+        "words": [
+            "star",
+            "day",
+            "grass",
+            "river"
+        ],
+        "question": "See the ___.",
+        "correct_answer": "star",
+        "hint": "Light in sky",
+        "voice_input": false,
+        "example_sentence": "See the star.",
+        "media": {}
+    },
+    {
+        "id": "b7_12",
+        "type": "sentence_ordering",
+        "words": [
+            "sun",
+            "See",
+            "the"
+        ],
+        "question": "Order the sentence.",
+        "correct_answer": [
+            "See",
+            "the",
+            "sun"
+        ],
+        "hint": "Imperative",
+        "voice_input": false,
+        "example_sentence": "See the sun.",
+        "media": {}
+    },
+    {
+        "id": "b7_13",
+        "type": "matching",
+        "words": [
+            "ball",
+            "play",
+            "robot",
+            "move"
+        ],
+        "question": "Match object to action.",
+        "correct_answer": [
+            [
+                "ball",
+                "play"
+            ],
+            [
+                "robot",
+                "move"
+            ]
+        ],
+        "hint": "Actions",
+        "voice_input": false,
+        "example_sentence": "Play with ball. Robot moves.",
+        "media": {}
+    },
+    {
+        "id": "b7_14",
+        "type": "mcq",
+        "words": [
+            "toy",
+            "ball",
+            "guitar"
+        ],
+        "question": "Select the toy.",
+        "correct_answer": "toy",
+        "hint": "For playing",
+        "voice_input": false,
+        "example_sentence": "It is a toy.",
+        "media": {}
+    },
+    {
+        "id": "b7_15",
+        "type": "tap_fill",
+        "words": [
+            "Play",
+            "Eat",
+            "Sleep",
+            "Fly"
+        ],
+        "question": "___ with friend.",
+        "correct_answer": "Play",
+        "hint": "Have fun",
+        "voice_input": false,
+        "example_sentence": "Play with friend.",
+        "media": {}
+    },
+    {
+        "id": "b7_16",
+        "type": "sentence_ordering",
+        "words": [
+            "moon",
+            "The",
+            "moves"
+        ],
+        "question": "Order the sentence.",
+        "correct_answer": [
+            "The",
+            "moon",
+            "moves"
+        ],
+        "hint": "Subject + Verb",
+        "voice_input": false,
+        "example_sentence": "The moon moves.",
+        "media": {}
+    }
+]
