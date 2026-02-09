@@ -32,6 +32,7 @@
 
         * {
             box-sizing: border-box;
+            -webkit-tap-highlight-color: transparent;
         }
 
         body {
@@ -74,8 +75,14 @@
             transition: transform 0.2s;
         }
 
-        .logo-container:hover {
-            transform: scale(1.02);
+        @media (hover: hover) {
+            .logo-container:hover {
+                transform: scale(1.02);
+            }
+        }
+
+        .logo-container:active {
+            transform: scale(0.98);
         }
 
         .logo-svg {
@@ -103,8 +110,14 @@
             transition: border-color 0.2s;
         }
 
-        .header-select:hover {
-            border-color: var(--primary);
+        @media (hover: hover) {
+            .header-select:hover {
+                border-color: var(--primary);
+            }
+        }
+
+        .header-select:active {
+            background: #f8fafc;
         }
 
         .select-group {
@@ -171,10 +184,18 @@
             text-align: center;
         }
 
-        .stage-card:hover:not(.locked) {
-            border-color: var(--primary);
-            transform: translateY(-4px);
-            box-shadow: var(--shadow-md);
+        @media (hover: hover) {
+            .stage-card:hover:not(.locked) {
+                border-color: var(--primary);
+                transform: translateY(-4px);
+                box-shadow: var(--shadow-md);
+            }
+        }
+
+        .stage-card:active:not(.locked) {
+            transform: translateY(1px);
+            box-shadow: var(--shadow-sm);
+            background: #f1f5f9;
         }
 
         .stage-card.locked {
@@ -195,15 +216,22 @@
             font-size: 1rem;
             font-weight: 600;
             cursor: pointer;
-            transition: all 0.15s ease;
+            transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
             text-align: left;
             color: var(--text-main);
         }
 
-        .option-btn:hover {
-            border-color: var(--primary);
-            background: #f0fdfa;
-            color: var(--primary-hover);
+        @media (hover: hover) {
+            .option-btn:hover {
+                border-color: var(--primary);
+                background: #f0fdfa;
+                color: var(--primary-hover);
+            }
+        }
+
+        .option-btn:active {
+            transform: scale(0.98);
+            background: #f1f5f9;
         }
 
         .nav-btn {
@@ -222,10 +250,17 @@
             margin: 0;
         }
 
-        .nav-btn:hover {
-            background: #e2e8f0;
-            color: var(--text-main);
-            border-color: var(--secondary);
+        @media (hover: hover) {
+            .nav-btn:hover {
+                background: #e2e8f0;
+                color: var(--text-main);
+                border-color: var(--secondary);
+            }
+        }
+
+        .nav-btn:active {
+            transform: scale(0.95);
+            background: #cbd5e1;
         }
 
         .feedback-overlay {
@@ -344,9 +379,16 @@
             user-select: none;
         }
 
-        .ordered-word:hover {
-            transform: scale(1.05);
-            background: var(--primary-hover);
+        @media (hover: hover) {
+            .ordered-word:hover {
+                transform: scale(1.05);
+                background: var(--primary-hover);
+            }
+        }
+
+        .ordered-word:active {
+            transform: scale(0.95);
+            background: var(--vox-dark);
         }
 
         .audio-btn {
@@ -365,9 +407,15 @@
             margin-left: 12px;
         }
 
-        .audio-btn:hover {
-            transform: scale(1.1);
-            background: var(--primary);
+        @media (hover: hover) {
+            .audio-btn:hover {
+                transform: scale(1.1);
+                background: var(--primary);
+            }
+        }
+
+        .audio-btn:active {
+            transform: scale(0.9);
         }
 
         .audio-btn svg {
