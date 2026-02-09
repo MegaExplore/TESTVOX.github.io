@@ -446,19 +446,103 @@
                 grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
             }
         }
+
+        /* Hamburger & Drawer Styles */
+        .hamburger-btn {
+            background: none;
+            border: none;
+            cursor: pointer;
+            padding: 8px;
+            display: flex;
+            flex-direction: column;
+            gap: 5px;
+            z-index: 1001;
+        }
+
+        .hamburger-bar {
+            width: 25px;
+            height: 3px;
+            background: var(--vox-dark);
+            border-radius: 2px;
+            transition: 0.3s;
+        }
+
+        .side-drawer {
+            position: fixed;
+            top: 0;
+            left: -280px;
+            width: 280px;
+            height: 100%;
+            background: white;
+            box-shadow: 2px 0 15px rgba(0, 0, 0, 0.1);
+            z-index: 1000;
+            transition: left 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+            padding-top: 80px;
+        }
+
+        .side-drawer.open {
+            left: 0;
+        }
+
+        .drawer-overlay {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.3);
+            backdrop-filter: blur(2px);
+            z-index: 999;
+            display: none;
+            opacity: 0;
+            transition: opacity 0.3s;
+        }
+
+        .drawer-overlay.visible {
+            display: block;
+            opacity: 1;
+        }
+
+        .drawer-item {
+            padding: 16px 24px;
+            font-weight: 700;
+            color: var(--vox-dark);
+            font-size: 1.1rem;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            transition: background 0.2s;
+        }
+
+        .drawer-item:hover {
+            background: #f8fafc;
+            color: var(--primary);
+        }
+
+        .drawer-item:active {
+            background: #f1f5f9;
+        }
     </style>
 </head>
 
 <body>
     <header class="main-header">
         <div class="header-content">
-            <div class="logo-container" onclick="window.location.reload()">
-                <svg class="logo-svg" viewBox="0 0 750 150" xmlns="http://www.w3.org/2000/svg">
-                    <text x="20" y="100" fill="#0D1117"
-                        style="font-family: 'Montserrat', sans-serif; font-weight: 800; font-size: 80px;">Vox</text>
-                    <text x="210" y="100" fill="#29D1F1"
-                        style="font-family: 'Montserrat', sans-serif; font-weight: 800; font-size: 80px;">MegaLiberta</text>
-                </svg>
+            <div style="display: flex; align-items: center; gap: 8px;">
+                <button id="hamburger-btn" class="hamburger-btn" aria-label="Menu">
+                    <div class="hamburger-bar"></div>
+                    <div class="hamburger-bar"></div>
+                    <div class="hamburger-bar"></div>
+                </button>
+                <div class="logo-container" onclick="window.location.reload()">
+                    <svg class="logo-svg" viewBox="0 0 750 150" xmlns="http://www.w3.org/2000/svg">
+                        <text x="20" y="100" fill="#0D1117"
+                            style="font-family: 'Montserrat', sans-serif; font-weight: 800; font-size: 80px;">Vox</text>
+                        <text x="210" y="100" fill="#29D1F1"
+                            style="font-family: 'Montserrat', sans-serif; font-weight: 800; font-size: 80px;">MegaLiberta</text>
+                    </svg>
+                </div>
             </div>
 
             <div class="nav-controls">
@@ -494,6 +578,16 @@
             </div>
         </div>
     </header>
+
+    <div id="side-drawer" class="side-drawer">
+        <div id="menu-home" class="drawer-item">
+            <span>🏠</span> <span id="lbl-menu-home">home</span>
+        </div>
+        <div id="menu-sub" class="drawer-item">
+            <span>⭐</span> <span id="lbl-menu-sub">your subscriptions</span>
+        </div>
+    </div>
+    <div id="drawer-overlay" class="drawer-overlay"></div>
 
     <div id="app-container">
         <div id="game-container">
@@ -535,7 +629,7 @@
                 completed: "You have successfully completed this module.", next: "Next Module",
                 exercise: "Exercise", home: "home", back: "back", skip: "skip",
                 insight: "Linguistic Insight", precision: "Precision", tryAgain: "Try Again",
-                analysis: "🌐 Deep Analysis"
+                analysis: "🌐 Deep Analysis", subscriptions: "your subscriptions"
             },
             es: {
                 site: "Sitio", learning: "Aprendizaje", level: "Tu Nivel", initial: "Iniciando VOX...",
@@ -547,7 +641,7 @@
                 completed: "Has completado este módulo con éxito.", next: "Siguiente Módulo",
                 exercise: "Ejercicio", home: "inicio", back: "atrás", skip: "saltar",
                 insight: "Visión Lingüística", precision: "Precisión", tryAgain: "Inténtalo de nuevo",
-                analysis: "🌐 Análisis Profundo"
+                analysis: "🌐 Análisis Profundo", subscriptions: "tus suscripciones"
             },
             fr: {
                 site: "Site", learning: "Apprentissage", level: "Votre Niveau", initial: "Initialisation de VOX...",
@@ -559,7 +653,7 @@
                 completed: "Vous avez terminé ce module avec succès.", next: "Module Suivant",
                 exercise: "Exercice", home: "accueil", back: "retour", skip: "passer",
                 insight: "Aperçu Linguistique", precision: "Précision", tryAgain: "Réessayez",
-                analysis: "🌐 Analyse Profonde"
+                analysis: "🌐 Analyse Profonde", subscriptions: "vos abonnements"
             }
         };
 
@@ -1076,11 +1170,33 @@
             const siteSelect = document.getElementById('site-lang-select');
             const targetSelect = document.getElementById('target-lang-select');
             const levelSelect = document.getElementById('level-select');
+            const hamburger = document.getElementById('hamburger-btn');
+            const drawer = document.getElementById('side-drawer');
+            const overlay = document.getElementById('drawer-overlay');
+
+            const toggleDrawer = (force) => {
+                const isOpen = force !== undefined ? force : !drawer.classList.contains('open');
+                drawer.classList.toggle('open', isOpen);
+                overlay.classList.toggle('visible', isOpen);
+                if (isOpen) {
+                    overlay.style.display = 'block';
+                } else {
+                    setTimeout(() => { if (!drawer.classList.contains('open')) overlay.style.display = 'none'; }, 300);
+                }
+            };
+
+            hamburger.onclick = () => toggleDrawer();
+            overlay.onclick = () => toggleDrawer(false);
+
+            document.getElementById('menu-home').onclick = () => { toggleDrawer(false); showMenu(); };
+            document.getElementById('menu-sub').onclick = () => { toggleDrawer(false); alert(t('subscriptions')); };
 
             const refreshLabels = () => {
                 document.getElementById('lbl-site').textContent = t('site');
                 document.getElementById('lbl-learning').textContent = t('learning');
                 document.getElementById('lbl-level').textContent = t('level');
+                document.getElementById('lbl-menu-home').textContent = t('home');
+                document.getElementById('lbl-menu-sub').textContent = t('subscriptions');
                 targetSelect.options[0].textContent = t('all');
             };
 
