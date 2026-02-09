@@ -1070,6 +1070,7 @@
                         Exercise ${idx + 1} / ${data.exercises.length}
                     </span>
                     <div style=\"display:flex; gap:8px;\">
+                        <button id=\"home-btn\" class=\"nav-btn\">home</button>
                         ${idx > 0 ? `<button id=\"back-btn\" class=\"nav-btn\">back</button>` : ''}
                         <button id=\"skip-btn\" class=\"nav-btn\">skip</button>
                     </div>
@@ -1081,6 +1082,7 @@
             container.appendChild(contentArea);
 
             document.getElementById('skip-btn').onclick = () => runExercise(data, idx + 1, level, section, stageId);
+            document.getElementById('home-btn').onclick = () => showMenu();
 
             const backBtn = document.getElementById('back-btn');
             if (backBtn) {
