@@ -1,349 +1,372 @@
-[
-    {
-        "id": "b6_01",
-        "type": "mcq",
-        "words": [
-            "plane",
-            "boat",
-            "train"
-        ],
-        "question": "Select the air transport.",
-        "correct_answer": "plane",
-        "hint": "Flies in sky",
-        "voice_input": false,
-        "example_sentence": "The plane flies.",
-        "media": {}
-    },
-    {
-        "id": "b6_02",
-        "type": "tap_fill",
-        "words": [
-            "flies",
-            "swims",
-            "walks",
-            "talks"
-        ],
-        "question": "The plane ___.",
-        "correct_answer": "flies",
-        "hint": "Action in air",
-        "voice_input": false,
-        "example_sentence": "The plane flies.",
-        "media": {}
-    },
-    {
-        "id": "b6_03",
-        "type": "sentence_ordering",
-        "words": [
-            "flies",
-            "plane",
-            "The"
-        ],
-        "question": "Order the sentence.",
-        "correct_answer": [
-            "The",
-            "plane",
-            "flies"
-        ],
-        "hint": "Subject + Verb",
-        "voice_input": false,
-        "example_sentence": "The plane flies.",
-        "media": {}
-    },
-    {
-        "id": "b6_04",
-        "type": "matching",
-        "words": [
-            "plane",
-            "fly",
-            "doctor",
-            "help"
-        ],
-        "question": "Match subject to action.",
-        "correct_answer": [
-            [
+{
+    "exercises": [
+        {
+            "id": "b6_01",
+            "type": "multiple_choice",
+            "options": [
                 "plane",
-                "fly"
+                "boat",
+                "train"
             ],
-            [
+            "question": "Select the air transport.",
+            "answer": "plane",
+            "hint": "Flies in sky",
+            "voice_input": false,
+            "example_sentence": "The plane flies.",
+            "media": {}
+        },
+        {
+            "id": "b6_02",
+            "type": "tap_fill",
+            "options": [
+                "flies",
+                "swims",
+                "walks",
+                "talks"
+            ],
+            "question": "The plane ___.",
+            "answer": "flies",
+            "hint": "Action in air",
+            "voice_input": false,
+            "example_sentence": "The plane flies.",
+            "media": {}
+        },
+        {
+            "id": "b6_03",
+            "type": "sentence_ordering",
+            "words": [
+                "flies",
+                "plane",
+                "The"
+            ],
+            "question": "Order the sentence.",
+            "answer": "The plane flies",
+            "hint": "Subject + Verb",
+            "voice_input": false,
+            "example_sentence": "The plane flies.",
+            "media": {}
+        },
+        {
+            "id": "b6_04",
+            "type": "matching",
+            "words": [
+                "plane",
+                "fly",
                 "doctor",
                 "help"
-            ]
-        ],
-        "hint": "What they do",
-        "voice_input": false,
-        "example_sentence": "Plane flies. Doctor helps.",
-        "media": {}
-    },
-    {
-        "id": "b6_05",
-        "type": "pronunciation",
-        "words": [
-            "beach"
-        ],
-        "question": "Say 'beach'.",
-        "correct_answer": "beach",
-        "hint": "Sand and sea",
-        "voice_input": true,
-        "example_sentence": "Go to the beach.",
-        "media": {}
-    },
-    {
-        "id": "b6_06",
-        "type": "mcq",
-        "words": [
-            "mountain",
-            "river",
-            "sea"
-        ],
-        "question": "Select the high place.",
-        "correct_answer": "mountain",
-        "hint": "Tall nature",
-        "voice_input": false,
-        "example_sentence": "See the mountain.",
-        "media": {}
-    },
-    {
-        "id": "b6_07",
-        "type": "tap_fill",
-        "words": [
-            "sea",
-            "mountain",
-            "home",
-            "sky"
-        ],
-        "question": "Swim in the ___.",
-        "correct_answer": "sea",
-        "hint": "Big water",
-        "voice_input": false,
-        "example_sentence": "Swim in the sea.",
-        "media": {}
-    },
-    {
-        "id": "b6_08",
-        "type": "sentence_ordering",
-        "words": [
-            "the",
-            "Wait",
-            "at",
-            "river"
-        ],
-        "question": "Order the sentence.",
-        "correct_answer": [
-            "Wait",
-            "at",
-            "the",
-            "river"
-        ],
-        "hint": "Imperative",
-        "voice_input": false,
-        "example_sentence": "Wait at the river.",
-        "media": {}
-    },
-    {
-        "id": "b6_09",
-        "type": "matching",
-        "words": [
-            "doctor",
-            "hospital",
-            "family",
-            "home"
-        ],
-        "question": "Match person to place.",
-        "correct_answer": [
-            [
-                "doctor",
-                "hospital"
             ],
-            [
-                "family",
-                "home"
-            ]
-        ],
-        "hint": "Where they are",
-        "voice_input": false,
-        "example_sentence": "Doctor at hospital. Family at home.",
-        "media": {}
-    },
-    {
-        "id": "b6_10",
-        "type": "mcq",
-        "words": [
-            "doctor",
-            "nurse",
-            "baby"
-        ],
-        "question": "Select the doctor.",
-        "correct_answer": "doctor",
-        "hint": "Medical expert",
-        "voice_input": false,
-        "example_sentence": "The doctor helps.",
-        "media": {}
-    },
-    {
-        "id": "b6_11",
-        "type": "tap_fill",
-        "words": [
-            "helps",
-            "flies",
-            "shines",
-            "sleeps"
-        ],
-        "question": "The nurse ___.",
-        "correct_answer": "helps",
-        "hint": "Assist",
-        "voice_input": false,
-        "example_sentence": "The nurse helps.",
-        "media": {}
-    },
-    {
-        "id": "b6_12",
-        "type": "sentence_ordering",
-        "words": [
-            "nurse",
-            "helps",
-            "The",
-            "baby"
-        ],
-        "question": "Order the sentence.",
-        "correct_answer": [
-            "The",
-            "nurse",
-            "helps",
-            "baby"
-        ],
-        "hint": "Subject + Verb + Object",
-        "voice_input": false,
-        "example_sentence": "The nurse helps baby.",
-        "media": {}
-    },
-    {
-        "id": "b6_13",
-        "type": "matching",
-        "words": [
-            "boat",
-            "river",
-            "bicycle",
-            "home"
-        ],
-        "question": "Match item to place.",
-        "correct_answer": [
-            [
-                "boat",
+            "question": "Match subject to action.",
+            "pairs": [
+                {
+                    "left": "plane",
+                    "right": "fly"
+                },
+                {
+                    "left": "doctor",
+                    "right": "help"
+                }
+            ],
+            "answer": [
+                [
+                    "plane",
+                    "fly"
+                ],
+                [
+                    "doctor",
+                    "help"
+                ]
+            ],
+            "hint": "What they do",
+            "voice_input": false,
+            "example_sentence": "Plane flies. Doctor helps.",
+            "media": {}
+        },
+        {
+            "id": "b6_05",
+            "type": "pronunciation",
+            "words": [
+                "beach"
+            ],
+            "question": "Say 'beach'.",
+            "answer": "beach",
+            "hint": "Sand and sea",
+            "voice_input": true,
+            "example_sentence": "Go to the beach.",
+            "media": {}
+        },
+        {
+            "id": "b6_06",
+            "type": "multiple_choice",
+            "options": [
+                "mountain",
+                "river",
+                "sea"
+            ],
+            "question": "Select the high place.",
+            "answer": "mountain",
+            "hint": "Tall nature",
+            "voice_input": false,
+            "example_sentence": "See the mountain.",
+            "media": {}
+        },
+        {
+            "id": "b6_07",
+            "type": "tap_fill",
+            "options": [
+                "sea",
+                "mountain",
+                "home",
+                "sky"
+            ],
+            "question": "Swim in the ___.",
+            "answer": "sea",
+            "hint": "Big water",
+            "voice_input": false,
+            "example_sentence": "Swim in the sea.",
+            "media": {}
+        },
+        {
+            "id": "b6_08",
+            "type": "sentence_ordering",
+            "words": [
+                "the",
+                "Wait",
+                "at",
                 "river"
             ],
-            [
+            "question": "Order the sentence.",
+            "answer": "Wait at the river",
+            "hint": "Imperative",
+            "voice_input": false,
+            "example_sentence": "Wait at the river.",
+            "media": {}
+        },
+        {
+            "id": "b6_09",
+            "type": "matching",
+            "words": [
+                "doctor",
+                "hospital",
+                "family",
+                "home"
+            ],
+            "question": "Match person to place.",
+            "pairs": [
+                {
+                    "left": "doctor",
+                    "right": "hospital"
+                },
+                {
+                    "left": "family",
+                    "right": "home"
+                }
+            ],
+            "answer": [
+                [
+                    "doctor",
+                    "hospital"
+                ],
+                [
+                    "family",
+                    "home"
+                ]
+            ],
+            "hint": "Where they are",
+            "voice_input": false,
+            "example_sentence": "Doctor at hospital. Family at home.",
+            "media": {}
+        },
+        {
+            "id": "b6_10",
+            "type": "multiple_choice",
+            "options": [
+                "doctor",
+                "nurse",
+                "baby"
+            ],
+            "question": "Select the doctor.",
+            "answer": "doctor",
+            "hint": "Medical expert",
+            "voice_input": false,
+            "example_sentence": "The doctor helps.",
+            "media": {}
+        },
+        {
+            "id": "b6_11",
+            "type": "tap_fill",
+            "options": [
+                "helps",
+                "flies",
+                "shines",
+                "sleeps"
+            ],
+            "question": "The nurse ___.",
+            "answer": "helps",
+            "hint": "Assist",
+            "voice_input": false,
+            "example_sentence": "The nurse helps.",
+            "media": {}
+        },
+        {
+            "id": "b6_12",
+            "type": "sentence_ordering",
+            "words": [
+                "nurse",
+                "helps",
+                "The",
+                "baby"
+            ],
+            "question": "Order the sentence.",
+            "answer": "The nurse helps baby",
+            "hint": "Subject + Verb + Object",
+            "voice_input": false,
+            "example_sentence": "The nurse helps baby.",
+            "media": {}
+        },
+        {
+            "id": "b6_13",
+            "type": "matching",
+            "words": [
+                "boat",
+                "river",
                 "bicycle",
                 "home"
-            ]
-        ],
-        "hint": "Where things go",
-        "voice_input": false,
-        "example_sentence": "Boat on river. Bicycle at home.",
-        "media": {}
-    },
-    {
-        "id": "b6_14",
-        "type": "mcq",
-        "words": [
-            "bicycle",
-            "train",
-            "plane"
-        ],
-        "question": "Select the bicycle.",
-        "correct_answer": "bicycle",
-        "hint": "Two wheels",
-        "voice_input": false,
-        "example_sentence": "Ride the bicycle.",
-        "media": {}
-    },
-    {
-        "id": "b6_15",
-        "type": "tap_fill",
-        "words": [
-            "talks",
-            "flies",
-            "swims",
-            "shines"
-        ],
-        "question": "The family ___.",
-        "correct_answer": "talks",
-        "hint": "Speak",
-        "voice_input": false,
-        "example_sentence": "The family talks.",
-        "media": {}
-    },
-    {
-        "id": "b6_16",
-        "type": "sentence_ordering",
-        "words": [
-            "friend",
-            "to",
-            "Talk",
-            "the"
-        ],
-        "question": "Order the sentence.",
-        "correct_answer": [
-            "Talk",
-            "to",
-            "the",
-            "friend"
-        ],
-        "hint": "Imperative",
-        "voice_input": false,
-        "example_sentence": "Talk to the friend.",
-        "media": {}
-    },
-    {
-        "id": "b6_17",
-        "type": "pronunciation",
-        "words": [
-            "hospital"
-        ],
-        "question": "Say 'hospital'.",
-        "correct_answer": "hospital",
-        "hint": "Place for sick people",
-        "voice_input": true,
-        "example_sentence": "Go to the hospital.",
-        "media": {}
-    },
-    {
-        "id": "b6_18",
-        "type": "matching",
-        "words": [
-            "baby",
-            "family",
-            "doctor",
-            "nurse"
-        ],
-        "question": "Match related people.",
-        "correct_answer": [
-            [
-                "baby",
-                "family"
             ],
-            [
+            "question": "Match item to place.",
+            "pairs": [
+                {
+                    "left": "boat",
+                    "right": "river"
+                },
+                {
+                    "left": "bicycle",
+                    "right": "home"
+                }
+            ],
+            "answer": [
+                [
+                    "boat",
+                    "river"
+                ],
+                [
+                    "bicycle",
+                    "home"
+                ]
+            ],
+            "hint": "Where things go",
+            "voice_input": false,
+            "example_sentence": "Boat on river. Bicycle at home.",
+            "media": {}
+        },
+        {
+            "id": "b6_14",
+            "type": "multiple_choice",
+            "options": [
+                "bicycle",
+                "train",
+                "plane"
+            ],
+            "question": "Select the bicycle.",
+            "answer": "bicycle",
+            "hint": "Two wheels",
+            "voice_input": false,
+            "example_sentence": "Ride the bicycle.",
+            "media": {}
+        },
+        {
+            "id": "b6_15",
+            "type": "tap_fill",
+            "options": [
+                "talks",
+                "flies",
+                "swims",
+                "shines"
+            ],
+            "question": "The family ___.",
+            "answer": "talks",
+            "hint": "Speak",
+            "voice_input": false,
+            "example_sentence": "The family talks.",
+            "media": {}
+        },
+        {
+            "id": "b6_16",
+            "type": "sentence_ordering",
+            "words": [
+                "friend",
+                "to",
+                "Talk",
+                "the"
+            ],
+            "question": "Order the sentence.",
+            "answer": "Talk to the friend",
+            "hint": "Imperative",
+            "voice_input": false,
+            "example_sentence": "Talk to the friend.",
+            "media": {}
+        },
+        {
+            "id": "b6_17",
+            "type": "pronunciation",
+            "words": [
+                "hospital"
+            ],
+            "question": "Say 'hospital'.",
+            "answer": "hospital",
+            "hint": "Place for sick people",
+            "voice_input": true,
+            "example_sentence": "Go to the hospital.",
+            "media": {}
+        },
+        {
+            "id": "b6_18",
+            "type": "matching",
+            "words": [
+                "baby",
+                "family",
                 "doctor",
                 "nurse"
-            ]
-        ],
-        "hint": "Groups",
-        "voice_input": false,
-        "example_sentence": "Baby in family. Doctor and nurse.",
-        "media": {}
-    },
-    {
-        "id": "b6_19",
-        "type": "mcq",
-        "words": [
-            "home",
-            "hospital",
-            "beach"
-        ],
-        "question": "Select 'home'.",
-        "correct_answer": "home",
-        "hint": "Where you live",
-        "voice_input": false,
-        "example_sentence": "Go home.",
-        "media": {}
-    }
-]
+            ],
+            "question": "Match related people.",
+            "pairs": [
+                {
+                    "left": "baby",
+                    "right": "family"
+                },
+                {
+                    "left": "doctor",
+                    "right": "nurse"
+                }
+            ],
+            "answer": [
+                [
+                    "baby",
+                    "family"
+                ],
+                [
+                    "doctor",
+                    "nurse"
+                ]
+            ],
+            "hint": "Groups",
+            "voice_input": false,
+            "example_sentence": "Baby in family. Doctor and nurse.",
+            "media": {}
+        },
+        {
+            "id": "b6_19",
+            "type": "multiple_choice",
+            "options": [
+                "home",
+                "hospital",
+                "beach"
+            ],
+            "question": "Select 'home'.",
+            "answer": "home",
+            "hint": "Where you live",
+            "voice_input": false,
+            "example_sentence": "Go home.",
+            "media": {}
+        }
+    ]
+}

@@ -1,366 +1,388 @@
-[
-    {
-        "id": "b8_01",
-        "type": "mcq",
-        "words": [
-            "apple",
-            "boat",
-            "chair"
-        ],
-        "question": "Which one is for travel?",
-        "correct_answer": "boat",
-        "hint": "On water",
-        "voice_input": false,
-        "example_sentence": "The boat is on the river.",
-        "media": {}
-    },
-    {
-        "id": "b8_02",
-        "type": "mcq",
-        "words": [
-            "doctor",
-            "tree",
-            "spoon"
-        ],
-        "question": "Who works in a hospital?",
-        "correct_answer": "doctor",
-        "hint": "Helps sick people",
-        "voice_input": false,
-        "example_sentence": "The doctor helps.",
-        "media": {}
-    },
-    {
-        "id": "b8_03",
-        "type": "mcq",
-        "words": [
-            "shirt",
-            "radio",
-            "grass"
-        ],
-        "question": "What do you wear?",
-        "correct_answer": "shirt",
-        "hint": "Clothes",
-        "voice_input": false,
-        "example_sentence": "I wear a shirt.",
-        "media": {}
-    },
-    {
-        "id": "b8_04",
-        "type": "mcq",
-        "words": [
-            "sun",
-            "coffee",
-            "book"
-        ],
-        "question": "What do you drink?",
-        "correct_answer": "coffee",
-        "hint": "Hot drink",
-        "voice_input": false,
-        "example_sentence": "I drink coffee.",
-        "media": {}
-    },
-    {
-        "id": "b8_05",
-        "type": "mcq",
-        "words": [
-            "car",
-            "leg",
-            "door"
-        ],
-        "question": "Which one is a body part?",
-        "correct_answer": "leg",
-        "hint": "For walking",
-        "voice_input": false,
-        "example_sentence": "My leg hurts.",
-        "media": {}
-    },
-    {
-        "id": "b8_06",
-        "type": "mcq",
-        "words": [
-            "fish",
-            "bed",
-            "key"
-        ],
-        "question": "Which one swims?",
-        "correct_answer": "fish",
-        "hint": "Animal in water",
-        "voice_input": false,
-        "example_sentence": "The fish swims.",
-        "media": {}
-    },
-    {
-        "id": "b8_07",
-        "type": "sentence_ordering",
-        "words": [
-            "doctor",
-            "The",
-            "talks"
-        ],
-        "question": "Order the sentence.",
-        "correct_answer": [
-            "The",
-            "doctor",
-            "talks"
-        ],
-        "hint": "Subject + Verb",
-        "voice_input": false,
-        "example_sentence": "The doctor talks.",
-        "media": {}
-    },
-    {
-        "id": "b8_08",
-        "type": "sentence_ordering",
-        "words": [
-            "fish",
-            "sea",
-            "in",
-            "swims",
-            "The",
-            "the"
-        ],
-        "question": "Order the sentence.",
-        "correct_answer": [
-            "The",
-            "fish",
-            "swims",
-            "in",
-            "the",
-            "sea"
-        ],
-        "hint": "Animal + Action + Location",
-        "voice_input": false,
-        "example_sentence": "The fish swims in the sea.",
-        "media": {}
-    },
-    {
-        "id": "b8_09",
-        "type": "sentence_ordering",
-        "words": [
-            "wash",
-            "cup",
-            "I",
-            "the"
-        ],
-        "question": "Order the sentence.",
-        "correct_answer": [
-            "I",
-            "wash",
-            "the",
-            "cup"
-        ],
-        "hint": "Subject + Verb + Object",
-        "voice_input": false,
-        "example_sentence": "I wash the cup.",
-        "media": {}
-    },
-    {
-        "id": "b8_10",
-        "type": "sentence_ordering",
-        "words": [
-            "sun",
-            "shines",
-            "The"
-        ],
-        "question": "Order the sentence.",
-        "correct_answer": [
-            "The",
-            "sun",
-            "shines"
-        ],
-        "hint": "Description",
-        "voice_input": false,
-        "example_sentence": "The sun shines.",
-        "media": {}
-    },
-    {
-        "id": "b8_11",
-        "type": "matching",
-        "words": [
-            "doctor",
-            "hospital",
-            "bread",
-            "eat"
-        ],
-        "question": "Match person/object to place/action.",
-        "correct_answer": [
-            [
-                "doctor",
-                "hospital"
+{
+    "exercises": [
+        {
+            "id": "b8_01",
+            "type": "multiple_choice",
+            "options": [
+                "apple",
+                "boat",
+                "chair"
             ],
-            [
+            "question": "Which one is for travel?",
+            "answer": "boat",
+            "hint": "On water",
+            "voice_input": false,
+            "example_sentence": "The boat is on the river.",
+            "media": {}
+        },
+        {
+            "id": "b8_02",
+            "type": "multiple_choice",
+            "options": [
+                "doctor",
+                "tree",
+                "spoon"
+            ],
+            "question": "Who works in a hospital?",
+            "answer": "doctor",
+            "hint": "Helps sick people",
+            "voice_input": false,
+            "example_sentence": "The doctor helps.",
+            "media": {}
+        },
+        {
+            "id": "b8_03",
+            "type": "multiple_choice",
+            "options": [
+                "shirt",
+                "radio",
+                "grass"
+            ],
+            "question": "What do you wear?",
+            "answer": "shirt",
+            "hint": "Clothes",
+            "voice_input": false,
+            "example_sentence": "I wear a shirt.",
+            "media": {}
+        },
+        {
+            "id": "b8_04",
+            "type": "multiple_choice",
+            "options": [
+                "sun",
+                "coffee",
+                "book"
+            ],
+            "question": "What do you drink?",
+            "answer": "coffee",
+            "hint": "Hot drink",
+            "voice_input": false,
+            "example_sentence": "I drink coffee.",
+            "media": {}
+        },
+        {
+            "id": "b8_05",
+            "type": "multiple_choice",
+            "options": [
+                "car",
+                "leg",
+                "door"
+            ],
+            "question": "Which one is a body part?",
+            "answer": "leg",
+            "hint": "For walking",
+            "voice_input": false,
+            "example_sentence": "My leg hurts.",
+            "media": {}
+        },
+        {
+            "id": "b8_06",
+            "type": "multiple_choice",
+            "options": [
+                "fish",
+                "bed",
+                "key"
+            ],
+            "question": "Which one swims?",
+            "answer": "fish",
+            "hint": "Animal in water",
+            "voice_input": false,
+            "example_sentence": "The fish swims.",
+            "media": {}
+        },
+        {
+            "id": "b8_07",
+            "type": "sentence_ordering",
+            "words": [
+                "doctor",
+                "The",
+                "talks"
+            ],
+            "question": "Order the sentence.",
+            "answer": "The doctor talks",
+            "hint": "Subject + Verb",
+            "voice_input": false,
+            "example_sentence": "The doctor talks.",
+            "media": {}
+        },
+        {
+            "id": "b8_08",
+            "type": "sentence_ordering",
+            "words": [
+                "fish",
+                "sea",
+                "in",
+                "swims",
+                "The",
+                "the"
+            ],
+            "question": "Order the sentence.",
+            "answer": "The fish swims in the sea",
+            "hint": "Animal + Action + Location",
+            "voice_input": false,
+            "example_sentence": "The fish swims in the sea.",
+            "media": {}
+        },
+        {
+            "id": "b8_09",
+            "type": "sentence_ordering",
+            "words": [
+                "wash",
+                "cup",
+                "I",
+                "the"
+            ],
+            "question": "Order the sentence.",
+            "answer": "I wash the cup",
+            "hint": "Subject + Verb + Object",
+            "voice_input": false,
+            "example_sentence": "I wash the cup.",
+            "media": {}
+        },
+        {
+            "id": "b8_10",
+            "type": "sentence_ordering",
+            "words": [
+                "sun",
+                "shines",
+                "The"
+            ],
+            "question": "Order the sentence.",
+            "answer": "The sun shines",
+            "hint": "Description",
+            "voice_input": false,
+            "example_sentence": "The sun shines.",
+            "media": {}
+        },
+        {
+            "id": "b8_11",
+            "type": "matching",
+            "words": [
+                "doctor",
+                "hospital",
                 "bread",
                 "eat"
-            ]
-        ],
-        "hint": "Job location and Food action",
-        "voice_input": false,
-        "example_sentence": "Doctor in hospital. Eat bread.",
-        "media": {}
-    },
-    {
-        "id": "b8_12",
-        "type": "matching",
-        "words": [
-            "bird",
-            "fly",
-            "fish",
-            "swim"
-        ],
-        "question": "Match animal to action.",
-        "correct_answer": [
-            [
-                "bird",
-                "fly"
             ],
-            [
+            "question": "Match person/object to place/action.",
+            "pairs": [
+                {
+                    "left": "doctor",
+                    "right": "hospital"
+                },
+                {
+                    "left": "bread",
+                    "right": "eat"
+                }
+            ],
+            "answer": [
+                [
+                    "doctor",
+                    "hospital"
+                ],
+                [
+                    "bread",
+                    "eat"
+                ]
+            ],
+            "hint": "Job location and Food action",
+            "voice_input": false,
+            "example_sentence": "Doctor in hospital. Eat bread.",
+            "media": {}
+        },
+        {
+            "id": "b8_12",
+            "type": "matching",
+            "words": [
+                "bird",
+                "fly",
                 "fish",
                 "swim"
-            ]
-        ],
-        "hint": "Movement",
-        "voice_input": false,
-        "example_sentence": "Birds fly. Fish swim.",
-        "media": {}
-    },
-    {
-        "id": "b8_13",
-        "type": "matching",
-        "words": [
-            "sun",
-            "day",
-            "moon",
-            "night"
-        ],
-        "question": "Match object to time.",
-        "correct_answer": [
-            [
-                "sun",
-                "day"
             ],
-            [
+            "question": "Match animal to action.",
+            "pairs": [
+                {
+                    "left": "bird",
+                    "right": "fly"
+                },
+                {
+                    "left": "fish",
+                    "right": "swim"
+                }
+            ],
+            "answer": [
+                [
+                    "bird",
+                    "fly"
+                ],
+                [
+                    "fish",
+                    "swim"
+                ]
+            ],
+            "hint": "Movement",
+            "voice_input": false,
+            "example_sentence": "Birds fly. Fish swim.",
+            "media": {}
+        },
+        {
+            "id": "b8_13",
+            "type": "matching",
+            "words": [
+                "sun",
+                "day",
                 "moon",
                 "night"
-            ]
-        ],
-        "hint": "Sky objects",
-        "voice_input": false,
-        "example_sentence": "Sun in day. Moon at night.",
-        "media": {}
-    },
-    {
-        "id": "b8_14",
-        "type": "matching",
-        "words": [
-            "pen",
-            "write",
-            "book",
-            "read"
-        ],
-        "question": "Match object to action.",
-        "correct_answer": [
-            [
-                "pen",
-                "write"
             ],
-            [
+            "question": "Match object to time.",
+            "pairs": [
+                {
+                    "left": "sun",
+                    "right": "day"
+                },
+                {
+                    "left": "moon",
+                    "right": "night"
+                }
+            ],
+            "answer": [
+                [
+                    "sun",
+                    "day"
+                ],
+                [
+                    "moon",
+                    "night"
+                ]
+            ],
+            "hint": "Sky objects",
+            "voice_input": false,
+            "example_sentence": "Sun in day. Moon at night.",
+            "media": {}
+        },
+        {
+            "id": "b8_14",
+            "type": "matching",
+            "words": [
+                "pen",
+                "write",
                 "book",
                 "read"
-            ]
-        ],
-        "hint": "Tools",
-        "voice_input": false,
-        "example_sentence": "Write with pen. Read book.",
-        "media": {}
-    },
-    {
-        "id": "b8_15",
-        "type": "tap_fill",
-        "words": [
-            "drink",
-            "eat",
-            "walk",
-            "wear"
-        ],
-        "question": "I ___ water.",
-        "correct_answer": "drink",
-        "hint": "Consume liquid",
-        "voice_input": false,
-        "example_sentence": "I drink water.",
-        "media": {}
-    },
-    {
-        "id": "b8_16",
-        "type": "tap_fill",
-        "words": [
-            "runs",
-            "flies",
-            "shines",
-            "opens"
-        ],
-        "question": "The boy ___.",
-        "correct_answer": "runs",
-        "hint": "Fast movement",
-        "voice_input": false,
-        "example_sentence": "The boy runs.",
-        "media": {}
-    },
-    {
-        "id": "b8_17",
-        "type": "tap_fill",
-        "words": [
-            "Help",
-            "Eat",
-            "Drink",
-            "Sleep"
-        ],
-        "question": "___ the friend.",
-        "correct_answer": "Help",
-        "hint": "Assist someone",
-        "voice_input": false,
-        "example_sentence": "Help the friend.",
-        "media": {}
-    },
-    {
-        "id": "b8_18",
-        "type": "tap_fill",
-        "words": [
-            "play",
-            "sleep",
-            "eat",
-            "fly"
-        ],
-        "question": "We ___ a game.",
-        "correct_answer": "play",
-        "hint": "Have fun",
-        "voice_input": false,
-        "example_sentence": "We play a game.",
-        "media": {}
-    },
-    {
-        "id": "b8_19",
-        "type": "pronunciation",
-        "words": [
-            "computer"
-        ],
-        "question": "Say 'computer'.",
-        "correct_answer": "computer",
-        "hint": "Electronic device",
-        "voice_input": true,
-        "example_sentence": "I use a computer.",
-        "media": {}
-    },
-    {
-        "id": "b8_20",
-        "type": "pronunciation",
-        "words": [
-            "hospital"
-        ],
-        "question": "Say 'hospital'.",
-        "correct_answer": "hospital",
-        "hint": "Place for sick people",
-        "voice_input": true,
-        "example_sentence": "Go to the hospital.",
-        "media": {}
-    }
-]
+            ],
+            "question": "Match object to action.",
+            "pairs": [
+                {
+                    "left": "pen",
+                    "right": "write"
+                },
+                {
+                    "left": "book",
+                    "right": "read"
+                }
+            ],
+            "answer": [
+                [
+                    "pen",
+                    "write"
+                ],
+                [
+                    "book",
+                    "read"
+                ]
+            ],
+            "hint": "Tools",
+            "voice_input": false,
+            "example_sentence": "Write with pen. Read book.",
+            "media": {}
+        },
+        {
+            "id": "b8_15",
+            "type": "tap_fill",
+            "options": [
+                "drink",
+                "eat",
+                "walk",
+                "wear"
+            ],
+            "question": "I ___ water.",
+            "answer": "drink",
+            "hint": "Consume liquid",
+            "voice_input": false,
+            "example_sentence": "I drink water.",
+            "media": {}
+        },
+        {
+            "id": "b8_16",
+            "type": "tap_fill",
+            "options": [
+                "runs",
+                "flies",
+                "shines",
+                "opens"
+            ],
+            "question": "The boy ___.",
+            "answer": "runs",
+            "hint": "Fast movement",
+            "voice_input": false,
+            "example_sentence": "The boy runs.",
+            "media": {}
+        },
+        {
+            "id": "b8_17",
+            "type": "tap_fill",
+            "options": [
+                "Help",
+                "Eat",
+                "Drink",
+                "Sleep"
+            ],
+            "question": "___ the friend.",
+            "answer": "Help",
+            "hint": "Assist someone",
+            "voice_input": false,
+            "example_sentence": "Help the friend.",
+            "media": {}
+        },
+        {
+            "id": "b8_18",
+            "type": "tap_fill",
+            "options": [
+                "play",
+                "sleep",
+                "eat",
+                "fly"
+            ],
+            "question": "We ___ a game.",
+            "answer": "play",
+            "hint": "Have fun",
+            "voice_input": false,
+            "example_sentence": "We play a game.",
+            "media": {}
+        },
+        {
+            "id": "b8_19",
+            "type": "pronunciation",
+            "words": [
+                "computer"
+            ],
+            "question": "Say 'computer'.",
+            "answer": "computer",
+            "hint": "Electronic device",
+            "voice_input": true,
+            "example_sentence": "I use a computer.",
+            "media": {}
+        },
+        {
+            "id": "b8_20",
+            "type": "pronunciation",
+            "words": [
+                "hospital"
+            ],
+            "question": "Say 'hospital'.",
+            "answer": "hospital",
+            "hint": "Place for sick people",
+            "voice_input": true,
+            "example_sentence": "Go to the hospital.",
+            "media": {}
+        }
+    ]
+}

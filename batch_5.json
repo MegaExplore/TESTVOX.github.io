@@ -1,347 +1,371 @@
-[
-    {
-        "id": "b5_01",
-        "type": "mcq",
-        "words": [
-            "shop",
-            "farm",
-            "cow"
-        ],
-        "question": "Select the place.",
-        "correct_answer": "shop",
-        "hint": "Buy things here",
-        "voice_input": false,
-        "example_sentence": "Go to the shop.",
-        "media": {}
-    },
-    {
-        "id": "b5_02",
-        "type": "tap_fill",
-        "words": [
-            "Buy",
-            "Sleep",
-            "Run",
-            "Swim"
-        ],
-        "question": "___ the bread.",
-        "correct_answer": "Buy",
-        "hint": "Pay for food",
-        "voice_input": false,
-        "example_sentence": "Buy the bread.",
-        "media": {}
-    },
-    {
-        "id": "b5_03",
-        "type": "sentence_ordering",
-        "words": [
-            "money",
-            "Give",
-            "the"
-        ],
-        "question": "Order the sentence.",
-        "correct_answer": [
-            "Give",
-            "the",
-            "money"
-        ],
-        "hint": "Imperative",
-        "voice_input": false,
-        "example_sentence": "Give the money.",
-        "media": {}
-    },
-    {
-        "id": "b5_04",
-        "type": "matching",
-        "words": [
-            "coffee",
-            "cup",
-            "water",
-            "glass"
-        ],
-        "question": "Match drink to container.",
-        "correct_answer": [
-            [
-                "coffee",
-                "cup"
+{
+    "exercises": [
+        {
+            "id": "b5_01",
+            "type": "multiple_choice",
+            "options": [
+                "shop",
+                "farm",
+                "cow"
             ],
-            [
+            "question": "Select the place.",
+            "answer": "shop",
+            "hint": "Buy things here",
+            "voice_input": false,
+            "example_sentence": "Go to the shop.",
+            "media": {}
+        },
+        {
+            "id": "b5_02",
+            "type": "tap_fill",
+            "options": [
+                "Buy",
+                "Sleep",
+                "Run",
+                "Swim"
+            ],
+            "question": "___ the bread.",
+            "answer": "Buy",
+            "hint": "Pay for food",
+            "voice_input": false,
+            "example_sentence": "Buy the bread.",
+            "media": {}
+        },
+        {
+            "id": "b5_03",
+            "type": "sentence_ordering",
+            "words": [
+                "money",
+                "Give",
+                "the"
+            ],
+            "question": "Order the sentence.",
+            "answer": "Give the money",
+            "hint": "Imperative",
+            "voice_input": false,
+            "example_sentence": "Give the money.",
+            "media": {}
+        },
+        {
+            "id": "b5_04",
+            "type": "matching",
+            "words": [
+                "coffee",
+                "cup",
                 "water",
                 "glass"
-            ]
-        ],
-        "hint": "Hot vs Cold",
-        "voice_input": false,
-        "example_sentence": "Coffee in cup. Water in glass.",
-        "media": {}
-    },
-    {
-        "id": "b5_05",
-        "type": "pronunciation",
-        "words": [
-            "money"
-        ],
-        "question": "Say 'money'.",
-        "correct_answer": "money",
-        "hint": "To buy things",
-        "voice_input": true,
-        "example_sentence": "I have money.",
-        "media": {}
-    },
-    {
-        "id": "b5_06",
-        "type": "mcq",
-        "words": [
-            "spoon",
-            "plate",
-            "cup"
-        ],
-        "question": "Select the tool for eating.",
-        "correct_answer": "spoon",
-        "hint": "Use with soup",
-        "voice_input": false,
-        "example_sentence": "Use a spoon.",
-        "media": {}
-    },
-    {
-        "id": "b5_07",
-        "type": "tap_fill",
-        "words": [
-            "plate",
-            "cow",
-            "sun",
-            "moon"
-        ],
-        "question": "The cake is on the ___.",
-        "correct_answer": "plate",
-        "hint": "Flat dish",
-        "voice_input": false,
-        "example_sentence": "The cake is on the plate.",
-        "media": {}
-    },
-    {
-        "id": "b5_08",
-        "type": "sentence_ordering",
-        "words": [
-            "tea",
-            "Drink",
-            "the"
-        ],
-        "question": "Order the sentence.",
-        "correct_answer": [
-            "Drink",
-            "the",
-            "tea"
-        ],
-        "hint": "Imperative",
-        "voice_input": false,
-        "example_sentence": "Drink the tea.",
-        "media": {}
-    },
-    {
-        "id": "b5_09",
-        "type": "matching",
-        "words": [
-            "cow",
-            "farm",
-            "bread",
-            "shop"
-        ],
-        "question": "Match item to place.",
-        "correct_answer": [
-            [
-                "cow",
-                "farm"
             ],
-            [
+            "question": "Match drink to container.",
+            "pairs": [
+                {
+                    "left": "coffee",
+                    "right": "cup"
+                },
+                {
+                    "left": "water",
+                    "right": "glass"
+                }
+            ],
+            "answer": [
+                [
+                    "coffee",
+                    "cup"
+                ],
+                [
+                    "water",
+                    "glass"
+                ]
+            ],
+            "hint": "Hot vs Cold",
+            "voice_input": false,
+            "example_sentence": "Coffee in cup. Water in glass.",
+            "media": {}
+        },
+        {
+            "id": "b5_05",
+            "type": "pronunciation",
+            "words": [
+                "money"
+            ],
+            "question": "Say 'money'.",
+            "answer": "money",
+            "hint": "To buy things",
+            "voice_input": true,
+            "example_sentence": "I have money.",
+            "media": {}
+        },
+        {
+            "id": "b5_06",
+            "type": "multiple_choice",
+            "options": [
+                "spoon",
+                "plate",
+                "cup"
+            ],
+            "question": "Select the tool for eating.",
+            "answer": "spoon",
+            "hint": "Use with soup",
+            "voice_input": false,
+            "example_sentence": "Use a spoon.",
+            "media": {}
+        },
+        {
+            "id": "b5_07",
+            "type": "tap_fill",
+            "options": [
+                "plate",
+                "cow",
+                "sun",
+                "moon"
+            ],
+            "question": "The cake is on the ___.",
+            "answer": "plate",
+            "hint": "Flat dish",
+            "voice_input": false,
+            "example_sentence": "The cake is on the plate.",
+            "media": {}
+        },
+        {
+            "id": "b5_08",
+            "type": "sentence_ordering",
+            "words": [
+                "tea",
+                "Drink",
+                "the"
+            ],
+            "question": "Order the sentence.",
+            "answer": "Drink the tea",
+            "hint": "Imperative",
+            "voice_input": false,
+            "example_sentence": "Drink the tea.",
+            "media": {}
+        },
+        {
+            "id": "b5_09",
+            "type": "matching",
+            "words": [
+                "cow",
+                "farm",
                 "bread",
                 "shop"
-            ]
-        ],
-        "hint": "Origins",
-        "voice_input": false,
-        "example_sentence": "Cow on farm. Bread at shop.",
-        "media": {}
-    },
-    {
-        "id": "b5_10",
-        "type": "mcq",
-        "words": [
-            "chicken",
-            "cow",
-            "grass"
-        ],
-        "question": "Select the bird.",
-        "correct_answer": "chicken",
-        "hint": "Farm animal",
-        "voice_input": false,
-        "example_sentence": "The chicken runs.",
-        "media": {}
-    },
-    {
-        "id": "b5_11",
-        "type": "tap_fill",
-        "words": [
-            "cow",
-            "plate",
-            "spoon",
-            "cup"
-        ],
-        "question": "The ___ eats grass.",
-        "correct_answer": "cow",
-        "hint": "Large animal",
-        "voice_input": false,
-        "example_sentence": "The cow eats grass.",
-        "media": {}
-    },
-    {
-        "id": "b5_12",
-        "type": "sentence_ordering",
-        "words": [
-            "farm",
-            "on",
-            "Help",
-            "the"
-        ],
-        "question": "Order the sentence.",
-        "correct_answer": [
-            "Help",
-            "on",
-            "the",
-            "farm"
-        ],
-        "hint": "Imperative",
-        "voice_input": false,
-        "example_sentence": "Help on the farm.",
-        "media": {}
-    },
-    {
-        "id": "b5_13",
-        "type": "matching",
-        "words": [
-            "bread",
-            "cake",
-            "tea",
-            "coffee"
-        ],
-        "question": "Match food and drink.",
-        "correct_answer": [
-            [
-                "bread",
-                "cake"
             ],
-            [
+            "question": "Match item to place.",
+            "pairs": [
+                {
+                    "left": "cow",
+                    "right": "farm"
+                },
+                {
+                    "left": "bread",
+                    "right": "shop"
+                }
+            ],
+            "answer": [
+                [
+                    "cow",
+                    "farm"
+                ],
+                [
+                    "bread",
+                    "shop"
+                ]
+            ],
+            "hint": "Origins",
+            "voice_input": false,
+            "example_sentence": "Cow on farm. Bread at shop.",
+            "media": {}
+        },
+        {
+            "id": "b5_10",
+            "type": "multiple_choice",
+            "options": [
+                "chicken",
+                "cow",
+                "grass"
+            ],
+            "question": "Select the bird.",
+            "answer": "chicken",
+            "hint": "Farm animal",
+            "voice_input": false,
+            "example_sentence": "The chicken runs.",
+            "media": {}
+        },
+        {
+            "id": "b5_11",
+            "type": "tap_fill",
+            "options": [
+                "cow",
+                "plate",
+                "spoon",
+                "cup"
+            ],
+            "question": "The ___ eats grass.",
+            "answer": "cow",
+            "hint": "Large animal",
+            "voice_input": false,
+            "example_sentence": "The cow eats grass.",
+            "media": {}
+        },
+        {
+            "id": "b5_12",
+            "type": "sentence_ordering",
+            "words": [
+                "farm",
+                "on",
+                "Help",
+                "the"
+            ],
+            "question": "Order the sentence.",
+            "answer": "Help on the farm",
+            "hint": "Imperative",
+            "voice_input": false,
+            "example_sentence": "Help on the farm.",
+            "media": {}
+        },
+        {
+            "id": "b5_13",
+            "type": "matching",
+            "words": [
+                "bread",
+                "cake",
                 "tea",
                 "coffee"
-            ]
-        ],
-        "hint": "Categories",
-        "voice_input": false,
-        "example_sentence": "Eat bread. Drink tea.",
-        "media": {}
-    },
-    {
-        "id": "b5_14",
-        "type": "mcq",
-        "words": [
-            "flower",
-            "grass",
-            "tree"
-        ],
-        "question": "Select the small plant.",
-        "correct_answer": "flower",
-        "hint": "Beautiful plant",
-        "voice_input": false,
-        "example_sentence": "See the flower.",
-        "media": {}
-    },
-    {
-        "id": "b5_15",
-        "type": "tap_fill",
-        "words": [
-            "Give",
-            "Sleep",
-            "Run",
-            "Swim"
-        ],
-        "question": "___ the money.",
-        "correct_answer": "Give",
-        "hint": "Hand over",
-        "voice_input": false,
-        "example_sentence": "Give the money.",
-        "media": {}
-    },
-    {
-        "id": "b5_16",
-        "type": "sentence_ordering",
-        "words": [
-            "drinks",
-            "coffee",
-            "The",
-            "woman"
-        ],
-        "question": "Order the sentence.",
-        "correct_answer": [
-            "The",
-            "woman",
-            "drinks",
-            "coffee"
-        ],
-        "hint": "Subject + Verb + Object",
-        "voice_input": false,
-        "example_sentence": "The woman drinks coffee.",
-        "media": {}
-    },
-    {
-        "id": "b5_17",
-        "type": "pronunciation",
-        "words": [
-            "bread"
-        ],
-        "question": "Say 'bread'.",
-        "correct_answer": "bread",
-        "hint": "Food",
-        "voice_input": true,
-        "example_sentence": "Eat bread.",
-        "media": {}
-    },
-    {
-        "id": "b5_18",
-        "type": "matching",
-        "words": [
-            "plate",
-            "spoon",
-            "cup",
-            "glass"
-        ],
-        "question": "Match container to tool.",
-        "correct_answer": [
-            [
+            ],
+            "question": "Match food and drink.",
+            "pairs": [
+                {
+                    "left": "bread",
+                    "right": "cake"
+                },
+                {
+                    "left": "tea",
+                    "right": "coffee"
+                }
+            ],
+            "answer": [
+                [
+                    "bread",
+                    "cake"
+                ],
+                [
+                    "tea",
+                    "coffee"
+                ]
+            ],
+            "hint": "Categories",
+            "voice_input": false,
+            "example_sentence": "Eat bread. Drink tea.",
+            "media": {}
+        },
+        {
+            "id": "b5_14",
+            "type": "multiple_choice",
+            "options": [
+                "flower",
+                "grass",
+                "tree"
+            ],
+            "question": "Select the small plant.",
+            "answer": "flower",
+            "hint": "Beautiful plant",
+            "voice_input": false,
+            "example_sentence": "See the flower.",
+            "media": {}
+        },
+        {
+            "id": "b5_15",
+            "type": "tap_fill",
+            "options": [
+                "Give",
+                "Sleep",
+                "Run",
+                "Swim"
+            ],
+            "question": "___ the money.",
+            "answer": "Give",
+            "hint": "Hand over",
+            "voice_input": false,
+            "example_sentence": "Give the money.",
+            "media": {}
+        },
+        {
+            "id": "b5_16",
+            "type": "sentence_ordering",
+            "words": [
+                "drinks",
+                "coffee",
+                "The",
+                "woman"
+            ],
+            "question": "Order the sentence.",
+            "answer": "The woman drinks coffee",
+            "hint": "Subject + Verb + Object",
+            "voice_input": false,
+            "example_sentence": "The woman drinks coffee.",
+            "media": {}
+        },
+        {
+            "id": "b5_17",
+            "type": "pronunciation",
+            "words": [
+                "bread"
+            ],
+            "question": "Say 'bread'.",
+            "answer": "bread",
+            "hint": "Food",
+            "voice_input": true,
+            "example_sentence": "Eat bread.",
+            "media": {}
+        },
+        {
+            "id": "b5_18",
+            "type": "matching",
+            "words": [
+                "plate",
+                "spoon",
+                "cup",
+                "glass"
+            ],
+            "question": "Match container to tool.",
+            "pairs": [
+                {
+                    "left": "plate",
+                    "right": "spoon"
+                },
+                {
+                    "left": "cup",
+                    "right": "glass"
+                }
+            ],
+            "answer": [
+                [
+                    "plate",
+                    "spoon"
+                ],
+                [
+                    "cup",
+                    "glass"
+                ]
+            ],
+            "hint": "Eating vs Drinking items",
+            "voice_input": false,
+            "example_sentence": "Plate and spoon. Cup and glass.",
+            "media": {}
+        },
+        {
+            "id": "b5_19",
+            "type": "multiple_choice",
+            "options": [
+                "glass",
                 "plate",
                 "spoon"
             ],
-            [
-                "cup",
-                "glass"
-            ]
-        ],
-        "hint": "Eating vs Drinking items",
-        "voice_input": false,
-        "example_sentence": "Plate and spoon. Cup and glass.",
-        "media": {}
-    },
-    {
-        "id": "b5_19",
-        "type": "mcq",
-        "words": [
-            "glass",
-            "plate",
-            "spoon"
-        ],
-        "question": "Select the drink container.",
-        "correct_answer": "glass",
-        "hint": "Drink water from this",
-        "voice_input": false,
-        "example_sentence": "Water in the glass.",
-        "media": {}
-    }
-]
+            "question": "Select the drink container.",
+            "answer": "glass",
+            "hint": "Drink water from this",
+            "voice_input": false,
+            "example_sentence": "Water in the glass.",
+            "media": {}
+        }
+    ]
+}
