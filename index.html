@@ -452,19 +452,24 @@
             background: none;
             border: none;
             cursor: pointer;
-            padding: 8px;
+            padding: 12px;
             display: flex;
             flex-direction: column;
             gap: 5px;
-            z-index: 1001;
+            z-index: 1100;
+            min-width: 44px;
+            align-items: center;
+            justify-content: center;
         }
 
         .hamburger-bar {
-            width: 25px;
-            height: 3px;
-            background: var(--vox-dark);
-            border-radius: 2px;
+            width: 28px;
+            height: 4px;
+            background: #0D1117;
+            border-radius: 4px;
             transition: 0.3s;
+            flex-shrink: 0;
+            display: block;
         }
 
         .side-drawer {
@@ -1167,6 +1172,7 @@
         let currentManifest = null;
 
         function setupHeader() {
+            console.log('Setting up header and hamburger...');
             const siteSelect = document.getElementById('site-lang-select');
             const targetSelect = document.getElementById('target-lang-select');
             const levelSelect = document.getElementById('level-select');
