@@ -49,16 +49,7 @@
                                         "early"
                                     ],
                           "question":  "Order the question about a decision.",
-                          "answer":  [
-                                         "why",
-                                         "did",
-                                         "you",
-                                         "decide",
-                                         "to",
-                                         "leave",
-                                         "so",
-                                         "early"
-                                     ],
+                          "answer":  "why did you decide to leave so early",
                           "hint":  "Question word + auxiliary + subject + verb",
                           "voice_input":  false,
                           "example_sentence":  "Why did you decide to leave so early?",
@@ -167,16 +158,7 @@
                                         "Spanish"
                                     ],
                           "question":  "Order the sentence about future intent.",
-                          "answer":  [
-                                         "I",
-                                         "will",
-                                         "travel",
-                                         "to",
-                                         "Spain",
-                                         "to",
-                                         "learn",
-                                         "Spanish"
-                                     ],
+                          "answer":  "I will travel to Spain to learn Spanish",
                           "hint":  "Future + Place + Purpose",
                           "voice_input":  false,
                           "example_sentence":  "I will travel to Spain to learn Spanish.",
@@ -270,16 +252,7 @@
                                         "soon"
                                     ],
                           "question":  "Order the sentence about hopes.",
-                          "answer":  [
-                                         "he",
-                                         "hopes",
-                                         "to",
-                                         "find",
-                                         "a",
-                                         "better",
-                                         "job",
-                                         "soon"
-                                     ],
+                          "answer":  "he hopes to find a better job soon",
                           "hint":  "Subject + Verb + infinitive + Object",
                           "voice_input":  false,
                           "example_sentence":  "He hopes to find a better job soon.",
@@ -493,16 +466,7 @@
                                         "library"
                                     ],
                           "question":  "Order the past tense question.",
-                          "answer":  [
-                                         "did",
-                                         "you",
-                                         "borrow",
-                                         "this",
-                                         "book",
-                                         "from",
-                                         "the",
-                                         "library"
-                                     ],
+                          "answer":  "did you borrow this book from the library",
                           "hint":  "Auxiliary + Subject + Verb + etc",
                           "voice_input":  false,
                           "example_sentence":  "Did you borrow this book?",
@@ -611,16 +575,7 @@
                                         "museum"
                                     ],
                           "question":  "Order the future plan sentence.",
-                          "answer":  [
-                                         "we",
-                                         "are",
-                                         "going",
-                                         "to",
-                                         "visit",
-                                         "the",
-                                         "new",
-                                         "museum"
-                                     ],
+                          "answer":  "we are going to visit the new museum",
                           "hint":  "Subject + be + going to + verb",
                           "voice_input":  false,
                           "example_sentence":  "We are going to visit the museum.",
@@ -713,15 +668,7 @@
                                         "it"
                                     ],
                           "question":  "Order the complex sentence.",
-                          "answer":  [
-                                         "although",
-                                         "it",
-                                         "is",
-                                         "expensive",
-                                         "I",
-                                         "want",
-                                         "it"
-                                     ],
+                          "answer":  "although it is expensive I want it",
                           "hint":  "Conjunction + Clause + Subject + Verb",
                           "voice_input":  false,
                           "example_sentence":  "Although it is expensive, I want it.",
@@ -938,19 +885,7 @@
                                         "storm"
                                     ],
                           "question":  "Order the sentence about a travel delay.",
-                          "answer":  [
-                                         "is",
-                                         "the",
-                                         "departure",
-                                         "of",
-                                         "our",
-                                         "flight",
-                                         "delayed",
-                                         "because",
-                                         "of",
-                                         "the",
-                                         "storm"
-                                     ],
+                          "answer":  "is the departure of our flight delayed because of the storm",
                           "hint":  "Question form with \u0027is\u0027",
                           "voice_input":  false,
                           "example_sentence":  "Is the departure of our flight delayed because of the storm?",
@@ -1061,18 +996,7 @@
                                         "event"
                                     ],
                           "question":  "Order the sentence about preparation.",
-                          "answer":  [
-                                         "we",
-                                         "need",
-                                         "to",
-                                         "read",
-                                         " the",
-                                         "instructions",
-                                         "to",
-                                         "organize",
-                                         "the",
-                                         "event"
-                                     ],
+                          "answer":  "we need to read  the instructions to organize the event",
                           "hint":  "Subject + Verb + infinitive of purpose",
                           "voice_input":  false,
                           "example_sentence":  "We need to read the instructions to organize the event.",
@@ -1167,17 +1091,7 @@
                                         "opportunities"
                                     ],
                           "question":  "Order the sentence about career and travel.",
-                          "answer":  [
-                                         "he",
-                                         "decided",
-                                         "to",
-                                         "travel",
-                                         "abroad",
-                                         "to",
-                                         "find",
-                                         "better",
-                                         "opportunities"
-                                     ],
+                          "answer":  "he decided to travel abroad to find better opportunities",
                           "hint":  "Subject + Verb + Destination + Purpose",
                           "voice_input":  false,
                           "example_sentence":  "He decided to travel abroad to find better opportunities.",
@@ -1392,17 +1306,7 @@
                                         "equipment"
                                     ],
                           "question":  "Order the question about permission.",
-                          "answer":  [
-                                         "do",
-                                         "you",
-                                         "have",
-                                         "permission",
-                                         "to",
-                                         "use",
-                                         "the",
-                                         "professional",
-                                         "equipment"
-                                     ],
+                          "answer":  "do you have permission to use the professional equipment",
                           "hint":  "Auxiliary + Subject + Verb + Object",
                           "voice_input":  false,
                           "example_sentence":  "Do you have permission to use the professional equipment?",
@@ -1512,17 +1416,7 @@
                                         "tired"
                                     ],
                           "question":  "Order the complex sentence about a journey.",
-                          "answer":  [
-                                         "although",
-                                         "the",
-                                         "scenery",
-                                         "was",
-                                         "beautiful",
-                                         "we",
-                                         "felt",
-                                         "very",
-                                         "tired"
-                                     ],
+                          "answer":  "although the scenery was beautiful we felt very tired",
                           "hint":  "Conjunction + Clause 1 + Clause 2",
                           "voice_input":  false,
                           "example_sentence":  "Although the scenery was beautiful, we felt very tired.",
@@ -1616,16 +1510,7 @@
                                         "weeks"
                                     ],
                           "question":  "Order the narrative sentence.",
-                          "answer":  [
-                                         "the",
-                                         "preparation",
-                                         "for",
-                                         "the",
-                                         "competition",
-                                         "took",
-                                         "many",
-                                         "weeks"
-                                     ],
+                          "answer":  "the preparation for the competition took many weeks",
                           "hint":  "Subject + Prep + Noun + Verb + etc",
                           "voice_input":  false,
                           "example_sentence":  "The preparation for the competition took many weeks.",
@@ -1839,16 +1724,7 @@
                                         "policy"
                                     ],
                           "question":  "Order the question about someone\u0027s thoughts.",
-                          "answer":  [
-                                         "what",
-                                         "is",
-                                         "your",
-                                         "opinion",
-                                         "about",
-                                         "the",
-                                         "new",
-                                         "policy"
-                                     ],
+                          "answer":  "what is your opinion about the new policy",
                           "hint":  "Question word + verb + subject + etc",
                           "voice_input":  false,
                           "example_sentence":  "What is your opinion about the new policy?",
@@ -1959,18 +1835,7 @@
                                         "city"
                                     ],
                           "question":  "Order the sentence about a benefit.",
-                          "answer":  [
-                                         "having",
-                                         "a",
-                                         "car",
-                                         "is",
-                                         "a",
-                                         "big",
-                                         "advantage",
-                                         "in",
-                                         "the",
-                                         "city"
-                                     ],
+                          "answer":  "having a car is a big advantage in the city",
                           "hint":  "Gerund subject + verb + noun",
                           "voice_input":  false,
                           "example_sentence":  "Having a car is a big advantage.",
@@ -2064,16 +1929,7 @@
                                         "afternoon"
                                     ],
                           "question":  "Order the sentence about getting ready.",
-                          "answer":  [
-                                         "the",
-                                         "preparation",
-                                         "for",
-                                         "the",
-                                         "party",
-                                         "took",
-                                         "all",
-                                         "afternoon"
-                                     ],
+                          "answer":  "the preparation for the party took all afternoon",
                           "hint":  "Subject + prep + noun + verb",
                           "voice_input":  false,
                           "example_sentence":  "Preparation is the key to success.",
@@ -2287,16 +2143,7 @@
                                         "price"
                                     ],
                           "question":  "Order the sentence about finishing a deal.",
-                          "answer":  [
-                                         "we",
-                                         "finally",
-                                         "reached",
-                                         "an",
-                                         "agreement",
-                                         "about",
-                                         "the",
-                                         "price"
-                                     ],
+                          "answer":  "we finally reached an agreement about the price",
                           "hint":  "Subject + adverb + verb + object",
                           "voice_input":  false,
                           "example_sentence":  "We reached an agreement.",
@@ -2406,17 +2253,7 @@
                                         "skills"
                                     ],
                           "question":  "Order the sentence about a good chance.",
-                          "answer":  [
-                                         "this",
-                                         "is",
-                                         "a",
-                                         "great",
-                                         "opportunity",
-                                         "to",
-                                         "improve",
-                                         "your",
-                                         "skills"
-                                     ],
+                          "answer":  "this is a great opportunity to improve your skills",
                           "hint":  "This + is + noun + infinitive",
                           "voice_input":  false,
                           "example_sentence":  "Don\u0027t miss this opportunity.",
@@ -2511,17 +2348,7 @@
                                         "world"
                                     ],
                           "question":  "Order the sentence about a helpful group.",
-                          "answer":  [
-                                         "the",
-                                         "charity",
-                                         "organisation",
-                                         "helps",
-                                         "people",
-                                         "all",
-                                         "over",
-                                         "the",
-                                         "world"
-                                     ],
+                          "answer":  "the charity organisation helps people all over the world",
                           "hint":  "The + adjective + noun + verb",
                           "voice_input":  false,
                           "example_sentence":  "She works for an international organisation.",
@@ -2734,15 +2561,7 @@
                                         "form"
                                     ],
                           "question":  "Order the request for a job seeker.",
-                          "answer":  [
-                                         "please",
-                                         "fill",
-                                         "out",
-                                         "this",
-                                         "job",
-                                         "application",
-                                         "form"
-                                     ],
+                          "answer":  "please fill out this job application form",
                           "hint":  "Imperative + object phrase",
                           "voice_input":  false,
                           "example_sentence":  "Please fill out this job application form.",
@@ -2851,16 +2670,7 @@
                                         "career"
                                     ],
                           "question":  "Order the sentence about learning.",
-                          "answer":  [
-                                         "higher",
-                                         "education",
-                                         "is",
-                                         "important",
-                                         "for",
-                                         "a",
-                                         "good",
-                                         "career"
-                                     ],
+                          "answer":  "higher education is important for a good career",
                           "hint":  "Noun phrase + verb + adjective phrase",
                           "voice_input":  false,
                           "example_sentence":  "Higher education is important.",
@@ -2954,16 +2764,7 @@
                                         "weekend"
                                     ],
                           "question":  "Order the sentence about a routine.",
-                          "answer":  [
-                                         "he",
-                                         "frequently",
-                                         "visits",
-                                         "his",
-                                         "parents",
-                                         "on",
-                                         "the",
-                                         "weekend"
-                                     ],
+                          "answer":  "he frequently visits his parents on the weekend",
                           "hint":  "Subject + adverb + verb + object",
                           "voice_input":  false,
                           "example_sentence":  "She frequently goes to the gym.",
@@ -3178,17 +2979,7 @@
                                         "today"
                                     ],
                           "question":  "Order the sentence about a celebration.",
-                          "answer":  [
-                                         "we",
-                                         "are",
-                                         "having",
-                                         "a",
-                                         "party",
-                                         "for",
-                                         "her",
-                                         "graduation",
-                                         "today"
-                                     ],
+                          "answer":  "we are having a party for her graduation today",
                           "hint":  "Subject + be + verbing + object phrase",
                           "voice_input":  false,
                           "example_sentence":  "Her graduation is next week.",
@@ -3297,16 +3088,7 @@
                                         "commuters"
                                     ],
                           "question":  "Order the sentence about travel.",
-                          "answer":  [
-                                         "this",
-                                         "transport",
-                                         "system",
-                                         "is",
-                                         "very",
-                                         "effective",
-                                         "for",
-                                         "commuters"
-                                     ],
+                          "answer":  "this transport system is very effective for commuters",
                           "hint":  "Subject phrase + verb + adjective phrase",
                           "voice_input":  false,
                           "example_sentence":  "Public transport is very cheap.",
@@ -3401,17 +3183,7 @@
                                         "today"
                                     ],
                           "question":  "Order the sentence about a limitation.",
-                          "answer":  [
-                                         "it",
-                                         "is",
-                                         "impossible",
-                                         "to",
-                                         "finish",
-                                         "all",
-                                         "this",
-                                         "work",
-                                         "today"
-                                     ],
+                          "answer":  "it is impossible to finish all this work today",
                           "hint":  "It + is + adjective + infinitive",
                           "voice_input":  false,
                           "example_sentence":  "It is impossible to fly without wings.",
@@ -3626,17 +3398,7 @@
                                         "advance"
                                     ],
                           "question":  "Order the sentence about making a reservation.",
-                          "answer":  [
-                                         "it",
-                                         "is",
-                                         "necessary",
-                                         "to",
-                                         "book",
-                                         "a",
-                                         "table",
-                                         "in",
-                                         "advance"
-                                     ],
+                          "answer":  "it is necessary to book a table in advance",
                           "hint":  "It + be + adjective + to + verb",
                           "voice_input":  false,
                           "example_sentence":  "Is it necessary to wear a suit?",
@@ -3746,17 +3508,7 @@
                                         "today"
                                     ],
                           "question":  "Order the sentence about meteorology.",
-                          "answer":  [
-                                         "there",
-                                         "is",
-                                         "a",
-                                         "significant",
-                                         "change",
-                                         "in",
-                                         "the",
-                                         "weather",
-                                         "today"
-                                     ],
+                          "answer":  "there is a significant change in the weather today",
                           "hint":  "There + be + adj + noun phrase",
                           "voice_input":  false,
                           "example_sentence":  "The difference is significant.",
@@ -3850,16 +3602,7 @@
                                         "retirement"
                                     ],
                           "question":  "Order the sentence about a party.",
-                          "answer":  [
-                                         "we",
-                                         "had",
-                                         "a",
-                                         "wonderful",
-                                         "celebration",
-                                         "for",
-                                         "his",
-                                         "retirement"
-                                     ],
+                          "answer":  "we had a wonderful celebration for his retirement",
                           "hint":  "Subject + verb + noun phrase",
                           "voice_input":  false,
                           "example_sentence":  "Happy retirement!",
@@ -4075,18 +3818,7 @@
                                         "job"
                                     ],
                           "question":  "Order the sentence about recruitment.",
-                          "answer":  [
-                                         "she",
-                                         "received",
-                                         "an",
-                                         "email",
-                                         "with",
-                                         "the",
-                                         "description",
-                                         "of",
-                                         "the",
-                                         "job"
-                                     ],
+                          "answer":  "she received an email with the description of the job",
                           "hint":  "Subject + verb + object + prep phrase",
                           "voice_input":  false,
                           "example_sentence":  "The description is very long.",
@@ -4195,16 +3927,7 @@
                                         "environment"
                                     ],
                           "question":  "Order the sentence about nature.",
-                          "answer":  [
-                                         "it",
-                                         "is",
-                                         "important",
-                                         "to",
-                                         "protect",
-                                         "the",
-                                         "global",
-                                         "environment"
-                                     ],
+                          "answer":  "it is important to protect the global environment",
                           "hint":  "It + be + adjective + to + verb",
                           "voice_input":  false,
                           "example_sentence":  "Protect the environment now.",
@@ -4300,18 +4023,7 @@
                                         "holiday"
                                     ],
                           "question":  "Order the sentence about language skills.",
-                          "answer":  [
-                                         "my",
-                                         "knowledge",
-                                         "of",
-                                         "French",
-                                         "is",
-                                         "enough",
-                                         "for",
-                                         "a",
-                                         "short",
-                                         "holiday"
-                                     ],
+                          "answer":  "my knowledge of French is enough for a short holiday",
                           "hint":  "Noun phrase + be + adjective phrase",
                           "voice_input":  false,
                           "example_sentence":  "His knowledge is impressive.",
@@ -4526,17 +4238,7 @@
                                         "advance"
                                     ],
                           "question":  "Order the sentence about making a reservation.",
-                          "answer":  [
-                                         "it",
-                                         "is",
-                                         "necessary",
-                                         "to",
-                                         "book",
-                                         "a",
-                                         "table",
-                                         "in",
-                                         "advance"
-                                     ],
+                          "answer":  "it is necessary to book a table in advance",
                           "hint":  "It + be + adjective + to + verb",
                           "voice_input":  false,
                           "example_sentence":  "Is it necessary to wear a suit?",
@@ -4646,17 +4348,7 @@
                                         "today"
                                     ],
                           "question":  "Order the sentence about meteorology.",
-                          "answer":  [
-                                         "there",
-                                         "is",
-                                         "a",
-                                         "significant",
-                                         "change",
-                                         "in",
-                                         "the",
-                                         "weather",
-                                         "today"
-                                     ],
+                          "answer":  "there is a significant change in the weather today",
                           "hint":  "There + be + adj + noun phrase",
                           "voice_input":  false,
                           "example_sentence":  "The difference is significant.",
@@ -4750,16 +4442,7 @@
                                         "retirement"
                                     ],
                           "question":  "Order the sentence about a party.",
-                          "answer":  [
-                                         "we",
-                                         "had",
-                                         "a",
-                                         "wonderful",
-                                         "celebration",
-                                         "for",
-                                         "his",
-                                         "retirement"
-                                     ],
+                          "answer":  "we had a wonderful celebration for his retirement",
                           "hint":  "Subject + verb + noun phrase",
                           "voice_input":  false,
                           "example_sentence":  "Happy retirement!",
@@ -4975,18 +4658,7 @@
                                         "job"
                                     ],
                           "question":  "Order the sentence about recruitment.",
-                          "answer":  [
-                                         "she",
-                                         "received",
-                                         "an",
-                                         "email",
-                                         "with",
-                                         "the",
-                                         "description",
-                                         "of",
-                                         "the",
-                                         "job"
-                                     ],
+                          "answer":  "she received an email with the description of the job",
                           "hint":  "Subject + verb + object + prep phrase",
                           "voice_input":  false,
                           "example_sentence":  "The description is very long.",
@@ -5095,16 +4767,7 @@
                                         "environment"
                                     ],
                           "question":  "Order the sentence about nature.",
-                          "answer":  [
-                                         "it",
-                                         "is",
-                                         "important",
-                                         "to",
-                                         "protect",
-                                         "the",
-                                         "global",
-                                         "environment"
-                                     ],
+                          "answer":  "it is important to protect the global environment",
                           "hint":  "It + be + adjective + to + verb",
                           "voice_input":  false,
                           "example_sentence":  "Protect the environment now.",
@@ -5200,18 +4863,7 @@
                                         "holiday"
                                     ],
                           "question":  "Order the sentence about language skills.",
-                          "answer":  [
-                                         "my",
-                                         "knowledge",
-                                         "of",
-                                         "French",
-                                         "is",
-                                         "enough",
-                                         "for",
-                                         "a",
-                                         "short",
-                                         "holiday"
-                                     ],
+                          "answer":  "my knowledge of French is enough for a short holiday",
                           "hint":  "Noun phrase + be + adjective phrase",
                           "voice_input":  false,
                           "example_sentence":  "His knowledge is impressive.",
