@@ -1680,8 +1680,8 @@
                           "type":  "multiple_choice",
                           "options":  [
                                           "environment",
-                                          "appointment",
-                                          "equipment"
+                                          "comfortable",
+                                          "convenient"
                                       ],
                           "question":  "We need to protect the ___ for future generations.",
                           "answer":  "environment",
@@ -1790,8 +1790,8 @@
                           "type":  "multiple_choice",
                           "options":  [
                                           "renewable",
-                                          "furniture",
-                                          "schedule"
+                                          "efficient",
+                                          "practical"
                                       ],
                           "question":  "Solar and wind are examples of ___ energy sources.",
                           "answer":  "renewable",
@@ -1883,8 +1883,8 @@
                           "type":  "multiple_choice",
                           "options":  [
                                           "conservation",
-                                          "furniture",
-                                          "schedule"
+                                          "vehicle",
+                                          "document"
                                       ],
                           "question":  "Wildlife ___ is important to save endangered species.",
                           "answer":  "conservation",
@@ -1939,8 +1939,8 @@
                           "type":  "multiple_choice",
                           "options":  [
                                           "species",
-                                          "furniture",
-                                          "equipment"
+                                          "package",
+                                          "container"
                                       ],
                           "question":  "Many animal ___ are in danger of extinction.",
                           "answer":  "species",
@@ -2061,8 +2061,8 @@
                           "type":  "multiple_choice",
                           "options":  [
                                           "resource",
-                                          "furniture",
-                                          "schedule"
+                                          "instrument",
+                                          "clothing"
                                       ],
                           "question":  "Water is a precious natural ___.",
                           "answer":  "resource",
@@ -2096,8 +2096,8 @@
                           "type":  "multiple_choice",
                           "options":  [
                                           "achievement",
-                                          "appointment",
-                                          "equipment"
+                                          "suitable",
+                                          "appropriate"
                                       ],
                           "question":  "Graduating from university was a great ___ for her.",
                           "answer":  "achievement",
@@ -2204,8 +2204,8 @@
                           "type":  "multiple_choice",
                           "options":  [
                                           "motivation",
-                                          "furniture",
-                                          "pollution"
+                                          "neighborhood",
+                                          "district"
                                       ],
                           "question":  "She has a lot of ___ to succeed in her career.",
                           "answer":  "motivation",
@@ -2297,8 +2297,8 @@
                           "type":  "multiple_choice",
                           "options":  [
                                           "ambition",
-                                          "furniture",
-                                          "pollution"
+                                          "corridor",
+                                          "basement"
                                       ],
                           "question":  "She has great ___ and wants to become a CEO.",
                           "answer":  "ambition",
@@ -2354,8 +2354,8 @@
                           "type":  "multiple_choice",
                           "options":  [
                                           "progress",
-                                          "furniture",
-                                          "pollution"
+                                          "platform",
+                                          "terminal"
                                       ],
                           "question":  "The student is making good ___ in mathematics.",
                           "answer":  "progress",
@@ -2404,8 +2404,8 @@
                           "type":  "multiple_choice",
                           "options":  [
                                           "skill",
-                                          "furniture",
-                                          "pollution"
+                                          "colleague",
+                                          "passenger"
                                       ],
                           "question":  "Learning a new ___ takes time and practice.",
                           "answer":  "skill",
@@ -2476,8 +2476,8 @@
                           "type":  "multiple_choice",
                           "options":  [
                                           "opportunity",
-                                          "furniture",
-                                          "pollution"
+                                          "customer",
+                                          "audience"
                                       ],
                           "question":  "This job is a great ___ for me to learn new things.",
                           "answer":  "opportunity",
@@ -2511,8 +2511,8 @@
                           "type":  "multiple_choice",
                           "options":  [
                                           "relationship",
-                                          "furniture",
-                                          "pollution"
+                                          "volunteer",
+                                          "participant"
                                       ],
                           "question":  "They have a very close ___ with their neighbors.",
                           "answer":  "relationship",
@@ -2620,8 +2620,8 @@
                           "type":  "multiple_choice",
                           "options":  [
                                           "argument",
-                                          "furniture",
-                                          "equipment"
+                                          "excellent",
+                                          "adequate"
                                       ],
                           "question":  "They had a big ___ about money yesterday.",
                           "answer":  "argument",
@@ -2714,8 +2714,8 @@
                           "type":  "multiple_choice",
                           "options":  [
                                           "compromise",
-                                          "furniture",
-                                          "schedule"
+                                          "opinion",
+                                          "tradition"
                                       ],
                           "question":  "Both sides need to ___ to reach an agreement.",
                           "answer":  "compromise",
@@ -2769,8 +2769,8 @@
                           "type":  "multiple_choice",
                           "options":  [
                                           "loyalty",
-                                          "furniture",
-                                          "equipment"
+                                          "memory",
+                                          "emotion"
                                       ],
                           "question":  "She showed great ___ to her friends during difficult times.",
                           "answer":  "loyalty",
@@ -2819,8 +2819,8 @@
                           "type":  "multiple_choice",
                           "options":  [
                                           "patience",
-                                          "furniture",
-                                          "schedule"
+                                          "attitude",
+                                          "principle"
                                       ],
                           "question":  "Teaching young children requires a lot of ___.",
                           "answer":  "patience",
@@ -2891,8 +2891,8 @@
                           "type":  "multiple_choice",
                           "options":  [
                                           "appreciation",
-                                          "furniture",
-                                          "equipment"
+                                          "avenue",
+                                          "balcony"
                                       ],
                           "question":  "She expressed her ___ for all the help she received.",
                           "answer":  "appreciation",
@@ -2926,8 +2926,8 @@
                           "type":  "multiple_choice",
                           "options":  [
                                           "entertainment",
-                                          "furniture",
-                                          "pollution"
+                                          "sufficient",
+                                          "moderate"
                                       ],
                           "question":  "The city offers many forms of ___ for tourists.",
                           "answer":  "entertainment",
@@ -3035,8 +3035,8 @@
                           "type":  "multiple_choice",
                           "options":  [
                                           "theater",
-                                          "furniture",
-                                          "equipment"
+                                          "ceremony",
+                                          "fabric"
                                       ],
                           "question":  "We\u0027re going to the ___ to watch a play tonight.",
                           "answer":  "theater",
@@ -3129,8 +3129,8 @@
                           "type":  "multiple_choice",
                           "options":  [
                                           "festival",
-                                          "furniture",
-                                          "schedule"
+                                          "typical",
+                                          "obvious"
                                       ],
                           "question":  "The music ___ attracts thousands of visitors every year.",
                           "answer":  "festival",
@@ -3186,8 +3186,8 @@
                           "type":  "multiple_choice",
                           "options":  [
                                           "invitation",
-                                          "furniture",
-                                          "equipment"
+                                          "texture",
+                                          "flavor"
                                       ],
                           "question":  "Did you receive the ___ to the wedding?",
                           "answer":  "invitation",
@@ -3236,8 +3236,8 @@
                           "type":  "multiple_choice",
                           "options":  [
                                           "tradition",
-                                          "furniture",
-                                          "schedule"
+                                          "vehicle",
+                                          "document"
                                       ],
                           "question":  "It\u0027s a family ___ to have dinner together on Sundays.",
                           "answer":  "tradition",
@@ -3308,8 +3308,8 @@
                           "type":  "multiple_choice",
                           "options":  [
                                           "memory",
-                                          "furniture",
-                                          "equipment"
+                                          "package",
+                                          "container"
                                       ],
                           "question":  "That vacation is one of my favorite childhood ___.",
                           "answer":  "memory",
@@ -3343,8 +3343,8 @@
                           "type":  "multiple_choice",
                           "options":  [
                                           "education",
-                                          "furniture",
-                                          "pollution"
+                                          "instrument",
+                                          "clothing"
                                       ],
                           "question":  "A good ___ is important for finding a better job.",
                           "answer":  "education",
@@ -3451,8 +3451,8 @@
                           "type":  "multiple_choice",
                           "options":  [
                                           "university",
-                                          "furniture",
-                                          "equipment"
+                                          "neighborhood",
+                                          "district"
                                       ],
                           "question":  "She wants to go to ___ to study medicine.",
                           "answer":  "university",
@@ -3544,8 +3544,8 @@
                           "type":  "multiple_choice",
                           "options":  [
                                           "research",
-                                          "furniture",
-                                          "schedule"
+                                          "corridor",
+                                          "basement"
                                       ],
                           "question":  "The scientists are doing ___ on climate change.",
                           "answer":  "research",
@@ -3599,8 +3599,8 @@
                           "type":  "multiple_choice",
                           "options":  [
                                           "exam",
-                                          "furniture",
-                                          "equipment"
+                                          "platform",
+                                          "terminal"
                                       ],
                           "question":  "I have an important ___ tomorrow morning.",
                           "answer":  "exam",
@@ -3649,8 +3649,8 @@
                           "type":  "multiple_choice",
                           "options":  [
                                           "scholarship",
-                                          "furniture",
-                                          "schedule"
+                                          "colleague",
+                                          "passenger"
                                       ],
                           "question":  "He received a ___ to study abroad.",
                           "answer":  "scholarship",
@@ -3721,8 +3721,8 @@
                           "type":  "multiple_choice",
                           "options":  [
                                           "lecture",
-                                          "furniture",
-                                          "equipment"
+                                          "customer",
+                                          "audience"
                                       ],
                           "question":  "The ___ on history was very interesting.",
                           "answer":  "lecture",
@@ -3756,8 +3756,8 @@
                           "type":  "multiple_choice",
                           "options":  [
                                           "economy",
-                                          "furniture",
-                                          "pollution"
+                                          "volunteer",
+                                          "participant"
                                       ],
                           "question":  "The country\u0027s ___ is growing rapidly.",
                           "answer":  "economy",
@@ -3865,8 +3865,8 @@
                           "type":  "multiple_choice",
                           "options":  [
                                           "investment",
-                                          "furniture",
-                                          "equipment"
+                                          "anxious",
+                                          "curious"
                                       ],
                           "question":  "Real estate is a good long-term ___.",
                           "answer":  "investment",
@@ -3959,8 +3959,8 @@
                           "type":  "multiple_choice",
                           "options":  [
                                           "salary",
-                                          "furniture",
-                                          "schedule"
+                                          "opinion",
+                                          "tradition"
                                       ],
                           "question":  "Her monthly ___ is enough to live comfortably.",
                           "answer":  "salary",
@@ -4016,8 +4016,8 @@
                           "type":  "multiple_choice",
                           "options":  [
                                           "loan",
-                                          "furniture",
-                                          "equipment"
+                                          "memory",
+                                          "emotion"
                                       ],
                           "question":  "They took out a ___ to buy a house.",
                           "answer":  "loan",
@@ -4066,8 +4066,8 @@
                           "type":  "multiple_choice",
                           "options":  [
                                           "account",
-                                          "furniture",
-                                          "schedule"
+                                          "attitude",
+                                          "principle"
                                       ],
                           "question":  "I opened a savings ___ at the bank.",
                           "answer":  "account",
@@ -4138,8 +4138,8 @@
                           "type":  "multiple_choice",
                           "options":  [
                                           "receipt",
-                                          "furniture",
-                                          "equipment"
+                                          "avenue",
+                                          "balcony"
                                       ],
                           "question":  "Keep the ___ in case you need to return the item.",
                           "answer":  "receipt",
