@@ -1,0 +1,2378 @@
+{
+  "exercises": [
+    {
+      "id": "b21_01",
+      "type": "multiple_choice",
+      "options": ["angry", "thirsty", "heavy"],
+      "question": "He lost his keys. Now he is ___.",
+      "answer": "angry",
+      "hint": "A strong negative feeling",
+      "voice_input": false,
+      "example_sentence": "The man is angry because he is late.",
+      "media": {}
+    },
+    {
+      "id": "b21_02",
+      "type": "tap_fill",
+      "options": ["under", "between", "on", "fast"],
+      "question": "The letter 'B' is ___ 'A' and 'C'.",
+      "answer": "between",
+      "hint": "In the middle of two things",
+      "voice_input": false,
+      "example_sentence": "I sit between my two friends.",
+      "media": {}
+    },
+    {
+      "id": "b21_03",
+      "type": "sentence_ordering",
+      "words": ["breakfast", "cooks", "My", "mother"],
+      "question": "Order the sentence.",
+      "answer": "My mother cooks breakfast",
+      "hint": "Subject + Verb + Object",
+      "voice_input": false,
+      "example_sentence": "My mother cooks breakfast at 7 AM.",
+      "media": {}
+    },
+    {
+      "id": "b21_04",
+      "type": "matching",
+      "words": ["socks", "feet", "gloves", "hands"],
+      "question": "Match the clothing to the body part.",
+      "pairs": [
+        { "left": "socks", "right": "feet" },
+        { "left": "gloves", "right": "hands" }
+      ],
+      "answer": [["socks", "feet"], ["gloves", "hands"]],
+      "hint": "Where do you wear these?",
+      "voice_input": false,
+      "example_sentence": "I wear gloves when it is cold.",
+      "media": {}
+    },
+    {
+      "id": "b21_05",
+      "type": "pronunciation",
+      "words": ["expensive"],
+      "question": "Say 'expensive'.",
+      "answer": "expensive",
+      "hint": "It costs a lot of money",
+      "voice_input": true,
+      "example_sentence": "That gold watch is very expensive.",
+      "media": {}
+    },
+    {
+      "id": "b21_06",
+      "type": "multiple_choice",
+      "options": ["kitchen", "bathroom", "garden"],
+      "question": "I am taking a shower in the ___.",
+      "answer": "bathroom",
+      "hint": "The room with the shower and sink",
+      "voice_input": false,
+      "example_sentence": "The bathroom is next to the bedroom.",
+      "media": {}
+    },
+    {
+      "id": "b21_07",
+      "type": "tap_fill",
+      "options": ["nurse", "pilot", "chef", "slow"],
+      "question": "The ___ flies the plane to London.",
+      "answer": "pilot",
+      "hint": "Person who operates an airplane",
+      "voice_input": false,
+      "example_sentence": "The pilot is wearing a uniform.",
+      "media": {}
+    },
+    {
+      "id": "b21_08",
+      "type": "sentence_ordering",
+      "words": ["not", "is", "The", "heavy", "box"],
+      "question": "Order the sentence.",
+      "answer": "The box is not heavy",
+      "hint": "Negative description",
+      "voice_input": false,
+      "example_sentence": "I can carry it; the box is not heavy.",
+      "media": {}
+    },
+    {
+      "id": "b21_09",
+      "type": "matching",
+      "words": ["baker", "bread", "artist", "picture"],
+      "question": "Match the person to what they produce.",
+      "pairs": [
+        { "left": "baker", "right": "bread" },
+        { "left": "artist", "right": "picture" }
+      ],
+      "answer": [["baker", "bread"], ["artist", "picture"]],
+      "hint": "Jobs and products",
+      "voice_input": false,
+      "example_sentence": "The baker makes fresh bread.",
+      "media": {}
+    },
+    {
+      "id": "b21_10",
+      "type": "multiple_choice",
+      "options": ["dangerous", "sweet", "empty"],
+      "question": "Sugar is very ___.",
+      "answer": "sweet",
+      "hint": "A taste like candy",
+      "voice_input": false,
+      "example_sentence": "I like sweet fruit.",
+      "media": {}
+    },
+    {
+      "id": "b21_11",
+      "type": "tap_fill",
+      "options": ["keys", "shoes", "glasses", "water"],
+      "question": "I cannot see well. I need my ___.",
+      "answer": "glasses",
+      "hint": "You wear these on your eyes",
+      "voice_input": false,
+      "example_sentence": "My glasses are on the table.",
+      "media": {}
+    },
+    {
+      "id": "b21_12",
+      "type": "sentence_ordering",
+      "words": ["always", "He", "water", "drinks"],
+      "question": "Order the sentence.",
+      "answer": "He always drinks water",
+      "hint": "Subject + Adverb + Verb + Object",
+      "voice_input": false,
+      "example_sentence": "He always drinks water after running.",
+      "media": {}
+    },
+    {
+      "id": "b21_13",
+      "type": "matching",
+      "words": ["sunny", "beach", "cold", "mountain"],
+      "question": "Match the weather to the location.",
+      "pairs": [
+        { "left": "sunny", "right": "beach" },
+        { "left": "cold", "right": "mountain" }
+      ],
+      "answer": [["sunny", "beach"], ["cold", "mountain"]],
+      "hint": "Environment and climate",
+      "voice_input": false,
+      "example_sentence": "It is cold on the mountain.",
+      "media": {}
+    },
+    {
+      "id": "b21_14",
+      "type": "multiple_choice",
+      "options": ["boring", "hungry", "scared"],
+      "question": "The boy sees a big spider. He is ___.",
+      "answer": "scared",
+      "hint": "A feeling of fear",
+      "voice_input": false,
+      "example_sentence": "Are you scared of dogs?",
+      "media": {}
+    },
+    {
+      "id": "b21_15",
+      "type": "tap_fill",
+      "options": ["dirty", "new", "full", "run"],
+      "question": "I cannot put more water in the glass. It is ___.",
+      "answer": "full",
+      "hint": "No more space inside",
+      "voice_input": false,
+      "example_sentence": "The bus is full of people.",
+      "media": {}
+    },
+    {
+      "id": "b21_16",
+      "type": "sentence_ordering",
+      "words": ["open", "Please", "window", "the"],
+      "question": "Order the sentence.",
+      "answer": "Please open the window",
+      "hint": "Polite request",
+      "voice_input": false,
+      "example_sentence": "It is hot. Please open the window.",
+      "media": {}
+    },
+    {
+      "id": "b21_17",
+      "type": "pronunciation",
+      "words": ["vegetables"],
+      "question": "Say 'vegetables'.",
+      "answer": "vegetables",
+      "hint": "Carrots, onions, and broccoli",
+      "voice_input": true,
+      "example_sentence": "I eat vegetables every day.",
+      "media": {}
+    },
+    {
+      "id": "b21_18",
+      "type": "matching",
+      "words": ["morning", "7:00 AM", "night", "11:00 PM"],
+      "question": "Match the time to the period.",
+      "pairs": [
+        { "left": "morning", "right": "7:00 AM" },
+        { "left": "night", "right": "11:00 PM" }
+      ],
+      "answer": [["morning", "7:00 AM"], ["night", "11:00 PM"]],
+      "hint": "AM and PM",
+      "voice_input": false,
+      "example_sentence": "I sleep at 11:00 PM.",
+      "media": {}
+    },
+    {
+      "id": "b21_19",
+      "type": "multiple_choice",
+      "options": ["cheap", "quiet", "easy"],
+      "question": "One plus one is two. This is very ___.",
+      "answer": "easy",
+      "hint": "Not difficult",
+      "voice_input": false,
+      "example_sentence": "The English lesson is easy.",
+      "media": {}
+    },
+    {
+      "id": "b21_20",
+      "type": "multiple_choice",
+      "options": ["shoes", "money", "milk"],
+      "question": "I have ten dollars in my ___.",
+      "answer": "pocket",
+      "hint": "A small bag in your trousers",
+      "voice_input": false,
+      "example_sentence": "He puts his hands in his pockets.",
+      "media": {}
+    },
+    {
+      "id": "b22_01",
+      "type": "multiple_choice",
+      "options": ["fridge", "mirror", "carpet"],
+      "question": "The food stays cold in the ___.",
+      "answer": "fridge",
+      "hint": "A kitchen appliance for cold storage",
+      "voice_input": false,
+      "example_sentence": "Put the milk in the fridge.",
+      "media": {}
+    },
+    {
+      "id": "b22_02",
+      "type": "tap_fill",
+      "options": ["never", "always", "often", "red"],
+      "question": "He does not like coffee. He ___ drinks it.",
+      "answer": "never",
+      "hint": "0% of the time",
+      "voice_input": false,
+      "example_sentence": "I never go to bed late.",
+      "media": {}
+    },
+    {
+      "id": "b22_03",
+      "type": "sentence_ordering",
+      "words": ["is", "The", "floor", "dirty"],
+      "question": "Order the sentence.",
+      "answer": "The floor is dirty",
+      "hint": "Subject + Verb + Adjective",
+      "voice_input": false,
+      "example_sentence": "Please clean it; the floor is dirty.",
+      "media": {}
+    },
+    {
+      "id": "b22_04",
+      "type": "matching",
+      "words": ["pillows", "bed", "shampoo", "shower"],
+      "question": "Match the item to where you use it.",
+      "pairs": [
+        { "left": "pillows", "right": "bed" },
+        { "left": "shampoo", "right": "shower" }
+      ],
+      "answer": [["pillows", "bed"], ["shampoo", "shower"]],
+      "hint": "Objects and locations",
+      "voice_input": false,
+      "example_sentence": "I sleep with two pillows on my bed.",
+      "media": {}
+    },
+    {
+      "id": "b22_05",
+      "type": "pronunciation",
+      "words": ["dangerous"],
+      "question": "Say 'dangerous'.",
+      "answer": "dangerous",
+      "hint": "Not safe",
+      "voice_input": true,
+      "example_sentence": "Driving very fast is dangerous.",
+      "media": {}
+    },
+    {
+      "id": "b22_06",
+      "type": "multiple_choice",
+      "options": ["fork", "towel", "blanket"],
+      "question": "I am wet after my bath. I need a ___.",
+      "answer": "towel",
+      "hint": "Used for drying your body",
+      "voice_input": false,
+      "example_sentence": "This blue towel is soft.",
+      "media": {}
+    },
+    {
+      "id": "b22_07",
+      "type": "tap_fill",
+      "options": ["waiter", "doctor", "farmer", "fast"],
+      "question": "The ___ brings our pizza to the table.",
+      "answer": "waiter",
+      "hint": "Person who serves food in a restaurant",
+      "voice_input": false,
+      "example_sentence": "The waiter is very friendly.",
+      "media": {}
+    },
+    {
+      "id": "b22_08",
+      "type": "sentence_ordering",
+      "words": ["computer", "uses", "a", "He"],
+      "question": "Order the sentence.",
+      "answer": "He uses a computer",
+      "hint": "Subject + Verb + Object",
+      "voice_input": false,
+      "example_sentence": "He uses a computer for work.",
+      "media": {}
+    },
+    {
+      "id": "b22_09",
+      "type": "matching",
+      "words": ["buy", "shop", "watch", "movie"],
+      "question": "Match the verb to the activity.",
+      "pairs": [
+        { "left": "buy", "right": "shop" },
+        { "left": "watch", "right": "movie" }
+      ],
+      "answer": [["buy", "shop"], ["watch", "movie"]],
+      "hint": "Action and Object",
+      "voice_input": false,
+      "example_sentence": "I want to watch a movie.",
+      "media": {}
+    },
+    {
+      "id": "b22_10",
+      "type": "multiple_choice",
+      "options": ["noisy", "round", "square"],
+      "question": "There is a lot of traffic. The street is very ___.",
+      "answer": "noisy",
+      "hint": "Full of loud sounds",
+      "voice_input": false,
+      "example_sentence": "I cannot sleep because it is noisy.",
+      "media": {}
+    },
+    {
+      "id": "b22_11",
+      "type": "tap_fill",
+      "options": ["library", "park", "airport", "blue"],
+      "question": "I go to the ___ to borrow books.",
+      "answer": "library",
+      "hint": "A place with many books",
+      "voice_input": false,
+      "example_sentence": "The library is a quiet place.",
+      "media": {}
+    },
+    {
+      "id": "b22_12",
+      "type": "sentence_ordering",
+      "words": ["is", "Today", "Wednesday", "not"],
+      "question": "Order the sentence.",
+      "answer": "Today is not Wednesday",
+      "hint": "Negative statement",
+      "voice_input": false,
+      "example_sentence": "Today is Tuesday, so today is not Wednesday.",
+      "media": {}
+    },
+    {
+      "id": "b22_13",
+      "type": "matching",
+      "words": ["strong", "lion", "slow", "turtle"],
+      "question": "Match the adjective to the animal.",
+      "pairs": [
+        { "left": "strong", "right": "lion" },
+        { "left": "slow", "right": "turtle" }
+      ],
+      "answer": [["strong", "lion"], ["slow", "turtle"]],
+      "hint": "Animal characteristics",
+      "voice_input": false,
+      "example_sentence": "A turtle is very slow.",
+      "media": {}
+    },
+    {
+      "id": "b22_14",
+      "type": "multiple_choice",
+      "options": ["cheap", "bitter", "broken"],
+      "question": "My phone fell on the floor. Now it is ___.",
+      "answer": "broken",
+      "hint": "It does not work anymore",
+      "voice_input": false,
+      "example_sentence": "I need a new phone because this one is broken.",
+      "media": {}
+    },
+    {
+      "id": "b22_15",
+      "type": "tap_fill",
+      "options": ["kitchen", "ceiling", "stairs", "run"],
+      "question": "Go up the ___ to the second floor.",
+      "answer": "stairs",
+      "hint": "Steps inside a building",
+      "voice_input": false,
+      "example_sentence": "The stairs are made of wood.",
+      "media": {}
+    },
+    {
+      "id": "b22_16",
+      "type": "sentence_ordering",
+      "words": ["help", "me", "Can", "you"],
+      "question": "Order the sentence.",
+      "answer": "Can you help me",
+      "hint": "Asking for assistance",
+      "voice_input": false,
+      "example_sentence": "This bag is heavy. Can you help me?",
+      "media": {}
+    },
+    {
+      "id": "b22_17",
+      "type": "pronunciation",
+      "words": ["neighborhood"],
+      "question": "Say 'neighborhood'.",
+      "answer": "neighborhood",
+      "hint": "The area where you live",
+      "voice_input": true,
+      "example_sentence": "I live in a beautiful neighborhood.",
+      "media": {}
+    },
+    {
+      "id": "b22_18",
+      "type": "matching",
+      "words": ["wallet", "money", "oven", "pizza"],
+      "question": "Match the container to the content.",
+      "pairs": [
+        { "left": "wallet", "right": "money" },
+        { "left": "oven", "right": "pizza" }
+      ],
+      "answer": [["wallet", "money"], ["oven", "pizza"]],
+      "hint": "Where things belong",
+      "voice_input": false,
+      "example_sentence": "I have my money in my wallet.",
+      "media": {}
+    },
+    {
+      "id": "b22_19",
+      "type": "multiple_choice",
+      "options": ["quiet", "tired", "delicious"],
+      "question": "The cake is very ___.",
+      "answer": "delicious",
+      "hint": "It tastes very good",
+      "voice_input": false,
+      "example_sentence": "Thank you! The dinner was delicious.",
+      "media": {}
+    },
+    {
+      "id": "b22_20",
+      "type": "multiple_choice",
+      "options": ["brush", "soap", "glass"],
+      "question": "I use ___ to wash my hands.",
+      "answer": "soap",
+      "hint": "Used for cleaning with water",
+      "voice_input": false,
+      "example_sentence": "Wash your hands with soap.",
+      "media": {}
+    },
+    {
+      "id": "b23_01",
+      "type": "multiple_choice",
+      "options": ["sunny", "expensive", "useful"],
+      "question": "A smartphone is a very ___ tool.",
+      "answer": "useful",
+      "hint": "Helps you do many things",
+      "voice_input": false,
+      "example_sentence": "This map is very useful for our trip.",
+      "media": {}
+    },
+    {
+      "id": "b23_02",
+      "type": "tap_fill",
+      "options": ["sometimes", "always", "never", "water"],
+      "question": "The sun ___ rises in the east.",
+      "answer": "always",
+      "hint": "100% of the time",
+      "voice_input": false,
+      "example_sentence": "I always drink water in the morning.",
+      "media": {}
+    },
+    {
+      "id": "b23_03",
+      "type": "sentence_ordering",
+      "words": ["is", "The", "empty", "bottle"],
+      "question": "Order the sentence.",
+      "answer": "The bottle is empty",
+      "hint": "Subject + Verb + Adjective",
+      "voice_input": false,
+      "example_sentence": "I need more water; the bottle is empty.",
+      "media": {}
+    },
+    {
+      "id": "b23_04",
+      "type": "matching",
+      "words": ["dentist", "teeth", "chef", "food"],
+      "question": "Match the job to what they care for.",
+      "pairs": [
+        { "left": "dentist", "right": "teeth" },
+        { "left": "chef", "right": "food" }
+      ],
+      "answer": [["dentist", "teeth"], ["chef", "food"]],
+      "hint": "Professions and focus",
+      "voice_input": false,
+      "example_sentence": "The dentist looks at my teeth.",
+      "media": {}
+    },
+    {
+      "id": "b23_05",
+      "type": "pronunciation",
+      "words": ["important"],
+      "question": "Say 'important'.",
+      "answer": "important",
+      "hint": "Something you must care about",
+      "voice_input": true,
+      "example_sentence": "Water is important for life.",
+      "media": {}
+    },
+    {
+      "id": "b23_06",
+      "type": "multiple_choice",
+      "options": ["museum", "bakery", "pharmacy"],
+      "question": "I buy medicine at the ___.",
+      "answer": "pharmacy",
+      "hint": "A shop for health products",
+      "voice_input": false,
+      "example_sentence": "The pharmacy is open 24 hours.",
+      "media": {}
+    },
+    {
+      "id": "b23_07",
+      "type": "tap_fill",
+      "options": ["across", "under", "behind", "slow"],
+      "question": "The post office is ___ the street.",
+      "answer": "across",
+      "hint": "On the other side of",
+      "voice_input": false,
+      "example_sentence": "Walk across the street to the park.",
+      "media": {}
+    },
+    {
+      "id": "b23_08",
+      "type": "sentence_ordering",
+      "words": ["walk", "I", "to", "work"],
+      "question": "Order the sentence.",
+      "answer": "I walk to work",
+      "hint": "Subject + Verb + Direction",
+      "voice_input": false,
+      "example_sentence": "I walk to work every day because it is near.",
+      "media": {}
+    },
+    {
+      "id": "b23_09",
+      "type": "matching",
+      "words": ["cold", "winter", "hot", "summer"],
+      "question": "Match the season to the temperature.",
+      "pairs": [
+        { "left": "cold", "right": "winter" },
+        { "left": "hot", "right": "summer" }
+      ],
+      "answer": [["cold", "winter"], ["hot", "summer"]],
+      "hint": "Seasons and climate",
+      "voice_input": false,
+      "example_sentence": "It is very hot in the summer.",
+      "media": {}
+    },
+    {
+      "id": "b23_10",
+      "type": "multiple_choice",
+      "options": ["lazy", "busy", "round"],
+      "question": "The teacher has many students. She is very ___.",
+      "answer": "busy",
+      "hint": "Having a lot of work to do",
+      "voice_input": false,
+      "example_sentence": "I am busy today; I cannot play.",
+      "media": {}
+    },
+    {
+      "id": "b23_11",
+      "type": "tap_fill",
+      "options": ["map", "socks", "apples", "fast"],
+      "question": "I am lost. I need a ___.",
+      "answer": "map",
+      "hint": "A drawing of a city or country",
+      "voice_input": false,
+      "example_sentence": "Look at the map to find the hotel.",
+      "media": {}
+    },
+    {
+      "id": "b23_12",
+      "type": "sentence_ordering",
+      "words": ["clean", "clothes", "My", "are"],
+      "question": "Order the sentence.",
+      "answer": "My clothes are clean",
+      "hint": "Possessive + Noun + Verb + Adj",
+      "voice_input": false,
+      "example_sentence": "I washed them today; my clothes are clean.",
+      "media": {}
+    },
+    {
+      "id": "b23_13",
+      "type": "matching",
+      "words": ["morning", "breakfast", "evening", "dinner"],
+      "question": "Match the time to the meal.",
+      "pairs": [
+        { "left": "morning", "right": "breakfast" },
+        { "left": "evening", "right": "dinner" }
+      ],
+      "answer": [["morning", "breakfast"], ["evening", "dinner"]],
+      "hint": "Meals and times",
+      "voice_input": false,
+      "example_sentence": "I eat breakfast in the morning.",
+      "media": {}
+    },
+    {
+      "id": "b23_14",
+      "type": "multiple_choice",
+      "options": ["sharp", "kind", "heavy"],
+      "question": "The nurse helps everyone. She is very ___.",
+      "answer": "kind",
+      "hint": "Nice and helpful",
+      "voice_input": false,
+      "example_sentence": "He is a kind man.",
+      "media": {}
+    },
+    {
+      "id": "b23_15",
+      "type": "tap_fill",
+      "options": ["curtains", "fridge", "table", "run"],
+      "question": "Close the ___ because it is too sunny.",
+      "answer": "curtains",
+      "hint": "Fabric on the window",
+      "voice_input": false,
+      "example_sentence": "The blue curtains are beautiful.",
+      "media": {}
+    },
+    {
+      "id": "b23_16",
+      "type": "sentence_ordering",
+      "words": ["is", "The", "park", "quiet"],
+      "question": "Order the sentence.",
+      "answer": "The park is quiet",
+      "hint": "Subject + Verb + Adjective",
+      "voice_input": false,
+      "example_sentence": "No one is here; the park is quiet.",
+      "media": {}
+    },
+    {
+      "id": "b23_17",
+      "type": "pronunciation",
+      "words": ["comfortable"],
+      "question": "Say 'comfortable'.",
+      "answer": "comfortable",
+      "hint": "Feeling relaxed (like a soft bed)",
+      "voice_input": true,
+      "example_sentence": "My new shoes are very comfortable.",
+      "media": {}
+    },
+    {
+      "id": "b23_18",
+      "type": "matching",
+      "words": ["light", "lamp", "sound", "radio"],
+      "question": "Match the object to what it produces.",
+      "pairs": [
+        { "left": "light", "right": "lamp" },
+        { "left": "sound", "right": "radio" }
+      ],
+      "answer": [["light", "lamp"], ["sound", "radio"]],
+      "hint": "Function of objects",
+      "voice_input": false,
+      "example_sentence": "The lamp gives light.",
+      "media": {}
+    },
+    {
+      "id": "b23_19",
+      "type": "multiple_choice",
+      "options": ["modern", "dark", "thin"],
+      "question": "Turn on the light. The room is ___.",
+      "answer": "dark",
+      "hint": "No light",
+      "voice_input": false,
+      "example_sentence": "I am scared of the dark.",
+      "media": {}
+    },
+    {
+      "id": "b23_20",
+      "type": "multiple_choice",
+      "options": ["stairs", "mailbox", "ceiling"],
+      "question": "The postman puts letters in the ___.",
+      "answer": "mailbox",
+      "hint": "A box for mail outside your house",
+      "voice_input": false,
+      "example_sentence": "Is there a letter in the mailbox?",
+      "media": {}
+    },
+    {
+      "id": "b24_01",
+      "type": "multiple_choice",
+      "options": ["fast", "loudly", "quickly"],
+      "question": "The baby is sleeping. Please speak ___.",
+      "answer": "quietly",
+      "hint": "With very little sound",
+      "voice_input": false,
+      "example_sentence": "She speaks quietly in the library.",
+      "media": {}
+    },
+    {
+      "id": "b24_02",
+      "type": "tap_fill",
+      "options": ["helmet", "belt", "hat", "slow"],
+      "question": "I ride my bicycle. I wear a ___ on my head.",
+      "answer": "helmet",
+      "hint": "Protects your head",
+      "voice_input": false,
+      "example_sentence": "Safety first! Wear a helmet.",
+      "media": {}
+    },
+    {
+      "id": "b24_03",
+      "type": "sentence_ordering",
+      "words": ["stomach", "My", "hurts", "really"],
+      "question": "Order the sentence.",
+      "answer": "My stomach really hurts",
+      "hint": "Possessive + Noun + Adverb + Verb",
+      "voice_input": false,
+      "example_sentence": "I ate too much; my stomach really hurts.",
+      "media": {}
+    },
+    {
+      "id": "b24_04",
+      "type": "matching",
+      "words": ["plane", "sky", "boat", "river"],
+      "question": "Match the vehicle to where it moves.",
+      "pairs": [
+        { "left": "plane", "right": "sky" },
+        { "left": "boat", "right": "river" }
+      ],
+      "answer": [["plane", "sky"], ["boat", "river"]],
+      "hint": "Transportation and environment",
+      "voice_input": false,
+      "example_sentence": "The boat is on the river.",
+      "media": {}
+    },
+    {
+      "id": "b24_05",
+      "type": "pronunciation",
+      "words": ["emergency"],
+      "question": "Say 'emergency'.",
+      "answer": "emergency",
+      "hint": "A dangerous situation that needs help now",
+      "voice_input": true,
+      "example_sentence": "Call the hospital in an emergency.",
+      "media": {}
+    },
+    {
+      "id": "b24_06",
+      "type": "multiple_choice",
+      "options": ["ticket", "driver", "window"],
+      "question": "I want to go on the train. I must buy a ___.",
+      "answer": "ticket",
+      "hint": "A paper that lets you travel",
+      "voice_input": false,
+      "example_sentence": "The train ticket is ten dollars.",
+      "media": {}
+    },
+    {
+      "id": "b24_07",
+      "type": "tap_fill",
+      "options": ["well", "badly", "sadly", "red"],
+      "question": "He practices every day. He plays the piano very ___.",
+      "answer": "well",
+      "hint": "In a good way",
+      "voice_input": false,
+      "example_sentence": "You speak English very well.",
+      "media": {}
+    },
+    {
+      "id": "b24_08",
+      "type": "sentence_ordering",
+      "words": ["is", "The", "medicine", "bitter"],
+      "question": "Order the sentence.",
+      "answer": "The medicine is bitter",
+      "hint": "Subject + Verb + Taste",
+      "voice_input": false,
+      "example_sentence": "I don't like it; the medicine is bitter.",
+      "media": {}
+    },
+    {
+      "id": "b24_09",
+      "type": "matching",
+      "words": ["thermometer", "fever", "bandage", "cut"],
+      "question": "Match the medical tool to the problem.",
+      "pairs": [
+        { "left": "thermometer", "right": "fever" },
+        { "left": "bandage", "right": "cut" }
+      ],
+      "answer": [["thermometer", "fever"], ["bandage", "cut"]],
+      "hint": "Health and tools",
+      "voice_input": false,
+      "example_sentence": "Use a bandage for that cut.",
+      "media": {}
+    },
+    {
+      "id": "b24_10",
+      "type": "multiple_choice",
+      "options": ["forest", "beach", "desert"],
+      "question": "There are many trees and birds in the ___.",
+      "answer": "forest",
+      "hint": "A place with many green trees",
+      "voice_input": false,
+      "example_sentence": "We go walking in the forest.",
+      "media": {}
+    },
+    {
+      "id": "b24_11",
+      "type": "tap_fill",
+      "options": ["stairs", "elevator", "mirror", "fast"],
+      "question": "The apartment is on the 20th floor. Let's take the ___.",
+      "answer": "elevator",
+      "hint": "A machine that moves you up and down",
+      "voice_input": false,
+      "example_sentence": "The elevator is faster than the stairs.",
+      "media": {}
+    },
+    {
+      "id": "b24_12",
+      "type": "sentence_ordering",
+      "words": ["carefully", "drive", "Please", "your", "car"],
+      "question": "Order the sentence.",
+      "answer": "Please drive your car carefully",
+      "hint": "Polite request + Action + Manner",
+      "voice_input": false,
+      "example_sentence": "The road is wet. Please drive carefully.",
+      "media": {}
+    },
+    {
+      "id": "b24_13",
+      "type": "matching",
+      "words": ["petrol", "car", "electricity", "lamp"],
+      "question": "Match the energy to the object.",
+      "pairs": [
+        { "left": "petrol", "right": "car" },
+        { "left": "electricity", "right": "lamp" }
+      ],
+      "answer": [["petrol", "car"], ["electricity", "lamp"]],
+      "hint": "How things work",
+      "voice_input": false,
+      "example_sentence": "The car needs petrol to move.",
+      "media": {}
+    },
+    {
+      "id": "b24_14",
+      "type": "multiple_choice",
+      "options": ["deep", "high", "wide"],
+      "question": "The water in the middle of the ocean is very ___.",
+      "answer": "deep",
+      "hint": "Goes down a long way",
+      "voice_input": false,
+      "example_sentence": "The swimming pool is not deep.",
+      "media": {}
+    },
+    {
+      "id": "b24_15",
+      "type": "tap_fill",
+      "options": ["cough", "headache", "smile", "run"],
+      "question": "My head hurts. I have a ___.",
+      "answer": "headache",
+      "hint": "Pain in the head",
+      "voice_input": false,
+      "example_sentence": "I need to rest; I have a headache.",
+      "media": {}
+    },
+    {
+      "id": "b24_16",
+      "type": "sentence_ordering",
+      "words": ["is", "The", "ocean", "blue"],
+      "question": "Order the sentence.",
+      "answer": "The ocean is blue",
+      "hint": "Simple description",
+      "voice_input": false,
+      "example_sentence": "The ocean is blue and very big.",
+      "media": {}
+    },
+    {
+      "id": "b24_17",
+      "type": "pronunciation",
+      "words": ["ambulance"],
+      "question": "Say 'ambulance'.",
+      "answer": "ambulance",
+      "hint": "A car for sick people",
+      "voice_input": true,
+      "example_sentence": "The ambulance is very fast.",
+      "media": {}
+    },
+    {
+      "id": "b24_18",
+      "type": "matching",
+      "words": ["island", "water", "mountain", "rock"],
+      "question": "Match the landform to the material.",
+      "pairs": [
+        { "left": "island", "right": "water" },
+        { "left": "mountain", "right": "rock" }
+      ],
+      "answer": [["island", "water"], ["mountain", "rock"]],
+      "hint": "Geography",
+      "voice_input": false,
+      "example_sentence": "An island is surrounded by water.",
+      "media": {}
+    },
+    {
+      "id": "b24_19",
+      "type": "multiple_choice",
+      "options": ["polite", "rude", "strong"],
+      "question": "The boy says 'Please' and 'Thank you'. He is ___.",
+      "answer": "polite",
+      "hint": "Good manners",
+      "voice_input": false,
+      "example_sentence": "It is important to be polite.",
+      "media": {}
+    },
+    {
+      "id": "b24_20",
+      "type": "multiple_choice",
+      "options": ["bridge", "tunnel", "river"],
+      "question": "The car goes through the ___ under the mountain.",
+      "answer": "tunnel",
+      "hint": "A road through a mountain or underground",
+      "voice_input": false,
+      "example_sentence": "The tunnel is long and dark.",
+      "media": {}
+    },
+    {
+      "id": "b25_01",
+      "type": "multiple_choice",
+      "options": ["cheap", "safe", "expensive"],
+      "question": "Always wear your seatbelt. It is ___.",
+      "answer": "safe",
+      "hint": "Not dangerous",
+      "voice_input": false,
+      "example_sentence": "Is it safe to swim here?",
+      "media": {}
+    },
+    {
+      "id": "b25_02",
+      "type": "tap_fill",
+      "options": ["slowly", "hard", "loudly", "water"],
+      "question": "The turtle moves very ___.",
+      "answer": "slowly",
+      "hint": "Not fast",
+      "voice_input": false,
+      "example_sentence": "Walk slowly on the ice.",
+      "media": {}
+    },
+    {
+      "id": "b25_03",
+      "type": "sentence_ordering",
+      "words": ["sun", "The", "hot", "is", "today"],
+      "question": "Order the sentence.",
+      "answer": "The sun is hot today",
+      "hint": "Subject + Verb + Adjective + Time",
+      "voice_input": false,
+      "example_sentence": "Wear a hat; the sun is hot today.",
+      "media": {}
+    },
+    {
+      "id": "b25_04",
+      "type": "matching",
+      "words": ["doctor", "hospital", "teacher", "school"],
+      "question": "Match the person to the workplace.",
+      "pairs": [
+        { "left": "doctor", "right": "hospital" },
+        { "left": "teacher", "right": "school" }
+      ],
+      "answer": [["doctor", "hospital"], ["teacher", "school"]],
+      "hint": "Jobs and locations",
+      "voice_input": false,
+      "example_sentence": "The teacher works at the school.",
+      "media": {}
+    },
+    {
+      "id": "b25_05",
+      "type": "pronunciation",
+      "words": ["adventure"],
+      "question": "Say 'adventure'.",
+      "answer": "adventure",
+      "hint": "An exciting experience",
+      "voice_input": true,
+      "example_sentence": "Traveling to a new country is an adventure.",
+      "media": {}
+    },
+    {
+      "id": "b25_06",
+      "type": "multiple_choice",
+      "options": ["battery", "mirror", "brush"],
+      "question": "My phone is dead. I need a new ___.",
+      "answer": "battery",
+      "hint": "Gives power to machines",
+      "voice_input": false,
+      "example_sentence": "This toy needs a battery.",
+      "media": {}
+    },
+    {
+      "id": "b25_07",
+      "type": "tap_fill",
+      "options": ["heavy", "light", "fresh", "run"],
+      "question": "I can lift this paper easily. It is very ___.",
+      "answer": "light",
+      "hint": "Not heavy",
+      "voice_input": false,
+      "example_sentence": "The box is light; I can carry it.",
+      "media": {}
+    },
+    {
+      "id": "b25_08",
+      "type": "sentence_ordering",
+      "words": ["is", "The", "garden", "beautiful"],
+      "question": "Order the sentence.",
+      "answer": "The garden is beautiful",
+      "hint": "Subject + Verb + Adjective",
+      "voice_input": false,
+      "example_sentence": "The flowers are red; the garden is beautiful.",
+      "media": {}
+    },
+    {
+      "id": "b25_09",
+      "type": "matching",
+      "words": ["fast", "plane", "slow", "bicycle"],
+      "question": "Match the speed to the vehicle.",
+      "pairs": [
+        { "left": "fast", "right": "plane" },
+        { "left": "slow", "right": "bicycle" }
+      ],
+      "answer": [["fast", "plane"], ["slow", "bicycle"]],
+      "hint": "Speeds",
+      "voice_input": false,
+      "example_sentence": "A plane is very fast.",
+      "media": {}
+    },
+    {
+      "id": "b25_10",
+      "type": "multiple_choice",
+      "options": ["noisy", "empty", "crowded"],
+      "question": "There are too many people here. It is very ___.",
+      "answer": "crowded",
+      "hint": "Full of people",
+      "voice_input": false,
+      "example_sentence": "The bus is crowded in the morning.",
+      "media": {}
+    },
+    {
+      "id": "b25_11",
+      "type": "tap_fill",
+      "options": ["stars", "clouds", "grass", "blue"],
+      "question": "Look up at night. You can see the ___.",
+      "answer": "stars",
+      "hint": "Bright lights in the night sky",
+      "voice_input": false,
+      "example_sentence": "The stars are very beautiful tonight.",
+      "media": {}
+    },
+    {
+      "id": "b25_12",
+      "type": "sentence_ordering",
+      "words": ["open", "The", "is", "shop"],
+      "question": "Order the sentence.",
+      "answer": "The shop is open",
+      "hint": "Subject + Verb + State",
+      "voice_input": false,
+      "example_sentence": "We can buy milk now; the shop is open.",
+      "media": {}
+    },
+    {
+      "id": "b25_13",
+      "type": "matching",
+      "words": ["wet", "rain", "dry", "sand"],
+      "question": "Match the state to the element.",
+      "pairs": [
+        { "left": "wet", "right": "rain" },
+        { "left": "dry", "right": "sand" }
+      ],
+      "answer": [["wet", "rain"], ["dry", "sand"]],
+      "hint": "Nature and textures",
+      "voice_input": false,
+      "example_sentence": "The rain makes me wet.",
+      "media": {}
+    },
+    {
+      "id": "b25_14",
+      "type": "multiple_choice",
+      "options": ["young", "old", "new"],
+      "question": "My grandfather is 90 years ___.",
+      "answer": "old",
+      "hint": "Lived for a long time",
+      "voice_input": false,
+      "example_sentence": "How old are you?",
+      "media": {}
+    },
+    {
+      "id": "b25_15",
+      "type": "tap_fill",
+      "options": ["mountain", "river", "road", "run"],
+      "question": "Fish live in the ___.",
+      "answer": "river",
+      "hint": "Flowing water",
+      "voice_input": false,
+      "example_sentence": "The water in the river is cold.",
+      "media": {}
+    },
+    {
+      "id": "b25_16",
+      "type": "sentence_ordering",
+      "words": ["is", "The", "test", "easy"],
+      "question": "Order the sentence.",
+      "answer": "The test is easy",
+      "hint": "Subject + Verb + Adj",
+      "voice_input": false,
+      "example_sentence": "I finished in five minutes; the test is easy.",
+      "media": {}
+    },
+    {
+      "id": "b25_17",
+      "type": "pronunciation",
+      "words": ["different"],
+      "question": "Say 'different'.",
+      "answer": "different",
+      "hint": "Not the same",
+      "voice_input": true,
+      "example_sentence": "The two cats are different colors.",
+      "media": {}
+    },
+    {
+      "id": "b25_18",
+      "type": "matching",
+      "words": ["moon", "night", "sun", "day"],
+      "question": "Match the object to the time.",
+      "pairs": [
+        { "left": "moon", "right": "night" },
+        { "left": "sun", "right": "day" }
+      ],
+      "answer": [["moon", "night"], ["sun", "day"]],
+      "hint": "Day and night sky",
+      "voice_input": false,
+      "example_sentence": "The sun shines in the day.",
+      "media": {}
+    },
+    {
+      "id": "b25_19",
+      "type": "multiple_choice",
+      "options": ["angry", "hungry", "careful"],
+      "question": "I did not eat breakfast. I am very ___.",
+      "answer": "hungry",
+      "hint": "Need to eat food",
+      "voice_input": false,
+      "example_sentence": "Is dinner ready? I am hungry.",
+      "media": {}
+    },
+    {
+      "id": "b25_20",
+      "type": "multiple_choice",
+      "options": ["mirror", "soap", "wallet"],
+      "question": "I see my face in the ___.",
+      "answer": "mirror",
+      "hint": "A glass that shows your reflection",
+      "voice_input": false,
+      "example_sentence": "Look in the mirror and smile.",
+      "media": {}
+    },
+    {
+      "id": "b26_01",
+      "type": "multiple_choice",
+      "options": ["bill", "receipt", "menu"],
+      "question": "I am finished eating. Please bring me the ___.",
+      "answer": "bill",
+      "hint": "The paper showing how much money you must pay",
+      "voice_input": false,
+      "example_sentence": "Can I have the bill, please?",
+      "media": {}
+    },
+    {
+      "id": "b26_02",
+      "type": "tap_fill",
+      "options": ["password", "keyboard", "mouse", "fast"],
+      "question": "I cannot open my email. I forgot my ___.",
+      "answer": "password",
+      "hint": "Secret letters or numbers to log in",
+      "voice_input": false,
+      "example_sentence": "Your password must be secret.",
+      "media": {}
+    },
+    {
+      "id": "b26_03",
+      "type": "sentence_ordering",
+      "words": ["cost", "How", "does", "it", "much"],
+      "question": "Order the sentence.",
+      "answer": "How much does it cost",
+      "hint": "Asking about the price",
+      "voice_input": false,
+      "example_sentence": "I like this hat. How much does it cost?",
+      "media": {}
+    },
+    {
+      "id": "b26_04",
+      "type": "matching",
+      "words": ["camera", "photos", "guitar", "music"],
+      "question": "Match the object to the hobby.",
+      "pairs": [
+        { "left": "camera", "right": "photos" },
+        { "left": "guitar", "right": "music" }
+      ],
+      "answer": [["camera", "photos"], ["guitar", "music"]],
+      "hint": "Tools for hobbies",
+      "voice_input": false,
+      "example_sentence": "He uses his camera to take photos.",
+      "media": {}
+    },
+    {
+      "id": "b26_05",
+      "type": "pronunciation",
+      "words": ["expensive"],
+      "question": "Say 'expensive'.",
+      "answer": "expensive",
+      "hint": "Costs a lot of money",
+      "voice_input": true,
+      "example_sentence": "That red car is very expensive.",
+      "media": {}
+    },
+    {
+      "id": "b26_06",
+      "type": "multiple_choice",
+      "options": ["umbrella", "sunglasses", "gloves"],
+      "question": "It is raining. I need my ___.",
+      "answer": "umbrella",
+      "hint": "Protects you from the rain",
+      "voice_input": false,
+      "example_sentence": "Take an umbrella so you don't get wet.",
+      "media": {}
+    },
+    {
+      "id": "b26_07",
+      "type": "tap_fill",
+      "options": ["credit card", "wallet", "pocket", "blue"],
+      "question": "I don't have cash. I will pay with my ___.",
+      "answer": "credit card",
+      "hint": "Plastic card used for payment",
+      "voice_input": false,
+      "example_sentence": "Do you accept credit cards?",
+      "media": {}
+    },
+    {
+      "id": "b26_08",
+      "type": "sentence_ordering",
+      "words": ["is", "The", "outside", "snowing", "weather"],
+      "question": "Order the sentence.",
+      "answer": "The weather is snowing outside",
+      "hint": "Subject + Verb + Condition + Place",
+      "voice_input": false,
+      "example_sentence": "Wear a coat; the weather is snowing outside.",
+      "media": {}
+    },
+    {
+      "id": "b26_09",
+      "type": "matching",
+      "words": ["keyboard", "type", "screen", "look"],
+      "question": "Match the computer part to the action.",
+      "pairs": [
+        { "left": "keyboard", "right": "type" },
+        { "left": "screen", "right": "look" }
+      ],
+      "answer": [["keyboard", "type"], ["screen", "look"]],
+      "hint": "Using technology",
+      "voice_input": false,
+      "example_sentence": "I type my name on the keyboard.",
+      "media": {}
+    },
+    {
+      "id": "b26_10",
+      "type": "multiple_choice",
+      "options": ["strong", "windy", "sweet"],
+      "question": "The trees are moving a lot. It is very ___.",
+      "answer": "windy",
+      "hint": "A lot of air moving fast",
+      "voice_input": false,
+      "example_sentence": "It is a windy day at the beach.",
+      "media": {}
+    },
+    {
+      "id": "b26_11",
+      "type": "tap_fill",
+      "options": ["website", "mirror", "ceiling", "run"],
+      "question": "I am reading news on a ___.",
+      "answer": "website",
+      "hint": "A place on the internet",
+      "voice_input": false,
+      "example_sentence": "This is a very useful website.",
+      "media": {}
+    },
+    {
+      "id": "b26_12",
+      "type": "sentence_ordering",
+      "words": ["like", "to", "I", "soccer", "play"],
+      "question": "Order the sentence.",
+      "answer": "I like to play soccer",
+      "hint": "Subject + Like + Verb + Sport",
+      "voice_input": false,
+      "example_sentence": "I like to play soccer with my friends.",
+      "media": {}
+    },
+    {
+      "id": "b26_13",
+      "type": "matching",
+      "words": ["cheap", "$1", "expensive", "$1000"],
+      "question": "Match the price description to the amount.",
+      "pairs": [
+        { "left": "cheap", "right": "$1" },
+        { "left": "expensive", "right": "$1000" }
+      ],
+      "answer": [["cheap", "$1"], ["expensive", "$1000"]],
+      "hint": "Value and money",
+      "voice_input": false,
+      "example_sentence": "This apple is very cheap.",
+      "media": {}
+    },
+    {
+      "id": "b26_14",
+      "type": "multiple_choice",
+      "options": ["stormy", "cloudy", "sunny"],
+      "question": "I can see many gray clouds. It is ___.",
+      "answer": "cloudy",
+      "hint": "When the sky is full of clouds",
+      "voice_input": false,
+      "example_sentence": "It is cloudy, but it is not raining.",
+      "media": {}
+    },
+    {
+      "id": "b26_15",
+      "type": "tap_fill",
+      "options": ["charger", "battery", "lamp", "fast"],
+      "question": "My laptop is at 1%. I need the ___.",
+      "answer": "charger",
+      "hint": "The cable that gives power",
+      "voice_input": false,
+      "example_sentence": "Where is my phone charger?",
+      "media": {}
+    },
+    {
+      "id": "b26_16",
+      "type": "sentence_ordering",
+      "words": ["is", "The", "very", "water", "cold"],
+      "question": "Order the sentence.",
+      "answer": "The water is very cold",
+      "hint": "Subject + Verb + Adverb + Adj",
+      "voice_input": false,
+      "example_sentence": "I cannot swim; the water is very cold.",
+      "media": {}
+    },
+    {
+      "id": "b26_17",
+      "type": "pronunciation",
+      "words": ["temperature"],
+      "question": "Say 'temperature'.",
+      "answer": "temperature",
+      "hint": "How hot or cold it is",
+      "voice_input": true,
+      "example_sentence": "The temperature is 30 degrees.",
+      "media": {}
+    },
+    {
+      "id": "b26_18",
+      "type": "matching",
+      "words": ["buy", "sell", "customer", "shopkeeper"],
+      "question": "Match the person to the action.",
+      "pairs": [
+        { "left": "customer", "right": "buy" },
+        { "left": "shopkeeper", "right": "sell" }
+      ],
+      "answer": [["customer", "buy"], ["shopkeeper", "sell"]],
+      "hint": "Shopping roles",
+      "voice_input": false,
+      "example_sentence": "The customer wants to buy a shirt.",
+      "media": {}
+    },
+    {
+      "id": "b26_19",
+      "type": "multiple_choice",
+      "options": ["free", "busy", "broken"],
+      "question": "You don't need to pay. This water is ___.",
+      "answer": "free",
+      "hint": "Costs zero dollars",
+      "voice_input": false,
+      "example_sentence": "The bread at this restaurant is free.",
+      "media": {}
+    },
+    {
+      "id": "b26_20",
+      "type": "multiple_choice",
+      "options": ["coins", "keys", "shoes"],
+      "question": "I have three silver ___ in my hand.",
+      "answer": "coins",
+      "hint": "Metal money",
+      "voice_input": false,
+      "example_sentence": "I need coins for the washing machine.",
+      "media": {}
+    },
+    {
+      "id": "b27_01",
+      "type": "multiple_choice",
+      "options": ["headphones", "glasses", "gloves"],
+      "question": "I am listening to music with my ___.",
+      "answer": "headphones",
+      "hint": "You wear these on your ears",
+      "voice_input": false,
+      "example_sentence": "My headphones are black.",
+      "media": {}
+    },
+    {
+      "id": "b27_02",
+      "type": "tap_fill",
+      "options": ["messages", "calls", "pictures", "water"],
+      "question": "I use my phone to send text ___.",
+      "answer": "messages",
+      "hint": "Written words sent to a phone",
+      "voice_input": false,
+      "example_sentence": "I have ten new messages.",
+      "media": {}
+    },
+    {
+      "id": "b27_03",
+      "type": "sentence_ordering",
+      "words": ["is", "The", "today", "sunny", "sky"],
+      "question": "Order the sentence.",
+      "answer": "The sky is sunny today",
+      "hint": "Subject + Verb + Adjective + Time",
+      "voice_input": false,
+      "example_sentence": "The sky is sunny today; let's go out.",
+      "media": {}
+    },
+    {
+      "id": "b27_04",
+      "type": "matching",
+      "words": ["chef", "cook", "driver", "drive"],
+      "question": "Match the job to the verb.",
+      "pairs": [
+        { "left": "chef", "right": "cook" },
+        { "left": "driver", "right": "drive" }
+      ],
+      "answer": [["chef", "cook"], ["driver", "drive"]],
+      "hint": "Actions for jobs",
+      "voice_input": false,
+      "example_sentence": "The chef cooks dinner.",
+      "media": {}
+    },
+    {
+      "id": "b27_05",
+      "type": "pronunciation",
+      "words": ["information"],
+      "question": "Say 'information'.",
+      "answer": "information",
+      "hint": "Facts or details about something",
+      "voice_input": true,
+      "example_sentence": "I need information about the train.",
+      "media": {}
+    },
+    {
+      "id": "b27_06",
+      "type": "multiple_choice",
+      "options": ["laptop", "fridge", "oven"],
+      "question": "I can take my ___ to the park to work.",
+      "answer": "laptop",
+      "hint": "A small computer you can carry",
+      "voice_input": false,
+      "example_sentence": "My laptop is in my bag.",
+      "media": {}
+    },
+    {
+      "id": "b27_07",
+      "type": "tap_fill",
+      "options": ["online", "under", "behind", "slow"],
+      "question": "I don't go to the shop. I buy clothes ___.",
+      "answer": "online",
+      "hint": "Using the internet",
+      "voice_input": false,
+      "example_sentence": "Shopping online is very easy.",
+      "media": {}
+    },
+    {
+      "id": "b27_08",
+      "type": "sentence_ordering",
+      "words": ["I", "a", "have", "new", "email"],
+      "question": "Order the sentence.",
+      "answer": "I have a new email",
+      "hint": "Subject + Verb + Adjective + Noun",
+      "voice_input": false,
+      "example_sentence": "Check your computer; I have a new email.",
+      "media": {}
+    },
+    {
+      "id": "b27_09",
+      "type": "matching",
+      "words": ["rainy", "wet", "sunny", "dry"],
+      "question": "Match the weather to the result.",
+      "pairs": [
+        { "left": "rainy", "right": "wet" },
+        { "left": "sunny", "right": "dry" }
+      ],
+      "answer": [["rainy", "wet"], ["sunny", "dry"]],
+      "hint": "Cause and effect",
+      "voice_input": false,
+      "example_sentence": "The ground is wet because it is rainy.",
+      "media": {}
+    },
+    {
+      "id": "b27_10",
+      "type": "multiple_choice",
+      "options": ["fast", "loud", "quiet"],
+      "question": "My phone is ringing. It is very ___!",
+      "answer": "loud",
+      "hint": "A lot of noise",
+      "voice_input": false,
+      "example_sentence": "Turn the music down; it is too loud.",
+      "media": {}
+    },
+    {
+      "id": "b27_11",
+      "type": "tap_fill",
+      "options": ["mouse", "socks", "apples", "fast"],
+      "question": "I use the ___ to click on the screen.",
+      "answer": "mouse",
+      "hint": "A small tool for a computer",
+      "voice_input": false,
+      "example_sentence": "The computer mouse is red.",
+      "media": {}
+    },
+    {
+      "id": "b27_12",
+      "type": "sentence_ordering",
+      "words": ["clean", "is", "The", "kitchen"],
+      "question": "Order the sentence.",
+      "answer": "The kitchen is clean",
+      "hint": "Subject + Verb + Adjective",
+      "voice_input": false,
+      "example_sentence": "I washed the floor; the kitchen is clean.",
+      "media": {}
+    },
+    {
+      "id": "b27_13",
+      "type": "matching",
+      "words": ["Monday", "first", "Sunday", "last"],
+      "question": "Match the day to its position in the week.",
+      "pairs": [
+        { "left": "Monday", "right": "first" },
+        { "left": "Sunday", "right": "last" }
+      ],
+      "answer": [["Monday", "first"], ["Sunday", "last"]],
+      "hint": "Calendar order",
+      "voice_input": false,
+      "example_sentence": "Monday is the first day of work.",
+      "media": {}
+    },
+    {
+      "id": "b27_14",
+      "type": "multiple_choice",
+      "options": ["scary", "funny", "boring"],
+      "question": "The movie makes me laugh. It is very ___.",
+      "answer": "funny",
+      "hint": "Something that makes you smile or laugh",
+      "voice_input": false,
+      "example_sentence": "He tells funny stories.",
+      "media": {}
+    },
+    {
+      "id": "b27_15",
+      "type": "tap_fill",
+      "options": ["thunder", "sun", "table", "run"],
+      "question": "I hear a loud noise in the storm. It is ___.",
+      "answer": "thunder",
+      "hint": "The sound during a storm",
+      "voice_input": false,
+      "example_sentence": "The cat is scared of thunder.",
+      "media": {}
+    },
+    {
+      "id": "b27_16",
+      "type": "sentence_ordering",
+      "words": ["is", "The", "broken", "camera"],
+      "question": "Order the sentence.",
+      "answer": "The camera is broken",
+      "hint": "Subject + Verb + State",
+      "voice_input": false,
+      "example_sentence": "I cannot take a photo; the camera is broken.",
+      "media": {}
+    },
+    {
+      "id": "b27_17",
+      "type": "pronunciation",
+      "words": ["electricity"],
+      "question": "Say 'electricity'.",
+      "answer": "electricity",
+      "hint": "Power for lights and computers",
+      "voice_input": true,
+      "example_sentence": "The lamp needs electricity.",
+      "media": {}
+    },
+    {
+      "id": "b27_18",
+      "type": "matching",
+      "words": ["hot", "fire", "cold", "ice"],
+      "question": "Match the temperature to the object.",
+      "pairs": [
+        { "left": "hot", "right": "fire" },
+        { "left": "cold", "right": "ice" }
+      ],
+      "answer": [["hot", "fire"], ["cold", "ice"]],
+      "hint": "Natural temperatures",
+      "voice_input": false,
+      "example_sentence": "Ice is very cold.",
+      "media": {}
+    },
+    {
+      "id": "b27_19",
+      "type": "multiple_choice",
+      "options": ["modern", "dark", "thin"],
+      "question": "This building is new and has a lot of glass. It is ___.",
+      "answer": "modern",
+      "hint": "New and updated style",
+      "voice_input": false,
+      "example_sentence": "They live in a modern house.",
+      "media": {}
+    },
+    {
+      "id": "b27_20",
+      "type": "multiple_choice",
+      "options": ["pocket", "button", "shoe"],
+      "question": "Push the ___ to turn on the TV.",
+      "answer": "button",
+      "hint": "A small part you press on a machine",
+      "voice_input": false,
+      "example_sentence": "Press the red button.",
+      "media": {}
+    },
+    {
+      "id": "b28_01",
+      "type": "multiple_choice",
+      "options": ["tall", "short", "heavy"],
+      "question": "He is a basketball player. He is very ___.",
+      "answer": "tall",
+      "hint": "Measured from bottom to top; high",
+      "voice_input": false,
+      "example_sentence": "The basketball player is very tall.",
+      "media": {}
+    },
+    {
+      "id": "b28_02",
+      "type": "tap_fill",
+      "options": ["wash", "read", "fly", "fast"],
+      "question": "My hands are dirty. I need to ___ them.",
+      "answer": "wash",
+      "hint": "Clean with water and soap",
+      "voice_input": false,
+      "example_sentence": "I wash my hands before dinner.",
+      "media": {}
+    },
+    {
+      "id": "b28_03",
+      "type": "sentence_ordering",
+      "words": ["hair", "has", "long", "She"],
+      "question": "Order the sentence.",
+      "answer": "She has long hair",
+      "hint": "Subject + Verb + Adj + Noun",
+      "voice_input": false,
+      "example_sentence": "She has long hair and blue eyes.",
+      "media": {}
+    },
+    {
+      "id": "b28_04",
+      "type": "matching",
+      "words": ["curly", "hair", "bright", "light"],
+      "question": "Match the adjective to the noun.",
+      "pairs": [
+        { "left": "curly", "right": "hair" },
+        { "left": "bright", "right": "light" }
+      ],
+      "answer": [["curly", "hair"], ["bright", "light"]],
+      "hint": "Descriptions",
+      "voice_input": false,
+      "example_sentence": "The child has curly hair.",
+      "media": {}
+    },
+    {
+      "id": "b28_05",
+      "type": "pronunciation",
+      "words": ["beautiful"],
+      "question": "Say 'beautiful'.",
+      "answer": "beautiful",
+      "hint": "Very pretty to look at",
+      "voice_input": true,
+      "example_sentence": "The flowers in the garden are beautiful.",
+      "media": {}
+    },
+    {
+      "id": "b28_06",
+      "type": "multiple_choice",
+      "options": ["dry", "empty", "wet"],
+      "question": "It is raining and I don't have an umbrella. I am ___.",
+      "answer": "wet",
+      "hint": "Covered in water",
+      "voice_input": false,
+      "example_sentence": "My clothes are wet from the rain.",
+      "media": {}
+    },
+    {
+      "id": "b28_07",
+      "type": "tap_fill",
+      "options": ["more", "less", "none", "blue"],
+      "question": "I am still hungry. Can I have ___ bread?",
+      "answer": "more",
+      "hint": "An extra amount",
+      "voice_input": false,
+      "example_sentence": "I want more water, please.",
+      "media": {}
+    },
+    {
+      "id": "b28_08",
+      "type": "sentence_ordering",
+      "words": ["your", "Brush", "teeth", "every", "day"],
+      "question": "Order the sentence.",
+      "answer": "Brush your teeth every day",
+      "hint": "Instruction for hygiene",
+      "voice_input": false,
+      "example_sentence": "Brush your teeth every day to stay healthy.",
+      "media": {}
+    },
+    {
+      "id": "b28_09",
+      "type": "matching",
+      "words": ["dryer", "clothes", "fridge", "food"],
+      "question": "Match the appliance to what it holds.",
+      "pairs": [
+        { "left": "dryer", "right": "clothes" },
+        { "left": "fridge", "right": "food" }
+      ],
+      "answer": [["dryer", "clothes"], ["fridge", "food"]],
+      "hint": "House objects",
+      "voice_input": false,
+      "example_sentence": "Put the wet clothes in the dryer.",
+      "media": {}
+    },
+    {
+      "id": "b28_10",
+      "type": "multiple_choice",
+      "options": ["weak", "strong", "thin"],
+      "question": "He can lift the heavy table. He is very ___.",
+      "answer": "strong",
+      "hint": "Having a lot of power",
+      "voice_input": false,
+      "example_sentence": "The man is strong and can carry the box.",
+      "media": {}
+    },
+    {
+      "id": "b28_11",
+      "type": "tap_fill",
+      "options": ["iron", "eat", "sit", "run"],
+      "question": "My shirt has lines. I need to ___ it.",
+      "answer": "iron",
+      "hint": "Make clothes smooth with heat",
+      "voice_input": false,
+      "example_sentence": "I iron my shirt for the meeting.",
+      "media": {}
+    },
+    {
+      "id": "b28_12",
+      "type": "sentence_ordering",
+      "words": ["is", "The", "man", "old", "very"],
+      "question": "Order the sentence.",
+      "answer": "The man is very old",
+      "hint": "Subject + Verb + Adverb + Adj",
+      "voice_input": false,
+      "example_sentence": "He is 100 years old; the man is very old.",
+      "media": {}
+    },
+    {
+      "id": "b28_13",
+      "type": "matching",
+      "words": ["fat", "thin", "fast", "slow"],
+      "question": "Match the opposites.",
+      "pairs": [
+        { "left": "fat", "right": "thin" },
+        { "left": "fast", "right": "slow" }
+      ],
+      "answer": [["fat", "thin"], ["fast", "slow"]],
+      "hint": "Antonyms",
+      "voice_input": false,
+      "example_sentence": "The cat is fat, but the dog is thin.",
+      "media": {}
+    },
+    {
+      "id": "b28_14",
+      "type": "multiple_choice",
+      "options": ["expensive", "ugly", "pretty"],
+      "question": "I love this dress. It is very ___.",
+      "answer": "pretty",
+      "hint": "Nice to look at",
+      "voice_input": false,
+      "example_sentence": "The girl has a pretty smile.",
+      "media": {}
+    },
+    {
+      "id": "b28_15",
+      "type": "tap_fill",
+      "options": ["sweep", "wash", "cook", "fast"],
+      "question": "The floor is dirty. Please ___ it.",
+      "answer": "sweep",
+      "hint": "Clean with a broom",
+      "voice_input": false,
+      "example_sentence": "I sweep the kitchen every morning.",
+      "media": {}
+    },
+    {
+      "id": "b28_16",
+      "type": "sentence_ordering",
+      "words": ["is", "not", "The", "boy", "short"],
+      "question": "Order the sentence.",
+      "answer": "The boy is not short",
+      "hint": "Negative description",
+      "voice_input": false,
+      "example_sentence": "He is tall, so the boy is not short.",
+      "media": {}
+    },
+    {
+      "id": "b28_17",
+      "type": "pronunciation",
+      "words": ["straight"],
+      "question": "Say 'straight'.",
+      "answer": "straight",
+      "hint": "Not curly or curved",
+      "voice_input": true,
+      "example_sentence": "She has long, straight hair.",
+      "media": {}
+    },
+    {
+      "id": "b28_18",
+      "type": "matching",
+      "words": ["shoes", "feet", "hat", "head"],
+      "question": "Match the item to the body part.",
+      "pairs": [
+        { "left": "shoes", "right": "feet" },
+        { "left": "hat", "right": "head" }
+      ],
+      "answer": [["shoes", "feet"], ["hat", "head"]],
+      "hint": "Clothing locations",
+      "voice_input": false,
+      "example_sentence": "Put the shoes on your feet.",
+      "media": {}
+    },
+    {
+      "id": "b28_19",
+      "type": "multiple_choice",
+      "options": ["soft", "hard", "sweet"],
+      "question": "This pillow is very comfortable. It is ___.",
+      "answer": "soft",
+      "hint": "Not hard; sinks when pressed",
+      "voice_input": false,
+      "example_sentence": "The cat's fur is very soft.",
+      "media": {}
+    },
+    {
+      "id": "b28_20",
+      "type": "multiple_choice",
+      "options": ["glasses", "belt", "watch"],
+      "question": "My trousers are too big. I need a ___.",
+      "answer": "belt",
+      "hint": "A strap to hold up trousers",
+      "voice_input": false,
+      "example_sentence": "I wear a leather belt.",
+      "media": {}
+    },
+    {
+      "id": "b29_01",
+      "type": "multiple_choice",
+      "options": ["Welcome", "Sorry", "Please"],
+      "question": "A: Thank you! B: You are ___.",
+      "answer": "Welcome",
+      "hint": "Polite response to thank you",
+      "voice_input": false,
+      "example_sentence": "You are welcome to visit anytime.",
+      "media": {}
+    },
+    {
+      "id": "b29_02",
+      "type": "tap_fill",
+      "options": ["less", "more", "none", "water"],
+      "question": "There is too much salt in the soup. Put ___ next time.",
+      "answer": "less",
+      "hint": "A smaller amount",
+      "voice_input": false,
+      "example_sentence": "I want less sugar in my tea.",
+      "media": {}
+    },
+    {
+      "id": "b29_03",
+      "type": "sentence_ordering",
+      "words": ["I", "am", "so", "sorry"],
+      "question": "Order the sentence.",
+      "answer": "I am so sorry",
+      "hint": "Apologizing",
+      "voice_input": false,
+      "example_sentence": "I am so sorry I am late.",
+      "media": {}
+    },
+    {
+      "id": "b29_04",
+      "type": "matching",
+      "words": ["excuse", "me", "thank", "you"],
+      "question": "Match the words to complete the phrase.",
+      "pairs": [
+        { "left": "excuse", "right": "me" },
+        { "left": "thank", "right": "you" }
+      ],
+      "answer": [["excuse", "me"], ["thank", "you"]],
+      "hint": "Social phrases",
+      "voice_input": false,
+      "example_sentence": "Excuse me, where is the station?",
+      "media": {}
+    },
+    {
+      "id": "b29_05",
+      "type": "pronunciation",
+      "words": ["neighborhood"],
+      "question": "Say 'neighborhood'.",
+      "answer": "neighborhood",
+      "hint": "The area where people live near each other",
+      "voice_input": true,
+      "example_sentence": "My neighborhood is very quiet.",
+      "media": {}
+    },
+    {
+      "id": "b29_06",
+      "type": "multiple_choice",
+      "options": ["careful", "dangerous", "easy"],
+      "question": "The floor is wet. Be ___.",
+      "answer": "careful",
+      "hint": "Avoid danger or mistakes",
+      "voice_input": false,
+      "example_sentence": "Be careful with that glass.",
+      "media": {}
+    },
+    {
+      "id": "b29_07",
+      "type": "tap_fill",
+      "options": ["dust", "eat", "read", "run"],
+      "question": "The table is gray with dirt. I need to ___ it.",
+      "answer": "dust",
+      "hint": "Remove fine dirt from a surface",
+      "voice_input": false,
+      "example_sentence": "I dust the shelves once a week.",
+      "media": {}
+    },
+    {
+      "id": "b29_08",
+      "type": "sentence_ordering",
+      "words": ["Nice", "to", "meet", "you"],
+      "question": "Order the sentence.",
+      "answer": "Nice to meet you",
+      "hint": "Greeting someone for the first time",
+      "voice_input": false,
+      "example_sentence": "Hello, I am John. Nice to meet you.",
+      "media": {}
+    },
+    {
+      "id": "b29_09",
+      "type": "matching",
+      "words": ["tidy", "clean", "messy", "dirty"],
+      "question": "Match the synonyms.",
+      "pairs": [
+        { "left": "tidy", "right": "clean" },
+        { "left": "messy", "right": "dirty" }
+      ],
+      "answer": [["tidy", "clean"], ["messy", "dirty"]],
+      "hint": "States of a room",
+      "voice_input": false,
+      "example_sentence": "My room is messy; I need to clean it.",
+      "media": {}
+    },
+    {
+      "id": "b29_10",
+      "type": "multiple_choice",
+      "options": ["early", "late", "busy"],
+      "question": "The meeting is at 9:00. It is 9:15. I am ___.",
+      "answer": "late",
+      "hint": "After the expected time",
+      "voice_input": false,
+      "example_sentence": "Hurry up! We are late.",
+      "media": {}
+    },
+    {
+      "id": "b29_11",
+      "type": "tap_fill",
+      "options": ["trash", "food", "water", "fast"],
+      "question": "The bin is full. Take out the ___.",
+      "answer": "trash",
+      "hint": "Things we throw away",
+      "voice_input": false,
+      "example_sentence": "Please take out the trash tonight.",
+      "media": {}
+    },
+    {
+      "id": "b29_12",
+      "type": "sentence_ordering",
+      "words": ["the", "Please", "door", "close"],
+      "question": "Order the sentence.",
+      "answer": "Please close the door",
+      "hint": "Instruction for privacy",
+      "voice_input": false,
+      "example_sentence": "It is cold. Please close the door.",
+      "media": {}
+    },
+    {
+      "id": "b29_13",
+      "type": "matching",
+      "words": ["soap", "wash", "broom", "sweep"],
+      "question": "Match the tool to the action.",
+      "pairs": [
+        { "left": "soap", "right": "wash" },
+        { "left": "broom", "right": "sweep" }
+      ],
+      "answer": [["soap", "wash"], ["broom", "sweep"]],
+      "hint": "Cleaning tools",
+      "voice_input": false,
+      "example_sentence": "I use a broom to sweep the floor.",
+      "media": {}
+    },
+    {
+      "id": "b29_14",
+      "type": "multiple_choice",
+      "options": ["Congratulations", "Sorry", "Please"],
+      "question": "You passed the test! ___!",
+      "answer": "Congratulations",
+      "hint": "Said when someone is successful",
+      "voice_input": false,
+      "example_sentence": "Congratulations on your new job!",
+      "media": {}
+    },
+    {
+      "id": "b29_15",
+      "type": "tap_fill",
+      "options": ["vacuum", "read", "sit", "run"],
+      "question": "The carpet is dirty. I need to ___ it.",
+      "answer": "vacuum",
+      "hint": "Clean a floor with a machine",
+      "voice_input": false,
+      "example_sentence": "I vacuum the living room on Saturdays.",
+      "media": {}
+    },
+    {
+      "id": "b29_16",
+      "type": "sentence_ordering",
+      "words": ["day", "a", "Have", "nice"],
+      "question": "Order the sentence.",
+      "answer": "Have a nice day",
+      "hint": "Polite farewell",
+      "voice_input": false,
+      "example_sentence": "Goodbye! Have a nice day.",
+      "media": {}
+    },
+    {
+      "id": "b29_17",
+      "type": "pronunciation",
+      "words": ["experience"],
+      "question": "Say 'experience'.",
+      "answer": "experience",
+      "hint": "Knowledge from doing things",
+      "voice_input": true,
+      "example_sentence": "He has a lot of experience in his job.",
+      "media": {}
+    },
+    {
+      "id": "b29_18",
+      "type": "matching",
+      "words": ["thirsty", "drink", "hungry", "eat"],
+      "question": "Match the feeling to the need.",
+      "pairs": [
+        { "left": "thirsty", "right": "drink" },
+        { "left": "hungry", "right": "eat" }
+      ],
+      "answer": [["thirsty", "drink"], ["hungry", "eat"]],
+      "hint": "Basic needs",
+      "voice_input": false,
+      "example_sentence": "I am thirsty; I need a drink.",
+      "media": {}
+    },
+    {
+      "id": "b29_19",
+      "type": "multiple_choice",
+      "options": ["early", "late", "noisy"],
+      "question": "The sun is just rising. It is very ___.",
+      "answer": "early",
+      "hint": "Near the start of the day",
+      "voice_input": false,
+      "example_sentence": "I wake up early to go for a run.",
+      "media": {}
+    },
+    {
+      "id": "b29_20",
+      "type": "multiple_choice",
+      "options": ["trash", "shelf", "key"],
+      "question": "Put the books on the ___.",
+      "answer": "shelf",
+      "hint": "A flat board for holding things",
+      "voice_input": false,
+      "example_sentence": "The shelf is full of books.",
+      "media": {}
+    },
+    {
+      "id": "b30_01",
+      "type": "multiple_choice",
+      "options": ["left", "straight", "up"],
+      "question": "The road has no turns. Go ___.",
+      "answer": "straight",
+      "hint": "In one direction, without turning",
+      "voice_input": false,
+      "example_sentence": "Go straight for two miles.",
+      "media": {}
+    },
+    {
+      "id": "b30_02",
+      "type": "tap_fill",
+      "options": ["yesterday", "tomorrow", "now", "blue"],
+      "question": "Monday was ___. Today is Tuesday.",
+      "answer": "yesterday",
+      "hint": "The day before today",
+      "voice_input": false,
+      "example_sentence": "I went to the park yesterday.",
+      "media": {}
+    },
+    {
+      "id": "b30_03",
+      "type": "sentence_ordering",
+      "words": ["Turn", "at", "left", "the", "corner"],
+      "question": "Order the sentence.",
+      "answer": "Turn left at the corner",
+      "hint": "Giving directions",
+      "voice_input": false,
+      "example_sentence": "To find the bank, turn left at the corner.",
+      "media": {}
+    },
+    {
+      "id": "b30_04",
+      "type": "matching",
+      "words": ["north", "up", "south", "down"],
+      "question": "Match the direction to the map position.",
+      "pairs": [
+        { "left": "north", "right": "up" },
+        { "left": "south", "right": "down" }
+      ],
+      "answer": [["north", "up"], ["south", "down"]],
+      "hint": "Map directions",
+      "voice_input": false,
+      "example_sentence": "North is at the top of the map.",
+      "media": {}
+    },
+    {
+      "id": "b30_05",
+      "type": "pronunciation",
+      "words": ["directions"],
+      "question": "Say 'directions'.",
+      "answer": "directions",
+      "hint": "Instructions on how to go somewhere",
+      "voice_input": true,
+      "example_sentence": "I am lost. I need directions.",
+      "media": {}
+    },
+    {
+      "id": "b30_06",
+      "type": "multiple_choice",
+      "options": ["heavy", "useful", "important"],
+      "question": "You must study for the test. It is very ___.",
+      "answer": "important",
+      "hint": "Something that matters a lot",
+      "voice_input": false,
+      "example_sentence": "This is an important meeting.",
+      "media": {}
+    },
+    {
+      "id": "b30_07",
+      "type": "tap_fill",
+      "options": ["map", "apple", "car", "water"],
+      "question": "I am eating a red ___. (Previous Word)",
+      "answer": "apple",
+      "hint": "A common fruit",
+      "voice_input": false,
+      "example_sentence": "The apple is sweet and crunchy.",
+      "media": {}
+    },
+    {
+      "id": "b30_08",
+      "type": "sentence_ordering",
+      "words": ["is", "The", "hospital", "near", "here"],
+      "question": "Order the sentence.",
+      "answer": "The hospital is near here",
+      "hint": "Subject + Verb + Location",
+      "voice_input": false,
+      "example_sentence": "Don't worry; the hospital is near here.",
+      "media": {}
+    },
+    {
+      "id": "b30_09",
+      "type": "matching",
+      "words": ["today", "Tuesday", "tomorrow", "Wednesday"],
+      "question": "Match the day to the time (if today is Tuesday).",
+      "pairs": [
+        { "left": "today", "right": "Tuesday" },
+        { "left": "tomorrow", "right": "Wednesday" }
+      ],
+      "answer": [["today", "Tuesday"], ["tomorrow", "Wednesday"]],
+      "hint": "Calendar time",
+      "voice_input": false,
+      "example_sentence": "If today is Tuesday, tomorrow is Wednesday.",
+      "media": {}
+    },
+    {
+      "id": "b30_10",
+      "type": "multiple_choice",
+      "options": ["rich", "poor", "busy"],
+      "question": "He has one million dollars. He is very ___.",
+      "answer": "rich",
+      "hint": "Having a lot of money",
+      "voice_input": false,
+      "example_sentence": "The rich man lives in a big house.",
+      "media": {}
+    },
+    {
+      "id": "b30_11",
+      "type": "tap_fill",
+      "options": ["swimming", "reading", "flying", "run"],
+      "question": "The water is warm. Let's go ___.",
+      "answer": "swimming",
+      "hint": "Moving through water for fun",
+      "voice_input": false,
+      "example_sentence": "I go swimming every summer.",
+      "media": {}
+    },
+    {
+      "id": "b30_12",
+      "type": "sentence_ordering",
+      "words": ["I", "thirsty", "very", "am"],
+      "question": "Order the sentence.",
+      "answer": "I am very thirsty",
+      "hint": "Subject + Verb + Adverb + Adj",
+      "voice_input": false,
+      "example_sentence": "I need water; I am very thirsty.",
+      "media": {}
+    },
+    {
+      "id": "b30_13",
+      "type": "matching",
+      "words": ["right", "correct", "wrong", "error"],
+      "question": "Match the synonyms.",
+      "pairs": [
+        { "left": "right", "right": "correct" },
+        { "left": "wrong", "right": "error" }
+      ],
+      "answer": [["right", "correct"], ["wrong", "error"]],
+      "hint": "Accuracy words",
+      "voice_input": false,
+      "example_sentence": "Your answer is right.",
+      "media": {}
+    },
+    {
+      "id": "b30_14",
+      "type": "multiple_choice",
+      "options": ["far", "near", "under"],
+      "question": "Tokyo is many hours away. It is very ___.",
+      "answer": "far",
+      "hint": "A long distance away",
+      "voice_input": false,
+      "example_sentence": "The airport is far from the city.",
+      "media": {}
+    },
+    {
+      "id": "b30_15",
+      "type": "tap_fill",
+      "options": ["painting", "eating", "running", "fast"],
+      "question": "She is using a brush and colors. She is ___.",
+      "answer": "painting",
+      "hint": "Creating art with colors",
+      "voice_input": false,
+      "example_sentence": "Painting is her favorite hobby.",
+      "media": {}
+    },
+    {
+      "id": "b30_16",
+      "type": "sentence_ordering",
+      "words": ["car", "The", "is", "blue", "fast"],
+      "question": "Order the sentence. (Previous Words)",
+      "answer": "The blue car is fast",
+      "hint": "Subject + Adj + Noun + Verb + Adj",
+      "voice_input": false,
+      "example_sentence": "The blue car is fast and expensive.",
+      "media": {}
+    },
+    {
+      "id": "b30_17",
+      "type": "pronunciation",
+      "words": ["wonderful"],
+      "question": "Say 'wonderful'.",
+      "answer": "wonderful",
+      "hint": "Very good or amazing",
+      "voice_input": true,
+      "example_sentence": "We had a wonderful day at the beach.",
+      "media": {}
+    },
+    {
+      "id": "b30_18",
+      "type": "matching",
+      "words": ["start", "begin", "finish", "end"],
+      "question": "Match the synonyms.",
+      "pairs": [
+        { "left": "start", "right": "begin" },
+        { "left": "finish", "right": "end" }
+      ],
+      "answer": [["start", "begin"], ["finish", "end"]],
+      "hint": "Time and sequence",
+      "voice_input": false,
+      "example_sentence": "The movie will start at 8:00.",
+      "media": {}
+    },
+    {
+      "id": "b30_19",
+      "type": "multiple_choice",
+      "options": ["same", "different", "old"],
+      "question": "These two shoes are both size 10 and black. They are the ___.",
+      "answer": "same",
+      "hint": "Not different; exactly alike",
+      "voice_input": false,
+      "example_sentence": "We have the same shirt!",
+      "media": {}
+    },
+    {
+      "id": "b30_20",
+      "type": "multiple_choice",
+      "options": ["bridge", "mountain", "house"],
+      "question": "I live in a small white ___ with my family. (Previous Word)",
+      "answer": "house",
+      "hint": "A building where people live",
+      "voice_input": false,
+      "example_sentence": "My house is near the school.",
+      "media": {}
+    }
+  ]
+}
+
+  
+
+  
+
+  
+
+  
+
+  
+
+   
+
+  
