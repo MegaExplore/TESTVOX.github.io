@@ -157,8 +157,149 @@
         "A2": {
           "sections": [
             {
-              "title": "Coming Soon",
-              "stages": []
+              "title": "VOCABULARY",
+              "stages": [
+                {
+                  "id": 1,
+                  "name": "Level 1",
+                  "cid": "EA2VS1.json",
+                  "isFree": true
+                },
+                {
+                  "id": 2,
+                  "name": "Level 2",
+                  "cid": "EA2VS2.json",
+                  "isFree": true
+                },
+                {
+                  "id": 3,
+                  "name": "Level 3",
+                  "cid": "EA2VS3.json",
+                  "isFree": true
+                },
+                {
+                  "id": 4,
+                  "name": "Level 4",
+                  "cid": "EA2VS4.json",
+                  "isFree": true
+                }
+              ]
+            },
+            {
+              "title": "GRAMMAR",
+              "stages": [
+                {
+                  "id": 1,
+                  "name": "Level 1",
+                  "cid": "EA2GS1.json",
+                  "isFree": true
+                },
+                {
+                  "id": 2,
+                  "name": "Level 2",
+                  "cid": "EA2GS2.json",
+                  "isFree": true
+                },
+                {
+                  "id": 3,
+                  "name": "Level 3",
+                  "cid": "EA2GS3.json",
+                  "isFree": false
+                },
+                {
+                  "id": 4,
+                  "name": "Level 4",
+                  "cid": "EA2GS4.json",
+                  "isFree": false
+                }
+              ]
+            },
+            {
+              "title": "READING",
+              "stages": [
+                {
+                  "id": 1,
+                  "name": "Level 1",
+                  "cid": "EA2RS1.json",
+                  "isFree": true
+                },
+                {
+                  "id": 2,
+                  "name": "Level 2",
+                  "cid": "EA2RS2.json",
+                  "isFree": true
+                },
+                {
+                  "id": 3,
+                  "name": "Level 3",
+                  "cid": "EA2RS3.json",
+                  "isFree": false
+                },
+                {
+                  "id": 4,
+                  "name": "Level 4",
+                  "cid": "EA2RS4.json",
+                  "isFree": false
+                }
+              ]
+            },
+            {
+              "title": "LISTENING",
+              "stages": [
+                {
+                  "id": 1,
+                  "name": "Level 1",
+                  "cid": "EA2LS1.json",
+                  "isFree": true
+                },
+                {
+                  "id": 2,
+                  "name": "Level 2",
+                  "cid": "EA2LS2.json",
+                  "isFree": true
+                },
+                {
+                  "id": 3,
+                  "name": "Level 3",
+                  "cid": "EA2LS3.json",
+                  "isFree": false
+                },
+                {
+                  "id": 4,
+                  "name": "Level 4",
+                  "cid": "EA2LS4.json",
+                  "isFree": false
+                }
+              ]
+            },
+            {
+              "title": "SPEAKING",
+              "stages": [
+                {
+                  "id": 1,
+                  "name": "Level 1",
+                  "cid": "EA2SS1.json",
+                  "isFree": true
+                },
+                {
+                  "id": 2,
+                  "name": "Level 2",
+                  "cid": "EA2SS2.json",
+                  "isFree": true
+                },
+                {
+                  "id": 3,
+                  "name": "Level 3",
+                  "cid": "EA2SS3.json",
+                  "isFree": false
+                },
+                {
+                  "id": 4,
+                  "name": "Level 4",
+                  "cid": "EA2SS4.json",
+                  "isFree": false
+                }
+              ]
             }
           ]
         }
