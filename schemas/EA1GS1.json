@@ -41,7 +41,6 @@
         "The",
         "pen"
       ],
-      
       "answer": [
         "The",
         "pen",
@@ -148,7 +147,6 @@
         "house",
         "The"
       ],
-      
       "answer": [
         "The",
         "house",
@@ -255,7 +253,6 @@
         "is",
         "teacher"
       ],
-      
       "answer": [
         "She",
         "is",
@@ -393,7 +390,6 @@
         "drink",
         "orange"
       ],
-      
       "answer": [
         "We",
         "drink",
@@ -500,7 +496,6 @@
         "ball",
         "has"
       ],
-      
       "answer": [
         "She",
         "has",
@@ -607,7 +602,6 @@
         "The",
         "eats"
       ],
-      
       "answer": [
         "The",
         "cat",
@@ -745,7 +739,6 @@
         "home",
         "She"
       ],
-      
       "answer": [
         "She",
         "is",
@@ -852,7 +845,6 @@
         "The",
         "small"
       ],
-      
       "answer": [
         "The",
         "box",
@@ -959,7 +951,6 @@
         "today",
         "is"
       ],
-      
       "answer": [
         "It",
         "is",
@@ -1097,7 +1088,6 @@
         "That",
         "car"
       ],
-      
       "answer": [
         "That",
         "car",
@@ -1204,7 +1194,6 @@
         "These",
         "beautiful"
       ],
-      
       "answer": [
         "These",
         "flowers",
@@ -1311,7 +1300,6 @@
         "hot",
         "This"
       ],
-      
       "answer": [
         "This",
         "cup",
@@ -1449,7 +1437,6 @@
         "cook",
         "food"
       ],
-      
       "answer": [
         "He",
         "cannot",
@@ -1556,7 +1543,6 @@
         "is",
         "bathroom"
       ],
-      
       "answer": [
         "Where",
         "is",
@@ -1663,7 +1649,6 @@
         "my",
         "Where"
       ],
-      
       "answer": [
         "Where",
         "is",
@@ -1801,7 +1786,6 @@
         "They",
         "football"
       ],
-      
       "answer": [
         "They",
         "are",
@@ -1909,7 +1893,6 @@
         "I",
         "have"
       ],
-      
       "answer": [
         "I",
         "have",
@@ -2017,7 +2000,6 @@
         "falling",
         "The"
       ],
-      
       "answer": [
         "The",
         "rain",
@@ -2155,7 +2137,6 @@
         "window",
         "please"
       ],
-      
       "answer": [
         "Open",
         "the",
@@ -2264,7 +2245,6 @@
         "do",
         "bread"
       ],
-      
       "answer": [
         "I",
         "do",
@@ -2373,7 +2353,6 @@
         "not",
         "this"
       ],
-      
       "answer": [
         "Do",
         "not",
@@ -2511,7 +2490,6 @@
         "is",
         "late"
       ],
-      
       "answer": [
         "He",
         "is",
@@ -2618,7 +2596,6 @@
         "is",
         "dog"
       ],
-      
       "answer": [
         "The",
         "dog",
@@ -2725,7 +2702,6 @@
         "They",
         "are"
       ],
-      
       "answer": [
         "They",
         "are",
@@ -2863,7 +2839,6 @@
         "It",
         "yesterday"
       ],
-      
       "answer": [
         "It",
         "was",
@@ -2970,7 +2945,6 @@
         "were",
         "school"
       ],
-      
       "answer": [
         "You",
         "were",
@@ -3077,7 +3051,6 @@
         "Please",
         "today"
       ],
-      
       "answer": [
         "Please",
         "call",
@@ -3216,7 +3189,6 @@
         "loudly",
         "singing"
       ],
-      
       "answer": [
         "She",
         "is",
@@ -3324,7 +3296,6 @@
         "your",
         "name"
       ],
-      
       "answer": [
         "Write",
         "your",
@@ -3431,7 +3402,6 @@
         "not",
         "slowly"
       ],
-      
       "answer": [
         "Do",
         "not",
@@ -3570,7 +3540,6 @@
         "cheese",
         "and"
       ],
-      
       "answer": [
         "I",
         "like",
@@ -3678,7 +3647,6 @@
         "There",
         "no"
       ],
-      
       "answer": [
         "There",
         "is",
@@ -3787,7 +3755,6 @@
         "I",
         "do"
       ],
-      
       "answer": [
         "I",
         "do",
@@ -3886,5 +3853,5 @@
       "example_sentence": "There are not any apples.",
       "media": {}
     }
-  ]
+  ],
 ]
