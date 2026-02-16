@@ -41,12 +41,7 @@
         "The",
         "pen"
       ],
-      "correct_answer": [
-        "The",
-        "pen",
-        "is",
-        "blue"
-      ],
+      
       "answer": [
         "The",
         "pen",
@@ -153,12 +148,7 @@
         "house",
         "The"
       ],
-      "correct_answer": [
-        "The",
-        "house",
-        "is",
-        "big"
-      ],
+      
       "answer": [
         "The",
         "house",
@@ -265,12 +255,7 @@
         "is",
         "teacher"
       ],
-      "correct_answer": [
-        "She",
-        "is",
-        "a",
-        "teacher"
-      ],
+      
       "answer": [
         "She",
         "is",
@@ -408,12 +393,7 @@
         "drink",
         "orange"
       ],
-      "correct_answer": [
-        "We",
-        "drink",
-        "orange",
-        "juice"
-      ],
+      
       "answer": [
         "We",
         "drink",
@@ -520,12 +500,7 @@
         "ball",
         "has"
       ],
-      "correct_answer": [
-        "She",
-        "has",
-        "a",
-        "ball"
-      ],
+      
       "answer": [
         "She",
         "has",
@@ -632,12 +607,7 @@
         "The",
         "eats"
       ],
-      "correct_answer": [
-        "The",
-        "cat",
-        "eats",
-        "fish"
-      ],
+      
       "answer": [
         "The",
         "cat",
@@ -775,12 +745,7 @@
         "home",
         "She"
       ],
-      "correct_answer": [
-        "She",
-        "is",
-        "at",
-        "home"
-      ],
+      
       "answer": [
         "She",
         "is",
@@ -887,12 +852,7 @@
         "The",
         "small"
       ],
-      "correct_answer": [
-        "The",
-        "box",
-        "is",
-        "small"
-      ],
+      
       "answer": [
         "The",
         "box",
@@ -999,12 +959,7 @@
         "today",
         "is"
       ],
-      "correct_answer": [
-        "It",
-        "is",
-        "Monday",
-        "today"
-      ],
+      
       "answer": [
         "It",
         "is",
@@ -1142,12 +1097,7 @@
         "That",
         "car"
       ],
-      "correct_answer": [
-        "That",
-        "car",
-        "is",
-        "blue"
-      ],
+      
       "answer": [
         "That",
         "car",
@@ -1254,12 +1204,7 @@
         "These",
         "beautiful"
       ],
-      "correct_answer": [
-        "These",
-        "flowers",
-        "are",
-        "beautiful"
-      ],
+      
       "answer": [
         "These",
         "flowers",
@@ -1366,12 +1311,7 @@
         "hot",
         "This"
       ],
-      "correct_answer": [
-        "This",
-        "cup",
-        "is",
-        "hot"
-      ],
+      
       "answer": [
         "This",
         "cup",
@@ -1509,12 +1449,7 @@
         "cook",
         "food"
       ],
-      "correct_answer": [
-        "He",
-        "cannot",
-        "cook",
-        "food"
-      ],
+      
       "answer": [
         "He",
         "cannot",
@@ -1621,12 +1556,7 @@
         "is",
         "bathroom"
       ],
-      "correct_answer": [
-        "Where",
-        "is",
-        "the",
-        "bathroom"
-      ],
+      
       "answer": [
         "Where",
         "is",
@@ -1733,12 +1663,7 @@
         "my",
         "Where"
       ],
-      "correct_answer": [
-        "Where",
-        "is",
-        "my",
-        "bag"
-      ],
+      
       "answer": [
         "Where",
         "is",
@@ -1876,12 +1801,7 @@
         "They",
         "football"
       ],
-      "correct_answer": [
-        "They",
-        "are",
-        "playing",
-        "football"
-      ],
+      
       "answer": [
         "They",
         "are",
@@ -1989,13 +1909,7 @@
         "I",
         "have"
       ],
-      "correct_answer": [
-        "I",
-        "have",
-        "got",
-        "a",
-        "dog"
-      ],
+      
       "answer": [
         "I",
         "have",
@@ -2103,12 +2017,7 @@
         "falling",
         "The"
       ],
-      "correct_answer": [
-        "The",
-        "rain",
-        "is",
-        "falling"
-      ],
+      
       "answer": [
         "The",
         "rain",
@@ -2246,12 +2155,7 @@
         "window",
         "please"
       ],
-      "correct_answer": [
-        "Open",
-        "the",
-        "window",
-        "please"
-      ],
+      
       "answer": [
         "Open",
         "the",
@@ -2360,14 +2264,7 @@
         "do",
         "bread"
       ],
-      "correct_answer": [
-        "I",
-        "do",
-        "not",
-        "have",
-        "any",
-        "bread"
-      ],
+      
       "answer": [
         "I",
         "do",
@@ -2476,12 +2373,7 @@
         "not",
         "this"
       ],
-      "correct_answer": [
-        "Do",
-        "not",
-        "eat",
-        "this"
-      ],
+      
       "answer": [
         "Do",
         "not",
@@ -2619,12 +2511,7 @@
         "is",
         "late"
       ],
-      "correct_answer": [
-        "He",
-        "is",
-        "never",
-        "late"
-      ],
+      
       "answer": [
         "He",
         "is",
@@ -2731,12 +2618,7 @@
         "is",
         "dog"
       ],
-      "correct_answer": [
-        "The",
-        "dog",
-        "is",
-        "ours"
-      ],
+      
       "answer": [
         "The",
         "dog",
@@ -2843,12 +2725,7 @@
         "They",
         "are"
       ],
-      "correct_answer": [
-        "They",
-        "are",
-        "always",
-        "happy"
-      ],
+      
       "answer": [
         "They",
         "are",
@@ -2986,12 +2863,7 @@
         "It",
         "yesterday"
       ],
-      "correct_answer": [
-        "It",
-        "was",
-        "sunny",
-        "yesterday"
-      ],
+      
       "answer": [
         "It",
         "was",
@@ -3098,12 +2970,7 @@
         "were",
         "school"
       ],
-      "correct_answer": [
-        "You",
-        "were",
-        "at",
-        "school"
-      ],
+      
       "answer": [
         "You",
         "were",
@@ -3210,12 +3077,7 @@
         "Please",
         "today"
       ],
-      "correct_answer": [
-        "Please",
-        "call",
-        "me",
-        "today"
-      ],
+      
       "answer": [
         "Please",
         "call",
@@ -3354,13 +3216,7 @@
         "loudly",
         "singing"
       ],
-      "correct_answer": [
-        "She",
-        "is",
-        "singing",
-        "loudly",
-        "now"
-      ],
+      
       "answer": [
         "She",
         "is",
@@ -3468,12 +3324,7 @@
         "your",
         "name"
       ],
-      "correct_answer": [
-        "Write",
-        "your",
-        "name",
-        "carefully"
-      ],
+      
       "answer": [
         "Write",
         "your",
@@ -3580,12 +3431,7 @@
         "not",
         "slowly"
       ],
-      "correct_answer": [
-        "Do",
-        "not",
-        "walk",
-        "slowly"
-      ],
+      
       "answer": [
         "Do",
         "not",
@@ -3724,13 +3570,7 @@
         "cheese",
         "and"
       ],
-      "correct_answer": [
-        "I",
-        "like",
-        "bread",
-        "and",
-        "cheese"
-      ],
+      
       "answer": [
         "I",
         "like",
@@ -3838,12 +3678,7 @@
         "There",
         "no"
       ],
-      "correct_answer": [
-        "There",
-        "is",
-        "no",
-        "milk"
-      ],
+      
       "answer": [
         "There",
         "is",
@@ -3952,14 +3787,7 @@
         "I",
         "do"
       ],
-      "correct_answer": [
-        "I",
-        "do",
-        "not",
-        "have",
-        "much",
-        "money"
-      ],
+      
       "answer": [
         "I",
         "do",
