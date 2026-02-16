@@ -1,0 +1,4936 @@
+{
+    "exercises": [
+        {
+            "id": "b11_01",
+            "type": "multiple_choice",
+            "options": [
+                "accommodate",
+                "refuse",
+                "ignore"
+            ],
+            "question": "Which verb means to provide space or to fit the needs of a specific person or group?",
+            "answer": "accommodate",
+            "hint": "Think about a hotel hosting guests or a manager adjusting a schedule for an employee.",
+            "voice_input": false,
+            "example_sentence": "The new office space can accommodate up to fifty employees although we only have thirty-five staff members currently working.",
+            "media": {}
+        },
+        {
+            "id": "b11_02",
+            "type": "tap_fill",
+            "options": [
+                "alleviate",
+                "aggravate",
+                "accelerate",
+                "anticipate"
+            ],
+            "question": "The management implemented new policies to ___ workload stress; therefore, employee satisfaction has improved significantly over the last few months.",
+            "answer": "alleviate",
+            "hint": "Choose the verb that means to make a problem or suffering less severe or easier to handle.",
+            "voice_input": false,
+            "example_sentence": "The management implemented new policies to alleviate workload stress; therefore, employee satisfaction has improved significantly over the last few months.",
+            "media": {}
+        },
+        {
+            "id": "b11_03",
+            "type": "matching",
+            "words": [
+                "articulate",
+                "expressive",
+                "consolidate",
+                "combine"
+            ],
+            "question": "Match the B2 professional verbs with their closer descriptive or functional synonyms.",
+            "pairs": [
+                {
+                    "left": "articulate",
+                    "right": "expressive"
+                },
+                {
+                    "left": "consolidate",
+                    "right": "combine"
+                }
+            ],
+            "answer": [
+                [
+                    "articulate",
+                    "expressive"
+                ],
+                [
+                    "consolidate",
+                    "combine"
+                ]
+            ],
+            "hint": "One pair is about speaking clearly and effectively, the other is about making something stronger by joining parts.",
+            "voice_input": false,
+            "example_sentence": "You must articulate your vision clearly so as to consolidate the support of the various stakeholders in the room.",
+            "media": {}
+        },
+        {
+            "id": "b11_04",
+            "type": "sentence_ordering",
+            "words": [
+                "augment",
+                "production",
+                "unless",
+                "want",
+                "lose",
+                "capacity",
+                "current",
+                "share",
+                "market",
+                "We",
+                "must",
+                "our",
+                "we",
+                "to",
+                "the"
+            ],
+            "question": "Order the sentence for a strategic business decision regarding output and growth.",
+            "answer": "We must augment our production capacity unless we want to lose the current market share",
+            "correct_answer": [
+                "We",
+                "must",
+                "augment",
+                "our",
+                "production",
+                "capacity",
+                "unless",
+                "we",
+                "want",
+                "to",
+                "lose",
+                "the",
+                "current",
+                "market",
+                "share"
+            ],
+            "hint": "Start with 'We must' and use 'unless' to highlight the consequence of not increasing your capabilities.",
+            "voice_input": false,
+            "example_sentence": "We must augment our production capacity unless we want to lose the current market share to our competitors.",
+            "media": {}
+        },
+        {
+            "id": "b11_05",
+            "type": "pronunciation",
+            "words": [
+                "disseminate"
+            ],
+            "question": "Say 'disseminate'.",
+            "answer": "disseminate",
+            "hint": "Stress the second syllable: dis-SEM-i-nate. This verb means to spread information widely to a large audience.",
+            "voice_input": true,
+            "example_sentence": "We need to disseminate the research findings quickly although the legal department is still reviewing the final documentation details.",
+            "media": {}
+        },
+        {
+            "id": "b11_06",
+            "type": "multiple_choice",
+            "options": [
+                "diversify",
+                "duplicate",
+                "distort"
+            ],
+            "question": "Which verb means to increase the variety of products or services offered by a company?",
+            "answer": "diversify",
+            "hint": "Think about a business expanding into new markets so as to reduce its dependence on one single product.",
+            "voice_input": false,
+            "example_sentence": "Investors often recommend that companies diversify their portfolios although the initial expansion costs can be quite high and risky.",
+            "media": {}
+        },
+        {
+            "id": "b11_07",
+            "type": "tap_fill",
+            "options": [
+                "emphasize",
+                "embarrass",
+                "emulate",
+                "evacuate"
+            ],
+            "question": "The report continues to ___ the importance of security; whereas, the development team is focusing more on speed and performance.",
+            "answer": "emphasize",
+            "hint": "Choose the verb that means to give special importance or prominence to something in speaking or writing.",
+            "voice_input": false,
+            "example_sentence": "The report continues to emphasize the importance of security; whereas, the development team is focusing more on speed and performance.",
+            "media": {}
+        },
+        {
+            "id": "b11_08",
+            "type": "matching",
+            "words": [
+                "formulate",
+                "develop",
+                "integrate",
+                "incorporate"
+            ],
+            "question": "Match the B2 professional verbs with their closer functional synonyms used in project management.",
+            "pairs": [
+                {
+                    "left": "formulate",
+                    "right": "develop"
+                },
+                {
+                    "left": "integrate",
+                    "right": "incorporate"
+                }
+            ],
+            "answer": [
+                [
+                    "formulate",
+                    "develop"
+                ],
+                [
+                    "integrate",
+                    "incorporate"
+                ]
+            ],
+            "hint": "One pair is about creating a plan or theory, the other is about combining parts into a whole.",
+            "voice_input": false,
+            "example_sentence": "We must formulate a strategy whereas we should also integrate feedback from the clients to ensure its ultimate success.",
+            "media": {}
+        },
+        {
+            "id": "b11_09",
+            "type": "sentence_ordering",
+            "words": [
+                "maximize",
+                "efficiency",
+                "although",
+                "currently",
+                "limited",
+                "We",
+                "aim",
+                "to",
+                "operational",
+                "our",
+                "resources",
+                "are",
+                "very"
+            ],
+            "question": "Order the sentence for a goal statement regarding productivity and resource management.",
+            "answer": "We aim to maximize our operational efficiency although resources are currently very limited",
+            "correct_answer": [
+                "We",
+                "aim",
+                "to",
+                "maximize",
+                "our",
+                "operational",
+                "efficiency",
+                "although",
+                "resources",
+                "are",
+                "currently",
+                "very",
+                "limited"
+            ],
+            "hint": "Start with 'We aim' and use 'although' to contrast the goal with the difficult reality of scarcity.",
+            "voice_input": false,
+            "example_sentence": "We aim to maximize our operational efficiency although resources are currently very limited due to the global economic crisis.",
+            "media": {}
+        },
+        {
+            "id": "b11_10",
+            "type": "pronunciation",
+            "words": [
+                "reconcile"
+            ],
+            "question": "Say 'reconcile'.",
+            "answer": "reconcile",
+            "hint": "Stress the first syllable: REC-on-cile. This means to find a way in which two opposing ideas can coexist.",
+            "voice_input": true,
+            "example_sentence": "It is difficult to reconcile the conflicting reports although the management team is making a significant effort to investigate today.",
+            "media": {}
+        },
+        {
+            "id": "b11_11",
+            "type": "multiple_choice",
+            "options": [
+                "paradoxical",
+                "practical",
+                "parallel"
+            ],
+            "question": "Review: Which adjective describes a situation that seems impossible because it contains two opposite qualities?",
+            "answer": "paradoxical",
+            "hint": "Think back to Batch 9 where we discussed a software interface that was both simple and complex.",
+            "voice_input": false,
+            "example_sentence": "It seems paradoxical that reducing staff increased productivity although the remaining employees became much more efficient with their time.",
+            "media": {}
+        },
+        {
+            "id": "b11_12",
+            "type": "tap_fill",
+            "options": [
+                "scrutiny",
+                "strategy",
+                "subsequent",
+                "substantial"
+            ],
+            "question": "Review: The project remains under intense ___; whereas, the initial results have surpassed our most optimistic expectations from last month.",
+            "answer": "scrutiny",
+            "hint": "Choose the noun for the critical observation or examination of something, especially by experts or authorities.",
+            "voice_input": false,
+            "example_sentence": "The project remains under intense scrutiny; whereas, the initial results have surpassed our most optimistic expectations from last month.",
+            "media": {}
+        },
+        {
+            "id": "b11_13",
+            "type": "matching",
+            "words": [
+                "coherent",
+                "logical",
+                "redundant",
+                "unnecessary"
+            ],
+            "question": "Review: Match the B2 functional adjectives with their closer descriptve synonyms.",
+            "pairs": [
+                {
+                    "left": "coherent",
+                    "right": "logical"
+                },
+                {
+                    "left": "redundant",
+                    "right": "unnecessary"
+                }
+            ],
+            "answer": [
+                [
+                    "coherent",
+                    "logical"
+                ],
+                [
+                    "redundant",
+                    "unnecessary"
+                ]
+            ],
+            "hint": "Review: One pair is about being easy to understand, the other is about things no longer being needed.",
+            "voice_input": false,
+            "example_sentence": "We must provide a coherent explanation so as to remove any redundant steps from our current manufacturing process flow.",
+            "media": {}
+        },
+        {
+            "id": "b11_14",
+            "type": "sentence_ordering",
+            "words": [
+                "notwithstanding",
+                "resilience",
+                "adversity",
+                "the",
+                "economic",
+                "they",
+                "continued",
+                "grow",
+                "to",
+                "showed",
+                "extraordinary",
+                "business",
+                "the",
+                "and"
+            ],
+            "question": "Order the sentence for a formal analysis of a company's strength during a crisis.",
+            "answer": "Notwithstanding the economic adversity they showed extraordinary resilience and the business continued to grow",
+            "correct_answer": [
+                "Notwithstanding",
+                "the",
+                "economic",
+                "adversity",
+                "they",
+                "showed",
+                "extraordinary",
+                "resilience",
+                "and",
+                "the",
+                "business",
+                "continued",
+                "to",
+                "grow"
+            ],
+            "hint": "Start with 'Notwithstanding' and combine the obstacle of hardship with the positive outcome of strength and growth.",
+            "voice_input": false,
+            "example_sentence": "Notwithstanding the economic adversity, they showed extraordinary resilience and the business continued to grow despite the global recession.",
+            "media": {}
+        },
+        {
+            "id": "b11_15",
+            "type": "pronunciation",
+            "words": [
+                "holistic"
+            ],
+            "question": "Say 'holistic'.",
+            "answer": "holistic",
+            "hint": "Stress the second syllable: ho-LIS-tic. This refers to an approach that considers the whole system rather than parts.",
+            "voice_input": true,
+            "example_sentence": "We should adopt a holistic approach unless we want to ignore the fundamental causes of the current organizational problems.",
+            "media": {}
+        },
+        {
+            "id": "b11_16",
+            "type": "multiple_choice",
+            "options": [
+                "leverage",
+                "liberate",
+                "liquidate"
+            ],
+            "question": "Review: Which verb means to use something like an advantage or resource to achieve a specific result?",
+            "answer": "leverage",
+            "hint": "Think back to Batch 7 where we discussed using existing resources to gain a competitive business advantage.",
+            "voice_input": false,
+            "example_sentence": "We must leverage our brand reputation although we recognize that new competitors are entering the market with cheaper products.",
+            "media": {}
+        },
+        {
+            "id": "b11_17",
+            "type": "tap_fill",
+            "options": [
+                "conducive",
+                "comprehensive",
+                "comparative",
+                "consecutive"
+            ],
+            "question": "Review: A collaborative culture is ___ to innovation; therefore, we must encourage open communication during all team meetings.",
+            "answer": "conducive",
+            "hint": "Choose the adjective for an environment that makes a certain outcome more likely or much easier to achieve.",
+            "voice_input": false,
+            "example_sentence": "A collaborative culture is conducive to innovation; therefore, we must encourage open communication during all team meetings.",
+            "media": {}
+        },
+        {
+            "id": "b11_18",
+            "type": "matching",
+            "words": [
+                "meticulous",
+                "precise",
+                "tangible",
+                "physical"
+            ],
+            "question": "Review: Match the B2 academic adjectives with their closer professional or functional synonyms.",
+            "pairs": [
+                {
+                    "left": "meticulous",
+                    "right": "precise"
+                },
+                {
+                    "left": "tangible",
+                    "right": "physical"
+                }
+            ],
+            "answer": [
+                [
+                    "meticulous",
+                    "precise"
+                ],
+                [
+                    "tangible",
+                    "physical"
+                ]
+            ],
+            "hint": "Review: One pair is about being very careful with details, the other is about measurable or real results.",
+            "voice_input": false,
+            "example_sentence": "You should be meticulous with your research so as to provide tangible evidence for the board members to evaluate.",
+            "media": {}
+        },
+        {
+            "id": "b11_19",
+            "type": "sentence_ordering",
+            "words": [
+                "innovative",
+                "whereas",
+                "formulaic",
+                "The",
+                "approach",
+                "remains",
+                "very",
+                "competitors",
+                "development",
+                "adopting",
+                "more",
+                "are",
+                "the",
+                "process",
+                "new"
+            ],
+            "question": "Order the sentence for a critique of a company's creative methods compared to its rivals.",
+            "answer": "The development process remains very formulaic whereas the competitors are adopting more innovative new approach",
+            "correct_answer": [
+                "The",
+                "development",
+                "process",
+                "remains",
+                "very",
+                "formulaic",
+                "whereas",
+                "the",
+                "competitors",
+                "are",
+                "adopting",
+                "more",
+                "innovative",
+                "new",
+                "approaches"
+            ],
+            "hint": "Start with 'The development process' and use 'whereas' to contrast the rigid methods with the rivals' creativity.",
+            "voice_input": false,
+            "example_sentence": "The development process remains very formulaic whereas the competitors are adopting more innovative new approaches to the market.",
+            "media": {}
+        },
+        {
+            "id": "b11_20",
+            "type": "pronunciation",
+            "words": [
+                "articulate"
+            ],
+            "question": "Say 'articulate'.",
+            "answer": "articulate",
+            "hint": "As a verb: ar-TIC-u-late. Use this for the ability to express ideas and thoughts clearly and loudly.",
+            "voice_input": true,
+            "example_sentence": "He was able to articulate the complex proposal clearly although he had only twenty minutes to prepare the entire presentation.",
+            "media": {}
+        },
+        {
+            "id": "b12_01",
+            "type": "multiple_choice",
+            "options": [
+                "accentuate",
+                "hide",
+                "hinder"
+            ],
+            "question": "Which verb means to make a feature or quality more noticeable or prominent in a specific context?",
+            "answer": "accentuate",
+            "hint": "Think about how specific lighting or a certain type of clothing might highlight a person's best features.",
+            "voice_input": false,
+            "example_sentence": "The new design will accentuate the positive aspects of our brand although some critics suggest the changes are too subtle.",
+            "media": {}
+        },
+        {
+            "id": "b12_02",
+            "type": "tap_fill",
+            "options": [
+                "bureaucratic",
+                "beneficial",
+                "benevolent",
+                "beautiful"
+            ],
+            "question": "The application process is extremely ___; therefore, many potential candidates often give up before completing the initial documentation required.",
+            "answer": "bureaucratic",
+            "hint": "Choose the adjective for a system with many complicated rules and processes that cause long delays and frustration.",
+            "voice_input": false,
+            "example_sentence": "The application process is extremely bureaucratic; therefore, many potential candidates often give up before completing the initial documentation required.",
+            "media": {}
+        },
+        {
+            "id": "b12_03",
+            "type": "matching",
+            "words": [
+                "chronic",
+                "persistent",
+                "flawed",
+                "imperfect"
+            ],
+            "question": "Match the B2 professional adjectives with their closer descriptve or logical synonyms.",
+            "pairs": [
+                {
+                    "left": "chronic",
+                    "right": "persistent"
+                },
+                {
+                    "left": "flawed",
+                    "right": "imperfect"
+                }
+            ],
+            "answer": [
+                [
+                    "chronic",
+                    "persistent"
+                ],
+                [
+                    "flawed",
+                    "imperfect"
+                ]
+            ],
+            "hint": "One pair is about a problem that lasts a long time, the other is about having errors or mistakes.",
+            "voice_input": false,
+            "example_sentence": "The system suffers from chronic delays although we have discovered that the underlying software architecture is fundamentally flawed.",
+            "media": {}
+        },
+        {
+            "id": "b12_04",
+            "type": "sentence_ordering",
+            "words": [
+                "compensate",
+                "employees",
+                "unless",
+                "financial",
+                "management",
+                "The",
+                "will",
+                "for",
+                "their",
+                "effort",
+                "the",
+                "situation",
+                "extra",
+                "improves",
+                "continues",
+                "dire"
+            ],
+            "question": "Order the sentence for a statement about rewards and the company's fiscal condition.",
+            "answer": "The management will compensate employees for their extra effort unless the dire financial situation continues",
+            "correct_answer": [
+                "The",
+                "management",
+                "will",
+                "compensate",
+                "employees",
+                "for",
+                "their",
+                "extra",
+                "effort",
+                "unless",
+                "the",
+                "dire",
+                "financial",
+                "situation",
+                "continues"
+            ],
+            "hint": "Start with 'The management' and use 'unless' to show the condition that might stop the planned payments.",
+            "voice_input": false,
+            "example_sentence": "The management will compensate employees for their extra effort unless the dire financial situation continues for another quarter.",
+            "media": {}
+        },
+        {
+            "id": "b12_05",
+            "type": "pronunciation",
+            "words": [
+                "designate"
+            ],
+            "question": "Say 'designate'.",
+            "answer": "designate",
+            "hint": "Stress the first syllable: DES-ig-nate. This means to officially choose someone or something for a specific role.",
+            "voice_input": true,
+            "example_sentence": "We must designate a project leader immediately although no one on the team has expressed a desire for the position.",
+            "media": {}
+        },
+        {
+            "id": "b12_06",
+            "type": "multiple_choice",
+            "options": [
+                "impartial",
+                "impatient",
+                "impossible"
+            ],
+            "question": "Which adjective describes someone who treats everyone equally and is not biased toward any person or group?",
+            "answer": "impartial",
+            "hint": "Think about a judge or a researcher who remains fair and doesn't take sides during a complex debate.",
+            "voice_input": false,
+            "example_sentence": "An impartial observer provided a critical review of the project although the management team disagreed with several finded points.",
+            "media": {}
+        },
+        {
+            "id": "b12_07",
+            "type": "tap_fill",
+            "options": [
+                "hindered",
+                "helped",
+                "highlighted",
+                "handled"
+            ],
+            "question": "The lack of funding ___ our progress; whereas, our primary competitor received a massive investment from a venture capital firm.",
+            "answer": "hindered",
+            "hint": "Choose the verb that means to create difficulties for someone or something, resulting in delay or obstruction.",
+            "voice_input": false,
+            "example_sentence": "The lack of funding hindered our progress; whereas, our primary competitor received a massive investment from a venture capital firm.",
+            "media": {}
+        },
+        {
+            "id": "b12_08",
+            "type": "matching",
+            "words": [
+                "legitimate",
+                "valid",
+                "manifest",
+                "obvious"
+            ],
+            "question": "Match the B2 advanced items with their closer descriptive or functional synonyms.",
+            "pairs": [
+                {
+                    "left": "legitimate",
+                    "right": "valid"
+                },
+                {
+                    "left": "manifest",
+                    "right": "obvious"
+                }
+            ],
+            "answer": [
+                [
+                    "legitimate",
+                    "valid"
+                ],
+                [
+                    "manifest",
+                    "obvious"
+                ]
+            ],
+            "hint": "One pair is about being allowed by law or rules, the other is about being very clear and apparent.",
+            "voice_input": false,
+            "example_sentence": "There are legitimate concerns about the manifest lack of transparency in the recent decision-making process within the management board.",
+            "media": {}
+        },
+        {
+            "id": "b12_09",
+            "type": "sentence_ordering",
+            "words": [
+                "negotiate",
+                "although",
+                "demands",
+                "The",
+                "to",
+                "the",
+                "refused",
+                "final",
+                "manager",
+                "contract",
+                "were",
+                "reasonable",
+                "very",
+                "not"
+            ],
+            "question": "Order the sentence to describe a failed business discussion.",
+            "answer": "The manager refused to negotiate although the final contract demands were not very reasonable",
+            "correct_answer": [
+                "The",
+                "manager",
+                "refused",
+                "to",
+                "negotiate",
+                "although",
+                "the",
+                "final",
+                "contract",
+                "demands",
+                "were",
+                "not",
+                "very",
+                "reasonable"
+            ],
+            "hint": "Start with 'The manager' and use 'although' to highlight the stubbornness despite the difficulty of the situation.",
+            "voice_input": false,
+            "example_sentence": "The manager refused to negotiate although the final contract demands were not very reasonable for the company to accept.",
+            "media": {}
+        },
+        {
+            "id": "b12_10",
+            "type": "pronunciation",
+            "words": [
+                "bureaucratic"
+            ],
+            "question": "Say 'bureaucratic'.",
+            "answer": "bureaucratic",
+            "hint": "Stress the fourth syllable: bu-reau-CRAT-ic. This adjective is often used to criticize systems with too many rules.",
+            "voice_input": true,
+            "example_sentence": "We should simplify our bureaucratic procedures unless we want to lose our most creative and innovative employees to rivals.",
+            "media": {}
+        },
+        {
+            "id": "b12_11",
+            "type": "multiple_choice",
+            "options": [
+                "advocate",
+                "adversary",
+                "adversity"
+            ],
+            "question": "Review: Which verb means to publicly support or recommend a particular cause or policy?",
+            "answer": "advocate",
+            "hint": "Think back to Batch 3 where we discussed speaking in favor of a specific plan or group.",
+            "voice_input": false,
+            "example_sentence": "I will continue to advocate for better working conditions although the board remains skeptical of the associated increase in costs.",
+            "media": {}
+        },
+        {
+            "id": "b12_12",
+            "type": "tap_fill",
+            "options": [
+                "compliance",
+                "consequence",
+                "constraint",
+                "consistency"
+            ],
+            "question": "Review: We must ensure full ___ with regulations; therefore, we have hired a team of legal experts to review everything.",
+            "answer": "compliance",
+            "hint": "Choose the noun for the act of following a rule, order, or request from an official authority.",
+            "voice_input": false,
+            "example_sentence": "We must ensure full compliance with regulations; therefore, we have hired a team of legal experts to review everything.",
+            "media": {}
+        },
+        {
+            "id": "b12_13",
+            "type": "matching",
+            "words": [
+                "preliminary",
+                "initial",
+                "substantial",
+                "significant"
+            ],
+            "question": "Review: Match the B2 academic adjectives with their closer professional or functional synonyms.",
+            "pairs": [
+                {
+                    "left": "preliminary",
+                    "right": "initial"
+                },
+                {
+                    "left": "substantial",
+                    "right": "significant"
+                }
+            ],
+            "answer": [
+                [
+                    "preliminary",
+                    "initial"
+                ],
+                [
+                    "substantial",
+                    "significant"
+                ]
+            ],
+            "hint": "Review: One pair is about something happening at the beginning, the other is about being large or important.",
+            "voice_input": false,
+            "example_sentence": "Our preliminary research showed a substantial increase in customer demand although we need more data to confirm these results.",
+            "media": {}
+        },
+        {
+            "id": "b12_14",
+            "type": "sentence_ordering",
+            "words": [
+                "determine",
+                "before",
+                "implementation",
+                "suggesting",
+                "discrepancy",
+                "You",
+                "root",
+                "must",
+                "the",
+                "cause",
+                "of",
+                "the",
+                "any",
+                "final",
+                "changes"
+            ],
+            "question": "Order the sentence for a professional instruction on problem-solving and process change.",
+            "answer": "You must determine the root cause of the discrepancy before suggesting any implementation of final changes",
+            "correct_answer": [
+                "You",
+                "must",
+                "determine",
+                "the",
+                "root",
+                "cause",
+                "of",
+                "the",
+                "discrepancy",
+                "before",
+                "suggesting",
+                "any",
+                "implementation",
+                "of",
+                "final",
+                "changes"
+            ],
+            "hint": "Start with 'You must' and connect the act of finding the error with the process of making final adjustments.",
+            "voice_input": false,
+            "example_sentence": "You must determine the root cause of the discrepancy before suggesting any implementation of final changes to the plan.",
+            "media": {}
+        },
+        {
+            "id": "b12_15",
+            "type": "pronunciation",
+            "words": [
+                "implementation"
+            ],
+            "question": "Say 'implementation'.",
+            "answer": "implementation",
+            "hint": "Stress the fourth syllable: im-ple-men-TA-tion. This refers to the process of putting a decision or plan into effect.",
+            "voice_input": true,
+            "example_sentence": "The successful implementation of the new strategy required teamwork although the technical challenges were quite difficult for the staff members.",
+            "media": {}
+        },
+        {
+            "id": "b12_16",
+            "type": "multiple_choice",
+            "options": [
+                "feasible",
+                "flexible",
+                "formulaic"
+            ],
+            "question": "Review: Which adjective describes a plan or method that is possible to do and likely to be successful?",
+            "answer": "feasible",
+            "hint": "Think back to Batch 2 where we discussed whether a project could actually be completed within budget constraints.",
+            "voice_input": false,
+            "example_sentence": "Constructing a new factory is not currently feasible although it remains a long-term goal for the company's expansion strategy.",
+            "media": {}
+        },
+        {
+            "id": "b12_17",
+            "type": "tap_fill",
+            "options": [
+                "inevitable",
+                "incredible",
+                "internal",
+                "impartial"
+            ],
+            "question": "Review: Changes to the market are ___; whereas, many traditional companies are still refusing to adapt their business models.",
+            "answer": "inevitable",
+            "hint": "Choose the adjective for something that is certain to happen and cannot be avoided or prevented.",
+            "voice_input": false,
+            "example_sentence": "Changes to the market are inevitable; whereas, many traditional companies are still refusing to adapt their business models.",
+            "media": {}
+        },
+        {
+            "id": "b12_18",
+            "type": "matching",
+            "words": [
+                "durable",
+                "long-lasting",
+                "redundant",
+                "superfluous"
+            ],
+            "question": "Review: Match the B2 academic terms with their standard professional or descriptive synonyms.",
+            "pairs": [
+                {
+                    "left": "durable",
+                    "right": "long-lasting"
+                },
+                {
+                    "left": "redundant",
+                    "right": "superfluous"
+                }
+            ],
+            "answer": [
+                [
+                    "durable",
+                    "long-lasting"
+                ],
+                [
+                    "redundant",
+                    "superfluous"
+                ]
+            ],
+            "hint": "Review: One pair is about something staying in good condition for a long time, the other is about extra things.",
+            "voice_input": false,
+            "example_sentence": "We should use more durable materials whereas we must remove redundant components so as to reduce the overall manufacturing costs.",
+            "media": {}
+        },
+        {
+            "id": "b12_19",
+            "words": [
+                "advocate",
+                "mitigate",
+                "although",
+                "policy",
+                "The",
+                "intended",
+                "to",
+                "was",
+                "risks",
+                "critics",
+                "continued",
+                "the",
+                "oppose",
+                "it",
+                "to"
+            ],
+            "type": "sentence_ordering",
+            "question": "Order the sentence to describe a controversial risk-reduction policy.",
+            "answer": "The policy was intended to mitigate risks although critics continued to oppose it whereas some advocate the",
+            "correct_answer": [
+                "The",
+                "policy",
+                "was",
+                "intended",
+                "to",
+                "mitigate",
+                "risks",
+                "although",
+                "critics",
+                "continued",
+                "to",
+                "oppose",
+                "it"
+            ],
+            "hint": "Start with 'The policy' and use 'although' to contrast the positive intention with the negative reaction from opponents.",
+            "voice_input": false,
+            "example_sentence": "The policy was intended to mitigate risks although critics continued to oppose it throughout the entire development process.",
+            "media": {}
+        },
+        {
+            "id": "b12_20",
+            "type": "pronunciation",
+            "words": [
+                "accentuate"
+            ],
+            "question": "Say 'accentuate'.",
+            "answer": "accentuate",
+            "hint": "Stress the second syllable: ac-CEN-tu-ate. This means to make something more prominent or easily noticeable to others.",
+            "voice_input": true,
+            "example_sentence": "We must accentuate the unique features of our product unless we want to disappear in a very crowded global market.",
+            "media": {}
+        },
+        {
+            "id": "b13_01",
+            "type": "multiple_choice",
+            "options": [
+                "attribute",
+                "allocate",
+                "advocate"
+            ],
+            "question": "Which verb means to regard something as being caused by a specific person or thing?",
+            "answer": "attribute",
+            "hint": "Think about how scientists link a sudden change in climate to specific industrial or natural factors.",
+            "voice_input": false,
+            "example_sentence": "Researchers attribute the recent success to our innovative marketing strategy although the global economic conditions remain quite challenging.",
+            "media": {}
+        },
+        {
+            "id": "b13_02",
+            "type": "tap_fill",
+            "options": [
+                "clarify",
+                "classify",
+                "complicate",
+                "calculate"
+            ],
+            "question": "The manager needs to ___ the new safety procedures; therefore, we have scheduled a mandatory training session for next Monday.",
+            "answer": "clarify",
+            "hint": "Choose the verb that means to make a statement or situation less confusing and more clearly understandable.",
+            "voice_input": false,
+            "example_sentence": "The manager needs to clarify the new safety procedures; therefore, we have scheduled a mandatory training session for next Monday.",
+            "media": {}
+        },
+        {
+            "id": "b13_03",
+            "type": "matching",
+            "words": [
+                "dimension",
+                "aspect",
+                "entity",
+                "organization"
+            ],
+            "question": "Match the B2 academic nouns with their closer functional or descriptive synonyms in a professional context.",
+            "pairs": [
+                {
+                    "left": "dimension",
+                    "right": "aspect"
+                },
+                {
+                    "left": "entity",
+                    "right": "organization"
+                }
+            ],
+            "answer": [
+                [
+                    "dimension",
+                    "aspect"
+                ],
+                [
+                    "entity",
+                    "organization"
+                ]
+            ],
+            "hint": "One pair is about a specific part or feature, the other is about a separate and independent commercial body.",
+            "voice_input": false,
+            "example_sentence": "This new project adds a social dimension to our business entity although we primarily focus on financial growth annually.",
+            "media": {}
+        },
+        {
+            "id": "b13_04",
+            "type": "sentence_ordering",
+            "words": [
+                "mechanical",
+                "mechanism",
+                "The",
+                "internal",
+                "unless",
+                "we",
+                "the",
+                "is",
+                "fail",
+                "will",
+                "maintenance",
+                "perform",
+                "appropriate",
+                "immediately"
+            ],
+            "question": "Order the sentence for a warning about a technical component's failure.",
+            "answer": "The internal mechanism will fail unless we perform the appropriate maintenance immediately",
+            "correct_answer": [
+                "The",
+                "internal",
+                "mechanism",
+                "will",
+                "fail",
+                "unless",
+                "we",
+                "perform",
+                "the",
+                "appropriate",
+                "maintenance",
+                "immediately"
+            ],
+            "hint": "Start with 'The internal' and use 'unless' to highlight the necessary action to prevent the technical failure.",
+            "voice_input": false,
+            "example_sentence": "The internal mechanism will fail unless we perform the appropriate maintenance immediately according to the manufacturer's specific guidelines.",
+            "media": {}
+        },
+        {
+            "id": "b13_05",
+            "type": "pronunciation",
+            "words": [
+                "predict"
+            ],
+            "question": "Say 'predict'.",
+            "answer": "predict",
+            "hint": "Stress the second syllable: pre-DICT. This verb means to say or estimate that a specific thing will happen.",
+            "voice_input": true,
+            "example_sentence": "Experts predict that the market will stabilize whereas current data suggests that some volatility is still very likely today.",
+            "media": {}
+        },
+        {
+            "id": "b13_06",
+            "type": "multiple_choice",
+            "options": [
+                "principal",
+                "primitive",
+                "principle"
+            ],
+            "question": "Which adjective describes something that is first in order of importance or the main part of something?",
+            "answer": "principal",
+            "hint": "Think about the main reason for a decision or the leading person in a corporate or academic organization.",
+            "voice_input": false,
+            "example_sentence": "The principal objective of this merger is to expand our reach although we must also consider the potential risks.",
+            "media": {}
+        },
+        {
+            "id": "b13_07",
+            "type": "tap_fill",
+            "options": [
+                "retain",
+                "repeat",
+                "reject",
+                "reveal"
+            ],
+            "question": "We must strive to ___ our best employees; whereas, many of our rivals are offering much higher salaries this year.",
+            "answer": "retain",
+            "hint": "Choose the verb that means to continue to have something or to keep someone in a specific position.",
+            "voice_input": false,
+            "example_sentence": "We must strive to retain our best employees; whereas, many of our rivals are offering much higher salaries this year.",
+            "media": {}
+        },
+        {
+            "id": "b13_08",
+            "type": "matching",
+            "words": [
+                "overall",
+                "general",
+                "parallel",
+                "equivalent"
+            ],
+            "question": "Match the B2 professional items with their closer descriptive or functional standard synonyms.",
+            "pairs": [
+                {
+                    "left": "overall",
+                    "right": "general"
+                },
+                {
+                    "left": "parallel",
+                    "right": "equivalent"
+                }
+            ],
+            "answer": [
+                [
+                    "overall",
+                    "general"
+                ],
+                [
+                    "parallel",
+                    "equivalent"
+                ]
+            ],
+            "hint": "One pair is about the total or whole situation, the other is about items that are similar or equal.",
+            "voice_input": false,
+            "example_sentence": "The overall strategy will follow a parallel path although some minor deviations are expected during the initial implementation phase.",
+            "media": {}
+        },
+        {
+            "id": "b13_09",
+            "type": "sentence_ordering",
+            "words": [
+                "initial",
+                "phase",
+                "during",
+                "The",
+                "we",
+                "must",
+                "intent",
+                "our",
+                "clarify",
+                "notwithstanding",
+                "current",
+                "lack",
+                "of",
+                "investor",
+                "confidence"
+            ],
+            "question": "Order the sentence for a strategic communication during a project's early stages.",
+            "answer": "Notwithstanding the current lack of investor confidence we must clarify our intent during the initial phase",
+            "correct_answer": [
+                "Notwithstanding",
+                "the",
+                "current",
+                "lack",
+                "of",
+                "investor",
+                "confidence",
+                "we",
+                "must",
+                "clarify",
+                "our",
+                "intent",
+                "during",
+                "the",
+                "initial",
+                "phase"
+            ],
+            "hint": "Start with 'Notwithstanding' and combine the obstacle of low trust with the need for clear communication and planning.",
+            "voice_input": false,
+            "example_sentence": "Notwithstanding the current lack of investor confidence, we must clarify our intent during the initial phase of the project.",
+            "media": {}
+        },
+        {
+            "id": "b13_10",
+            "type": "pronunciation",
+            "words": [
+                "mechanism"
+            ],
+            "question": "Say 'mechanism'.",
+            "answer": "mechanism",
+            "hint": "Stress the first syllable: MECH-an-ism. This refers to a system of parts working together in a specific machine.",
+            "voice_input": true,
+            "example_sentence": "We should investigate the feedback mechanism unless we want to ignore the valuable suggestions from our loyal customer base.",
+            "media": {}
+        },
+        {
+            "id": "b13_11",
+            "type": "multiple_choice",
+            "options": [
+                "articulate",
+                "artificial",
+                "artistic"
+            ],
+            "question": "Review: Which verb means to express an idea or a feeling fluently and clearly in a professional meeting?",
+            "answer": "articulate",
+            "hint": "Think back to Batch 11 where we discussed a leader who explained a complex vision extremely well to stakeholders.",
+            "voice_input": false,
+            "example_sentence": "She was able to articulate the complex problem although the committee members were already very skeptical about the solution.",
+            "media": {}
+        },
+        {
+            "id": "b13_12",
+            "type": "tap_fill",
+            "options": [
+                "disseminate",
+                "discriminate",
+                "disintegrate",
+                "demonstrate"
+            ],
+            "question": "Review: We need to ___ the new safety guidelines; therefore, we must upload the official documents to the company portal.",
+            "answer": "disseminate",
+            "hint": "Choose the verb that means to spread information, knowledge, or news widely among a large group of people.",
+            "voice_input": false,
+            "example_sentence": "Review: We need to disseminate the new safety guidelines; therefore, we must upload the official documents to the company portal.",
+            "media": {}
+        },
+        {
+            "id": "b13_13",
+            "type": "matching",
+            "words": [
+                "maximize",
+                "optimize",
+                "reconcile",
+                "resolve"
+            ],
+            "question": "Review: Match the B2 executive verbs with their closer descriptive or functional workplace synonyms.",
+            "pairs": [
+                {
+                    "left": "maximize",
+                    "right": "optimize"
+                },
+                {
+                    "left": "reconcile",
+                    "right": "resolve"
+                }
+            ],
+            "answer": [
+                [
+                    "maximize",
+                    "optimize"
+                ],
+                [
+                    "reconcile",
+                    "resolve"
+                ]
+            ],
+            "hint": "Review: One pair is about making the best use of something, the other is about settling a disagreement.",
+            "voice_input": false,
+            "example_sentence": "We must reconcile any conflicting interests so as to maximize the overall efficiency of our current team production efforts.",
+            "media": {}
+        },
+        {
+            "id": "b13_14",
+            "type": "sentence_ordering",
+            "words": [
+                "emphasize",
+                "quality",
+                "whereas",
+                "competitors",
+                "The",
+                "prioritizing",
+                "price",
+                "report",
+                "will",
+                "the",
+                "our",
+                "of",
+                "most",
+                "low",
+                "are",
+                "products"
+            ],
+            "question": "Order the sentence for a marketing strategy comparison.",
+            "answer": "The report will emphasize the quality of our products whereas most competitors are prioritizing low price",
+            "correct_answer": [
+                "The",
+                "report",
+                "will",
+                "emphasize",
+                "the",
+                "quality",
+                "of",
+                "our",
+                "products",
+                "whereas",
+                "most",
+                "competitors",
+                "are",
+                "prioritizing",
+                "low",
+                "price"
+            ],
+            "hint": "Start with 'The report' and use 'whereas' to contrast the company's focus on excellence with its rivals' focus on cost.",
+            "voice_input": false,
+            "example_sentence": "The report will emphasize the quality of our products whereas most competitors are prioritizing low price in the current market.",
+            "media": {}
+        },
+        {
+            "id": "b13_15",
+            "type": "pronunciation",
+            "words": [
+                "formulate"
+            ],
+            "question": "Say 'formulate'.",
+            "answer": "formulate",
+            "hint": "Stress the first syllable: FOR-mu-late. This verb means to create or prepare something methodically or in a organized way.",
+            "voice_input": true,
+            "example_sentence": "We must formulate a robust response unless we want to lose our credibility during the upcoming press conference tomorrow morning.",
+            "media": {}
+        },
+        {
+            "id": "b13_16",
+            "type": "multiple_choice",
+            "options": [
+                "integrate",
+                "interrogate",
+                "intimidate"
+            ],
+            "question": "Review: Which verb means to combine one thing with another so that they become a single, functional whole?",
+            "answer": "integrate",
+            "hint": "Think about merging two departments or adding a new software component into an existing computer system.",
+            "voice_input": false,
+            "example_sentence": "We should integrate the new software whereas the old system should be retired to prevent any potential data conflicts.",
+            "media": {}
+        },
+        {
+            "id": "b13_17",
+            "type": "tap_fill",
+            "options": [
+                "accommodate",
+                "accumulate",
+                "accelerate",
+                "accentuate"
+            ],
+            "question": "Review: The hotel can ___ guests; however, they must book in advance during the very busy summer holiday season.",
+            "answer": "accommodate",
+            "hint": "Choose the verb that means to provide sufficient space or to fit the specific needs of a group.",
+            "voice_input": false,
+            "example_sentence": "Review: The hotel can accommodate guests; however, they must book in advance during the very busy summer holiday season.",
+            "media": {}
+        },
+        {
+            "id": "b13_18",
+            "type": "matching",
+            "words": [
+                "augment",
+                "increase",
+                "consolidate",
+                "strengthen"
+            ],
+            "question": "Review: Match the B2 professional verbs with their closer descriptive or functional workplace synonyms.",
+            "pairs": [
+                {
+                    "left": "augment",
+                    "right": "increase"
+                },
+                {
+                    "left": "consolidate",
+                    "right": "strengthen"
+                }
+            ],
+            "answer": [
+                [
+                    "augment",
+                    "increase"
+                ],
+                [
+                    "consolidate",
+                    "strengthen"
+                ]
+            ],
+            "hint": "Review: One pair is about making something greater in size or value, the other is about making a position more secure.",
+            "voice_input": false,
+            "example_sentence": "We aim to augment our capabilities although we must also consolidate our current position before expanding into new international markets.",
+            "media": {}
+        },
+        {
+            "id": "b13_19",
+            "type": "sentence_ordering",
+            "words": [
+                "diversify",
+                "notwithstanding",
+                "market",
+                "to",
+                "decided",
+                "They",
+                "limited",
+                "demand",
+                "current",
+                "range",
+                "the",
+                "the",
+                "their",
+                "product"
+            ],
+            "question": "Order the sentence for a strategic business expansion decision.",
+            "answer": "Notwithstanding the limited market demand they decided to diversify their current product range",
+            "correct_answer": [
+                "Notwithstanding",
+                "the",
+                "limited",
+                "market",
+                "demand",
+                "they",
+                "decided",
+                "to",
+                "diversify",
+                "their",
+                "current",
+                "product",
+                "range"
+            ],
+            "hint": "Start with 'Notwithstanding' and combine the lack of interest with the bold choice to offer more variety.",
+            "voice_input": false,
+            "example_sentence": "Notwithstanding the limited market demand, they decided to diversify their current product range to attract new types of customers.",
+            "media": {}
+        },
+        {
+            "id": "b13_20",
+            "type": "pronunciation",
+            "words": [
+                "articulate"
+            ],
+            "question": "Say 'articulate'.",
+            "answer": "articulate",
+            "hint": "As a verb: ar-TIC-u-late. Use this for the ability to express ideas and thoughts clearly to others.",
+            "voice_input": true,
+            "example_sentence": "We must articulate our goals clearly unless we want the team to feel confused about the upcoming project deadlines.",
+            "media": {}
+        },
+        {
+            "id": "b14_01",
+            "type": "multiple_choice",
+            "options": [
+                "alternative",
+                "alteration",
+                "altruistic"
+            ],
+            "question": "Which noun refers to one of two or more available possibilities or choices in a professional context?",
+            "answer": "alternative",
+            "hint": "Think about having a backup plan or a different way of achieving the same goal.",
+            "voice_input": false,
+            "example_sentence": "We need an alternative plan although the current strategy seems to be working quite well for the time being.",
+            "media": {}
+        },
+        {
+            "id": "b14_02",
+            "type": "tap_fill",
+            "options": [
+                "circumstance",
+                "circuit",
+                "circus",
+                "circular"
+            ],
+            "question": "Under no ___ should you leave; therefore, we have arranged for security to remain on site during the entire event.",
+            "answer": "circumstance",
+            "hint": "Choose the noun referring to a fact or condition connected with or relevant to an event or action.",
+            "voice_input": false,
+            "example_sentence": "Under no circumstance should you leave; therefore, we have arranged for security to remain on site during the entire event.",
+            "media": {}
+        },
+        {
+            "id": "b14_03",
+            "type": "matching",
+            "words": [
+                "considerable",
+                "large",
+                "constant",
+                "steady"
+            ],
+            "question": "Match the B2 professional adjectives with their closer descriptive or functional synonyms in an academic context.",
+            "pairs": [
+                {
+                    "left": "considerable",
+                    "right": "large"
+                },
+                {
+                    "left": "constant",
+                    "right": "steady"
+                }
+            ],
+            "answer": [
+                [
+                    "considerable",
+                    "large"
+                ],
+                [
+                    "constant",
+                    "steady"
+                ]
+            ],
+            "hint": "One pair is about something being notably great in size or amount, the other is about being unchanging over time.",
+            "voice_input": false,
+            "example_sentence": "The project requires considerable investment whereas we must also maintain a constant level of production during the transition period.",
+            "media": {}
+        },
+        {
+            "id": "b14_04",
+            "type": "sentence_ordering",
+            "words": [
+                "contribution",
+                "convention",
+                "social",
+                "The",
+                "standard",
+                "is",
+                "to",
+                "make",
+                "a",
+                "unless",
+                "you",
+                "are",
+                "specifically",
+                "exempt",
+                "from",
+                "donating"
+            ],
+            "question": "Order the sentence for a description of a professional or social expectation.",
+            "answer": "The standard social convention is to make a contribution unless you are specifically exempt from donating",
+            "correct_answer": [
+                "The",
+                "standard",
+                "social",
+                "convention",
+                "is",
+                "to",
+                "make",
+                "a",
+                "contribution",
+                "unless",
+                "you",
+                "are",
+                "specifically",
+                "exempt",
+                "from",
+                "donating"
+            ],
+            "hint": "Start with 'The standard' and use 'unless' to highlight the exception to the rule of giving back.",
+            "voice_input": false,
+            "example_sentence": "The standard social convention is to make a contribution unless you are specifically exempt from donating to the charity fund.",
+            "media": {}
+        },
+        {
+            "id": "b14_05",
+            "type": "pronunciation",
+            "words": [
+                "coordination"
+            ],
+            "question": "Say 'coordination'.",
+            "answer": "coordination",
+            "hint": "Stress the fourth syllable: co-or-di-NA-tion. This refers to the effective organization of different elements of a complex activity.",
+            "voice_input": true,
+            "example_sentence": "Effective coordination is essential although the various departments often have conflicting priorities and very tight production schedules.",
+            "media": {}
+        },
+        {
+            "id": "b14_06",
+            "type": "multiple_choice",
+            "options": [
+                "criteria",
+                "critic",
+                "crisis"
+            ],
+            "question": "Which noun refers to the principles or standards by which something may be judged or decided?",
+            "answer": "criteria",
+            "hint": "Think about the specific rules used to evaluate a job application or a scientific research proposal.",
+            "voice_input": false,
+            "example_sentence": "We must meet the selection criteria although the current application process has become much more competitive this year.",
+            "media": {}
+        },
+        {
+            "id": "b14_07",
+            "type": "tap_fill",
+            "options": [
+                "deduction",
+                "reduction",
+                "production",
+                "induction"
+            ],
+            "question": "Based on the evidence your ___ is correct; whereas, the initial theory proposed by the team was completely wrong.",
+            "answer": "deduction",
+            "hint": "Choose the noun for the action of reaching a conclusion by reasoning from general principles or facts.",
+            "voice_input": false,
+            "example_sentence": "Based on the evidence your deduction is correct; whereas, the initial theory proposed by the team was completely wrong.",
+            "media": {}
+        },
+        {
+            "id": "b14_08",
+            "type": "matching",
+            "words": [
+                "core",
+                "central",
+                "corporate",
+                "business-related"
+            ],
+            "question": "Match the B2 professional items with their closer descriptive or functional workplace synonyms.",
+            "pairs": [
+                {
+                    "left": "core",
+                    "right": "central"
+                },
+                {
+                    "left": "corporate",
+                    "right": "business-related"
+                }
+            ],
+            "answer": [
+                [
+                    "core",
+                    "central"
+                ],
+                [
+                    "corporate",
+                    "business-related"
+                ]
+            ],
+            "hint": "One pair is about the most important or basic part, the other is about large companies or groups.",
+            "voice_input": false,
+            "example_sentence": "We must focus on our core values so as to build a positive corporate culture for all our employees.",
+            "media": {}
+        },
+        {
+            "id": "b14_09",
+            "type": "sentence_ordering",
+            "words": [
+                "corresponding",
+                "criteria",
+                "notwithstanding",
+                "The",
+                "strict",
+                "must",
+                "be",
+                "results",
+                "accurate",
+                "the",
+                "initial",
+                "data",
+                "errors",
+                "met"
+            ],
+            "question": "Order the sentence for a technical or scientific standard requirement.",
+            "answer": "Notwithstanding the initial data errors the corresponding criteria must be met and results must be accurate",
+            "correct_answer": [
+                "Notwithstanding",
+                "the",
+                "initial",
+                "data",
+                "errors",
+                "the",
+                "corresponding",
+                "criteria",
+                "must",
+                "be",
+                "met"
+            ],
+            "hint": "Start with 'Notwithstanding' and combine the early mistakes with the unavoidable need to follow the rules.",
+            "voice_input": false,
+            "example_sentence": "Notwithstanding the initial data errors, the corresponding criteria must be met to ensure the project continues to receive funding.",
+            "media": {}
+        },
+        {
+            "id": "b14_10",
+            "type": "pronunciation",
+            "words": [
+                "considerable"
+            ],
+            "question": "Say 'considerable'.",
+            "answer": "considerable",
+            "hint": "Stress the second syllable: con-SID-er-able. Use this adjective for something notably large or significant.",
+            "voice_input": true,
+            "example_sentence": "The project will require considerable time unless we can automate most of the data entry tasks using new software.",
+            "media": {}
+        },
+        {
+            "id": "b14_11",
+            "type": "multiple_choice",
+            "options": [
+                "impartial",
+                "imperfect",
+                "impersonal"
+            ],
+            "question": "Review: Which adjective describes a person or organization that treats everyone equally and is not biased?",
+            "answer": "impartial",
+            "hint": "Think back to Batch 12 where we discussed a judge or reviewer who is fair and neutral.",
+            "voice_input": false,
+            "example_sentence": "We need an impartial review although the internal investigators have already finished their initial report on the matter.",
+            "media": {}
+        },
+        {
+            "id": "b14_12",
+            "type": "tap_fill",
+            "options": [
+                "manifest",
+                "manufacture",
+                "magnify",
+                "manipulate"
+            ],
+            "question": "Review: The errors are now ___ to everyone; therefore, we must postpone the launch until the technical team fixes them.",
+            "answer": "manifest",
+            "hint": "Choose the adjective that means clear or obvious to the eye or mind.",
+            "voice_input": false,
+            "example_sentence": "Review: The errors are now manifest to everyone; therefore, we must postpone the launch until the technical team fixes them.",
+            "media": {}
+        },
+        {
+            "id": "b14_13",
+            "type": "matching",
+            "words": [
+                "negotiate",
+                "discuss",
+                "reasonable",
+                "fair"
+            ],
+            "question": "Review: Match the B2 professional items with their closer descriptive or functional workplace synonyms.",
+            "pairs": [
+                {
+                    "left": "negotiate",
+                    "right": "discuss"
+                },
+                {
+                    "left": "reasonable",
+                    "right": "fair"
+                }
+            ],
+            "answer": [
+                [
+                    "negotiate",
+                    "discuss"
+                ],
+                [
+                    "reasonable",
+                    "fair"
+                ]
+            ],
+            "hint": "Review: One pair is about trying to reach an agreement, the other is about being moderate or acceptable.",
+            "voice_input": false,
+            "example_sentence": "We should negotiate a better deal whereas we must remain reasonable with our demands to ensure a successful partnership.",
+            "media": {}
+        },
+        {
+            "id": "b14_14",
+            "type": "sentence_ordering",
+            "words": [
+                "accentuate",
+                "strengths",
+                "although",
+                "weaknesses",
+                "We",
+                "must",
+                "our",
+                "internal",
+                "are",
+                "visible",
+                "still",
+                "some",
+                "to",
+                "the",
+                "public"
+            ],
+            "question": "Order the sentence for a strategic presentation of a company's image.",
+            "answer": "We must accentuate our strengths although some internal weaknesses are still visible to the public",
+            "correct_answer": [
+                "We",
+                "must",
+                "accentuate",
+                "our",
+                "strengths",
+                "although",
+                "some",
+                "internal",
+                "weaknesses",
+                "are",
+                "still",
+                "visible",
+                "to",
+                "the",
+                "public"
+            ],
+            "hint": "Start with 'We must' and use 'although' to contrast the goal of highlighting positives with the reality of flaws.",
+            "voice_input": false,
+            "example_sentence": "We must accentuate our strengths although some internal weaknesses are still visible to the public during the current crisis.",
+            "media": {}
+        },
+        {
+            "id": "b14_15",
+            "type": "pronunciation",
+            "words": [
+                "bureaucratic"
+            ],
+            "question": "Say 'bureaucratic'.",
+            "answer": "bureaucratic",
+            "hint": "Stress the fourth syllable: bu-reau-CRAT-ic. This adjective describes a system with many complicated rules.",
+            "voice_input": true,
+            "example_sentence": "We should simplify these bureaucratic processes unless we want to frustrate our new employees during their initial training period.",
+            "media": {}
+        },
+        {
+            "id": "b14_16",
+            "type": "multiple_choice",
+            "options": [
+                "flawed",
+                "fluent",
+                "fluid"
+            ],
+            "question": "Review: Which adjective describes something that has a fundamental error or mistake which affects its quality?",
+            "answer": "flawed",
+            "hint": "Think back to Batch 12 where we discussed a software architecture that wasn't perfect.",
+            "voice_input": false,
+            "example_sentence": "The initial research was fundamentally flawed although the final report managed to present some useful and practical data anyway.",
+            "media": {}
+        },
+        {
+            "id": "b14_17",
+            "type": "tap_fill",
+            "options": [
+                "hindered",
+                "helped",
+                "highlighted",
+                "handled"
+            ],
+            "question": "Review: The lack of coordination ___ the project; whereas, the marketing team managed to achieve some very impressive results.",
+            "answer": "hindered",
+            "hint": "Choose the verb that means to create difficulties for someone, resulting in delay or obstruction.",
+            "voice_input": false,
+            "example_sentence": "Review: The lack of coordination hindered the project; whereas, the marketing team managed to achieve some very impressive results.",
+            "media": {}
+        },
+        {
+            "id": "b14_18",
+            "type": "matching",
+            "words": [
+                "legitimate",
+                "valid",
+                "flawed",
+                "faulty"
+            ],
+            "question": "Review: Match the B2 academic adjectives with their closer professional or functional synonyms.",
+            "pairs": [
+                {
+                    "left": "legitimate",
+                    "right": "valid"
+                },
+                {
+                    "left": "flawed",
+                    "right": "faulty"
+                }
+            ],
+            "answer": [
+                [
+                    "legitimate",
+                    "valid"
+                ],
+                [
+                    "flawed",
+                    "faulty"
+                ]
+            ],
+            "hint": "Review: One pair is about being allowed by rules, the other is about having mistakes or errors.",
+            "voice_input": false,
+            "example_sentence": "We have a legitimate reason to complain whereas the current data collection process is obviously flawed and needs replacement.",
+            "media": {}
+        },
+        {
+            "id": "b14_19",
+            "type": "sentence_ordering",
+            "words": [
+                "mitigate",
+                "risks",
+                "notwithstanding",
+                "high",
+                "the",
+                "potential",
+                "We",
+                "aim",
+                "to",
+                "although",
+                "investment",
+                "initial",
+                "are",
+                "already",
+                "substantial"
+            ],
+            "question": "Order the sentence for a strategic risk management and investment statement.",
+            "answer": "Notwithstanding the high potential risks we aim to mitigate although initial investment are already substantial",
+            "correct_answer": [
+                "Notwithstanding",
+                "the",
+                "high",
+                "potential",
+                "risks",
+                "we",
+                "aim",
+                "to",
+                "mitigate",
+                "although",
+                "initial",
+                "investment",
+                "are",
+                "already",
+                "substantial"
+            ],
+            "hint": "Start with 'Notwithstanding' and combine the danger of failure with the goal of reduction and high cost.",
+            "voice_input": false,
+            "example_sentence": "Notwithstanding the high potential risks, we aim to mitigate although initial investment costs are already quite substantial.",
+            "media": {}
+        },
+        {
+            "id": "b14_20",
+            "type": "pronunciation",
+            "words": [
+                "implementation"
+            ],
+            "question": "Say 'implementation'.",
+            "answer": "implementation",
+            "hint": "Stress the fourth syllable: im-ple-men-TA-tion. This refers to the process of putting a plan into effect.",
+            "voice_input": true,
+            "example_sentence": "The successful implementation of the plan is essential unless we want to waste the resources we have already allocated.",
+            "media": {}
+        },
+        {
+            "id": "b15_01",
+            "type": "multiple_choice",
+            "options": [
+                "terminate",
+                "tolerate",
+                "translate"
+            ],
+            "question": "Which verb means to bring something to an end or to stop a professional agreement or contract?",
+            "answer": "terminate",
+            "hint": "Think about what happens to a business relationship if one party fails to follow the agreed rules.",
+            "voice_input": false,
+            "example_sentence": "The board decided to terminate the contract immediately although the legal implications were still being reviewed by senior advisors.",
+            "media": {}
+        },
+        {
+            "id": "b15_02",
+            "type": "tap_fill",
+            "options": [
+                "subsequent",
+                "substantial",
+                "subjective",
+                "subordinate"
+            ],
+            "question": "The initial results were promising; therefore, ___ studies were funded to explore the long-term impact on the local environment.",
+            "answer": "subsequent",
+            "hint": "Choose the adjective that describes something coming after something else in time or following in a specific order.",
+            "voice_input": false,
+            "example_sentence": "The initial results were promising; therefore, subsequent studies were funded to explore the long-term impact on the local environment.",
+            "media": {}
+        },
+        {
+            "id": "b15_03",
+            "type": "matching",
+            "words": [
+                "welfare",
+                "well-being",
+                "proportion",
+                "percentage"
+            ],
+            "question": "Match the B2 academic terms with their closer functional or descriptive synonyms used in official reports.",
+            "pairs": [
+                {
+                    "left": "welfare",
+                    "right": "well-being"
+                },
+                {
+                    "left": "proportion",
+                    "right": "percentage"
+                }
+            ],
+            "answer": [
+                [
+                    "welfare",
+                    "well-being"
+                ],
+                [
+                    "proportion",
+                    "percentage"
+                ]
+            ],
+            "hint": "One pair is about health and happiness, the other is about a part or share of a whole number.",
+            "voice_input": false,
+            "example_sentence": "A large proportion of the budget is spent on employee welfare although some managers argue for more infrastructure development.",
+            "media": {}
+        },
+        {
+            "id": "b15_04",
+            "type": "sentence_ordering",
+            "words": [
+                "undergo",
+                "medical",
+                "procedure",
+                "Unless",
+                "you",
+                "the",
+                "condition",
+                "your",
+                "likely",
+                "very",
+                "is",
+                "to",
+                "worsen",
+                "immediately"
+            ],
+            "question": "Order the sentence to explain a necessary medical or physical action for health reasons.",
+            "answer": "Unless you undergo the medical procedure immediately your condition is very likely to worsen",
+            "correct_answer": [
+                "Unless",
+                "you",
+                "undergo",
+                "the",
+                "medical",
+                "procedure",
+                "immediately",
+                "your",
+                "condition",
+                "is",
+                "very",
+                "likely",
+                "to",
+                "worsen"
+            ],
+            "hint": "Start with 'Unless' and combine the requirement for the operation with the dangerous consequence of waiting too long.",
+            "voice_input": false,
+            "example_sentence": "Unless you undergo the medical procedure immediately, your condition is very likely to worsen over the next few weeks.",
+            "media": {}
+        },
+        {
+            "id": "b15_05",
+            "type": "pronunciation",
+            "words": [
+                "distinguish"
+            ],
+            "question": "Say 'distinguish'.",
+            "answer": "distinguish",
+            "hint": "Stress the second syllable: dis-TING-guish. This verb means to recognize or point out a difference between two items.",
+            "voice_input": true,
+            "example_sentence": "It is often difficult to distinguish between factual evidence and personal opinion during a heated political debate among experts.",
+            "media": {}
+        },
+        {
+            "id": "b15_06",
+            "type": "multiple_choice",
+            "options": [
+                "capable",
+                "casual",
+                "captive"
+            ],
+            "question": "Which adjective describes someone who has the power, skill, or ability to do something successfully?",
+            "answer": "capable",
+            "hint": "Think about an employee who is qualified and efficient enough to handle a leadership role in a company.",
+            "voice_input": false,
+            "example_sentence": "The new manager proved to be extremely capable although she had never worked in the telecommunications industry before today.",
+            "media": {}
+        },
+        {
+            "id": "b15_07",
+            "type": "tap_fill",
+            "options": [
+                "exceed",
+                "expand",
+                "exclude",
+                "expose"
+            ],
+            "question": "Our quarterly profits will likely ___ expectations; whereas, the overall market growth is predicted to remain relatively flat this year.",
+            "answer": "exceed",
+            "hint": "Choose the verb that means to be greater in number or size than something, like a limit or expectation.",
+            "voice_input": false,
+            "example_sentence": "Our quarterly profits will likely exceed expectations; whereas, the overall market growth is predicted to remain relatively flat this year.",
+            "media": {}
+        },
+        {
+            "id": "b15_08",
+            "type": "matching",
+            "words": [
+                "abstract",
+                "theoretical",
+                "instance",
+                "example"
+            ],
+            "question": "Match the B2 academic terms with their closer descriptive or functional synonyms used in university essays.",
+            "pairs": [
+                {
+                    "left": "abstract",
+                    "right": "theoretical"
+                },
+                {
+                    "left": "instance",
+                    "right": "example"
+                }
+            ],
+            "answer": [
+                [
+                    "abstract",
+                    "theoretical"
+                ],
+                [
+                    "instance",
+                    "example"
+                ]
+            ],
+            "hint": "One pair is about ideas rather than physical objects, the other is about a specific case or occurrence.",
+            "voice_input": false,
+            "example_sentence": "The professor discussed an abstract theory while providing a specific instance of its application in modern structural engineering today.",
+            "media": {}
+        },
+        {
+            "id": "b15_09",
+            "type": "sentence_ordering",
+            "words": [
+                "notwithstanding",
+                "criteria",
+                "strict",
+                "The",
+                "admissions",
+                "many",
+                "students",
+                "applied",
+                "the",
+                "university",
+                "join",
+                "to",
+                "prestigious",
+                "year",
+                "this"
+            ],
+            "question": "Order the sentence for a description of a competitive academic application process.",
+            "answer": "Notwithstanding the strict admissions criteria many students applied to join the prestigious university this year",
+            "correct_answer": [
+                "Notwithstanding",
+                "the",
+                "strict",
+                "admissions",
+                "criteria",
+                "many",
+                "students",
+                "applied",
+                "to",
+                "join",
+                "the",
+                "prestigious",
+                "university",
+                "this_year"
+            ],
+            "hint": "Start with 'Notwithstanding' and combine the difficult entry rules with the high number of motivated applicants.",
+            "voice_input": false,
+            "example_sentence": "Notwithstanding the strict admissions criteria, many students applied to join the prestigious university this year.",
+            "media": {}
+        },
+        {
+            "id": "b15_10",
+            "type": "pronunciation",
+            "words": [
+                "lecture"
+            ],
+            "question": "Say 'lecture'.",
+            "answer": "lecture",
+            "hint": "Stress the first syllable: LEC-ture. This is a formal talk given to an audience, especially university students.",
+            "voice_input": true,
+            "example_sentence": "He gave an interesting lecture on corporate ethics although some participants found the theoretical concepts somewhat difficult to grasp.",
+            "media": {}
+        },
+        {
+            "id": "b15_11",
+            "type": "multiple_choice",
+            "options": [
+                "mechanism",
+                "merchandise",
+                "metabolism"
+            ],
+            "question": "Review: Which noun refers to a system of parts or a process that achieves a specific result?",
+            "answer": "mechanism",
+            "hint": "Think back to Batch 13 where we discussed a technical system or a method for receiving customer feedback.",
+            "voice_input": false,
+            "example_sentence": "We must update the reporting mechanism although the current staff is already struggling to handle the daily administrative workload.",
+            "media": {}
+        },
+        {
+            "id": "b15_12",
+            "type": "tap_fill",
+            "options": [
+                "retain",
+                "reveal",
+                "reject",
+                "repeat"
+            ],
+            "question": "Review: The company aims to ___ its market share; therefore, we must continue to innovate and improve our services.",
+            "answer": "retain",
+            "hint": "Choose the verb that means to keep possession of something or to continue to have a specific quality.",
+            "voice_input": false,
+            "example_sentence": "The company aims to retain its market share; therefore, we must continue to innovate and improve our services.",
+            "media": {}
+        },
+        {
+            "id": "b15_13",
+            "type": "matching",
+            "words": [
+                "overall",
+                "general",
+                "principal",
+                "main"
+            ],
+            "question": "Review: Match the B2 academic adjectives with their closer professional or functional synonyms.",
+            "pairs": [
+                {
+                    "left": "overall",
+                    "right": "general"
+                },
+                {
+                    "left": "principal",
+                    "right": "main"
+                }
+            ],
+            "answer": [
+                [
+                    "overall",
+                    "general"
+                ],
+                [
+                    "principal",
+                    "main"
+                ]
+            ],
+            "hint": "Review: One pair is about the total or whole situation, the other is about being first in importance.",
+            "voice_input": false,
+            "example_sentence": "The principal goal is to improve the overall quality whereas we must also keep the production costs relatively low.",
+            "media": {}
+        },
+        {
+            "id": "b15_14",
+            "type": "sentence_ordering",
+            "words": [
+                "clarify",
+                "procedures",
+                "whereas",
+                "the",
+                "previous",
+                "The",
+                "policy",
+                "new",
+                "will",
+                "safety",
+                "guidelines",
+                "confused",
+                "many",
+                "employees"
+            ],
+            "question": "Order the sentence to contrast a new clear policy with an old confusing one.",
+            "answer": "The new policy will clarify safety procedures whereas the previous guidelines confused many employees",
+            "correct_answer": [
+                "The",
+                "new",
+                "policy",
+                "will",
+                "clarify",
+                "safety",
+                "procedures",
+                "whereas",
+                "the",
+                "previous",
+                "guidelines",
+                "confused",
+                "many",
+                "employees"
+            ],
+            "hint": "Start with 'The new policy' and use 'whereas' to contrast the improvement in clarity with the old mistakes.",
+            "voice_input": false,
+            "example_sentence": "The new policy will clarify safety procedures whereas the previous guidelines confused many employees throughout the entire year.",
+            "media": {}
+        },
+        {
+            "id": "b15_15",
+            "type": "pronunciation",
+            "words": [
+                "alternative"
+            ],
+            "question": "Say 'alternative'.",
+            "answer": "alternative",
+            "hint": "Stress the second syllable: al-TER-na-tive. This refers to one of two or more available choices or possibilities.",
+            "voice_input": true,
+            "example_sentence": "We should consider an alternative strategy unless we want to risk failing the project due to the current delays.",
+            "media": {}
+        },
+        {
+            "id": "b15_16",
+            "type": "multiple_choice",
+            "options": [
+                "corresponding",
+                "collaborating",
+                "contributing"
+            ],
+            "question": "Review: Which adjective describes something that matches or relates to another item in a system or list?",
+            "answer": "corresponding",
+            "hint": "Think about a number in a table that relates to a specific category or a result that matches a prediction.",
+            "voice_input": false,
+            "example_sentence": "Please fill in the corresponding values although the instructions for the final section are somewhat ambiguous and unclear today.",
+            "media": {}
+        },
+        {
+            "id": "b15_17",
+            "type": "tap_fill",
+            "options": [
+                "circumstances",
+                "circuits",
+                "candidates",
+                "consequences"
+            ],
+            "question": "Review: Under these current ___, we cannot proceed; whereas, the board insists on completing the merger before the end of the year.",
+            "answer": "circumstances",
+            "hint": "Choose the noun for the facts or conditions connected with or relevant to an event or action.",
+            "voice_input": false,
+            "example_sentence": "Under these current circumstances, we cannot proceed; whereas, the board insists on completing the merger before the end of the year.",
+            "media": {}
+        },
+        {
+            "id": "b15_18",
+            "type": "matching",
+            "words": [
+                "core",
+                "basic",
+                "criteria",
+                "standards"
+            ],
+            "question": "Review: Match the B2 professional items with their closer descriptive or functional standard synonyms.",
+            "pairs": [
+                {
+                    "left": "core",
+                    "right": "basic"
+                },
+                {
+                    "left": "criteria",
+                    "right": "standards"
+                }
+            ],
+            "answer": [
+                [
+                    "core",
+                    "basic"
+                ],
+                [
+                    "criteria",
+                    "standards"
+                ]
+            ],
+            "hint": "Review: One pair is about the most important part, the other is about the rules used to judge something.",
+            "voice_input": false,
+            "example_sentence": "We must verify the core criteria so as to ensure that all participants are fully qualified for the position.",
+            "media": {}
+        },
+        {
+            "id": "b15_19",
+            "type": "sentence_ordering",
+            "words": [
+                "considerable",
+                "although",
+                "resources",
+                "We",
+                "allocated",
+                "time",
+                "and",
+                "have",
+                "the",
+                "final",
+                "outcome",
+                "remains",
+                "uncertain",
+                "today"
+            ],
+            "question": "Order the sentence for a statement about project effort and future unpredictability.",
+            "answer": "We have allocated considerable time and resources although the final outcome remains uncertain today",
+            "correct_answer": [
+                "We",
+                "have",
+                "allocated",
+                "considerable",
+                "time",
+                "and",
+                "resources",
+                "although",
+                "the",
+                "final",
+                "outcome",
+                "remains",
+                "uncertain",
+                "today"
+            ],
+            "hint": "Start with 'We have' and use 'although' to contrast the hard work done with the ongoing doubt.",
+            "voice_input": false,
+            "example_sentence": "We have allocated considerable time and resources although the final outcome remains uncertain today due to the market volatility.",
+            "media": {}
+        },
+        {
+            "id": "b15_20",
+            "type": "pronunciation",
+            "words": [
+                "coordinate"
+            ],
+            "question": "Say 'coordinate'.",
+            "answer": "coordinate",
+            "hint": "As a verb: co-OR-di-nate. This means to organize the different people and parts of a complex activity.",
+            "voice_input": true,
+            "example_sentence": "We must coordinate our efforts unless we want to waste the limited resources that have been assigned to us.",
+            "media": {}
+        },
+        {
+            "id": "b16_01",
+            "type": "multiple_choice",
+            "options": [
+                "amend",
+                "abide",
+                "adhere"
+            ],
+            "question": "Which verb means to make minor changes to a text or a law in order to make it more accurate or fair?",
+            "answer": "amend",
+            "hint": "Think about what lawyers do to a contract or what politicians do to a bill before it becomes a law.",
+            "voice_input": false,
+            "example_sentence": "The committee voted to amend the policy although some members argued that the original rules were already sufficient for today.",
+            "media": {}
+        },
+        {
+            "id": "b16_02",
+            "type": "tap_fill",
+            "options": [
+                "decline",
+                "declare",
+                "decide",
+                "deliver"
+            ],
+            "question": "The birth rate continues to ___; therefore, the government must find ways to support the aging population over the next decade.",
+            "answer": "decline",
+            "hint": "Choose the verb that means to become smaller, fewer, or less in amount or importance.",
+            "voice_input": false,
+            "example_sentence": "The birth rate continues to decline; therefore, the government must find ways to support the aging population over the next decade.",
+            "media": {}
+        },
+        {
+            "id": "b16_03",
+            "type": "matching",
+            "words": [
+                "external",
+                "outside",
+                "stable",
+                "steady"
+            ],
+            "question": "Match the B2 professional adjectives with their closer descriptive or functional synonyms in a technical report.",
+            "pairs": [
+                {
+                    "left": "external",
+                    "right": "outside"
+                },
+                {
+                    "left": "stable",
+                    "right": "steady"
+                }
+            ],
+            "answer": [
+                [
+                    "external",
+                    "outside"
+                ],
+                [
+                    "stable",
+                    "steady"
+                ]
+            ],
+            "hint": "One pair is about something coming from the outer world, the other is about remaining fixed or unchanging.",
+            "voice_input": false,
+            "example_sentence": "We must protect the system from external threats although the internal infrastructure remains quite stable for the time being.",
+            "media": {}
+        },
+        {
+            "id": "b16_04",
+            "type": "sentence_ordering",
+            "words": [
+                "transition",
+                "unless",
+                "we",
+                "smooth",
+                "The",
+                "will",
+                "be",
+                "to",
+                "energy",
+                "green",
+                "difficult",
+                "invest",
+                "modern",
+                "technology",
+                "in",
+                "immediately"
+            ],
+            "question": "Order the sentence for a statement about environmental change and technological investment.",
+            "answer": "The transition to green energy will be difficult unless we invest in modern technology immediately",
+            "correct_answer": [
+                "The",
+                "transition",
+                "to",
+                "green",
+                "energy",
+                "will",
+                "be",
+                "difficult",
+                "unless",
+                "we",
+                "invest",
+                "in",
+                "modern",
+                "technology",
+                "immediately"
+            ],
+            "hint": "Start with 'The transition' and use 'unless' to show the condition for a successful shift in energy usage.",
+            "voice_input": false,
+            "example_sentence": "The transition to green energy will be difficult unless we invest in modern technology immediately for all our domestic facilities.",
+            "media": {}
+        },
+        {
+            "id": "b16_05",
+            "type": "pronunciation",
+            "words": [
+                "perspective"
+            ],
+            "question": "Say 'perspective'.",
+            "answer": "perspective",
+            "hint": "Stress the second syllable: per-SPEC-tive. This refers to a particular way of viewing a situation or an event.",
+            "voice_input": true,
+            "example_sentence": "We need to look at the issue from a global perspective although some local factors are also very important to consider.",
+            "media": {}
+        },
+        {
+            "id": "b16_06",
+            "type": "multiple_choice",
+            "options": [
+                "precise",
+                "precious",
+                "predict"
+            ],
+            "question": "Which adjective describes something that is marked by accuracy and exactness in every detail?",
+            "answer": "precise",
+            "hint": "Think about a scientist recording a measurement or an engineer designing a complex and small machine part.",
+            "voice_input": false,
+            "example_sentence": "The measurement must be extremely precise although the instruments we are using are several years old and need recalibration.",
+            "media": {}
+        },
+        {
+            "id": "b16_07",
+            "type": "tap_fill",
+            "options": [
+                "capacity",
+                "category",
+                "campaign",
+                "casualty"
+            ],
+            "question": "Our storage ___ is almost full; whereas, the incoming shipment of raw materials is expected to arrive tomorrow afternoon.",
+            "answer": "capacity",
+            "hint": "Choose the noun for the maximum amount that something can contain or the power to produce something.",
+            "voice_input": false,
+            "example_sentence": "Our storage capacity is almost full; whereas, the incoming shipment of raw materials is expected to arrive tomorrow afternoon.",
+            "media": {}
+        },
+        {
+            "id": "b16_08",
+            "type": "matching",
+            "words": [
+                "margin",
+                "edge",
+                "visible",
+                "observable"
+            ],
+            "question": "Match the B2 professional items with their closer descriptive or functional academic synonyms.",
+            "pairs": [
+                {
+                    "left": "margin",
+                    "right": "edge"
+                },
+                {
+                    "left": "visible",
+                    "right": "observable"
+                }
+            ],
+            "answer": [
+                [
+                    "margin",
+                    "edge"
+                ],
+                [
+                    "visible",
+                    "observable"
+                ]
+            ],
+            "hint": "One pair is about the border or empty space at the side, the other is about something being seen.",
+            "voice_input": false,
+            "example_sentence": "There is a visible error in the right margin although the rest of the document appears to be perfectly formatted.",
+            "media": {}
+        },
+        {
+            "id": "b16_09",
+            "type": "sentence_ordering",
+            "words": [
+                "recovery",
+                "although",
+                "economists",
+                "The",
+                "economic",
+                "remain",
+                "has",
+                "begun",
+                "cautious",
+                "future",
+                "about",
+                "growth",
+                "long-term",
+                "today"
+            ],
+            "question": "Order the sentence for a formal economic report on growth and expert opinion.",
+            "answer": "The economic recovery has begun although economists remain cautious about long-term future growth today",
+            "correct_answer": [
+                "The",
+                "economic",
+                "recovery",
+                "has",
+                "begun",
+                "although",
+                "economists",
+                "remain",
+                "cautious",
+                "about",
+                "long-term",
+                "future",
+                "growth",
+                "today"
+            ],
+            "hint": "Start with 'The economic' and use 'although' to contrast the current improvement with the experts' ongoing worries.",
+            "voice_input": false,
+            "example_sentence": "The economic recovery has begun although economists remain cautious about long-term future growth today.",
+            "media": {}
+        },
+        {
+            "id": "b16_10",
+            "type": "pronunciation",
+            "words": [
+                "transition"
+            ],
+            "question": "Say 'transition'.",
+            "answer": "transition",
+            "hint": "Stress the second syllable: tran-SI-tion. This refers to the process of changing from one state or condition to another.",
+            "voice_input": true,
+            "example_sentence": "We are currently in a period of transition although the final goal has already been clearly defined by the board.",
+            "media": {}
+        },
+        {
+            "id": "b16_11",
+            "type": "multiple_choice",
+            "options": [
+                "accommodate",
+                "accelerate",
+                "activate"
+            ],
+            "question": "Review: Which verb means to provide space or to fit the specific needs of a group of people?",
+            "answer": "accommodate",
+            "hint": "Think back to Batch 11 where we discussed a hotel hosting guests or an office fitting many employees.",
+            "voice_input": false,
+            "example_sentence": "The new facility can accommodate more people although some minor upgrades are still required to satisfy the safety standards.",
+            "media": {}
+        },
+        {
+            "id": "b16_12",
+            "type": "tap_fill",
+            "options": [
+                "bureaucratic",
+                "benevolent",
+                "beneficial",
+                "beautiful"
+            ],
+            "question": "Review: Many businesses complain about ___ red tape; whereas, the government insists that these regulations are necessary for public safety.",
+            "answer": "bureaucratic",
+            "hint": "Choose the adjective for a system with many complicated rules and processes that cause long delays.",
+            "voice_input": false,
+            "example_sentence": "Review: Many businesses complain about bureaucratic red tape; whereas, the government insists that these regulations are necessary for public safety.",
+            "media": {}
+        },
+        {
+            "id": "b16_13",
+            "type": "matching",
+            "words": [
+                "alleviate",
+                "reduce",
+                "flawed",
+                "faulty"
+            ],
+            "question": "Review: Match the B2 professional items with their closer descriptive or functional workplace synonyms.",
+            "pairs": [
+                {
+                    "left": "alleviate",
+                    "right": "reduce"
+                },
+                {
+                    "left": "flawed",
+                    "right": "faulty"
+                }
+            ],
+            "answer": [
+                [
+                    "alleviate",
+                    "reduce"
+                ],
+                [
+                    "flawed",
+                    "faulty"
+                ]
+            ],
+            "hint": "Review: One pair is about making a problem less severe, the other is about having errors or mistakes.",
+            "voice_input": false,
+            "example_sentence": "We must fix the flawed design so as to alleviate the pressure on the maintenance team during the next quarter.",
+            "media": {}
+        },
+        {
+            "id": "b16_14",
+            "type": "sentence_ordering",
+            "words": [
+                "impartial",
+                "investigation",
+                "whereas",
+                "the",
+                "public",
+                "remains",
+                "doubtful",
+                "The",
+                "police",
+                "conducted",
+                "an",
+                "entirely",
+                "about",
+                "the",
+                "final",
+                "result"
+            ],
+            "question": "Order the sentence for a description of a fair investigation and public skepticism.",
+            "answer": "The police conducted an entirely impartial investigation whereas the public remains doubtful about the final result",
+            "correct_answer": [
+                "The",
+                "police",
+                "conducted",
+                "an",
+                "entirely",
+                "impartial",
+                "investigation",
+                "whereas",
+                "the",
+                "public",
+                "remains",
+                "doubtful",
+                "about",
+                "the",
+                "final",
+                "result"
+            ],
+            "hint": "Start with 'The police' and use 'whereas' to highlight the contrast between the fairness of the search and low trust.",
+            "voice_input": false,
+            "example_sentence": "The police conducted an entirely impartial investigation whereas the public remains doubtful about the final result of the case.",
+            "media": {}
+        },
+        {
+            "id": "b16_15",
+            "type": "pronunciation",
+            "words": [
+                "substantial"
+            ],
+            "question": "Say 'substantial'.",
+            "answer": "substantial",
+            "hint": "Stress the second syllable: sub-STAN-tial. This adjective describes something of considerable size, importance, or worth.",
+            "voice_input": true,
+            "example_sentence": "They received a substantial amount of funding although the project is still considered to be very high risk today.",
+            "media": {}
+        },
+        {
+            "id": "b16_16",
+            "type": "multiple_choice",
+            "options": [
+                "legitimate",
+                "literal",
+                "lengthy"
+            ],
+            "question": "Review: Which adjective describes something that is fair, legal, or allowed according to standard rules?",
+            "answer": "legitimate",
+            "hint": "Think back to Batch 12 where we discussed whether a reason for a complaint was valid and acceptable.",
+            "voice_input": false,
+            "example_sentence": "You have a legitimate claim to the inheritance although the legal proceedings will likely take several months to finish.",
+            "media": {}
+        },
+        {
+            "id": "b16_17",
+            "type": "tap_fill",
+            "options": [
+                "manifest",
+                "manufacture",
+                "manipulate",
+                "magnify"
+            ],
+            "question": "Review: The benefits are now ___ to everyone; therefore, we must continue to invest in this innovative green energy project.",
+            "answer": "manifest",
+            "hint": "Choose the adjective that describes something as very clear or obvious to the eye or mind.",
+            "voice_input": false,
+            "example_sentence": "Review: The benefits are now manifest to everyone; therefore, we must continue to invest in this innovative green energy project.",
+            "media": {}
+        },
+        {
+            "id": "b16_18",
+            "type": "matching",
+            "words": [
+                "designate",
+                "appoint",
+                "hindered",
+                "blocked"
+            ],
+            "question": "Review: Match the B2 professional and academic items with their closer descriptive or functional standard synonyms.",
+            "pairs": [
+                {
+                    "left": "designate",
+                    "right": "appoint"
+                },
+                {
+                    "left": "hindered",
+                    "right": "blocked"
+                }
+            ],
+            "answer": [
+                [
+                    "designate",
+                    "appoint"
+                ],
+                [
+                    "hindered",
+                    "blocked"
+                ]
+            ],
+            "hint": "Review: One pair is about choosing someone for a role, the other is about progress being stopped or delayed.",
+            "voice_input": false,
+            "example_sentence": "We should designate a leader whereas our current lack of coordination has hindered our ability to finish the task.",
+            "media": {}
+        },
+        {
+            "id": "b16_19",
+            "type": "sentence_ordering",
+            "words": [
+                "negotiate",
+                "although",
+                "both",
+                "We",
+                "will",
+                "try",
+                "to",
+                "parties",
+                "remain",
+                "extremely",
+                "stubborn",
+                "about",
+                "their",
+                "demands",
+                "initial"
+            ],
+            "question": "Order the sentence for a description of a difficult business discussion between two groups.",
+            "answer": "We will try to negotiate although both parties remain extremely stubborn about their initial demands",
+            "correct_answer": [
+                "We",
+                "will",
+                "try",
+                "to",
+                "negotiate",
+                "although",
+                "both",
+                "parties",
+                "remain",
+                "extremely",
+                "stubborn",
+                "about",
+                "their",
+                "initial",
+                "demands"
+            ],
+            "hint": "Start with 'We will' and use 'although' to contrast the goal of agreement with the reality of uncooperative partners.",
+            "voice_input": false,
+            "example_sentence": "We will try to negotiate although both parties remain extremely stubborn about their initial demands during this meeting.",
+            "media": {}
+        },
+        {
+            "id": "b16_20",
+            "type": "pronunciation",
+            "words": [
+                "reasonable"
+            ],
+            "question": "Say 'reasonable'.",
+            "answer": "reasonable",
+            "hint": "Stress the first syllable: REA-son-able. This means having sound judgment or being fair and sensible to others.",
+            "voice_input": true,
+            "example_sentence": "We must provide a reasonable explanation unless we want to face a major backlash from the local community tomorrow.",
+            "media": {}
+        },
+        {
+            "id": "b17_01",
+            "type": "multiple_choice",
+            "options": [
+                "ambiguous",
+                "ambitious",
+                "ambidextrous"
+            ],
+            "question": "Which adjective describes a statement or instruction that is open to more than one interpretation and is not clear?",
+            "answer": "ambiguous",
+            "hint": "Think about a message that can be understood in two different ways, causing confusion for the receiver.",
+            "voice_input": false,
+            "example_sentence": "The instructions for the final exam were somewhat ambiguous; therefore, many students felt confused until the professor clarified them.",
+            "media": {}
+        },
+        {
+            "id": "b17_02",
+            "type": "tap_fill",
+            "options": [
+                "abandon",
+                "adopt",
+                "achieve",
+                "acquire"
+            ],
+            "question": "The researchers decided to ___ the experiment; whereas, their colleagues continued to investigate the potential benefits of the substance.",
+            "answer": "abandon",
+            "hint": "Choose the verb that means to stop doing something or to leave something behind before it is finished.",
+            "voice_input": false,
+            "example_sentence": "The researchers decided to abandon the experiment; whereas, their colleagues continued to investigate the potential benefits of the substance.",
+            "media": {}
+        },
+        {
+            "id": "b17_03",
+            "type": "matching",
+            "words": [
+                "adjacent",
+                "near",
+                "aggregate",
+                "total"
+            ],
+            "question": "Match the B2 professional items with their closer descriptive or functional academic synonyms.",
+            "pairs": [
+                {
+                    "left": "adjacent",
+                    "right": "near"
+                },
+                {
+                    "left": "aggregate",
+                    "right": "total"
+                }
+            ],
+            "answer": [
+                [
+                    "adjacent",
+                    "near"
+                ],
+                [
+                    "aggregate",
+                    "total"
+                ]
+            ],
+            "hint": "One pair is about being next to something, the other is about a sum formed by combining several elements.",
+            "voice_input": false,
+            "example_sentence": "The aggregate score was very high although the teams were located in adjacent buildings during the entire national competition.",
+            "media": {}
+        },
+        {
+            "id": "b17_04",
+            "type": "sentence_ordering",
+            "words": [
+                "albeit",
+                "board",
+                "slowly",
+                "additional",
+                "provides",
+                "unless",
+                "technicians",
+                "system",
+                "implement",
+                "decided",
+                "They",
+                "the",
+                "the",
+                "to",
+                "new"
+            ],
+            "question": "Order the sentence for a description of a cautious technology implementation plan.",
+            "answer": "They decided to implement the new system albeit slowly unless the board provides additional technicians",
+            "correct_answer": [
+                "They",
+                "decided",
+                "to",
+                "implement",
+                "the",
+                "new",
+                "system",
+                "albeit",
+                "slowly",
+                "unless",
+                "the",
+                "board",
+                "provides",
+                "additional",
+                "technicians"
+            ],
+            "hint": "Start with 'They decided' and use 'albeit' and 'unless' to express the slow progress and a necessary condition.",
+            "voice_input": false,
+            "example_sentence": "They decided to implement the new system albeit slowly unless the board provides additional technicians to help the team.",
+            "media": {}
+        },
+        {
+            "id": "b17_05",
+            "type": "pronunciation",
+            "words": [
+                "accumulate"
+            ],
+            "question": "Say 'accumulate'.",
+            "answer": "accumulate",
+            "hint": "Stress the second syllable: ac-CU-mu-late. This verb means to gather or build up a large amount over time.",
+            "voice_input": true,
+            "example_sentence": "Investors aim to accumulate wealth whereas current economic conditions make it difficult for small businesses to survive this year.",
+            "media": {}
+        },
+        {
+            "id": "b17_06",
+            "type": "multiple_choice",
+            "options": [
+                "bias",
+                "base",
+                "basis"
+            ],
+            "question": "Which noun refers to a prejudice in favor of or against one thing, person, or group in an unfair way?",
+            "answer": "bias",
+            "hint": "Think about a preference that prevents a person from making a neutral or objective judgment about a situation.",
+            "voice_input": false,
+            "example_sentence": "The researcher must eliminate any personal bias although it is often difficult to remain completely objective during such a study.",
+            "media": {}
+        },
+        {
+            "id": "b17_07",
+            "type": "tap_fill",
+            "options": [
+                "commodity",
+                "community",
+                "committee",
+                "commitment"
+            ],
+            "question": "Oil is a valuable global ___; whereas, the demand for renewable energy sources has been increasing steadily every single year.",
+            "answer": "commodity",
+            "hint": "Choose the noun for a raw material or primary agricultural product that can be bought and sold commercially.",
+            "voice_input": false,
+            "example_sentence": "Oil is a valuable global commodity; whereas, the demand for renewable energy sources has been increasing steadily every single year.",
+            "media": {}
+        },
+        {
+            "id": "b17_08",
+            "type": "matching",
+            "words": [
+                "append",
+                "attach",
+                "compile",
+                "collect"
+            ],
+            "question": "Match the B2 professional items with their closer descriptive or functional academic synonyms.",
+            "pairs": [
+                {
+                    "left": "append",
+                    "right": "attach"
+                },
+                {
+                    "left": "compile",
+                    "right": "collect"
+                }
+            ],
+            "answer": [
+                [
+                    "append",
+                    "attach"
+                ],
+                [
+                    "compile",
+                    "collect"
+                ]
+            ],
+            "hint": "One pair is about adding something to the end of a document, the other is about gathering information together.",
+            "voice_input": false,
+            "example_sentence": "We need to compile the data so as to append the final results to the annual report before the deadline.",
+            "media": {}
+        },
+        {
+            "id": "b17_09",
+            "type": "sentence_ordering",
+            "words": [
+                "eliminate",
+                "bias",
+                "notwithstanding",
+                "The",
+                "judges",
+                "strict",
+                "rules",
+                "fail",
+                "to",
+                "often",
+                "unconscious",
+                "during",
+                "evaluations",
+                "the",
+                "professional"
+            ],
+            "question": "Order the sentence for a critique of fairness in professional assessments.",
+            "answer": "Notwithstanding the strict rules judges often fail to eliminate unconscious bias during the professional evaluations",
+            "correct_answer": [
+                "Notwithstanding",
+                "the",
+                "strict",
+                "rules",
+                "judges",
+                "often",
+                "fail",
+                "to",
+                "eliminate",
+                "unconscious",
+                "bias",
+                "during",
+                "the",
+                "professional",
+                "evaluations"
+            ],
+            "hint": "Start with 'Notwithstanding' and combine the clear rules with the ongoing struggle to be perfectly fair to everyone.",
+            "voice_input": false,
+            "example_sentence": "Notwithstanding the strict rules, judges often fail to eliminate unconscious bias during the professional evaluations of the candidates.",
+            "media": {}
+        },
+        {
+            "id": "b17_10",
+            "type": "pronunciation",
+            "words": [
+                "ambiguous"
+            ],
+            "question": "Say 'ambiguous'.",
+            "answer": "ambiguous",
+            "hint": "Stress the second syllable: am-BIG-u-ous. This adjective describes something that is unclear or has several possible meanings.",
+            "voice_input": true,
+            "example_sentence": "The contract was fundamentally ambiguous although the lawyers insisted that every clause had been reviewed multiple times by experts.",
+            "media": {}
+        },
+        {
+            "id": "b17_11",
+            "type": "multiple_choice",
+            "options": [
+                "clarify",
+                "classify",
+                "complicate"
+            ],
+            "question": "Review: Which verb means to make a statement or a situation less confusing and much more clearly understandable?",
+            "answer": "clarify",
+            "hint": "Think back to Batch 13 where we discussed a manager explaining safety procedures to a group of new employees.",
+            "voice_input": false,
+            "example_sentence": "We need to clarify the objectives whereas the current plan seems to be causing a lot of unnecessary confusion.",
+            "media": {}
+        },
+        {
+            "id": "b17_12",
+            "type": "tap_fill",
+            "options": [
+                "dimensions",
+                "directions",
+                "distinctions",
+                "discussions"
+            ],
+            "question": "Review: This problem has many ___; therefore, we must approach it from several different professional perspectives to find a solution.",
+            "answer": "dimensions",
+            "hint": "Choose the noun for a specific aspect or feature of a situation or problem.",
+            "voice_input": false,
+            "example_sentence": "Review: This problem has many dimensions; therefore, we must approach it from several different professional perspectives to find a solution.",
+            "media": {}
+        },
+        {
+            "id": "b17_13",
+            "type": "matching",
+            "words": [
+                "principal",
+                "main",
+                "overall",
+                "total"
+            ],
+            "question": "Review: Match the B2 academic adjectives with their closer professional or functional synonyms.",
+            "pairs": [
+                {
+                    "left": "principal",
+                    "right": "main"
+                },
+                {
+                    "left": "overall",
+                    "right": "total"
+                }
+            ],
+            "answer": [
+                [
+                    "principal",
+                    "main"
+                ],
+                [
+                    "overall",
+                    "total"
+                ]
+            ],
+            "hint": "Review: One pair is about being first in order of importance, the other is about the whole or general situation.",
+            "voice_input": false,
+            "example_sentence": "The principal reason for the loss was the overall decrease in exports although domestic sales remained relatively stable this year.",
+            "media": {}
+        },
+        {
+            "id": "b17_14",
+            "type": "sentence_ordering",
+            "words": [
+                "parallel",
+                "paths",
+                "whereas",
+                "the",
+                "research",
+                "The",
+                "development",
+                "and",
+                "teams",
+                "are",
+                "following",
+                "they",
+                "occasionally",
+                "exchange",
+                "valuable",
+                "information"
+            ],
+            "question": "Order the sentence for a description of two related but separate industrial processes.",
+            "answer": "The research and development teams are following parallel paths whereas they occasionally exchange valuable information",
+            "correct_answer": [
+                "The",
+                "research",
+                "and",
+                "development",
+                "teams",
+                "are",
+                "following",
+                "parallel",
+                "paths",
+                "whereas",
+                "they",
+                "occasionally",
+                "exchange",
+                "valuable",
+                "information"
+            ],
+            "hint": "Start with 'The research' and use 'whereas' to contrast the separate workflows with the moments of sharing knowledge.",
+            "voice_input": false,
+            "example_sentence": "The research and development teams are following parallel paths whereas they occasionally exchange valuable information during the project meetings.",
+            "media": {}
+        },
+        {
+            "id": "b17_15",
+            "type": "pronunciation",
+            "words": [
+                "mechanism"
+            ],
+            "question": "Say 'mechanism'.",
+            "answer": "mechanism",
+            "hint": "Stress the first syllable: MECH-an-ism. This refers to a natural or established process by which something takes place.",
+            "voice_input": true,
+            "example_sentence": "We should investigate the underlying mechanism unless we want to ignore the fundamental reasons for this technical failure today.",
+            "media": {}
+        },
+        {
+            "id": "b17_16",
+            "type": "multiple_choice",
+            "options": [
+                "entity",
+                "entry",
+                "entirety"
+            ],
+            "question": "Review: Which noun refers to a thing with distinct and independent existence, such as a large business or organization?",
+            "answer": "entity",
+            "hint": "Think back to Batch 13 where we discussed how a new project adds a social dimension to a commercial body.",
+            "voice_input": false,
+            "example_sentence": "The company operates as a separate legal entity although it is fully owned by a much larger international conglomerate today.",
+            "media": {}
+        },
+        {
+            "id": "b17_17",
+            "type": "tap_fill",
+            "options": [
+                "phase",
+                "phrase",
+                "place",
+                "plate"
+            ],
+            "question": "Review: The initial ___ is complete; therefore, we must prepare for the next stage of the project as soon as possible.",
+            "answer": "phase",
+            "hint": "Choose the noun for a distinct period or stage in a series of events or a process of change.",
+            "voice_input": false,
+            "example_sentence": "Review: The initial phase is complete; therefore, we must prepare for the next stage of the project as soon as possible.",
+            "media": {}
+        },
+        {
+            "id": "b17_18",
+            "type": "matching",
+            "words": [
+                "predict",
+                "forecast",
+                "retain",
+                "keep"
+            ],
+            "question": "Review: Match the B2 academic verbs with their closer descriptive or functional professional synonyms.",
+            "pairs": [
+                {
+                    "left": "predict",
+                    "right": "forecast"
+                },
+                {
+                    "left": "retain",
+                    "right": "keep"
+                }
+            ],
+            "answer": [
+                [
+                    "predict",
+                    "forecast"
+                ],
+                [
+                    "retain",
+                    "keep"
+                ]
+            ],
+            "hint": "Review: One pair is about saying what will happen in the future, the other is about continuing to have something.",
+            "voice_input": false,
+            "example_sentence": "We cannot predict exactly how much market share we will retain although current trends look positive for our company.",
+            "media": {}
+        },
+        {
+            "id": "b17_19",
+            "type": "sentence_ordering",
+            "words": [
+                "internal",
+                "although",
+                "communication",
+                "We",
+                "must",
+                "improve",
+                "the",
+                "logistics",
+                "team",
+                "is",
+                "already",
+                "doing",
+                "a",
+                "great",
+                "job",
+                "today"
+            ],
+            "question": "Order the sentence for a statement about organizational improvement and existing strengths.",
+            "answer": "We must improve internal communication although the logistics team is already doing a great job today",
+            "correct_answer": [
+                "We",
+                "must",
+                "improve",
+                "internal",
+                "communication",
+                "although",
+                "the",
+                "logistics",
+                "team",
+                "is",
+                "already",
+                "doing",
+                "a",
+                "great",
+                "job",
+                "today"
+            ],
+            "hint": "Start with 'We must' and use 'although' to contrast the need for change with the success of one specific department.",
+            "voice_input": false,
+            "example_sentence": "We must improve internal communication although the logistics team is already doing a great job today according to the CEO.",
+            "media": {}
+        },
+        {
+            "id": "b17_20",
+            "type": "pronunciation",
+            "words": [
+                "articulate"
+            ],
+            "question": "Say 'articulate'.",
+            "answer": "articulate",
+            "hint": "As a verb: ar-TIC-u-late. This means to express an idea or feeling fluently and very clearly in a meeting.",
+            "voice_input": true,
+            "example_sentence": "You should articulate your concerns clearly unless you want the board to believe that you are satisfied with the plans.",
+            "media": {}
+        },
+        {
+            "id": "b18_01",
+            "type": "multiple_choice",
+            "options": [
+                "conceive",
+                "concede",
+                "conceal"
+            ],
+            "question": "Which verb means to form or devise a plan or idea in the mind, or to become pregnant?",
+            "answer": "conceive",
+            "hint": "Think about the creative process of coming up with a new invention or a solution to a difficult problem.",
+            "voice_input": false,
+            "example_sentence": "It was difficult to conceive a workable solution although the engineers spent many weeks brainstorming various innovative and technical designs.",
+            "media": {}
+        },
+        {
+            "id": "b18_02",
+            "type": "tap_fill",
+            "options": [
+                "confine",
+                "confirm",
+                "conform",
+                "confuse"
+            ],
+            "question": "We must ___ our discussion to professional matters; therefore, personal anecdotes should be avoided during the official committee meeting.",
+            "answer": "confine",
+            "hint": "Choose the verb that means to keep or restrict someone or something within certain limits or boundaries.",
+            "voice_input": false,
+            "example_sentence": "We must confine our discussion to professional matters; therefore, personal anecdotes should be avoided during the official committee meeting.",
+            "media": {}
+        },
+        {
+            "id": "b18_03",
+            "type": "matching",
+            "words": [
+                "conform",
+                "comply",
+                "consent",
+                "agree"
+            ],
+            "question": "Match the B2 professional items with their closer descriptive or functional academic synonyms.",
+            "pairs": [
+                {
+                    "left": "conform",
+                    "right": "comply"
+                },
+                {
+                    "left": "consent",
+                    "right": "agree"
+                }
+            ],
+            "answer": [
+                [
+                    "conform",
+                    "comply"
+                ],
+                [
+                    "consent",
+                    "agree"
+                ]
+            ],
+            "hint": "One pair is about following rules or standards, the other is about giving permission for something to happen.",
+            "voice_input": false,
+            "example_sentence": "Participants must consent to the study while researchers must conform to strict ethical guidelines throughout the entire data collection process.",
+            "media": {}
+        },
+        {
+            "id": "b18_04",
+            "type": "sentence_ordering",
+            "words": [
+                "contradiction",
+                "although",
+                "the",
+                "There",
+                "is",
+                "a",
+                "clear",
+                "evidence",
+                "theory",
+                "remains",
+                "popular",
+                "suggests",
+                "the",
+                "exact",
+                "opposite",
+                "today"
+            ],
+            "question": "Order the sentence for a critique of a scientific or academic theory.",
+            "answer": "There is a clear contradiction although the theory remains popular the evidence suggests the exact opposite today",
+            "correct_answer": [
+                "There",
+                "is",
+                "a",
+                "clear",
+                "contradiction",
+                "although",
+                "the",
+                "theory",
+                "remains",
+                "popular",
+                "the",
+                "evidence",
+                "suggests",
+                "the",
+                "exact",
+                "opposite",
+                "today"
+            ],
+            "hint": "Start with 'There is' and use 'although' to contrast the popularity of an idea with the facts that disprove it.",
+            "voice_input": false,
+            "example_sentence": "There is a clear contradiction although the theory remains popular, the evidence suggests the exact opposite today in current research.",
+            "media": {}
+        },
+        {
+            "id": "b18_05",
+            "type": "pronunciation",
+            "words": [
+                "controversy"
+            ],
+            "question": "Say 'controversy'.",
+            "answer": "controversy",
+            "hint": "Stress the first syllable: CON-tro-ver-sy. (Note: Stress can vary, but this is a standard British/American professional form).",
+            "voice_input": true,
+            "example_sentence": "The new law caused a lot of controversy although the government insisted that it was necessary for national security this year.",
+            "media": {}
+        },
+        {
+            "id": "b18_06",
+            "type": "multiple_choice",
+            "options": [
+                "contrary",
+                "contrast",
+                "contradict"
+            ],
+            "question": "Which adjective describes something that is opposite in nature, direction, or meaning to something else?",
+            "answer": "contrary",
+            "hint": "Think about a result that goes against what was expected or an opinion that is completely different from yours.",
+            "voice_input": false,
+            "example_sentence": "Contrary to popular belief, the project was a massive success although the initial funding was significantly lower than originally planned.",
+            "media": {}
+        },
+        {
+            "id": "b18_07",
+            "type": "tap_fill",
+            "options": [
+                "convene",
+                "convey",
+                "convert",
+                "convince"
+            ],
+            "question": "The board will ___ next week; whereas, the shareholders are demanding a more transparent review of the recent financial decisions.",
+            "answer": "convene",
+            "hint": "Choose the verb that means to come or bring together for a formal meeting or activity.",
+            "voice_input": false,
+            "example_sentence": "The board will convene next week; whereas, the shareholders are demanding a more transparent review of the recent financial decisions.",
+            "media": {}
+        },
+        {
+            "id": "b18_08",
+            "type": "matching",
+            "words": [
+                "convert",
+                "change",
+                "convinced",
+                "sure"
+            ],
+            "question": "Match the B2 professional items with their closer descriptive or functional academic synonyms.",
+            "pairs": [
+                {
+                    "left": "convert",
+                    "right": "change"
+                },
+                {
+                    "left": "convinced",
+                    "right": "sure"
+                }
+            ],
+            "answer": [
+                [
+                    "convert",
+                    "change"
+                ],
+                [
+                    "convinced",
+                    "sure"
+                ]
+            ],
+            "hint": "One pair is about transforming one thing into another, the other is about having a firm belief or certainty.",
+            "voice_input": false,
+            "example_sentence": "We aim to convert more leads although I am not entirely convinced that this new marketing strategy will be successful.",
+            "media": {}
+        },
+        {
+            "id": "b18_09",
+            "type": "sentence_ordering",
+            "words": [
+                "consent",
+                "notwithstanding",
+                "The",
+                "final",
+                "agreement",
+                "must",
+                "be",
+                "signed",
+                "unless",
+                "one",
+                "of",
+                "the",
+                "parties",
+                "refuses",
+                "to",
+                "provide",
+                "their"
+            ],
+            "question": "Order the sentence for a description of a legal or professional requirement for a contract.",
+            "answer": "Notwithstanding the final agreement must be signed unless one of the parties refuses to provide their consent",
+            "correct_answer": [
+                "Notwithstanding",
+                "the",
+                "final",
+                "agreement",
+                "must",
+                "be",
+                "signed",
+                "unless",
+                "one",
+                "of",
+                "the",
+                "parties",
+                "refuses",
+                "to",
+                "provide",
+                "their",
+                "consent"
+            ],
+            "hint": "Start with 'Notwithstanding' and combine the necessity of the signature with the potential obstacle of a refusal.",
+            "voice_input": false,
+            "example_sentence": "Notwithstanding the final agreement must be signed unless one of the parties refuses to provide their consent this week.",
+            "media": {}
+        },
+        {
+            "id": "b18_10",
+            "type": "pronunciation",
+            "words": [
+                "context"
+            ],
+            "question": "Say 'context'.",
+            "answer": "context",
+            "hint": "Stress the first syllable: CON-text. This refers to the circumstances that form the setting for an event or statement.",
+            "voice_input": true,
+            "example_sentence": "We must consider the historical context although some modern critics prefer to analyze the text in complete isolation today.",
+            "media": {}
+        },
+        {
+            "id": "b18_11",
+            "type": "multiple_choice",
+            "options": [
+                "alternative",
+                "alteration",
+                "altruistic"
+            ],
+            "question": "Review: Which noun refers to one of two or more available possibilities or choices in a professional context?",
+            "answer": "alternative",
+            "hint": "Think back to Batch 14 where we discussed having a backup plan or a different way to achieve a goal.",
+            "voice_input": false,
+            "example_sentence": "We need an alternative approach although the current method has been used by the company for over twenty years.",
+            "media": {}
+        },
+        {
+            "id": "b18_12",
+            "type": "tap_fill",
+            "options": [
+                "circumstances",
+                "circuits",
+                "candidates",
+                "consequences"
+            ],
+            "question": "Review: Under no ___ should you enter; therefore, we have locked the doors until the technical maintenance is fully complete.",
+            "answer": "circumstances",
+            "hint": "Choose the noun for the facts or conditions connected with or relevant to an event or action.",
+            "voice_input": false,
+            "example_sentence": "Review: Under no circumstances should you enter; therefore, we have locked the doors until the technical maintenance is fully complete.",
+            "media": {}
+        },
+        {
+            "id": "b18_13",
+            "type": "matching",
+            "words": [
+                "core",
+                "central",
+                "corporate",
+                "business-related"
+            ],
+            "question": "Review: Match the B2 professional items with their closer descriptive or functional workplace synonyms.",
+            "pairs": [
+                {
+                    "left": "core",
+                    "right": "central"
+                },
+                {
+                    "left": "corporate",
+                    "right": "business-related"
+                }
+            ],
+            "answer": [
+                [
+                    "core",
+                    "central"
+                ],
+                [
+                    "corporate",
+                    "business-related"
+                ]
+            ],
+            "hint": "Review: One pair is about the most important part, the other is about large companies or groups.",
+            "voice_input": false,
+            "example_sentence": "We must protect our core interests whereas our corporate image remains very important for attracting new international investors this year.",
+            "media": {}
+        },
+        {
+            "id": "b18_14",
+            "type": "sentence_ordering",
+            "words": [
+                "criteria",
+                "met",
+                "whereas",
+                "the",
+                "application",
+                "The",
+                "selection",
+                "must",
+                "be",
+                "strictly",
+                "was",
+                "initially",
+                "rejected",
+                "due",
+                "to",
+                "missing",
+                "data"
+            ],
+            "question": "Order the sentence for a description of a strict hiring or admissions process.",
+            "answer": "The selection criteria must be strictly met whereas the application was initially rejected due to missing data",
+            "correct_answer": [
+                "The",
+                "selection",
+                "criteria",
+                "must",
+                "be",
+                "strictly",
+                "met",
+                "whereas",
+                "the",
+                "application",
+                "was",
+                "initially",
+                "rejected",
+                "due",
+                "to",
+                "missing",
+                "data"
+            ],
+            "hint": "Start with 'The selection' and use 'whereas' to contrast the rigid rules with the failure of one specific attempt.",
+            "voice_input": false,
+            "example_sentence": "The selection criteria must be strictly met whereas the application was initially rejected due to missing data by the committee.",
+            "media": {}
+        },
+        {
+            "id": "b18_15",
+            "type": "pronunciation",
+            "words": [
+                "considerable"
+            ],
+            "question": "Say 'considerable'.",
+            "answer": "considerable",
+            "hint": "Stress the second syllable: con-SID-er-able. This adjective describes something notably large or significant in size or amount.",
+            "voice_input": true,
+            "example_sentence": "The project will require considerable effort unless we can automate the most repetitive tasks using our new AI software.",
+            "media": {}
+        },
+        {
+            "id": "b18_16",
+            "type": "multiple_choice",
+            "options": [
+                "constant",
+                "consistent",
+                "constructive"
+            ],
+            "question": "Review: Which adjective describes something that stays the same over a long period or is occurring continuously?",
+            "answer": "constant",
+            "hint": "Think back to Batch 14 where we discussed maintaining a steady level of production during a transition phase.",
+            "voice_input": false,
+            "example_sentence": "We must maintain a constant level of quality although the raw materials we are receiving are often very inconsistent.",
+            "media": {}
+        },
+        {
+            "id": "b18_17",
+            "type": "tap_fill",
+            "options": [
+                "contribution",
+                "convention",
+                "coordination",
+                "composition"
+            ],
+            "question": "Review: Every employee should make a ___ to the project; therefore, we have assigned specific tasks to everyone on our team.",
+            "answer": "contribution",
+            "hint": "Choose the noun for a gift or payment that is made to a person or organization, or a part played in something.",
+            "voice_input": false,
+            "example_sentence": "Every employee should make a contribution to the project; therefore, we have assigned specific tasks to everyone on our team.",
+            "media": {}
+        },
+        {
+            "id": "b18_18",
+            "type": "matching",
+            "words": [
+                "convention",
+                "standard",
+                "coordination",
+                "organization"
+            ],
+            "question": "Review: Match the B2 academic nouns with their closer descriptive or functional professional synonyms.",
+            "pairs": [
+                {
+                    "left": "convention",
+                    "right": "standard"
+                },
+                {
+                    "left": "coordination",
+                    "right": "organization"
+                }
+            ],
+            "answer": [
+                [
+                    "convention",
+                    "standard"
+                ],
+                [
+                    "coordination",
+                    "organization"
+                ]
+            ],
+            "hint": "Review: One pair is about common ways of doing things, the other is about how parts of a system work together.",
+            "voice_input": false,
+            "example_sentence": "We must follow the social convention whereas effective coordination is essential for the success of such a large international project.",
+            "media": {}
+        },
+        {
+            "id": "b18_19",
+            "type": "sentence_ordering",
+            "words": [
+                "deduction",
+                "although",
+                "team",
+                "The",
+                "scientific",
+                "was",
+                "logical",
+                "the",
+                "experimental",
+                "results",
+                "were",
+                "somewhat",
+                "disappointing",
+                "last",
+                "month"
+            ],
+            "question": "Order the sentence for a statement about reaching a conclusion and the quality of the results.",
+            "answer": "The scientific deduction was logical although the experimental results were somewhat disappointing last month",
+            "correct_answer": [
+                "The",
+                "scientific",
+                "deduction",
+                "was",
+                "logical",
+                "although",
+                "the",
+                "experimental",
+                "results",
+                "were",
+                "somewhat",
+                "disappointing",
+                "last",
+                "month"
+            ],
+            "hint": "Start with 'The scientific' and use 'although' to contrast the sound reasoning with the poor quality of the data.",
+            "voice_input": false,
+            "example_sentence": "The scientific deduction was logical although the experimental results were somewhat disappointing last month during the final testing phase.",
+            "media": {}
+        },
+        {
+            "id": "b18_20",
+            "type": "pronunciation",
+            "words": [
+                "corresponding"
+            ],
+            "question": "Say 'corresponding'.",
+            "answer": "corresponding",
+            "hint": "Stress the third syllable: cor-re-SPOND-ing. This adjective describes items that match or relate to each other.",
+            "voice_input": true,
+            "example_sentence": "Please check the corresponding box unless you are not eligible to receive the discount for the new professional training.",
+            "media": {}
+        },
+        {
+            "id": "b19_01",
+            "type": "multiple_choice",
+            "options": [
+                "crucial",
+                "crude",
+                "cruel"
+            ],
+            "question": "Which adjective describes something that is extremely important or necessary for the success of a specific task?",
+            "answer": "crucial",
+            "hint": "Think about a decision or a component that can determine whether a whole project fails or succeeds today.",
+            "voice_input": false,
+            "example_sentence": "Your support is crucial for the success of this mission although the team is already working very hard annually.",
+            "media": {}
+        },
+        {
+            "id": "b19_02",
+            "type": "tap_fill",
+            "options": [
+                "displaced",
+                "displayed",
+                "distributed",
+                "disturbed"
+            ],
+            "question": "Many families were ___ by the flood; therefore, the government has established several temporary shelters throughout the local region.",
+            "answer": "displaced",
+            "hint": "Choose the verb that means to force someone to leave their home, especially because of war or disaster.",
+            "voice_input": false,
+            "example_sentence": "Many families were displaced by the flood; therefore, the government has established several temporary shelters throughout the local region.",
+            "media": {}
+        },
+        {
+            "id": "b19_03",
+            "type": "matching",
+            "words": [
+                "denote",
+                "indicate",
+                "detect",
+                "notice"
+            ],
+            "question": "Match the B2 professional items with their closer descriptive or functional academic synonyms.",
+            "pairs": [
+                {
+                    "left": "denote",
+                    "right": "indicate"
+                },
+                {
+                    "left": "detect",
+                    "right": "notice"
+                }
+            ],
+            "answer": [
+                [
+                    "denote",
+                    "indicate"
+                ],
+                [
+                    "detect",
+                    "notice"
+                ]
+            ],
+            "hint": "One pair is about being a sign of something, the other is about discovering something that is hidden.",
+            "voice_input": false,
+            "example_sentence": "The symbols denote specific chemical reactions although the sensors can also detect very minor changes in temperature during testing.",
+            "media": {}
+        },
+        {
+            "id": "b19_04",
+            "type": "sentence_ordering",
+            "words": [
+                "deviation",
+                "unless",
+                "we",
+                "Any",
+                "from",
+                "result",
+                "standard",
+                "delay",
+                "protocol",
+                "will",
+                "in",
+                "a",
+                "major",
+                "the",
+                "production"
+            ],
+            "question": "Order the sentence for a warning about following strict rules in a laboratory or factory.",
+            "answer": "Any deviation from the standard protocol will result in a major delay in the production unless we act",
+            "correct_answer": [
+                "Any",
+                "deviation",
+                "from",
+                "the",
+                "standard",
+                "protocol",
+                "will",
+                "result",
+                "in",
+                "a",
+                "major",
+                "delay",
+                "in",
+                "the",
+                "production"
+            ],
+            "hint": "Start with 'Any deviation' and use the future tense to explain the consequence of not following the official rules.",
+            "voice_input": false,
+            "example_sentence": "Any deviation from the standard protocol will result in a major delay in the production of the new medicine.",
+            "media": {}
+        },
+        {
+            "id": "b19_05",
+            "type": "pronunciation",
+            "words": [
+                "distorted"
+            ],
+            "question": "Say 'distorted'.",
+            "answer": "distorted",
+            "hint": "Stress the second syllable: dis-TOR-ted. This adjective describes something that has changed from its original or natural shape.",
+            "voice_input": true,
+            "example_sentence": "The radio signal was completely distorted although the technician tried to fix the transmitter using the new technical equipment.",
+            "media": {}
+        },
+        {
+            "id": "b19_06",
+            "type": "multiple_choice",
+            "options": [
+                "dominate",
+                "domestic",
+                "dormant"
+            ],
+            "question": "Which verb means to have a commanding influence on or to be the most important person or thing?",
+            "answer": "dominate",
+            "hint": "Think about a large company that has most of the market share and controls the prices of specific goods.",
+            "voice_input": false,
+            "example_sentence": "One large corporation continues to dominate the market although several smaller startups are trying to offer innovative new solutions.",
+            "media": {}
+        },
+        {
+            "id": "b19_07",
+            "type": "tap_fill",
+            "options": [
+                "diverse",
+                "divine",
+                "divergent",
+                "divided"
+            ],
+            "question": "The university has a ___ student body; whereas, most of its staff members have lived in the city annually.",
+            "answer": "diverse",
+            "hint": "Choose the adjective that describes a group containing several different types of people or things.",
+            "voice_input": false,
+            "example_sentence": "The university has a diverse student body; whereas, most of its staff members have lived in the city annually.",
+            "media": {}
+        },
+        {
+            "id": "b19_08",
+            "type": "matching",
+            "words": [
+                "dynamic",
+                "active",
+                "derive",
+                "obtain"
+            ],
+            "question": "Match the B2 professional items with their closer descriptive or functional academic synonyms.",
+            "pairs": [
+                {
+                    "left": "dynamic",
+                    "right": "active"
+                },
+                {
+                    "left": "derive",
+                    "right": "obtain"
+                }
+            ],
+            "answer": [
+                [
+                    "dynamic",
+                    "active"
+                ],
+                [
+                    "derive",
+                    "obtain"
+                ]
+            ],
+            "hint": "One pair is about being energetic and changing, the other is about getting something from a specific source.",
+            "voice_input": false,
+            "example_sentence": "We aim to derive a dynamic strategy although we must also obtain feedback from our most loyal customer base.",
+            "media": {}
+        },
+        {
+            "id": "b19_09",
+            "type": "sentence_ordering",
+            "words": [
+                "differentiate",
+                "notwithstanding",
+                "We",
+                "need",
+                "to",
+                "our",
+                "products",
+                "limited",
+                "budget",
+                "although",
+                "the",
+                "competition",
+                "is",
+                "growing",
+                "fierce",
+                "this",
+                "year"
+            ],
+            "question": "Order the sentence for a statement about business strategy and market competition.",
+            "answer": "Notwithstanding the limited budget we need to differentiate our products although the competition is growing fierce this year",
+            "correct_answer": [
+                "Notwithstanding",
+                "the",
+                "limited",
+                "budget",
+                "we",
+                "need",
+                "to",
+                "differentiate",
+                "our",
+                "products",
+                "although",
+                "the",
+                "competition",
+                "is",
+                "growing",
+                "fierce",
+                "this",
+                "year"
+            ],
+            "hint": "Start with 'Notwithstanding' and combine the lack of money with the urgent need to show how your brand is better.",
+            "voice_input": false,
+            "example_sentence": "Notwithstanding the limited budget, we need to differentiate our products although the competition is growing fierce this year.",
+            "media": {}
+        },
+        {
+            "id": "b19_10",
+            "type": "pronunciation",
+            "words": [
+                "domestic"
+            ],
+            "question": "Say 'domestic'.",
+            "answer": "domestic",
+            "hint": "Stress the second syllable: do-MES-tic. This refers to things that happen inside a particular country, not internationally.",
+            "voice_input": true,
+            "example_sentence": "The government is focusing on domestic issues unless the international situation requires an immediate and decisive diplomatic response tomorrow.",
+            "media": {}
+        },
+        {
+            "id": "b19_11",
+            "type": "multiple_choice",
+            "options": [
+                "abandon",
+                "abide",
+                "adhere"
+            ],
+            "question": "Review: Which verb means to stop doing something or to leave something behind before it is finished?",
+            "answer": "abandon",
+            "hint": "Think back to Batch 17 where we discussed researchers who stopped their experiment due to a lack of results.",
+            "voice_input": false,
+            "example_sentence": "They had to abandon the search although the rescue team spent several days looking for the missing mountain climbers.",
+            "media": {}
+        },
+        {
+            "id": "b19_12",
+            "type": "tap_fill",
+            "options": [
+                "ambiguous",
+                "ambitious",
+                "ambidextrous",
+                "ambivalent"
+            ],
+            "question": "Review: The legal language in the contract was ___; therefore, we had to consult a senior lawyer to explain everything clearly.",
+            "answer": "ambiguous",
+            "hint": "Choose the adjective that describes a statement or instruction that is open to more than one interpretation and is unclear.",
+            "voice_input": false,
+            "example_sentence": "Review: The legal language in the contract was ambiguous; therefore, we had to consult a senior lawyer to explain everything clearly.",
+            "media": {}
+        },
+        {
+            "id": "b19_13",
+            "type": "matching",
+            "words": [
+                "adjacent",
+                "near",
+                "bias",
+                "prejudice"
+            ],
+            "question": "Review: Match the B2 academic items with their closer professional or functional synonyms.",
+            "pairs": [
+                {
+                    "left": "adjacent",
+                    "right": "near"
+                },
+                {
+                    "left": "bias",
+                    "right": "prejudice"
+                }
+            ],
+            "answer": [
+                [
+                    "adjacent",
+                    "near"
+                ],
+                [
+                    "bias",
+                    "prejudice"
+                ]
+            ],
+            "hint": "Review: One pair is about physical closeness, the other is about an unfair preference for or against something.",
+            "voice_input": false,
+            "example_sentence": "We noticed a certain bias in the report although the facts were collected from several adjacent regional offices today.",
+            "media": {}
+        },
+        {
+            "id": "b19_14",
+            "type": "sentence_ordering",
+            "words": [
+                "accumulate",
+                "evidence",
+                "whereas",
+                "We",
+                "need",
+                "to",
+                "more",
+                "the",
+                "current",
+                "data",
+                "is",
+                "insufficient",
+                "to",
+                "prove",
+                "our",
+                "theory"
+            ],
+            "question": "Order the sentence for a description of a scientific requirement for more proof.",
+            "answer": "We need to accumulate more evidence whereas the current data is insufficient to prove our theory",
+            "correct_answer": [
+                "We",
+                "need",
+                "to",
+                "accumulate",
+                "more",
+                "evidence",
+                "whereas",
+                "the",
+                "current",
+                "data",
+                "is",
+                "insufficient",
+                "to",
+                "prove",
+                "our",
+                "theory"
+            ],
+            "hint": "Start with 'We need' and use 'whereas' to contrast the goal of gathering facts with the poor quality of existing information.",
+            "voice_input": false,
+            "example_sentence": "We need to accumulate more evidence whereas the current data is insufficient to prove our theory at this moment.",
+            "media": {}
+        },
+        {
+            "id": "b19_15",
+            "type": "pronunciation",
+            "words": [
+                "commodity"
+            ],
+            "question": "Say 'commodity'.",
+            "answer": "commodity",
+            "hint": "Stress the second syllable: com-MOD-i-ty. This refers to a raw material that can be bought and sold commercially.",
+            "voice_input": true,
+            "example_sentence": "Gold is a stable commodity unless the global economy experiences a major and unexpected financial shock next year.",
+            "media": {}
+        },
+        {
+            "id": "b19_16",
+            "type": "multiple_choice",
+            "options": [
+                "compile",
+                "comply",
+                "compete"
+            ],
+            "question": "Review: Which verb means to produce something, such as a report or a list, by gathering information from various sources?",
+            "answer": "compile",
+            "hint": "Think about what researchers do when they collect data from several different experiments to write a final paper.",
+            "voice_input": false,
+            "example_sentence": "We need to compile the list although most of the required information is already stored in our digital database.",
+            "media": {}
+        },
+        {
+            "id": "b19_17",
+            "type": "tap_fill",
+            "options": [
+                "append",
+                "attend",
+                "intend",
+                "amend"
+            ],
+            "question": "Review: Please ___ the new results; therefore, the board will have all the necessary facts before making the final decision.",
+            "answer": "append",
+            "hint": "Choose the verb that means to add something as an attachment or a supplement to the end of a document.",
+            "voice_input": false,
+            "example_sentence": "Review: Please append the new results; therefore, the board will have all the necessary facts before making the final decision.",
+            "media": {}
+        },
+        {
+            "id": "b19_18",
+            "type": "matching",
+            "words": [
+                "aggregate",
+                "total",
+                "albeit",
+                "although"
+            ],
+            "question": "Review: Match the B2 academic items with their closer descriptive or functional professional synonyms.",
+            "pairs": [
+                {
+                    "left": "aggregate",
+                    "right": "total"
+                },
+                {
+                    "left": "albeit",
+                    "right": "although"
+                }
+            ],
+            "answer": [
+                [
+                    "aggregate",
+                    "total"
+                ],
+                [
+                    "albeit",
+                    "although"
+                ]
+            ],
+            "hint": "Review: One pair is about a sum formed by combining elements, the other is a formal conjunction for 'even though'.",
+            "voice_input": false,
+            "example_sentence": "The aggregate data was useful albeit somewhat incomplete according to the internal auditors who reviewed the project last month.",
+            "media": {}
+        },
+        {
+            "id": "b19_19",
+            "type": "sentence_ordering",
+            "words": [
+                "notwithstanding",
+                "internal",
+                "conflicts",
+                "They",
+                "reached",
+                "an",
+                "agreement",
+                "highly",
+                "quickly",
+                "although",
+                "was",
+                "the",
+                "situation",
+                "tense",
+                "initially"
+            ],
+            "question": "Order the sentence for a description of a successful negotiation during a difficult period.",
+            "answer": "Notwithstanding the internal conflicts they reached an agreement highly quickly although the situation was initially tense",
+            "correct_answer": [
+                "Notwithstanding",
+                "internal",
+                "conflicts",
+                "they",
+                "reached",
+                "an",
+                "agreement",
+                "highly",
+                "quickly",
+                "although",
+                "the",
+                "situation",
+                "was",
+                "initially",
+                "tense"
+            ],
+            "hint": "Start with 'Notwithstanding' and use 'although' to contrast the fast success with the initial anger and drama.",
+            "voice_input": false,
+            "example_sentence": "Notwithstanding internal conflicts, they reached an agreement highly quickly although the situation was initially tense for everyone involved.",
+            "media": {}
+        },
+        {
+            "id": "b19_20",
+            "type": "pronunciation",
+            "words": [
+                "clarify"
+            ],
+            "question": "Say 'clarify'.",
+            "answer": "clarify",
+            "hint": "Stress the first syllable: CLAR-i-fy. This verb means to make a statement or a situation less confusing.",
+            "voice_input": true,
+            "example_sentence": "We should clarify our expectations unless we want the team to feel completely lost during the upcoming training session tomorrow.",
+            "media": {}
+        },
+        {
+            "id": "b20_01",
+            "type": "multiple_choice",
+            "options": [
+                "empirical",
+                "empire",
+                "empathy"
+            ],
+            "question": "Which adjective describes something that is based on or verified by observation or experience rather than theory?",
+            "answer": "empirical",
+            "hint": "Think about scientific evidence that comes from actual experiments and data rather than just ideas or assumptions.",
+            "voice_input": false,
+            "example_sentence": "We gathered empirical evidence although the current theoretical models suggest that a different outcome was much more likely annually.",
+            "media": {}
+        },
+        {
+            "id": "b20_02",
+            "type": "tap_fill",
+            "options": [
+                "eventually",
+                "evidently",
+                "evocatively",
+                "evilly"
+            ],
+            "question": "The project was delayed; however, they ___ finished it; therefore, the team celebrated their success with a small party yesterday.",
+            "answer": "eventually",
+            "hint": "Choose the adverb that means occurring after a long time or after a lot of effort, problems, or delays.",
+            "voice_input": false,
+            "example_sentence": "The project was delayed; however, they eventually finished it; therefore, the team celebrated their success with a small party yesterday.",
+            "media": {}
+        },
+        {
+            "id": "b20_03",
+            "type": "matching",
+            "words": [
+                "enormous",
+                "huge",
+                "error",
+                "mistake"
+            ],
+            "question": "Match the B2 professional items with their closer descriptive or functional academic synonyms.",
+            "pairs": [
+                {
+                    "left": "enormous",
+                    "right": "huge"
+                },
+                {
+                    "left": "error",
+                    "right": "mistake"
+                }
+            ],
+            "answer": [
+                [
+                    "enormous",
+                    "huge"
+                ],
+                [
+                    "error",
+                    "mistake"
+                ]
+            ],
+            "hint": "One pair is about something being extremely large in size or amount, the other is about a wrong action or judgment.",
+            "voice_input": false,
+            "example_sentence": "There was an enormous error in the report whereas the management team failed to notice it during the initial review.",
+            "media": {}
+        },
+        {
+            "id": "b20_04",
+            "type": "sentence_ordering",
+            "words": [
+                "environment",
+                "unless",
+                "we",
+                "to",
+                "The",
+                "deteriorate",
+                "protect",
+                "natural",
+                "will",
+                "continue",
+                "take",
+                "immediate",
+                "action",
+                "to",
+                "the",
+                "planet"
+            ],
+            "question": "Order the sentence for a statement about environmental protection and future consequences.",
+            "answer": "The natural environment will continue to deteriorate unless we take immediate action to protect the planet",
+            "correct_answer": [
+                "The",
+                "natural",
+                "environment",
+                "will",
+                "continue",
+                "to",
+                "deteriorate",
+                "unless",
+                "we",
+                "take",
+                "immediate",
+                "action",
+                "to",
+                "protect",
+                "the",
+                "planet"
+            ],
+            "hint": "Start with 'The natural' and use 'unless' to highlight the necessity of acting now to prevent environmental damage.",
+            "voice_input": false,
+            "example_sentence": "The natural environment will continue to deteriorate unless we take immediate action to protect the planet from pollution.",
+            "media": {}
+        },
+        {
+            "id": "b20_05",
+            "type": "pronunciation",
+            "words": [
+                "equivalent"
+            ],
+            "question": "Say 'equivalent'.",
+            "answer": "equivalent",
+            "hint": "Stress the second syllable: e-QUIV-a-lent. This adjective describes items that are equal in value, amount, or meaning.",
+            "voice_input": true,
+            "example_sentence": "The two professional certificates are equivalent although they were issued by different regulatory bodies in separate international regions today.",
+            "media": {}
+        },
+        {
+            "id": "b20_06",
+            "type": "multiple_choice",
+            "options": [
+                "exploit",
+                "explode",
+                "explore"
+            ],
+            "question": "Which verb means to make full use of and derive benefit from a resource or a situation?",
+            "answer": "exploit",
+            "hint": "Think about a business using a new technology to its advantage or potentially treating workers in an unfair way.",
+            "voice_input": false,
+            "example_sentence": "We must learn to exploit these new resources although we also need to consider the potential ethical implications of our strategy.",
+            "media": {}
+        },
+        {
+            "id": "b20_07",
+            "type": "tap_fill",
+            "options": [
+                "expansion",
+                "explosion",
+                "exclusion",
+                "exposure"
+            ],
+            "question": "The company planned a rapid ___; whereas, the sudden economic recession caused them to cancel several new project locations.",
+            "answer": "expansion",
+            "hint": "Choose the noun for the action of becoming larger or more extensive, especially in a business or geographic context.",
+            "voice_input": false,
+            "example_sentence": "The company planned a rapid expansion; whereas, the sudden economic recession caused them to cancel several new project locations.",
+            "media": {}
+        },
+        {
+            "id": "b20_08",
+            "type": "matching",
+            "words": [
+                "explicit",
+                "clear",
+                "extract",
+                "remove"
+            ],
+            "question": "Match the B2 professional items with their closer descriptive or functional academic synonyms.",
+            "pairs": [
+                {
+                    "left": "explicit",
+                    "right": "clear"
+                },
+                {
+                    "left": "extract",
+                    "right": "remove"
+                }
+            ],
+            "answer": [
+                [
+                    "explicit",
+                    "clear"
+                ],
+                [
+                    "extract",
+                    "remove"
+                ]
+            ],
+            "hint": "One pair is about being stated clearly and in detail, the other is about taking something out from a larger whole.",
+            "voice_input": false,
+            "example_sentence": "We received explicit instructions to extract the data while the research team worked on the final analysis of the results.",
+            "media": {}
+        },
+        {
+            "id": "b20_09",
+            "type": "sentence_ordering",
+            "words": [
+                "estimate",
+                "notwithstanding",
+                "The",
+                "will",
+                "initial",
+                "likely",
+                "cost",
+                "be",
+                "revised",
+                "although",
+                "additional",
+                "it",
+                "remains",
+                "the",
+                "only",
+                "viable",
+                "budget"
+            ],
+            "question": "Order the sentence for a statement about project finances and future revisions.",
+            "answer": "Notwithstanding the initial cost estimate will likely be revised although it remains the only viable budget today",
+            "correct_answer": [
+                "Notwithstanding",
+                "the",
+                "initial",
+                "cost",
+                "estimate",
+                "will",
+                "likely",
+                "be",
+                "revised",
+                "although",
+                "it",
+                "remains",
+                "the",
+                "only",
+                "viable",
+                "budget",
+                "today"
+            ],
+            "hint": "Start with 'Notwithstanding' and use 'although' to contrast the need for change with the current lack of other options.",
+            "voice_input": false,
+            "example_sentence": "Notwithstanding, the initial cost estimate will likely be revised although it remains the only viable budget today for the board.",
+            "media": {}
+        },
+        {
+            "id": "b20_10",
+            "type": "pronunciation",
+            "words": [
+                "empirical"
+            ],
+            "question": "Say 'empirical'.",
+            "answer": "empirical",
+            "hint": "Stress the second syllable: em-PIR-i-cal. Use this for evidence based on observation rather than theory or logic.",
+            "voice_input": true,
+            "example_sentence": "We gathered empirical data during the study unless the weather conditions were too severe for the researchers to work outside.",
+            "media": {}
+        },
+        {
+            "id": "b20_11",
+            "type": "multiple_choice",
+            "options": [
+                "conceive",
+                "concede",
+                "conceal"
+            ],
+            "question": "Review: Which verb means to form or devise a plan or an idea in the mind?",
+            "answer": "conceive",
+            "hint": "Think back to Batch 18 where we discussed engineers coming up with innovative designs for a new project.",
+            "voice_input": false,
+            "example_sentence": "It was difficult to conceive a new strategy although the entire marketing team worked on the project for several months.",
+            "media": {}
+        },
+        {
+            "id": "b20_12",
+            "type": "tap_fill",
+            "options": [
+                "conform",
+                "confirm",
+                "confine",
+                "confuse"
+            ],
+            "question": "Review: All products must ___ to safety standards; therefore, we must perform a series of tests before the official launch date.",
+            "answer": "conform",
+            "hint": "Choose the verb that means to follow rules, standards, or laws that have been established by an authority.",
+            "voice_input": false,
+            "example_sentence": "Review: All products must conform to safety standards; therefore, we must perform a series of tests before the official launch date.",
+            "media": {}
+        },
+        {
+            "id": "b20_13",
+            "type": "matching",
+            "words": [
+                "consent",
+                "agree",
+                "convene",
+                "gather"
+            ],
+            "question": "Review: Match the B2 academic items with their closer professional or functional synonyms.",
+            "pairs": [
+                {
+                    "left": "consent",
+                    "right": "agree"
+                },
+                {
+                    "left": "convene",
+                    "right": "gather"
+                }
+            ],
+            "answer": [
+                [
+                    "consent",
+                    "agree"
+                ],
+                [
+                    "convene",
+                    "gather"
+                ]
+            ],
+            "hint": "Review: One pair is about giving permission, the other is about coming together for a formal meeting or activity.",
+            "voice_input": false,
+            "example_sentence": "The committee will convene next week to consent to the new environmental regulations proposed by the government this year.",
+            "media": {}
+        },
+        {
+            "id": "b20_14",
+            "type": "sentence_ordering",
+            "words": [
+                "context",
+                "whereas",
+                "contradiction",
+                "The",
+                "historical",
+                "explains",
+                "the",
+                "current",
+                "remains",
+                "puzzling",
+                "to",
+                "most",
+                "experts",
+                "in",
+                "the",
+                "field"
+            ],
+            "question": "Order the sentence for a statement about historical analysis and modern confusion.",
+            "answer": "The historical context explains the current contradiction whereas it remains puzzling to most experts in the field today",
+            "correct_answer": [
+                "The",
+                "historical",
+                "context",
+                "explains",
+                "the",
+                "current",
+                "contradiction",
+                "whereas",
+                "it",
+                "remains",
+                "puzzling",
+                "to",
+                "most",
+                "experts",
+                "in",
+                "the",
+                "field",
+                "today"
+            ],
+            "hint": "Start with 'The historical' and use 'whereas' to contrast the clarity given by history with the ongoing expert confusion.",
+            "voice_input": false,
+            "example_sentence": "The historical context explains the current contradiction whereas it remains puzzling to most experts in the field today.",
+            "media": {}
+        },
+        {
+            "id": "b20_15",
+            "type": "pronunciation",
+            "words": [
+                "controversy"
+            ],
+            "question": "Say 'controversy'.",
+            "answer": "controversy",
+            "hint": "Stress the first syllable: CON-tro-ver-sy. This refers to a lot of public disagreement or heat about a specific issue.",
+            "voice_input": true,
+            "example_sentence": "We should avoid any public controversy unless we want to damage our corporate reputation during the upcoming national elections.",
+            "media": {}
+        },
+        {
+            "id": "b20_16",
+            "type": "multiple_choice",
+            "options": [
+                "contrary",
+                "contrast",
+                "contradict"
+            ],
+            "question": "Review: Which adjective describes something that is opposite in nature, direction, or meaning to something else?",
+            "answer": "contrary",
+            "hint": "Think back to Batch 18 where we discussed a result that went completely against popular belief or expectations.",
+            "voice_input": false,
+            "example_sentence": "Contrary to expectations, the team won although they were significantly smaller and had much less experience than their rivals.",
+            "media": {}
+        },
+        {
+            "id": "b20_17",
+            "type": "tap_fill",
+            "options": [
+                "convinced",
+                "converted",
+                "confined",
+                "conformed"
+            ],
+            "question": "Review: I am not ___ by your argument; whereas, the rest of the board seems happy to support your new proposal.",
+            "answer": "convinced",
+            "hint": "Choose the adjective for a person who is completely sure about something or firmly believes in a specific idea.",
+            "voice_input": false,
+            "example_sentence": "I am not convinced by your argument; whereas, the rest of the board seems happy to support your new proposal.",
+            "media": {}
+        },
+        {
+            "id": "b20_18",
+            "type": "matching",
+            "words": [
+                "convert",
+                "change",
+                "confine",
+                "restrict"
+            ],
+            "question": "Review: Match the B2 academic verbs with their closer descriptive or functional professional synonyms.",
+            "pairs": [
+                {
+                    "left": "convert",
+                    "right": "change"
+                },
+                {
+                    "left": "confine",
+                    "right": "restrict"
+                }
+            ],
+            "answer": [
+                [
+                    "convert",
+                    "change"
+                ],
+                [
+                    "confine",
+                    "restrict"
+                ]
+            ],
+            "hint": "Review: One pair is about making one thing into another, the other is about keeping something within certain limits.",
+            "voice_input": false,
+            "example_sentence": "We must convert the files so as to confine the information to a single digital folder for the entire team.",
+            "media": {}
+        },
+        {
+            "id": "b20_19",
+            "type": "sentence_ordering",
+            "words": [
+                "considerable",
+                "although",
+                "contribution",
+                "She",
+                "made",
+                "a",
+                "her",
+                "colleagues",
+                "often",
+                "ignored",
+                "suggestions",
+                "during",
+                "the",
+                "initial",
+                "project",
+                "meetings"
+            ],
+            "question": "Order the sentence for a description of specialized work and a lack of recognition in a team.",
+            "answer": "She made a considerable contribution although her colleagues often ignored her suggestions during the initial project meetings",
+            "correct_answer": [
+                "She",
+                "made",
+                "a",
+                "considerable",
+                "contribution",
+                "although",
+                "her",
+                "colleagues",
+                "often",
+                "ignored",
+                "her",
+                "suggestions",
+                "during",
+                "the",
+                "initial",
+                "project",
+                "meetings"
+            ],
+            "hint": "Start with 'She made' and use 'although' to contrast her hard work with the group's failure to listen to her ideas.",
+            "voice_input": false,
+            "example_sentence": "She made a considerable contribution although her colleagues often ignored her suggestions during the initial project meetings last week.",
+            "media": {}
+        },
+        {
+            "id": "b20_20",
+            "type": "pronunciation",
+            "words": [
+                "corresponding"
+            ],
+            "question": "Say 'corresponding'.",
+            "answer": "corresponding",
+            "hint": "Stress the third syllable: cor-re-SPOND-ing. This adjective refers to things that are similar in character, form, or function.",
+            "voice_input": true,
+            "example_sentence": "We should check the corresponding data unless the report was already approved by the senior auditor during the final evaluation.",
+            "media": {}
+        }
+    ]
+}
