@@ -36,8 +36,8 @@
             "type": "sentence_ordering",
             "words": [
                 "I",
-                "bread",
-                "eat"
+                "eat",
+                "bread"
             ],
             "question": "Order the sentence.",
             "answer": "I eat bread",
@@ -83,7 +83,7 @@
             ],
             "hint": "Food vs Liquid",
             "voice_input": false,
-            "example_sentence": "I eat apple. I drink water.",
+            "example_sentence": "I eat an apple. I drink water.",
             "media": {}
         },
         {
@@ -134,9 +134,9 @@
             "id": "b1_08",
             "type": "sentence_ordering",
             "words": [
-                "boy",
                 "The",
-                "drinks"
+                "drinks",
+                "boy"
             ],
             "question": "Order the sentence.",
             "answer": "The boy drinks",
@@ -182,7 +182,7 @@
             ],
             "hint": "Furniture uses",
             "voice_input": false,
-            "example_sentence": "Sit on chair. Sleep in bed.",
+            "example_sentence": "Sit on a chair. Sleep in a bed.",
             "media": {}
         },
         {
@@ -220,9 +220,9 @@
             "id": "b1_12",
             "type": "sentence_ordering",
             "words": [
+                "Close",
                 "the",
-                "window",
-                "Close"
+                "window"
             ],
             "question": "Order the sentence.",
             "answer": "Close the window",
@@ -268,7 +268,7 @@
             ],
             "hint": "Actions",
             "voice_input": false,
-            "example_sentence": "Open window. Help boy.",
+            "example_sentence": "Open the window. Help the boy.",
             "media": {}
         },
         {
@@ -306,9 +306,9 @@
             "id": "b1_16",
             "type": "sentence_ordering",
             "words": [
-                "woman",
                 "The",
-                "walks"
+                "walks",
+                "woman"
             ],
             "question": "Order the sentence.",
             "answer": "The woman walks",
@@ -421,8 +421,8 @@
             "type": "sentence_ordering",
             "words": [
                 "fish",
-                "The",
-                "swims"
+                "swims",
+                "The"
             ],
             "question": "Order the sentence.",
             "answer": "The fish swims",
@@ -519,9 +519,9 @@
             "id": "b2_08",
             "type": "sentence_ordering",
             "words": [
+                "The",
                 "shines",
-                "sun",
-                "The"
+                "sun"
             ],
             "question": "Order the sentence.",
             "answer": "The sun shines",
@@ -567,7 +567,7 @@
             ],
             "hint": "Tools for learning",
             "voice_input": false,
-            "example_sentence": "Write with pen. Read book.",
+            "example_sentence": "Write with a pen. Read a book.",
             "media": {}
         },
         {
@@ -605,9 +605,9 @@
             "id": "b2_12",
             "type": "sentence_ordering",
             "words": [
+                "goes",
                 "The",
-                "bus",
-                "goes"
+                "bus"
             ],
             "question": "Order the sentence.",
             "answer": "The bus goes",
@@ -691,9 +691,9 @@
             "id": "b2_16",
             "type": "sentence_ordering",
             "words": [
+                "the",
                 "flower",
-                "See",
-                "the"
+                "See"
             ],
             "question": "Order the sentence.",
             "answer": "See the flower",
@@ -806,8 +806,8 @@
             "type": "sentence_ordering",
             "words": [
                 "the",
-                "rice",
-                "Cook"
+                "Cook",
+                "rice"
             ],
             "question": "Order the sentence.",
             "answer": "Cook the rice",
@@ -904,10 +904,10 @@
             "id": "b3_08",
             "type": "sentence_ordering",
             "words": [
-                "The",
-                "boy",
                 "eats",
-                "cheese"
+                "cheese",
+                "The",
+                "boy"
             ],
             "question": "Order the sentence.",
             "answer": "The boy eats cheese",
@@ -954,7 +954,7 @@
             ],
             "hint": "Body actions",
             "voice_input": false,
-            "example_sentence": "Walk with foot. Wash hand.",
+            "example_sentence": "Walk with the foot. Wash the hand.",
             "media": {}
         },
         {
@@ -992,8 +992,8 @@
             "id": "b3_12",
             "type": "sentence_ordering",
             "words": [
-                "juice",
                 "I",
+                "juice",
                 "drink"
             ],
             "question": "Order the sentence.",
@@ -1079,8 +1079,8 @@
             "type": "sentence_ordering",
             "words": [
                 "man",
-                "wakes",
-                "The"
+                "The",
+                "wakes"
             ],
             "question": "Order the sentence.",
             "answer": "The man wakes",
@@ -1192,9 +1192,9 @@
             "id": "b4_03",
             "type": "sentence_ordering",
             "words": [
-                "box",
                 "Open",
-                "the"
+                "the",
+                "box"
             ],
             "question": "Order the sentence.",
             "answer": "Open the box",
@@ -1292,22 +1292,24 @@
             "type": "sentence_ordering",
             "words": [
                 "park",
-                "The",
+                "to",
                 "girl",
                 "goes",
-                "to"
+                "the",
+                "The"
             ],
             "question": "Order the sentence.",
-            "answer": "The girl goes to park",
+            "answer": "The girl goes to the park",
             "hint": "Subject + Verb + Object",
             "voice_input": false,
-            "example_sentence": "The girl goes to park.",
+            "example_sentence": "The girl goes to the park.",
             "media": {},
             "correct_answer": [
                 "The",
                 "girl",
                 "goes",
                 "to",
+                "the",
                 "park"
             ]
         },
@@ -1381,9 +1383,9 @@
             "id": "b4_12",
             "type": "sentence_ordering",
             "words": [
-                "stars",
                 "the",
-                "See"
+                "See",
+                "stars"
             ],
             "question": "Order the sentence.",
             "answer": "See the stars",
@@ -1429,7 +1431,7 @@
             ],
             "hint": "Where things are",
             "voice_input": false,
-            "example_sentence": "Car on street. Walk in park.",
+            "example_sentence": "Car on the street. Walk in the park.",
             "media": {}
         },
         {
@@ -1581,9 +1583,9 @@
             "id": "b5_03",
             "type": "sentence_ordering",
             "words": [
+                "money",
                 "Give",
-                "the",
-                "money"
+                "the"
             ],
             "question": "Order the sentence.",
             "answer": "Give the money",
@@ -1680,9 +1682,9 @@
             "id": "b5_08",
             "type": "sentence_ordering",
             "words": [
+                "tea",
                 "Drink",
-                "the",
-                "tea"
+                "the"
             ],
             "question": "Order the sentence.",
             "answer": "Drink the tea",
@@ -1766,10 +1768,10 @@
             "id": "b5_12",
             "type": "sentence_ordering",
             "words": [
-                "the",
-                "on",
                 "Help",
-                "farm"
+                "farm",
+                "on",
+                "the"
             ],
             "question": "Order the sentence.",
             "answer": "Help on the farm",
@@ -1855,8 +1857,8 @@
             "type": "sentence_ordering",
             "words": [
                 "coffee",
-                "woman",
                 "drinks",
+                "woman",
                 "The"
             ],
             "question": "Order the sentence.",
@@ -1970,8 +1972,8 @@
             "id": "b6_03",
             "type": "sentence_ordering",
             "words": [
-                "The",
                 "plane",
+                "The",
                 "flies"
             ],
             "question": "Order the sentence.",
@@ -2070,8 +2072,8 @@
             "type": "sentence_ordering",
             "words": [
                 "river",
-                "at",
                 "the",
+                "at",
                 "Wait"
             ],
             "question": "Order the sentence.",
@@ -2157,21 +2159,23 @@
             "id": "b6_12",
             "type": "sentence_ordering",
             "words": [
-                "nurse",
-                "The",
                 "baby",
-                "helps"
+                "helps",
+                "The",
+                "nurse",
+                "the"
             ],
             "question": "Order the sentence.",
-            "answer": "The nurse helps baby",
+            "answer": "The nurse helps the baby",
             "hint": "Subject + Verb + Object",
             "voice_input": false,
-            "example_sentence": "The nurse helps baby.",
+            "example_sentence": "The nurse helps the baby.",
             "media": {},
             "correct_answer": [
                 "The",
                 "nurse",
                 "helps",
+                "the",
                 "baby"
             ]
         },
@@ -2207,7 +2211,7 @@
             ],
             "hint": "Where things go",
             "voice_input": false,
-            "example_sentence": "Boat on river. Bicycle at home.",
+            "example_sentence": "Boat on the river. Bicycle at home.",
             "media": {}
         },
         {
@@ -2245,10 +2249,10 @@
             "id": "b6_16",
             "type": "sentence_ordering",
             "words": [
-                "friend",
                 "Talk",
                 "to",
-                "the"
+                "the",
+                "friend"
             ],
             "question": "Order the sentence.",
             "answer": "Talk to the friend",
@@ -2361,10 +2365,10 @@
             "id": "b7_03",
             "type": "sentence_ordering",
             "words": [
-                "Listen",
                 "the",
-                "to",
-                "radio"
+                "Listen",
+                "radio",
+                "to"
             ],
             "question": "Order the sentence.",
             "answer": "Listen to the radio",
@@ -2548,9 +2552,9 @@
             "id": "b7_12",
             "type": "sentence_ordering",
             "words": [
+                "See",
                 "sun",
-                "the",
-                "See"
+                "the"
             ],
             "question": "Order the sentence.",
             "answer": "See the sun",
@@ -2634,9 +2638,9 @@
             "id": "b7_16",
             "type": "sentence_ordering",
             "words": [
-                "moves",
+                "moon",
                 "The",
-                "moon"
+                "moves"
             ],
             "question": "Order the sentence.",
             "answer": "The moon moves",
@@ -2744,9 +2748,9 @@
             "id": "b8_07",
             "type": "sentence_ordering",
             "words": [
+                "talks",
                 "The",
-                "doctor",
-                "talks"
+                "doctor"
             ],
             "question": "Order the sentence.",
             "answer": "The doctor talks",
@@ -2765,11 +2769,11 @@
             "type": "sentence_ordering",
             "words": [
                 "the",
+                "fish",
                 "in",
                 "sea",
-                "fish",
-                "The",
-                "swims"
+                "swims",
+                "The"
             ],
             "question": "Order the sentence.",
             "answer": "The fish swims in the sea",
@@ -2790,10 +2794,10 @@
             "id": "b8_09",
             "type": "sentence_ordering",
             "words": [
-                "wash",
-                "cup",
+                "I",
                 "the",
-                "I"
+                "wash",
+                "cup"
             ],
             "question": "Order the sentence.",
             "answer": "I wash the cup",
@@ -2812,9 +2816,9 @@
             "id": "b8_10",
             "type": "sentence_ordering",
             "words": [
+                "The",
                 "sun",
-                "shines",
-                "The"
+                "shines"
             ],
             "question": "Order the sentence.",
             "answer": "The sun shines",
@@ -3152,10 +3156,10 @@
             "id": "b9_07",
             "type": "sentence_ordering",
             "words": [
-                "The",
                 "sun",
-                "wakes",
                 "boy",
+                "The",
+                "wakes",
                 "the"
             ],
             "question": "Order the sentence.",
@@ -3176,11 +3180,11 @@
             "id": "b9_08",
             "type": "sentence_ordering",
             "words": [
-                "the",
-                "banana",
-                "eats",
                 "teacher",
-                "The"
+                "The",
+                "eats",
+                "the",
+                "banana"
             ],
             "question": "Order the sentence.",
             "answer": "The teacher eats the banana",
@@ -3200,11 +3204,11 @@
             "id": "b9_09",
             "type": "sentence_ordering",
             "words": [
-                "the",
-                "drives",
-                "car",
                 "woman",
-                "The"
+                "drives",
+                "The",
+                "car",
+                "the"
             ],
             "question": "Order the sentence.",
             "answer": "The woman drives the car",
@@ -3224,12 +3228,12 @@
             "id": "b9_10",
             "type": "sentence_ordering",
             "words": [
-                "bird",
-                "the",
                 "sits",
-                "The",
                 "in",
-                "tree"
+                "the",
+                "tree",
+                "The",
+                "bird"
             ],
             "question": "Order the sentence.",
             "answer": "The bird sits in the tree",
