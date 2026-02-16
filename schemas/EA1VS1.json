@@ -291,9 +291,9 @@
             "type": "tap_fill",
             "options": [
                 "runs",
-                "opens",
-                "closes",
-                "helps"
+                "flies",
+                "shines",
+                "rains"
             ],
             "question": "The man ___.",
             "answer": "runs",
@@ -2144,7 +2144,7 @@
                 "helps",
                 "flies",
                 "shines",
-                "sleeps"
+                "flows"
             ],
             "question": "The nurse ___.",
             "answer": "helps",
@@ -2231,8 +2231,8 @@
             "options": [
                 "talks",
                 "flies",
-                "swims",
-                "shines"
+                "shines",
+                "rains"
             ],
             "question": "The family ___.",
             "answer": "talks",
@@ -2533,9 +2533,9 @@
             "type": "tap_fill",
             "options": [
                 "star",
-                "day",
-                "grass",
-                "river"
+                "run",
+                "jump",
+                "sleep"
             ],
             "question": "See the ___.",
             "answer": "star",
@@ -2619,8 +2619,8 @@
             "type": "tap_fill",
             "options": [
                 "Play",
-                "Eat",
-                "Sleep",
+                "Rain",
+                "Shine",
                 "Fly"
             ],
             "question": "___ with friend.",
@@ -2991,7 +2991,7 @@
                 "runs",
                 "flies",
                 "shines",
-                "opens"
+                "rains"
             ],
             "question": "The boy ___.",
             "answer": "runs",
