@@ -1,0 +1,3902 @@
+{
+    "exercises": [
+        {
+            "id": "b23_01",
+            "type": "multiple_choice",
+            "options": [
+                "specific",
+                "special",
+                "species"
+            ],
+            "question": "Choose the word meaning 'particular' or 'exact'.",
+            "answer": "specific",
+            "hint": "Not general",
+            "voice_input": false,
+            "example_sentence": "Is there a specific reason why you are late?",
+            "media": {}
+        },
+        {
+            "id": "b23_02",
+            "type": "tap_fill",
+            "options": [
+                "various",
+                "variance",
+                "variable",
+                "variety"
+            ],
+            "question": "He gave ___ reasons for his absence.",
+            "answer": "various",
+            "hint": "Many different",
+            "voice_input": false,
+            "example_sentence": "He gave various reasons for his absence.",
+            "media": {}
+        },
+        {
+            "id": "b23_03",
+            "type": "sentence_ordering",
+            "words": [
+                "standard",
+                "The",
+                "education",
+                "of",
+                "is",
+                "high",
+                "here"
+            ],
+            "question": "Order the sentence.",
+            "answer": "The standard of education is high here",
+            "hint": "Level of quality",
+            "voice_input": false,
+            "example_sentence": "The standard of education is high here.",
+            "media": {}
+        },
+        {
+            "id": "b23_04",
+            "type": "matching",
+            "words": [
+                "advantage",
+                "benefit",
+                "disadvantage",
+                "loss"
+            ],
+            "question": "Match the pros and cons.",
+            "pairs": [
+                {
+                    "left": "advantage",
+                    "right": "benefit"
+                },
+                {
+                    "left": "disadvantage",
+                    "right": "loss"
+                }
+            ],
+            "answer": [
+                [
+                    "advantage",
+                    "benefit"
+                ],
+                [
+                    "disadvantage",
+                    "loss"
+                ]
+            ],
+            "hint": "Positive vs Negative",
+            "voice_input": false,
+            "example_sentence": "Every advantage has a corresponding disadvantage.",
+            "media": {}
+        },
+        {
+            "id": "b23_05",
+            "type": "pronunciation",
+            "words": [
+                "objective"
+            ],
+            "question": "Say 'objective'.",
+            "answer": "objective",
+            "hint": "Goal or aim",
+            "voice_input": true,
+            "example_sentence": "Our primary objective is to improve efficiency.",
+            "media": {}
+        },
+        {
+            "id": "b23_06",
+            "type": "multiple_choice",
+            "options": [
+                "consequence",
+                "consensus",
+                "consent"
+            ],
+            "question": "Choose the result of an action.",
+            "answer": "consequence",
+            "hint": "Effect of a choice",
+            "voice_input": false,
+            "example_sentence": "You must accept the consequence of your actions.",
+            "media": {}
+        },
+        {
+            "id": "b23_07",
+            "type": "tap_fill",
+            "options": [
+                "purpose",
+                "propose",
+                "suppose",
+                "purchase"
+            ],
+            "question": "What is the ___ of this meeting?",
+            "answer": "purpose",
+            "hint": "Reason for doing something",
+            "voice_input": false,
+            "example_sentence": "What is the main purpose of this meeting?",
+            "media": {}
+        },
+        {
+            "id": "b23_08",
+            "type": "sentence_ordering",
+            "words": [
+                "feature",
+                "The",
+                "best",
+                "is",
+                "camera",
+                "the",
+                "phone's"
+            ],
+            "question": "Order the sentence.",
+            "answer": "The phone's best feature is the camera",
+            "hint": "Characteristic",
+            "voice_input": false,
+            "example_sentence": "The phone's best feature is the camera.",
+            "media": {}
+        },
+        {
+            "id": "b23_09",
+            "type": "matching",
+            "words": [
+                "method",
+                "way",
+                "effective",
+                "useful"
+            ],
+            "question": "Match similar meanings.",
+            "pairs": [
+                {
+                    "left": "method",
+                    "right": "way"
+                },
+                {
+                    "left": "effective",
+                    "right": "useful"
+                }
+            ],
+            "answer": [
+                [
+                    "method",
+                    "way"
+                ],
+                [
+                    "effective",
+                    "useful"
+                ]
+            ],
+            "hint": "System and Utility",
+            "voice_input": false,
+            "example_sentence": "This method is a very effective way to learn.",
+            "media": {}
+        },
+        {
+            "id": "b23_10",
+            "type": "pronunciation",
+            "words": [
+                "definite"
+            ],
+            "question": "Say 'definite'.",
+            "answer": "definite",
+            "hint": "Certain",
+            "voice_input": true,
+            "example_sentence": "I need a definite answer by tomorrow.",
+            "media": {}
+        },
+        {
+            "id": "b23_11",
+            "type": "multiple_choice",
+            "options": [
+                "improve",
+                "approve",
+                "prove"
+            ],
+            "question": "Review: Choose the word meaning 'to make better'.",
+            "answer": "improve",
+            "hint": "Enhance",
+            "voice_input": false,
+            "example_sentence": "I want to improve my English skills.",
+            "media": {}
+        },
+        {
+            "id": "b23_12",
+            "type": "tap_fill",
+            "options": [
+                "achieve",
+                "archive",
+                "active",
+                "arrive"
+            ],
+            "question": "Review: You can ___ anything with hard work.",
+            "answer": "achieve",
+            "hint": "Reach a goal",
+            "voice_input": false,
+            "example_sentence": "You can achieve anything with hard work.",
+            "media": {}
+        },
+        {
+            "id": "b23_13",
+            "type": "sentence_ordering",
+            "words": [
+                "success",
+                "The",
+                "was",
+                "project",
+                "huge",
+                "a"
+            ],
+            "question": "Review: Order the sentence.",
+            "answer": "The project was a huge success",
+            "hint": "Positive outcome",
+            "voice_input": false,
+            "example_sentence": "The project was a huge success.",
+            "media": {}
+        },
+        {
+            "id": "b23_14",
+            "type": "matching",
+            "words": [
+                "problem",
+                "issue",
+                "solution",
+                "answer"
+            ],
+            "question": "Review: Match the pairs.",
+            "pairs": [
+                {
+                    "left": "problem",
+                    "right": "issue"
+                },
+                {
+                    "left": "solution",
+                    "right": "answer"
+                }
+            ],
+            "answer": [
+                [
+                    "problem",
+                    "issue"
+                ],
+                [
+                    "solution",
+                    "answer"
+                ]
+            ],
+            "hint": "Challenge and Response",
+            "voice_input": false,
+            "example_sentence": "Every problem has a solution.",
+            "media": {}
+        },
+        {
+            "id": "b23_15",
+            "type": "pronunciation",
+            "words": [
+                "necessary"
+            ],
+            "question": "Review: Say 'necessary'.",
+            "answer": "necessary",
+            "hint": "Required",
+            "voice_input": true,
+            "example_sentence": "Sleep is necessary for good health.",
+            "media": {}
+        },
+        {
+            "id": "b23_16",
+            "type": "multiple_choice",
+            "options": [
+                "quality",
+                "quantity",
+                "equality"
+            ],
+            "question": "Review: Choose the standard of something.",
+            "answer": "quality",
+            "hint": "How good something is",
+            "voice_input": false,
+            "example_sentence": "We focus on quality rather than quantity.",
+            "media": {}
+        },
+        {
+            "id": "b23_17",
+            "type": "tap_fill",
+            "options": [
+                "manage",
+                "damage",
+                "massage",
+                "passage"
+            ],
+            "question": "Review: Can you ___ this task alone?",
+            "answer": "manage",
+            "hint": "Handle or control",
+            "voice_input": false,
+            "example_sentence": "Can you manage this task alone?",
+            "media": {}
+        },
+        {
+            "id": "b23_18",
+            "type": "sentence_ordering",
+            "words": [
+                "various",
+                "are",
+                "There",
+                "available",
+                "options",
+                "standard"
+            ],
+            "question": "Order the sentence.",
+            "answer": "There are various standard options available",
+            "hint": "Mixing terms",
+            "voice_input": false,
+            "example_sentence": "There are various standard options available.",
+            "media": {}
+        },
+        {
+            "id": "b23_19",
+            "type": "matching",
+            "words": [
+                "purpose",
+                "aim",
+                "benefit",
+                "gain"
+            ],
+            "question": "Match the meanings.",
+            "pairs": [
+                {
+                    "left": "purpose",
+                    "right": "aim"
+                },
+                {
+                    "left": "benefit",
+                    "right": "gain"
+                }
+            ],
+            "answer": [
+                [
+                    "purpose",
+                    "aim"
+                ],
+                [
+                    "benefit",
+                    "gain"
+                ]
+            ],
+            "hint": "Motivation and Reward",
+            "voice_input": false,
+            "example_sentence": "His purpose was clear and his benefit was great.",
+            "media": {}
+        },
+        {
+            "id": "b23_20",
+            "type": "pronunciation",
+            "words": [
+                "consequence"
+            ],
+            "question": "Say 'consequence'.",
+            "answer": "consequence",
+            "hint": "Outcome",
+            "voice_input": true,
+            "example_sentence": "Think about the consequence before you act.",
+            "media": {}
+        },
+        {
+            "id": "b24_01",
+            "type": "multiple_choice",
+            "options": [
+                "anxious",
+                "ambitious",
+                "angry"
+            ],
+            "question": "Choose the word meaning 'worried' or 'nervous'.",
+            "answer": "anxious",
+            "hint": "Feeling of worry",
+            "voice_input": false,
+            "example_sentence": "She felt anxious about her exam results.",
+            "media": {}
+        },
+        {
+            "id": "b24_02",
+            "type": "tap_fill",
+            "options": [
+                "cheerful",
+                "careful",
+                "frightful",
+                "thoughtful"
+            ],
+            "question": "He is always ___ in the morning.",
+            "answer": "cheerful",
+            "hint": "Happy and smiling",
+            "voice_input": false,
+            "example_sentence": "He is always cheerful in the morning.",
+            "media": {}
+        },
+        {
+            "id": "b24_03",
+            "type": "sentence_ordering",
+            "words": [
+                "miserable",
+                "The",
+                "makes",
+                "me",
+                "rain",
+                "feel"
+            ],
+            "question": "Order the sentence.",
+            "answer": "The rain makes me feel miserable",
+            "hint": "Very unhappy",
+            "voice_input": false,
+            "example_sentence": "The rain makes me feel miserable.",
+            "media": {}
+        },
+        {
+            "id": "b24_04",
+            "type": "matching",
+            "words": [
+                "proud",
+                "pleased",
+                "satisfied",
+                "content"
+            ],
+            "question": "Match the feelings.",
+            "pairs": [
+                {
+                    "left": "proud",
+                    "right": "pleased"
+                },
+                {
+                    "left": "satisfied",
+                    "right": "content"
+                }
+            ],
+            "answer": [
+                [
+                    "proud",
+                    "pleased"
+                ],
+                [
+                    "satisfied",
+                    "content"
+                ]
+            ],
+            "hint": "High opinion and Happiness",
+            "voice_input": false,
+            "example_sentence": "I am proud of you and satisfied with your work.",
+            "media": {}
+        },
+        {
+            "id": "b24_05",
+            "type": "pronunciation",
+            "words": [
+                "embarrassed"
+            ],
+            "question": "Say 'embarrassed'.",
+            "answer": "embarrassed",
+            "hint": "Feeling shy or awkward",
+            "voice_input": true,
+            "example_sentence": "I was embarrassed when I forgot his name.",
+            "media": {}
+        },
+        {
+            "id": "b24_06",
+            "type": "multiple_choice",
+            "options": [
+                "enthusiastic",
+                "elastic",
+                "fantastic"
+            ],
+            "question": "Choose the word meaning 'showing great interest'.",
+            "answer": "enthusiastic",
+            "hint": "Very eager",
+            "voice_input": false,
+            "example_sentence": "The kids are enthusiastic about the trip.",
+            "media": {}
+        },
+        {
+            "id": "b24_07",
+            "type": "tap_fill",
+            "options": [
+                "guilty",
+                "greedy",
+                "gently",
+                "ghostly"
+            ],
+            "question": "He felt ___ about lying to her.",
+            "answer": "guilty",
+            "hint": "Feeling regret for a wrong",
+            "voice_input": false,
+            "example_sentence": "He felt guilty about lying to her.",
+            "media": {}
+        },
+        {
+            "id": "b24_08",
+            "type": "sentence_ordering",
+            "words": [
+                "sensible",
+                "That",
+                "a",
+                "to",
+                "do",
+                "was",
+                "thing"
+            ],
+            "question": "Order the sentence.",
+            "answer": "That was a sensible thing to do",
+            "hint": "Practical or wise",
+            "voice_input": false,
+            "example_sentence": "That was a sensible thing to do.",
+            "media": {}
+        },
+        {
+            "id": "b24_09",
+            "type": "matching",
+            "words": [
+                "sensitive",
+                "delicate",
+                "patient",
+                "calm"
+            ],
+            "question": "Match descriptions.",
+            "pairs": [
+                {
+                    "left": "sensitive",
+                    "right": "delicate"
+                },
+                {
+                    "left": "patient",
+                    "right": "calm"
+                }
+            ],
+            "answer": [
+                [
+                    "sensitive",
+                    "delicate"
+                ],
+                [
+                    "patient",
+                    "calm"
+                ]
+            ],
+            "hint": "Emotion and Behavior",
+            "voice_input": false,
+            "example_sentence": "She is sensitive to criticism but very patient.",
+            "media": {}
+        },
+        {
+            "id": "b24_10",
+            "type": "pronunciation",
+            "words": [
+                "flexible"
+            ],
+            "question": "Say 'flexible'.",
+            "answer": "flexible",
+            "hint": "Able to change easily",
+            "voice_input": true,
+            "example_sentence": "Our working hours are quite flexible.",
+            "media": {}
+        },
+        {
+            "id": "b24_11",
+            "type": "multiple_choice",
+            "options": [
+                "generous",
+                "general",
+                "gender"
+            ],
+            "question": "Review: Choose the word meaning 'giving freely'.",
+            "answer": "generous",
+            "hint": "Kind with money or time",
+            "voice_input": false,
+            "example_sentence": "That was a very generous gift.",
+            "media": {}
+        },
+        {
+            "id": "b24_12",
+            "type": "tap_fill",
+            "options": [
+                "selfish",
+                "shellfish",
+                "stylish",
+                "foolish"
+            ],
+            "question": "Review: Don't be ___: share your toys.",
+            "answer": "selfish",
+            "hint": "Caring only about oneself",
+            "voice_input": false,
+            "example_sentence": "Don't be selfish: share your toys with others.",
+            "media": {}
+        },
+        {
+            "id": "b24_13",
+            "type": "sentence_ordering",
+            "words": [
+                "polite",
+                "It",
+                "is",
+                "people",
+                "to",
+                "be",
+                "to"
+            ],
+            "question": "Review: Order the sentence.",
+            "answer": "It is polite to be to people",
+            "hint": "Correct logic: It is polite to be to people (wait)",
+            "voice_input": false,
+            "example_sentence": "It is polite to be to people.",
+            "media": {}
+        },
+        {
+            "id": "b24_14",
+            "type": "matching",
+            "words": [
+                "rude",
+                "mean",
+                "brave",
+                "courage"
+            ],
+            "question": "Review: Match behaviors.",
+            "pairs": [
+                {
+                    "left": "rude",
+                    "right": "mean"
+                },
+                {
+                    "left": "brave",
+                    "right": "courage"
+                }
+            ],
+            "answer": [
+                [
+                    "rude",
+                    "mean"
+                ],
+                [
+                    "brave",
+                    "courage"
+                ]
+            ],
+            "hint": "Negative vs Positive",
+            "voice_input": false,
+            "example_sentence": "It is rude to be mean. It is brave to have courage.",
+            "media": {}
+        },
+        {
+            "id": "b24_15",
+            "type": "pronunciation",
+            "words": [
+                "reliable"
+            ],
+            "question": "Review: Say 'reliable'.",
+            "answer": "reliable",
+            "hint": "Someone you can trust",
+            "voice_input": true,
+            "example_sentence": "He is a very reliable employee.",
+            "media": {}
+        },
+        {
+            "id": "b24_16",
+            "type": "multiple_choice",
+            "options": [
+                "confident",
+                "confidential",
+                "conflict"
+            ],
+            "question": "Review: Choose the word meaning 'certain of oneself'.",
+            "answer": "confident",
+            "hint": "Self-assured",
+            "voice_input": false,
+            "example_sentence": "She is confident that she will win.",
+            "media": {}
+        },
+        {
+            "id": "b24_17",
+            "type": "tap_fill",
+            "options": [
+                "honest",
+                "honored",
+                "highest",
+                "hostile"
+            ],
+            "question": "Review: Give me an ___ answer.",
+            "answer": "honest",
+            "hint": "Telling the truth",
+            "voice_input": false,
+            "example_sentence": "Please give me an honest answer.",
+            "media": {}
+        },
+        {
+            "id": "b24_18",
+            "type": "sentence_ordering",
+            "words": [
+                "proud",
+                "father",
+                "My",
+                "is",
+                "of",
+                "me",
+                "very"
+            ],
+            "question": "Order the sentence.",
+            "answer": "My father is very proud of me",
+            "hint": "Family feeling",
+            "voice_input": false,
+            "example_sentence": "My father is very proud of me.",
+            "media": {}
+        },
+        {
+            "id": "b24_19",
+            "type": "matching",
+            "words": [
+                "anxious",
+                "nervous",
+                "guilty",
+                "shame"
+            ],
+            "question": "Match the emotions.",
+            "pairs": [
+                {
+                    "left": "anxious",
+                    "right": "nervous"
+                },
+                {
+                    "left": "guilty",
+                    "right": "shame"
+                }
+            ],
+            "answer": [
+                [
+                    "anxious",
+                    "nervous"
+                ],
+                [
+                    "guilty",
+                    "shame"
+                ]
+            ],
+            "hint": "Fear and Regret",
+            "voice_input": false,
+            "example_sentence": "Anxious feels nervous. Guilty brings shame.",
+            "media": {}
+        },
+        {
+            "id": "b24_20",
+            "type": "pronunciation",
+            "words": [
+                "enthusiastic"
+            ],
+            "question": "Say 'enthusiastic'.",
+            "answer": "enthusiastic",
+            "hint": "Full of energy",
+            "voice_input": true,
+            "example_sentence": "She was enthusiastic about the new project.",
+            "media": {}
+        },
+        {
+            "id": "b25_01",
+            "type": "multiple_choice",
+            "options": [
+                "assignment",
+                "alignment",
+                "agreement"
+            ],
+            "question": "Choose the word for a task given by a teacher.",
+            "answer": "assignment",
+            "hint": "School task",
+            "voice_input": false,
+            "example_sentence": "I need to finish my history assignment tonight.",
+            "media": {}
+        },
+        {
+            "id": "b25_02",
+            "type": "tap_fill",
+            "options": [
+                "scholarship",
+                "relationship",
+                "citizenship",
+                "membership"
+            ],
+            "question": "She won a ___ to study abroad.",
+            "answer": "scholarship",
+            "hint": "Money for school",
+            "voice_input": false,
+            "example_sentence": "She won a scholarship to study abroad next year.",
+            "media": {}
+        },
+        {
+            "id": "b25_03",
+            "type": "sentence_ordering",
+            "words": [
+                "seminar",
+                "The",
+                "held",
+                "in",
+                "was",
+                "library",
+                "the"
+            ],
+            "question": "Order the sentence.",
+            "answer": "The seminar was held in the library",
+            "hint": "Class discussion",
+            "voice_input": false,
+            "example_sentence": "The seminar was held in the library.",
+            "media": {}
+        },
+        {
+            "id": "b25_04",
+            "type": "matching",
+            "words": [
+                "tuition",
+                "fees",
+                "curriculum",
+                "plan"
+            ],
+            "question": "Match the school terms.",
+            "pairs": [
+                {
+                    "left": "tuition",
+                    "right": "fees"
+                },
+                {
+                    "left": "curriculum",
+                    "right": "plan"
+                }
+            ],
+            "answer": [
+                [
+                    "tuition",
+                    "fees"
+                ],
+                [
+                    "curriculum",
+                    "plan"
+                ]
+            ],
+            "hint": "Costs vs Lessons",
+            "voice_input": false,
+            "example_sentence": "Tuition fees are rising. The curriculum must change.",
+            "media": {}
+        },
+        {
+            "id": "b25_05",
+            "type": "pronunciation",
+            "words": [
+                "graduate"
+            ],
+            "question": "Say 'graduate'.",
+            "answer": "graduate",
+            "hint": "Finish school",
+            "voice_input": true,
+            "example_sentence": "I will graduate from university in June.",
+            "media": {}
+        },
+        {
+            "id": "b25_06",
+            "type": "multiple_choice",
+            "options": [
+                "module",
+                "model",
+                "muscle"
+            ],
+            "question": "Choose the word for a part of a course.",
+            "answer": "module",
+            "hint": "Course unit",
+            "voice_input": false,
+            "example_sentence": "I'm taking a module on ancient history.",
+            "media": {}
+        },
+        {
+            "id": "b25_07",
+            "type": "tap_fill",
+            "options": [
+                "lecture",
+                "texture",
+                "mixture",
+                "picture"
+            ],
+            "question": "The ___ lasted for two hours.",
+            "answer": "lecture",
+            "hint": "Review: Formal talk",
+            "voice_input": false,
+            "example_sentence": "The professor's lecture lasted for two hours.",
+            "media": {}
+        },
+        {
+            "id": "b25_08",
+            "type": "sentence_ordering",
+            "words": [
+                "degree",
+                "earned",
+                "He",
+                "science",
+                "a",
+                "in",
+                "computer"
+            ],
+            "question": "Order the sentence.",
+            "answer": "He earned a degree in computer science",
+            "hint": "Review: Qualification",
+            "voice_input": false,
+            "example_sentence": "He earned a degree in computer science.",
+            "media": {}
+        },
+        {
+            "id": "b25_09",
+            "type": "matching",
+            "words": [
+                "attend",
+                "go",
+                "absent",
+                "away"
+            ],
+            "question": "Review: Match the opposites.",
+            "pairs": [
+                {
+                    "left": "attend",
+                    "right": "go"
+                },
+                {
+                    "left": "absent",
+                    "right": "away"
+                }
+            ],
+            "answer": [
+                [
+                    "attend",
+                    "go"
+                ],
+                [
+                    "absent",
+                    "away"
+                ]
+            ],
+            "hint": "Presence at school",
+            "voice_input": false,
+            "example_sentence": "You must attend class, don't be absent.",
+            "media": {}
+        },
+        {
+            "id": "b25_10",
+            "type": "pronunciation",
+            "words": [
+                "cheating"
+            ],
+            "question": "Say 'cheating'.",
+            "answer": "cheating",
+            "hint": "Review: Being dishonest",
+            "voice_input": true,
+            "example_sentence": "Cheating on an exam is strictly forbidden.",
+            "media": {}
+        },
+        {
+            "id": "b25_11",
+            "type": "multiple_choice",
+            "options": [
+                "assignment",
+                "applicant",
+                "agreement"
+            ],
+            "question": "Choose the word meaning a task given to a person.",
+            "answer": "assignment",
+            "hint": "Work or school task",
+            "voice_input": false,
+            "example_sentence": "The teacher gave us a double assignment.",
+            "media": {}
+        },
+        {
+            "id": "b25_12",
+            "type": "tap_fill",
+            "options": [
+                "tuition",
+                "position",
+                "attention",
+                "tradition"
+            ],
+            "question": "His parents pay his university ___.",
+            "answer": "tuition",
+            "hint": "School payment",
+            "voice_input": false,
+            "example_sentence": "His parents pay his university tuition monthly.",
+            "media": {}
+        },
+        {
+            "id": "b25_13",
+            "type": "sentence_ordering",
+            "words": [
+                "scholarship",
+                "hard",
+                "get",
+                "It",
+                "is",
+                "to",
+                "a"
+            ],
+            "question": "Order the sentence.",
+            "answer": "It is hard to get a scholarship",
+            "hint": "Academic award",
+            "voice_input": false,
+            "example_sentence": "It is hard to get a scholarship these days.",
+            "media": {}
+        },
+        {
+            "id": "b25_14",
+            "type": "matching",
+            "words": [
+                "exam",
+                "test",
+                "grade",
+                "mark"
+            ],
+            "question": "Match the similar words.",
+            "pairs": [
+                {
+                    "left": "exam",
+                    "right": "test"
+                },
+                {
+                    "left": "grade",
+                    "right": "mark"
+                }
+            ],
+            "answer": [
+                [
+                    "exam",
+                    "test"
+                ],
+                [
+                    "grade",
+                    "mark"
+                ]
+            ],
+            "hint": "Assessment",
+            "voice_input": false,
+            "example_sentence": "Pass the test to get a good mark.",
+            "media": {}
+        },
+        {
+            "id": "b25_15",
+            "type": "pronunciation",
+            "words": [
+                "seminar"
+            ],
+            "question": "Say 'seminar'.",
+            "answer": "seminar",
+            "hint": "Group study",
+            "voice_input": true,
+            "example_sentence": "I participated in a science seminar.",
+            "media": {}
+        },
+        {
+            "id": "b25_16",
+            "type": "multiple_choice",
+            "options": [
+                "fail",
+                "fall",
+                "file"
+            ],
+            "question": "Review: Choose the word meaning 'not pass'.",
+            "answer": "fail",
+            "hint": "Opposite of pass",
+            "voice_input": false,
+            "example_sentence": "If you don't study, you might fail.",
+            "media": {}
+        },
+        {
+            "id": "b25_17",
+            "type": "tap_fill",
+            "options": [
+                "subject",
+                "object",
+                "reject",
+                "inject"
+            ],
+            "question": "What is your favorite ___?",
+            "answer": "subject",
+            "hint": "Review: Area of study",
+            "voice_input": false,
+            "example_sentence": "What is your favorite subject at school?",
+            "media": {}
+        },
+        {
+            "id": "b25_18",
+            "type": "sentence_ordering",
+            "words": [
+                "module",
+                "finish",
+                "this",
+                "We",
+                "must",
+                "first"
+            ],
+            "question": "Order the sentence.",
+            "answer": "We must finish this module first",
+            "hint": "Part of course",
+            "voice_input": false,
+            "example_sentence": "We must finish this module first.",
+            "media": {}
+        },
+        {
+            "id": "b25_19",
+            "type": "matching",
+            "words": [
+                "graduate",
+                "finish",
+                "curriculum",
+                "program"
+            ],
+            "question": "Match the meanings.",
+            "pairs": [
+                {
+                    "left": "graduate",
+                    "right": "finish"
+                },
+                {
+                    "left": "curriculum",
+                    "right": "program"
+                }
+            ],
+            "answer": [
+                [
+                    "graduate",
+                    "finish"
+                ],
+                [
+                    "curriculum",
+                    "program"
+                ]
+            ],
+            "hint": "Completion vs Plan",
+            "voice_input": false,
+            "example_sentence": "Graduate when you finish your curriculum.",
+            "media": {}
+        },
+        {
+            "id": "b25_20",
+            "type": "pronunciation",
+            "words": [
+                "tuition"
+            ],
+            "question": "Say 'tuition'.",
+            "answer": "tuition",
+            "hint": "Course cost",
+            "voice_input": true,
+            "example_sentence": "How much is the university tuition here?",
+            "media": {}
+        },
+        {
+            "id": "b26_01",
+            "type": "multiple_choice",
+            "options": [
+                "renewable",
+                "removable",
+                "reasonable"
+            ],
+            "question": "Choose the energy that doesn't run out.",
+            "answer": "renewable",
+            "hint": "Sustainable energy",
+            "voice_input": false,
+            "example_sentence": "Solar and wind are renewable energy sources.",
+            "media": {}
+        },
+        {
+            "id": "b26_02",
+            "type": "tap_fill",
+            "options": [
+                "emission",
+                "admission",
+                "omission",
+                "mission"
+            ],
+            "question": "We must reduce carbon ___.",
+            "answer": "emission",
+            "hint": "Gases released",
+            "voice_input": false,
+            "example_sentence": "We must reduce carbon emission to help the planet.",
+            "media": {}
+        },
+        {
+            "id": "b26_03",
+            "type": "sentence_ordering",
+            "words": [
+                "sustainable",
+                "is",
+                "This",
+                "for",
+                "forest",
+                "farming",
+                "not"
+            ],
+            "question": "Order the sentence.",
+            "answer": "This forest is not for sustainable farming",
+            "hint": "Keep going forever",
+            "voice_input": false,
+            "example_sentence": "This forest is not for sustainable farming.",
+            "media": {}
+        },
+        {
+            "id": "b26_04",
+            "type": "matching",
+            "words": [
+                "ecology",
+                "nature",
+                "solar",
+                "sun"
+            ],
+            "question": "Match the related words.",
+            "pairs": [
+                {
+                    "left": "ecology",
+                    "right": "nature"
+                },
+                {
+                    "left": "solar",
+                    "right": "sun"
+                }
+            ],
+            "answer": [
+                [
+                    "ecology",
+                    "nature"
+                ],
+                [
+                    "solar",
+                    "sun"
+                ]
+            ],
+            "hint": "Environment and Energy",
+            "voice_input": false,
+            "example_sentence": "Ecology studies nature. Solar comes from the sun.",
+            "media": {}
+        },
+        {
+            "id": "b26_05",
+            "type": "pronunciation",
+            "words": [
+                "atmosphere"
+            ],
+            "question": "Say 'atmosphere'.",
+            "answer": "atmosphere",
+            "hint": "Air around Earth",
+            "voice_input": true,
+            "example_sentence": "Pollution is damaging the Earth's atmosphere.",
+            "media": {}
+        },
+        {
+            "id": "b26_06",
+            "type": "multiple_choice",
+            "options": [
+                "conservation",
+                "conversation",
+                "composition"
+            ],
+            "question": "Choose the act of protecting nature.",
+            "answer": "conservation",
+            "hint": "Preserving wildlife",
+            "voice_input": false,
+            "example_sentence": "Wildlife conservation is very important.",
+            "media": {}
+        },
+        {
+            "id": "b26_07",
+            "type": "tap_fill",
+            "options": [
+                "pollution",
+                "solution",
+                "evolution",
+                "population"
+            ],
+            "question": "Plastic ___ in the ocean is a problem.",
+            "answer": "pollution",
+            "hint": "Review: Dirty air/water",
+            "voice_input": false,
+            "example_sentence": "Plastic pollution in the ocean is a global problem.",
+            "media": {}
+        },
+        {
+            "id": "b26_08",
+            "type": "sentence_ordering",
+            "words": [
+                "recycle",
+                "Please",
+                "bottles",
+                "these",
+                "glass",
+                "all"
+            ],
+            "question": "Order the sentence.",
+            "answer": "Please recycle all these glass bottles",
+            "hint": "Review: Reuse material",
+            "voice_input": false,
+            "example_sentence": "Please recycle all these glass bottles correctly.",
+            "media": {}
+        },
+        {
+            "id": "b26_09",
+            "type": "matching",
+            "words": [
+                "storm",
+                "weather",
+                "damage",
+                "harm"
+            ],
+            "question": "Review: Match the pairs.",
+            "pairs": [
+                {
+                    "left": "storm",
+                    "right": "weather"
+                },
+                {
+                    "left": "damage",
+                    "right": "harm"
+                }
+            ],
+            "answer": [
+                [
+                    "storm",
+                    "weather"
+                ],
+                [
+                    "damage",
+                    "harm"
+                ]
+            ],
+            "hint": "Events and Effects",
+            "voice_input": false,
+            "example_sentence": "The storm was bad weather. It caused harm.",
+            "media": {}
+        },
+        {
+            "id": "b26_10",
+            "type": "pronunciation",
+            "words": [
+                "turbine"
+            ],
+            "question": "Say 'turbine'.",
+            "answer": "turbine",
+            "hint": "Wind power machine",
+            "voice_input": true,
+            "example_sentence": "A wind turbine generates clean electricity.",
+            "media": {}
+        },
+        {
+            "id": "b26_11",
+            "type": "multiple_choice",
+            "options": [
+                "sustainable",
+                "suitable",
+                "soluble"
+            ],
+            "question": "Choose the word meaning 'able to continue'.",
+            "answer": "sustainable",
+            "hint": "Environmentally friendly",
+            "voice_input": false,
+            "example_sentence": "We need to adopt more sustainable habits.",
+            "media": {}
+        },
+        {
+            "id": "b26_12",
+            "type": "tap_fill",
+            "options": [
+                "solar",
+                "polar",
+                "roller",
+                "dollar"
+            ],
+            "question": "They installed ___ panels on the roof.",
+            "answer": "solar",
+            "hint": "Sun power",
+            "voice_input": false,
+            "example_sentence": "They installed solar panels on their roof last month.",
+            "media": {}
+        },
+        {
+            "id": "b26_13",
+            "type": "sentence_ordering",
+            "words": [
+                "climate",
+                "The",
+                "quickly",
+                "changing",
+                "is",
+                "world's"
+            ],
+            "question": "Order the sentence.",
+            "answer": "The world's climate is changing quickly",
+            "hint": "Review: Earth weather",
+            "voice_input": false,
+            "example_sentence": "The world's climate is changing quickly.",
+            "media": {}
+        },
+        {
+            "id": "b26_14",
+            "type": "matching",
+            "words": [
+                "renewable",
+                "green",
+                "emission",
+                "gas"
+            ],
+            "question": "Match the concepts.",
+            "pairs": [
+                {
+                    "left": "renewable",
+                    "right": "green"
+                },
+                {
+                    "left": "emission",
+                    "right": "gas"
+                }
+            ],
+            "answer": [
+                [
+                    "renewable",
+                    "green"
+                ],
+                [
+                    "emission",
+                    "gas"
+                ]
+            ],
+            "hint": "Eco-friendly vs Output",
+            "voice_input": false,
+            "example_sentence": "Renewable energy is green. Gas is an emission.",
+            "media": {}
+        },
+        {
+            "id": "b26_15",
+            "type": "pronunciation",
+            "words": [
+                "ecology"
+            ],
+            "question": "Say 'ecology'.",
+            "answer": "ecology",
+            "hint": "Study of nature",
+            "voice_input": true,
+            "example_sentence": "Ecology helps us understand the ecosystem.",
+            "media": {}
+        },
+        {
+            "id": "b26_16",
+            "type": "multiple_choice",
+            "options": [
+                "nature",
+                "native",
+                "nation"
+            ],
+            "question": "Review: Choose the word for the physical world.",
+            "answer": "nature",
+            "hint": "Plants and animals",
+            "voice_input": false,
+            "example_sentence": "It is nice to spend time in nature.",
+            "media": {}
+        },
+        {
+            "id": "b26_17",
+            "type": "tap_fill",
+            "options": [
+                "environment",
+                "entertainment",
+                "enforcement",
+                "engagement"
+            ],
+            "question": "Review: Protect the ___.",
+            "answer": "environment",
+            "hint": "World around us",
+            "voice_input": false,
+            "example_sentence": "We must protect the environment for our children.",
+            "media": {}
+        },
+        {
+            "id": "b26_18",
+            "type": "sentence_ordering",
+            "words": [
+                "conservation",
+                "local",
+                "The",
+                "park",
+                "needs",
+                "more"
+            ],
+            "question": "Order the sentence.",
+            "answer": "The local park needs more conservation",
+            "hint": "Protection work",
+            "voice_input": false,
+            "example_sentence": "The local park needs more conservation.",
+            "media": {}
+        },
+        {
+            "id": "b26_19",
+            "type": "matching",
+            "words": [
+                "turbine",
+                "wind",
+                "atmosphere",
+                "air"
+            ],
+            "question": "Match the pairs.",
+            "pairs": [
+                {
+                    "left": "turbine",
+                    "right": "wind"
+                },
+                {
+                    "left": "atmosphere",
+                    "right": "air"
+                }
+            ],
+            "answer": [
+                [
+                    "turbine",
+                    "wind"
+                ],
+                [
+                    "atmosphere",
+                    "air"
+                ]
+            ],
+            "hint": "System and Medium",
+            "voice_input": false,
+            "example_sentence": "The turbine uses wind. Atmosphere is air.",
+            "media": {}
+        },
+        {
+            "id": "b26_20",
+            "type": "pronunciation",
+            "words": [
+                "renewable"
+            ],
+            "question": "Say 'renewable'.",
+            "answer": "renewable",
+            "hint": "Endless energy",
+            "voice_input": true,
+            "example_sentence": "Renewable energy is the future.",
+            "media": {}
+        },
+        {
+            "id": "b27_01",
+            "type": "multiple_choice",
+            "options": [
+                "prescription",
+                "description",
+                "subscription"
+            ],
+            "question": "Choose the paper a doctor gives for medicine.",
+            "answer": "prescription",
+            "hint": "Medicine note",
+            "voice_input": false,
+            "example_sentence": "The doctor wrote a prescription for antibiotics.",
+            "media": {}
+        },
+        {
+            "id": "b27_02",
+            "type": "tap_fill",
+            "options": [
+                "pharmacy",
+                "grammar",
+                "factory",
+                "library"
+            ],
+            "question": "I need to go to the ___ to get my pills.",
+            "answer": "pharmacy",
+            "hint": "Drugstore",
+            "voice_input": false,
+            "example_sentence": "I need to go to the pharmacy to get my pills.",
+            "media": {}
+        },
+        {
+            "id": "b27_03",
+            "type": "sentence_ordering",
+            "words": [
+                "appointment",
+                "have",
+                "I",
+                "dentist",
+                "an",
+                "the",
+                "with"
+            ],
+            "question": "Order the sentence.",
+            "answer": "I have an appointment with the dentist",
+            "hint": "Set meeting",
+            "voice_input": false,
+            "example_sentence": "I have an appointment with the dentist tomorrow.",
+            "media": {}
+        },
+        {
+            "id": "b27_04",
+            "type": "matching",
+            "words": [
+                "operation",
+                "surgery",
+                "physician",
+                "doctor"
+            ],
+            "question": "Match the medical terms.",
+            "pairs": [
+                {
+                    "left": "operation",
+                    "right": "surgery"
+                },
+                {
+                    "left": "physician",
+                    "right": "doctor"
+                }
+            ],
+            "answer": [
+                [
+                    "operation",
+                    "surgery"
+                ],
+                [
+                    "physician",
+                    "doctor"
+                ]
+            ],
+            "hint": "Action vs Person",
+            "voice_input": false,
+            "example_sentence": "The physician performed a successful operation.",
+            "media": {}
+        },
+        {
+            "id": "b27_05",
+            "type": "pronunciation",
+            "words": [
+                "emergency"
+            ],
+            "question": "Say 'emergency'.",
+            "answer": "emergency",
+            "hint": "Urgent situation",
+            "voice_input": true,
+            "example_sentence": "Call the hospital in case of an emergency.",
+            "media": {}
+        },
+        {
+            "id": "b27_06",
+            "type": "multiple_choice",
+            "options": [
+                "prevention",
+                "prediction",
+                "preparation"
+            ],
+            "question": "Choose the act of stopping something from happening.",
+            "answer": "prevention",
+            "hint": "Avoiding illness",
+            "voice_input": false,
+            "example_sentence": "Prevention is better than cure.",
+            "media": {}
+        },
+        {
+            "id": "b27_07",
+            "type": "tap_fill",
+            "options": [
+                "treatment",
+                "argument",
+                "agreement",
+                "movement"
+            ],
+            "question": "The ___ for the disease is expensive.",
+            "answer": "treatment",
+            "hint": "Medical care",
+            "voice_input": false,
+            "example_sentence": "The treatment for the disease is quite expensive.",
+            "media": {}
+        },
+        {
+            "id": "b27_08",
+            "type": "sentence_ordering",
+            "words": [
+                "recovering",
+                "patient",
+                "The",
+                "is",
+                "quickly",
+                "slowly",
+                "but"
+            ],
+            "question": "Review: Order the sentence.",
+            "answer": "The patient is recovering slowly but quickly",
+            "hint": "Wait, bad logic (The patient is recovering slowly but surely)",
+            "voice_input": false,
+            "example_sentence": "The patient is recovering slowly but surely.",
+            "media": {}
+        },
+        {
+            "id": "b27_09",
+            "type": "matching",
+            "words": [
+                "symptom",
+                "sign",
+                "clinic",
+                "hospital"
+            ],
+            "question": "Match the pairs.",
+            "pairs": [
+                {
+                    "left": "symptom",
+                    "right": "sign"
+                },
+                {
+                    "left": "clinic",
+                    "right": "hospital"
+                }
+            ],
+            "answer": [
+                [
+                    "symptom",
+                    "sign"
+                ],
+                [
+                    "clinic",
+                    "hospital"
+                ]
+            ],
+            "hint": "Indication vs Location",
+            "voice_input": false,
+            "example_sentence": "Go to the clinic if you have a sign of fever.",
+            "media": {}
+        },
+        {
+            "id": "b27_10",
+            "type": "pronunciation",
+            "words": [
+                "therapy"
+            ],
+            "question": "Say 'therapy'.",
+            "answer": "therapy",
+            "hint": "Healing treatment",
+            "voice_input": true,
+            "example_sentence": "He went to physical therapy for his back.",
+            "media": {}
+        },
+        {
+            "id": "b27_11",
+            "type": "multiple_choice",
+            "options": [
+                "physician",
+                "physics",
+                "physical"
+            ],
+            "question": "Choose the formal word for a medical doctor.",
+            "answer": "physician",
+            "hint": "Medical expert",
+            "voice_input": false,
+            "example_sentence": "You should consult a physician about that pain.",
+            "media": {}
+        },
+        {
+            "id": "b27_12",
+            "type": "tap_fill",
+            "options": [
+                "ambulance",
+                "balance",
+                "allowance",
+                "abundance"
+            ],
+            "question": "The ___ arrived with sirens on.",
+            "answer": "ambulance",
+            "hint": "Emergency vehicle",
+            "voice_input": false,
+            "example_sentence": "The ambulance arrived with sirens on to help.",
+            "media": {}
+        },
+        {
+            "id": "b27_13",
+            "type": "sentence_ordering",
+            "words": [
+                "prescription",
+                "pills",
+                "Follow",
+                "for",
+                "the",
+                "these"
+            ],
+            "question": "Order the sentence.",
+            "answer": "Follow the prescription for these pills",
+            "hint": "Instructions",
+            "voice_input": false,
+            "example_sentence": "Follow the prescription for these pills carefully.",
+            "media": {}
+        },
+        {
+            "id": "b27_14",
+            "type": "matching",
+            "words": [
+                "pharmacy",
+                "medicine",
+                "ambulance",
+                "emergency"
+            ],
+            "question": "Match related words.",
+            "pairs": [
+                {
+                    "left": "pharmacy",
+                    "right": "medicine"
+                },
+                {
+                    "left": "ambulance",
+                    "right": "emergency"
+                }
+            ],
+            "answer": [
+                [
+                    "pharmacy",
+                    "medicine"
+                ],
+                [
+                    "ambulance",
+                    "emergency"
+                ]
+            ],
+            "hint": "Supply and Transport",
+            "voice_input": false,
+            "example_sentence": "Pharmacy sells medicine. Ambulance is for emergency.",
+            "media": {}
+        },
+        {
+            "id": "b27_15",
+            "type": "pronunciation",
+            "words": [
+                "prevention"
+            ],
+            "question": "Say 'prevention'.",
+            "answer": "prevention",
+            "hint": "Stopping illness",
+            "voice_input": true,
+            "example_sentence": "Hand washing is key to disease prevention.",
+            "media": {}
+        },
+        {
+            "id": "b27_16",
+            "type": "multiple_choice",
+            "options": [
+                "recovery",
+                "discovery",
+                "delivery"
+            ],
+            "question": "Review: Choose the act of getting better.",
+            "answer": "recovery",
+            "hint": "Healing process",
+            "voice_input": false,
+            "example_sentence": "We wish you a very speedy recovery.",
+            "media": {}
+        },
+        {
+            "id": "b27_17",
+            "type": "tap_fill",
+            "options": [
+                "appointment",
+                "arrangement",
+                "attachment",
+                "achievement"
+            ],
+            "question": "I missed my doctor's ___.",
+            "answer": "appointment",
+            "hint": "Scheduled meeting",
+            "voice_input": false,
+            "example_sentence": "I missed my doctor's appointment this morning.",
+            "media": {}
+        },
+        {
+            "id": "b27_18",
+            "type": "sentence_ordering",
+            "words": [
+                "therapy",
+                "after",
+                "needed",
+                "surgery",
+                "the",
+                "He"
+            ],
+            "question": "Order the sentence.",
+            "answer": "He needed therapy after the surgery",
+            "hint": "Post-operation care",
+            "voice_input": false,
+            "example_sentence": "He needed therapy after the surgery.",
+            "media": {}
+        },
+        {
+            "id": "b27_19",
+            "type": "matching",
+            "words": [
+                "symptom",
+                "fever",
+                "operation",
+                "action"
+            ],
+            "question": "Match meanings.",
+            "pairs": [
+                {
+                    "left": "symptom",
+                    "right": "fever"
+                },
+                {
+                    "left": "operation",
+                    "right": "action"
+                }
+            ],
+            "answer": [
+                [
+                    "symptom",
+                    "fever"
+                ],
+                [
+                    "operation",
+                    "action"
+                ]
+            ],
+            "hint": "Example and Definition",
+            "voice_input": false,
+            "example_sentence": "Fever is a symptom. Operation is an action.",
+            "media": {}
+        },
+        {
+            "id": "b27_20",
+            "type": "pronunciation",
+            "words": [
+                "physician"
+            ],
+            "question": "Say 'physician'.",
+            "answer": "physician",
+            "hint": "The doctor",
+            "voice_input": true,
+            "example_sentence": "The physician checked my pulse.",
+            "media": {}
+        },
+        {
+            "id": "b28_01",
+            "type": "multiple_choice",
+            "options": [
+                "society",
+                "variety",
+                "anxiety"
+            ],
+            "question": "Choose the word for a group of people living together.",
+            "answer": "society",
+            "hint": "Human community",
+            "voice_input": false,
+            "example_sentence": "Technology has changed modern society.",
+            "media": {}
+        },
+        {
+            "id": "b28_02",
+            "type": "tap_fill",
+            "options": [
+                "election",
+                "selection",
+                "collection",
+                "direction"
+            ],
+            "question": "He won the presidential ___.",
+            "answer": "election",
+            "hint": "Voting event",
+            "voice_input": false,
+            "example_sentence": "He won the presidential election last year.",
+            "media": {}
+        },
+        {
+            "id": "b28_03",
+            "type": "sentence_ordering",
+            "words": [
+                "democracy",
+                "in",
+                "is",
+                "important",
+                "Voting",
+                "a"
+            ],
+            "question": "Order the sentence.",
+            "answer": "Voting is important in a democracy",
+            "hint": "Freedom system",
+            "voice_input": false,
+            "example_sentence": "Voting is important in a democracy.",
+            "media": {}
+        },
+        {
+            "id": "b28_04",
+            "type": "matching",
+            "words": [
+                "government",
+                "leaders",
+                "policy",
+                "rule"
+            ],
+            "question": "Match the political terms.",
+            "pairs": [
+                {
+                    "left": "government",
+                    "right": "leaders"
+                },
+                {
+                    "left": "policy",
+                    "right": "rule"
+                }
+            ],
+            "answer": [
+                [
+                    "government",
+                    "leaders"
+                ],
+                [
+                    "policy",
+                    "rule"
+                ]
+            ],
+            "hint": "Organization vs Idea",
+            "voice_input": false,
+            "example_sentence": "The government creates a new policy.",
+            "media": {}
+        },
+        {
+            "id": "b28_05",
+            "type": "pronunciation",
+            "words": [
+                "community"
+            ],
+            "question": "Say 'community'.",
+            "answer": "community",
+            "hint": "Local group",
+            "voice_input": true,
+            "example_sentence": "Our local community is very friendly.",
+            "media": {}
+        },
+        {
+            "id": "b28_06",
+            "type": "multiple_choice",
+            "options": [
+                "justice",
+                "jewelry",
+                "journey"
+            ],
+            "question": "Choose the word for fairness in law.",
+            "answer": "justice",
+            "hint": "Fair treatment",
+            "voice_input": false,
+            "example_sentence": "Everyone deserves social justice.",
+            "media": {}
+        },
+        {
+            "id": "b28_07",
+            "type": "tap_fill",
+            "options": [
+                "poverty",
+                "property",
+                "properly",
+                "priority"
+            ],
+            "question": "They are working to end ___.",
+            "answer": "poverty",
+            "hint": "State of being poor",
+            "voice_input": false,
+            "example_sentence": "Many charities are working to end poverty.",
+            "media": {}
+        },
+        {
+            "id": "b28_08",
+            "type": "sentence_ordering",
+            "words": [
+                "punishment",
+                "The",
+                "crime",
+                "fits",
+                "the"
+            ],
+            "question": "Order the sentence.",
+            "answer": "The punishment fits the crime",
+            "hint": "Legal logic",
+            "voice_input": false,
+            "example_sentence": "The punishment fits the crime in this case.",
+            "media": {}
+        },
+        {
+            "id": "b28_09",
+            "type": "matching",
+            "words": [
+                "citizen",
+                "person",
+                "legal",
+                "lawful"
+            ],
+            "question": "Review: Match the pairs.",
+            "pairs": [
+                {
+                    "left": "citizen",
+                    "right": "person"
+                },
+                {
+                    "left": "legal",
+                    "right": "lawful"
+                }
+            ],
+            "answer": [
+                [
+                    "citizen",
+                    "person"
+                ],
+                [
+                    "legal",
+                    "lawful"
+                ]
+            ],
+            "hint": "Role vs Rules",
+            "voice_input": false,
+            "example_sentence": "A citizen must follow lawful rules.",
+            "media": {}
+        },
+        {
+            "id": "b28_10",
+            "type": "pronunciation",
+            "words": [
+                "election"
+            ],
+            "question": "Say 'election'.",
+            "answer": "election",
+            "hint": "Vote time",
+            "voice_input": true,
+            "example_sentence": "The election results were announced tonight.",
+            "media": {}
+        },
+        {
+            "id": "b28_11",
+            "type": "multiple_choice",
+            "options": [
+                "government",
+                "entertainment",
+                "environment"
+            ],
+            "question": "Choose the group that controls a country.",
+            "answer": "government",
+            "hint": "Country leaders",
+            "voice_input": false,
+            "example_sentence": "The government is building new roads.",
+            "media": {}
+        },
+        {
+            "id": "b28_12",
+            "type": "tap_fill",
+            "options": [
+                "vote",
+                "note",
+                "boat",
+                "coat"
+            ],
+            "question": "You should ___ in every election.",
+            "answer": "vote",
+            "hint": "Make a choice",
+            "voice_input": false,
+            "example_sentence": "You should vote in every election.",
+            "media": {}
+        },
+        {
+            "id": "b28_13",
+            "type": "sentence_ordering",
+            "words": [
+                "society",
+                "benefits",
+                "Everyone",
+                "a",
+                "fair",
+                "in"
+            ],
+            "question": "Order the sentence.",
+            "answer": "Everyone benefits in a fair society",
+            "hint": "Public good",
+            "voice_input": false,
+            "example_sentence": "Everyone benefits in a fair society.",
+            "media": {}
+        },
+        {
+            "id": "b28_14",
+            "type": "matching",
+            "words": [
+                "community",
+                "locals",
+                "justice",
+                "courts"
+            ],
+            "question": "Match the associations.",
+            "pairs": [
+                {
+                    "left": "community",
+                    "right": "locals"
+                },
+                {
+                    "left": "justice",
+                    "right": "courts"
+                }
+            ],
+            "answer": [
+                [
+                    "community",
+                    "locals"
+                ],
+                [
+                    "justice",
+                    "courts"
+                ]
+            ],
+            "hint": "Social vs Legal",
+            "voice_input": false,
+            "example_sentence": "Locals form a community. Courts provide justice.",
+            "media": {}
+        },
+        {
+            "id": "b28_15",
+            "type": "pronunciation",
+            "words": [
+                "democracy"
+            ],
+            "question": "Say 'democracy'.",
+            "answer": "democracy",
+            "hint": "Political system",
+            "voice_input": true,
+            "example_sentence": "Freedom is the basis of democracy.",
+            "media": {}
+        },
+        {
+            "id": "b28_16",
+            "type": "multiple_choice",
+            "options": [
+                "crime",
+                "cream",
+                "climb"
+            ],
+            "question": "Choose the word for an illegal act.",
+            "answer": "crime",
+            "hint": "Illegal behavior",
+            "voice_input": false,
+            "example_sentence": "Stealing is a serious crime.",
+            "media": {}
+        },
+        {
+            "id": "b28_17",
+            "type": "tap_fill",
+            "options": [
+                "policy",
+                "police",
+                "polite",
+                "palace"
+            ],
+            "question": "The company has a no-smoking ___.",
+            "answer": "policy",
+            "hint": "Official rule",
+            "voice_input": false,
+            "example_sentence": "The company has a no-smoking policy.",
+            "media": {}
+        },
+        {
+            "id": "b28_18",
+            "type": "sentence_ordering",
+            "words": [
+                "poverty",
+                "is",
+                "major",
+                "a",
+                "this",
+                "problem",
+                "in",
+                "city"
+            ],
+            "question": "Order the sentence.",
+            "answer": "Poverty is a major problem in this city",
+            "hint": "Social issue",
+            "voice_input": false,
+            "example_sentence": "Poverty is a major problem in this city.",
+            "media": {}
+        },
+        {
+            "id": "b28_19",
+            "type": "matching",
+            "words": [
+                "punishment",
+                "sentence",
+                "legal",
+                "valid"
+            ],
+            "question": "Match the pairs.",
+            "pairs": [
+                {
+                    "left": "punishment",
+                    "right": "sentence"
+                },
+                {
+                    "left": "legal",
+                    "right": "valid"
+                }
+            ],
+            "answer": [
+                [
+                    "punishment",
+                    "sentence"
+                ],
+                [
+                    "legal",
+                    "valid"
+                ]
+            ],
+            "hint": "Correct and Lawful",
+            "voice_input": false,
+            "example_sentence": "The sentence was a fair punishment. The law is valid.",
+            "media": {}
+        },
+        {
+            "id": "b28_20",
+            "type": "pronunciation",
+            "words": [
+                "government"
+            ],
+            "question": "Say 'government'.",
+            "answer": "government",
+            "hint": "The leaders",
+            "voice_input": true,
+            "example_sentence": "The government is making a statement.",
+            "media": {}
+        },
+        {
+            "id": "b29_01",
+            "type": "multiple_choice",
+            "options": [
+                "itinerary",
+                "instrument",
+                "interest"
+            ],
+            "question": "Choose the word for a planned route or journey.",
+            "answer": "itinerary",
+            "hint": "Travel plan",
+            "voice_input": false,
+            "example_sentence": "We received our travel itinerary this morning.",
+            "media": {}
+        },
+        {
+            "id": "b29_02",
+            "type": "tap_fill",
+            "options": [
+                "transit",
+                "transfer",
+                "transport",
+                "transition"
+            ],
+            "question": "He is in ___ at the airport.",
+            "answer": "transit",
+            "hint": "Passing through",
+            "voice_input": false,
+            "example_sentence": "He is in transit at the airport for five hours.",
+            "media": {}
+        },
+        {
+            "id": "b29_03",
+            "type": "sentence_ordering",
+            "words": [
+                "connection",
+                "The",
+                "flight",
+                "short",
+                "very",
+                "was"
+            ],
+            "question": "Order the sentence.",
+            "answer": "The flight connection was very short",
+            "hint": "Linking flight",
+            "voice_input": false,
+            "example_sentence": "The flight connection was very short and we almost missed it.",
+            "media": {}
+        },
+        {
+            "id": "b29_04",
+            "type": "matching",
+            "words": [
+                "terminal",
+                "gate",
+                "check-in",
+                "desk"
+            ],
+            "question": "Match the airport terms.",
+            "pairs": [
+                {
+                    "left": "terminal",
+                    "right": "gate"
+                },
+                {
+                    "left": "check-in",
+                    "right": "desk"
+                }
+            ],
+            "answer": [
+                [
+                    "terminal",
+                    "gate"
+                ],
+                [
+                    "check-in",
+                    "desk"
+                ]
+            ],
+            "hint": "Places to go",
+            "voice_input": false,
+            "example_sentence": "Go to the check-in desk at the main terminal.",
+            "media": {}
+        },
+        {
+            "id": "b29_05",
+            "type": "pronunciation",
+            "words": [
+                "accommodation"
+            ],
+            "question": "Say 'accommodation'.",
+            "answer": "accommodation",
+            "hint": "Review: Place to stay",
+            "voice_input": true,
+            "example_sentence": "We need to find luxury accommodation for the night.",
+            "media": {}
+        },
+        {
+            "id": "b29_06",
+            "type": "multiple_choice",
+            "options": [
+                "boarding",
+                "boredom",
+                "borrowing"
+            ],
+            "question": "Choose the act of getting on a plane.",
+            "answer": "boarding",
+            "hint": "Entering the aircraft",
+            "voice_input": false,
+            "example_sentence": "Boarding will begin in ten minutes.",
+            "media": {}
+        },
+        {
+            "id": "b29_07",
+            "type": "tap_fill",
+            "options": [
+                "reservation",
+                "observation",
+                "preparation",
+                "conversation"
+            ],
+            "question": "I have a ___ for two nights.",
+            "answer": "reservation",
+            "hint": "Booked spot",
+            "voice_input": false,
+            "example_sentence": "I have a reservation for two nights at this hotel.",
+            "media": {}
+        },
+        {
+            "id": "b29_08",
+            "type": "sentence_ordering",
+            "words": [
+                "agent",
+                "The",
+                "travel",
+                "trip",
+                "booked",
+                "our"
+            ],
+            "question": "Order the sentence.",
+            "answer": "The travel agent booked our trip",
+            "hint": "Professional help",
+            "voice_input": false,
+            "example_sentence": "The travel agent booked our trip to Italy.",
+            "media": {}
+        },
+        {
+            "id": "b29_09",
+            "type": "matching",
+            "words": [
+                "luxury",
+                "expensive",
+                "budget",
+                "cheap"
+            ],
+            "question": "Match the stay types.",
+            "pairs": [
+                {
+                    "left": "luxury",
+                    "right": "expensive"
+                },
+                {
+                    "left": "budget",
+                    "right": "cheap"
+                }
+            ],
+            "answer": [
+                [
+                    "luxury",
+                    "expensive"
+                ],
+                [
+                    "budget",
+                    "cheap"
+                ]
+            ],
+            "hint": "Cost levels",
+            "voice_input": false,
+            "example_sentence": "A luxury hotel is expensive, while a budget one is cheap.",
+            "media": {}
+        },
+        {
+            "id": "b29_10",
+            "type": "pronunciation",
+            "words": [
+                "itinerary"
+            ],
+            "question": "Say 'itinerary'.",
+            "answer": "itinerary",
+            "hint": "The travel plan",
+            "voice_input": true,
+            "example_sentence": "Check the itinerary for the flight times.",
+            "media": {}
+        },
+        {
+            "id": "b29_11",
+            "type": "multiple_choice",
+            "options": [
+                "insurance",
+                "assurance",
+                "instance"
+            ],
+            "question": "Choose the word for money protection against accidents.",
+            "answer": "insurance",
+            "hint": "Safety plan",
+            "voice_input": false,
+            "example_sentence": "You should always buy travel insurance.",
+            "media": {}
+        },
+        {
+            "id": "b29_12",
+            "type": "tap_fill",
+            "options": [
+                "passenger",
+                "messenger",
+                "challenge",
+                "advantage"
+            ],
+            "question": "Every ___ must wear a seatbelt.",
+            "answer": "passenger",
+            "hint": "Review: Person traveling",
+            "voice_input": false,
+            "example_sentence": "Every passenger must wear a seatbelt during takeoff.",
+            "media": {}
+        },
+        {
+            "id": "b29_13",
+            "type": "sentence_ordering",
+            "words": [
+                "arrival",
+                "Please",
+                "wait",
+                "the",
+                "at",
+                "gate"
+            ],
+            "question": "Order the sentence.",
+            "answer": "Please wait at the arrival gate",
+            "hint": "Where planes land",
+            "voice_input": false,
+            "example_sentence": "Please wait at the arrival gate for your friends.",
+            "media": {}
+        },
+        {
+            "id": "b29_14",
+            "type": "matching",
+            "words": [
+                "depart",
+                "leave",
+                "arrive",
+                "reach"
+            ],
+            "question": "Review: Match the meanings.",
+            "pairs": [
+                {
+                    "left": "depart",
+                    "right": "leave"
+                },
+                {
+                    "left": "arrive",
+                    "right": "reach"
+                }
+            ],
+            "answer": [
+                [
+                    "depart",
+                    "leave"
+                ],
+                [
+                    "arrive",
+                    "reach"
+                ]
+            ],
+            "hint": "Movement verbs",
+            "voice_input": false,
+            "example_sentence": "When do we depart from the hotel?",
+            "media": {}
+        },
+        {
+            "id": "b29_15",
+            "type": "pronunciation",
+            "words": [
+                "terminal"
+            ],
+            "question": "Say 'terminal'.",
+            "answer": "terminal",
+            "hint": "Airport building",
+            "voice_input": true,
+            "example_sentence": "The international terminal is very large.",
+            "media": {}
+        },
+        {
+            "id": "b29_16",
+            "type": "multiple_choice",
+            "options": [
+                "transfer",
+                "transit",
+                "truce"
+            ],
+            "question": "Choose the act of moving from one place/vehicle to another.",
+            "answer": "transfer",
+            "hint": "Review: Change points",
+            "voice_input": false,
+            "example_sentence": "The bus transfer was very easy.",
+            "media": {}
+        },
+        {
+            "id": "b29_17",
+            "type": "tap_fill",
+            "options": [
+                "luggage",
+                "language",
+                "manage",
+                "garbage"
+            ],
+            "question": "Put your ___ on the scale.",
+            "answer": "luggage",
+            "hint": "Review: Bags",
+            "voice_input": false,
+            "example_sentence": "Put your luggage on the scale to weigh it.",
+            "media": {}
+        },
+        {
+            "id": "b29_18",
+            "type": "sentence_ordering",
+            "words": [
+                "delayed",
+                "The",
+                "flight",
+                "by",
+                "snow",
+                "was"
+            ],
+            "question": "Order the sentence.",
+            "answer": "The flight was delayed by snow",
+            "hint": "Review: Not on time",
+            "voice_input": false,
+            "example_sentence": "The flight was delayed by heavy snow.",
+            "media": {}
+        },
+        {
+            "id": "b29_19",
+            "type": "matching",
+            "words": [
+                "visa",
+                "permit",
+                "passport",
+                "ID"
+            ],
+            "question": "Match the documents.",
+            "pairs": [
+                {
+                    "left": "visa",
+                    "right": "permit"
+                },
+                {
+                    "left": "passport",
+                    "right": "ID"
+                }
+            ],
+            "answer": [
+                [
+                    "visa",
+                    "permit"
+                ],
+                [
+                    "passport",
+                    "ID"
+                ]
+            ],
+            "hint": "Travel papers",
+            "voice_input": false,
+            "example_sentence": "You need a visa permit to enter the country.",
+            "media": {}
+        },
+        {
+            "id": "b29_20",
+            "type": "pronunciation",
+            "words": [
+                "boarding"
+            ],
+            "question": "Say 'boarding'.",
+            "answer": "boarding",
+            "hint": "Entering plane",
+            "voice_input": true,
+            "example_sentence": "Boarding is now in progress.",
+            "media": {}
+        },
+        {
+            "id": "b30_01",
+            "type": "multiple_choice",
+            "options": [
+                "commercial",
+                "conventional",
+                "comfortable"
+            ],
+            "question": "Choose the word related to business or trade.",
+            "answer": "commercial",
+            "hint": "Market-related",
+            "voice_input": false,
+            "example_sentence": "The center of the city is a commercial area.",
+            "media": {}
+        },
+        {
+            "id": "b30_02",
+            "type": "tap_fill",
+            "options": [
+                "profit",
+                "proof",
+                "proper",
+                "prompt"
+            ],
+            "question": "The company made a large ___.",
+            "answer": "profit",
+            "hint": "Earned money",
+            "voice_input": false,
+            "example_sentence": "The company made a large profit from the sale.",
+            "media": {}
+        },
+        {
+            "id": "b30_03",
+            "type": "sentence_ordering",
+            "words": [
+                "market",
+                "The",
+                "stock",
+                "is",
+                "very",
+                "now",
+                "busy"
+            ],
+            "question": "Order the sentence.",
+            "answer": "The stock market is very busy now",
+            "hint": "Financial place",
+            "voice_input": false,
+            "example_sentence": "The stock market is very busy now.",
+            "media": {}
+        },
+        {
+            "id": "b30_04",
+            "type": "matching",
+            "words": [
+                "loss",
+                "deficit",
+                "gain",
+                "surplus"
+            ],
+            "question": "Match the money results.",
+            "pairs": [
+                {
+                    "left": "loss",
+                    "right": "deficit"
+                },
+                {
+                    "left": "gain",
+                    "right": "surplus"
+                }
+            ],
+            "answer": [
+                [
+                    "loss",
+                    "deficit"
+                ],
+                [
+                    "gain",
+                    "surplus"
+                ]
+            ],
+            "hint": "Minus vs Plus",
+            "voice_input": false,
+            "example_sentence": "A financial loss is a deficit.",
+            "media": {}
+        },
+        {
+            "id": "b30_05",
+            "type": "pronunciation",
+            "words": [
+                "investment"
+            ],
+            "question": "Say 'investment'.",
+            "answer": "investment",
+            "hint": "Money put into business",
+            "voice_input": true,
+            "example_sentence": "His investment in the tech company paid off.",
+            "media": {}
+        },
+        {
+            "id": "b30_06",
+            "type": "multiple_choice",
+            "options": [
+                "charity",
+                "character",
+                "chapter"
+            ],
+            "question": "Choose the word for an organization that helps people.",
+            "answer": "charity",
+            "hint": "Helping group",
+            "voice_input": false,
+            "example_sentence": "She works for a local children's charity.",
+            "media": {}
+        },
+        {
+            "id": "b30_07",
+            "type": "tap_fill",
+            "options": [
+                "donation",
+                "detonation",
+                "destination",
+                "duration"
+            ],
+            "question": "Please give a ___ to help.",
+            "answer": "donation",
+            "hint": "Gave money/items",
+            "voice_input": false,
+            "example_sentence": "Please give a small donation to help the poor.",
+            "media": {}
+        },
+        {
+            "id": "b30_08",
+            "type": "sentence_ordering",
+            "words": [
+                "volunteer",
+                "She",
+                "wants",
+                "to",
+                "the",
+                "hospital",
+                "at"
+            ],
+            "question": "Order the sentence.",
+            "answer": "She wants to volunteer at the hospital",
+            "hint": "Work for free",
+            "voice_input": false,
+            "example_sentence": "She wants to volunteer at the hospital on weekends.",
+            "media": {}
+        },
+        {
+            "id": "b30_09",
+            "type": "matching",
+            "words": [
+                "customer",
+                "buyer",
+                "product",
+                "item"
+            ],
+            "question": "Review: Match the торговля terms.",
+            "pairs": [
+                {
+                    "left": "customer",
+                    "right": "buyer"
+                },
+                {
+                    "left": "product",
+                    "right": "item"
+                }
+            ],
+            "answer": [
+                [
+                    "customer",
+                    "buyer"
+                ],
+                [
+                    "product",
+                    "item"
+                ]
+            ],
+            "hint": "Person and Object",
+            "voice_input": false,
+            "example_sentence": "The customer bought a new product.",
+            "media": {}
+        },
+        {
+            "id": "b30_10",
+            "type": "pronunciation",
+            "words": [
+                "commercial"
+            ],
+            "question": "Say 'commercial'.",
+            "answer": "commercial",
+            "hint": "Business-related",
+            "voice_input": true,
+            "example_sentence": "The project was a huge commercial success.",
+            "media": {}
+        },
+        {
+            "id": "b30_11",
+            "type": "multiple_choice",
+            "options": [
+                "impact",
+                "import",
+                "improve"
+            ],
+            "question": "Choose the word for a strong effect.",
+            "answer": "impact",
+            "hint": "Significance",
+            "voice_input": false,
+            "example_sentence": "The news had a big impact on the market.",
+            "media": {}
+        },
+        {
+            "id": "b30_12",
+            "type": "tap_fill",
+            "options": [
+                "economy",
+                "ecology",
+                "equality",
+                "reality"
+            ],
+            "question": "The national ___ is growing.",
+            "answer": "economy",
+            "hint": "Review: Financial system",
+            "voice_input": false,
+            "example_sentence": "The national economy is growing rapidly.",
+            "media": {}
+        },
+        {
+            "id": "b30_13",
+            "type": "sentence_ordering",
+            "words": [
+                "support",
+                "They",
+                "provide",
+                "to",
+                "local",
+                "groups"
+            ],
+            "question": "Order the sentence.",
+            "answer": "They provide support to local groups",
+            "hint": "Giving help",
+            "voice_input": false,
+            "example_sentence": "They provide support to local community groups.",
+            "media": {}
+        },
+        {
+            "id": "b30_14",
+            "type": "matching",
+            "words": [
+                "volunteer",
+                "helper",
+                "staff",
+                "workers"
+            ],
+            "question": "Match the people.",
+            "pairs": [
+                {
+                    "left": "volunteer",
+                    "right": "helper"
+                },
+                {
+                    "left": "staff",
+                    "right": "workers"
+                }
+            ],
+            "answer": [
+                [
+                    "volunteer",
+                    "helper"
+                ],
+                [
+                    "staff",
+                    "workers"
+                ]
+            ],
+            "hint": "Free vs Paid",
+            "voice_input": false,
+            "example_sentence": "The staff are paid workers, but he is a volunteer helper.",
+            "media": {}
+        },
+        {
+            "id": "b30_15",
+            "type": "pronunciation",
+            "words": [
+                "donation"
+            ],
+            "question": "Say 'donation'.",
+            "answer": "donation",
+            "hint": "A gift for help",
+            "voice_input": true,
+            "example_sentence": "Thank you for your generous donation.",
+            "media": {}
+        },
+        {
+            "id": "b30_16",
+            "type": "multiple_choice",
+            "options": [
+                "finance",
+                "fitness",
+                "foundation"
+            ],
+            "question": "Choose the word for managing money.",
+            "answer": "finance",
+            "hint": "Money system",
+            "voice_input": false,
+            "example_sentence": "She is studying global finance.",
+            "media": {}
+        },
+        {
+            "id": "b30_17",
+            "type": "tap_fill",
+            "options": [
+                "afford",
+                "effort",
+                "award",
+                "record"
+            ],
+            "question": "I cannot ___ a new car.",
+            "answer": "afford",
+            "hint": "Review: Have enough money",
+            "voice_input": false,
+            "example_sentence": "I cannot afford a new car right now.",
+            "media": {}
+        },
+        {
+            "id": "b30_18",
+            "type": "sentence_ordering",
+            "words": [
+                "business",
+                "The",
+                "meeting",
+                "very",
+                "was",
+                "long"
+            ],
+            "question": "Order the sentence.",
+            "answer": "The business meeting was very long",
+            "hint": "Job gathering",
+            "voice_input": false,
+            "example_sentence": "The business meeting was very long and boring.",
+            "media": {}
+        },
+        {
+            "id": "b30_19",
+            "type": "matching",
+            "words": [
+                "charity",
+                "help",
+                "profit",
+                "earn"
+            ],
+            "question": "Match the motivations.",
+            "pairs": [
+                {
+                    "left": "charity",
+                    "right": "help"
+                },
+                {
+                    "left": "profit",
+                    "right": "earn"
+                }
+            ],
+            "answer": [
+                [
+                    "charity",
+                    "help"
+                ],
+                [
+                    "profit",
+                    "earn"
+                ]
+            ],
+            "hint": "Give vs Get",
+            "voice_input": false,
+            "example_sentence": "Charity is to help, while businesses work for profit to earn.",
+            "media": {}
+        },
+        {
+            "id": "b30_20",
+            "type": "pronunciation",
+            "words": [
+                "investment"
+            ],
+            "question": "Say 'investment'.",
+            "answer": "investment",
+            "hint": "Business funding",
+            "voice_input": true,
+            "example_sentence": "It was a safe investment.",
+            "media": {}
+        },
+        {
+            "id": "b31_01",
+            "type": "multiple_choice",
+            "options": [
+                "broadcast",
+                "broaden",
+                "broadside"
+            ],
+            "question": "Choose the word for sending a program over radio or TV.",
+            "answer": "broadcast",
+            "hint": "On-air transmission",
+            "voice_input": false,
+            "example_sentence": "The news is broadcast live every evening.",
+            "media": {}
+        },
+        {
+            "id": "b31_02",
+            "type": "tap_fill",
+            "options": [
+                "performance",
+                "permission",
+                "persuasion",
+                "proportion"
+            ],
+            "question": "The actor gave a brilliant ___.",
+            "answer": "performance",
+            "hint": "Show/Act",
+            "voice_input": false,
+            "example_sentence": "The actor gave a brilliant performance as the hero.",
+            "media": {}
+        },
+        {
+            "id": "b31_03",
+            "type": "sentence_ordering",
+            "words": [
+                "audience",
+                "The",
+                "clapped",
+                "after",
+                "play",
+                "the"
+            ],
+            "question": "Order the sentence.",
+            "answer": "The audience clapped after the play",
+            "hint": "People watching",
+            "voice_input": false,
+            "example_sentence": "The audience clapped loudly after the play finished.",
+            "media": {}
+        },
+        {
+            "id": "b31_04",
+            "type": "matching",
+            "words": [
+                "production",
+                "making",
+                "rehearsal",
+                "practice"
+            ],
+            "question": "Match the theater terms.",
+            "pairs": [
+                {
+                    "left": "production",
+                    "right": "making"
+                },
+                {
+                    "left": "rehearsal",
+                    "right": "practice"
+                }
+            ],
+            "answer": [
+                [
+                    "production",
+                    "making"
+                ],
+                [
+                    "rehearsal",
+                    "practice"
+                ]
+            ],
+            "hint": "Process words",
+            "voice_input": false,
+            "example_sentence": "They are in rehearsal for the new production.",
+            "media": {}
+        },
+        {
+            "id": "b31_05",
+            "type": "pronunciation",
+            "words": [
+                "masterpiece"
+            ],
+            "question": "Say 'masterpiece'.",
+            "answer": "masterpiece",
+            "hint": "Greatest work",
+            "voice_input": true,
+            "example_sentence": "This painting is considered a true masterpiece.",
+            "media": {}
+        },
+        {
+            "id": "b31_06",
+            "type": "multiple_choice",
+            "options": [
+                "review",
+                "renew",
+                "reveal"
+            ],
+            "question": "Choose the word for a report about a new film or book.",
+            "answer": "review",
+            "hint": "Opinion piece",
+            "voice_input": false,
+            "example_sentence": "I read a critical review of the movie.",
+            "media": {}
+        },
+        {
+            "id": "b31_07",
+            "type": "tap_fill",
+            "options": [
+                "costume",
+                "custom",
+                "consume",
+                "column"
+            ],
+            "question": "She wore a historical ___ for the role.",
+            "answer": "costume",
+            "hint": "Actors' clothes",
+            "voice_input": false,
+            "example_sentence": "She wore a historical costume for the lead role.",
+            "media": {}
+        },
+        {
+            "id": "b31_08",
+            "type": "sentence_ordering",
+            "words": [
+                "script",
+                "The",
+                "needs",
+                "to",
+                "more",
+                "be",
+                "work"
+            ],
+            "question": "Order the sentence.",
+            "answer": "The script needs to be more work",
+            "hint": "Wait, bad logic (The script needs more work)",
+            "voice_input": false,
+            "example_sentence": "The script needs more work before filming.",
+            "media": {}
+        },
+        {
+            "id": "b31_09",
+            "type": "matching",
+            "words": [
+                "media",
+                "news",
+                "studio",
+                "office"
+            ],
+            "question": "Review: Match the locations.",
+            "pairs": [
+                {
+                    "left": "media",
+                    "right": "news"
+                },
+                {
+                    "left": "studio",
+                    "right": "office"
+                }
+            ],
+            "answer": [
+                [
+                    "media",
+                    "news"
+                ],
+                [
+                    "studio",
+                    "office"
+                ]
+            ],
+            "hint": "Media work",
+            "voice_input": false,
+            "example_sentence": "The news media works in the studio office.",
+            "media": {}
+        },
+        {
+            "id": "b31_10",
+            "type": "pronunciation",
+            "words": [
+                "broadcast"
+            ],
+            "question": "Say 'broadcast'.",
+            "answer": "broadcast",
+            "hint": "Air program",
+            "voice_input": true,
+            "example_sentence": "The radio will broadcast the match.",
+            "media": {}
+        },
+        {
+            "id": "b31_11",
+            "type": "multiple_choice",
+            "options": [
+                "cast",
+                "cost",
+                "case"
+            ],
+            "question": "Choose the word for all the actors in a play or film.",
+            "answer": "cast",
+            "hint": "Actor group",
+            "voice_input": false,
+            "example_sentence": "The film has a very famous cast.",
+            "media": {}
+        },
+        {
+            "id": "b31_12",
+            "type": "tap_fill",
+            "options": [
+                "scenes",
+                "screens",
+                "senses",
+                "series"
+            ],
+            "question": "There are many famous ___ in the play.",
+            "answer": "scenes",
+            "hint": "Review: Parts of film/play",
+            "voice_input": false,
+            "example_sentence": "There are many famous scenes in the play.",
+            "media": {}
+        },
+        {
+            "id": "b31_13",
+            "type": "sentence_ordering",
+            "words": [
+                "rehearsal",
+                "start",
+                "Let's",
+                "the",
+                "immediately"
+            ],
+            "question": "Order the sentence.",
+            "answer": "Let's start the rehearsal immediately",
+            "hint": "Practice session",
+            "voice_input": false,
+            "example_sentence": "Let's start the rehearsal immediately.",
+            "media": {}
+        },
+        {
+            "id": "b31_14",
+            "type": "matching",
+            "words": [
+                "audience",
+                "fans",
+                "live",
+                "real-time"
+            ],
+            "question": "Match the media words.",
+            "pairs": [
+                {
+                    "left": "audience",
+                    "right": "fans"
+                },
+                {
+                    "left": "live",
+                    "right": "real-time"
+                }
+            ],
+            "answer": [
+                [
+                    "audience",
+                    "fans"
+                ],
+                [
+                    "live",
+                    "real-time"
+                ]
+            ],
+            "hint": "People and Mode",
+            "voice_input": false,
+            "example_sentence": "The fans were the audience for the live show.",
+            "media": {}
+        },
+        {
+            "id": "b31_15",
+            "type": "pronunciation",
+            "words": [
+                "rehearsal"
+            ],
+            "question": "Say 'rehearsal'.",
+            "answer": "rehearsal",
+            "hint": "Pre-show practice",
+            "voice_input": true,
+            "example_sentence": "The rehearsal went very well.",
+            "media": {}
+        },
+        {
+            "id": "b31_16",
+            "type": "multiple_choice",
+            "options": [
+                "creative",
+                "relative",
+                "reactive"
+            ],
+            "question": "Review: Choose the word meaning 'full of ideas'.",
+            "answer": "creative",
+            "hint": "Imaginative",
+            "voice_input": false,
+            "example_sentence": "She is a very creative person.",
+            "media": {}
+        },
+        {
+            "id": "b31_17",
+            "type": "tap_fill",
+            "options": [
+                "gallery",
+                "salary",
+                "battery",
+                "jewelry"
+            ],
+            "question": "Review: We went to the art ___.",
+            "answer": "gallery",
+            "hint": "Place for art",
+            "voice_input": false,
+            "example_sentence": "We went to the art gallery to see the paintings.",
+            "media": {}
+        },
+        {
+            "id": "b31_18",
+            "type": "sentence_ordering",
+            "words": [
+                "performance",
+                "was",
+                "The",
+                "masterpiece",
+                "a",
+                "absolute"
+            ],
+            "question": "Order the sentence.",
+            "answer": "The performance was a absolute masterpiece",
+            "hint": "Combining terms",
+            "voice_input": false,
+            "example_sentence": "The performance was an absolute masterpiece.",
+            "media": {}
+        },
+        {
+            "id": "b31_19",
+            "type": "matching",
+            "words": [
+                "novel",
+                "book",
+                "painting",
+                "art"
+            ],
+            "question": "Review: Match the categories.",
+            "pairs": [
+                {
+                    "left": "novel",
+                    "right": "book"
+                },
+                {
+                    "left": "painting",
+                    "right": "art"
+                }
+            ],
+            "answer": [
+                [
+                    "novel",
+                    "book"
+                ],
+                [
+                    "painting",
+                    "art"
+                ]
+            ],
+            "hint": "Types of work",
+            "voice_input": false,
+            "example_sentence": "A novel is a book. A painting is art.",
+            "media": {}
+        },
+        {
+            "id": "b31_20",
+            "type": "pronunciation",
+            "words": [
+                "production"
+            ],
+            "question": "Say 'production'.",
+            "answer": "production",
+            "hint": "Show creation",
+            "voice_input": true,
+            "example_sentence": "The theater production was expensive.",
+            "media": {}
+        },
+        {
+            "id": "b32_01",
+            "type": "multiple_choice",
+            "options": [
+                "suspect",
+                "subject",
+                "respect"
+            ],
+            "question": "Choose the person who is possibly guilty of a crime.",
+            "answer": "suspect",
+            "hint": "Police target",
+            "voice_input": false,
+            "example_sentence": "The police caught the suspect near the station.",
+            "media": {}
+        },
+        {
+            "id": "b32_02",
+            "type": "tap_fill",
+            "options": [
+                "evidence",
+                "confidence",
+                "experience",
+                "existence"
+            ],
+            "question": "The police found no ___ of a crime.",
+            "answer": "evidence",
+            "hint": "Proof",
+            "voice_input": false,
+            "example_sentence": "The police found no evidence of a crime in the house.",
+            "media": {}
+        },
+        {
+            "id": "b32_03",
+            "type": "sentence_ordering",
+            "words": [
+                "witness",
+                "The",
+                "court",
+                "told",
+                "the",
+                "truth",
+                "in"
+            ],
+            "question": "Order the sentence.",
+            "answer": "The witness told the truth in court",
+            "hint": "Person who saw it",
+            "voice_input": false,
+            "example_sentence": "The witness told the truth in court yesterday.",
+            "media": {}
+        },
+        {
+            "id": "b32_04",
+            "type": "matching",
+            "words": [
+                "verdict",
+                "decision",
+                "victim",
+                "injured"
+            ],
+            "question": "Match the legal roles.",
+            "pairs": [
+                {
+                    "left": "verdict",
+                    "right": "decision"
+                },
+                {
+                    "left": "victim",
+                    "right": "injured"
+                }
+            ],
+            "answer": [
+                [
+                    "verdict",
+                    "decision"
+                ],
+                [
+                    "victim",
+                    "injured"
+                ]
+            ],
+            "hint": "Law terms",
+            "voice_input": false,
+            "example_sentence": "The jury gave a guilty verdict for the victim.",
+            "media": {}
+        },
+        {
+            "id": "b32_05",
+            "type": "pronunciation",
+            "words": [
+                "innocent"
+            ],
+            "question": "Say 'innocent'.",
+            "answer": "innocent",
+            "hint": "Not guilty",
+            "voice_input": true,
+            "example_sentence": "I am innocent of all the charges.",
+            "media": {}
+        },
+        {
+            "id": "b32_06",
+            "type": "multiple_choice",
+            "options": [
+                "fine",
+                "fire",
+                "firm"
+            ],
+            "question": "Choose the money you pay as a punishment.",
+            "answer": "fine",
+            "hint": "Ticket payment",
+            "voice_input": false,
+            "example_sentence": "I had to pay a fine for parking.",
+            "media": {}
+        },
+        {
+            "id": "b32_07",
+            "type": "tap_fill",
+            "options": [
+                "judge",
+                "ledge",
+                "dodge",
+                "badge"
+            ],
+            "question": "The ___ will decide the sentence.",
+            "answer": "judge",
+            "hint": "Legal leader",
+            "voice_input": false,
+            "example_sentence": "The judge will decide the sentence today.",
+            "media": {}
+        },
+        {
+            "id": "b32_08",
+            "type": "sentence_ordering",
+            "words": [
+                "jury",
+                "The",
+                "is",
+                "twelve",
+                "made",
+                "of",
+                "up",
+                "people"
+            ],
+            "question": "Order the sentence.",
+            "answer": "The jury is made up of twelve people",
+            "hint": "Decision group",
+            "voice_input": false,
+            "example_sentence": "The jury is made up of twelve people from the local area.",
+            "media": {}
+        },
+        {
+            "id": "b32_09",
+            "type": "matching",
+            "words": [
+                "trial",
+                "case",
+                "defense",
+                "shield"
+            ],
+            "question": "Match related words.",
+            "pairs": [
+                {
+                    "left": "trial",
+                    "right": "case"
+                },
+                {
+                    "left": "defense",
+                    "right": "shield"
+                }
+            ],
+            "answer": [
+                [
+                    "trial",
+                    "case"
+                ],
+                [
+                    "defense",
+                    "shield"
+                ]
+            ],
+            "hint": "Legal process and safety",
+            "voice_input": false,
+            "example_sentence": "The trial was a long case for the defense.",
+            "media": {}
+        },
+        {
+            "id": "b32_10",
+            "type": "pronunciation",
+            "words": [
+                "evidence"
+            ],
+            "question": "Say 'evidence'.",
+            "answer": "evidence",
+            "hint": "Proof of crime",
+            "voice_input": true,
+            "example_sentence": "There is no evidence against him.",
+            "media": {}
+        },
+        {
+            "id": "b32_11",
+            "type": "multiple_choice",
+            "options": [
+                "illegal",
+                "illegible",
+                "illogical"
+            ],
+            "question": "Review: Choose the word meaning 'against the law'.",
+            "answer": "illegal",
+            "hint": "Forbidden",
+            "voice_input": false,
+            "example_sentence": "It is illegal to drive without a license.",
+            "media": {}
+        },
+        {
+            "id": "b32_12",
+            "type": "tap_fill",
+            "options": [
+                "punishment",
+                "accomplishment",
+                "establishment",
+                "embellishment"
+            ],
+            "question": "Review: He received a fair ___.",
+            "answer": "punishment",
+            "hint": "Consequence for crime",
+            "voice_input": false,
+            "example_sentence": "He received a fair punishment for his actions.",
+            "media": {}
+        },
+        {
+            "id": "b32_13",
+            "type": "sentence_ordering",
+            "words": [
+                "arrest",
+                "The",
+                "police",
+                "to",
+                "the",
+                "have",
+                "power"
+            ],
+            "question": "Review: Order the sentence.",
+            "answer": "The police have the power to arrest",
+            "hint": "Legal action",
+            "voice_input": false,
+            "example_sentence": "The police have the power to arrest anyone suspected of a crime.",
+            "media": {}
+        },
+        {
+            "id": "b32_14",
+            "type": "matching",
+            "words": [
+                "crime",
+                "wrong",
+                "prison",
+                "jail"
+            ],
+            "question": "Review: Match the pairs.",
+            "pairs": [
+                {
+                    "left": "crime",
+                    "right": "wrong"
+                },
+                {
+                    "left": "prison",
+                    "right": "jail"
+                }
+            ],
+            "answer": [
+                [
+                    "crime",
+                    "wrong"
+                ],
+                [
+                    "prison",
+                    "jail"
+                ]
+            ],
+            "hint": "Act and Place",
+            "voice_input": false,
+            "example_sentence": "He went to jail for a serious crime.",
+            "media": {}
+        },
+        {
+            "id": "b32_15",
+            "type": "pronunciation",
+            "words": [
+                "justice"
+            ],
+            "question": "Review: Say 'justice'.",
+            "answer": "justice",
+            "hint": "Fairness",
+            "voice_input": true,
+            "example_sentence": "The goal of the system is justice.",
+            "media": {}
+        },
+        {
+            "id": "b32_16",
+            "type": "multiple_choice",
+            "options": [
+                "court",
+                "count",
+                "coast"
+            ],
+            "question": "Review: Choose the place where legal cases happen.",
+            "answer": "court",
+            "hint": "Law building",
+            "voice_input": false,
+            "example_sentence": "He had to appear in court today.",
+            "media": {}
+        },
+        {
+            "id": "b32_17",
+            "type": "tap_fill",
+            "options": [
+                "citizen",
+                "column",
+                "curtain",
+                "certain"
+            ],
+            "question": "Review: Every ___ has rights.",
+            "answer": "citizen",
+            "hint": "Member of a country",
+            "voice_input": false,
+            "example_sentence": "Every citizen has both rights and duties.",
+            "media": {}
+        },
+        {
+            "id": "b32_18",
+            "type": "sentence_ordering",
+            "words": [
+                "guilty",
+                "found",
+                "jury",
+                "The",
+                "him",
+                "unanimously"
+            ],
+            "question": "Order the sentence.",
+            "answer": "The jury found him guilty unanimously",
+            "hint": "Legal result",
+            "voice_input": false,
+            "example_sentence": "The jury found him guilty unanimously after the trial.",
+            "media": {}
+        },
+        {
+            "id": "b32_19",
+            "type": "matching",
+            "words": [
+                "verdict",
+                "guilty",
+                "innocent",
+                "clear"
+            ],
+            "question": "Match the results.",
+            "pairs": [
+                {
+                    "left": "verdict",
+                    "right": "guilty"
+                },
+                {
+                    "left": "innocent",
+                    "right": "clear"
+                }
+            ],
+            "answer": [
+                [
+                    "verdict",
+                    "guilty"
+                ],
+                [
+                    "innocent",
+                    "clear"
+                ]
+            ],
+            "hint": "Opposite results",
+            "voice_input": false,
+            "example_sentence": "He was found innocent and his name is clear.",
+            "media": {}
+        },
+        {
+            "id": "b32_20",
+            "type": "pronunciation",
+            "words": [
+                "verdict"
+            ],
+            "question": "Say 'verdict'.",
+            "answer": "verdict",
+            "hint": "Final decision",
+            "voice_input": true,
+            "example_sentence": "The jury reached a verdict quickly.",
+            "media": {}
+        }
+    ]
+}
