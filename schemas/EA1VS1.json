@@ -35,16 +35,21 @@
             "id": "b1_03",
             "type": "sentence_ordering",
             "words": [
+                "I",
                 "bread",
-                "eat",
-                "I"
+                "eat"
             ],
             "question": "Order the sentence.",
             "answer": "I eat bread",
             "hint": "Subject + Verb + Object",
             "voice_input": false,
             "example_sentence": "I eat bread.",
-            "media": {}
+            "media": {},
+            "correct_answer": [
+                "I",
+                "eat",
+                "bread"
+            ]
         },
         {
             "id": "b1_04",
@@ -129,16 +134,21 @@
             "id": "b1_08",
             "type": "sentence_ordering",
             "words": [
-                "drinks",
                 "boy",
-                "The"
+                "The",
+                "drinks"
             ],
             "question": "Order the sentence.",
             "answer": "The boy drinks",
             "hint": "Subject + Verb",
             "voice_input": false,
             "example_sentence": "The boy drinks.",
-            "media": {}
+            "media": {},
+            "correct_answer": [
+                "The",
+                "boy",
+                "drinks"
+            ]
         },
         {
             "id": "b1_09",
@@ -210,16 +220,21 @@
             "id": "b1_12",
             "type": "sentence_ordering",
             "words": [
-                "Close",
+                "the",
                 "window",
-                "the"
+                "Close"
             ],
             "question": "Order the sentence.",
             "answer": "Close the window",
             "hint": "Imperative",
             "voice_input": false,
             "example_sentence": "Close the window.",
-            "media": {}
+            "media": {},
+            "correct_answer": [
+                "Close",
+                "the",
+                "window"
+            ]
         },
         {
             "id": "b1_13",
@@ -292,15 +307,20 @@
             "type": "sentence_ordering",
             "words": [
                 "woman",
-                "walks",
-                "The"
+                "The",
+                "walks"
             ],
             "question": "Order the sentence.",
             "answer": "The woman walks",
             "hint": "Subject + Verb",
             "voice_input": false,
             "example_sentence": "The woman walks.",
-            "media": {}
+            "media": {},
+            "correct_answer": [
+                "The",
+                "woman",
+                "walks"
+            ]
         },
         {
             "id": "b1_17",
@@ -401,15 +421,20 @@
             "type": "sentence_ordering",
             "words": [
                 "fish",
-                "swims",
-                "The"
+                "The",
+                "swims"
             ],
             "question": "Order the sentence.",
             "answer": "The fish swims",
             "hint": "Subject + Verb",
             "voice_input": false,
             "example_sentence": "The fish swims.",
-            "media": {}
+            "media": {},
+            "correct_answer": [
+                "The",
+                "fish",
+                "swims"
+            ]
         },
         {
             "id": "b2_04",
@@ -494,8 +519,8 @@
             "id": "b2_08",
             "type": "sentence_ordering",
             "words": [
-                "sun",
                 "shines",
+                "sun",
                 "The"
             ],
             "question": "Order the sentence.",
@@ -503,7 +528,12 @@
             "hint": "Subject + Verb",
             "voice_input": false,
             "example_sentence": "The sun shines.",
-            "media": {}
+            "media": {},
+            "correct_answer": [
+                "The",
+                "sun",
+                "shines"
+            ]
         },
         {
             "id": "b2_09",
@@ -575,16 +605,21 @@
             "id": "b2_12",
             "type": "sentence_ordering",
             "words": [
+                "The",
                 "bus",
-                "goes",
-                "The"
+                "goes"
             ],
             "question": "Order the sentence.",
             "answer": "The bus goes",
             "hint": "Subject + Verb",
             "voice_input": false,
             "example_sentence": "The bus goes.",
-            "media": {}
+            "media": {},
+            "correct_answer": [
+                "The",
+                "bus",
+                "goes"
+            ]
         },
         {
             "id": "b2_13",
@@ -665,7 +700,12 @@
             "hint": "Imperative",
             "voice_input": false,
             "example_sentence": "See the flower.",
-            "media": {}
+            "media": {},
+            "correct_answer": [
+                "See",
+                "the",
+                "flower"
+            ]
         },
         {
             "id": "b2_17",
@@ -723,7 +763,7 @@
                 "run",
                 "fly"
             ],
-            "question": "Select the stop action.",
+            "question": "Select the action of not moving.",
             "answer": "stop",
             "hint": "Not go",
             "voice_input": false,
@@ -738,7 +778,7 @@
                 "rice",
                 "cheese"
             ],
-            "question": "Select the egg.",
+            "question": "Select the yellow and white food.",
             "answer": "egg",
             "hint": "White and yellow food",
             "voice_input": false,
@@ -765,16 +805,21 @@
             "id": "b3_03",
             "type": "sentence_ordering",
             "words": [
+                "the",
                 "rice",
-                "Cook",
-                "the"
+                "Cook"
             ],
             "question": "Order the sentence.",
             "answer": "Cook the rice",
             "hint": "Imperative",
             "voice_input": false,
             "example_sentence": "Cook the rice.",
-            "media": {}
+            "media": {},
+            "correct_answer": [
+                "Cook",
+                "the",
+                "rice"
+            ]
         },
         {
             "id": "b3_04",
@@ -832,7 +877,7 @@
                 "arm",
                 "head"
             ],
-            "question": "Select the leg.",
+            "question": "Select the long part of the body for walking.",
             "answer": "leg",
             "hint": "For walking",
             "voice_input": false,
@@ -859,17 +904,23 @@
             "id": "b3_08",
             "type": "sentence_ordering",
             "words": [
-                "cheese",
-                "eats",
                 "The",
-                "boy"
+                "boy",
+                "eats",
+                "cheese"
             ],
             "question": "Order the sentence.",
             "answer": "The boy eats cheese",
             "hint": "Subject + Verb + Object",
             "voice_input": false,
             "example_sentence": "The boy eats cheese.",
-            "media": {}
+            "media": {},
+            "correct_answer": [
+                "The",
+                "boy",
+                "eats",
+                "cheese"
+            ]
         },
         {
             "id": "b3_09",
@@ -914,7 +965,7 @@
                 "eye",
                 "nose"
             ],
-            "question": "Select the mouth.",
+            "question": "Select the part of the body for eating.",
             "answer": "mouth",
             "hint": "For eating",
             "voice_input": false,
@@ -927,8 +978,8 @@
             "options": [
                 "sleeps",
                 "rains",
-                "opens",
-                "closes"
+                "shines",
+                "flows"
             ],
             "question": "The girl ___.",
             "answer": "sleeps",
@@ -950,7 +1001,12 @@
             "hint": "Subject + Verb + Object",
             "voice_input": false,
             "example_sentence": "I drink juice.",
-            "media": {}
+            "media": {},
+            "correct_answer": [
+                "I",
+                "drink",
+                "juice"
+            ]
         },
         {
             "id": "b3_13",
@@ -995,7 +1051,7 @@
                 "wash",
                 "sleep"
             ],
-            "question": "Select 'cook'.",
+            "question": "Select the action of making food.",
             "answer": "cook",
             "hint": "Make food",
             "voice_input": false,
@@ -1031,7 +1087,12 @@
             "hint": "Subject + Verb",
             "voice_input": false,
             "example_sentence": "The man wakes.",
-            "media": {}
+            "media": {},
+            "correct_answer": [
+                "The",
+                "man",
+                "wakes"
+            ]
         },
         {
             "id": "b3_17",
@@ -1104,7 +1165,7 @@
                 "socks",
                 "hat"
             ],
-            "question": "Select the shoes.",
+            "question": "Select the items for your feet.",
             "answer": "shoes",
             "hint": "For feet",
             "voice_input": false,
@@ -1140,7 +1201,12 @@
             "hint": "Imperative",
             "voice_input": false,
             "example_sentence": "Open the box.",
-            "media": {}
+            "media": {},
+            "correct_answer": [
+                "Open",
+                "the",
+                "box"
+            ]
         },
         {
             "id": "b4_04",
@@ -1198,7 +1264,7 @@
                 "sky",
                 "park"
             ],
-            "question": "Select the star.",
+            "question": "Select the small light in the night sky.",
             "answer": "star",
             "hint": "Night light",
             "voice_input": false,
@@ -1225,18 +1291,25 @@
             "id": "b4_08",
             "type": "sentence_ordering",
             "words": [
-                "to",
-                "girl",
+                "park",
                 "The",
+                "girl",
                 "goes",
-                "park"
+                "to"
             ],
             "question": "Order the sentence.",
             "answer": "The girl goes to park",
             "hint": "Subject + Verb + Object",
             "voice_input": false,
             "example_sentence": "The girl goes to park.",
-            "media": {}
+            "media": {},
+            "correct_answer": [
+                "The",
+                "girl",
+                "goes",
+                "to",
+                "park"
+            ]
         },
         {
             "id": "b4_09",
@@ -1281,7 +1354,7 @@
                 "phone",
                 "clock"
             ],
-            "question": "Select the computer.",
+            "question": "Select the machine for work or games.",
             "answer": "computer",
             "hint": "Machine for work",
             "voice_input": false,
@@ -1309,15 +1382,20 @@
             "type": "sentence_ordering",
             "words": [
                 "stars",
-                "See",
-                "the"
+                "the",
+                "See"
             ],
             "question": "Order the sentence.",
             "answer": "See the stars",
             "hint": "Imperative",
             "voice_input": false,
             "example_sentence": "See the stars.",
-            "media": {}
+            "media": {},
+            "correct_answer": [
+                "See",
+                "the",
+                "stars"
+            ]
         },
         {
             "id": "b4_13",
@@ -1362,7 +1440,7 @@
                 "pants",
                 "shoes"
             ],
-            "question": "Select the dress.",
+            "question": "Select the long clothing for a girl.",
             "answer": "dress",
             "hint": "Clothing",
             "voice_input": false,
@@ -1389,16 +1467,21 @@
             "id": "b4_16",
             "type": "sentence_ordering",
             "words": [
-                "comes",
                 "rain",
-                "The"
+                "The",
+                "comes"
             ],
             "question": "Order the sentence.",
             "answer": "The rain comes",
             "hint": "Subject + Verb",
             "voice_input": false,
             "example_sentence": "The rain comes.",
-            "media": {}
+            "media": {},
+            "correct_answer": [
+                "The",
+                "rain",
+                "comes"
+            ]
         },
         {
             "id": "b4_17",
@@ -1468,7 +1551,7 @@
             "type": "multiple_choice",
             "options": [
                 "shop",
-                "farm",
+                "apple",
                 "cow"
             ],
             "question": "Select the place.",
@@ -1498,16 +1581,21 @@
             "id": "b5_03",
             "type": "sentence_ordering",
             "words": [
-                "money",
                 "Give",
-                "the"
+                "the",
+                "money"
             ],
             "question": "Order the sentence.",
             "answer": "Give the money",
             "hint": "Imperative",
             "voice_input": false,
             "example_sentence": "Give the money.",
-            "media": {}
+            "media": {},
+            "correct_answer": [
+                "Give",
+                "the",
+                "money"
+            ]
         },
         {
             "id": "b5_04",
@@ -1592,16 +1680,21 @@
             "id": "b5_08",
             "type": "sentence_ordering",
             "words": [
-                "tea",
                 "Drink",
-                "the"
+                "the",
+                "tea"
             ],
             "question": "Order the sentence.",
             "answer": "Drink the tea",
             "hint": "Imperative",
             "voice_input": false,
             "example_sentence": "Drink the tea.",
-            "media": {}
+            "media": {},
+            "correct_answer": [
+                "Drink",
+                "the",
+                "tea"
+            ]
         },
         {
             "id": "b5_09",
@@ -1673,17 +1766,23 @@
             "id": "b5_12",
             "type": "sentence_ordering",
             "words": [
-                "farm",
+                "the",
                 "on",
                 "Help",
-                "the"
+                "farm"
             ],
             "question": "Order the sentence.",
             "answer": "Help on the farm",
             "hint": "Imperative",
             "voice_input": false,
             "example_sentence": "Help on the farm.",
-            "media": {}
+            "media": {},
+            "correct_answer": [
+                "Help",
+                "on",
+                "the",
+                "farm"
+            ]
         },
         {
             "id": "b5_13",
@@ -1755,17 +1854,23 @@
             "id": "b5_16",
             "type": "sentence_ordering",
             "words": [
-                "drinks",
                 "coffee",
-                "The",
-                "woman"
+                "woman",
+                "drinks",
+                "The"
             ],
             "question": "Order the sentence.",
             "answer": "The woman drinks coffee",
             "hint": "Subject + Verb + Object",
             "voice_input": false,
             "example_sentence": "The woman drinks coffee.",
-            "media": {}
+            "media": {},
+            "correct_answer": [
+                "The",
+                "woman",
+                "drinks",
+                "coffee"
+            ]
         },
         {
             "id": "b5_17",
@@ -1865,16 +1970,21 @@
             "id": "b6_03",
             "type": "sentence_ordering",
             "words": [
-                "flies",
+                "The",
                 "plane",
-                "The"
+                "flies"
             ],
             "question": "Order the sentence.",
             "answer": "The plane flies",
             "hint": "Subject + Verb",
             "voice_input": false,
             "example_sentence": "The plane flies.",
-            "media": {}
+            "media": {},
+            "correct_answer": [
+                "The",
+                "plane",
+                "flies"
+            ]
         },
         {
             "id": "b6_04",
@@ -1959,17 +2069,23 @@
             "id": "b6_08",
             "type": "sentence_ordering",
             "words": [
-                "the",
-                "Wait",
+                "river",
                 "at",
-                "river"
+                "the",
+                "Wait"
             ],
             "question": "Order the sentence.",
             "answer": "Wait at the river",
             "hint": "Imperative",
             "voice_input": false,
             "example_sentence": "Wait at the river.",
-            "media": {}
+            "media": {},
+            "correct_answer": [
+                "Wait",
+                "at",
+                "the",
+                "river"
+            ]
         },
         {
             "id": "b6_09",
@@ -2014,7 +2130,7 @@
                 "nurse",
                 "baby"
             ],
-            "question": "Select the doctor.",
+            "question": "Select the person who helps sick people.",
             "answer": "doctor",
             "hint": "Medical expert",
             "voice_input": false,
@@ -2042,16 +2158,22 @@
             "type": "sentence_ordering",
             "words": [
                 "nurse",
-                "helps",
                 "The",
-                "baby"
+                "baby",
+                "helps"
             ],
             "question": "Order the sentence.",
             "answer": "The nurse helps baby",
             "hint": "Subject + Verb + Object",
             "voice_input": false,
             "example_sentence": "The nurse helps baby.",
-            "media": {}
+            "media": {},
+            "correct_answer": [
+                "The",
+                "nurse",
+                "helps",
+                "baby"
+            ]
         },
         {
             "id": "b6_13",
@@ -2096,7 +2218,7 @@
                 "train",
                 "plane"
             ],
-            "question": "Select the bicycle.",
+            "question": "Select the vehicle with two wheels.",
             "answer": "bicycle",
             "hint": "Two wheels",
             "voice_input": false,
@@ -2124,8 +2246,8 @@
             "type": "sentence_ordering",
             "words": [
                 "friend",
-                "to",
                 "Talk",
+                "to",
                 "the"
             ],
             "question": "Order the sentence.",
@@ -2133,7 +2255,13 @@
             "hint": "Imperative",
             "voice_input": false,
             "example_sentence": "Talk to the friend.",
-            "media": {}
+            "media": {},
+            "correct_answer": [
+                "Talk",
+                "to",
+                "the",
+                "friend"
+            ]
         },
         {
             "id": "b6_17",
@@ -2191,7 +2319,7 @@
                 "hospital",
                 "beach"
             ],
-            "question": "Select 'home'.",
+            "question": "Select the place where you live.",
             "answer": "home",
             "hint": "Where you live",
             "voice_input": false,
@@ -2206,7 +2334,7 @@
                 "radio",
                 "ball"
             ],
-            "question": "Select the guitar.",
+            "question": "Select the musical instrument.",
             "answer": "guitar",
             "hint": "Music instrument",
             "voice_input": false,
@@ -2218,7 +2346,7 @@
             "type": "tap_fill",
             "options": [
                 "game",
-                "guitar",
+                "shoes",
                 "robot",
                 "sun"
             ],
@@ -2233,17 +2361,23 @@
             "id": "b7_03",
             "type": "sentence_ordering",
             "words": [
-                "radio",
-                "to",
                 "Listen",
-                "the"
+                "the",
+                "to",
+                "radio"
             ],
             "question": "Order the sentence.",
             "answer": "Listen to the radio",
             "hint": "Imperative",
             "voice_input": false,
             "example_sentence": "Listen to the radio.",
-            "media": {}
+            "media": {},
+            "correct_answer": [
+                "Listen",
+                "to",
+                "the",
+                "radio"
+            ]
         },
         {
             "id": "b7_04",
@@ -2337,7 +2471,12 @@
             "hint": "Imperative",
             "voice_input": false,
             "example_sentence": "See the friend.",
-            "media": {}
+            "media": {},
+            "correct_answer": [
+                "See",
+                "the",
+                "friend"
+            ]
         },
         {
             "id": "b7_09",
@@ -2382,7 +2521,7 @@
                 "day",
                 "sun"
             ],
-            "question": "Select 'night'.",
+            "question": "Select the correct item: Night.",
             "answer": "night",
             "hint": "Dark time",
             "voice_input": false,
@@ -2410,15 +2549,20 @@
             "type": "sentence_ordering",
             "words": [
                 "sun",
-                "See",
-                "the"
+                "the",
+                "See"
             ],
             "question": "Order the sentence.",
             "answer": "See the sun",
             "hint": "Imperative",
             "voice_input": false,
             "example_sentence": "See the sun.",
-            "media": {}
+            "media": {},
+            "correct_answer": [
+                "See",
+                "the",
+                "sun"
+            ]
         },
         {
             "id": "b7_13",
@@ -2463,7 +2607,7 @@
                 "ball",
                 "guitar"
             ],
-            "question": "Select the toy.",
+            "question": "Select the correct item: Toy.",
             "answer": "toy",
             "hint": "For playing",
             "voice_input": false,
@@ -2490,16 +2634,21 @@
             "id": "b7_16",
             "type": "sentence_ordering",
             "words": [
-                "moon",
+                "moves",
                 "The",
-                "moves"
+                "moon"
             ],
             "question": "Order the sentence.",
             "answer": "The moon moves",
             "hint": "Subject + Verb",
             "voice_input": false,
             "example_sentence": "The moon moves.",
-            "media": {}
+            "media": {},
+            "correct_answer": [
+                "The",
+                "moon",
+                "moves"
+            ]
         },
         {
             "id": "b8_01",
@@ -2595,8 +2744,8 @@
             "id": "b8_07",
             "type": "sentence_ordering",
             "words": [
-                "doctor",
                 "The",
+                "doctor",
                 "talks"
             ],
             "question": "Order the sentence.",
@@ -2604,25 +2753,38 @@
             "hint": "Subject + Verb",
             "voice_input": false,
             "example_sentence": "The doctor talks.",
-            "media": {}
+            "media": {},
+            "correct_answer": [
+                "The",
+                "doctor",
+                "talks"
+            ]
         },
         {
             "id": "b8_08",
             "type": "sentence_ordering",
             "words": [
-                "fish",
-                "sea",
+                "the",
                 "in",
-                "swims",
+                "sea",
+                "fish",
                 "The",
-                "the"
+                "swims"
             ],
             "question": "Order the sentence.",
             "answer": "The fish swims in the sea",
             "hint": "Animal + Action + Location",
             "voice_input": false,
             "example_sentence": "The fish swims in the sea.",
-            "media": {}
+            "media": {},
+            "correct_answer": [
+                "The",
+                "fish",
+                "swims",
+                "in",
+                "the",
+                "sea"
+            ]
         },
         {
             "id": "b8_09",
@@ -2630,15 +2792,21 @@
             "words": [
                 "wash",
                 "cup",
-                "I",
-                "the"
+                "the",
+                "I"
             ],
             "question": "Order the sentence.",
             "answer": "I wash the cup",
             "hint": "Subject + Verb + Object",
             "voice_input": false,
             "example_sentence": "I wash the cup.",
-            "media": {}
+            "media": {},
+            "correct_answer": [
+                "I",
+                "wash",
+                "the",
+                "cup"
+            ]
         },
         {
             "id": "b8_10",
@@ -2653,7 +2821,12 @@
             "hint": "Description",
             "voice_input": false,
             "example_sentence": "The sun shines.",
-            "media": {}
+            "media": {},
+            "correct_answer": [
+                "The",
+                "sun",
+                "shines"
+            ]
         },
         {
             "id": "b8_11",
@@ -2979,70 +3152,99 @@
             "id": "b9_07",
             "type": "sentence_ordering",
             "words": [
-                "sun",
-                "boy",
                 "The",
-                "the",
-                "wakes"
+                "sun",
+                "wakes",
+                "boy",
+                "the"
             ],
             "question": "Order the sentence.",
             "answer": "The sun wakes the boy",
             "hint": "SVO",
             "voice_input": false,
             "example_sentence": "The sun wakes the boy.",
-            "media": {}
+            "media": {},
+            "correct_answer": [
+                "The",
+                "sun",
+                "wakes",
+                "the",
+                "boy"
+            ]
         },
         {
             "id": "b9_08",
             "type": "sentence_ordering",
             "words": [
-                "teacher",
+                "the",
                 "banana",
                 "eats",
-                "The",
-                "the"
+                "teacher",
+                "The"
             ],
             "question": "Order the sentence.",
             "answer": "The teacher eats the banana",
             "hint": "Person + Action + Food",
             "voice_input": false,
             "example_sentence": "The teacher eats the banana.",
-            "media": {}
+            "media": {},
+            "correct_answer": [
+                "The",
+                "teacher",
+                "eats",
+                "the",
+                "banana"
+            ]
         },
         {
             "id": "b9_09",
             "type": "sentence_ordering",
             "words": [
-                "woman",
-                "car",
-                "The",
+                "the",
                 "drives",
-                "the"
+                "car",
+                "woman",
+                "The"
             ],
             "question": "Order the sentence.",
             "answer": "The woman drives the car",
             "hint": "SVO",
             "voice_input": false,
             "example_sentence": "The woman drives the car.",
-            "media": {}
+            "media": {},
+            "correct_answer": [
+                "The",
+                "woman",
+                "drives",
+                "the",
+                "car"
+            ]
         },
         {
             "id": "b9_10",
             "type": "sentence_ordering",
             "words": [
                 "bird",
-                "tree",
-                "The",
-                "sits",
                 "the",
-                "in"
+                "sits",
+                "The",
+                "in",
+                "tree"
             ],
             "question": "Order the sentence.",
             "answer": "The bird sits in the tree",
             "hint": "Subject + Verb + Location",
             "voice_input": false,
             "example_sentence": "The bird sits in the tree.",
-            "media": {}
+            "media": {},
+            "correct_answer": [
+                "The",
+                "bird",
+                "sits",
+                "in",
+                "the",
+                "tree"
+            ]
         },
         {
             "id": "b9_11",
