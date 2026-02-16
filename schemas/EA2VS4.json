@@ -1,1680 +1,1516 @@
-﻿{
-    "exercises":  [
-                     
-                                        {
-                                            "id":  "b61_01",
-                                            "type":  "multiple_choice",
-                                            "options":  [
-                                                            "weather",
-                                                            "vehicle",
-                                                            "document"
-                                                        ],
-                                            "question":  "The ___ forecast says it will rain tomorrow.",
-                                            "answer":  "weather",
-                                            "hint":  "The state of the atmosphere at a particular time and place",
-                                            "voice_input":  false,
-                                            "example_sentence":  "The weather is beautiful today.",
-                                            "media":  {
-
-                                                      }
-                                        },
-                                        {
-                                            "id":  "b61_02",
-                                            "type":  "tap_fill",
-                                            "options":  [
-                                                            "temperature",
-                                                            "neighborhood",
-                                                            "corridor",
-                                                            "comfortable"
-                                                        ],
-                                            "question":  "The ___ dropped to zero degrees last night.",
-                                            "answer":  "temperature",
-                                            "hint":  "The degree of heat present in a place",
-                                            "voice_input":  false,
-                                            "example_sentence":  "What\u0027s the temperature outside?",
-                                            "media":  {
-
-                                                      }
-                                        },
-                                        {
-                                            "id":  "b61_03",
-                                            "type":  "sentence_ordering",
-                                            "words":  [
-                                                          "it",
-                                                          "usually",
-                                                          "snows",
-                                                          "heavily",
-                                                          "in",
-                                                          "the",
-                                                          "mountains",
-                                                          "during",
-                                                          "winter"
-                                                      ],
-                                            "question":  "Order the sentence about winter weather.",
-                                            "answer":  "it usually snows heavily in the mountains during winter",
-                                            "hint":  "Subject + Adverb + Verb + Adverb + Prepositional phrases",
-                                            "voice_input":  false,
-                                            "example_sentence":  "It usually snows heavily in the mountains during winter.",
-                                            "media":  {
-
-                                                      }
-                                        },
-                                        {
-                                            "id":  "b61_04",
-                                            "type":  "matching",
-                                            "words":  [
-                                                          "sunny",
-                                                          "bright",
-                                                          "cloudy",
-                                                          "overcast"
-                                                      ],
-                                            "question":  "Match the weather conditions to their synonyms.",
-                                            "pairs":  [
-                                                          {
-                                                              "left":  "sunny",
-                                                              "right":  "bright"
-                                                          },
-                                                          {
-                                                              "left":  "cloudy",
-                                                              "right":  "overcast"
-                                                          }
-                                                      ],
-                                            "answer":  [
-                                                           [
-                                                               "sunny",
-                                                               "bright"
-                                                           ],
-                                                           [
-                                                               "cloudy",
-                                                               "overcast"
-                                                           ]
-                                                       ],
-                                            "hint":  "Weather descriptions",
-                                            "voice_input":  false,
-                                            "example_sentence":  "It\u0027s sunny today.",
-                                            "media":  {
-
-                                                      }
-                                        },
-                                        {
-                                            "id":  "b61_05",
-                                            "type":  "pronunciation",
-                                            "words":  [
-                                                          "temperature"
-                                                      ],
-                                            "question":  "Say \u0027temperature\u0027. Focus on the \u0027tem\u0027 syllable.",
-                                            "answer":  "temperature",
-                                            "hint":  "The degree of heat or cold",
-                                            "voice_input":  true,
-                                            "example_sentence":  "The temperature is rising.",
-                                            "media":  {
-
-                                                      }
-                                        },
-                                        {
-                                            "id":  "b61_06",
-                                            "type":  "multiple_choice",
-                                            "options":  [
-                                                            "storm",
-                                                            "package",
-                                                            "container"
-                                                        ],
-                                            "question":  "The ___ caused a lot of damage to the coastal areas.",
-                                            "answer":  "storm",
-                                            "hint":  "A violent disturbance of the atmosphere with strong winds",
-                                            "voice_input":  false,
-                                            "example_sentence":  "The storm lasted all night.",
-                                            "media":  {
-
-                                                      }
-                                        },
-                                        {
-                                            "id":  "b61_07",
-                                            "type":  "tap_fill",
-                                            "options":  [
-                                                            "forecast",
-                                                            "basement",
-                                                            "platform",
-                                                            "efficient"
-                                                        ],
-                                            "question":  "According to the ___, it will be sunny all week.",
-                                            "answer":  "forecast",
-                                            "hint":  "A prediction of future weather",
-                                            "voice_input":  false,
-                                            "example_sentence":  "The forecast is usually accurate.",
-                                            "media":  {
-
-                                                      }
-                                        },
-                                        {
-                                            "id":  "b61_08",
-                                            "type":  "sentence_ordering",
-                                            "words":  [
-                                                          "strong",
-                                                          "winds",
-                                                          "can",
-                                                          "make",
-                                                          "driving",
-                                                          "very",
-                                                          "dangerous"
-                                                      ],
-                                            "question":  "Order the sentence about weather hazards.",
-                                            "answer":  "strong winds can make driving very dangerous",
-                                            "hint":  "Adjective + Subject + Modal + Verb + Object + Adverb + Adjective",
-                                            "voice_input":  false,
-                                            "example_sentence":  "Strong winds can make driving very dangerous.",
-                                            "media":  {
-
-                                                      }
-                                        },
-                                        {
-                                            "id":  "b61_09",
-                                            "type":  "matching",
-                                            "words":  [
-                                                          "rain",
-                                                          "precipitation",
-                                                          "wind",
-                                                          "breeze"
-                                                      ],
-                                            "question":  "Match the weather terms to related words.",
-                                            "pairs":  [
-                                                          {
-                                                              "left":  "rain",
-                                                              "right":  "precipitation"
-                                                          },
-                                                          {
-                                                              "left":  "wind",
-                                                              "right":  "breeze"
-                                                          }
-                                                      ],
-                                            "answer":  [
-                                                           [
-                                                               "rain",
-                                                               "precipitation"
-                                                           ],
-                                                           [
-                                                               "wind",
-                                                               "breeze"
-                                                           ]
-                                                       ],
-                                            "hint":  "Weather phenomena",
-                                            "voice_input":  false,
-                                            "example_sentence":  "The rain stopped an hour ago.",
-                                            "media":  {
-
-                                                      }
-                                        },
-                                        {
-                                            "id":  "b61_10",
-                                            "type":  "multiple_choice",
-                                            "options":  [
-                                                            "climate",
-                                                            "colleague",
-                                                            "passenger"
-                                                        ],
-                                            "question":  "The ___ in this region is very dry.",
-                                            "answer":  "climate",
-                                            "hint":  "The typical weather conditions in an area",
-                                            "voice_input":  false,
-                                            "example_sentence":  "I prefer a warm climate.",
-                                            "media":  {
-
-                                                      }
-                                        },
-                                        {
-                                            "id":  "b61_11",
-                                            "type":  "tap_fill",
-                                            "options":  [
-                                                            "humidity",
-                                                            "terminal",
-                                                            "avenue",
-                                                            "practical"
-                                                        ],
-                                            "question":  "The high ___ makes the heat feel worse.",
-                                            "answer":  "humidity",
-                                            "hint":  "The amount of water vapor in the air",
-                                            "voice_input":  false,
-                                            "example_sentence":  "The humidity is very high today.",
-                                            "media":  {
-
-                                                      }
-                                        },
-                                        {
-                                            "id":  "b61_12",
-                                            "type":  "sentence_ordering",
-                                            "words":  [
-                                                          "the",
-                                                          "sun",
-                                                          "sets",
-                                                          "earlier",
-                                                          "in",
-                                                          "winter",
-                                                          "than",
-                                                          "in",
-                                                          "summer"
-                                                      ],
-                                            "question":  "Order the sentence about seasonal changes.",
-                                            "answer":  "the sun sets earlier in winter than in summer",
-                                            "hint":  "Article + Subject + Verb + Comparative + Prepositional phrases",
-                                            "voice_input":  false,
-                                            "example_sentence":  "The sun sets earlier in winter than in summer.",
-                                            "media":  {
-
-                                                      }
-                                        },
-                                        {
-                                            "id":  "b61_13",
-                                            "type":  "multiple_choice",
-                                            "options":  [
-                                                            "season",
-                                                            "customer",
-                                                            "audience"
-                                                        ],
-                                            "question":  "Spring is my favorite ___ of the year.",
-                                            "answer":  "season",
-                                            "hint":  "One of the four divisions of the year",
-                                            "voice_input":  false,
-                                            "example_sentence":  "Which season do you like best?",
-                                            "media":  {
-
-                                                      }
-                                        },
-                                        {
-                                            "id":  "b61_14",
-                                            "type":  "tap_fill",
-                                            "options":  [
-                                                            "drought",
-                                                            "volunteer",
-                                                            "participant",
-                                                            "suitable"
-                                                        ],
-                                            "question":  "The ___ has lasted for three months without rain.",
-                                            "answer":  "drought",
-                                            "hint":  "A prolonged period of abnormally low rainfall",
-                                            "voice_input":  false,
-                                            "example_sentence":  "The drought affected many farmers.",
-                                            "media":  {
-
-                                                      }
-                                        },
-                                        {
-                                            "id":  "b61_15",
-                                            "type":  "pronunciation",
-                                            "words":  [
-                                                          "climate"
-                                                      ],
-                                            "question":  "Say \u0027climate\u0027. Focus on the \u0027cli\u0027 syllable.",
-                                            "answer":  "climate",
-                                            "hint":  "The weather conditions in an area over time",
-                                            "voice_input":  true,
-                                            "example_sentence":  "The climate is changing.",
-                                            "media":  {
-
-                                                      }
-                                        },
-                                        {
-                                            "id":  "b61_16",
-                                            "type":  "multiple_choice",
-                                            "options":  [
-                                                            "rainbow",
-                                                            "opinion",
-                                                            "tradition"
-                                                        ],
-                                            "question":  "We saw a beautiful ___ after the rain stopped.",
-                                            "answer":  "rainbow",
-                                            "hint":  "An arc of colors in the sky caused by sunlight and rain",
-                                            "voice_input":  false,
-                                            "example_sentence":  "Look at that rainbow!",
-                                            "media":  {
-
-                                                      }
-                                        },
-                                        {
-                                            "id":  "b61_17",
-                                            "type":  "tap_fill",
-                                            "options":  [
-                                                            "lightning",
-                                                            "memory",
-                                                            "emotion",
-                                                            "adequate"
-                                                        ],
-                                            "question":  "The ___ lit up the entire sky.",
-                                            "answer":  "lightning",
-                                            "hint":  "A flash of light in the sky during a storm",
-                                            "voice_input":  false,
-                                            "example_sentence":  "Lightning struck the tree.",
-                                            "media":  {
-
-                                                      }
-                                        },
-                                        {
-                                            "id":  "b61_18",
-                                            "type":  "matching",
-                                            "words":  [
-                                                          "thunder",
-                                                          "noise",
-                                                          "fog",
-                                                          "mist"
-                                                      ],
-                                            "question":  "Match the weather phenomena to related words.",
-                                            "pairs":  [
-                                                          {
-                                                              "left":  "thunder",
-                                                              "right":  "noise"
-                                                          },
-                                                          {
-                                                              "left":  "fog",
-                                                              "right":  "mist"
-                                                          }
-                                                      ],
-                                            "answer":  [
-                                                           [
-                                                               "thunder",
-                                                               "noise"
-                                                           ],
-                                                           [
-                                                               "fog",
-                                                               "mist"
-                                                           ]
-                                                       ],
-                                            "hint":  "Weather sounds and visibility",
-                                            "voice_input":  false,
-                                            "example_sentence":  "I heard thunder in the distance.",
-                                            "media":  {
-
-                                                      }
-                                        },
-                                        {
-                                            "id":  "b61_19",
-                                            "type":  "multiple_choice",
-                                            "options":  [
-                                                            "breeze",
-                                                            "attitude",
-                                                            "principle"
-                                                        ],
-                                            "question":  "A gentle ___ was blowing from the ocean.",
-                                            "answer":  "breeze",
-                                            "hint":  "A light wind",
-                                            "voice_input":  false,
-                                            "example_sentence":  "The breeze feels nice.",
-                                            "media":  {
-
-                                                      }
-                                        },
-                                        {
-                                            "id":  "b61_20",
-                                            "type":  "tap_fill",
-                                            "options":  [
-                                                            "shade",
-                                                            "balcony",
-                                                            "ceremony",
-                                                            "moderate"
-                                                        ],
-                                            "question":  "Let\u0027s sit in the ___ to stay cool.",
-                                            "answer":  "shade",
-                                            "hint":  "An area protected from direct sunlight",
-                                            "voice_input":  false,
-                                            "example_sentence":  "The tree provides good shade.",
-                                            "media":  {
-
-                                                      }
-                                        },
-                                        {
-                                            "id":  "b62_01",
-                                            "type":  "multiple_choice",
-                                            "options":  [
-                                                            "transportation",
-                                                            "fabric",
-                                                            "texture"
-                                                        ],
-                                            "question":  "Public ___ in this city is very efficient.",
-                                            "answer":  "transportation",
-                                            "hint":  "The system of moving people or goods from one place to another",
-                                            "voice_input":  false,
-                                            "example_sentence":  "We use public transportation every day.",
-                                            "media":  {
-
-                                                      }
-                                        },
-                                        {
-                                            "id":  "b62_02",
-                                            "type":  "tap_fill",
-                                            "options":  [
-                                                            "traffic",
-                                                            "flavor",
-                                                            "instrument",
-                                                            "convenient"
-                                                        ],
-                                            "question":  "The ___ is always heavy during rush hour.",
-                                            "answer":  "traffic",
-                                            "hint":  "Vehicles moving on roads",
-                                            "voice_input":  false,
-                                            "example_sentence":  "We were stuck in traffic for an hour.",
-                                            "media":  {
-
-                                                      }
-                                        },
-                                        {
-                                            "id":  "b62_03",
-                                            "type":  "sentence_ordering",
-                                            "words":  [
-                                                          "taking",
-                                                          "the",
-                                                          "subway",
-                                                          "is",
-                                                          "faster",
-                                                          "than",
-                                                          "driving",
-                                                          "downtown"
-                                                      ],
-                                            "question":  "Order the sentence about transportation.",
-                                            "answer":  "taking the subway is faster than driving downtown",
-                                            "hint":  "Gerund phrase + be + Comparative + than + Gerund phrase",
-                                            "voice_input":  false,
-                                            "example_sentence":  "Taking the subway is faster than driving downtown.",
-                                            "media":  {
-
-                                                      }
-                                        },
-                                        {
-                                            "id":  "b62_04",
-                                            "type":  "matching",
-                                            "words":  [
-                                                          "bus",
-                                                          "coach",
-                                                          "train",
-                                                          "railway"
-                                                      ],
-                                            "question":  "Match the transportation terms to related words.",
-                                            "pairs":  [
-                                                          {
-                                                              "left":  "bus",
-                                                              "right":  "coach"
-                                                          },
-                                                          {
-                                                              "left":  "train",
-                                                              "right":  "railway"
-                                                          }
-                                                      ],
-                                            "answer":  [
-                                                           [
-                                                               "bus",
-                                                               "coach"
-                                                           ],
-                                                           [
-                                                               "train",
-                                                               "railway"
-                                                           ]
-                                                       ],
-                                            "hint":  "Public transport",
-                                            "voice_input":  false,
-                                            "example_sentence":  "The bus arrives at 8 AM.",
-                                            "media":  {
-
-                                                      }
-                                        },
-                                        {
-                                            "id":  "b62_05",
-                                            "type":  "pronunciation",
-                                            "words":  [
-                                                          "transportation"
-                                                      ],
-                                            "question":  "Say \u0027transportation\u0027. Focus on the \u0027ta\u0027 syllable.",
-                                            "answer":  "transportation",
-                                            "hint":  "The act of moving people or things",
-                                            "voice_input":  true,
-                                            "example_sentence":  "Transportation costs are rising.",
-                                            "media":  {
-
-                                                      }
-                                        },
-                                        {
-                                            "id":  "b62_06",
-                                            "type":  "multiple_choice",
-                                            "options":  [
-                                                            "pedestrian",
-                                                            "clothing",
-                                                            "district"
-                                                        ],
-                                            "question":  "The ___ crossing is marked with white stripes.",
-                                            "answer":  "pedestrian",
-                                            "hint":  "A person walking on foot",
-                                            "voice_input":  false,
-                                            "example_sentence":  "Pedestrians have the right of way.",
-                                            "media":  {
-
-                                                      }
-                                        },
-                                        {
-                                            "id":  "b62_07",
-                                            "type":  "tap_fill",
-                                            "options":  [
-                                                            "sidewalk",
-                                                            "neighborhood",
-                                                            "corridor",
-                                                            "excellent"
-                                                        ],
-                                            "question":  "Please walk on the ___, not in the street.",
-                                            "answer":  "sidewalk",
-                                            "hint":  "A paved path for pedestrians at the side of a road",
-                                            "voice_input":  false,
-                                            "example_sentence":  "The sidewalk is very narrow here.",
-                                            "media":  {
-
-                                                      }
-                                        },
-                                        {
-                                            "id":  "b62_08",
-                                            "type":  "sentence_ordering",
-                                            "words":  [
-                                                          "you",
-                                                          "must",
-                                                          "wear",
-                                                          "a",
-                                                          "helmet",
-                                                          "when",
-                                                          "riding",
-                                                          "a",
-                                                          "bicycle"
-                                                      ],
-                                            "question":  "Order the sentence about safety.",
-                                            "answer":  "you must wear a helmet when riding a bicycle",
-                                            "hint":  "Subject + Modal + Verb + Object + Conjunction + Gerund phrase",
-                                            "voice_input":  false,
-                                            "example_sentence":  "You must wear a helmet when riding a bicycle.",
-                                            "media":  {
-
-                                                      }
-                                        },
-                                        {
-                                            "id":  "b62_09",
-                                            "type":  "matching",
-                                            "words":  [
-                                                          "bicycle",
-                                                          "bike",
-                                                          "motorcycle",
-                                                          "motorbike"
-                                                      ],
-                                            "question":  "Match the vehicles to their informal names.",
-                                            "pairs":  [
-                                                          {
-                                                              "left":  "bicycle",
-                                                              "right":  "bike"
-                                                          },
-                                                          {
-                                                              "left":  "motorcycle",
-                                                              "right":  "motorbike"
-                                                          }
-                                                      ],
-                                            "answer":  [
-                                                           [
-                                                               "bicycle",
-                                                               "bike"
-                                                           ],
-                                                           [
-                                                               "motorcycle",
-                                                               "motorbike"
-                                                           ]
-                                                       ],
-                                            "hint":  "Two-wheeled vehicles",
-                                            "voice_input":  false,
-                                            "example_sentence":  "I ride my bicycle to work.",
-                                            "media":  {
-
-                                                      }
-                                        },
-                                        {
-                                            "id":  "b62_10",
-                                            "type":  "multiple_choice",
-                                            "options":  [
-                                                            "parking",
-                                                            "basement",
-                                                            "platform"
-                                                        ],
-                                            "question":  "There\u0027s a ___ lot behind the building.",
-                                            "answer":  "parking",
-                                            "hint":  "A place where vehicles can be left",
-                                            "voice_input":  false,
-                                            "example_sentence":  "Parking is free on Sundays.",
-                                            "media":  {
-
-                                                      }
-                                        },
-                                        {
-                                            "id":  "b62_11",
-                                            "type":  "tap_fill",
-                                            "options":  [
-                                                            "license",
-                                                            "terminal",
-                                                            "avenue",
-                                                            "appropriate"
-                                                        ],
-                                            "question":  "You need a driver\u0027s ___ to operate a car legally.",
-                                            "answer":  "license",
-                                            "hint":  "An official permit to do something",
-                                            "voice_input":  false,
-                                            "example_sentence":  "I got my driver\u0027s license last year.",
-                                            "media":  {
-
-                                                      }
-                                        },
-                                        {
-                                            "id":  "b62_12",
-                                            "type":  "sentence_ordering",
-                                            "words":  [
-                                                          "always",
-                                                          "check",
-                                                          "your",
-                                                          "mirrors",
-                                                          "before",
-                                                          "changing",
-                                                          "lanes"
-                                                      ],
-                                            "question":  "Order the sentence about driving safety.",
-                                            "answer":  "always check your mirrors before changing lanes",
-                                            "hint":  "Adverb + Verb + Object + Preposition + Gerund phrase",
-                                            "voice_input":  false,
-                                            "example_sentence":  "Always check your mirrors before changing lanes.",
-                                            "media":  {
-
-                                                      }
-                                        },
-                                        {
-                                            "id":  "b62_13",
-                                            "type":  "multiple_choice",
-                                            "options":  [
-                                                            "accident",
-                                                            "colleague",
-                                                            "passenger"
-                                                        ],
-                                            "question":  "There was a serious ___ on the highway this morning.",
-                                            "answer":  "accident",
-                                            "hint":  "An unfortunate incident that happens unexpectedly",
-                                            "voice_input":  false,
-                                            "example_sentence":  "The accident caused a traffic jam.",
-                                            "media":  {
-
-                                                      }
-                                        },
-                                        {
-                                            "id":  "b62_14",
-                                            "type":  "tap_fill",
-                                            "options":  [
-                                                            "speed",
-                                                            "customer",
-                                                            "audience",
-                                                            "sufficient"
-                                                        ],
-                                            "question":  "The ___ limit on this road is 50 kilometers per hour.",
-                                            "answer":  "speed",
-                                            "hint":  "The rate at which something moves",
-                                            "voice_input":  false,
-                                            "example_sentence":  "Don\u0027t exceed the speed limit.",
-                                            "media":  {
-
-                                                      }
-                                        },
-                                        {
-                                            "id":  "b62_15",
-                                            "type":  "pronunciation",
-                                            "words":  [
-                                                          "pedestrian"
-                                                      ],
-                                            "question":  "Say \u0027pedestrian\u0027. Focus on the \u0027des\u0027 syllable.",
-                                            "answer":  "pedestrian",
-                                            "hint":  "A person walking",
-                                            "voice_input":  true,
-                                            "example_sentence":  "The pedestrian waited for the light.",
-                                            "media":  {
-
-                                                      }
-                                        },
-                                        {
-                                            "id":  "b62_16",
-                                            "type":  "multiple_choice",
-                                            "options":  [
-                                                            "intersection",
-                                                            "volunteer",
-                                                            "participant"
-                                                        ],
-                                            "question":  "Turn left at the next ___.",
-                                            "answer":  "intersection",
-                                            "hint":  "A place where two or more roads meet",
-                                            "voice_input":  false,
-                                            "example_sentence":  "The intersection is very busy.",
-                                            "media":  {
-
-                                                      }
-                                        },
-                                        {
-                                            "id":  "b62_17",
-                                            "type":  "tap_fill",
-                                            "options":  [
-                                                            "direction",
-                                                            "opinion",
-                                                            "tradition",
-                                                            "typical"
-                                                        ],
-                                            "question":  "Can you give me ___ to the nearest gas station?",
-                                            "answer":  "direction",
-                                            "hint":  "Instructions on how to reach a destination",
-                                            "voice_input":  false,
-                                            "example_sentence":  "I need directions to the airport.",
-                                            "media":  {
-
-                                                      }
-                                        },
-                                        {
-                                            "id":  "b62_18",
-                                            "type":  "matching",
-                                            "words":  [
-                                                          "highway",
-                                                          "freeway",
-                                                          "street",
-                                                          "road"
-                                                      ],
-                                            "question":  "Match the road types to their synonyms.",
-                                            "pairs":  [
-                                                          {
-                                                              "left":  "highway",
-                                                              "right":  "freeway"
-                                                          },
-                                                          {
-                                                              "left":  "street",
-                                                              "right":  "road"
-                                                          }
-                                                      ],
-                                            "answer":  [
-                                                           [
-                                                               "highway",
-                                                               "freeway"
-                                                           ],
-                                                           [
-                                                               "street",
-                                                               "road"
-                                                           ]
-                                                       ],
-                                            "hint":  "Types of roads",
-                                            "voice_input":  false,
-                                            "example_sentence":  "The highway is closed for repairs.",
-                                            "media":  {
-
-                                                      }
-                                        },
-                                        {
-                                            "id":  "b62_19",
-                                            "type":  "multiple_choice",
-                                            "options":  [
-                                                            "destination",
-                                                            "memory",
-                                                            "emotion"
-                                                        ],
-                                            "question":  "We finally reached our ___ after a long journey.",
-                                            "answer":  "destination",
-                                            "hint":  "The place to which someone is going",
-                                            "voice_input":  false,
-                                            "example_sentence":  "What\u0027s your final destination?",
-                                            "media":  {
-
-                                                      }
-                                        },
-                                        {
-                                            "id":  "b62_20",
-                                            "type":  "tap_fill",
-                                            "options":  [
-                                                            "journey",
-                                                            "attitude",
-                                                            "principle",
-                                                            "obvious"
-                                                        ],
-                                            "question":  "The ___ from Paris to Rome took twelve hours.",
-                                            "answer":  "journey",
-                                            "hint":  "An act of traveling from one place to another",
-                                            "voice_input":  false,
-                                            "example_sentence":  "Have a safe journey!",
-                                            "media":  {
-
-                                                      }
-                                        }
-                                    ],
-                          "Count":  40
-                      },
-                      {
-                          "id":  "b63_01",
-                          "type":  "multiple_choice",
-                          "options":  [
-                                          "technology",
-                                          "balcony",
-                                          "ceremony"
-                                      ],
-                          "question":  "Modern ___ has changed the way we communicate.",
-                          "answer":  "technology",
-                          "hint":  "The application of scientific knowledge for practical purposes",
-                          "voice_input":  false,
-                          "example_sentence":  "Technology is advancing rapidly.",
-                          "media":  {
-
-                                    }
-                      },
-                      {
-                          "id":  "b63_02",
-                          "type":  "tap_fill",
-                          "options":  [
-                                          "computer",
-                                          "fabric",
-                                          "texture",
-                                          "anxious"
-                                      ],
-                          "question":  "I use my ___ for work and entertainment.",
-                          "answer":  "computer",
-                          "hint":  "An electronic device for processing data",
-                          "voice_input":  false,
-                          "example_sentence":  "My computer is very fast.",
-                          "media":  {
-
-                                    }
-                      },
-                      {
-                          "id":  "b63_03",
-                          "type":  "sentence_ordering",
-                          "words":  [
-                                        "smartphones",
-                                        "have",
-                                        "become",
-                                        "an",
-                                        "essential",
-                                        "part",
-                                        "of",
-                                        "daily",
-                                        "life"
-                                    ],
-                          "question":  "Order the sentence about modern devices.",
-                          "answer":  "smartphones have become an essential part of daily life",
-                          "hint":  "Subject + Verb + Complement + Prepositional phrase",
-                          "voice_input":  false,
-                          "example_sentence":  "Smartphones have become an essential part of daily life.",
-                          "media":  {
-
-                                    }
-                      },
-                      {
-                          "id":  "b63_04",
-                          "type":  "matching",
-                          "words":  [
-                                        "internet",
-                                        "web",
-                                        "software",
-                                        "program"
-                                    ],
-                          "question":  "Match the technology terms to their synonyms.",
-                          "pairs":  [
-                                        {
-                                            "left":  "internet",
-                                            "right":  "web"
-                                        },
-                                        {
-                                            "left":  "software",
-                                            "right":  "program"
-                                        }
-                                    ],
-                          "answer":  [
-                                         [
-                                             "internet",
-                                             "web"
-                                         ],
-                                         [
-                                             "software",
-                                             "program"
-                                         ]
-                                     ],
-                          "hint":  "Digital technology",
-                          "voice_input":  false,
-                          "example_sentence":  "The internet is very useful.",
-                          "media":  {
-
-                                    }
-                      },
-                      {
-                          "id":  "b63_05",
-                          "type":  "pronunciation",
-                          "words":  [
-                                        "technology"
-                                    ],
-                          "question":  "Say \u0027technology\u0027. Focus on the \u0027nol\u0027 syllable.",
-                          "answer":  "technology",
-                          "hint":  "Scientific knowledge applied practically",
-                          "voice_input":  true,
-                          "example_sentence":  "Technology helps us every day.",
-                          "media":  {
-
-                                    }
-                      },
-                      {
-                          "id":  "b63_06",
-                          "type":  "multiple_choice",
-                          "options":  [
-                                          "application",
-                                          "flavor",
-                                          "instrument"
-                                      ],
-                          "question":  "I downloaded a new ___ on my phone to learn languages.",
-                          "answer":  "application",
-                          "hint":  "A program designed for a specific purpose",
-                          "voice_input":  false,
-                          "example_sentence":  "This application is very helpful.",
-                          "media":  {
-
-                                    }
-                      },
-                      {
-                          "id":  "b63_07",
-                          "type":  "tap_fill",
-                          "options":  [
-                                          "password",
-                                          "clothing",
-                                          "district",
-                                          "curious"
-                                      ],
-                          "question":  "Don\u0027t share your ___ with anyone.",
-                          "answer":  "password",
-                          "hint":  "A secret word or phrase used for security",
-                          "voice_input":  false,
-                          "example_sentence":  "I forgot my password.",
-                          "media":  {
-
-                                    }
-                      },
-                      {
-                          "id":  "b63_08",
-                          "type":  "sentence_ordering",
-                          "words":  [
-                                        "you",
-                                        "should",
-                                        "update",
-                                        "your",
-                                        "software",
-                                        "regularly",
-                                        "for",
-                                        "security"
-                                    ],
-                          "question":  "Order the sentence about digital safety.",
-                          "answer":  "you should update your software regularly for security",
-                          "hint":  "Subject + Modal + Verb + Object + Adverb + Prepositional phrase",
-                          "voice_input":  false,
-                          "example_sentence":  "You should update your software regularly for security.",
-                          "media":  {
-
-                                    }
-                      },
-                      {
-                          "id":  "b63_09",
-                          "type":  "matching",
-                          "words":  [
-                                        "download",
-                                        "get",
-                                        "upload",
-                                        "send"
-                                    ],
-                          "question":  "Match the digital actions to simpler verbs.",
-                          "pairs":  [
-                                        {
-                                            "left":  "download",
-                                            "right":  "get"
-                                        },
-                                        {
-                                            "left":  "upload",
-                                            "right":  "send"
-                                        }
-                                    ],
-                          "answer":  [
-                                         [
-                                             "download",
-                                             "get"
-                                         ],
-                                         [
-                                             "upload",
-                                             "send"
-                                         ]
-                                     ],
-                          "hint":  "Data transfer",
-                          "voice_input":  false,
-                          "example_sentence":  "I need to download this file.",
-                          "media":  {
-
-                                    }
-                      },
-                      {
-                          "id":  "b63_10",
-                          "type":  "multiple_choice",
-                          "options":  [
-                                          "website",
-                                          "neighborhood",
-                                          "corridor"
-                                      ],
-                          "question":  "Visit our ___ to learn more about our products.",
-                          "answer":  "website",
-                          "hint":  "A set of web pages on the internet",
-                          "voice_input":  false,
-                          "example_sentence":  "The website is easy to navigate.",
-                          "media":  {
-
-                                    }
-                      },
-                      {
-                          "id":  "b63_11",
-                          "type":  "tap_fill",
-                          "options":  [
-                                          "email",
-                                          "basement",
-                                          "platform",
-                                          "enthusiastic"
-                                      ],
-                          "question":  "Please send me an ___ with the details.",
-                          "answer":  "email",
-                          "hint":  "Electronic mail",
-                          "voice_input":  false,
-                          "example_sentence":  "I check my email every morning.",
-                          "media":  {
-
-                                    }
-                      },
-                      {
-                          "id":  "b63_12",
-                          "type":  "sentence_ordering",
-                          "words":  [
-                                        "social",
-                                        "media",
-                                        "connects",
-                                        "people",
-                                        "from",
-                                        "around",
-                                        "the",
-                                        "world"
-                                    ],
-                          "question":  "Order the sentence about online platforms.",
-                          "answer":  "social media connects people from around the world",
-                          "hint":  "Subject (Adjective + Noun) + Verb + Object + Prepositional phrase",
-                          "voice_input":  false,
-                          "example_sentence":  "Social media connects people from around the world.",
-                          "media":  {
-
-                                    }
-                      },
-                      {
-                          "id":  "b63_13",
-                          "type":  "multiple_choice",
-                          "options":  [
-                                          "keyboard",
-                                          "terminal",
-                                          "avenue"
-                                      ],
-                          "question":  "The ___ on my laptop is very comfortable to type on.",
-                          "answer":  "keyboard",
-                          "hint":  "A panel of keys for typing",
-                          "voice_input":  false,
-                          "example_sentence":  "I need a new keyboard.",
-                          "media":  {
-
-                                    }
-                      },
-                      {
-                          "id":  "b63_14",
-                          "type":  "tap_fill",
-                          "options":  [
-                                          "screen",
-                                          "colleague",
-                                          "passenger",
-                                          "grateful"
-                                      ],
-                          "question":  "The ___ on this phone is very bright and clear.",
-                          "answer":  "screen",
-                          "hint":  "The display surface of a device",
-                          "voice_input":  false,
-                          "example_sentence":  "I cracked my phone screen.",
-                          "media":  {
-
-                                    }
-                      },
-                      {
-                          "id":  "b63_15",
-                          "type":  "pronunciation",
-                          "words":  [
-                                        "application"
-                                    ],
-                          "question":  "Say \u0027application\u0027. Focus on the \u0027ca\u0027 syllable.",
-                          "answer":  "application",
-                          "hint":  "A software program",
-                          "voice_input":  true,
-                          "example_sentence":  "Download the application now.",
-                          "media":  {
-
-                                    }
-                      },
-                      {
-                          "id":  "b63_16",
-                          "type":  "multiple_choice",
-                          "options":  [
-                                          "battery",
-                                          "customer",
-                                          "audience"
-                                      ],
-                          "question":  "My phone\u0027s ___ is running low.",
-                          "answer":  "battery",
-                          "hint":  "A device that stores electrical energy",
-                          "voice_input":  false,
-                          "example_sentence":  "I need to charge the battery.",
-                          "media":  {
-
-                                    }
-                      },
-                      {
-                          "id":  "b63_17",
-                          "type":  "tap_fill",
-                          "options":  [
-                                          "connection",
-                                          "volunteer",
-                                          "participant",
-                                          "humble"
-                                      ],
-                          "question":  "The internet ___ is very slow today.",
-                          "answer":  "connection",
-                          "hint":  "A link between devices or networks",
-                          "voice_input":  false,
-                          "example_sentence":  "I have a good connection here.",
-                          "media":  {
-
-                                    }
-                      },
-                      {
-                          "id":  "b63_18",
-                          "type":  "matching",
-                          "words":  [
-                                        "search",
-                                        "look",
-                                        "click",
-                                        "press"
-                                    ],
-                          "question":  "Match the digital actions to physical equivalents.",
-                          "pairs":  [
-                                        {
-                                            "left":  "search",
-                                            "right":  "look"
-                                        },
-                                        {
-                                            "left":  "click",
-                                            "right":  "press"
-                                        }
-                                    ],
-                          "answer":  [
-                                         [
-                                             "search",
-                                             "look"
-                                         ],
-                                         [
-                                             "click",
-                                             "press"
-                                         ]
-                                     ],
-                          "hint":  "Computer actions",
-                          "voice_input":  false,
-                          "example_sentence":  "Search for the information online.",
-                          "media":  {
-
-                                    }
-                      },
-                      {
-                          "id":  "b63_19",
-                          "type":  "multiple_choice",
-                          "options":  [
-                                          "device",
-                                          "opinion",
-                                          "tradition"
-                                      ],
-                          "question":  "This ___ can translate over 100 languages instantly.",
-                          "answer":  "device",
-                          "hint":  "A piece of equipment for a particular purpose",
-                          "voice_input":  false,
-                          "example_sentence":  "I bought a new device.",
-                          "media":  {
-
-                                    }
-                      },
-                      {
-                          "id":  "b63_20",
-                          "type":  "tap_fill",
-                          "options":  [
-                                          "charger",
-                                          "memory",
-                                          "emotion",
-                                          "ordinary"
-                                      ],
-                          "question":  "I forgot to bring my phone ___.",
-                          "answer":  "charger",
-                          "hint":  "A device that supplies electrical power",
-                          "voice_input":  false,
-                          "example_sentence":  "Where is my charger?",
-                          "media":  {
-
-                                    }
-                      },
-                      {
-                          "id":  "b64_01",
-                          "type":  "multiple_choice",
-                          "options":  [
-                                          "hobby",
-                                          "attitude",
-                                          "principle"
-                                      ],
-                          "question":  "Photography is my favorite ___.",
-                          "answer":  "hobby",
-                          "hint":  "An activity done for pleasure in one\u0027s free time",
-                          "voice_input":  false,
-                          "example_sentence":  "What\u0027s your hobby?",
-                          "media":  {
-
-                                    }
-                      },
-                      {
-                          "id":  "b64_02",
-                          "type":  "tap_fill",
-                          "options":  [
-                                          "interest",
-                                          "avenue",
-                                          "balcony",
-                                          "practical"
-                                      ],
-                          "question":  "We share a common ___ in classical music.",
-                          "answer":  "interest",
-                          "hint":  "A feeling of wanting to know or learn about something",
-                          "voice_input":  false,
-                          "example_sentence":  "She has many interests.",
-                          "media":  {
-
-                                    }
-                      },
-                      {
-                          "id":  "b64_03",
-                          "type":  "sentence_ordering",
-                          "words":  [
-                                        "collecting",
-                                        "stamps",
-                                        "can",
-                                        "be",
-                                        "a",
-                                        "fascinating",
-                                        "and",
-                                        "educational",
-                                        "hobby"
-                                    ],
-                          "question":  "Order the sentence about hobbies.",
-                          "answer":  "collecting stamps can be a fascinating and educational hobby",
-                          "hint":  "Gerund phrase + Modal + be + Adjectives + Noun",
-                          "voice_input":  false,
-                          "example_sentence":  "Collecting stamps can be a fascinating and educational hobby.",
-                          "media":  {
-
-                                    }
-                      },
-                      {
-                          "id":  "b64_04",
-                          "type":  "matching",
-                          "words":  [
-                                        "painting",
-                                        "art",
-                                        "gardening",
-                                        "plants"
-                                    ],
-                          "question":  "Match the hobbies to what they involve.",
-                          "pairs":  [
-                                        {
-                                            "left":  "painting",
-                                            "right":  "art"
-                                        },
-                                        {
-                                            "left":  "gardening",
-                                            "right":  "plants"
-                                        }
-                                    ],
-                          "answer":  [
-                                         [
-                                             "painting",
-                                             "art"
-                                         ],
-                                         [
-                                             "gardening",
-                                             "plants"
-                                         ]
-                                     ],
-                          "hint":  "Creative activities",
-                          "voice_input":  false,
-                          "example_sentence":  "I enjoy painting landscapes.",
-                          "media":  {
-
-                                    }
-                      },
-                      {
-                          "id":  "b64_05",
-                          "type":  "pronunciation",
-                          "words":  [
-                                        "hobby"
-                                    ],
-                          "question":  "Say \u0027hobby\u0027. Focus on the \u0027hob\u0027 syllable.",
-                          "answer":  "hobby",
-                          "hint":  "A leisure activity",
-                          "voice_input":  true,
-                          "example_sentence":  "Reading is a great hobby.",
-                          "media":  {
-
-                                    }
-                      },
-                      {
-                          "id":  "b64_06",
-                          "type":  "multiple_choice",
-                          "options":  [
-                                          "collection",
-                                          "ceremony",
-                                          "fabric"
-                                      ],
-                          "question":  "He has an impressive ___ of vintage coins.",
-                          "answer":  "collection",
-                          "hint":  "A group of objects gathered together",
-                          "voice_input":  false,
-                          "example_sentence":  "My collection is growing.",
-                          "media":  {
-
-                                    }
-                      },
-                      {
-                          "id":  "b64_07",
-                          "type":  "tap_fill",
-                          "options":  [
-                                          "creative",
-                                          "texture",
-                                          "flavor",
-                                          "adequate"
-                                      ],
-                          "question":  "She\u0027s very ___ and loves making things by hand.",
-                          "answer":  "creative",
-                          "hint":  "Having the ability to create or imagine new things",
-                          "voice_input":  false,
-                          "example_sentence":  "He has a creative mind.",
-                          "media":  {
-
-                                    }
-                      },
-                      {
-                          "id":  "b64_08",
-                          "type":  "sentence_ordering",
-                          "words":  [
-                                        "playing",
-                                        "chess",
-                                        "improves",
-                                        "your",
-                                        "strategic",
-                                        "thinking",
-                                        "skills"
-                                    ],
-                          "question":  "Order the sentence about mental activities.",
-                          "answer":  "playing chess improves your strategic thinking skills",
-                          "hint":  "Gerund phrase + Verb + Possessive + Adjective + Noun phrase",
-                          "voice_input":  false,
-                          "example_sentence":  "Playing chess improves your strategic thinking skills.",
-                          "media":  {
-
-                                    }
-                      },
-                      {
-                          "id":  "b64_09",
-                          "type":  "matching",
-                          "words":  [
-                                        "knitting",
-                                        "yarn",
-                                        "photography",
-                                        "camera"
-                                    ],
-                          "question":  "Match the hobbies to their tools.",
-                          "pairs":  [
-                                        {
-                                            "left":  "knitting",
-                                            "right":  "yarn"
-                                        },
-                                        {
-                                            "left":  "photography",
-                                            "right":  "camera"
-                                        }
-                                    ],
-                          "answer":  [
-                                         [
-                                             "knitting",
-                                             "yarn"
-                                         ],
-                                         [
-                                             "photography",
-                                             "camera"
-                                         ]
-                                     ],
-                          "hint":  "Hobby equipment",
-                          "voice_input":  false,
-                          "example_sentence":  "Knitting requires patience.",
-                          "media":  {
-
-                                    }
-                      },
-                      {
-                          "id":  "b64_10",
-                          "type":  "multiple_choice",
-                          "options":  [
-                                          "skill",
-                                          "instrument",
-                                          "clothing"
-                                      ],
-                          "question":  "Learning a new ___ takes time and practice.",
-                          "answer":  "skill",
-                          "hint":  "The ability to do something well",
-                          "voice_input":  false,
-                          "example_sentence":  "She has many useful skills.",
-                          "media":  {
-
-                                    }
-                      },
-                      {
-                          "id":  "b64_11",
-                          "type":  "tap_fill",
-                          "options":  [
-                                          "talent",
-                                          "district",
-                                          "neighborhood",
-                                          "sufficient"
-                                      ],
-                          "question":  "He has a natural ___ for music.",
-                          "answer":  "talent",
-                          "hint":  "A natural ability or skill",
-                          "voice_input":  false,
-                          "example_sentence":  "She\u0027s a woman of many talents.",
-                          "media":  {
-
-                                    }
-                      },
-                      {
-                          "id":  "b64_12",
-                          "type":  "sentence_ordering",
-                          "words":  [
-                                        "joining",
-                                        "a",
-                                        "club",
-                                        "is",
-                                        "a",
-                                        "great",
-                                        "way",
-                                        "to",
-                                        "meet",
-                                        "people"
-                                    ],
-                          "question":  "Order the sentence about social activities.",
-                          "answer":  "joining a club is a great way to meet people",
-                          "hint":  "Gerund phrase + be + Adjective + Noun phrase + Infinitive phrase",
-                          "voice_input":  false,
-                          "example_sentence":  "Joining a club is a great way to meet people.",
-                          "media":  {
-
-                                    }
-                      },
-                      {
-                          "id":  "b64_13",
-                          "type":  "multiple_choice",
-                          "options":  [
-                                          "craft",
-                                          "corridor",
-                                          "basement"
-                                      ],
-                          "question":  "She enjoys doing arts and ___ projects.",
-                          "answer":  "craft",
-                          "hint":  "An activity involving skill in making things by hand",
-                          "voice_input":  false,
-                          "example_sentence":  "This craft requires patience.",
-                          "media":  {
-
-                                    }
-                      },
-                      {
-                          "id":  "b64_14",
-                          "type":  "tap_fill",
-                          "options":  [
-                                          "leisure",
-                                          "platform",
-                                          "terminal",
-                                          "moderate"
-                                      ],
-                          "question":  "I like to read during my ___ time.",
-                          "answer":  "leisure",
-                          "hint":  "Free time when you\u0027re not working",
-                          "voice_input":  false,
-                          "example_sentence":  "Leisure activities are important.",
-                          "media":  {
-
-                                    }
-                      },
-                      {
-                          "id":  "b64_15",
-                          "type":  "pronunciation",
-                          "words":  [
-                                        "creative"
-                                    ],
-                          "question":  "Say \u0027creative\u0027. Focus on the \u0027a\u0027 syllable.",
-                          "answer":  "creative",
-                          "hint":  "Having imagination and artistic ability",
-                          "voice_input":  true,
-                          "example_sentence":  "She\u0027s very creative.",
-                          "media":  {
-
-                                    }
-                      },
-                      {
-                          "id":  "b64_16",
-                          "type":  "multiple_choice",
-                          "options":  [
-                                          "puzzle",
-                                          "colleague",
-                                          "passenger"
-                                      ],
-                          "question":  "Solving this ___ took me two hours.",
-                          "answer":  "puzzle",
-                          "hint":  "A game or problem that tests ingenuity",
-                          "voice_input":  false,
-                          "example_sentence":  "I love doing puzzles.",
-                          "media":  {
-
-                                    }
-                      },
-                      {
-                          "id":  "b64_17",
-                          "type":  "tap_fill",
-                          "options":  [
-                                          "relaxing",
-                                          "customer",
-                                          "audience",
-                                          "typical"
-                                      ],
-                          "question":  "Fishing is a very ___ activity.",
-                          "answer":  "relaxing",
-                          "hint":  "Making you feel calm and less worried",
-                          "voice_input":  false,
-                          "example_sentence":  "This music is very relaxing.",
-                          "media":  {
-
-                                    }
-                      },
-                      {
-                          "id":  "b64_18",
-                          "type":  "matching",
-                          "words":  [
-                                        "cooking",
-                                        "recipe",
-                                        "hiking",
-                                        "trail"
-                                    ],
-                          "question":  "Match the activities to what they use.",
-                          "pairs":  [
-                                        {
-                                            "left":  "cooking",
-                                            "right":  "recipe"
-                                        },
-                                        {
-                                            "left":  "hiking",
-                                            "right":  "trail"
-                                        }
-                                    ],
-                          "answer":  [
-                                         [
-                                             "cooking",
-                                             "recipe"
-                                         ],
-                                         [
-                                             "hiking",
-                                             "trail"
-                                         ]
-                                     ],
-                          "hint":  "Activity essentials",
-                          "voice_input":  false,
-                          "example_sentence":  "Cooking is my passion.",
-                          "media":  {
-
-                                    }
-                      },
-                      {
-                          "id":  "b64_19",
-                          "type":  "multiple_choice",
-                          "options":  [
-                                          "pastime",
-                                          "volunteer",
-                                          "participant"
-                                      ],
-                          "question":  "Reading has always been my favorite ___.",
-                          "answer":  "pastime",
-                          "hint":  "An activity done for enjoyment when not working",
-                          "voice_input":  false,
-                          "example_sentence":  "What\u0027s your favorite pastime?",
-                          "media":  {
-
-                                    }
-                      },
-                      {
-                          "id":  "b64_20",
-                          "type":  "tap_fill",
-                          "options":  [
-                                          "enjoyable",
-                                          "opinion",
-                                          "tradition",
-                                          "obvious"
-                                      ],
-                          "question":  "I find swimming very ___.",
-                          "answer":  "enjoyable",
-                          "hint":  "Giving pleasure or satisfaction",
-                          "voice_input":  false,
-                          "example_sentence":  "The concert was very enjoyable.",
-                          "media":  {
-
-                                    }
-                      }
-                  ]
+{
+    "exercises": [
+        {
+            "id": "b61_01",
+            "type": "multiple_choice",
+            "options": [
+                "weather",
+                "vehicle",
+                "document"
+            ],
+            "question": "The ___ forecast says it will rain tomorrow.",
+            "answer": "weather",
+            "hint": "The state of the atmosphere at a particular time and place",
+            "voice_input": false,
+            "example_sentence": "The weather is beautiful today.",
+            "media": {}
+        },
+        {
+            "id": "b61_02",
+            "type": "tap_fill",
+            "options": [
+                "temperature",
+                "neighborhood",
+                "corridor",
+                "comfortable"
+            ],
+            "question": "The ___ dropped to zero degrees last night.",
+            "answer": "temperature",
+            "hint": "The degree of heat present in a place",
+            "voice_input": false,
+            "example_sentence": "What's the temperature outside?",
+            "media": {}
+        },
+        {
+            "id": "b61_03",
+            "type": "sentence_ordering",
+            "words": [
+                "it",
+                "usually",
+                "snows",
+                "heavily",
+                "in",
+                "the",
+                "mountains",
+                "during",
+                "winter"
+            ],
+            "question": "Order the sentence about winter weather.",
+            "answer": "it usually snows heavily in the mountains during winter",
+            "hint": "Subject + Adverb + Verb + Adverb + Prepositional phrases",
+            "voice_input": false,
+            "example_sentence": "It usually snows heavily in the mountains during winter.",
+            "media": {}
+        },
+        {
+            "id": "b61_04",
+            "type": "matching",
+            "words": [
+                "sunny",
+                "bright",
+                "cloudy",
+                "overcast"
+            ],
+            "question": "Match the weather conditions to their synonyms.",
+            "pairs": [
+                {
+                    "left": "sunny",
+                    "right": "bright"
+                },
+                {
+                    "left": "cloudy",
+                    "right": "overcast"
+                }
+            ],
+            "answer": [
+                [
+                    "sunny",
+                    "bright"
+                ],
+                [
+                    "cloudy",
+                    "overcast"
+                ]
+            ],
+            "hint": "Weather descriptions",
+            "voice_input": false,
+            "example_sentence": "It's sunny today.",
+            "media": {}
+        },
+        {
+            "id": "b61_05",
+            "type": "pronunciation",
+            "words": [
+                "temperature"
+            ],
+            "question": "Say 'temperature'. Focus on the 'tem' syllable.",
+            "answer": "temperature",
+            "hint": "The degree of heat or cold",
+            "voice_input": true,
+            "example_sentence": "The temperature is rising.",
+            "media": {}
+        },
+        {
+            "id": "b61_06",
+            "type": "multiple_choice",
+            "options": [
+                "storm",
+                "package",
+                "container"
+            ],
+            "question": "The ___ caused a lot of damage to the coastal areas.",
+            "answer": "storm",
+            "hint": "A violent disturbance of the atmosphere with strong winds",
+            "voice_input": false,
+            "example_sentence": "The storm lasted all night.",
+            "media": {}
+        },
+        {
+            "id": "b61_07",
+            "type": "tap_fill",
+            "options": [
+                "forecast",
+                "basement",
+                "platform",
+                "efficient"
+            ],
+            "question": "According to the ___, it will be sunny all week.",
+            "answer": "forecast",
+            "hint": "A prediction of future weather",
+            "voice_input": false,
+            "example_sentence": "The forecast is usually accurate.",
+            "media": {}
+        },
+        {
+            "id": "b61_08",
+            "type": "sentence_ordering",
+            "words": [
+                "strong",
+                "winds",
+                "can",
+                "make",
+                "driving",
+                "very",
+                "dangerous"
+            ],
+            "question": "Order the sentence about weather hazards.",
+            "answer": "strong winds can make driving very dangerous",
+            "hint": "Adjective + Subject + Modal + Verb + Object + Adverb + Adjective",
+            "voice_input": false,
+            "example_sentence": "Strong winds can make driving very dangerous.",
+            "media": {}
+        },
+        {
+            "id": "b61_09",
+            "type": "matching",
+            "words": [
+                "rain",
+                "precipitation",
+                "wind",
+                "breeze"
+            ],
+            "question": "Match the weather terms to related words.",
+            "pairs": [
+                {
+                    "left": "rain",
+                    "right": "precipitation"
+                },
+                {
+                    "left": "wind",
+                    "right": "breeze"
+                }
+            ],
+            "answer": [
+                [
+                    "rain",
+                    "precipitation"
+                ],
+                [
+                    "wind",
+                    "breeze"
+                ]
+            ],
+            "hint": "Weather phenomena",
+            "voice_input": false,
+            "example_sentence": "The rain stopped an hour ago.",
+            "media": {}
+        },
+        {
+            "id": "b61_10",
+            "type": "multiple_choice",
+            "options": [
+                "climate",
+                "colleague",
+                "passenger"
+            ],
+            "question": "The ___ in this region is very dry.",
+            "answer": "climate",
+            "hint": "The typical weather conditions in an area",
+            "voice_input": false,
+            "example_sentence": "I prefer a warm climate.",
+            "media": {}
+        },
+        {
+            "id": "b61_11",
+            "type": "tap_fill",
+            "options": [
+                "humidity",
+                "terminal",
+                "avenue",
+                "practical"
+            ],
+            "question": "The high ___ makes the heat feel worse.",
+            "answer": "humidity",
+            "hint": "The amount of water vapor in the air",
+            "voice_input": false,
+            "example_sentence": "The humidity is very high today.",
+            "media": {}
+        },
+        {
+            "id": "b61_12",
+            "type": "sentence_ordering",
+            "words": [
+                "the",
+                "sun",
+                "sets",
+                "earlier",
+                "in",
+                "winter",
+                "than",
+                "in",
+                "summer"
+            ],
+            "question": "Order the sentence about seasonal changes.",
+            "answer": "the sun sets earlier in winter than in summer",
+            "hint": "Article + Subject + Verb + Comparative + Prepositional phrases",
+            "voice_input": false,
+            "example_sentence": "The sun sets earlier in winter than in summer.",
+            "media": {}
+        },
+        {
+            "id": "b61_13",
+            "type": "multiple_choice",
+            "options": [
+                "season",
+                "customer",
+                "audience"
+            ],
+            "question": "Spring is my favorite ___ of the year.",
+            "answer": "season",
+            "hint": "One of the four divisions of the year",
+            "voice_input": false,
+            "example_sentence": "Which season do you like best?",
+            "media": {}
+        },
+        {
+            "id": "b61_14",
+            "type": "tap_fill",
+            "options": [
+                "drought",
+                "volunteer",
+                "participant",
+                "suitable"
+            ],
+            "question": "The ___ has lasted for three months without rain.",
+            "answer": "drought",
+            "hint": "A prolonged period of abnormally low rainfall",
+            "voice_input": false,
+            "example_sentence": "The drought affected many farmers.",
+            "media": {}
+        },
+        {
+            "id": "b61_15",
+            "type": "pronunciation",
+            "words": [
+                "climate"
+            ],
+            "question": "Say 'climate'. Focus on the 'cli' syllable.",
+            "answer": "climate",
+            "hint": "The weather conditions in an area over time",
+            "voice_input": true,
+            "example_sentence": "The climate is changing.",
+            "media": {}
+        },
+        {
+            "id": "b61_16",
+            "type": "multiple_choice",
+            "options": [
+                "rainbow",
+                "opinion",
+                "tradition"
+            ],
+            "question": "We saw a beautiful ___ after the rain stopped.",
+            "answer": "rainbow",
+            "hint": "An arc of colors in the sky caused by sunlight and rain",
+            "voice_input": false,
+            "example_sentence": "Look at that rainbow!",
+            "media": {}
+        },
+        {
+            "id": "b61_17",
+            "type": "tap_fill",
+            "options": [
+                "lightning",
+                "memory",
+                "emotion",
+                "adequate"
+            ],
+            "question": "The ___ lit up the entire sky.",
+            "answer": "lightning",
+            "hint": "A flash of light in the sky during a storm",
+            "voice_input": false,
+            "example_sentence": "Lightning struck the tree.",
+            "media": {}
+        },
+        {
+            "id": "b61_18",
+            "type": "matching",
+            "words": [
+                "thunder",
+                "noise",
+                "fog",
+                "mist"
+            ],
+            "question": "Match the weather phenomena to related words.",
+            "pairs": [
+                {
+                    "left": "thunder",
+                    "right": "noise"
+                },
+                {
+                    "left": "fog",
+                    "right": "mist"
+                }
+            ],
+            "answer": [
+                [
+                    "thunder",
+                    "noise"
+                ],
+                [
+                    "fog",
+                    "mist"
+                ]
+            ],
+            "hint": "Weather sounds and visibility",
+            "voice_input": false,
+            "example_sentence": "I heard thunder in the distance.",
+            "media": {}
+        },
+        {
+            "id": "b61_19",
+            "type": "multiple_choice",
+            "options": [
+                "breeze",
+                "attitude",
+                "principle"
+            ],
+            "question": "A gentle ___ was blowing from the ocean.",
+            "answer": "breeze",
+            "hint": "A light wind",
+            "voice_input": false,
+            "example_sentence": "The breeze feels nice.",
+            "media": {}
+        },
+        {
+            "id": "b61_20",
+            "type": "tap_fill",
+            "options": [
+                "shade",
+                "balcony",
+                "ceremony",
+                "moderate"
+            ],
+            "question": "Let's sit in the ___ to stay cool.",
+            "answer": "shade",
+            "hint": "An area protected from direct sunlight",
+            "voice_input": false,
+            "example_sentence": "The tree provides good shade.",
+            "media": {}
+        },
+        {
+            "id": "b62_01",
+            "type": "multiple_choice",
+            "options": [
+                "transportation",
+                "fabric",
+                "texture"
+            ],
+            "question": "Public ___ in this city is very efficient.",
+            "answer": "transportation",
+            "hint": "The system of moving people or goods from one place to another",
+            "voice_input": false,
+            "example_sentence": "We use public transportation every day.",
+            "media": {}
+        },
+        {
+            "id": "b62_02",
+            "type": "tap_fill",
+            "options": [
+                "traffic",
+                "flavor",
+                "instrument",
+                "convenient"
+            ],
+            "question": "The ___ is always heavy during rush hour.",
+            "answer": "traffic",
+            "hint": "Vehicles moving on roads",
+            "voice_input": false,
+            "example_sentence": "We were stuck in traffic for an hour.",
+            "media": {}
+        },
+        {
+            "id": "b62_03",
+            "type": "sentence_ordering",
+            "words": [
+                "taking",
+                "the",
+                "subway",
+                "is",
+                "faster",
+                "than",
+                "driving",
+                "downtown"
+            ],
+            "question": "Order the sentence about transportation.",
+            "answer": "taking the subway is faster than driving downtown",
+            "hint": "Gerund phrase + be + Comparative + than + Gerund phrase",
+            "voice_input": false,
+            "example_sentence": "Taking the subway is faster than driving downtown.",
+            "media": {}
+        },
+        {
+            "id": "b62_04",
+            "type": "matching",
+            "words": [
+                "bus",
+                "coach",
+                "train",
+                "railway"
+            ],
+            "question": "Match the transportation terms to related words.",
+            "pairs": [
+                {
+                    "left": "bus",
+                    "right": "coach"
+                },
+                {
+                    "left": "train",
+                    "right": "railway"
+                }
+            ],
+            "answer": [
+                [
+                    "bus",
+                    "coach"
+                ],
+                [
+                    "train",
+                    "railway"
+                ]
+            ],
+            "hint": "Public transport",
+            "voice_input": false,
+            "example_sentence": "The bus arrives at 8 AM.",
+            "media": {}
+        },
+        {
+            "id": "b62_05",
+            "type": "pronunciation",
+            "words": [
+                "transportation"
+            ],
+            "question": "Say 'transportation'. Focus on the 'ta' syllable.",
+            "answer": "transportation",
+            "hint": "The act of moving people or things",
+            "voice_input": true,
+            "example_sentence": "Transportation costs are rising.",
+            "media": {}
+        },
+        {
+            "id": "b62_06",
+            "type": "multiple_choice",
+            "options": [
+                "pedestrian",
+                "clothing",
+                "district"
+            ],
+            "question": "The ___ crossing is marked with white stripes.",
+            "answer": "pedestrian",
+            "hint": "A person walking on foot",
+            "voice_input": false,
+            "example_sentence": "Pedestrians have the right of way.",
+            "media": {}
+        },
+        {
+            "id": "b62_07",
+            "type": "tap_fill",
+            "options": [
+                "sidewalk",
+                "neighborhood",
+                "corridor",
+                "excellent"
+            ],
+            "question": "Please walk on the ___, not in the street.",
+            "answer": "sidewalk",
+            "hint": "A paved path for pedestrians at the side of a road",
+            "voice_input": false,
+            "example_sentence": "The sidewalk is very narrow here.",
+            "media": {}
+        },
+        {
+            "id": "b62_08",
+            "type": "sentence_ordering",
+            "words": [
+                "you",
+                "must",
+                "wear",
+                "a",
+                "helmet",
+                "when",
+                "riding",
+                "a",
+                "bicycle"
+            ],
+            "question": "Order the sentence about safety.",
+            "answer": "you must wear a helmet when riding a bicycle",
+            "hint": "Subject + Modal + Verb + Object + Conjunction + Gerund phrase",
+            "voice_input": false,
+            "example_sentence": "You must wear a helmet when riding a bicycle.",
+            "media": {}
+        },
+        {
+            "id": "b62_09",
+            "type": "matching",
+            "words": [
+                "bicycle",
+                "bike",
+                "motorcycle",
+                "motorbike"
+            ],
+            "question": "Match the vehicles to their informal names.",
+            "pairs": [
+                {
+                    "left": "bicycle",
+                    "right": "bike"
+                },
+                {
+                    "left": "motorcycle",
+                    "right": "motorbike"
+                }
+            ],
+            "answer": [
+                [
+                    "bicycle",
+                    "bike"
+                ],
+                [
+                    "motorcycle",
+                    "motorbike"
+                ]
+            ],
+            "hint": "Two-wheeled vehicles",
+            "voice_input": false,
+            "example_sentence": "I ride my bicycle to work.",
+            "media": {}
+        },
+        {
+            "id": "b62_10",
+            "type": "multiple_choice",
+            "options": [
+                "parking",
+                "basement",
+                "platform"
+            ],
+            "question": "There's a ___ lot behind the building.",
+            "answer": "parking",
+            "hint": "A place where vehicles can be left",
+            "voice_input": false,
+            "example_sentence": "Parking is free on Sundays.",
+            "media": {}
+        },
+        {
+            "id": "b62_11",
+            "type": "tap_fill",
+            "options": [
+                "license",
+                "terminal",
+                "avenue",
+                "appropriate"
+            ],
+            "question": "You need a driver's ___ to operate a car legally.",
+            "answer": "license",
+            "hint": "An official permit to do something",
+            "voice_input": false,
+            "example_sentence": "I got my driver's license last year.",
+            "media": {}
+        },
+        {
+            "id": "b62_12",
+            "type": "sentence_ordering",
+            "words": [
+                "always",
+                "check",
+                "your",
+                "mirrors",
+                "before",
+                "changing",
+                "lanes"
+            ],
+            "question": "Order the sentence about driving safety.",
+            "answer": "always check your mirrors before changing lanes",
+            "hint": "Adverb + Verb + Object + Preposition + Gerund phrase",
+            "voice_input": false,
+            "example_sentence": "Always check your mirrors before changing lanes.",
+            "media": {}
+        },
+        {
+            "id": "b62_13",
+            "type": "multiple_choice",
+            "options": [
+                "accident",
+                "colleague",
+                "passenger"
+            ],
+            "question": "There was a serious ___ on the highway this morning.",
+            "answer": "accident",
+            "hint": "An unfortunate incident that happens unexpectedly",
+            "voice_input": false,
+            "example_sentence": "The accident caused a traffic jam.",
+            "media": {}
+        },
+        {
+            "id": "b62_14",
+            "type": "tap_fill",
+            "options": [
+                "speed",
+                "customer",
+                "audience",
+                "sufficient"
+            ],
+            "question": "The ___ limit on this road is 50 kilometers per hour.",
+            "answer": "speed",
+            "hint": "The rate at which something moves",
+            "voice_input": false,
+            "example_sentence": "Don't exceed the speed limit.",
+            "media": {}
+        },
+        {
+            "id": "b62_15",
+            "type": "pronunciation",
+            "words": [
+                "pedestrian"
+            ],
+            "question": "Say 'pedestrian'. Focus on the 'des' syllable.",
+            "answer": "pedestrian",
+            "hint": "A person walking",
+            "voice_input": true,
+            "example_sentence": "The pedestrian waited for the light.",
+            "media": {}
+        },
+        {
+            "id": "b62_16",
+            "type": "multiple_choice",
+            "options": [
+                "intersection",
+                "volunteer",
+                "participant"
+            ],
+            "question": "Turn left at the next ___.",
+            "answer": "intersection",
+            "hint": "A place where two or more roads meet",
+            "voice_input": false,
+            "example_sentence": "The intersection is very busy.",
+            "media": {}
+        },
+        {
+            "id": "b62_17",
+            "type": "tap_fill",
+            "options": [
+                "direction",
+                "opinion",
+                "tradition",
+                "typical"
+            ],
+            "question": "Can you give me ___ to the nearest gas station?",
+            "answer": "direction",
+            "hint": "Instructions on how to reach a destination",
+            "voice_input": false,
+            "example_sentence": "I need directions to the airport.",
+            "media": {}
+        },
+        {
+            "id": "b62_18",
+            "type": "matching",
+            "words": [
+                "highway",
+                "freeway",
+                "street",
+                "road"
+            ],
+            "question": "Match the road types to their synonyms.",
+            "pairs": [
+                {
+                    "left": "highway",
+                    "right": "freeway"
+                },
+                {
+                    "left": "street",
+                    "right": "road"
+                }
+            ],
+            "answer": [
+                [
+                    "highway",
+                    "freeway"
+                ],
+                [
+                    "street",
+                    "road"
+                ]
+            ],
+            "hint": "Types of roads",
+            "voice_input": false,
+            "example_sentence": "The highway is closed for repairs.",
+            "media": {}
+        },
+        {
+            "id": "b62_19",
+            "type": "multiple_choice",
+            "options": [
+                "destination",
+                "memory",
+                "emotion"
+            ],
+            "question": "We finally reached our ___ after a long journey.",
+            "answer": "destination",
+            "hint": "The place to which someone is going",
+            "voice_input": false,
+            "example_sentence": "What's your final destination?",
+            "media": {}
+        },
+        {
+            "id": "b62_20",
+            "type": "tap_fill",
+            "options": [
+                "journey",
+                "attitude",
+                "principle",
+                "obvious"
+            ],
+            "question": "The ___ from Paris to Rome took twelve hours.",
+            "answer": "journey",
+            "hint": "An act of traveling from one place to another",
+            "voice_input": false,
+            "example_sentence": "Have a safe journey!",
+            "media": {}
+        },
+        {
+            "id": "b63_01",
+            "type": "multiple_choice",
+            "options": [
+                "technology",
+                "balcony",
+                "ceremony"
+            ],
+            "question": "Modern ___ has changed the way we communicate.",
+            "answer": "technology",
+            "hint": "The application of scientific knowledge for practical purposes",
+            "voice_input": false,
+            "example_sentence": "Technology is advancing rapidly.",
+            "media": {}
+        },
+        {
+            "id": "b63_02",
+            "type": "tap_fill",
+            "options": [
+                "computer",
+                "fabric",
+                "texture",
+                "anxious"
+            ],
+            "question": "I use my ___ for work and entertainment.",
+            "answer": "computer",
+            "hint": "An electronic device for processing data",
+            "voice_input": false,
+            "example_sentence": "My computer is very fast.",
+            "media": {}
+        },
+        {
+            "id": "b63_03",
+            "type": "sentence_ordering",
+            "words": [
+                "smartphones",
+                "have",
+                "become",
+                "an",
+                "essential",
+                "part",
+                "of",
+                "daily",
+                "life"
+            ],
+            "question": "Order the sentence about modern devices.",
+            "answer": "smartphones have become an essential part of daily life",
+            "hint": "Subject + Verb + Complement + Prepositional phrase",
+            "voice_input": false,
+            "example_sentence": "Smartphones have become an essential part of daily life.",
+            "media": {}
+        },
+        {
+            "id": "b63_04",
+            "type": "matching",
+            "words": [
+                "internet",
+                "web",
+                "software",
+                "program"
+            ],
+            "question": "Match the technology terms to their synonyms.",
+            "pairs": [
+                {
+                    "left": "internet",
+                    "right": "web"
+                },
+                {
+                    "left": "software",
+                    "right": "program"
+                }
+            ],
+            "answer": [
+                [
+                    "internet",
+                    "web"
+                ],
+                [
+                    "software",
+                    "program"
+                ]
+            ],
+            "hint": "Digital technology",
+            "voice_input": false,
+            "example_sentence": "The internet is very useful.",
+            "media": {}
+        },
+        {
+            "id": "b63_05",
+            "type": "pronunciation",
+            "words": [
+                "technology"
+            ],
+            "question": "Say 'technology'. Focus on the 'nol' syllable.",
+            "answer": "technology",
+            "hint": "Scientific knowledge applied practically",
+            "voice_input": true,
+            "example_sentence": "Technology helps us every day.",
+            "media": {}
+        },
+        {
+            "id": "b63_06",
+            "type": "multiple_choice",
+            "options": [
+                "application",
+                "flavor",
+                "instrument"
+            ],
+            "question": "I downloaded a new ___ on my phone to learn languages.",
+            "answer": "application",
+            "hint": "A program designed for a specific purpose",
+            "voice_input": false,
+            "example_sentence": "This application is very helpful.",
+            "media": {}
+        },
+        {
+            "id": "b63_07",
+            "type": "tap_fill",
+            "options": [
+                "password",
+                "clothing",
+                "district",
+                "curious"
+            ],
+            "question": "Don't share your ___ with anyone.",
+            "answer": "password",
+            "hint": "A secret word or phrase used for security",
+            "voice_input": false,
+            "example_sentence": "I forgot my password.",
+            "media": {}
+        },
+        {
+            "id": "b63_08",
+            "type": "sentence_ordering",
+            "words": [
+                "you",
+                "should",
+                "update",
+                "your",
+                "software",
+                "regularly",
+                "for",
+                "security"
+            ],
+            "question": "Order the sentence about digital safety.",
+            "answer": "you should update your software regularly for security",
+            "hint": "Subject + Modal + Verb + Object + Adverb + Prepositional phrase",
+            "voice_input": false,
+            "example_sentence": "You should update your software regularly for security.",
+            "media": {}
+        },
+        {
+            "id": "b63_09",
+            "type": "matching",
+            "words": [
+                "download",
+                "get",
+                "upload",
+                "send"
+            ],
+            "question": "Match the digital actions to simpler verbs.",
+            "pairs": [
+                {
+                    "left": "download",
+                    "right": "get"
+                },
+                {
+                    "left": "upload",
+                    "right": "send"
+                }
+            ],
+            "answer": [
+                [
+                    "download",
+                    "get"
+                ],
+                [
+                    "upload",
+                    "send"
+                ]
+            ],
+            "hint": "Data transfer",
+            "voice_input": false,
+            "example_sentence": "I need to download this file.",
+            "media": {}
+        },
+        {
+            "id": "b63_10",
+            "type": "multiple_choice",
+            "options": [
+                "website",
+                "neighborhood",
+                "corridor"
+            ],
+            "question": "Visit our ___ to learn more about our products.",
+            "answer": "website",
+            "hint": "A set of web pages on the internet",
+            "voice_input": false,
+            "example_sentence": "The website is easy to navigate.",
+            "media": {}
+        },
+        {
+            "id": "b63_11",
+            "type": "tap_fill",
+            "options": [
+                "email",
+                "basement",
+                "platform",
+                "enthusiastic"
+            ],
+            "question": "Please send me an ___ with the details.",
+            "answer": "email",
+            "hint": "Electronic mail",
+            "voice_input": false,
+            "example_sentence": "I check my email every morning.",
+            "media": {}
+        },
+        {
+            "id": "b63_12",
+            "type": "sentence_ordering",
+            "words": [
+                "social",
+                "media",
+                "connects",
+                "people",
+                "from",
+                "around",
+                "the",
+                "world"
+            ],
+            "question": "Order the sentence about online platforms.",
+            "answer": "social media connects people from around the world",
+            "hint": "Subject (Adjective + Noun) + Verb + Object + Prepositional phrase",
+            "voice_input": false,
+            "example_sentence": "Social media connects people from around the world.",
+            "media": {}
+        },
+        {
+            "id": "b63_13",
+            "type": "multiple_choice",
+            "options": [
+                "keyboard",
+                "terminal",
+                "avenue"
+            ],
+            "question": "The ___ on my laptop is very comfortable to type on.",
+            "answer": "keyboard",
+            "hint": "A panel of keys for typing",
+            "voice_input": false,
+            "example_sentence": "I need a new keyboard.",
+            "media": {}
+        },
+        {
+            "id": "b63_14",
+            "type": "tap_fill",
+            "options": [
+                "screen",
+                "colleague",
+                "passenger",
+                "grateful"
+            ],
+            "question": "The ___ on this phone is very bright and clear.",
+            "answer": "screen",
+            "hint": "The display surface of a device",
+            "voice_input": false,
+            "example_sentence": "I cracked my phone screen.",
+            "media": {}
+        },
+        {
+            "id": "b63_15",
+            "type": "pronunciation",
+            "words": [
+                "application"
+            ],
+            "question": "Say 'application'. Focus on the 'ca' syllable.",
+            "answer": "application",
+            "hint": "A software program",
+            "voice_input": true,
+            "example_sentence": "Download the application now.",
+            "media": {}
+        },
+        {
+            "id": "b63_16",
+            "type": "multiple_choice",
+            "options": [
+                "battery",
+                "customer",
+                "audience"
+            ],
+            "question": "My phone's ___ is running low.",
+            "answer": "battery",
+            "hint": "A device that stores electrical energy",
+            "voice_input": false,
+            "example_sentence": "I need to charge the battery.",
+            "media": {}
+        },
+        {
+            "id": "b63_17",
+            "type": "tap_fill",
+            "options": [
+                "connection",
+                "volunteer",
+                "participant",
+                "humble"
+            ],
+            "question": "The internet ___ is very slow today.",
+            "answer": "connection",
+            "hint": "A link between devices or networks",
+            "voice_input": false,
+            "example_sentence": "I have a good connection here.",
+            "media": {}
+        },
+        {
+            "id": "b63_18",
+            "type": "matching",
+            "words": [
+                "search",
+                "look",
+                "click",
+                "press"
+            ],
+            "question": "Match the digital actions to physical equivalents.",
+            "pairs": [
+                {
+                    "left": "search",
+                    "right": "look"
+                },
+                {
+                    "left": "click",
+                    "right": "press"
+                }
+            ],
+            "answer": [
+                [
+                    "search",
+                    "look"
+                ],
+                [
+                    "click",
+                    "press"
+                ]
+            ],
+            "hint": "Computer actions",
+            "voice_input": false,
+            "example_sentence": "Search for the information online.",
+            "media": {}
+        },
+        {
+            "id": "b63_19",
+            "type": "multiple_choice",
+            "options": [
+                "device",
+                "opinion",
+                "tradition"
+            ],
+            "question": "This ___ can translate over 100 languages instantly.",
+            "answer": "device",
+            "hint": "A piece of equipment for a particular purpose",
+            "voice_input": false,
+            "example_sentence": "I bought a new device.",
+            "media": {}
+        },
+        {
+            "id": "b63_20",
+            "type": "tap_fill",
+            "options": [
+                "charger",
+                "memory",
+                "emotion",
+                "ordinary"
+            ],
+            "question": "I forgot to bring my phone ___.",
+            "answer": "charger",
+            "hint": "A device that supplies electrical power",
+            "voice_input": false,
+            "example_sentence": "Where is my charger?",
+            "media": {}
+        },
+        {
+            "id": "b64_01",
+            "type": "multiple_choice",
+            "options": [
+                "hobby",
+                "attitude",
+                "principle"
+            ],
+            "question": "Photography is my favorite ___.",
+            "answer": "hobby",
+            "hint": "An activity done for pleasure in one's free time",
+            "voice_input": false,
+            "example_sentence": "What's your hobby?",
+            "media": {}
+        },
+        {
+            "id": "b64_02",
+            "type": "tap_fill",
+            "options": [
+                "interest",
+                "avenue",
+                "balcony",
+                "practical"
+            ],
+            "question": "We share a common ___ in classical music.",
+            "answer": "interest",
+            "hint": "A feeling of wanting to know or learn about something",
+            "voice_input": false,
+            "example_sentence": "She has many interests.",
+            "media": {}
+        },
+        {
+            "id": "b64_03",
+            "type": "sentence_ordering",
+            "words": [
+                "collecting",
+                "stamps",
+                "can",
+                "be",
+                "a",
+                "fascinating",
+                "and",
+                "educational",
+                "hobby"
+            ],
+            "question": "Order the sentence about hobbies.",
+            "answer": "collecting stamps can be a fascinating and educational hobby",
+            "hint": "Gerund phrase + Modal + be + Adjectives + Noun",
+            "voice_input": false,
+            "example_sentence": "Collecting stamps can be a fascinating and educational hobby.",
+            "media": {}
+        },
+        {
+            "id": "b64_04",
+            "type": "matching",
+            "words": [
+                "painting",
+                "art",
+                "gardening",
+                "plants"
+            ],
+            "question": "Match the hobbies to what they involve.",
+            "pairs": [
+                {
+                    "left": "painting",
+                    "right": "art"
+                },
+                {
+                    "left": "gardening",
+                    "right": "plants"
+                }
+            ],
+            "answer": [
+                [
+                    "painting",
+                    "art"
+                ],
+                [
+                    "gardening",
+                    "plants"
+                ]
+            ],
+            "hint": "Creative activities",
+            "voice_input": false,
+            "example_sentence": "I enjoy painting landscapes.",
+            "media": {}
+        },
+        {
+            "id": "b64_05",
+            "type": "pronunciation",
+            "words": [
+                "hobby"
+            ],
+            "question": "Say 'hobby'. Focus on the 'hob' syllable.",
+            "answer": "hobby",
+            "hint": "A leisure activity",
+            "voice_input": true,
+            "example_sentence": "Reading is a great hobby.",
+            "media": {}
+        },
+        {
+            "id": "b64_06",
+            "type": "multiple_choice",
+            "options": [
+                "collection",
+                "ceremony",
+                "fabric"
+            ],
+            "question": "He has an impressive ___ of vintage coins.",
+            "answer": "collection",
+            "hint": "A group of objects gathered together",
+            "voice_input": false,
+            "example_sentence": "My collection is growing.",
+            "media": {}
+        },
+        {
+            "id": "b64_07",
+            "type": "tap_fill",
+            "options": [
+                "creative",
+                "texture",
+                "flavor",
+                "adequate"
+            ],
+            "question": "She's very ___ and loves making things by hand.",
+            "answer": "creative",
+            "hint": "Having the ability to create or imagine new things",
+            "voice_input": false,
+            "example_sentence": "He has a creative mind.",
+            "media": {}
+        },
+        {
+            "id": "b64_08",
+            "type": "sentence_ordering",
+            "words": [
+                "playing",
+                "chess",
+                "improves",
+                "your",
+                "strategic",
+                "thinking",
+                "skills"
+            ],
+            "question": "Order the sentence about mental activities.",
+            "answer": "playing chess improves your strategic thinking skills",
+            "hint": "Gerund phrase + Verb + Possessive + Adjective + Noun phrase",
+            "voice_input": false,
+            "example_sentence": "Playing chess improves your strategic thinking skills.",
+            "media": {}
+        },
+        {
+            "id": "b64_09",
+            "type": "matching",
+            "words": [
+                "knitting",
+                "yarn",
+                "photography",
+                "camera"
+            ],
+            "question": "Match the hobbies to their tools.",
+            "pairs": [
+                {
+                    "left": "knitting",
+                    "right": "yarn"
+                },
+                {
+                    "left": "photography",
+                    "right": "camera"
+                }
+            ],
+            "answer": [
+                [
+                    "knitting",
+                    "yarn"
+                ],
+                [
+                    "photography",
+                    "camera"
+                ]
+            ],
+            "hint": "Hobby equipment",
+            "voice_input": false,
+            "example_sentence": "Knitting requires patience.",
+            "media": {}
+        },
+        {
+            "id": "b64_10",
+            "type": "multiple_choice",
+            "options": [
+                "skill",
+                "instrument",
+                "clothing"
+            ],
+            "question": "Learning a new ___ takes time and practice.",
+            "answer": "skill",
+            "hint": "The ability to do something well",
+            "voice_input": false,
+            "example_sentence": "She has many useful skills.",
+            "media": {}
+        },
+        {
+            "id": "b64_11",
+            "type": "tap_fill",
+            "options": [
+                "talent",
+                "district",
+                "neighborhood",
+                "sufficient"
+            ],
+            "question": "He has a natural ___ for music.",
+            "answer": "talent",
+            "hint": "A natural ability or skill",
+            "voice_input": false,
+            "example_sentence": "She's a woman of many talents.",
+            "media": {}
+        },
+        {
+            "id": "b64_12",
+            "type": "sentence_ordering",
+            "words": [
+                "joining",
+                "a",
+                "club",
+                "is",
+                "a",
+                "great",
+                "way",
+                "to",
+                "meet",
+                "people"
+            ],
+            "question": "Order the sentence about social activities.",
+            "answer": "joining a club is a great way to meet people",
+            "hint": "Gerund phrase + be + Adjective + Noun phrase + Infinitive phrase",
+            "voice_input": false,
+            "example_sentence": "Joining a club is a great way to meet people.",
+            "media": {}
+        },
+        {
+            "id": "b64_13",
+            "type": "multiple_choice",
+            "options": [
+                "craft",
+                "corridor",
+                "basement"
+            ],
+            "question": "She enjoys doing arts and ___ projects.",
+            "answer": "craft",
+            "hint": "An activity involving skill in making things by hand",
+            "voice_input": false,
+            "example_sentence": "This craft requires patience.",
+            "media": {}
+        },
+        {
+            "id": "b64_14",
+            "type": "tap_fill",
+            "options": [
+                "leisure",
+                "platform",
+                "terminal",
+                "moderate"
+            ],
+            "question": "I like to read during my ___ time.",
+            "answer": "leisure",
+            "hint": "Free time when you're not working",
+            "voice_input": false,
+            "example_sentence": "Leisure activities are important.",
+            "media": {}
+        },
+        {
+            "id": "b64_15",
+            "type": "pronunciation",
+            "words": [
+                "creative"
+            ],
+            "question": "Say 'creative'. Focus on the 'a' syllable.",
+            "answer": "creative",
+            "hint": "Having imagination and artistic ability",
+            "voice_input": true,
+            "example_sentence": "She's very creative.",
+            "media": {}
+        },
+        {
+            "id": "b64_16",
+            "type": "multiple_choice",
+            "options": [
+                "puzzle",
+                "colleague",
+                "passenger"
+            ],
+            "question": "Solving this ___ took me two hours.",
+            "answer": "puzzle",
+            "hint": "A game or problem that tests ingenuity",
+            "voice_input": false,
+            "example_sentence": "I love doing puzzles.",
+            "media": {}
+        },
+        {
+            "id": "b64_17",
+            "type": "tap_fill",
+            "options": [
+                "relaxing",
+                "customer",
+                "audience",
+                "typical"
+            ],
+            "question": "Fishing is a very ___ activity.",
+            "answer": "relaxing",
+            "hint": "Making you feel calm and less worried",
+            "voice_input": false,
+            "example_sentence": "This music is very relaxing.",
+            "media": {}
+        },
+        {
+            "id": "b64_18",
+            "type": "matching",
+            "words": [
+                "cooking",
+                "recipe",
+                "hiking",
+                "trail"
+            ],
+            "question": "Match the activities to what they use.",
+            "pairs": [
+                {
+                    "left": "cooking",
+                    "right": "recipe"
+                },
+                {
+                    "left": "hiking",
+                    "right": "trail"
+                }
+            ],
+            "answer": [
+                [
+                    "cooking",
+                    "recipe"
+                ],
+                [
+                    "hiking",
+                    "trail"
+                ]
+            ],
+            "hint": "Activity essentials",
+            "voice_input": false,
+            "example_sentence": "Cooking is my passion.",
+            "media": {}
+        },
+        {
+            "id": "b64_19",
+            "type": "multiple_choice",
+            "options": [
+                "pastime",
+                "volunteer",
+                "participant"
+            ],
+            "question": "Reading has always been my favorite ___.",
+            "answer": "pastime",
+            "hint": "An activity done for enjoyment when not working",
+            "voice_input": false,
+            "example_sentence": "What's your favorite pastime?",
+            "media": {}
+        },
+        {
+            "id": "b64_20",
+            "type": "tap_fill",
+            "options": [
+                "enjoyable",
+                "opinion",
+                "tradition",
+                "obvious"
+            ],
+            "question": "I find swimming very ___.",
+            "answer": "enjoyable",
+            "hint": "Giving pleasure or satisfaction",
+            "voice_input": false,
+            "example_sentence": "The concert was very enjoyable.",
+            "media": {}
+        }
+    ]
 }
