@@ -99,7 +99,7 @@
         },
         {
             "id": "g2_06",
-            "type": "transformation",
+            "type": "multiple_choice",
             "question": "Change 'I am cold' to negative.",
             "options": [
                 "I not am cold.",
@@ -242,7 +242,7 @@
         },
         {
             "id": "g2_14",
-            "type": "transformation",
+            "type": "multiple_choice",
             "question": "Change 'You are late' to negative.",
             "options": [
                 "You not are late.",
@@ -354,7 +354,7 @@
         },
         {
             "id": "g2_20",
-            "type": "transformation",
+            "type": "multiple_choice",
             "question": "Change 'They are friends' to negative.",
             "options": [
                 "They are not friends.",
@@ -466,7 +466,7 @@
         },
         {
             "id": "g3_06",
-            "type": "transformation",
+            "type": "multiple_choice",
             "question": "Change 'I eat' to negative.",
             "options": [
                 "I not eat.",
@@ -609,7 +609,7 @@
         },
         {
             "id": "g3_14",
-            "type": "transformation",
+            "type": "multiple_choice",
             "question": "Change 'He likes' to negative.",
             "options": [
                 "He not likes.",
@@ -721,7 +721,7 @@
         },
         {
             "id": "g3_20",
-            "type": "transformation",
+            "type": "multiple_choice",
             "question": "Change 'They play' to negative.",
             "options": [
                 "They do not play.",
@@ -833,7 +833,7 @@
         },
         {
             "id": "g4_06",
-            "type": "transformation",
+            "type": "multiple_choice",
             "question": "Change to plural: 'The box is in the room.'",
             "options": [
                 "The boxes are in the room.",
@@ -976,7 +976,7 @@
         },
         {
             "id": "g4_14",
-            "type": "transformation",
+            "type": "multiple_choice",
             "question": "Change to a question: 'You are at the park.'",
             "options": [
                 "Are you at the park?",
@@ -1088,7 +1088,7 @@
         },
         {
             "id": "g4_20",
-            "type": "transformation",
+            "type": "multiple_choice",
             "question": "Change 'The door is open' to negative.",
             "options": [
                 "The door is not open.",
@@ -1200,7 +1200,7 @@
         },
         {
             "id": "g5_06",
-            "type": "transformation",
+            "type": "multiple_choice",
             "question": "Change 'This is a cat' to plural.",
             "options": [
                 "These are cats.",
@@ -1343,7 +1343,7 @@
         },
         {
             "id": "g5_14",
-            "type": "transformation",
+            "type": "multiple_choice",
             "question": "Change 'Those are old' to singular.",
             "options": [
                 "That is old.",
@@ -1455,7 +1455,7 @@
         },
         {
             "id": "g5_20",
-            "type": "transformation",
+            "type": "multiple_choice",
             "question": "Change 'The cat is big' to negative.",
             "options": [
                 "The cat is not big.",
@@ -1567,7 +1567,7 @@
         },
         {
             "id": "g6_06",
-            "type": "transformation",
+            "type": "multiple_choice",
             "question": "Change 'I can sing' to negative.",
             "options": [
                 "I cannot sing.",
@@ -1710,7 +1710,7 @@
         },
         {
             "id": "g6_14",
-            "type": "transformation",
+            "type": "multiple_choice",
             "question": "Change 'They can run' to negative.",
             "options": [
                 "They cannot run.",
@@ -1822,7 +1822,7 @@
         },
         {
             "id": "g6_20",
-            "type": "transformation",
+            "type": "multiple_choice",
             "question": "Change 'He can jump' to a question.",
             "options": [
                 "Can he jump?",
@@ -1934,7 +1934,7 @@
         },
         {
             "id": "g7_06",
-            "type": "transformation",
+            "type": "multiple_choice",
             "question": "Change 'I have got' to negative.",
             "options": [
                 "I have not got.",
@@ -2080,7 +2080,7 @@
         },
         {
             "id": "g7_14",
-            "type": "transformation",
+            "type": "multiple_choice",
             "question": "Change 'She is eating' to negative.",
             "options": [
                 "She is not eating.",
@@ -2192,7 +2192,7 @@
         },
         {
             "id": "g7_20",
-            "type": "transformation",
+            "type": "multiple_choice",
             "question": "Change 'Have you got' to a statement.",
             "options": [
                 "You have got.",
@@ -2304,7 +2304,7 @@
         },
         {
             "id": "g8_06",
-            "type": "transformation",
+            "type": "multiple_choice",
             "question": "Change 'Go' to a negative command.",
             "options": [
                 "Do not go.",
@@ -2453,7 +2453,7 @@
         },
         {
             "id": "g8_14",
-            "type": "transformation",
+            "type": "multiple_choice",
             "question": "Change 'I have water' to include 'some'.",
             "options": [
                 "I have some water.",
@@ -2565,7 +2565,7 @@
         },
         {
             "id": "g8_20",
-            "type": "transformation",
+            "type": "multiple_choice",
             "question": "Change 'I want any' to positive.",
             "options": [
                 "I want some.",
@@ -2677,7 +2677,7 @@
         },
         {
             "id": "g9_06",
-            "type": "transformation",
+            "type": "multiple_choice",
             "question": "Change 'It is her bag' to use a pronoun.",
             "options": [
                 "It is hers.",
@@ -2820,7 +2820,7 @@
         },
         {
             "id": "g9_14",
-            "type": "transformation",
+            "type": "multiple_choice",
             "question": "Change 'It is our car' to use a pronoun.",
             "options": [
                 "It is ours.",
@@ -2932,7 +2932,7 @@
         },
         {
             "id": "g9_20",
-            "type": "transformation",
+            "type": "multiple_choice",
             "question": "Change 'I always run' to negative.",
             "options": [
                 "I never run.",
@@ -3044,7 +3044,7 @@
         },
         {
             "id": "g10_06",
-            "type": "transformation",
+            "type": "multiple_choice",
             "question": "Change 'She is here' to the past.",
             "options": [
                 "She was here.",
@@ -3187,7 +3187,7 @@
         },
         {
             "id": "g10_14",
-            "type": "transformation",
+            "type": "multiple_choice",
             "question": "Change 'They were sad' to negative.",
             "options": [
                 "They were not sad.",
@@ -3299,7 +3299,7 @@
         },
         {
             "id": "g10_20",
-            "type": "transformation",
+            "type": "multiple_choice",
             "question": "Change 'I was at home' to a question.",
             "options": [
                 "Was I at home?",
@@ -3414,7 +3414,7 @@
         },
         {
             "id": "g11_06",
-            "type": "transformation",
+            "type": "multiple_choice",
             "question": "Change 'I walk' to an action happening now.",
             "options": [
                 "I am walking.",
@@ -3557,7 +3557,7 @@
         },
         {
             "id": "g11_14",
-            "type": "transformation",
+            "type": "multiple_choice",
             "question": "Change 'She sleeps' to a negative now.",
             "options": [
                 "She is not sleeping.",
@@ -3669,7 +3669,7 @@
         },
         {
             "id": "g11_20",
-            "type": "transformation",
+            "type": "multiple_choice",
             "question": "Change 'I am running' to a habit.",
             "options": [
                 "I run.",
@@ -3784,7 +3784,7 @@
         },
         {
             "id": "g12_06",
-            "type": "transformation",
+            "type": "multiple_choice",
             "question": "Join: 'I like dogs. I do not like cats.'",
             "options": [
                 "I like dogs but not cats.",
@@ -3927,7 +3927,7 @@
         },
         {
             "id": "g12_14",
-            "type": "transformation",
+            "type": "multiple_choice",
             "question": "Change to a question: 'There is a car.'",
             "options": [
                 "Is there a car?",
@@ -4045,7 +4045,7 @@
         },
         {
             "id": "g12_20",
-            "type": "transformation",
+            "type": "multiple_choice",
             "question": "Change 'There are' to negative.",
             "options": [
                 "There are not.",
