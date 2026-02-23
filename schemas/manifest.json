@@ -55,13 +55,13 @@
                   "id": 3,
                   "name": "Level 3",
                   "cid": "EA1GS3.json",
-                  "isFree": false
+                  "isFree": true
                 },
                 {
                   "id": 4,
                   "name": "Level 4",
                   "cid": "EA1GS4.json",
-                  "isFree": false
+                  "isFree": true
                 }
               ]
             },
