@@ -1,0 +1,3716 @@
+{
+    "exercises": [
+        {
+            "id": "EA2GS2_001",
+            "type": "tap_fill",
+            "question": "At my job, I ___ wear a uniform every day.",
+            "options": [
+                "have to",
+                "has to",
+                "don't have to",
+                "mustn't"
+            ],
+            "answer": "have to",
+            "hint": "It is a rule (obligation).",
+            "voice_input": false,
+            "example_sentence": "At my job, I have to wear a uniform every day, but it is comfortable.",
+            "media": {}
+        },
+        {
+            "id": "EA2GS2_002",
+            "type": "multiple_choice",
+            "question": "Which sentence means it is 'not necessary'?",
+            "options": [
+                "You mustn't go to the party.",
+                "You don't have to go to the party.",
+                "You have to go to the party."
+            ],
+            "answer": "You don't have to go to the party.",
+            "hint": "'Don't have to' means it's optional.",
+            "voice_input": false,
+            "example_sentence": "You don't have to go to the party if you are tired.",
+            "media": {}
+        },
+        {
+            "id": "EA2GS2_003",
+            "type": "sentence_ordering",
+            "words": [
+                "has",
+                "to",
+                "early",
+                "He",
+                "wake",
+                "up"
+            ],
+            "question": "Order the words:",
+            "answer": "He has to wake up early",
+            "hint": "Use 'has to' for 'He/She/It'.",
+            "voice_input": false,
+            "example_sentence": "He has to wake up early to catch the train.",
+            "media": {}
+        },
+        {
+            "id": "EA2GS2_004",
+            "type": "matching",
+            "question": "Match the situation to the correct modal.",
+            "pairs": [
+                {
+                    "left": "It's a strict rule",
+                    "right": "Have to"
+                },
+                {
+                    "left": "It's optional",
+                    "right": "Don't have to"
+                }
+            ],
+            "answer": [
+                {
+                    "left": "It's a strict rule",
+                    "right": "Have to"
+                },
+                {
+                    "left": "It's optional",
+                    "right": "Don't have to"
+                }
+            ],
+            "hint": "Think about necessity.",
+            "voice_input": false,
+            "example_sentence": "I have to pay rent, but I don't have to cook every night.",
+            "media": {}
+        },
+        {
+            "id": "EA2GS2_005",
+            "type": "pronunciation",
+            "question": "Repeat: Do we have to leave now?",
+            "answer": "Do we have to leave now?",
+            "hint": "Rising intonation for a question.",
+            "voice_input": true,
+            "example_sentence": "The movie starts soon. Do we have to leave now?",
+            "media": {}
+        },
+        {
+            "id": "EA2GS2_006",
+            "type": "tap_fill",
+            "question": "She ___ study for the exam because she already passed.",
+            "options": [
+                "doesn't have to",
+                "don't have to",
+                "has to",
+                "must"
+            ],
+            "answer": "doesn't have to",
+            "hint": "Third person negative form.",
+            "voice_input": false,
+            "example_sentence": "She doesn't have to study for the exam because she already passed the test.",
+            "media": {}
+        },
+        {
+            "id": "EA2GS2_007",
+            "type": "multiple_choice",
+            "question": "Choose the correct question form:",
+            "options": [
+                "Does she have to work late?",
+                "Has she to work late?",
+                "Do she has to work late?"
+            ],
+            "answer": "Does she have to work late?",
+            "hint": "Use 'Does' + base verb 'have to'.",
+            "voice_input": false,
+            "example_sentence": "Does she have to work late tonight at the office?",
+            "media": {}
+        },
+        {
+            "id": "EA2GS2_008",
+            "type": "sentence_ordering",
+            "words": [
+                "don't",
+                "have",
+                "to",
+                "We",
+                "pay",
+                "cash",
+                "with"
+            ],
+            "question": "Order the words:",
+            "answer": "We don't have to pay with cash",
+            "hint": "Subject + don't have to + verb.",
+            "voice_input": false,
+            "example_sentence": "We don't have to pay with cash; they accept cards.",
+            "media": {}
+        },
+        {
+            "id": "EA2GS2_009",
+            "type": "matching",
+            "question": "Match the pronoun to the correct form.",
+            "pairs": [
+                {
+                    "left": "I / You / We / They",
+                    "right": "Don't have to"
+                },
+                {
+                    "left": "He / She / It",
+                    "right": "Doesn't have to"
+                }
+            ],
+            "answer": [
+                {
+                    "left": "I / You / We / They",
+                    "right": "Don't have to"
+                },
+                {
+                    "left": "He / She / It",
+                    "right": "Doesn't have to"
+                }
+            ],
+            "hint": "Watch the auxiliary verb.",
+            "voice_input": false,
+            "example_sentence": "They don't have to wait, but she doesn't have to stay.",
+            "media": {}
+        },
+        {
+            "id": "EA2GS2_010",
+            "type": "pronunciation",
+            "question": "Repeat: You have to see this movie!",
+            "answer": "You have to see this movie!",
+            "hint": "Sometimes 'have to' is used for strong recommendations.",
+            "voice_input": true,
+            "example_sentence": "It is so funny! You have to see this movie!",
+            "media": {}
+        },
+        {
+            "id": "EA2GS2_011",
+            "type": "tap_fill",
+            "question": "At 8 PM last night, I ___ watching TV.",
+            "options": [
+                "was",
+                "were",
+                "am",
+                "did"
+            ],
+            "answer": "was",
+            "hint": "Use 'was' for the first person singular.",
+            "voice_input": false,
+            "example_sentence": "At 8 PM last night, I was watching TV in the living room.",
+            "media": {}
+        },
+        {
+            "id": "EA2GS2_012",
+            "type": "multiple_choice",
+            "question": "Which sentence describes an action in progress?",
+            "options": [
+                "They were playing football when it rained.",
+                "They played football when it rained.",
+                "They are playing football when it rained."
+            ],
+            "answer": "They were playing football when it rained.",
+            "hint": "Use 'were' + '-ing' for a past ongoing action.",
+            "voice_input": false,
+            "example_sentence": "They were playing football when it started to rain.",
+            "media": {}
+        },
+        {
+            "id": "EA2GS2_013",
+            "type": "sentence_ordering",
+            "words": [
+                "working",
+                "Was",
+                "she",
+                "at",
+                "yesterday",
+                "noon",
+                "?"
+            ],
+            "question": "Order the words:",
+            "answer": "Was she working at noon yesterday ?",
+            "hint": "Was/Were + subject + verb-ing?",
+            "voice_input": false,
+            "example_sentence": "Was she working at noon yesterday?",
+            "media": {}
+        },
+        {
+            "id": "EA2GS2_014",
+            "type": "matching",
+            "question": "Match the subject to the correct auxiliary.",
+            "pairs": [
+                {
+                    "left": "He / She / It",
+                    "right": "Was"
+                },
+                {
+                    "left": "You / We / They",
+                    "right": "Were"
+                }
+            ],
+            "answer": [
+                {
+                    "left": "He / She / It",
+                    "right": "Was"
+                },
+                {
+                    "left": "You / We / They",
+                    "right": "Were"
+                }
+            ],
+            "hint": "Think of the past of 'to be'.",
+            "voice_input": false,
+            "example_sentence": "He was eating while they were sleeping.",
+            "media": {}
+        },
+        {
+            "id": "EA2GS2_015",
+            "type": "pronunciation",
+            "question": "Repeat: What were you doing at ten o'clock?",
+            "answer": "What were you doing at ten o'clock?",
+            "hint": "Focus on the 'were' and 'doing' connection.",
+            "voice_input": true,
+            "example_sentence": "What were you doing at ten o'clock this morning?",
+            "media": {}
+        },
+        {
+            "id": "EA2GS2_016",
+            "type": "tap_fill",
+            "question": "We ___ not sleeping when the phone rang.",
+            "options": [
+                "wasn't",
+                "weren't",
+                "didn't",
+                "don't"
+            ],
+            "answer": "weren't",
+            "hint": "Negative past continuous for 'we'.",
+            "voice_input": false,
+            "example_sentence": "We weren't sleeping when the phone rang loudly.",
+            "media": {}
+        },
+        {
+            "id": "EA2GS2_017",
+            "type": "multiple_choice",
+            "question": "Choose the correct spelling:",
+            "options": [
+                "She was runing in the park.",
+                "She was running in the park.",
+                "She was runing in a park."
+            ],
+            "answer": "She was running in the park.",
+            "hint": "Double the 'n' in 'run'.",
+            "voice_input": false,
+            "example_sentence": "She was running in the park when she saw a dog.",
+            "media": {}
+        },
+        {
+            "id": "EA2GS2_018",
+            "type": "sentence_ordering",
+            "words": [
+                "sleeping",
+                "The",
+                "was",
+                "cat",
+                "the",
+                "on",
+                "sofa"
+            ],
+            "question": "Order the words:",
+            "answer": "The cat was sleeping on the sofa",
+            "hint": "Subject + was + verb-ing + place.",
+            "voice_input": false,
+            "example_sentence": "The cat was sleeping on the sofa all afternoon.",
+            "media": {}
+        },
+        {
+            "id": "EA2GS2_019",
+            "type": "matching",
+            "question": "Match the question to the short answer.",
+            "pairs": [
+                {
+                    "left": "Were they waiting?",
+                    "right": "Yes, they were."
+                },
+                {
+                    "left": "Was it raining?",
+                    "right": "No, it wasn't."
+                }
+            ],
+            "answer": [
+                {
+                    "left": "Were they waiting?",
+                    "right": "Yes, they were."
+                },
+                {
+                    "left": "Was it raining?",
+                    "right": "No, it wasn't."
+                }
+            ],
+            "hint": "Match the auxiliary to the subject.",
+            "voice_input": false,
+            "example_sentence": "Was it raining? No, it wasn't, it was sunny.",
+            "media": {}
+        },
+        {
+            "id": "EA2GS2_020",
+            "type": "pronunciation",
+            "question": "Repeat: I was driving home when I saw him.",
+            "answer": "I was driving home when I saw him.",
+            "hint": "Combine past continuous and past simple.",
+            "voice_input": true,
+            "example_sentence": "I was driving home when I saw him at the bus stop.",
+            "media": {}
+        },
+        {
+            "id": "EA2GS2_021",
+            "type": "tap_fill",
+            "question": "If it rains tomorrow, we ___ stay at home.",
+            "options": [
+                "will",
+                "would",
+                "are",
+                "do"
+            ],
+            "answer": "will",
+            "hint": "Use 'will' for the result of a real possibility.",
+            "voice_input": false,
+            "example_sentence": "If it rains tomorrow, we will stay at home and watch movies.",
+            "media": {}
+        },
+        {
+            "id": "EA2GS2_022",
+            "type": "multiple_choice",
+            "question": "Which sentence is a correct First Conditional?",
+            "options": [
+                "If I study hard, I will pass the exam.",
+                "If I will study hard, I pass the exam.",
+                "If I study hard, I pass the exam."
+            ],
+            "answer": "If I study hard, I will pass the exam.",
+            "hint": "If + Present Simple, Will + Verb.",
+            "voice_input": false,
+            "example_sentence": "If I study hard every day, I will pass the final exam.",
+            "media": {}
+        },
+        {
+            "id": "EA2GS2_023",
+            "type": "sentence_ordering",
+            "words": [
+                "will",
+                "be",
+                "late",
+                "miss",
+                "the",
+                "bus",
+                "If",
+                "you",
+                "you"
+            ],
+            "question": "Order the words:",
+            "answer": "If you miss the bus you will be late",
+            "hint": "Start with 'If' or the result clause.",
+            "voice_input": false,
+            "example_sentence": "If you miss the bus, you will be late for work.",
+            "media": {}
+        },
+        {
+            "id": "EA2GS2_024",
+            "type": "matching",
+            "question": "Match the condition to the logical result.",
+            "pairs": [
+                {
+                    "left": "If you eat too much",
+                    "right": "you will feel sick"
+                },
+                {
+                    "left": "If you don't sleep",
+                    "right": "you will be tired"
+                }
+            ],
+            "answer": [
+                {
+                    "left": "If you eat too much",
+                    "right": "you will feel sick"
+                },
+                {
+                    "left": "If you don't sleep",
+                    "right": "you will be tired"
+                }
+            ],
+            "hint": "Think about cause and effect.",
+            "voice_input": false,
+            "example_sentence": "If you eat too much cake, you will feel sick later.",
+            "media": {}
+        },
+        {
+            "id": "EA2GS2_025",
+            "type": "pronunciation",
+            "question": "Repeat: If I see him, I'll tell him.",
+            "answer": "If I see him, I'll tell him.",
+            "hint": "Practice the contraction 'I'll'.",
+            "voice_input": true,
+            "example_sentence": "If I see him at the office, I'll tell him the news.",
+            "media": {}
+        },
+        {
+            "id": "EA2GS2_026",
+            "type": "tap_fill",
+            "question": "She will be angry if you ___ late.",
+            "options": [
+                "are",
+                "will be",
+                "be",
+                "were"
+            ],
+            "answer": "are",
+            "hint": "Use Present Simple after 'if'.",
+            "voice_input": false,
+            "example_sentence": "She will be very angry if you are late for the meeting.",
+            "media": {}
+        },
+        {
+            "id": "EA2GS2_027",
+            "type": "multiple_choice",
+            "question": "What will happen if you don't wear a coat?",
+            "options": [
+                "You'll get cold.",
+                "You get cold.",
+                "You won't get cold."
+            ],
+            "answer": "You'll get cold.",
+            "hint": "Predict the future result.",
+            "voice_input": false,
+            "example_sentence": "It is freezing outside; you'll get cold without a coat.",
+            "media": {}
+        },
+        {
+            "id": "EA2GS2_028",
+            "type": "sentence_ordering",
+            "words": [
+                "buy",
+                "If",
+                "I",
+                "enough",
+                "money",
+                "have",
+                "I",
+                "will",
+                "a",
+                "phone"
+            ],
+            "question": "Order the words:",
+            "answer": "If I have enough money I will buy a phone",
+            "hint": "If + subject + have + object...",
+            "voice_input": false,
+            "example_sentence": "If I have enough money, I will buy a new phone next month.",
+            "media": {}
+        },
+        {
+            "id": "EA2GS2_029",
+            "type": "matching",
+            "question": "Match the 'If' clause to the negative result.",
+            "pairs": [
+                {
+                    "left": "If you don't hurry",
+                    "right": "you won't catch the train"
+                },
+                {
+                    "left": "If you don't water plants",
+                    "right": "they will die"
+                }
+            ],
+            "answer": [
+                {
+                    "left": "If you don't hurry",
+                    "right": "you won't catch the train"
+                },
+                {
+                    "left": "If you don't water plants",
+                    "right": "they will die"
+                }
+            ],
+            "hint": "Consider the negative outcomes.",
+            "voice_input": false,
+            "example_sentence": "If you don't hurry up, you won't catch the last train.",
+            "media": {}
+        },
+        {
+            "id": "EA2GS2_030",
+            "type": "pronunciation",
+            "question": "Repeat: What will you do if it's sunny?",
+            "answer": "What will you do if it's sunny?",
+            "hint": "Practice the question form of the conditional.",
+            "voice_input": true,
+            "example_sentence": "What will you do if it's sunny this weekend?",
+            "media": {}
+        },
+        {
+            "id": "EA2GS2_031",
+            "type": "tap_fill",
+            "question": "He drives very ___; he never has accidents.",
+            "options": [
+                "careful",
+                "carefully",
+                "slow",
+                "quick"
+            ],
+            "answer": "carefully",
+            "hint": "Describes how he drives.",
+            "voice_input": false,
+            "example_sentence": "He drives very carefully, especially when it rains.",
+            "media": {}
+        },
+        {
+            "id": "EA2GS2_032",
+            "type": "multiple_choice",
+            "question": "Which sentence uses the adverb correctly?",
+            "options": [
+                "She speaks English good.",
+                "She speaks English well.",
+                "She speaks English fluent."
+            ],
+            "answer": "She speaks English well.",
+            "hint": "'Well' is the adverb of 'good'.",
+            "voice_input": false,
+            "example_sentence": "She speaks English well because she practices every day.",
+            "media": {}
+        },
+        {
+            "id": "EA2GS2_033",
+            "type": "sentence_ordering",
+            "words": [
+                "loudly",
+                "They",
+                "the",
+                "were",
+                "talking",
+                "in",
+                "library"
+            ],
+            "question": "Order the words:",
+            "answer": "They were talking loudly in the library",
+            "hint": "Subject + verb + adverb.",
+            "voice_input": false,
+            "example_sentence": "They were talking loudly in the library, so the librarian was angry.",
+            "media": {}
+        },
+        {
+            "id": "EA2GS2_034",
+            "type": "matching",
+            "question": "Match the adjective to its adverb form.",
+            "pairs": [
+                {
+                    "left": "Quick",
+                    "right": "Quickly"
+                },
+                {
+                    "left": "Bad",
+                    "right": "Badly"
+                }
+            ],
+            "answer": [
+                {
+                    "left": "Quick",
+                    "right": "Quickly"
+                },
+                {
+                    "left": "Bad",
+                    "right": "Badly"
+                }
+            ],
+            "hint": "Most adverbs end in -ly.",
+            "voice_input": false,
+            "example_sentence": "He is a quick runner and runs quickly.",
+            "media": {}
+        },
+        {
+            "id": "EA2GS2_035",
+            "type": "pronunciation",
+            "question": "Repeat: Please speak slowly.",
+            "answer": "Please speak slowly.",
+            "hint": "Opposite of 'quickly'.",
+            "voice_input": true,
+            "example_sentence": "I don't understand; please speak slowly.",
+            "media": {}
+        },
+        {
+            "id": "EA2GS2_036",
+            "type": "tap_fill",
+            "question": "The children are playing ___ in their room.",
+            "options": [
+                "quietly",
+                "quiet",
+                "good",
+                "happy"
+            ],
+            "answer": "quietly",
+            "hint": "In a quiet way.",
+            "voice_input": false,
+            "example_sentence": "The children are playing quietly in their room.",
+            "media": {}
+        },
+        {
+            "id": "EA2GS2_037",
+            "type": "multiple_choice",
+            "question": "Choose the correct adverb for 'fast':",
+            "options": [
+                "fastly",
+                "fast",
+                "quickly"
+            ],
+            "answer": "fast",
+            "hint": "'Fast' is both an adjective and an adverb.",
+            "voice_input": false,
+            "example_sentence": "He runs very fast.",
+            "media": {}
+        },
+        {
+            "id": "EA2GS2_038",
+            "type": "sentence_ordering",
+            "words": [
+                "opened",
+                "He",
+                "door",
+                "the",
+                "quietly"
+            ],
+            "question": "Order the words:",
+            "answer": "He opened the door quietly",
+            "hint": "Verb + Object + Adverb.",
+            "voice_input": false,
+            "example_sentence": "He opened the door quietly so he wouldn't wake the baby.",
+            "media": {}
+        },
+        {
+            "id": "EA2GS2_039",
+            "type": "matching",
+            "question": "Match the adverb to the meaning.",
+            "pairs": [
+                {
+                    "left": "Happily",
+                    "right": "In a happy way"
+                },
+                {
+                    "left": "Easily",
+                    "right": "Without difficulty"
+                }
+            ],
+            "answer": [
+                {
+                    "left": "Happily",
+                    "right": "In a happy way"
+                },
+                {
+                    "left": "Easily",
+                    "right": "Without difficulty"
+                }
+            ],
+            "hint": "Adverbs describe the 'how'.",
+            "voice_input": false,
+            "example_sentence": "She finished the task easily.",
+            "media": {}
+        },
+        {
+            "id": "EA2GS2_040",
+            "type": "pronunciation",
+            "question": "Repeat: You did that very well!",
+            "answer": "You did that very well!",
+            "hint": "Positive feedback.",
+            "voice_input": true,
+            "example_sentence": "Great job on the project; you did that very well!",
+            "media": {}
+        },
+        {
+            "id": "EA2GS2_041",
+            "type": "tap_fill",
+            "question": "It is raining ___, so we should stay inside.",
+            "options": [
+                "hard",
+                "hardly",
+                "heavy",
+                "soft"
+            ],
+            "answer": "hard",
+            "hint": "'Hard' is an irregular adverb.",
+            "voice_input": false,
+            "example_sentence": "It is raining hard, so we should stay inside.",
+            "media": {}
+        },
+        {
+            "id": "EA2GS2_042",
+            "type": "multiple_choice",
+            "question": "Identify the adverb in this sentence: 'She danced beautifully.'",
+            "options": [
+                "danced",
+                "beautifully",
+                "she"
+            ],
+            "answer": "beautifully",
+            "hint": "Look for the -ly ending.",
+            "voice_input": false,
+            "example_sentence": "She danced beautifully at the concert.",
+            "media": {}
+        },
+        {
+            "id": "EA2GS2_043",
+            "type": "sentence_ordering",
+            "words": [
+                "homework",
+                "He",
+                "his",
+                "quickly",
+                "finished"
+            ],
+            "question": "Order the words:",
+            "answer": "He finished his homework quickly",
+            "hint": "How did he finish?",
+            "voice_input": false,
+            "example_sentence": "He finished his homework quickly so he could play.",
+            "media": {}
+        },
+        {
+            "id": "EA2GS2_044",
+            "type": "matching",
+            "question": "Match the irregular adjectives to their adverbs.",
+            "pairs": [
+                {
+                    "left": "Good",
+                    "right": "Well"
+                },
+                {
+                    "left": "Fast",
+                    "right": "Fast"
+                }
+            ],
+            "answer": [
+                {
+                    "left": "Good",
+                    "right": "Well"
+                },
+                {
+                    "left": "Fast",
+                    "right": "Fast"
+                }
+            ],
+            "hint": "These don't follow the -ly rule.",
+            "voice_input": false,
+            "example_sentence": "He is a fast driver and drives fast.",
+            "media": {}
+        },
+        {
+            "id": "EA2GS2_045",
+            "type": "pronunciation",
+            "question": "Repeat: Walk carefully on the ice.",
+            "answer": "Walk carefully on the ice.",
+            "hint": "Advice for safety.",
+            "voice_input": true,
+            "example_sentence": "Walk carefully on the ice, it's very slippery.",
+            "media": {}
+        },
+        {
+            "id": "EA2GS2_046",
+            "type": "tap_fill",
+            "question": "The student answered all questions ___.",
+            "options": [
+                "correctly",
+                "correct",
+                "good",
+                "happy"
+            ],
+            "answer": "correctly",
+            "hint": "In a correct manner.",
+            "voice_input": false,
+            "example_sentence": "The student answered all questions correctly and got an A.",
+            "media": {}
+        },
+        {
+            "id": "EA2GS2_047",
+            "type": "multiple_choice",
+            "question": "What is the adverb form of 'heavy'?",
+            "options": [
+                "heavily",
+                "heavyly",
+                "heavy"
+            ],
+            "answer": "heavily",
+            "hint": "Change 'y' to 'i' then add 'ly'.",
+            "voice_input": false,
+            "example_sentence": "It snowed heavily all night.",
+            "media": {}
+        },
+        {
+            "id": "EA2GS2_048",
+            "type": "sentence_ordering",
+            "words": [
+                "sadly",
+                "He",
+                "at",
+                "me",
+                "looked"
+            ],
+            "question": "Order the words:",
+            "answer": "He looked at me sadly",
+            "hint": "Expressing an emotion through an action.",
+            "voice_input": false,
+            "example_sentence": "He looked at me sadly when I had to leave.",
+            "media": {}
+        },
+        {
+            "id": "EA2GS2_049",
+            "type": "matching",
+            "question": "Match the adverb to its opposite.",
+            "pairs": [
+                {
+                    "left": "Loudly",
+                    "right": "Quietly"
+                },
+                {
+                    "left": "Quickly",
+                    "right": "Slowly"
+                }
+            ],
+            "answer": [
+                {
+                    "left": "Loudly",
+                    "right": "Quietly"
+                },
+                {
+                    "left": "Quickly",
+                    "right": "Slowly"
+                }
+            ],
+            "hint": "Opposite ways of doing things.",
+            "voice_input": false,
+            "example_sentence": "He speaks loudly, but she whispers quietly.",
+            "media": {}
+        },
+        {
+            "id": "EA2GS2_050",
+            "type": "pronunciation",
+            "question": "Repeat: Everything will work out perfectly.",
+            "answer": "Everything will work out perfectly.",
+            "hint": "Reassurance.",
+            "voice_input": true,
+            "example_sentence": "Don't worry; everything will work out perfectly.",
+            "media": {}
+        },
+        {
+            "id": "EA2GS2_051",
+            "type": "tap_fill",
+            "question": "I can't drink this tea; there is ___ sugar in it.",
+            "options": [
+                "too much",
+                "too many",
+                "enough",
+                "many"
+            ],
+            "answer": "too much",
+            "hint": "Use for uncountable nouns.",
+            "voice_input": false,
+            "example_sentence": "I can't drink this tea; there is too much sugar in it.",
+            "media": {}
+        },
+        {
+            "id": "EA2GS2_052",
+            "type": "multiple_choice",
+            "question": "Which sentence is correct for a plural noun?",
+            "options": [
+                "There are too much cars on the road.",
+                "There are too many cars on the road.",
+                "There are enough many cars on the road."
+            ],
+            "answer": "There are too many cars on the road.",
+            "hint": "Use 'too many' for countable items.",
+            "voice_input": false,
+            "example_sentence": "There are too many cars on the road during rush hour.",
+            "media": {}
+        },
+        {
+            "id": "EA2GS2_053",
+            "type": "sentence_ordering",
+            "words": [
+                "have",
+                "don't",
+                "I",
+                "money",
+                "enough",
+                "to",
+                "this",
+                "buy"
+            ],
+            "question": "Order the words:",
+            "answer": "I don't have enough money to buy this",
+            "hint": "Enough comes after 'not have' but before the noun.",
+            "voice_input": false,
+            "example_sentence": "I don't have enough money to buy this expensive watch.",
+            "media": {}
+        },
+        {
+            "id": "EA2GS2_054",
+            "type": "matching",
+            "question": "Match the quantifier to its use.",
+            "pairs": [
+                {
+                    "left": "Uncountable nouns (water, time)",
+                    "right": "Too much"
+                },
+                {
+                    "left": "Countable nouns (books, people)",
+                    "right": "Too many"
+                }
+            ],
+            "answer": [
+                {
+                    "left": "Uncountable nouns (water, time)",
+                    "right": "Too much"
+                },
+                {
+                    "left": "Countable nouns (books, people)",
+                    "right": "Too many"
+                }
+            ],
+            "hint": "Think about if you can count the items.",
+            "voice_input": false,
+            "example_sentence": "Too much water and too many people.",
+            "media": {}
+        },
+        {
+            "id": "EA2GS2_055",
+            "type": "pronunciation",
+            "question": "Repeat: Is the room warm enough?",
+            "answer": "Is the room warm enough?",
+            "hint": "'Enough' comes after the adjective.",
+            "voice_input": true,
+            "example_sentence": "It is cold outside. Is the room warm enough for you?",
+            "media": {}
+        },
+        {
+            "id": "EA2GS2_056",
+            "type": "tap_fill",
+            "question": "I am so tired. I didn't get ___ sleep.",
+            "options": [
+                "enough",
+                "too much",
+                "too many",
+                "few"
+            ],
+            "answer": "enough",
+            "hint": "Meaning 'sufficient'.",
+            "voice_input": false,
+            "example_sentence": "I am so tired because I didn't get enough sleep last night.",
+            "media": {}
+        },
+        {
+            "id": "EA2GS2_057",
+            "type": "multiple_choice",
+            "question": "Where does 'enough' go? 'This coffee is ___.'",
+            "options": [
+                "enough sweet",
+                "sweet enough",
+                "too enough sweet"
+            ],
+            "answer": "sweet enough",
+            "hint": "Adjective + Enough.",
+            "voice_input": false,
+            "example_sentence": "This coffee is sweet enough without adding more sugar.",
+            "media": {}
+        },
+        {
+            "id": "EA2GS2_058",
+            "type": "sentence_ordering",
+            "words": [
+                "too",
+                "noise",
+                "much",
+                "There",
+                "is",
+                "here"
+            ],
+            "question": "Order the words:",
+            "answer": "There is too much noise here",
+            "hint": "Noise is uncountable.",
+            "voice_input": false,
+            "example_sentence": "There is too much noise here; I can't concentrate.",
+            "media": {}
+        },
+        {
+            "id": "EA2GS2_059",
+            "type": "matching",
+            "question": "Match the problem to the quantifier.",
+            "pairs": [
+                {
+                    "left": "Too many people",
+                    "right": "Small space"
+                },
+                {
+                    "left": "Too much salt",
+                    "right": "Bad soup"
+                }
+            ],
+            "answer": [
+                {
+                    "left": "Too many people",
+                    "right": "Small space"
+                },
+                {
+                    "left": "Too much salt",
+                    "right": "Bad soup"
+                }
+            ],
+            "hint": "Logical associations.",
+            "voice_input": false,
+            "example_sentence": "The soup is bad because there is too much salt.",
+            "media": {}
+        },
+        {
+            "id": "EA2GS2_060",
+            "type": "pronunciation",
+            "question": "Repeat: There are too many people here.",
+            "answer": "There are too many people here.",
+            "hint": "Stress 'too many'.",
+            "voice_input": true,
+            "example_sentence": "I want to leave because there are too many people here.",
+            "media": {}
+        },
+        {
+            "id": "EA2GS2_061",
+            "type": "tap_fill",
+            "question": "We have ___ food for the party, so don't buy any more.",
+            "options": [
+                "enough",
+                "too much",
+                "too many",
+                "little"
+            ],
+            "answer": "enough",
+            "hint": "We have the right amount.",
+            "voice_input": false,
+            "example_sentence": "We have enough food for the party, so don't buy any more.",
+            "media": {}
+        },
+        {
+            "id": "EA2GS2_062",
+            "type": "multiple_choice",
+            "question": "Correct the error: 'He has too much tasks today.'",
+            "options": [
+                "He has too many tasks today.",
+                "He has enough tasks today.",
+                "He has many much tasks today."
+            ],
+            "answer": "He has too many tasks today.",
+            "hint": "Tasks are countable.",
+            "voice_input": false,
+            "example_sentence": "He has too many tasks today to finish by 5 PM.",
+            "media": {}
+        },
+        {
+            "id": "EA2GS2_063",
+            "type": "sentence_ordering",
+            "words": [
+                "is",
+                "box",
+                "This",
+                "heavy",
+                "too",
+                "carry",
+                "to"
+            ],
+            "question": "Order the words:",
+            "answer": "This box is too heavy to carry",
+            "hint": "Too + Adjective + To + Verb.",
+            "voice_input": false,
+            "example_sentence": "This box is too heavy to carry alone.",
+            "media": {}
+        },
+        {
+            "id": "EA2GS2_064",
+            "type": "matching",
+            "question": "Match the opposite meanings.",
+            "pairs": [
+                {
+                    "left": "Not enough",
+                    "right": "Too much"
+                },
+                {
+                    "left": "Not many",
+                    "right": "Too many"
+                }
+            ],
+            "answer": [
+                {
+                    "left": "Not enough",
+                    "right": "Too much"
+                },
+                {
+                    "left": "Not many",
+                    "right": "Too many"
+                }
+            ],
+            "hint": "Focus on the scales of quantity.",
+            "voice_input": false,
+            "example_sentence": "We have too much bread, but not enough butter.",
+            "media": {}
+        },
+        {
+            "id": "EA2GS2_065",
+            "type": "pronunciation",
+            "question": "Repeat: I've had too much coffee.",
+            "answer": "I've had too much coffee.",
+            "hint": "Coffee (as a substance) is uncountable.",
+            "voice_input": true,
+            "example_sentence": "I've had too much coffee and now I feel nervous.",
+            "media": {}
+        },
+        {
+            "id": "EA2GS2_066",
+            "type": "tap_fill",
+            "question": "Are there ___ chairs for everyone?",
+            "options": [
+                "enough",
+                "too much",
+                "many",
+                "too"
+            ],
+            "answer": "enough",
+            "hint": "Asking about sufficiency.",
+            "voice_input": false,
+            "example_sentence": "Are there enough chairs for everyone to sit down?",
+            "media": {}
+        },
+        {
+            "id": "EA2GS2_067",
+            "type": "multiple_choice",
+            "question": "Choose the correct quantifier for 'luggage':",
+            "options": [
+                "Too many luggage",
+                "Too much luggage",
+                "Enough many luggage"
+            ],
+            "answer": "Too much luggage",
+            "hint": "Luggage is uncountable.",
+            "voice_input": false,
+            "example_sentence": "You have too much luggage for this small car.",
+            "media": {}
+        },
+        {
+            "id": "EA2GS2_068",
+            "type": "sentence_ordering",
+            "words": [
+                "big",
+                "The",
+                "wasn't",
+                "shoes",
+                "enough",
+                "were"
+            ],
+            "question": "Order the words:",
+            "answer": "The shoes were not big enough",
+            "hint": "Be + not + adjective + enough.",
+            "voice_input": false,
+            "example_sentence": "The shoes were not big enough for my feet.",
+            "media": {}
+        },
+        {
+            "id": "EA2GS2_069",
+            "type": "matching",
+            "question": "Match the adjective with 'enough'.",
+            "pairs": [
+                {
+                    "left": "Rich enough",
+                    "right": "To buy a boat"
+                },
+                {
+                    "left": "Old enough",
+                    "right": "To drive a car"
+                }
+            ],
+            "answer": [
+                {
+                    "left": "Rich enough",
+                    "right": "To buy a boat"
+                },
+                {
+                    "left": "Old enough",
+                    "right": "To drive a car"
+                }
+            ],
+            "hint": "Logical abilities based on being 'enough'.",
+            "voice_input": false,
+            "example_sentence": "He is old enough to drive a car now.",
+            "media": {}
+        },
+        {
+            "id": "EA2GS2_070",
+            "type": "pronunciation",
+            "question": "Repeat: Stop! That's enough.",
+            "answer": "Stop! That's enough.",
+            "hint": "Common phrase to indicate completion.",
+            "voice_input": true,
+            "example_sentence": "Stop! That's enough sugar for one cup.",
+            "media": {}
+        },
+        {
+            "id": "EA2GS2_071",
+            "type": "tap_fill",
+            "question": "This phone ___ made in China.",
+            "options": [
+                "is",
+                "are",
+                "am",
+                "does"
+            ],
+            "answer": "is",
+            "hint": "Use 'is' for singular objects.",
+            "voice_input": false,
+            "example_sentence": "This phone is made in China and exported everywhere.",
+            "media": {}
+        },
+        {
+            "id": "EA2GS2_072",
+            "type": "multiple_choice",
+            "question": "Which sentence is in the passive voice?",
+            "options": [
+                "The chef cooks the food.",
+                "The food is cooked by the chef.",
+                "The chef is cooking the food."
+            ],
+            "answer": "The food is cooked by the chef.",
+            "hint": "Be + Past Participle.",
+            "voice_input": false,
+            "example_sentence": "The food is cooked by the chef every morning.",
+            "media": {}
+        },
+        {
+            "id": "EA2GS2_073",
+            "type": "sentence_ordering",
+            "words": [
+                "is",
+                "English",
+                "many",
+                "spoken",
+                "in",
+                "countries"
+            ],
+            "question": "Order the words:",
+            "answer": "English is spoken in many countries",
+            "hint": "Subject + is + participle + location.",
+            "voice_input": false,
+            "example_sentence": "English is spoken in many countries around the world.",
+            "media": {}
+        },
+        {
+            "id": "EA2GS2_074",
+            "type": "matching",
+            "question": "Match the product to where it is produced (Shuffled).",
+            "pairs": [
+                {
+                    "left": "Rice",
+                    "right": "grown in fields"
+                },
+                {
+                    "left": "Grapes",
+                    "right": "grown in vineyards"
+                }
+            ],
+            "answer": [
+                {
+                    "left": "Rice",
+                    "right": "grown in fields"
+                },
+                {
+                    "left": "Grapes",
+                    "right": "grown in vineyards"
+                }
+            ],
+            "hint": "Match the plant to its location.",
+            "voice_input": false,
+            "example_sentence": "Rice is grown in fields, while grapes are grown in vineyards.",
+            "media": {}
+        },
+        {
+            "id": "EA2GS2_075",
+            "type": "pronunciation",
+            "question": "Repeat: These cars are manufactured in Germany.",
+            "answer": "These cars are manufactured in Germany.",
+            "hint": "Focus on the 'are' and the '-ed' sound.",
+            "voice_input": true,
+            "example_sentence": "These cars are manufactured in Germany by expert engineers.",
+            "media": {}
+        },
+        {
+            "id": "EA2GS2_076",
+            "type": "tap_fill",
+            "question": "Butter ___ made from milk.",
+            "options": [
+                "is",
+                "are",
+                "has",
+                "it"
+            ],
+            "answer": "is",
+            "hint": "Butter is uncountable (singular).",
+            "voice_input": false,
+            "example_sentence": "Butter is made from milk through a simple process.",
+            "media": {}
+        },
+        {
+            "id": "EA2GS2_077",
+            "type": "multiple_choice",
+            "question": "Choose the correct past participle for 'write':",
+            "options": [
+                "wrote",
+                "writed",
+                "written"
+            ],
+            "answer": "written",
+            "hint": "The books are ___ by her.",
+            "voice_input": false,
+            "example_sentence": "The email is written in professional English.",
+            "media": {}
+        },
+        {
+            "id": "EA2GS2_078",
+            "type": "sentence_ordering",
+            "words": [
+                "cleaned",
+                "are",
+                "The",
+                "every",
+                "rooms",
+                "day"
+            ],
+            "question": "Order the words:",
+            "answer": "The rooms are cleaned every day",
+            "hint": "Plural subject + are + participle.",
+            "voice_input": false,
+            "example_sentence": "The rooms are cleaned every day by the hotel staff.",
+            "media": {}
+        },
+        {
+            "id": "EA2GS2_079",
+            "type": "matching",
+            "question": "Match the action to the object (Shuffled).",
+            "pairs": [
+                {
+                    "left": "Rubbish",
+                    "right": "is collected"
+                },
+                {
+                    "left": "Letters",
+                    "right": "are delivered"
+                }
+            ],
+            "answer": [
+                {
+                    "left": "Rubbish",
+                    "right": "is collected"
+                },
+                {
+                    "left": "Letters",
+                    "right": "are delivered"
+                }
+            ],
+            "hint": "Check for singular vs plural agreement.",
+            "voice_input": false,
+            "example_sentence": "Rubbish is collected on Tuesdays, and letters are delivered daily.",
+            "media": {}
+        },
+        {
+            "id": "EA2GS2_080",
+            "type": "pronunciation",
+            "question": "Repeat: Is coffee grown in Brazil?",
+            "answer": "Is coffee grown in Brazil?",
+            "hint": "Rising intonation for a passive question.",
+            "voice_input": true,
+            "example_sentence": "Is coffee grown in Brazil or in Colombia?",
+            "media": {}
+        },
+        {
+            "id": "EA2GS2_081",
+            "type": "tap_fill",
+            "question": "Many films ___ produced in Hollywood.",
+            "options": [
+                "is",
+                "are",
+                "was",
+                "be"
+            ],
+            "answer": "are",
+            "hint": "Films are plural.",
+            "voice_input": false,
+            "example_sentence": "Many films are produced in Hollywood every year.",
+            "media": {}
+        },
+        {
+            "id": "EA2GS2_082",
+            "type": "multiple_choice",
+            "question": "What is the passive form of 'People speak Spanish here'?",
+            "options": [
+                "Spanish is speak here.",
+                "Spanish is spoken here.",
+                "Spanish are spoken here."
+            ],
+            "answer": "Spanish is spoken here.",
+            "hint": "Subject + is + spoken.",
+            "voice_input": false,
+            "example_sentence": "Spanish is spoken here by most of the locals.",
+            "media": {}
+        },
+        {
+            "id": "EA2GS2_083",
+            "type": "sentence_ordering",
+            "words": [
+                "kept",
+                "is",
+                "in",
+                "The",
+                "money",
+                "the",
+                "bank"
+            ],
+            "question": "Order the words:",
+            "answer": "The money is kept in the bank",
+            "hint": "Subject + is + kept.",
+            "voice_input": false,
+            "example_sentence": "The money is kept in the bank for safety.",
+            "media": {}
+        },
+        {
+            "id": "EA2GS2_084",
+            "type": "matching",
+            "question": "Match the participle to its base verb (Shuffled).",
+            "pairs": [
+                {
+                    "left": "Take",
+                    "right": "Taken"
+                },
+                {
+                    "left": "Give",
+                    "right": "Given"
+                }
+            ],
+            "answer": [
+                {
+                    "left": "Take",
+                    "right": "Taken"
+                },
+                {
+                    "left": "Give",
+                    "right": "Given"
+                }
+            ],
+            "hint": "Irregular past participles.",
+            "voice_input": false,
+            "example_sentence": "Photos are taken and gifts are given.",
+            "media": {}
+        },
+        {
+            "id": "EA2GS2_085",
+            "type": "pronunciation",
+            "question": "Repeat: This song is sung by millions.",
+            "answer": "This song is sung by millions.",
+            "hint": "Passive with 'by' to show the agent.",
+            "voice_input": true,
+            "example_sentence": "This song is sung by millions of fans.",
+            "media": {}
+        },
+        {
+            "id": "EA2GS2_086",
+            "type": "tap_fill",
+            "question": "Hockey ___ played on ice in Canada.",
+            "options": [
+                "is",
+                "are",
+                "does",
+                "be"
+            ],
+            "answer": "is",
+            "hint": "Hockey is a singular sport.",
+            "voice_input": false,
+            "example_sentence": "Hockey is played on ice in Canada during the winter.",
+            "media": {}
+        },
+        {
+            "id": "EA2GS2_087",
+            "type": "multiple_choice",
+            "question": "Negative form: 'Newspapers ___ sold here.'",
+            "options": [
+                "is not",
+                "are not",
+                "not are"
+            ],
+            "answer": "are not",
+            "hint": "Newspapers = plural.",
+            "voice_input": false,
+            "example_sentence": "Newspapers are not sold here anymore; everyone reads online.",
+            "media": {}
+        },
+        {
+            "id": "EA2GS2_088",
+            "type": "sentence_ordering",
+            "words": [
+                "is",
+                "What",
+                "plastic",
+                "made",
+                "of",
+                "?"
+            ],
+            "question": "Order the words:",
+            "answer": "What is plastic made of ?",
+            "hint": "Question form of the passive.",
+            "voice_input": false,
+            "example_sentence": "What is plastic made of? It comes from oil.",
+            "media": {}
+        },
+        {
+            "id": "EA2GS2_089",
+            "type": "matching",
+            "question": "Match the object to the material (Shuffled).",
+            "pairs": [
+                {
+                    "left": "Tables",
+                    "right": "are made of wood"
+                },
+                {
+                    "left": "Windows",
+                    "right": "are made of glass"
+                }
+            ],
+            "answer": [
+                {
+                    "left": "Tables",
+                    "right": "are made of wood"
+                },
+                {
+                    "left": "Windows",
+                    "right": "are made of glass"
+                }
+            ],
+            "hint": "Material construction.",
+            "voice_input": false,
+            "example_sentence": "Tables are made of wood and windows are made of glass.",
+            "media": {}
+        },
+        {
+            "id": "EA2GS2_090",
+            "type": "pronunciation",
+            "question": "Repeat: Taxes are included in the price.",
+            "answer": "Taxes are included in the price.",
+            "hint": "Common commercial phrase.",
+            "voice_input": true,
+            "example_sentence": "You don't need to pay extra; taxes are included in the price.",
+            "media": {}
+        },
+        {
+            "id": "EA2GS2_091",
+            "type": "tap_fill",
+            "question": "The Taj Mahal ___ built in the 17th century.",
+            "options": [
+                "was",
+                "were",
+                "is",
+                "did"
+            ],
+            "answer": "was",
+            "hint": "Use 'was' for singular past objects.",
+            "voice_input": false,
+            "example_sentence": "The Taj Mahal was built in the 17th century by Shah Jahan.",
+            "media": {}
+        },
+        {
+            "id": "EA2GS2_092",
+            "type": "multiple_choice",
+            "question": "Which sentence is in the Past Passive?",
+            "options": [
+                "Shakespeare wrote Hamlet.",
+                "Hamlet was written by Shakespeare.",
+                "Hamlet is written by Shakespeare."
+            ],
+            "answer": "Hamlet was written by Shakespeare.",
+            "hint": "Was/Were + Past Participle.",
+            "voice_input": false,
+            "example_sentence": "Hamlet was written by Shakespeare around 1600.",
+            "media": {}
+        },
+        {
+            "id": "EA2GS2_093",
+            "type": "sentence_ordering",
+            "words": [
+                "discovered",
+                "was",
+                "Penicillin",
+                "in",
+                "1928"
+            ],
+            "question": "Order the words:",
+            "answer": "Penicillin was discovered in 1928",
+            "hint": "Subject + was + participle + time.",
+            "voice_input": false,
+            "example_sentence": "Penicillin was discovered in 1928 by Alexander Fleming.",
+            "media": {}
+        },
+        {
+            "id": "EA2GS2_094",
+            "type": "matching",
+            "question": "Match the event to the year (Shuffled).",
+            "pairs": [
+                {
+                    "left": "The Eiffel Tower",
+                    "right": "was finished in 1889"
+                },
+                {
+                    "left": "The pyramids",
+                    "right": "were built long ago"
+                }
+            ],
+            "answer": [
+                {
+                    "left": "The Eiffel Tower",
+                    "right": "was finished in 1889"
+                },
+                {
+                    "left": "The pyramids",
+                    "right": "were built long ago"
+                }
+            ],
+            "hint": "Check for singular (was) and plural (were).",
+            "voice_input": false,
+            "example_sentence": "The Eiffel Tower was finished in 1889.",
+            "media": {}
+        },
+        {
+            "id": "EA2GS2_095",
+            "type": "pronunciation",
+            "question": "Repeat: My car was stolen last night.",
+            "answer": "My car was stolen last night.",
+            "hint": "Focus on the 'was' and 'stolen' sound.",
+            "voice_input": true,
+            "example_sentence": "I'm so upset; my car was stolen last night.",
+            "media": {}
+        },
+        {
+            "id": "EA2GS2_096",
+            "type": "tap_fill",
+            "question": "The first Olympic Games ___ held in Greece.",
+            "options": [
+                "were",
+                "was",
+                "did",
+                "are"
+            ],
+            "answer": "were",
+            "hint": "Games is plural.",
+            "voice_input": false,
+            "example_sentence": "The first modern Olympic Games were held in Greece in 1896.",
+            "media": {}
+        },
+        {
+            "id": "EA2GS2_097",
+            "type": "multiple_choice",
+            "question": "Past participle for 'find':",
+            "options": [
+                "finded",
+                "found",
+                "was find"
+            ],
+            "answer": "found",
+            "hint": "The keys were ___ in the garden.",
+            "voice_input": false,
+            "example_sentence": "The missing keys were found in the garden.",
+            "media": {}
+        },
+        {
+            "id": "EA2GS2_098",
+            "type": "sentence_ordering",
+            "words": [
+                "sent",
+                "Invitations",
+                "were",
+                "yesterday",
+                "all"
+            ],
+            "question": "Order the words:",
+            "answer": "All invitations were sent yesterday",
+            "hint": "Subject + were + participle.",
+            "voice_input": false,
+            "example_sentence": "All invitations were sent yesterday afternoon.",
+            "media": {}
+        },
+        {
+            "id": "EA2GS2_099",
+            "type": "matching",
+            "question": "Match the inventor to the invention (Shuffled).",
+            "pairs": [
+                {
+                    "left": "The telephone",
+                    "right": "was invented by Bell"
+                },
+                {
+                    "left": "The lightbulb",
+                    "right": "was developed by Edison"
+                }
+            ],
+            "answer": [
+                {
+                    "left": "The telephone",
+                    "right": "was invented by Bell"
+                },
+                {
+                    "left": "The lightbulb",
+                    "right": "was developed by Edison"
+                }
+            ],
+            "hint": "Match the object to the creator.",
+            "voice_input": false,
+            "example_sentence": "The telephone was invented by Bell in 1876.",
+            "media": {}
+        },
+        {
+            "id": "EA2GS2_100",
+            "type": "pronunciation",
+            "question": "Repeat: These photos were taken in Paris.",
+            "answer": "These photos were taken in Paris.",
+            "hint": "Emphasis on 'taken'.",
+            "voice_input": true,
+            "example_sentence": "These photos were taken in Paris during my vacation.",
+            "media": {}
+        },
+        {
+            "id": "EA2GS2_101",
+            "type": "tap_fill",
+            "question": "I ___ born in 1995.",
+            "options": [
+                "was",
+                "were",
+                "am",
+                "did"
+            ],
+            "answer": "was",
+            "hint": "Always use 'was born'.",
+            "voice_input": false,
+            "example_sentence": "I was born in 1995 in a small town.",
+            "media": {}
+        },
+        {
+            "id": "EA2GS2_102",
+            "type": "multiple_choice",
+            "question": "Negative form: 'The window ___ broken by the wind.'",
+            "options": [
+                "wasn't",
+                "weren't",
+                "not was"
+            ],
+            "answer": "wasn't",
+            "hint": "Window is singular.",
+            "voice_input": false,
+            "example_sentence": "The window wasn't broken by the wind; it was a ball.",
+            "media": {}
+        },
+        {
+            "id": "EA2GS2_103",
+            "type": "sentence_ordering",
+            "words": [
+                "were",
+                "The",
+                "closed",
+                "during",
+                "shops",
+                "the",
+                "holiday"
+            ],
+            "question": "Order the words:",
+            "answer": "The shops were closed during the holiday",
+            "hint": "Subject + were + closed.",
+            "voice_input": false,
+            "example_sentence": "The shops were closed during the public holiday.",
+            "media": {}
+        },
+        {
+            "id": "EA2GS2_104",
+            "type": "matching",
+            "question": "Match the base verb to its passive participle (Shuffled).",
+            "pairs": [
+                {
+                    "left": "Make",
+                    "right": "Made"
+                },
+                {
+                    "left": "Buy",
+                    "right": "Bought"
+                }
+            ],
+            "answer": [
+                {
+                    "left": "Make",
+                    "right": "Made"
+                },
+                {
+                    "left": "Buy",
+                    "right": "Bought"
+                }
+            ],
+            "hint": "Irregular participles.",
+            "voice_input": false,
+            "example_sentence": "The bread was made and the milk was bought.",
+            "media": {}
+        },
+        {
+            "id": "EA2GS2_105",
+            "type": "pronunciation",
+            "question": "Repeat: When was this house built?",
+            "answer": "When was this house built?",
+            "hint": "Question intonation.",
+            "voice_input": true,
+            "example_sentence": "It looks very old. When was this house built?",
+            "media": {}
+        },
+        {
+            "id": "EA2GS2_106",
+            "type": "tap_fill",
+            "question": "The lost cat ___ found two days later.",
+            "options": [
+                "was",
+                "were",
+                "has",
+                "is"
+            ],
+            "answer": "was",
+            "hint": "Single cat in the past.",
+            "voice_input": false,
+            "example_sentence": "The lost cat was found two days later in a park.",
+            "media": {}
+        },
+        {
+            "id": "EA2GS2_107",
+            "type": "multiple_choice",
+            "question": "Choose the correct question:",
+            "options": [
+                "Were the letters delivered?",
+                "Was the letters delivered?",
+                "Did the letters delivered?"
+            ],
+            "answer": "Were the letters delivered?",
+            "hint": "Letters is plural.",
+            "voice_input": false,
+            "example_sentence": "Were the letters delivered this morning?",
+            "media": {}
+        },
+        {
+            "id": "EA2GS2_108",
+            "type": "sentence_ordering",
+            "words": [
+                "painted",
+                "The",
+                "was",
+                "in",
+                "wall",
+                "blue"
+            ],
+            "question": "Order the words:",
+            "answer": "The wall was painted in blue",
+            "hint": "Object + was + participle.",
+            "voice_input": false,
+            "example_sentence": "The wall was painted in blue last summer.",
+            "media": {}
+        },
+        {
+            "id": "EA2GS2_109",
+            "type": "matching",
+            "question": "Match the material to the object (Shuffled).",
+            "pairs": [
+                {
+                    "left": "Silver",
+                    "right": "Coins were made of it"
+                },
+                {
+                    "left": "Cotton",
+                    "right": "Shirts were made from it"
+                }
+            ],
+            "answer": [
+                {
+                    "left": "Silver",
+                    "right": "Coins were made of it"
+                },
+                {
+                    "left": "Cotton",
+                    "right": "Shirts were made from it"
+                }
+            ],
+            "hint": "What was used to make these things?",
+            "voice_input": false,
+            "example_sentence": "Shirts were made from cotton.",
+            "media": {}
+        },
+        {
+            "id": "EA2GS2_110",
+            "type": "pronunciation",
+            "question": "Repeat: Mistakes were made.",
+            "answer": "Mistakes were made.",
+            "hint": "A common formal expression.",
+            "voice_input": true,
+            "example_sentence": "Mistakes were made, but we will learn from them.",
+            "media": {}
+        },
+        {
+            "id": "EA2GS2_111",
+            "type": "tap_fill",
+            "question": "I usually ___ up at 7 o'clock every morning.",
+            "options": [
+                "get",
+                "go",
+                "take",
+                "look"
+            ],
+            "answer": "get",
+            "hint": "To leave your bed.",
+            "voice_input": false,
+            "example_sentence": "I usually get up at 7 o'clock every morning to exercise.",
+            "media": {}
+        },
+        {
+            "id": "EA2GS2_112",
+            "type": "multiple_choice",
+            "question": "Which phrasal verb means 'to search for'?",
+            "options": [
+                "Look at",
+                "Look for",
+                "Look after"
+            ],
+            "answer": "Look for",
+            "hint": "I am ___ my lost keys.",
+            "voice_input": false,
+            "example_sentence": "I need to look for my glasses; I can't find them anywhere.",
+            "media": {}
+        },
+        {
+            "id": "EA2GS2_113",
+            "type": "sentence_ordering",
+            "words": [
+                "off",
+                "Please",
+                "lights",
+                "turn",
+                "the"
+            ],
+            "question": "Order the words:",
+            "answer": "Please turn off the lights",
+            "hint": "To stop the electricity flow.",
+            "voice_input": false,
+            "example_sentence": "Please turn off the lights when you leave the room.",
+            "media": {}
+        },
+        {
+            "id": "EA2GS2_114",
+            "type": "matching",
+            "question": "Match the phrasal verb to its meaning (Shuffled).",
+            "pairs": [
+                {
+                    "left": "Take off",
+                    "right": "To remove clothes"
+                },
+                {
+                    "left": "Put on",
+                    "right": "To dress yourself"
+                }
+            ],
+            "answer": [
+                {
+                    "left": "Take off",
+                    "right": "To remove clothes"
+                },
+                {
+                    "left": "Put on",
+                    "right": "To dress yourself"
+                }
+            ],
+            "hint": "Think about getting dressed or undressed.",
+            "voice_input": false,
+            "example_sentence": "Put on your coat, it's cold!",
+            "media": {}
+        },
+        {
+            "id": "EA2GS2_115",
+            "type": "pronunciation",
+            "question": "Repeat: Can you fill in this form?",
+            "answer": "Can you fill in this form?",
+            "hint": "To write information on a document.",
+            "voice_input": true,
+            "example_sentence": "Can you fill in this form with your name and address?",
+            "media": {}
+        },
+        {
+            "id": "EA2GS2_116",
+            "type": "tap_fill",
+            "question": "Please ___ the radio; it's too loud!",
+            "options": [
+                "turn down",
+                "turn up",
+                "turn on",
+                "turn off"
+            ],
+            "answer": "turn down",
+            "hint": "To decrease the volume.",
+            "voice_input": false,
+            "example_sentence": "Please turn down the radio; I'm trying to study.",
+            "media": {}
+        },
+        {
+            "id": "EA2GS2_117",
+            "type": "multiple_choice",
+            "question": "What does 'give up' mean?",
+            "options": [
+                "To stop trying",
+                "To give a gift",
+                "To start a hobby"
+            ],
+            "answer": "To stop trying",
+            "hint": "Don't ___; you can do it!",
+            "voice_input": false,
+            "example_sentence": "Learning English is hard, but don't give up.",
+            "media": {}
+        },
+        {
+            "id": "EA2GS2_118",
+            "type": "sentence_ordering",
+            "words": [
+                "shoes",
+                "Take",
+                "your",
+                "off",
+                "inside"
+            ],
+            "question": "Order the words:",
+            "answer": "Take your shoes off inside",
+            "hint": "Remove your footwear.",
+            "voice_input": false,
+            "example_sentence": "Please take your shoes off inside the house.",
+            "media": {}
+        },
+        {
+            "id": "EA2GS2_119",
+            "type": "matching",
+            "question": "Match the opposite phrasal verbs (Shuffled).",
+            "pairs": [
+                {
+                    "left": "Pick up",
+                    "right": "Put down"
+                },
+                {
+                    "left": "Get on",
+                    "right": "Get off"
+                }
+            ],
+            "answer": [
+                {
+                    "left": "Pick up",
+                    "right": "Put down"
+                },
+                {
+                    "left": "Get on",
+                    "right": "Get off"
+                }
+            ],
+            "hint": "Actions and their reversals.",
+            "voice_input": false,
+            "example_sentence": "Get on the bus and get off at the next stop.",
+            "media": {}
+        },
+        {
+            "id": "EA2GS2_120",
+            "type": "pronunciation",
+            "question": "Repeat: Look after your sister.",
+            "answer": "Look after your sister.",
+            "hint": "To take care of someone.",
+            "voice_input": true,
+            "example_sentence": "I'm going to the store; please look after your sister.",
+            "media": {}
+        },
+        {
+            "id": "EA2GS2_121",
+            "type": "tap_fill",
+            "question": "I need to ___ out what time the train leaves.",
+            "options": [
+                "find",
+                "look",
+                "get",
+                "take"
+            ],
+            "answer": "find",
+            "hint": "To discover information.",
+            "voice_input": false,
+            "example_sentence": "I need to find out what time the train leaves tomorrow.",
+            "media": {}
+        },
+        {
+            "id": "EA2GS2_122",
+            "type": "multiple_choice",
+            "question": "Choose the correct verb: 'Please ___ up the trash.'",
+            "options": [
+                "pick",
+                "put",
+                "take"
+            ],
+            "answer": "pick",
+            "hint": "To lift something from the floor.",
+            "voice_input": false,
+            "example_sentence": "Please pick up the trash and put it in the bin.",
+            "media": {}
+        },
+        {
+            "id": "EA2GS2_123",
+            "type": "sentence_ordering",
+            "words": [
+                "don't",
+                "Why",
+                "you",
+                "on",
+                "try",
+                "it",
+                "?"
+            ],
+            "question": "Order the words:",
+            "answer": "Why don't you try it on ?",
+            "hint": "To test if clothes fit.",
+            "voice_input": false,
+            "example_sentence": "That's a nice shirt. Why don't you try it on?",
+            "media": {}
+        },
+        {
+            "id": "EA2GS2_124",
+            "type": "matching",
+            "question": "Match the phrasal verb to the context (Shuffled).",
+            "pairs": [
+                {
+                    "left": "Go back",
+                    "right": "To return to a place"
+                },
+                {
+                    "left": "Grow up",
+                    "right": "To become an adult"
+                }
+            ],
+            "answer": [
+                {
+                    "left": "Go back",
+                    "right": "To return to a place"
+                },
+                {
+                    "left": "Grow up",
+                    "right": "To become an adult"
+                }
+            ],
+            "hint": "Think about age and movement.",
+            "voice_input": false,
+            "example_sentence": "Where did you grow up?",
+            "media": {}
+        },
+        {
+            "id": "EA2GS2_125",
+            "type": "pronunciation",
+            "question": "Repeat: Please sit down.",
+            "answer": "Please sit down.",
+            "hint": "To move from standing to a chair.",
+            "voice_input": true,
+            "example_sentence": "Please sit down and make yourself comfortable.",
+            "media": {}
+        },
+        {
+            "id": "EA2GS2_126",
+            "type": "tap_fill",
+            "question": "I am ___ forward to the weekend.",
+            "options": [
+                "looking",
+                "getting",
+                "going",
+                "seeing"
+            ],
+            "answer": "looking",
+            "hint": "To be excited about the future.",
+            "voice_input": false,
+            "example_sentence": "I am looking forward to the weekend because I am going to a party.",
+            "media": {}
+        },
+        {
+            "id": "EA2GS2_127",
+            "type": "multiple_choice",
+            "question": "What does 'break down' mean for a car?",
+            "options": [
+                "To stop working",
+                "To go faster",
+                "To run out of fuel"
+            ],
+            "answer": "To stop working",
+            "hint": "My car ___ on the highway.",
+            "voice_input": false,
+            "example_sentence": "I was late because my car broke down this morning.",
+            "media": {}
+        },
+        {
+            "id": "EA2GS2_128",
+            "type": "sentence_ordering",
+            "words": [
+                "TV",
+                "the",
+                "Turn",
+                "on",
+                "news",
+                "for"
+            ],
+            "question": "Order the words:",
+            "answer": "Turn on the TV for news",
+            "hint": "Start the electronic device.",
+            "voice_input": false,
+            "example_sentence": "Turn on the TV for the latest news updates.",
+            "media": {}
+        },
+        {
+            "id": "EA2GS2_129",
+            "type": "matching",
+            "question": "Match the verb to the particle (Shuffled).",
+            "pairs": [
+                {
+                    "left": "Wake",
+                    "right": "Up"
+                },
+                {
+                    "left": "Come",
+                    "right": "In"
+                }
+            ],
+            "answer": [
+                {
+                    "left": "Wake",
+                    "right": "Up"
+                },
+                {
+                    "left": "Come",
+                    "right": "In"
+                }
+            ],
+            "hint": "Common phrasal verb pairings.",
+            "voice_input": false,
+            "example_sentence": "Wake up! You're late.",
+            "media": {}
+        },
+        {
+            "id": "EA2GS2_130",
+            "type": "pronunciation",
+            "question": "Repeat: Hurry up! We're late.",
+            "answer": "Hurry up! We're late.",
+            "hint": "To do something faster.",
+            "voice_input": true,
+            "example_sentence": "Hurry up! The taxi is waiting for us.",
+            "media": {}
+        },
+        {
+            "id": "EA2GS2_131",
+            "type": "tap_fill",
+            "question": "I am very ___ because the lesson is too long.",
+            "options": [
+                "bored",
+                "boring",
+                "bore",
+                "bores"
+            ],
+            "answer": "bored",
+            "hint": "Describes a person's feeling.",
+            "voice_input": false,
+            "example_sentence": "I am very bored because the lesson is too long and slow.",
+            "media": {}
+        },
+        {
+            "id": "EA2GS2_132",
+            "type": "multiple_choice",
+            "question": "Which sentence is correct?",
+            "options": [
+                "This book is very interested.",
+                "This book is very interesting.",
+                "I am very interesting in this book."
+            ],
+            "answer": "This book is very interesting.",
+            "hint": "The book causes the feeling.",
+            "voice_input": false,
+            "example_sentence": "This book is very interesting; I can't stop reading it.",
+            "media": {}
+        },
+        {
+            "id": "EA2GS2_133",
+            "type": "sentence_ordering",
+            "words": [
+                "was",
+                "The",
+                "frightening",
+                "really",
+                "movie"
+            ],
+            "question": "Order the words:",
+            "answer": "The movie was really frightening",
+            "hint": "The movie causes fear.",
+            "voice_input": false,
+            "example_sentence": "The movie was really frightening, so I didn't sleep well.",
+            "media": {}
+        },
+        {
+            "id": "EA2GS2_134",
+            "type": "matching",
+            "question": "Match the feeling to the cause (Shuffled).",
+            "pairs": [
+                {
+                    "left": "I am tired",
+                    "right": "Work is tiring"
+                },
+                {
+                    "left": "I am excited",
+                    "right": "The news is exciting"
+                }
+            ],
+            "answer": [
+                {
+                    "left": "I am tired",
+                    "right": "Work is tiring"
+                },
+                {
+                    "left": "I am excited",
+                    "right": "The news is exciting"
+                }
+            ],
+            "hint": "Connect the person's feeling to the source.",
+            "voice_input": false,
+            "example_sentence": "I am tired because my work is very tiring.",
+            "media": {}
+        },
+        {
+            "id": "EA2GS2_135",
+            "type": "pronunciation",
+            "question": "Repeat: Are you interested in art?",
+            "answer": "Are you interested in art?",
+            "hint": "Focus on the 'ed' sound in 'interested'.",
+            "voice_input": true,
+            "example_sentence": "Are you interested in art or do you prefer music?",
+            "media": {}
+        },
+        {
+            "id": "EA2GS2_136",
+            "type": "tap_fill",
+            "question": "The marathon was ___; everyone was exhausted.",
+            "options": [
+                "exhausting",
+                "exhausted",
+                "exhaust",
+                "exhausts"
+            ],
+            "answer": "exhausting",
+            "hint": "The marathon is the cause.",
+            "voice_input": false,
+            "example_sentence": "The marathon was exhausting, but I finished it.",
+            "media": {}
+        },
+        {
+            "id": "EA2GS2_137",
+            "type": "multiple_choice",
+            "question": "How do you feel before an exam?",
+            "options": [
+                "I feel worrying.",
+                "I feel worried.",
+                "The exam is worried."
+            ],
+            "answer": "I feel worried.",
+            "hint": "Use -ed for your feelings.",
+            "voice_input": false,
+            "example_sentence": "I feel worried because I didn't study enough.",
+            "media": {}
+        },
+        {
+            "id": "EA2GS2_138",
+            "type": "sentence_ordering",
+            "words": [
+                "surprised",
+                "was",
+                "I",
+                "the",
+                "by",
+                "news"
+            ],
+            "question": "Order the words:",
+            "answer": "I was surprised by the news",
+            "hint": "Subject + be + -ed adjective.",
+            "voice_input": false,
+            "example_sentence": "I was surprised by the news of her arrival.",
+            "media": {}
+        },
+        {
+            "id": "EA2GS2_139",
+            "type": "matching",
+            "question": "Match the adjective to its effect (Shuffled).",
+            "pairs": [
+                {
+                    "left": "A boring person",
+                    "right": "makes you feel bored"
+                },
+                {
+                    "left": "A confusing map",
+                    "right": "makes you feel confused"
+                }
+            ],
+            "answer": [
+                {
+                    "left": "A boring person",
+                    "right": "makes you feel bored"
+                },
+                {
+                    "left": "A confusing map",
+                    "right": "makes you feel confused"
+                }
+            ],
+            "hint": "The -ing thing makes the -ed person.",
+            "voice_input": false,
+            "example_sentence": "This map is very confusing.",
+            "media": {}
+        },
+        {
+            "id": "EA2GS2_140",
+            "type": "pronunciation",
+            "question": "Repeat: That's an amazing story!",
+            "answer": "That's an amazing story!",
+            "hint": "The story is the cause of amazement.",
+            "voice_input": true,
+            "example_sentence": "That's an amazing story! Did it really happen?",
+            "media": {}
+        },
+        {
+            "id": "EA2GS2_141",
+            "type": "tap_fill",
+            "question": "I am ___ with my current job.",
+            "options": [
+                "dissatisfied",
+                "dissatisfying",
+                "satisfy",
+                "satisfying"
+            ],
+            "answer": "dissatisfied",
+            "hint": "Describes the person's feeling.",
+            "voice_input": false,
+            "example_sentence": "I am dissatisfied with my job because the pay is low.",
+            "media": {}
+        },
+        {
+            "id": "EA2GS2_142",
+            "type": "multiple_choice",
+            "question": "What is the correct way to describe a loud noise?",
+            "options": [
+                "The noise is annoyed.",
+                "The noise is annoying.",
+                "I am annoying by the noise."
+            ],
+            "answer": "The noise is annoying.",
+            "hint": "The noise causes annoyance.",
+            "voice_input": false,
+            "example_sentence": "The noise from the street is very annoying at night.",
+            "media": {}
+        },
+        {
+            "id": "EA2GS2_143",
+            "type": "sentence_ordering",
+            "words": [
+                "is",
+                "Working",
+                "very",
+                "late",
+                "tiring"
+            ],
+            "question": "Order the words:",
+            "answer": "Working late is very tiring",
+            "hint": "The activity is the cause.",
+            "voice_input": false,
+            "example_sentence": "Working late every day is very tiring for the staff.",
+            "media": {}
+        },
+        {
+            "id": "EA2GS2_144",
+            "type": "matching",
+            "question": "Match the adjective types (Shuffled).",
+            "pairs": [
+                {
+                    "left": "-ing adjectives",
+                    "right": "describe things"
+                },
+                {
+                    "left": "-ed adjectives",
+                    "right": "describe people"
+                }
+            ],
+            "answer": [
+                {
+                    "left": "-ing adjectives",
+                    "right": "describe things"
+                },
+                {
+                    "left": "-ed adjectives",
+                    "right": "describe people"
+                }
+            ],
+            "hint": "Basic rule of thumb.",
+            "voice_input": false,
+            "example_sentence": "Interesting books for interested people.",
+            "media": {}
+        },
+        {
+            "id": "EA2GS2_145",
+            "type": "pronunciation",
+            "question": "Repeat: I was shocked by the price.",
+            "answer": "I was shocked by the price.",
+            "hint": "The price was shocking.",
+            "voice_input": true,
+            "example_sentence": "I was shocked by the price of that shirt!",
+            "media": {}
+        },
+        {
+            "id": "EA2GS2_146",
+            "type": "tap_fill",
+            "question": "It was a ___ experience for everyone.",
+            "options": [
+                "frightening",
+                "frightened",
+                "fright",
+                "frights"
+            ],
+            "answer": "frightening",
+            "hint": "The experience was the cause.",
+            "voice_input": false,
+            "example_sentence": "It was a frightening experience when the lights went out.",
+            "media": {}
+        },
+        {
+            "id": "EA2GS2_147",
+            "type": "multiple_choice",
+            "question": "Choose the right word: 'She was ___ to see him.'",
+            "options": [
+                "delighting",
+                "delighted",
+                "delight"
+            ],
+            "answer": "delighted",
+            "hint": "Her internal feeling.",
+            "voice_input": false,
+            "example_sentence": "She was delighted to see her old friend again.",
+            "media": {}
+        },
+        {
+            "id": "EA2GS2_148",
+            "type": "sentence_ordering",
+            "words": [
+                "instructions",
+                "The",
+                "were",
+                "confusing",
+                "very"
+            ],
+            "question": "Order the words:",
+            "answer": "The instructions were very confusing",
+            "hint": "The object is the cause.",
+            "voice_input": false,
+            "example_sentence": "The instructions were very confusing, so I made a mistake.",
+            "media": {}
+        },
+        {
+            "id": "EA2GS2_149",
+            "type": "matching",
+            "question": "Match the pair (Shuffled).",
+            "pairs": [
+                {
+                    "left": "A satisfied customer",
+                    "right": "A satisfying meal"
+                },
+                {
+                    "left": "A relaxed cat",
+                    "right": "A relaxing afternoon"
+                }
+            ],
+            "answer": [
+                {
+                    "left": "A satisfied customer",
+                    "right": "A satisfying meal"
+                },
+                {
+                    "left": "A relaxed cat",
+                    "right": "A relaxing afternoon"
+                }
+            ],
+            "hint": "Connect the feeling to the appropriate noun.",
+            "voice_input": false,
+            "example_sentence": "A relaxing afternoon makes a relaxed person.",
+            "media": {}
+        },
+        {
+            "id": "EA2GS2_150",
+            "type": "pronunciation",
+            "question": "Repeat: I am exhausted after work.",
+            "answer": "I am exhausted after work.",
+            "hint": "A person's state after effort.",
+            "voice_input": true,
+            "example_sentence": "I am exhausted after work, so I'm going to sleep early.",
+            "media": {}
+        },
+        {
+            "id": "EA2GS2_151",
+            "type": "tap_fill",
+            "question": "The man ___ lives next door is very friendly.",
+            "options": [
+                "who",
+                "which",
+                "where",
+                "whose"
+            ],
+            "answer": "who",
+            "hint": "Use for people.",
+            "voice_input": false,
+            "example_sentence": "The man who lives next door is very friendly and always says hello.",
+            "media": {}
+        },
+        {
+            "id": "EA2GS2_152",
+            "type": "multiple_choice",
+            "question": "Which relative pronoun is used for things?",
+            "options": [
+                "who",
+                "which",
+                "where"
+            ],
+            "answer": "which",
+            "hint": "The car ___ I bought is red.",
+            "voice_input": false,
+            "example_sentence": "The car which I bought last week is very fast.",
+            "media": {}
+        },
+        {
+            "id": "EA2GS2_153",
+            "type": "sentence_ordering",
+            "words": [
+                "is",
+                "restaurant",
+                "that",
+                "The",
+                "closed",
+                "was",
+                "famous"
+            ],
+            "question": "Order the words:",
+            "answer": "The restaurant that was famous is closed",
+            "hint": "Subject + relative clause + main verb.",
+            "voice_input": false,
+            "example_sentence": "The restaurant that was famous for its pizza is closed.",
+            "media": {}
+        },
+        {
+            "id": "EA2GS2_154",
+            "type": "matching",
+            "question": "Match the noun to the correct relative pronoun (Shuffled).",
+            "pairs": [
+                {
+                    "left": "A doctor",
+                    "right": "who treats people"
+                },
+                {
+                    "left": "A computer",
+                    "right": "which processes data"
+                }
+            ],
+            "answer": [
+                {
+                    "left": "A doctor",
+                    "right": "who treats people"
+                },
+                {
+                    "left": "A computer",
+                    "right": "which processes data"
+                }
+            ],
+            "hint": "Think about people vs. objects.",
+            "voice_input": false,
+            "example_sentence": "A doctor is a person who treats people.",
+            "media": {}
+        },
+        {
+            "id": "EA2GS2_155",
+            "type": "pronunciation",
+            "question": "Repeat: Is that the girl who won the race?",
+            "answer": "Is that the girl who won the race?",
+            "hint": "Rising intonation for a question.",
+            "voice_input": true,
+            "example_sentence": "Is that the girl who won the race yesterday?",
+            "media": {}
+        },
+        {
+            "id": "EA2GS2_156",
+            "type": "tap_fill",
+            "question": "I have a book ___ is very old.",
+            "options": [
+                "that",
+                "who",
+                "whom",
+                "where"
+            ],
+            "answer": "that",
+            "hint": "'That' can be used for people or things.",
+            "voice_input": false,
+            "example_sentence": "I have a book that is very old and rare.",
+            "media": {}
+        },
+        {
+            "id": "EA2GS2_157",
+            "type": "multiple_choice",
+            "question": "Correct the error: 'The movie who we saw was boring.'",
+            "options": [
+                "The movie which we saw was boring.",
+                "The movie where we saw was boring.",
+                "The movie that we saw was boring."
+            ],
+            "answer": "The movie which we saw was boring.",
+            "hint": "A movie is an object, not a person.",
+            "voice_input": false,
+            "example_sentence": "The movie which we saw last night was boring.",
+            "media": {}
+        },
+        {
+            "id": "EA2GS2_158",
+            "type": "sentence_ordering",
+            "words": [
+                "know",
+                "who",
+                "I",
+                "speaks",
+                "a",
+                "man",
+                "five",
+                "languages"
+            ],
+            "question": "Order the words:",
+            "answer": "I know a man who speaks five languages",
+            "hint": "Relative pronoun follows the noun it describes.",
+            "voice_input": false,
+            "example_sentence": "I know a man who speaks five languages fluently.",
+            "media": {}
+        },
+        {
+            "id": "EA2GS2_159",
+            "type": "matching",
+            "question": "Match the definition (Shuffled).",
+            "pairs": [
+                {
+                    "left": "A key",
+                    "right": "Something that opens doors"
+                },
+                {
+                    "left": "A teacher",
+                    "right": "Someone who helps you learn"
+                }
+            ],
+            "answer": [
+                {
+                    "left": "A key",
+                    "right": "Something that opens doors"
+                },
+                {
+                    "left": "A teacher",
+                    "right": "Someone who helps you learn"
+                }
+            ],
+            "hint": "Match the thing/person to their relative description.",
+            "voice_input": false,
+            "example_sentence": "A teacher is someone who helps you learn.",
+            "media": {}
+        },
+        {
+            "id": "EA2GS2_160",
+            "type": "pronunciation",
+            "question": "Repeat: The phone which I lost was new.",
+            "answer": "The phone which I lost was new.",
+            "hint": "Focus on 'which I lost'.",
+            "voice_input": true,
+            "example_sentence": "The phone which I lost was a new model.",
+            "media": {}
+        },
+        {
+            "id": "EA2GS2_161",
+            "type": "tap_fill",
+            "question": "She works for a company ___ makes software.",
+            "options": [
+                "which",
+                "who",
+                "whose",
+                "it"
+            ],
+            "answer": "which",
+            "hint": "Company is a thing.",
+            "voice_input": false,
+            "example_sentence": "She works for a company which makes educational software.",
+            "media": {}
+        },
+        {
+            "id": "EA2GS2_162",
+            "type": "multiple_choice",
+            "question": "Choose the best sentence:",
+            "options": [
+                "These are the students who study hard.",
+                "These are the students which study hard.",
+                "These are the students what study hard."
+            ],
+            "answer": "These are the students who study hard.",
+            "hint": "Students are people.",
+            "voice_input": false,
+            "example_sentence": "These are the students who study hard every day.",
+            "media": {}
+        },
+        {
+            "id": "EA2GS2_163",
+            "type": "sentence_ordering",
+            "words": [
+                "that",
+                "apple",
+                "The",
+                "was",
+                "sour",
+                "I",
+                "ate"
+            ],
+            "question": "Order the words:",
+            "answer": "The apple that I ate was sour",
+            "hint": "Noun + that + subject + verb.",
+            "voice_input": false,
+            "example_sentence": "The apple that I ate for lunch was very sour.",
+            "media": {}
+        },
+        {
+            "id": "EA2GS2_164",
+            "type": "matching",
+            "question": "Connect the halves (Shuffled).",
+            "pairs": [
+                {
+                    "left": "I like people",
+                    "right": "who are kind"
+                },
+                {
+                    "left": "I like movies",
+                    "right": "which have happy endings"
+                }
+            ],
+            "answer": [
+                {
+                    "left": "I like people",
+                    "right": "who are kind"
+                },
+                {
+                    "left": "I like movies",
+                    "right": "which have happy endings"
+                }
+            ],
+            "hint": "Match the preferences.",
+            "voice_input": false,
+            "example_sentence": "I like people who are kind to others.",
+            "media": {}
+        },
+        {
+            "id": "EA2GS2_165",
+            "type": "pronunciation",
+            "question": "Repeat: This is the cake that I made.",
+            "answer": "This is the cake that I made.",
+            "hint": "'That' is used here for a thing.",
+            "voice_input": true,
+            "example_sentence": "This is the cake that I made for your birthday.",
+            "media": {}
+        },
+        {
+            "id": "EA2GS2_166",
+            "type": "tap_fill",
+            "question": "Do you know anyone ___ can speak Japanese?",
+            "options": [
+                "who",
+                "which",
+                "whose",
+                "it"
+            ],
+            "answer": "who",
+            "hint": "Refers to a person.",
+            "voice_input": false,
+            "example_sentence": "Do you know anyone who can speak Japanese fluently?",
+            "media": {}
+        },
+        {
+            "id": "EA2GS2_167",
+            "type": "multiple_choice",
+            "question": "What pronoun for 'The cat'? 'The cat ___ is on the table is mine.'",
+            "options": [
+                "who",
+                "that",
+                "it"
+            ],
+            "answer": "that",
+            "hint": "Use that/which for animals.",
+            "voice_input": false,
+            "example_sentence": "The cat that is on the table is mine.",
+            "media": {}
+        },
+        {
+            "id": "EA2GS2_168",
+            "type": "sentence_ordering",
+            "words": [
+                "shoes",
+                "The",
+                "I",
+                "bought",
+                "which",
+                "are",
+                "small",
+                "too"
+            ],
+            "question": "Order the words:",
+            "answer": "The shoes which I bought are too small",
+            "hint": "Subject + relative clause + result.",
+            "voice_input": false,
+            "example_sentence": "The shoes which I bought online are too small.",
+            "media": {}
+        },
+        {
+            "id": "EA2GS2_169",
+            "type": "matching",
+            "question": "Match the object to its relative pronoun (Shuffled).",
+            "pairs": [
+                {
+                    "left": "A pilot",
+                    "right": "who flies planes"
+                },
+                {
+                    "left": "A camera",
+                    "right": "which takes photos"
+                }
+            ],
+            "answer": [
+                {
+                    "left": "A pilot",
+                    "right": "who flies planes"
+                },
+                {
+                    "left": "A camera",
+                    "right": "which takes photos"
+                }
+            ],
+            "hint": "Professional vs. tool.",
+            "voice_input": false,
+            "example_sentence": "A pilot is a person who flies planes.",
+            "media": {}
+        },
+        {
+            "id": "EA2GS2_170",
+            "type": "pronunciation",
+            "question": "Repeat: I don't like food that is too spicy.",
+            "answer": "I don't like food that is too spicy.",
+            "hint": "A preference using a relative clause.",
+            "voice_input": true,
+            "example_sentence": "I don't like food that is too spicy for my taste.",
+            "media": {}
+        },
+        {
+            "id": "EA2GS2_171",
+            "type": "tap_fill",
+            "question": "I have ___ friends in this city, so I'm not lonely.",
+            "options": [
+                "a few",
+                "a little",
+                "much",
+                "any"
+            ],
+            "answer": "a few",
+            "hint": "Friends are countable.",
+            "voice_input": false,
+            "example_sentence": "I have a few friends in this city, so I'm not lonely.",
+            "media": {}
+        },
+        {
+            "id": "EA2GS2_172",
+            "type": "multiple_choice",
+            "question": "Which is correct for 'time'?",
+            "options": [
+                "We have a few time before the train.",
+                "We have a little time before the train.",
+                "We have many time before the train."
+            ],
+            "answer": "We have a little time before the train.",
+            "hint": "Time is uncountable.",
+            "voice_input": false,
+            "example_sentence": "We have a little time before the train, so let's get a coffee.",
+            "media": {}
+        },
+        {
+            "id": "EA2GS2_173",
+            "type": "sentence_ordering",
+            "words": [
+                "milk",
+                "left",
+                "There",
+                "is",
+                "little",
+                "a"
+            ],
+            "question": "Order the words:",
+            "answer": "There is a little milk left",
+            "hint": "Uncountable noun at the end.",
+            "voice_input": false,
+            "example_sentence": "There is a little milk left in the fridge.",
+            "media": {}
+        },
+        {
+            "id": "EA2GS2_174",
+            "type": "matching",
+            "question": "Match the quantifier to the noun (Shuffled).",
+            "pairs": [
+                {
+                    "left": "A few",
+                    "right": "apples"
+                },
+                {
+                    "left": "A little",
+                    "right": "sugar"
+                }
+            ],
+            "answer": [
+                {
+                    "left": "A few",
+                    "right": "apples"
+                },
+                {
+                    "left": "A little",
+                    "right": "sugar"
+                }
+            ],
+            "hint": "Think about what you can count.",
+            "voice_input": false,
+            "example_sentence": "I need a few apples and a little sugar for the cake.",
+            "media": {}
+        },
+        {
+            "id": "EA2GS2_175",
+            "type": "pronunciation",
+            "question": "Repeat: Can I have a little water, please?",
+            "answer": "Can I have a little water, please?",
+            "hint": "A polite request for an uncountable item.",
+            "voice_input": true,
+            "example_sentence": "I'm very thirsty. Can I have a little water, please?",
+            "media": {}
+        },
+        {
+            "id": "EA2GS2_176",
+            "type": "tap_fill",
+            "question": "There are only ___ cookies left in the jar.",
+            "options": [
+                "a few",
+                "a little",
+                "much",
+                "any"
+            ],
+            "answer": "a few",
+            "hint": "Cookies are countable.",
+            "voice_input": false,
+            "example_sentence": "There are only a few cookies left in the jar; please buy more.",
+            "media": {}
+        },
+        {
+            "id": "EA2GS2_177",
+            "type": "multiple_choice",
+            "question": "What is the difference between 'few' and 'a few'?",
+            "options": [
+                "'Few' is negative (not enough), 'a few' is positive (some).",
+                "They are exactly the same.",
+                "'Few' is for water, 'a few' is for people."
+            ],
+            "answer": "'Few' is negative (not enough), 'a few' is positive (some).",
+            "hint": "One suggests a shortage, the other a small amount.",
+            "voice_input": false,
+            "example_sentence": "He has few friends (lonely). He has a few friends (not lonely).",
+            "media": {}
+        },
+        {
+            "id": "EA2GS2_178",
+            "type": "sentence_ordering",
+            "words": [
+                "I",
+                "need",
+                "help",
+                "with",
+                "a",
+                "little",
+                "this"
+            ],
+            "question": "Order the words:",
+            "answer": "I need a little help with this",
+            "hint": "Help is uncountable.",
+            "voice_input": false,
+            "example_sentence": "I need a little help with this heavy box.",
+            "media": {}
+        },
+        {
+            "id": "EA2GS2_179",
+            "type": "matching",
+            "question": "Match the meaning (Shuffled).",
+            "pairs": [
+                {
+                    "left": "Little",
+                    "right": "Almost no (uncountable)"
+                },
+                {
+                    "left": "A few",
+                    "right": "Some (countable)"
+                }
+            ],
+            "answer": [
+                {
+                    "left": "Little",
+                    "right": "Almost no (uncountable)"
+                },
+                {
+                    "left": "A few",
+                    "right": "Some (countable)"
+                }
+            ],
+            "hint": "Check the countability and the 'a'.",
+            "voice_input": false,
+            "example_sentence": "I have little money left.",
+            "media": {}
+        },
+        {
+            "id": "EA2GS2_180",
+            "type": "pronunciation",
+            "question": "Repeat: I've got a few questions.",
+            "answer": "I've got a few questions.",
+            "hint": "Focus on the 'ew' sound in 'few'.",
+            "voice_input": true,
+            "example_sentence": "I've got a few questions before the meeting ends.",
+            "media": {}
+        },
+        {
+            "id": "EA2GS2_181",
+            "type": "tap_fill",
+            "question": "She has ___ money, so she can't buy the dress.",
+            "options": [
+                "very little",
+                "a few",
+                "many",
+                "some"
+            ],
+            "answer": "very little",
+            "hint": "Money is uncountable and she lacks it.",
+            "voice_input": false,
+            "example_sentence": "She has very little money, so she can't afford that dress.",
+            "media": {}
+        },
+        {
+            "id": "EA2GS2_182",
+            "type": "multiple_choice",
+            "question": "Choose the correct sentence:",
+            "options": [
+                "Add a little salt to the soup.",
+                "Add a few salt to the soup.",
+                "Add many salt to the soup."
+            ],
+            "answer": "Add a little salt to the soup.",
+            "hint": "Salt cannot be counted.",
+            "voice_input": false,
+            "example_sentence": "Add a little salt to the soup to make it taste better.",
+            "media": {}
+        },
+        {
+            "id": "EA2GS2_183",
+            "type": "sentence_ordering",
+            "words": [
+                "days",
+                "stayed",
+                "a",
+                "Paris",
+                "in",
+                "few",
+                "We"
+            ],
+            "question": "Order the words:",
+            "answer": "We stayed a few days in Paris",
+            "hint": "Time duration with countable days.",
+            "voice_input": false,
+            "example_sentence": "We stayed a few days in Paris during our vacation.",
+            "media": {}
+        },
+        {
+            "id": "EA2GS2_184",
+            "type": "matching",
+            "question": "Match the quantity type (Shuffled).",
+            "pairs": [
+                {
+                    "left": "A little",
+                    "right": "Small positive amount"
+                },
+                {
+                    "left": "Very few",
+                    "right": "Small negative amount"
+                }
+            ],
+            "answer": [
+                {
+                    "left": "A little",
+                    "right": "Small positive amount"
+                },
+                {
+                    "left": "Very few",
+                    "right": "Small negative amount"
+                }
+            ],
+            "hint": "Positive means 'enough', negative means 'not enough'.",
+            "voice_input": false,
+            "example_sentence": "There are very few people here today.",
+            "media": {}
+        },
+        {
+            "id": "EA2GS2_185",
+            "type": "pronunciation",
+            "question": "Repeat: There were very few people at the party.",
+            "answer": "There were very few people at the party.",
+            "hint": "Describes a small, disappointing number.",
+            "voice_input": true,
+            "example_sentence": "It was quiet; there were very few people at the party.",
+            "media": {}
+        },
+        {
+            "id": "EA2GS2_186",
+            "type": "tap_fill",
+            "question": "Could I have ___ more coffee?",
+            "options": [
+                "a little",
+                "a few",
+                "many",
+                "few"
+            ],
+            "answer": "a little",
+            "hint": "Coffee (liquid) is uncountable.",
+            "voice_input": false,
+            "example_sentence": "Could I have a little more coffee to wake me up?",
+            "media": {}
+        },
+        {
+            "id": "EA2GS2_187",
+            "type": "multiple_choice",
+            "question": "Which word fits: 'I have ___ mistakes in my homework.'",
+            "options": [
+                "a few",
+                "a little",
+                "much"
+            ],
+            "answer": "a few",
+            "hint": "Mistakes are plural and countable.",
+            "voice_input": false,
+            "example_sentence": "I have a few mistakes in my homework, but it's okay.",
+            "media": {}
+        },
+        {
+            "id": "EA2GS2_188",
+            "type": "sentence_ordering",
+            "words": [
+                "put",
+                "bit",
+                "sugar",
+                "a",
+                "the",
+                "in",
+                "tea",
+                "of"
+            ],
+            "question": "Order the words:",
+            "answer": "Put a bit of sugar in the tea",
+            "hint": "'A bit of' is similar to 'a little'.",
+            "voice_input": false,
+            "example_sentence": "Put a bit of sugar in the tea if it's too bitter.",
+            "media": {}
+        },
+        {
+            "id": "EA2GS2_189",
+            "type": "matching",
+            "question": "Match the category (Shuffled).",
+            "pairs": [
+                {
+                    "left": "Information",
+                    "right": "Uncountable (A little)"
+                },
+                {
+                    "left": "Tips",
+                    "right": "Countable (A few)"
+                }
+            ],
+            "answer": [
+                {
+                    "left": "Information",
+                    "right": "Uncountable (A little)"
+                },
+                {
+                    "left": "Tips",
+                    "right": "Countable (A few)"
+                }
+            ],
+            "hint": "Check the -s at the end of the word.",
+            "voice_input": false,
+            "example_sentence": "I can give you a few tips and a little information.",
+            "media": {}
+        },
+        {
+            "id": "EA2GS2_190",
+            "type": "pronunciation",
+            "question": "Repeat: She spoke a little Spanish.",
+            "answer": "She spoke a little Spanish.",
+            "hint": "Languages are uncountable here.",
+            "voice_input": true,
+            "example_sentence": "She spoke a little Spanish during her trip to Madrid.",
+            "media": {}
+        },
+        {
+            "id": "EA2GS2_191",
+            "type": "tap_fill",
+            "question": "I'm hungry! I want ___ to eat.",
+            "options": [
+                "something",
+                "anything",
+                "nothing",
+                "somewhere"
+            ],
+            "answer": "something",
+            "hint": "Used in positive sentences for things.",
+            "voice_input": false,
+            "example_sentence": "I'm hungry! I want something to eat before we go out.",
+            "media": {}
+        },
+        {
+            "id": "EA2GS2_192",
+            "type": "multiple_choice",
+            "question": "Which sentence is correct for a question?",
+            "options": [
+                "Is there someone at the door?",
+                "Is there anyone at the door?",
+                "Is there no one at the door?"
+            ],
+            "answer": "Is there anyone at the door?",
+            "hint": "Use 'any-' for questions about people.",
+            "voice_input": false,
+            "example_sentence": "I heard a noise. Is there anyone at the door?",
+            "media": {}
+        },
+        {
+            "id": "EA2GS2_193",
+            "type": "sentence_ordering",
+            "words": [
+                "knows",
+                "Nobody",
+                "the",
+                "to",
+                "answer",
+                "question"
+            ],
+            "question": "Order the words:",
+            "answer": "Nobody knows the answer to the question",
+            "hint": "'Nobody' takes a singular verb.",
+            "voice_input": false,
+            "example_sentence": "Nobody knows the answer to that difficult question.",
+            "media": {}
+        },
+        {
+            "id": "EA2GS2_194",
+            "type": "matching",
+            "question": "Match the pronoun to its category (Shuffled).",
+            "pairs": [
+                {
+                    "left": "Somewhere",
+                    "right": "A place"
+                },
+                {
+                    "left": "Somebody",
+                    "right": "A person"
+                }
+            ],
+            "answer": [
+                {
+                    "left": "Somewhere",
+                    "right": "A place"
+                },
+                {
+                    "left": "Somebody",
+                    "right": "A person"
+                }
+            ],
+            "hint": "Check the suffix: -where vs -body.",
+            "voice_input": false,
+            "example_sentence": "Somebody is hiding somewhere in the house.",
+            "media": {}
+        },
+        {
+            "id": "EA2GS2_195",
+            "type": "pronunciation",
+            "question": "Repeat: I have nothing to wear!",
+            "answer": "I have nothing to wear!",
+            "hint": "Meaning 'not anything'.",
+            "voice_input": true,
+            "example_sentence": "I have a party tonight but I have nothing to wear!",
+            "media": {}
+        },
+        {
+            "id": "EA2GS2_196",
+            "type": "tap_fill",
+            "question": "I've looked ___, but I can't find my keys.",
+            "options": [
+                "everywhere",
+                "anywhere",
+                "somewhere",
+                "nowhere"
+            ],
+            "answer": "everywhere",
+            "hint": "In all places.",
+            "voice_input": false,
+            "example_sentence": "I've looked everywhere, but I still can't find my keys.",
+            "media": {}
+        },
+        {
+            "id": "EA2GS2_197",
+            "type": "multiple_choice",
+            "question": "Choose the negative sentence:",
+            "options": [
+                "I don't know anyone here.",
+                "I know anyone here.",
+                "I don't know someone here."
+            ],
+            "answer": "I don't know anyone here.",
+            "hint": "Negative verb + 'any-'.",
+            "voice_input": false,
+            "example_sentence": "I don't know anyone here, so I feel a bit shy.",
+            "media": {}
+        },
+        {
+            "id": "EA2GS2_198",
+            "type": "sentence_ordering",
+            "words": [
+                "is",
+                "There",
+                "special",
+                "going",
+                "somewhere",
+                "she"
+            ],
+            "question": "Order the words:",
+            "answer": "There is somewhere special she is going",
+            "hint": "Pronoun + Adjective.",
+            "voice_input": false,
+            "example_sentence": "There is somewhere special she is going tonight.",
+            "media": {}
+        },
+        {
+            "id": "EA2GS2_199",
+            "type": "matching",
+            "question": "Match the meaning (Shuffled).",
+            "pairs": [
+                {
+                    "left": "Anything",
+                    "right": "Used in negative/questions"
+                },
+                {
+                    "left": "Something",
+                    "right": "Used in positive sentences"
+                }
+            ],
+            "answer": [
+                {
+                    "left": "Anything",
+                    "right": "Used in negative/questions"
+                },
+                {
+                    "left": "Something",
+                    "right": "Used in positive sentences"
+                }
+            ],
+            "hint": "The standard 'some' vs 'any' rule applies.",
+            "voice_input": false,
+            "example_sentence": "Do you have anything? Yes, I have something.",
+            "media": {}
+        },
+        {
+            "id": "EA2GS2_200",
+            "type": "pronunciation",
+            "question": "Repeat: Is anyone listening to me?",
+            "answer": "Is anyone listening to me?",
+            "hint": "Question form for people.",
+            "voice_input": true,
+            "example_sentence": "I'm talking! Is anyone listening to me?",
+            "media": {}
+        },
+        {
+            "id": "EA2GS2_201",
+            "type": "tap_fill",
+            "question": "The room was empty. There was ___ there.",
+            "options": [
+                "no one",
+                "someone",
+                "anyone",
+                "everyone"
+            ],
+            "answer": "no one",
+            "hint": "Empty means zero people.",
+            "voice_input": false,
+            "example_sentence": "The room was empty. There was no one there when I arrived.",
+            "media": {}
+        },
+        {
+            "id": "EA2GS2_202",
+            "type": "multiple_choice",
+            "question": "Which word fits: 'Did you go ___ interesting?'",
+            "options": [
+                "anywhere",
+                "somewhere",
+                "nowhere"
+            ],
+            "answer": "anywhere",
+            "hint": "Question about a place.",
+            "voice_input": false,
+            "example_sentence": "Did you go anywhere interesting during your holiday?",
+            "media": {}
+        },
+        {
+            "id": "EA2GS2_203",
+            "type": "sentence_ordering",
+            "words": [
+                "is",
+                "bag",
+                "There",
+                "in",
+                "my",
+                "something"
+            ],
+            "question": "Order the words:",
+            "answer": "There is something in my bag",
+            "hint": "Positive statement about an object.",
+            "voice_input": false,
+            "example_sentence": "There is something heavy in my bag.",
+            "media": {}
+        },
+        {
+            "id": "EA2GS2_204",
+            "type": "matching",
+            "question": "Match the opposite (Shuffled).",
+            "pairs": [
+                {
+                    "left": "Everyone",
+                    "right": "No one"
+                },
+                {
+                    "left": "Everywhere",
+                    "right": "Nowhere"
+                }
+            ],
+            "answer": [
+                {
+                    "left": "Everyone",
+                    "right": "No one"
+                },
+                {
+                    "left": "Everywhere",
+                    "right": "Nowhere"
+                }
+            ],
+            "hint": "All vs. None.",
+            "voice_input": false,
+            "example_sentence": "Everyone likes music, but no one likes noise.",
+            "media": {}
+        },
+        {
+            "id": "EA2GS2_205",
+            "type": "pronunciation",
+            "question": "Repeat: Everything is going to be okay.",
+            "answer": "Everything is going to be okay.",
+            "hint": "Focus on the 'v' sound in 'everything'.",
+            "voice_input": true,
+            "example_sentence": "Don't worry, everything is going to be okay.",
+            "media": {}
+        },
+        {
+            "id": "EA2GS2_206",
+            "type": "tap_fill",
+            "question": "I'm bored. There is ___ to do in this town.",
+            "options": [
+                "nothing",
+                "something",
+                "anything",
+                "everything"
+            ],
+            "answer": "nothing",
+            "hint": "Zero activities.",
+            "voice_input": false,
+            "example_sentence": "I'm bored. There is nothing to do in this town on Sundays.",
+            "media": {}
+        },
+        {
+            "id": "EA2GS2_207",
+            "type": "multiple_choice",
+            "question": "Choose the correct phrase:",
+            "options": [
+                "Someone told me about it.",
+                "Anyone told me about it.",
+                "No one told me about it (it's a secret)."
+            ],
+            "answer": "Someone told me about it.",
+            "hint": "An unknown person did the action.",
+            "voice_input": false,
+            "example_sentence": "Someone told me about the new restaurant, but I forgot who.",
+            "media": {}
+        },
+        {
+            "id": "EA2GS2_208",
+            "type": "sentence_ordering",
+            "words": [
+                "can't",
+                "I",
+                "find",
+                "it",
+                "anywhere"
+            ],
+            "question": "Order the words:",
+            "answer": "I can't find it anywhere",
+            "hint": "Negative verb + anywhere.",
+            "voice_input": false,
+            "example_sentence": "I lost my pen and I can't find it anywhere.",
+            "media": {}
+        },
+        {
+            "id": "EA2GS2_209",
+            "type": "matching",
+            "question": "Match the pronoun to the context (Shuffled).",
+            "pairs": [
+                {
+                    "left": "Someone famous",
+                    "right": "A person you know of"
+                },
+                {
+                    "left": "Something sweet",
+                    "right": "Like candy or cake"
+                }
+            ],
+            "answer": [
+                {
+                    "left": "Someone famous",
+                    "right": "A person you know of"
+                },
+                {
+                    "left": "Something sweet",
+                    "right": "Like candy or cake"
+                }
+            ],
+            "hint": "Pronouns are often followed by adjectives.",
+            "voice_input": false,
+            "example_sentence": "I want something sweet after dinner.",
+            "media": {}
+        },
+        {
+            "id": "EA2GS2_210",
+            "type": "pronunciation",
+            "question": "Repeat: Somebody help me!",
+            "answer": "Somebody help me!",
+            "hint": "Urgent request.",
+            "voice_input": true,
+            "example_sentence": "I'm stuck! Somebody help me!",
+            "media": {}
+        }
+    ]
+}
