@@ -1,0 +1,3553 @@
+{
+    "exercises": [
+        {
+            "id": "EA2GS3_001",
+            "type": "tap_fill",
+            "question": "He said that he ___ hungry.",
+            "options": [
+                "was",
+                "is",
+                "were",
+                "been"
+            ],
+            "answer": "was",
+            "hint": "In reported speech, 'am/is' usually changes to 'was'.",
+            "voice_input": false,
+            "example_sentence": "He said that he was hungry, so we went to a restaurant.",
+            "media": {}
+        },
+        {
+            "id": "EA2GS3_002",
+            "type": "multiple_choice",
+            "question": "Which is the correct reported form of: 'I like pizza'?",
+            "options": [
+                "She said she liked pizza.",
+                "She said she like pizza.",
+                "She said she likes pizza."
+            ],
+            "answer": "She said she liked pizza.",
+            "hint": "The Present Simple changes to Past Simple.",
+            "voice_input": false,
+            "example_sentence": "She said she liked pizza, but she didn't want any today.",
+            "media": {}
+        },
+        {
+            "id": "EA2GS3_003",
+            "type": "sentence_ordering",
+            "question": "Order the words:",
+            "words": [
+                "told",
+                "He",
+                "me",
+                "he",
+                "late",
+                "was"
+            ],
+            "answer": "He told me he was late",
+            "hint": "Use 'told' when there is an object like 'me'.",
+            "voice_input": false,
+            "example_sentence": "He told me he was late because of the traffic.",
+            "media": {}
+        },
+        {
+            "id": "EA2GS3_004",
+            "type": "matching",
+            "question": "Match the Direct Speech to its Reported form (Shuffled).",
+            "pairs": [
+                {
+                    "left": "'I am tired'",
+                    "right": "He said he was tired"
+                },
+                {
+                    "left": "'We are ready'",
+                    "right": "They said they were ready"
+                }
+            ],
+            "answer": [
+                {
+                    "left": "'I am tired'",
+                    "right": "He said he was tired"
+                },
+                {
+                    "left": "'We are ready'",
+                    "right": "They said they were ready"
+                }
+            ],
+            "hint": "Check for pronoun and tense changes.",
+            "voice_input": false,
+            "example_sentence": "He said he was tired after the long flight.",
+            "media": {}
+        },
+        {
+            "id": "EA2GS3_005",
+            "type": "pronunciation",
+            "question": "Repeat: She said she was happy.",
+            "answer": "She said she was happy.",
+            "hint": "Focus on the past tense 'was'.",
+            "voice_input": true,
+            "example_sentence": "She said she was happy with the results.",
+            "media": {}
+        },
+        {
+            "id": "EA2GS3_006",
+            "type": "tap_fill",
+            "question": "They told us that they ___ at home.",
+            "options": [
+                "were",
+                "was",
+                "are",
+                "be"
+            ],
+            "answer": "were",
+            "hint": "'Are' becomes 'were' in reported speech.",
+            "voice_input": false,
+            "example_sentence": "They told us that they were at home all evening.",
+            "media": {}
+        },
+        {
+            "id": "EA2GS3_007",
+            "type": "multiple_choice",
+            "question": "What is the difference between 'said' and 'told'?",
+            "options": [
+                "We use 'told' with a person (told me), and 'said' without (said that).",
+                "They are exactly the same.",
+                "'Said' is for the past, 'told' is for the future."
+            ],
+            "answer": "We use 'told' with a person (told me), and 'said' without (said that).",
+            "hint": "He ___ me. vs He ___ that.",
+            "voice_input": false,
+            "example_sentence": "I told him the truth, but he said that I was wrong.",
+            "media": {}
+        },
+        {
+            "id": "EA2GS3_008",
+            "type": "sentence_ordering",
+            "question": "Order the words:",
+            "words": [
+                "said",
+                "the",
+                "was",
+                "She",
+                "closed",
+                "bank"
+            ],
+            "answer": "She said the bank was closed",
+            "hint": "Reported information about a place.",
+            "voice_input": false,
+            "example_sentence": "She said the bank was closed when she arrived.",
+            "media": {}
+        },
+        {
+            "id": "EA2GS3_009",
+            "type": "matching",
+            "question": "Match the verb shift",
+            "pairs": [
+                {
+                    "left": "Present Simple",
+                    "right": "Past Simple"
+                },
+                {
+                    "left": "Can",
+                    "right": "Could"
+                }
+            ],
+            "answer": [
+                {
+                    "left": "Present Simple",
+                    "right": "Past Simple"
+                },
+                {
+                    "left": "Can",
+                    "right": "Could"
+                }
+            ],
+            "hint": "Think about how the tense goes 'back' in time.",
+            "voice_input": false,
+            "example_sentence": "She said she could help me.",
+            "media": {}
+        },
+        {
+            "id": "EA2GS3_010",
+            "type": "pronunciation",
+            "question": "Repeat: He told me he lived in London.",
+            "answer": "He told me he lived in London.",
+            "hint": "The original was 'I live in London'.",
+            "voice_input": true,
+            "example_sentence": "He told me he lived in London for three years.",
+            "media": {}
+        },
+        {
+            "id": "EA2GS3_011",
+            "type": "tap_fill",
+            "question": "She said she ___ play the piano.",
+            "options": [
+                "could",
+                "can",
+                "is",
+                "was"
+            ],
+            "answer": "could",
+            "hint": "Reporting 'I can play'.",
+            "voice_input": false,
+            "example_sentence": "She said she could play the piano very well.",
+            "media": {}
+        },
+        {
+            "id": "EA2GS3_012",
+            "type": "multiple_choice",
+            "question": "Report this: 'I am working.'",
+            "options": [
+                "He said he was working.",
+                "He said he is working.",
+                "He said he worked."
+            ],
+            "answer": "He said he was working.",
+            "hint": "Present Continuous becomes Past Continuous.",
+            "voice_input": false,
+            "example_sentence": "I called him, and he said he was working.",
+            "media": {}
+        },
+        {
+            "id": "EA2GS3_013",
+            "type": "sentence_ordering",
+            "question": "Order the words:",
+            "words": [
+                "said",
+                "didn't",
+                "She",
+                "have",
+                "she",
+                "money"
+            ],
+            "answer": "She said she didn't have money",
+            "hint": "Reporting 'I don't have money'.",
+            "voice_input": false,
+            "example_sentence": "She said she didn't have money for the tickets.",
+            "media": {}
+        },
+        {
+            "id": "EA2GS3_014",
+            "type": "matching",
+            "question": "Match the pronoun changes",
+            "pairs": [
+                {
+                    "left": "I",
+                    "right": "He/She"
+                },
+                {
+                    "left": "We",
+                    "right": "They"
+                }
+            ],
+            "answer": [
+                {
+                    "left": "I",
+                    "right": "He/She"
+                },
+                {
+                    "left": "We",
+                    "right": "They"
+                }
+            ],
+            "hint": "You must change the subject when reporting.",
+            "voice_input": false,
+            "example_sentence": "We said we were coming -> They said they were coming.",
+            "media": {}
+        },
+        {
+            "id": "EA2GS3_015",
+            "type": "pronunciation",
+            "question": "Repeat: They said they didn't know.",
+            "answer": "They said they didn't know.",
+            "hint": "Reporting 'We don't know'.",
+            "voice_input": true,
+            "example_sentence": "I asked them, but they said they didn't know the way.",
+            "media": {}
+        },
+        {
+            "id": "EA2GS3_016",
+            "type": "tap_fill",
+            "question": "I ___ him that I was busy.",
+            "options": [
+                "told",
+                "said",
+                "say",
+                "tell"
+            ],
+            "answer": "told",
+            "hint": "Followed by the person 'him'.",
+            "voice_input": false,
+            "example_sentence": "I told him that I was busy and couldn't talk.",
+            "media": {}
+        },
+        {
+            "id": "EA2GS3_017",
+            "type": "multiple_choice",
+            "question": "Report this: 'I'll call you.'",
+            "options": [
+                "He said he would call me.",
+                "He said he will call me.",
+                "He said he calls me."
+            ],
+            "answer": "He said he would call me.",
+            "hint": "'Will' changes to 'would'.",
+            "voice_input": false,
+            "example_sentence": "He said he would call me later in the evening.",
+            "media": {}
+        },
+        {
+            "id": "EA2GS3_018",
+            "type": "sentence_ordering",
+            "question": "Order the words:",
+            "words": [
+                "wanted",
+                "He",
+                "said",
+                "go",
+                "to",
+                "he",
+                "home"
+            ],
+            "answer": "He said he wanted to go home",
+            "hint": "Reporting 'I want to go home'.",
+            "voice_input": false,
+            "example_sentence": "He was tired, so he said he wanted to go home.",
+            "media": {}
+        },
+        {
+            "id": "EA2GS3_019",
+            "type": "matching",
+            "question": "Match the direct verb to the reported verb",
+            "pairs": [
+                {
+                    "left": "Know",
+                    "right": "Knew"
+                },
+                {
+                    "left": "Want",
+                    "right": "Wanted"
+                }
+            ],
+            "answer": [
+                {
+                    "left": "Know",
+                    "right": "Knew"
+                },
+                {
+                    "left": "Want",
+                    "right": "Wanted"
+                }
+            ],
+            "hint": "Change the present verb to its past form.",
+            "voice_input": false,
+            "example_sentence": "She said she knew the answer.",
+            "media": {}
+        },
+        {
+            "id": "EA2GS3_020",
+            "type": "pronunciation",
+            "question": "Repeat: You told me you were ready.",
+            "answer": "You told me you were ready.",
+            "hint": "A gentle reminder of what someone said.",
+            "voice_input": true,
+            "example_sentence": "Come on! You told me you were ready five minutes ago.",
+            "media": {}
+        },
+        {
+            "id": "EA2GS3_021",
+            "type": "tap_fill",
+            "question": "This isn't my coat. Is it ___?",
+            "options": [
+                "yours",
+                "your",
+                "you",
+                "mine"
+            ],
+            "answer": "yours",
+            "hint": "Use the pronoun form for 'you'.",
+            "voice_input": false,
+            "example_sentence": "This isn't my coat. Is it yours?",
+            "media": {}
+        },
+        {
+            "id": "EA2GS3_022",
+            "type": "multiple_choice",
+            "question": "Which sentence uses a possessive pronoun correctly?",
+            "options": [
+                "That car is mine.",
+                "That car is my.",
+                "That is mine car."
+            ],
+            "answer": "That car is mine.",
+            "hint": "Pronouns stand alone without a noun.",
+            "voice_input": false,
+            "example_sentence": "That blue car is mine.",
+            "media": {}
+        },
+        {
+            "id": "EA2GS3_023",
+            "type": "sentence_ordering",
+            "question": "Order the words:",
+            "words": [
+                "is",
+                "That",
+                "not",
+                "hers",
+                "bag"
+            ],
+            "answer": "That bag is not hers",
+            "hint": "Subject + is + not + pronoun.",
+            "voice_input": false,
+            "example_sentence": "That bag is not hers; it belongs to Sarah.",
+            "media": {}
+        },
+        {
+            "id": "EA2GS3_024",
+            "type": "matching",
+            "question": "Match the adjective to the pronoun.",
+            "pairs": [
+                {
+                    "left": "My",
+                    "right": "Mine"
+                },
+                {
+                    "left": "Our",
+                    "right": "Ours"
+                }
+            ],
+            "answer": [
+                {
+                    "left": "My",
+                    "right": "Mine"
+                },
+                {
+                    "left": "Our",
+                    "right": "Ours"
+                }
+            ],
+            "hint": "Adjectives need a noun; pronouns do not.",
+            "voice_input": false,
+            "example_sentence": "This is my house. The house is mine.",
+            "media": {}
+        },
+        {
+            "id": "EA2GS3_025",
+            "type": "pronunciation",
+            "question": "Repeat: The decision is ours.",
+            "answer": "The decision is ours.",
+            "hint": "Focus on the 'z' sound at the end of 'ours'.",
+            "voice_input": true,
+            "example_sentence": "We discussed it together, so the decision is ours.",
+            "media": {}
+        },
+        {
+            "id": "EA2GS3_026",
+            "type": "tap_fill",
+            "question": "He found a pen. He thinks it is ___.",
+            "options": [
+                "his",
+                "him",
+                "he",
+                "hers"
+            ],
+            "answer": "his",
+            "hint": "Possessive pronoun for a male.",
+            "voice_input": false,
+            "example_sentence": "He found a pen on the floor and thinks it is his.",
+            "media": {}
+        },
+        {
+            "id": "EA2GS3_027",
+            "type": "multiple_choice",
+            "question": "What is the pronoun for 'Their house'?",
+            "options": [
+                "Theirs",
+                "Them",
+                "Their"
+            ],
+            "answer": "Theirs",
+            "hint": "Add an 's' to the adjective form.",
+            "voice_input": false,
+            "example_sentence": "Our house is small, but theirs is very large.",
+            "media": {}
+        },
+        {
+            "id": "EA2GS3_028",
+            "type": "sentence_ordering",
+            "question": "Order the words:",
+            "words": [
+                "yours",
+                "is",
+                "coffee",
+                "Which",
+                "?"
+            ],
+            "answer": "Which coffee is yours ?",
+            "hint": "Question word + noun + verb + pronoun.",
+            "voice_input": false,
+            "example_sentence": "There are two cups here. Which coffee is yours?",
+            "media": {}
+        },
+        {
+            "id": "EA2GS3_029",
+            "type": "matching",
+            "question": "Match the person to the pronoun.",
+            "pairs": [
+                {
+                    "left": "The girl",
+                    "right": "Hers"
+                },
+                {
+                    "left": "The boy",
+                    "right": "His"
+                }
+            ],
+            "answer": [
+                {
+                    "left": "The girl",
+                    "right": "Hers"
+                },
+                {
+                    "left": "The boy",
+                    "right": "His"
+                }
+            ],
+            "hint": "Gender-based possessives.",
+            "voice_input": false,
+            "example_sentence": "The bike is his, and the ball is hers.",
+            "media": {}
+        },
+        {
+            "id": "EA2GS3_030",
+            "type": "pronunciation",
+            "question": "Repeat: Are these keys yours?",
+            "answer": "Are these keys yours?",
+            "hint": "Rising intonation for a yes/no question.",
+            "voice_input": true,
+            "example_sentence": "I found these on the table. Are these keys yours?",
+            "media": {}
+        },
+        {
+            "id": "EA2GS3_031",
+            "type": "tap_fill",
+            "question": "I've finished my homework. Have you finished ___?",
+            "options": [
+                "yours",
+                "your",
+                "mine",
+                "their"
+            ],
+            "answer": "yours",
+            "hint": "Refers to your homework.",
+            "voice_input": false,
+            "example_sentence": "I've finished my homework. Have you finished yours?",
+            "media": {}
+        },
+        {
+            "id": "EA2GS3_032",
+            "type": "multiple_choice",
+            "question": "Complete the sentence: 'It's not my fault, it's ___.'",
+            "options": [
+                "theirs",
+                "their",
+                "they"
+            ],
+            "answer": "theirs",
+            "hint": "It belongs to them.",
+            "voice_input": false,
+            "example_sentence": "It's not my fault the project is late; it's theirs.",
+            "media": {}
+        },
+        {
+            "id": "EA2GS3_033",
+            "type": "sentence_ordering",
+            "question": "Order the words:",
+            "words": [
+                "is",
+                "This",
+                "phone",
+                "not",
+                "mine"
+            ],
+            "answer": "This phone is not mine",
+            "hint": "Negative statement of possession.",
+            "voice_input": false,
+            "example_sentence": "This phone is not mine; I have a different model.",
+            "media": {}
+        },
+        {
+            "id": "EA2GS3_034",
+            "type": "matching",
+            "question": "Match the sentence halves.",
+            "pairs": [
+                {
+                    "left": "I have my umbrella",
+                    "right": "You have yours"
+                },
+                {
+                    "left": "We have our tickets",
+                    "right": "They have theirs"
+                }
+            ],
+            "answer": [
+                {
+                    "left": "I have my umbrella",
+                    "right": "You have yours"
+                },
+                {
+                    "left": "We have our tickets",
+                    "right": "They have theirs"
+                }
+            ],
+            "hint": "Consistent subject-pronoun matching.",
+            "voice_input": false,
+            "example_sentence": "I have my umbrella, so you can keep yours.",
+            "media": {}
+        },
+        {
+            "id": "EA2GS3_035",
+            "type": "pronunciation",
+            "question": "Repeat: Everything here is mine.",
+            "answer": "Everything here is mine.",
+            "hint": "Emphasize 'mine'.",
+            "voice_input": true,
+            "example_sentence": "I bought all of this. Everything here is mine.",
+            "media": {}
+        },
+        {
+            "id": "EA2GS3_036",
+            "type": "tap_fill",
+            "question": "We bought this house together, so it is ___.",
+            "options": [
+                "ours",
+                "our",
+                "us",
+                "mine"
+            ],
+            "answer": "ours",
+            "hint": "Pronoun for 'we'.",
+            "voice_input": false,
+            "example_sentence": "We bought this house together, so it is ours.",
+            "media": {}
+        },
+        {
+            "id": "EA2GS3_037",
+            "type": "multiple_choice",
+            "question": "Is 'it's' a possessive pronoun?",
+            "options": [
+                "No, it is a contraction of 'it is'.",
+                "Yes, it shows possession.",
+                "Yes, it is the same as 'his'."
+            ],
+            "answer": "No, it is a contraction of 'it is'.",
+            "hint": "The possessive form is 'its' (no apostrophe).",
+            "voice_input": false,
+            "example_sentence": "It's a cat. Its tail is long.",
+            "media": {}
+        },
+        {
+            "id": "EA2GS3_038",
+            "type": "sentence_ordering",
+            "question": "Order the words:",
+            "words": [
+                "is",
+                "The",
+                "hers",
+                "red",
+                "one"
+            ],
+            "answer": "The red one is hers",
+            "hint": "Subject + is + pronoun.",
+            "voice_input": false,
+            "example_sentence": "There are many dresses. The red one is hers.",
+            "media": {}
+        },
+        {
+            "id": "EA2GS3_039",
+            "type": "matching",
+            "question": "Match the pronoun to its usage.",
+            "pairs": [
+                {
+                    "left": "Mine",
+                    "right": "Replaces 'my + noun'"
+                },
+                {
+                    "left": "Theirs",
+                    "right": "Replaces 'their + noun'"
+                }
+            ],
+            "answer": [
+                {
+                    "left": "Mine",
+                    "right": "Replaces 'my + noun'"
+                },
+                {
+                    "left": "Theirs",
+                    "right": "Replaces 'their + noun'"
+                }
+            ],
+            "hint": "Grammar function.",
+            "voice_input": false,
+            "example_sentence": "Mine is over there.",
+            "media": {}
+        },
+        {
+            "id": "EA2GS3_040",
+            "type": "pronunciation",
+            "question": "Repeat: This book is mine, not yours.",
+            "answer": "This book is mine, not yours.",
+            "hint": "Contrast 'mine' and 'yours'.",
+            "voice_input": true,
+            "example_sentence": "Please give it back. This book is mine, not yours.",
+            "media": {}
+        },
+        {
+            "id": "EA2GS3_041",
+            "type": "tap_fill",
+            "question": "He ran very ___ to catch the bus.",
+            "options": [
+                "quickly",
+                "quick",
+                "quicker",
+                "slow"
+            ],
+            "answer": "quickly",
+            "hint": "Describes how he ran.",
+            "voice_input": false,
+            "example_sentence": "He ran very quickly to catch the bus before it left.",
+            "media": {}
+        },
+        {
+            "id": "EA2GS3_042",
+            "type": "multiple_choice",
+            "question": "What is the adverb for the word 'good'?",
+            "options": [
+                "goodly",
+                "well",
+                "better"
+            ],
+            "answer": "well",
+            "hint": "This is an irregular adverb.",
+            "voice_input": false,
+            "example_sentence": "She speaks English very well.",
+            "media": {}
+        },
+        {
+            "id": "EA2GS3_043",
+            "type": "sentence_ordering",
+            "question": "Order the words:",
+            "words": [
+                "carefully",
+                "She",
+                "the",
+                "carried",
+                "glass"
+            ],
+            "answer": "She carried the glass carefully",
+            "hint": "Subject + verb + object + adverb.",
+            "voice_input": false,
+            "example_sentence": "She carried the glass carefully so she wouldn't drop it.",
+            "media": {}
+        },
+        {
+            "id": "EA2GS3_044",
+            "type": "matching",
+            "question": "Match the adjective to the adverb.",
+            "pairs": [
+                {
+                    "left": "Slow",
+                    "right": "Slowly"
+                },
+                {
+                    "left": "Happy",
+                    "right": "Happily"
+                }
+            ],
+            "answer": [
+                {
+                    "left": "Slow",
+                    "right": "Slowly"
+                },
+                {
+                    "left": "Happy",
+                    "right": "Happily"
+                }
+            ],
+            "hint": "Most adverbs add -ly or -ily.",
+            "voice_input": false,
+            "example_sentence": "He is a slow walker. He walks slowly.",
+            "media": {}
+        },
+        {
+            "id": "EA2GS3_045",
+            "type": "pronunciation",
+            "question": "Repeat: Please speak quietly in the library.",
+            "answer": "Please speak quietly in the library.",
+            "hint": "Focus on the 'ly' sound in 'quietly'.",
+            "voice_input": true,
+            "example_sentence": "The students are studying, so please speak quietly.",
+            "media": {}
+        },
+        {
+            "id": "EA2GS3_046",
+            "type": "tap_fill",
+            "question": "The children played ___ together.",
+            "options": [
+                "happily",
+                "happy",
+                "happiness",
+                "sad"
+            ],
+            "answer": "happily",
+            "hint": "Describes the manner of playing.",
+            "voice_input": false,
+            "example_sentence": "The children played happily together in the garden.",
+            "media": {}
+        },
+        {
+            "id": "EA2GS3_047",
+            "type": "multiple_choice",
+            "question": "Which word is an irregular adverb (no -ly)?",
+            "options": [
+                "Fast",
+                "Loudly",
+                "Sadly"
+            ],
+            "answer": "Fast",
+            "hint": "The adjective and adverb are the same.",
+            "voice_input": false,
+            "example_sentence": "He drives a fast car and he drives fast.",
+            "media": {}
+        },
+        {
+            "id": "EA2GS3_048",
+            "type": "sentence_ordering",
+            "question": "Order the words:",
+            "words": [
+                "hard",
+                "for",
+                "the",
+                "He",
+                "studied",
+                "test"
+            ],
+            "answer": "He studied hard for the test",
+            "hint": "'Hard' is also an irregular adverb.",
+            "voice_input": false,
+            "example_sentence": "He studied hard for the test to get a good grade.",
+            "media": {}
+        },
+        {
+            "id": "EA2GS3_049",
+            "type": "matching",
+            "question": "Match the adjective to the irregular adverb.",
+            "pairs": [
+                {
+                    "left": "Good",
+                    "right": "Well"
+                },
+                {
+                    "left": "Fast",
+                    "right": "Fast"
+                }
+            ],
+            "answer": [
+                {
+                    "left": "Good",
+                    "right": "Well"
+                },
+                {
+                    "left": "Fast",
+                    "right": "Fast"
+                }
+            ],
+            "hint": "These do not follow the -ly rule.",
+            "voice_input": false,
+            "example_sentence": "You did a good job; you worked well.",
+            "media": {}
+        },
+        {
+            "id": "EA2GS3_050",
+            "type": "pronunciation",
+            "question": "Repeat: Can you drive more slowly?",
+            "answer": "Can you drive more slowly?",
+            "hint": "Comparative of an adverb.",
+            "voice_input": true,
+            "example_sentence": "The road is dangerous. Can you drive more slowly?",
+            "media": {}
+        },
+        {
+            "id": "EA2GS3_051",
+            "type": "tap_fill",
+            "question": "She finished her work ___ and left the office.",
+            "options": [
+                "easily",
+                "easy",
+                "easier",
+                "bad"
+            ],
+            "answer": "easily",
+            "hint": "Adjective 'easy' changes to 'easily'.",
+            "voice_input": false,
+            "example_sentence": "She finished her work easily because she is very skilled.",
+            "media": {}
+        },
+        {
+            "id": "EA2GS3_052",
+            "type": "multiple_choice",
+            "question": "Choose the correct adverb for 'bad':",
+            "options": [
+                "badly",
+                "bad",
+                "worse"
+            ],
+            "answer": "badly",
+            "hint": "Standard -ly formation.",
+            "voice_input": false,
+            "example_sentence": "The team played badly and lost the game.",
+            "media": {}
+        },
+        {
+            "id": "EA2GS3_053",
+            "type": "sentence_ordering",
+            "question": "Order the words:",
+            "words": [
+                "loudly",
+                "The",
+                "dog",
+                "barked",
+                "night",
+                "at"
+            ],
+            "answer": "The dog barked loudly at night",
+            "hint": "How did the dog bark?",
+            "voice_input": false,
+            "example_sentence": "The dog barked loudly at night and woke up the neighbors.",
+            "media": {}
+        },
+        {
+            "id": "EA2GS3_054",
+            "type": "matching",
+            "question": "Match the opposite adverbs.",
+            "pairs": [
+                {
+                    "left": "Quickly",
+                    "right": "Slowly"
+                },
+                {
+                    "left": "Well",
+                    "right": "Badly"
+                }
+            ],
+            "answer": [
+                {
+                    "left": "Quickly",
+                    "right": "Slowly"
+                },
+                {
+                    "left": "Well",
+                    "right": "Badly"
+                }
+            ],
+            "hint": "Contrast how things are done.",
+            "voice_input": false,
+            "example_sentence": "He sings well, but he dances badly.",
+            "media": {}
+        },
+        {
+            "id": "EA2GS3_055",
+            "type": "pronunciation",
+            "question": "Repeat: Please listen carefully.",
+            "answer": "Please listen carefully.",
+            "hint": "Instruction for attention.",
+            "voice_input": true,
+            "example_sentence": "I have important news, so please listen carefully.",
+            "media": {}
+        },
+        {
+            "id": "EA2GS3_056",
+            "type": "tap_fill",
+            "question": "The cat moved ___ through the grass.",
+            "options": [
+                "silently",
+                "silent",
+                "noise",
+                "loud"
+            ],
+            "answer": "silently",
+            "hint": "No sound was made.",
+            "voice_input": false,
+            "example_sentence": "The cat moved silently through the grass to catch the bird.",
+            "media": {}
+        },
+        {
+            "id": "EA2GS3_057",
+            "type": "multiple_choice",
+            "question": "Complete: 'It is raining ___.'",
+            "options": [
+                "heavily",
+                "heavy",
+                "heavier"
+            ],
+            "answer": "heavily",
+            "hint": "'Heavy' changes 'y' to 'i' + 'ly'.",
+            "voice_input": false,
+            "example_sentence": "It is raining heavily, so don't forget your umbrella.",
+            "media": {}
+        },
+        {
+            "id": "EA2GS3_058",
+            "type": "sentence_ordering",
+            "question": "Order the words:",
+            "words": [
+                "spoke",
+                "The",
+                "teacher",
+                "clearly",
+                "to",
+                "the",
+                "class"
+            ],
+            "answer": "The teacher spoke clearly to the class",
+            "hint": "Manner of speaking.",
+            "voice_input": false,
+            "example_sentence": "The teacher spoke clearly so everyone could understand.",
+            "media": {}
+        },
+        {
+            "id": "EA2GS3_059",
+            "type": "matching",
+            "question": "Match the adjective to the adverb spelling.",
+            "pairs": [
+                {
+                    "left": "Gentle",
+                    "right": "Gently"
+                },
+                {
+                    "left": "Angry",
+                    "right": "Angrily"
+                }
+            ],
+            "answer": [
+                {
+                    "left": "Gentle",
+                    "right": "Gently"
+                },
+                {
+                    "left": "Angry",
+                    "right": "Angrily"
+                }
+            ],
+            "hint": "Watch for spelling changes in words ending in -e or -y.",
+            "voice_input": false,
+            "example_sentence": "He spoke angrily after the mistake.",
+            "media": {}
+        },
+        {
+            "id": "EA2GS3_060",
+            "type": "pronunciation",
+            "question": "Repeat: He works hard every day.",
+            "answer": "He works hard every day.",
+            "hint": "Remember 'hard' doesn't take -ly in this context.",
+            "voice_input": true,
+            "example_sentence": "He wants a promotion, so he works hard every day.",
+            "media": {}
+        },
+        {
+            "id": "EA2GS3_061",
+            "type": "tap_fill",
+            "question": "If it rains tomorrow, I ___ stay at home.",
+            "options": [
+                "will",
+                "would",
+                "am",
+                "do"
+            ],
+            "answer": "will",
+            "hint": "Use 'will' for the result part of the first conditional.",
+            "voice_input": false,
+            "example_sentence": "If it rains tomorrow, I will stay at home and watch a movie.",
+            "media": {}
+        },
+        {
+            "id": "EA2GS3_062",
+            "type": "multiple_choice",
+            "question": "Which sentence is a correct First Conditional?",
+            "options": [
+                "If I see him, I tell him.",
+                "If I see him, I will tell him.",
+                "If I will see him, I will tell him."
+            ],
+            "answer": "If I see him, I will tell him.",
+            "hint": "The 'if' clause uses Present Simple, not 'will'.",
+            "voice_input": false,
+            "example_sentence": "If I see him at the office, I will tell him about the meeting.",
+            "media": {}
+        },
+        {
+            "id": "EA2GS3_063",
+            "type": "sentence_ordering",
+            "question": "Order the words:",
+            "words": [
+                "miss",
+                "bus",
+                "late",
+                "you",
+                "are",
+                "the",
+                "will",
+                "If"
+            ],
+            "answer": "If you are late you will miss the bus",
+            "hint": "Condition + Result.",
+            "voice_input": false,
+            "example_sentence": "If you are late, you will miss the start of the bus.",
+            "media": {}
+        },
+        {
+            "id": "EA2GS3_064",
+            "type": "matching",
+            "question": "Match the condition to the result.",
+            "pairs": [
+                {
+                    "left": "If you study hard",
+                    "right": "you will pass the exam"
+                },
+                {
+                    "left": "If you eat too much",
+                    "right": "you will feel sick"
+                }
+            ],
+            "answer": [
+                {
+                    "left": "If you study hard",
+                    "right": "you will pass the exam"
+                },
+                {
+                    "left": "If you eat too much",
+                    "right": "you will feel sick"
+                }
+            ],
+            "hint": "Think about the logical consequence.",
+            "voice_input": false,
+            "example_sentence": "If you study hard, you will pass with a high grade.",
+            "media": {}
+        },
+        {
+            "id": "EA2GS3_065",
+            "type": "pronunciation",
+            "question": "Repeat: I'll help you if I have time.",
+            "answer": "I'll help you if I have time.",
+            "hint": "The result can come before the 'if' clause.",
+            "voice_input": true,
+            "example_sentence": "I'll help you with your homework if I have time tonight.",
+            "media": {}
+        },
+        {
+            "id": "EA2GS3_066",
+            "type": "tap_fill",
+            "question": "If she ___ early, she will catch the train.",
+            "options": [
+                "leaves",
+                "will leave",
+                "leave",
+                "left"
+            ],
+            "answer": "leaves",
+            "hint": "Use Present Simple in the 'if' part.",
+            "voice_input": false,
+            "example_sentence": "If she leaves early, she will catch the 8:00 AM train.",
+            "media": {}
+        },
+        {
+            "id": "EA2GS3_067",
+            "type": "multiple_choice",
+            "question": "What is the negative form?",
+            "options": [
+                "If you don't hurry, you'll be late.",
+                "If you won't hurry, you'll be late.",
+                "If you not hurry, you'll be late."
+            ],
+            "answer": "If you don't hurry, you'll be late.",
+            "hint": "Use 'don't' or 'doesn't' for the negative condition.",
+            "voice_input": false,
+            "example_sentence": "If you don't hurry, you'll be late for the concert.",
+            "media": {}
+        },
+        {
+            "id": "EA2GS3_068",
+            "type": "sentence_ordering",
+            "question": "Order the words:",
+            "words": [
+                "will",
+                "buy",
+                "car",
+                "a",
+                "enough",
+                "If",
+                "I",
+                "have",
+                "money"
+            ],
+            "answer": "If I have enough money I will buy a car",
+            "hint": "Subject + have + noun.",
+            "voice_input": false,
+            "example_sentence": "If I have enough money, I will buy a car next year.",
+            "media": {}
+        },
+        {
+            "id": "EA2GS3_069",
+            "type": "matching",
+            "question": "Match the clauses.",
+            "pairs": [
+                {
+                    "left": "If it is sunny",
+                    "right": "we will go to the beach"
+                },
+                {
+                    "left": "If it is cold",
+                    "right": "we will stay inside"
+                }
+            ],
+            "answer": [
+                {
+                    "left": "If it is sunny",
+                    "right": "we will go to the beach"
+                },
+                {
+                    "left": "If it is cold",
+                    "right": "we will stay inside"
+                }
+            ],
+            "hint": "Check the weather-related result.",
+            "voice_input": false,
+            "example_sentence": "If it is sunny, we will go for a swim.",
+            "media": {}
+        },
+        {
+            "id": "EA2GS3_070",
+            "type": "pronunciation",
+            "question": "Repeat: If I'm free, I'll call you.",
+            "answer": "If I'm free, I'll call you.",
+            "hint": "Focus on the contraction 'I'll'.",
+            "voice_input": true,
+            "example_sentence": "If I'm free after work, I'll call you immediately.",
+            "media": {}
+        },
+        {
+            "id": "EA2GS3_071",
+            "type": "tap_fill",
+            "question": "We ___ go to the park if the weather is good.",
+            "options": [
+                "will",
+                "do",
+                "are",
+                "is"
+            ],
+            "answer": "will",
+            "hint": "The result is a future possibility.",
+            "voice_input": false,
+            "example_sentence": "We will go to the park if the weather is good this weekend.",
+            "media": {}
+        },
+        {
+            "id": "EA2GS3_072",
+            "type": "multiple_choice",
+            "question": "Choose the correct verb: 'If he ___ me, I'll be happy.'",
+            "options": [
+                "calls",
+                "call",
+                "will call"
+            ],
+            "answer": "calls",
+            "hint": "He/She/It takes -s in the present simple.",
+            "voice_input": false,
+            "example_sentence": "If he calls me tonight, I'll be very happy.",
+            "media": {}
+        },
+        {
+            "id": "EA2GS3_073",
+            "type": "sentence_ordering",
+            "question": "Order the words:",
+            "words": [
+                "tired",
+                "be",
+                "If",
+                "don't",
+                "you",
+                "go",
+                "sleep",
+                "will",
+                "you",
+                "to"
+            ],
+            "answer": "If you don't go to sleep you will be tired",
+            "hint": "Negative condition leads to a negative state.",
+            "voice_input": false,
+            "example_sentence": "If you don't go to sleep now, you will be tired tomorrow.",
+            "media": {}
+        },
+        {
+            "id": "EA2GS3_074",
+            "type": "matching",
+            "question": "Match the sentence halves.",
+            "pairs": [
+                {
+                    "left": "I'll be angry",
+                    "right": "if you are late"
+                },
+                {
+                    "left": "I'll be sad",
+                    "right": "if you don't come"
+                }
+            ],
+            "answer": [
+                {
+                    "left": "I'll be angry",
+                    "right": "if you are late"
+                },
+                {
+                    "left": "I'll be sad",
+                    "right": "if you don't come"
+                }
+            ],
+            "hint": "Result first, then the condition.",
+            "voice_input": false,
+            "example_sentence": "I'll be angry if you are late again.",
+            "media": {}
+        },
+        {
+            "id": "EA2GS3_075",
+            "type": "pronunciation",
+            "question": "Repeat: What will you do if it's closed?",
+            "answer": "What will you do if it's closed?",
+            "hint": "A question about a possibility.",
+            "voice_input": true,
+            "example_sentence": "What will you do if the store is closed when you get there?",
+            "media": {}
+        },
+        {
+            "id": "EA2GS3_076",
+            "type": "tap_fill",
+            "question": "If you don't eat now, you ___ be hungry later.",
+            "options": [
+                "will",
+                "won't",
+                "are",
+                "don't"
+            ],
+            "answer": "will",
+            "hint": "Result of not eating.",
+            "voice_input": false,
+            "example_sentence": "If you don't eat now, you will be hungry during the flight.",
+            "media": {}
+        },
+        {
+            "id": "EA2GS3_077",
+            "type": "multiple_choice",
+            "question": "Complete: 'If they ___ hard, they will win.'",
+            "options": [
+                "practice",
+                "practices",
+                "will practice"
+            ],
+            "answer": "practice",
+            "hint": "'They' uses the base form of the verb.",
+            "voice_input": false,
+            "example_sentence": "If they practice hard, they will win the game on Saturday.",
+            "media": {}
+        },
+        {
+            "id": "EA2GS3_078",
+            "type": "sentence_ordering",
+            "question": "Order the words:",
+            "words": [
+                "get",
+                "will",
+                "wet",
+                "She",
+                "doesn't",
+                "umbrella",
+                "use",
+                "an",
+                "if",
+                "she"
+            ],
+            "answer": "She will get wet if she doesn't use an umbrella",
+            "hint": "Result + if + negative condition.",
+            "voice_input": false,
+            "example_sentence": "She will get wet if she doesn't use an umbrella in this rain.",
+            "media": {}
+        },
+        {
+            "id": "EA2GS3_079",
+            "type": "matching",
+            "question": "Match the pronoun to the verb form.",
+            "pairs": [
+                {
+                    "left": "If I",
+                    "right": "see him"
+                },
+                {
+                    "left": "If he",
+                    "right": "sees me"
+                }
+            ],
+            "answer": [
+                {
+                    "left": "If I",
+                    "right": "see him"
+                },
+                {
+                    "left": "If he",
+                    "right": "sees me"
+                }
+            ],
+            "hint": "Present simple conjugation rules.",
+            "voice_input": false,
+            "example_sentence": "If he sees me, he will be surprised.",
+            "media": {}
+        },
+        {
+            "id": "EA2GS3_080",
+            "type": "pronunciation",
+            "question": "Repeat: Everything will be fine if you relax.",
+            "answer": "Everything will be fine if you relax.",
+            "hint": "A comforting first conditional sentence.",
+            "voice_input": true,
+            "example_sentence": "Don't worry about the presentation; everything will be fine if you relax.",
+            "media": {}
+        },
+        {
+            "id": "EA2GS3_081",
+            "type": "tap_fill",
+            "question": "If the weather is nice tomorrow, we ___ go for a walk.",
+            "options": [
+                "will",
+                "would",
+                "going",
+                "did"
+            ],
+            "answer": "will",
+            "hint": "Review: First Conditional result.",
+            "voice_input": false,
+            "example_sentence": "If the weather is nice tomorrow, we will go for a walk in the park.",
+            "media": {}
+        },
+        {
+            "id": "EA2GS3_082",
+            "type": "multiple_choice",
+            "question": "Which sentence is in the Past Continuous?",
+            "options": [
+                "I was watching TV when you called.",
+                "I watched TV when you called.",
+                "I am watching TV now."
+            ],
+            "answer": "I was watching TV when you called.",
+            "hint": "Look for was/were + -ing.",
+            "voice_input": false,
+            "example_sentence": "I was watching TV when you called, so I didn't hear the phone at first.",
+            "media": {}
+        },
+        {
+            "id": "EA2GS3_083",
+            "type": "sentence_ordering",
+            "question": "Order the words:",
+            "words": [
+                "taller",
+                "brother",
+                "is",
+                "than",
+                "My",
+                "me"
+            ],
+            "answer": "My brother is taller than me",
+            "hint": "Review: Comparative adjectives.",
+            "voice_input": false,
+            "example_sentence": "My brother is taller than me, even though he is younger.",
+            "media": {}
+        },
+        {
+            "id": "EA2GS3_084",
+            "type": "matching",
+            "question": "Match the pronoun to its type.",
+            "pairs": [
+                {
+                    "left": "Mine",
+                    "right": "Possessive Pronoun"
+                },
+                {
+                    "left": "Something",
+                    "right": "Indefinite Pronoun"
+                }
+            ],
+            "answer": [
+                {
+                    "left": "Mine",
+                    "right": "Possessive Pronoun"
+                },
+                {
+                    "left": "Something",
+                    "right": "Indefinite Pronoun"
+                }
+            ],
+            "hint": "Recall the grammar categories from Batches 32 and 34.",
+            "voice_input": false,
+            "example_sentence": "This book is mine, and I have something to tell you.",
+            "media": {}
+        },
+        {
+            "id": "EA2GS3_085",
+            "type": "pronunciation",
+            "question": "Repeat: She said she was tired.",
+            "answer": "She said she was tired.",
+            "hint": "Review: Reported Speech tense shift.",
+            "voice_input": true,
+            "example_sentence": "I asked her to go out, but she said she was tired.",
+            "media": {}
+        },
+        {
+            "id": "EA2GS3_086",
+            "type": "tap_fill",
+            "question": "I only have ___ money left in my wallet.",
+            "options": [
+                "a little",
+                "a few",
+                "many",
+                "any"
+            ],
+            "answer": "a little",
+            "hint": "Review: Quantifiers for uncountable nouns.",
+            "voice_input": false,
+            "example_sentence": "I only have a little money left, so I can't buy lunch.",
+            "media": {}
+        },
+        {
+            "id": "EA2GS3_087",
+            "type": "multiple_choice",
+            "question": "What does 'take off' mean when talking about a plane?",
+            "options": [
+                "To leave the ground",
+                "To land on the ground",
+                "To clean the plane"
+            ],
+            "answer": "To leave the ground",
+            "hint": "Review: Common phrasal verbs.",
+            "voice_input": false,
+            "example_sentence": "The plane will take off in ten minutes.",
+            "media": {}
+        },
+        {
+            "id": "EA2GS3_088",
+            "type": "sentence_ordering",
+            "question": "Order the words:",
+            "words": [
+                "movie",
+                "that",
+                "saw",
+                "was",
+                "boring",
+                "The",
+                "we"
+            ],
+            "answer": "The movie that we saw was boring",
+            "hint": "Review: Relative clauses.",
+            "voice_input": false,
+            "example_sentence": "The movie that we saw yesterday was very boring.",
+            "media": {}
+        },
+        {
+            "id": "EA2GS3_089",
+            "type": "matching",
+            "question": "Match the adjective to the adverb.",
+            "pairs": [
+                {
+                    "left": "Good",
+                    "right": "Well"
+                },
+                {
+                    "left": "Careful",
+                    "right": "Carefully"
+                }
+            ],
+            "answer": [
+                {
+                    "left": "Good",
+                    "right": "Well"
+                },
+                {
+                    "left": "Careful",
+                    "right": "Carefully"
+                }
+            ],
+            "hint": "Review: Adverbs of manner.",
+            "voice_input": false,
+            "example_sentence": "He is a good driver and drives carefully.",
+            "media": {}
+        },
+        {
+            "id": "EA2GS3_090",
+            "type": "pronunciation",
+            "question": "Repeat: Is there anyone in the room?",
+            "answer": "Is there anyone in the room?",
+            "hint": "Review: Indefinite pronouns in questions.",
+            "voice_input": true,
+            "example_sentence": "The lights are on. Is there anyone in the room?",
+            "media": {}
+        },
+        {
+            "id": "EA2GS3_091",
+            "type": "tap_fill",
+            "question": "I ___ to live in Madrid when I was a child.",
+            "options": [
+                "used",
+                "use",
+                "was",
+                "am"
+            ],
+            "answer": "used",
+            "hint": "Review: Past habits with 'used to'.",
+            "voice_input": false,
+            "example_sentence": "I used to live in Madrid when I was a child, but now I live in London.",
+            "media": {}
+        },
+        {
+            "id": "EA2GS3_092",
+            "type": "multiple_choice",
+            "question": "Choose the superlative form of 'expensive':",
+            "options": [
+                "The most expensive",
+                "More expensive",
+                "Expensivest"
+            ],
+            "answer": "The most expensive",
+            "hint": "Used for the top of a category.",
+            "voice_input": false,
+            "example_sentence": "This is the most expensive watch in the store.",
+            "media": {}
+        },
+        {
+            "id": "EA2GS3_093",
+            "type": "sentence_ordering",
+            "question": "Order the words:",
+            "words": [
+                "not",
+                "homework",
+                "finished",
+                "yet",
+                "I",
+                "have",
+                "my"
+            ],
+            "answer": "I have not finished my homework yet",
+            "hint": "Review: Present Perfect (introductory A2/B1).",
+            "voice_input": false,
+            "example_sentence": "I have not finished my homework yet, so I can't play games.",
+            "media": {}
+        },
+        {
+            "id": "EA2GS3_094",
+            "type": "matching",
+            "question": "Match the adjective to the feeling.",
+            "pairs": [
+                {
+                    "left": "Boring",
+                    "right": "The book"
+                },
+                {
+                    "left": "Bored",
+                    "right": "The student"
+                }
+            ],
+            "answer": [
+                {
+                    "left": "Boring",
+                    "right": "The book"
+                },
+                {
+                    "left": "Bored",
+                    "right": "The student"
+                }
+            ],
+            "hint": "Review: -ed vs -ing adjectives.",
+            "voice_input": false,
+            "example_sentence": "The boring book made the student feel bored.",
+            "media": {}
+        },
+        {
+            "id": "EA2GS3_095",
+            "type": "pronunciation",
+            "question": "Repeat: Can you turn down the music?",
+            "answer": "Can you turn down the music?",
+            "hint": "Review: Phrasal verb for volume.",
+            "voice_input": true,
+            "example_sentence": "It's too loud in here. Can you turn down the music?",
+            "media": {}
+        },
+        {
+            "id": "EA2GS3_096",
+            "type": "tap_fill",
+            "question": "The man ___ stole the car was arrested.",
+            "options": [
+                "who",
+                "which",
+                "where",
+                "what"
+            ],
+            "answer": "who",
+            "hint": "Relative pronoun for a person.",
+            "voice_input": false,
+            "example_sentence": "The man who stole the car was arrested by the police.",
+            "media": {}
+        },
+        {
+            "id": "EA2GS3_097",
+            "type": "multiple_choice",
+            "question": "Which is correct for a future plan?",
+            "options": [
+                "I am going to visit my grandmother.",
+                "I visit my grandmother.",
+                "I visited my grandmother."
+            ],
+            "answer": "I am going to visit my grandmother.",
+            "hint": "Review: Be + going to.",
+            "voice_input": false,
+            "example_sentence": "I am going to visit my grandmother next Sunday.",
+            "media": {}
+        },
+        {
+            "id": "EA2GS3_098",
+            "type": "sentence_ordering",
+            "question": "Order the words:",
+            "words": [
+                "well",
+                "She",
+                "doesn't",
+                "very",
+                "dance"
+            ],
+            "answer": "She doesn't dance very well",
+            "hint": "Subject + negative + verb + adverb.",
+            "voice_input": false,
+            "example_sentence": "She doesn't dance very well, but she enjoys it.",
+            "media": {}
+        },
+        {
+            "id": "EA2GS3_099",
+            "type": "matching",
+            "question": "Match the time expression to the tense.",
+            "pairs": [
+                {
+                    "left": "Last year",
+                    "right": "Past Simple"
+                },
+                {
+                    "left": "Right now",
+                    "right": "Present Continuous"
+                }
+            ],
+            "answer": [
+                {
+                    "left": "Last year",
+                    "right": "Past Simple"
+                },
+                {
+                    "left": "Right now",
+                    "right": "Present Continuous"
+                }
+            ],
+            "hint": "Keywords for tense identification.",
+            "voice_input": false,
+            "example_sentence": "Last year I travelled to Japan; right now I am at home.",
+            "media": {}
+        },
+        {
+            "id": "EA2GS3_100",
+            "type": "pronunciation",
+            "question": "Repeat: They told me they were busy.",
+            "answer": "They told me they were busy.",
+            "hint": "Review: Reported Speech with 'told'.",
+            "voice_input": true,
+            "example_sentence": "I asked them for help, but they told me they were busy.",
+            "media": {}
+        },
+        {
+            "id": "EA2GS3_101",
+            "type": "tap_fill",
+            "question": "While I ___ breakfast, the phone rang.",
+            "options": [
+                "was having",
+                "had",
+                "have",
+                "am having"
+            ],
+            "answer": "was having",
+            "hint": "Use Past Continuous for a long action interrupted by a short one.",
+            "voice_input": false,
+            "example_sentence": "While I was having breakfast, the phone rang suddenly.",
+            "media": {}
+        },
+        {
+            "id": "EA2GS3_102",
+            "type": "multiple_choice",
+            "question": "Which sentence correctly uses a relative pronoun for a person?",
+            "options": [
+                "The girl who sits next to me is kind.",
+                "The girl which sits next to me is kind.",
+                "The girl where sits next to me is kind."
+            ],
+            "answer": "The girl who sits next to me is kind.",
+            "hint": "Use 'who' for people.",
+            "voice_input": false,
+            "example_sentence": "The girl who sits next to me in class is very kind.",
+            "media": {}
+        },
+        {
+            "id": "EA2GS3_103",
+            "type": "sentence_ordering",
+            "question": "Order the words:",
+            "words": [
+                "is",
+                "The",
+                "smaller",
+                "than",
+                "ours",
+                "their",
+                "house"
+            ],
+            "answer": "Their house is smaller than ours",
+            "hint": "Comparison + Possessive Pronoun.",
+            "voice_input": false,
+            "example_sentence": "Their house is smaller than ours, but it is very modern.",
+            "media": {}
+        },
+        {
+            "id": "EA2GS3_104",
+            "type": "matching",
+            "question": "Match the question to the correct response.",
+            "pairs": [
+                {
+                    "left": "Whose bag is this?",
+                    "right": "It's mine."
+                },
+                {
+                    "left": "Where is the cat?",
+                    "right": "It's somewhere outside."
+                }
+            ],
+            "answer": [
+                {
+                    "left": "Whose bag is this?",
+                    "right": "It's mine."
+                },
+                {
+                    "left": "Where is the cat?",
+                    "right": "It's somewhere outside."
+                }
+            ],
+            "hint": "Connect possession and location pronouns.",
+            "voice_input": false,
+            "example_sentence": "Whose bag is this? Oh, it's mine, thank you.",
+            "media": {}
+        },
+        {
+            "id": "EA2GS3_105",
+            "type": "pronunciation",
+            "question": "Repeat: He doesn't have much money.",
+            "answer": "He doesn't have much money.",
+            "hint": "Focus on the quantifier for uncountable nouns.",
+            "voice_input": true,
+            "example_sentence": "He doesn't have much money, but he is very happy.",
+            "media": {}
+        },
+        {
+            "id": "EA2GS3_106",
+            "type": "tap_fill",
+            "question": "I have ___ friends who live in London.",
+            "options": [
+                "a few",
+                "a little",
+                "any",
+                "much"
+            ],
+            "answer": "a few",
+            "hint": "Friends are countable nouns.",
+            "voice_input": false,
+            "example_sentence": "I have a few friends who live in London, so I visit them often.",
+            "media": {}
+        },
+        {
+            "id": "EA2GS3_107",
+            "type": "multiple_choice",
+            "question": "What is the reported version of: 'I am lost'?",
+            "options": [
+                "He said he was lost.",
+                "He said he is lost.",
+                "He said he will be lost."
+            ],
+            "answer": "He said he was lost.",
+            "hint": "Shift the present tense to the past.",
+            "voice_input": false,
+            "example_sentence": "He called me and said he was lost in the city center.",
+            "media": {}
+        },
+        {
+            "id": "EA2GS3_108",
+            "type": "sentence_ordering",
+            "question": "Order the words:",
+            "words": [
+                "anything",
+                "didn't",
+                "She",
+                "say",
+                "to",
+                "me"
+            ],
+            "answer": "She didn't say anything to me",
+            "hint": "Negative + Indefinite Pronoun.",
+            "voice_input": false,
+            "example_sentence": "She was very quiet and didn't say anything to me.",
+            "media": {}
+        },
+        {
+            "id": "EA2GS3_109",
+            "type": "matching",
+            "question": "Match the adjective to the irregular adverb.",
+            "pairs": [
+                {
+                    "left": "Fast",
+                    "right": "Fast"
+                },
+                {
+                    "left": "Hard",
+                    "right": "Hard"
+                }
+            ],
+            "answer": [
+                {
+                    "left": "Fast",
+                    "right": "Fast"
+                },
+                {
+                    "left": "Hard",
+                    "right": "Hard"
+                }
+            ],
+            "hint": "These adverbs do not change form.",
+            "voice_input": false,
+            "example_sentence": "He is a fast runner and he runs fast.",
+            "media": {}
+        },
+        {
+            "id": "EA2GS3_110",
+            "type": "pronunciation",
+            "question": "Repeat: This is the car which I bought.",
+            "answer": "This is the car which I bought.",
+            "hint": "Relative pronoun for an object.",
+            "voice_input": true,
+            "example_sentence": "This is the car which I bought from my neighbor.",
+            "media": {}
+        },
+        {
+            "id": "EA2GS3_111",
+            "type": "tap_fill",
+            "question": "If you study, you ___ pass.",
+            "options": [
+                "will",
+                "did",
+                "are",
+                "were"
+            ],
+            "answer": "will",
+            "hint": "First Conditional structure.",
+            "voice_input": false,
+            "example_sentence": "If you study every day, you will pass the exam easily.",
+            "media": {}
+        },
+        {
+            "id": "EA2GS3_112",
+            "type": "multiple_choice",
+            "question": "Which adverb describes 'doing something in a quiet way'?",
+            "options": [
+                "Quietly",
+                "Quite",
+                "Quiet"
+            ],
+            "answer": "Quietly",
+            "hint": "Add -ly to the adjective.",
+            "voice_input": false,
+            "example_sentence": "Please walk quietly while the baby is sleeping.",
+            "media": {}
+        },
+        {
+            "id": "EA2GS3_113",
+            "type": "sentence_ordering",
+            "question": "Order the words:",
+            "words": [
+                "There",
+                "nobody",
+                "the",
+                "in",
+                "is",
+                "office"
+            ],
+            "answer": "There is nobody in the office",
+            "hint": "Indefinite pronoun for zero people.",
+            "voice_input": false,
+            "example_sentence": "The building is dark; there is nobody in the office.",
+            "media": {}
+        },
+        {
+            "id": "EA2GS3_114",
+            "type": "matching",
+            "question": "Match the tense to the sentence.",
+            "pairs": [
+                {
+                    "left": "I was eating",
+                    "right": "Past Continuous"
+                },
+                {
+                    "left": "I have eaten",
+                    "right": "Present Perfect"
+                }
+            ],
+            "answer": [
+                {
+                    "left": "I was eating",
+                    "right": "Past Continuous"
+                },
+                {
+                    "left": "I have eaten",
+                    "right": "Present Perfect"
+                }
+            ],
+            "hint": "Identify the auxiliary verb.",
+            "voice_input": false,
+            "example_sentence": "I was eating when you called.",
+            "media": {}
+        },
+        {
+            "id": "EA2GS3_115",
+            "type": "pronunciation",
+            "question": "Repeat: Is that your pen or mine?",
+            "answer": "Is that your pen or mine?",
+            "hint": "Focus on the possessive pronoun 'mine'.",
+            "voice_input": true,
+            "example_sentence": "We have the same pen. Is that your pen or mine?",
+            "media": {}
+        },
+        {
+            "id": "EA2GS3_116",
+            "type": "tap_fill",
+            "question": "She is the woman ___ works in the library.",
+            "options": [
+                "who",
+                "which",
+                "where",
+                "whose"
+            ],
+            "answer": "who",
+            "hint": "Relative pronoun for a person.",
+            "voice_input": false,
+            "example_sentence": "She is the woman who works in the library on Tuesdays.",
+            "media": {}
+        },
+        {
+            "id": "EA2GS3_117",
+            "type": "multiple_choice",
+            "question": "Complete: 'I have ___ water left.'",
+            "options": [
+                "a little",
+                "a few",
+                "many"
+            ],
+            "answer": "a little",
+            "hint": "Water is uncountable.",
+            "voice_input": false,
+            "example_sentence": "I have a little water left, do you want some?",
+            "media": {}
+        },
+        {
+            "id": "EA2GS3_118",
+            "type": "sentence_ordering",
+            "question": "Order the words:",
+            "words": [
+                "well",
+                "played",
+                "The",
+                "team",
+                "yesterday"
+            ],
+            "answer": "The team played well yesterday",
+            "hint": "Subject + verb + adverb + time.",
+            "voice_input": false,
+            "example_sentence": "The team played well yesterday and won the game.",
+            "media": {}
+        },
+        {
+            "id": "EA2GS3_119",
+            "type": "matching",
+            "question": "Match the phrasal verb to its meaning.",
+            "pairs": [
+                {
+                    "left": "Look for",
+                    "right": "To try to find"
+                },
+                {
+                    "left": "Look after",
+                    "right": "To take care of"
+                }
+            ],
+            "answer": [
+                {
+                    "left": "Look for",
+                    "right": "To try to find"
+                },
+                {
+                    "left": "Look after",
+                    "right": "To take care of"
+                }
+            ],
+            "hint": "Review of A2 phrasal verbs.",
+            "voice_input": false,
+            "example_sentence": "I need to look for my keys.",
+            "media": {}
+        },
+        {
+            "id": "EA2GS3_120",
+            "type": "pronunciation",
+            "question": "Repeat: If I see her, I'll tell her.",
+            "answer": "If I see her, I'll tell her.",
+            "hint": "First conditional with contractions.",
+            "voice_input": true,
+            "example_sentence": "If I see her at the party, I'll tell her you said hello.",
+            "media": {}
+        },
+        {
+            "id": "EA2GS3_121",
+            "type": "tap_fill",
+            "question": "He is not ___ tall ___ his father.",
+            "options": [
+                "as/as",
+                "more/than",
+                "so/that",
+                "very/as"
+            ],
+            "answer": "as/as",
+            "hint": "Use this structure to compare two equal (or unequal) things.",
+            "voice_input": false,
+            "example_sentence": "He is not as tall as his father yet, but he is growing fast.",
+            "media": {}
+        },
+        {
+            "id": "EA2GS3_122",
+            "type": "multiple_choice",
+            "question": "Which sentence expresses a future possibility?",
+            "options": [
+                "It might rain later.",
+                "It rains later.",
+                "It rained later."
+            ],
+            "answer": "It might rain later.",
+            "hint": "Use 'might' when you are not 100% sure.",
+            "voice_input": false,
+            "example_sentence": "Take an umbrella because it might rain later this afternoon.",
+            "media": {}
+        },
+        {
+            "id": "EA2GS3_123",
+            "type": "sentence_ordering",
+            "question": "Order the words:",
+            "words": [
+                "enjoy",
+                "I",
+                "in",
+                "swimming",
+                "the",
+                "ocean"
+            ],
+            "answer": "I enjoy swimming in the ocean",
+            "hint": "The verb 'enjoy' is followed by the -ing form.",
+            "voice_input": false,
+            "example_sentence": "I enjoy swimming in the ocean during the summer holidays.",
+            "media": {}
+        },
+        {
+            "id": "EA2GS3_124",
+            "type": "matching",
+            "question": "Match the verb to the correct pattern.",
+            "pairs": [
+                {
+                    "left": "Want",
+                    "right": "to go (infinitive)"
+                },
+                {
+                    "left": "Finish",
+                    "right": "reading (gerund)"
+                }
+            ],
+            "answer": [
+                {
+                    "left": "Want",
+                    "right": "to go (infinitive)"
+                },
+                {
+                    "left": "Finish",
+                    "right": "reading (gerund)"
+                }
+            ],
+            "hint": "Some verbs take 'to', others take '-ing'.",
+            "voice_input": false,
+            "example_sentence": "I want to go home after I finish reading this book.",
+            "media": {}
+        },
+        {
+            "id": "EA2GS3_125",
+            "type": "pronunciation",
+            "question": "Repeat: The cat ran across the road.",
+            "answer": "The cat ran across the road.",
+            "hint": "Preposition of movement: from one side to the other.",
+            "voice_input": true,
+            "example_sentence": "The cat ran across the road very quickly.",
+            "media": {}
+        },
+        {
+            "id": "EA2GS3_126",
+            "type": "tap_fill",
+            "question": "You ___ smoke in the hospital. It is forbidden.",
+            "options": [
+                "mustn't",
+                "don't have to",
+                "might not",
+                "should"
+            ],
+            "answer": "mustn't",
+            "hint": "Use this for strong prohibition.",
+            "voice_input": false,
+            "example_sentence": "You mustn't smoke in the hospital because it is a smoke-free zone.",
+            "media": {}
+        },
+        {
+            "id": "EA2GS3_127",
+            "type": "multiple_choice",
+            "question": "Which preposition fits? 'He walked ___ the tunnel.'",
+            "options": [
+                "through",
+                "on",
+                "at"
+            ],
+            "answer": "through",
+            "hint": "Movement inside a three-dimensional space.",
+            "voice_input": false,
+            "example_sentence": "He walked through the tunnel to get to the other side of the hill.",
+            "media": {}
+        },
+        {
+            "id": "EA2GS3_128",
+            "type": "sentence_ordering",
+            "question": "Order the words:",
+            "words": [
+                "carefully",
+                "should",
+                "You",
+                "drive",
+                "more"
+            ],
+            "answer": "You should drive more carefully",
+            "hint": "Modal + verb + comparative adverb.",
+            "voice_input": false,
+            "example_sentence": "The weather is bad, so you should drive more carefully.",
+            "media": {}
+        },
+        {
+            "id": "EA2GS3_129",
+            "type": "matching",
+            "question": "Match the modal verb to its meaning.",
+            "pairs": [
+                {
+                    "left": "Can",
+                    "right": "Ability"
+                },
+                {
+                    "left": "Should",
+                    "right": "Advice"
+                }
+            ],
+            "answer": [
+                {
+                    "left": "Can",
+                    "right": "Ability"
+                },
+                {
+                    "left": "Should",
+                    "right": "Advice"
+                }
+            ],
+            "hint": "Think about the function of the word.",
+            "voice_input": false,
+            "example_sentence": "I can swim, and you should learn too.",
+            "media": {}
+        },
+        {
+            "id": "EA2GS3_130",
+            "type": "pronunciation",
+            "question": "Repeat: It\u2019s the best movie I\u2019ve ever seen.",
+            "answer": "It\u2019s the best movie I\u2019ve ever seen.",
+            "hint": "Review: Superlative + Present Perfect.",
+            "voice_input": true,
+            "example_sentence": "You must watch it; it\u2019s the best movie I\u2019ve ever seen.",
+            "media": {}
+        },
+        {
+            "id": "EA2GS3_131",
+            "type": "tap_fill",
+            "question": "I decided ___ a new car.",
+            "options": [
+                "to buy",
+                "buying",
+                "buy",
+                "bought"
+            ],
+            "answer": "to buy",
+            "hint": "The verb 'decide' is followed by the infinitive.",
+            "voice_input": false,
+            "example_sentence": "I decided to buy a new car because my old one kept breaking down.",
+            "media": {}
+        },
+        {
+            "id": "EA2GS3_132",
+            "type": "multiple_choice",
+            "question": "Identify the correct preposition: 'She climbed ___ the stairs.'",
+            "options": [
+                "up",
+                "over",
+                "into"
+            ],
+            "answer": "up",
+            "hint": "Movement to a higher level.",
+            "voice_input": false,
+            "example_sentence": "She climbed up the stairs to her bedroom.",
+            "media": {}
+        },
+        {
+            "id": "EA2GS3_133",
+            "type": "sentence_ordering",
+            "question": "Order the words:",
+            "words": [
+                "than",
+                "This",
+                "is",
+                "one",
+                "better",
+                "that"
+            ],
+            "answer": "This one is better than that",
+            "hint": "Review: Irregular comparative of 'good'.",
+            "voice_input": false,
+            "example_sentence": "I prefer this phone; this one is better than that one.",
+            "media": {}
+        },
+        {
+            "id": "EA2GS3_134",
+            "type": "matching",
+            "question": "Match the opposite prepositions.",
+            "pairs": [
+                {
+                    "left": "Into",
+                    "right": "Out of"
+                },
+                {
+                    "left": "Up",
+                    "right": "Down"
+                }
+            ],
+            "answer": [
+                {
+                    "left": "Into",
+                    "right": "Out of"
+                },
+                {
+                    "left": "Up",
+                    "right": "Down"
+                }
+            ],
+            "hint": "Opposite directions of movement.",
+            "voice_input": false,
+            "example_sentence": "He walked into the shop and then walked out of it.",
+            "media": {}
+        },
+        {
+            "id": "EA2GS3_135",
+            "type": "pronunciation",
+            "question": "Repeat: She is as smart as her sister.",
+            "answer": "She is as smart as her sister.",
+            "hint": "Comparison of equality.",
+            "voice_input": true,
+            "example_sentence": "Both girls are top of their class; she is as smart as her sister.",
+            "media": {}
+        },
+        {
+            "id": "EA2GS3_136",
+            "type": "tap_fill",
+            "question": "They ___ go to France this summer, but they aren't sure.",
+            "options": [
+                "may",
+                "must",
+                "did",
+                "have"
+            ],
+            "answer": "may",
+            "hint": "Expresses a possibility similar to 'might'.",
+            "voice_input": false,
+            "example_sentence": "They may go to France this summer if they save enough money.",
+            "media": {}
+        },
+        {
+            "id": "EA2GS3_137",
+            "type": "multiple_choice",
+            "question": "Which is correct? 'I don't mind ___.'",
+            "options": [
+                "waiting",
+                "to wait",
+                "wait"
+            ],
+            "answer": "waiting",
+            "hint": "'Don't mind' is followed by a gerund.",
+            "voice_input": false,
+            "example_sentence": "I'm not in a hurry, so I don't mind waiting for you.",
+            "media": {}
+        },
+        {
+            "id": "EA2GS3_138",
+            "type": "sentence_ordering",
+            "question": "Order the words:",
+            "words": [
+                "the",
+                "out",
+                "He",
+                "car",
+                "got",
+                "of"
+            ],
+            "answer": "He got out of the car",
+            "hint": "Preposition of movement from inside to outside.",
+            "voice_input": false,
+            "example_sentence": "He arrived at the hotel and got out of the car.",
+            "media": {}
+        },
+        {
+            "id": "EA2GS3_139",
+            "type": "matching",
+            "question": "Match the phrase to the meaning.",
+            "pairs": [
+                {
+                    "left": "As soon as",
+                    "right": "At the moment that"
+                },
+                {
+                    "left": "As well as",
+                    "right": "In addition to"
+                }
+            ],
+            "answer": [
+                {
+                    "left": "As soon as",
+                    "right": "At the moment that"
+                },
+                {
+                    "left": "As well as",
+                    "right": "In addition to"
+                }
+            ],
+            "hint": "Common 'as...as' phrases.",
+            "voice_input": false,
+            "example_sentence": "I'll call you as soon as I arrive.",
+            "media": {}
+        },
+        {
+            "id": "EA2GS3_140",
+            "type": "pronunciation",
+            "question": "Repeat: We might not have enough time.",
+            "answer": "We might not have enough time.",
+            "hint": "Negative future possibility.",
+            "voice_input": true,
+            "example_sentence": "The train leaves soon; we might not have enough time for coffee.",
+            "media": {}
+        },
+        {
+            "id": "EA2GS3_141",
+            "type": "tap_fill",
+            "question": "You haven't seen my keys, ___ you?",
+            "options": [
+                "have",
+                "haven't",
+                "did",
+                "do"
+            ],
+            "answer": "have",
+            "hint": "Question tags: use a positive tag for a negative sentence.",
+            "voice_input": false,
+            "example_sentence": "You haven't seen my keys anywhere, have you?",
+            "media": {}
+        },
+        {
+            "id": "EA2GS3_142",
+            "type": "multiple_choice",
+            "question": "Which sentence is correct?",
+            "options": [
+                "I have seen that movie yesterday.",
+                "I saw that movie yesterday.",
+                "I have see that movie yesterday."
+            ],
+            "answer": "I saw that movie yesterday.",
+            "hint": "Use Past Simple when you mention a specific time (yesterday).",
+            "voice_input": false,
+            "example_sentence": "I saw that movie yesterday, and I really enjoyed it.",
+            "media": {}
+        },
+        {
+            "id": "EA2GS3_143",
+            "type": "sentence_ordering",
+            "question": "Order the words:",
+            "words": [
+                "uniform",
+                "to",
+                "wear",
+                "a",
+                "have",
+                "Do",
+                "you",
+                "?"
+            ],
+            "answer": "Do you have to wear a uniform ?",
+            "hint": "Question about obligation at work or school.",
+            "voice_input": false,
+            "example_sentence": "Do you have to wear a uniform for your new job?",
+            "media": {}
+        },
+        {
+            "id": "EA2GS3_144",
+            "type": "matching",
+            "question": "Match the relative pronoun to its use.",
+            "pairs": [
+                {
+                    "left": "Where",
+                    "right": "Places"
+                },
+                {
+                    "left": "Whose",
+                    "right": "Possession"
+                }
+            ],
+            "answer": [
+                {
+                    "left": "Where",
+                    "right": "Places"
+                },
+                {
+                    "left": "Whose",
+                    "right": "Possession"
+                }
+            ],
+            "hint": "Think about the object or person the pronoun describes.",
+            "voice_input": false,
+            "example_sentence": "That is the house where I was born.",
+            "media": {}
+        },
+        {
+            "id": "EA2GS3_145",
+            "type": "pronunciation",
+            "question": "Repeat: It\u2019s a lovely day, isn\u2019t it?",
+            "answer": "It\u2019s a lovely day, isn\u2019t it?",
+            "hint": "Falling intonation for a statement you expect someone to agree with.",
+            "voice_input": true,
+            "example_sentence": "The sun is shining. It\u2019s a lovely day, isn\u2019t it?",
+            "media": {}
+        },
+        {
+            "id": "EA2GS3_146",
+            "type": "tap_fill",
+            "question": "She ___ lived in Paris for three years.",
+            "options": [
+                "has",
+                "have",
+                "is",
+                "was"
+            ],
+            "answer": "has",
+            "hint": "Present Perfect: Subject + has/have + past participle.",
+            "voice_input": false,
+            "example_sentence": "She has lived in Paris for three years and speaks French fluively.",
+            "media": {}
+        },
+        {
+            "id": "EA2GS3_147",
+            "type": "multiple_choice",
+            "question": "What is the meaning of 'You don't have to go'?",
+            "options": [
+                "It is not necessary for you to go.",
+                "You are not allowed to go.",
+                "You should go immediately."
+            ],
+            "answer": "It is not necessary for you to go.",
+            "hint": "'Don't have to' means lack of obligation.",
+            "voice_input": false,
+            "example_sentence": "It's a holiday, so you don't have to go to work today.",
+            "media": {}
+        },
+        {
+            "id": "EA2GS3_148",
+            "type": "sentence_ordering",
+            "question": "Order the words:",
+            "words": [
+                "is",
+                "man",
+                "is",
+                "The",
+                "brother",
+                "whose",
+                "my",
+                "car",
+                "this"
+            ],
+            "answer": "The man whose car this is is my brother",
+            "hint": "This is a complex sentence using a possessive relative clause.",
+            "voice_input": false,
+            "example_sentence": "The man whose car this is is my brother.",
+            "media": {}
+        },
+        {
+            "id": "EA2GS3_149",
+            "type": "matching",
+            "question": "Match the tense to the keyword.",
+            "pairs": [
+                {
+                    "left": "Present Perfect",
+                    "right": "Since/For"
+                },
+                {
+                    "left": "Past Simple",
+                    "right": "Ago"
+                }
+            ],
+            "answer": [
+                {
+                    "left": "Present Perfect",
+                    "right": "Since/For"
+                },
+                {
+                    "left": "Past Simple",
+                    "right": "Ago"
+                }
+            ],
+            "hint": "Keywords help you decide which tense to use.",
+            "voice_input": false,
+            "example_sentence": "I have been here since 9 AM.",
+            "media": {}
+        },
+        {
+            "id": "EA2GS3_150",
+            "type": "pronunciation",
+            "question": "Repeat: He doesn\u2019t like tea, does he?",
+            "answer": "He doesn\u2019t like tea, does he?",
+            "hint": "Negative statement + positive tag.",
+            "voice_input": true,
+            "example_sentence": "He only drinks coffee. He doesn\u2019t like tea, does he?",
+            "media": {}
+        },
+        {
+            "id": "EA2GS3_151",
+            "type": "tap_fill",
+            "question": "This is the town ___ I grew up.",
+            "options": [
+                "where",
+                "which",
+                "who",
+                "when"
+            ],
+            "answer": "where",
+            "hint": "Relative pronoun for a location.",
+            "voice_input": false,
+            "example_sentence": "This is the town where I grew up before moving to the city.",
+            "media": {}
+        },
+        {
+            "id": "EA2GS3_152",
+            "type": "multiple_choice",
+            "question": "Which is correct? 'I have ___ to Italy.'",
+            "options": [
+                "been",
+                "gone",
+                "went"
+            ],
+            "answer": "been",
+            "hint": "Use 'been' for a completed visit (you went and came back).",
+            "voice_input": false,
+            "example_sentence": "I have been to Italy twice, and I love the food there.",
+            "media": {}
+        },
+        {
+            "id": "EA2GS3_153",
+            "type": "sentence_ordering",
+            "question": "Order the words:",
+            "words": [
+                "must",
+                "forget",
+                "You",
+                "not",
+                "to",
+                "call",
+                "her"
+            ],
+            "answer": "You must not forget to call her",
+            "hint": "Strong obligation or reminder.",
+            "voice_input": false,
+            "example_sentence": "It is her birthday, so you must not forget to call her.",
+            "media": {}
+        },
+        {
+            "id": "EA2GS3_154",
+            "type": "matching",
+            "question": "Match the opposites.",
+            "pairs": [
+                {
+                    "left": "Must",
+                    "right": "Mustn't"
+                },
+                {
+                    "left": "Have to",
+                    "right": "Don't have to"
+                }
+            ],
+            "answer": [
+                {
+                    "left": "Must",
+                    "right": "Mustn't"
+                },
+                {
+                    "left": "Have to",
+                    "right": "Don't have to"
+                }
+            ],
+            "hint": "The negative forms have very different meanings.",
+            "voice_input": false,
+            "example_sentence": "You must go, but you don't have to stay.",
+            "media": {}
+        },
+        {
+            "id": "EA2GS3_155",
+            "type": "pronunciation",
+            "question": "Repeat: I\u2019ve already finished my lunch.",
+            "answer": "I\u2019ve already finished my lunch.",
+            "hint": "The keyword 'already' goes between the auxiliary and the participle.",
+            "voice_input": true,
+            "example_sentence": "I'm not hungry. I\u2019ve already finished my lunch.",
+            "media": {}
+        },
+        {
+            "id": "EA2GS3_156",
+            "type": "tap_fill",
+            "question": "We ___ any milk left in the fridge.",
+            "options": [
+                "haven't got",
+                "don't got",
+                "hasn't got",
+                "not have"
+            ],
+            "answer": "haven't got",
+            "hint": "Review: have got (negative).",
+            "voice_input": false,
+            "example_sentence": "We haven't got any milk left, so I need to go to the store.",
+            "media": {}
+        },
+        {
+            "id": "EA2GS3_157",
+            "type": "multiple_choice",
+            "question": "Report: 'I am coming tomorrow.'",
+            "options": [
+                "He said he was coming the next day.",
+                "He said he is coming tomorrow.",
+                "He said he comes tomorrow."
+            ],
+            "answer": "He said he was coming the next day.",
+            "hint": "Both the tense and the time expression change in reported speech.",
+            "voice_input": false,
+            "example_sentence": "I spoke to him and he said he was coming the next day.",
+            "media": {}
+        },
+        {
+            "id": "EA2GS3_158",
+            "type": "sentence_ordering",
+            "question": "Order the words:",
+            "words": [
+                "longest",
+                "is",
+                "river",
+                "the",
+                "world",
+                "The",
+                "Nile",
+                "in",
+                "the"
+            ],
+            "answer": "The Nile is the longest river in the world",
+            "hint": "Review: Superlative adjectives.",
+            "voice_input": false,
+            "example_sentence": "The Nile is the longest river in the world, flowing through many countries.",
+            "media": {}
+        },
+        {
+            "id": "EA2GS3_159",
+            "type": "matching",
+            "question": "Match the tag to the sentence.",
+            "pairs": [
+                {
+                    "left": "She is nice",
+                    "right": "isn't she?"
+                },
+                {
+                    "left": "They can swim",
+                    "right": "can't they?"
+                }
+            ],
+            "answer": [
+                {
+                    "left": "She is nice",
+                    "right": "isn't she?"
+                },
+                {
+                    "left": "They can swim",
+                    "right": "can't they?"
+                }
+            ],
+            "hint": "The tag uses the same auxiliary verb as the sentence.",
+            "voice_input": false,
+            "example_sentence": "She is nice, isn't she?",
+            "media": {}
+        },
+        {
+            "id": "EA2GS3_160",
+            "type": "pronunciation",
+            "question": "Repeat: I haven\u2019t seen him for ages.",
+            "answer": "I haven\u2019t seen him for ages.",
+            "hint": "Using 'for' with a period of time.",
+            "voice_input": true,
+            "example_sentence": "I wonder how John is doing; I haven\u2019t seen him for ages.",
+            "media": {}
+        },
+        {
+            "id": "EA2GS3_161",
+            "type": "tap_fill",
+            "question": "I ___ to that restaurant three times this month.",
+            "options": [
+                "have been",
+                "went",
+                "was",
+                "go"
+            ],
+            "answer": "have been",
+            "hint": "Use Present Perfect for an unfinished time period (this month).",
+            "voice_input": false,
+            "example_sentence": "I have been to that restaurant three times this month because the food is great.",
+            "media": {}
+        },
+        {
+            "id": "EA2GS3_162",
+            "type": "multiple_choice",
+            "question": "Which sentence is a correct negative in the Present Perfect?",
+            "options": [
+                "I haven't finished my work yet.",
+                "I didn't finished my work yet.",
+                "I haven't finish my work yet."
+            ],
+            "answer": "I haven't finished my work yet.",
+            "hint": "Have/has + not + past participle.",
+            "voice_input": false,
+            "example_sentence": "I haven't finished my work yet, so I need another hour.",
+            "media": {}
+        },
+        {
+            "id": "EA2GS3_163",
+            "type": "sentence_ordering",
+            "question": "Order the words:",
+            "words": [
+                "seen",
+                "you",
+                "ever",
+                "Have",
+                "a",
+                "whale",
+                "?"
+            ],
+            "answer": "Have you ever seen a whale ?",
+            "hint": "Question about life experience.",
+            "voice_input": false,
+            "example_sentence": "Have you ever seen a whale while on vacation?",
+            "media": {}
+        },
+        {
+            "id": "EA2GS3_164",
+            "type": "matching",
+            "question": "Match the word to its grammar category.",
+            "pairs": [
+                {
+                    "left": "Quickly",
+                    "right": "Adverb"
+                },
+                {
+                    "left": "Beautiful",
+                    "right": "Adjective"
+                }
+            ],
+            "answer": [
+                {
+                    "left": "Quickly",
+                    "right": "Adverb"
+                },
+                {
+                    "left": "Beautiful",
+                    "right": "Adjective"
+                }
+            ],
+            "hint": "Adjectives describe nouns; adverbs describe verbs.",
+            "voice_input": false,
+            "example_sentence": "She is a beautiful singer and she sings quickly.",
+            "media": {}
+        },
+        {
+            "id": "EA2GS3_165",
+            "type": "pronunciation",
+            "question": "Repeat: I went to Italy last summer.",
+            "answer": "I went to Italy last summer.",
+            "hint": "Use Past Simple for a finished time (last summer).",
+            "voice_input": true,
+            "example_sentence": "I went to Italy last summer and visited Rome.",
+            "media": {}
+        },
+        {
+            "id": "EA2GS3_166",
+            "type": "tap_fill",
+            "question": "You ___ park here. It's for doctors only.",
+            "options": [
+                "can't",
+                "don't have to",
+                "should",
+                "must"
+            ],
+            "answer": "can't",
+            "hint": "Lack of permission or ability.",
+            "voice_input": false,
+            "example_sentence": "You can't park here because this space is reserved.",
+            "media": {}
+        },
+        {
+            "id": "EA2GS3_167",
+            "type": "multiple_choice",
+            "question": "Choose the correct preposition: 'The plane flew ___ the mountains.'",
+            "options": [
+                "over",
+                "under",
+                "through"
+            ],
+            "answer": "over",
+            "hint": "Movement above something.",
+            "voice_input": false,
+            "example_sentence": "The plane flew over the mountains during the sunset.",
+            "media": {}
+        },
+        {
+            "id": "EA2GS3_168",
+            "type": "sentence_ordering",
+            "question": "Order the words:",
+            "words": [
+                "carefully",
+                "should",
+                "listen",
+                "to",
+                "You",
+                "the",
+                "instructions"
+            ],
+            "answer": "You should listen carefully to the instructions",
+            "hint": "Giving advice with an adverb.",
+            "voice_input": false,
+            "example_sentence": "You should listen carefully to the instructions before starting.",
+            "media": {}
+        },
+        {
+            "id": "EA2GS3_169",
+            "type": "matching",
+            "question": "Match the infinitive to the past participle.",
+            "pairs": [
+                {
+                    "left": "Eat",
+                    "right": "Eaten"
+                },
+                {
+                    "left": "Write",
+                    "right": "Written"
+                }
+            ],
+            "answer": [
+                {
+                    "left": "Eat",
+                    "right": "Eaten"
+                },
+                {
+                    "left": "Write",
+                    "right": "Written"
+                }
+            ],
+            "hint": "Important for Present Perfect formation.",
+            "voice_input": false,
+            "example_sentence": "I have eaten breakfast already.",
+            "media": {}
+        },
+        {
+            "id": "EA2GS3_170",
+            "type": "pronunciation",
+            "question": "Repeat: She has already left the office.",
+            "answer": "She has already left the office.",
+            "hint": "Focus on the word 'already'.",
+            "voice_input": true,
+            "example_sentence": "You missed her; she has already left the office.",
+            "media": {}
+        },
+        {
+            "id": "EA2GS3_171",
+            "type": "tap_fill",
+            "question": "We ___ any problems so far.",
+            "options": [
+                "haven't had",
+                "didn't have",
+                "not had",
+                "haven't have"
+            ],
+            "answer": "haven't had",
+            "hint": "Use Present Perfect with 'so far'.",
+            "voice_input": false,
+            "example_sentence": "The project is going well; we haven't had any problems so far.",
+            "media": {}
+        },
+        {
+            "id": "EA2GS3_172",
+            "type": "multiple_choice",
+            "question": "What is the opposite of 'always'?",
+            "options": [
+                "never",
+                "sometimes",
+                "usually"
+            ],
+            "answer": "never",
+            "hint": "Adverbs of frequency.",
+            "voice_input": false,
+            "example_sentence": "He never eats meat because he is a vegetarian.",
+            "media": {}
+        },
+        {
+            "id": "EA2GS3_173",
+            "type": "sentence_ordering",
+            "question": "Order the words:",
+            "words": [
+                "is",
+                "more",
+                "City",
+                "expensive",
+                "than",
+                "the",
+                "countryside"
+            ],
+            "answer": "The city is more expensive than the countryside",
+            "hint": "Comparing two places.",
+            "voice_input": false,
+            "example_sentence": "Living in the city is more expensive than the countryside.",
+            "media": {}
+        },
+        {
+            "id": "EA2GS3_174",
+            "type": "matching",
+            "question": "Match the auxiliary to the tense.",
+            "pairs": [
+                {
+                    "left": "Do / Does",
+                    "right": "Present Simple"
+                },
+                {
+                    "left": "Did",
+                    "right": "Past Simple"
+                }
+            ],
+            "answer": [
+                {
+                    "left": "Do / Does",
+                    "right": "Present Simple"
+                },
+                {
+                    "left": "Did",
+                    "right": "Past Simple"
+                }
+            ],
+            "hint": "Used for forming questions and negatives.",
+            "voice_input": false,
+            "example_sentence": "Do you like coffee? Did you like the movie?",
+            "media": {}
+        },
+        {
+            "id": "EA2GS3_175",
+            "type": "pronunciation",
+            "question": "Repeat: I\u2019ve known him for ten years.",
+            "answer": "I\u2019ve known him for ten years.",
+            "hint": "Using 'for' for a duration.",
+            "voice_input": true,
+            "example_sentence": "He is my best friend; I\u2019ve known him for ten years.",
+            "media": {}
+        },
+        {
+            "id": "EA2GS3_176",
+            "type": "tap_fill",
+            "question": "They were walking ___ the beach when it started to rain.",
+            "options": [
+                "along",
+                "through",
+                "in",
+                "at"
+            ],
+            "answer": "along",
+            "hint": "Movement following a line (like a shore or road).",
+            "voice_input": false,
+            "example_sentence": "They were walking along the beach when it started to rain.",
+            "media": {}
+        },
+        {
+            "id": "EA2GS3_177",
+            "type": "multiple_choice",
+            "question": "Choose the correct comparative: 'This task is ___ than the last one.'",
+            "options": [
+                "easier",
+                "more easy",
+                "easiest"
+            ],
+            "answer": "easier",
+            "hint": "Two-syllable adjectives ending in -y change to -ier.",
+            "voice_input": false,
+            "example_sentence": "I finished quickly because this task is easier than the last one.",
+            "media": {}
+        },
+        {
+            "id": "EA2GS3_178",
+            "type": "sentence_ordering",
+            "question": "Order the words:",
+            "words": [
+                "you",
+                "If",
+                "me",
+                "help",
+                "I",
+                "will",
+                "happy",
+                "be"
+            ],
+            "answer": "If you help me I will be happy",
+            "hint": "First Conditional review.",
+            "voice_input": false,
+            "example_sentence": "If you help me with this, I will be very happy.",
+            "media": {}
+        },
+        {
+            "id": "EA2GS3_179",
+            "type": "matching",
+            "question": "Match the start to the end of the phrasal verb.",
+            "pairs": [
+                {
+                    "left": "Wake",
+                    "right": "Up"
+                },
+                {
+                    "left": "Get",
+                    "right": "On with"
+                }
+            ],
+            "answer": [
+                {
+                    "left": "Wake",
+                    "right": "Up"
+                },
+                {
+                    "left": "Get",
+                    "right": "On with"
+                }
+            ],
+            "hint": "Common A2 phrasal verbs.",
+            "voice_input": false,
+            "example_sentence": "I wake up at 7 AM.",
+            "media": {}
+        },
+        {
+            "id": "EA2GS3_180",
+            "type": "pronunciation",
+            "question": "Repeat: Whose phone is this?",
+            "answer": "Whose phone is this?",
+            "hint": "Asking about possession.",
+            "voice_input": true,
+            "example_sentence": "I found this on the table. Whose phone is this?",
+            "media": {}
+        },
+        {
+            "id": "EA2GS3_181",
+            "type": "tap_fill",
+            "question": "I don't have ___ luggage to carry.",
+            "options": [
+                "much",
+                "many",
+                "a few",
+                "any"
+            ],
+            "answer": "much",
+            "hint": "Luggage is an uncountable noun in English.",
+            "voice_input": false,
+            "example_sentence": "I don't have much luggage, so I can take the bus.",
+            "media": {}
+        },
+        {
+            "id": "EA2GS3_182",
+            "type": "multiple_choice",
+            "question": "Which preposition is correct for a specific time? 'I'll see you ___ 8:30.'",
+            "options": [
+                "at",
+                "on",
+                "in"
+            ],
+            "answer": "at",
+            "hint": "Use 'at' for clock times.",
+            "voice_input": false,
+            "example_sentence": "I'll see you at 8:30 in front of the cinema.",
+            "media": {}
+        },
+        {
+            "id": "EA2GS3_183",
+            "type": "sentence_ordering",
+            "question": "Order the words:",
+            "words": [
+                "the",
+                "at",
+                "morning",
+                "She",
+                "drinks",
+                "coffee",
+                "in"
+            ],
+            "answer": "She drinks coffee in the morning",
+            "hint": "Use 'in the' for parts of the day.",
+            "voice_input": false,
+            "example_sentence": "She always drinks coffee in the morning to wake up.",
+            "media": {}
+        },
+        {
+            "id": "EA2GS3_184",
+            "type": "matching",
+            "question": "Match the modal to its level of certainty.",
+            "pairs": [
+                {
+                    "left": "Will",
+                    "right": "Certainty"
+                },
+                {
+                    "left": "Might",
+                    "right": "Possibility"
+                }
+            ],
+            "answer": [
+                {
+                    "left": "Will",
+                    "right": "Certainty"
+                },
+                {
+                    "left": "Might",
+                    "right": "Possibility"
+                }
+            ],
+            "hint": "One is for facts/promises, the other for guesses.",
+            "voice_input": false,
+            "example_sentence": "It will be cold tomorrow; it might snow.",
+            "media": {}
+        },
+        {
+            "id": "EA2GS3_185",
+            "type": "pronunciation",
+            "question": "Repeat: Do you have any sugar?",
+            "answer": "Do you have any sugar?",
+            "hint": "Sugar is uncountable; use 'any' in questions.",
+            "voice_input": true,
+            "example_sentence": "I'm making a cake. Do you have any sugar?",
+            "media": {}
+        },
+        {
+            "id": "EA2GS3_186",
+            "type": "tap_fill",
+            "question": "We visited Paris ___ 2022.",
+            "options": [
+                "in",
+                "on",
+                "at",
+                "since"
+            ],
+            "answer": "in",
+            "hint": "Use 'in' for years and months.",
+            "voice_input": false,
+            "example_sentence": "We visited Paris in 2022 and loved the museums.",
+            "media": {}
+        },
+        {
+            "id": "EA2GS3_187",
+            "type": "multiple_choice",
+            "question": "Complete the phrase: 'I'm interested ___ learning photography.'",
+            "options": [
+                "in",
+                "on",
+                "at"
+            ],
+            "answer": "in",
+            "hint": "The adjective 'interested' always takes this preposition.",
+            "voice_input": false,
+            "example_sentence": "I'm interested in learning photography this summer.",
+            "media": {}
+        },
+        {
+            "id": "EA2GS3_188",
+            "type": "sentence_ordering",
+            "question": "Order the words:",
+            "words": [
+                "than",
+                "is",
+                "older",
+                "brother",
+                "My",
+                "me"
+            ],
+            "answer": "My brother is older than me",
+            "hint": "Review: Comparative structure.",
+            "voice_input": false,
+            "example_sentence": "My brother is older than me by three years.",
+            "media": {}
+        },
+        {
+            "id": "EA2GS3_189",
+            "type": "matching",
+            "question": "Match the verb to the activity.",
+            "pairs": [
+                {
+                    "left": "Go",
+                    "right": "Shopping"
+                },
+                {
+                    "left": "Play",
+                    "right": "Tennis"
+                }
+            ],
+            "answer": [
+                {
+                    "left": "Go",
+                    "right": "Shopping"
+                },
+                {
+                    "left": "Play",
+                    "right": "Tennis"
+                }
+            ],
+            "hint": "Use 'go + -ing' and 'play + ball sport'.",
+            "voice_input": false,
+            "example_sentence": "I want to go shopping and play tennis later.",
+            "media": {}
+        },
+        {
+            "id": "EA2GS3_190",
+            "type": "pronunciation",
+            "question": "Repeat: My birthday is on June 5th.",
+            "answer": "My birthday is on June 5th.",
+            "hint": "Use 'on' for specific dates.",
+            "voice_input": true,
+            "example_sentence": "Don't forget my birthday is on June 5th!",
+            "media": {}
+        },
+        {
+            "id": "EA2GS3_191",
+            "type": "tap_fill",
+            "question": "They ___ to the gym every morning.",
+            "options": [
+                "go",
+                "goes",
+                "going",
+                "gone"
+            ],
+            "answer": "go",
+            "hint": "Present simple for a daily habit.",
+            "voice_input": false,
+            "example_sentence": "They go to the gym every morning before work.",
+            "media": {}
+        },
+        {
+            "id": "EA2GS3_192",
+            "type": "multiple_choice",
+            "question": "Which is the correct past participle of 'fly'?",
+            "options": [
+                "flown",
+                "flew",
+                "flied"
+            ],
+            "answer": "flown",
+            "hint": "Fly -> Flew -> ___.",
+            "voice_input": false,
+            "example_sentence": "I have never flown in a helicopter before.",
+            "media": {}
+        },
+        {
+            "id": "EA2GS3_193",
+            "type": "sentence_ordering",
+            "question": "Order the words:",
+            "words": [
+                "is",
+                "money",
+                "There",
+                "wallet",
+                "no",
+                "the",
+                "in"
+            ],
+            "answer": "There is no money in the wallet",
+            "hint": "There + is + no + uncountable noun.",
+            "voice_input": false,
+            "example_sentence": "I can't buy coffee because there is no money in the wallet.",
+            "media": {}
+        },
+        {
+            "id": "EA2GS3_194",
+            "type": "matching",
+            "question": "Match the singular to the irregular plural.",
+            "pairs": [
+                {
+                    "left": "Child",
+                    "right": "Children"
+                },
+                {
+                    "left": "Person",
+                    "right": "People"
+                }
+            ],
+            "answer": [
+                {
+                    "left": "Child",
+                    "right": "Children"
+                },
+                {
+                    "left": "Person",
+                    "right": "People"
+                }
+            ],
+            "hint": "These words don't end in 's'.",
+            "voice_input": false,
+            "example_sentence": "There are many children and people in the park.",
+            "media": {}
+        },
+        {
+            "id": "EA2GS3_195",
+            "type": "pronunciation",
+            "question": "Repeat: I was reading when she arrived.",
+            "answer": "I was reading when she arrived.",
+            "hint": "Review: Past Continuous and Past Simple combination.",
+            "voice_input": true,
+            "example_sentence": "I was reading a book when she arrived home.",
+            "media": {}
+        },
+        {
+            "id": "EA2GS3_196",
+            "type": "tap_fill",
+            "question": "I would like ___ orange juice, please.",
+            "options": [
+                "some",
+                "any",
+                "many",
+                "few"
+            ],
+            "answer": "some",
+            "hint": "Use 'some' in polite requests.",
+            "voice_input": false,
+            "example_sentence": "I would like some orange juice with my breakfast, please.",
+            "media": {}
+        },
+        {
+            "id": "EA2GS3_197",
+            "type": "multiple_choice",
+            "question": "Complete: 'We have lived here ___ 2010.'",
+            "options": [
+                "since",
+                "for",
+                "during"
+            ],
+            "answer": "since",
+            "hint": "Use 'since' for a starting point in time.",
+            "voice_input": false,
+            "example_sentence": "We have lived here since 2010 and know all our neighbors.",
+            "media": {}
+        },
+        {
+            "id": "EA2GS3_198",
+            "type": "sentence_ordering",
+            "question": "Order the words:",
+            "words": [
+                "is",
+                "Who",
+                "man",
+                "wearing",
+                "the",
+                "blue",
+                "hat",
+                "the",
+                "?"
+            ],
+            "answer": "Who is the man wearing the blue hat ?",
+            "hint": "Question using a present participle to describe someone.",
+            "voice_input": false,
+            "example_sentence": "Who is the man wearing the blue hat near the gate?",
+            "media": {}
+        },
+        {
+            "id": "EA2GS3_199",
+            "type": "matching",
+            "question": "Match the question word to its purpose.",
+            "pairs": [
+                {
+                    "left": "How often",
+                    "right": "Frequency"
+                },
+                {
+                    "left": "How long",
+                    "right": "Duration"
+                }
+            ],
+            "answer": [
+                {
+                    "left": "How often",
+                    "right": "Frequency"
+                },
+                {
+                    "left": "How long",
+                    "right": "Duration"
+                }
+            ],
+            "hint": "Review: Asking about time.",
+            "voice_input": false,
+            "example_sentence": "How often do you swim? How long is the movie?",
+            "media": {}
+        },
+        {
+            "id": "EA2GS3_200",
+            "type": "pronunciation",
+            "question": "Repeat: She doesn\u2019t have many friends.",
+            "answer": "She doesn\u2019t have many friends.",
+            "hint": "Use 'many' for countable nouns in negative sentences.",
+            "voice_input": true,
+            "example_sentence": "She is shy, so she doesn\u2019t have many friends yet.",
+            "media": {}
+        }
+    ]
+}
