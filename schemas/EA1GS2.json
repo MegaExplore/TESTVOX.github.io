@@ -79,7 +79,7 @@
         {
             "id": "g1_05",
             "type": "pronunciation",
-            "question": "Repeat the sentence:We are a family",
+            "question": "Repeat:We are a family",
             "answer": "We are a family.",
             "hint": "Speak clearly.",
             "voice_input": true,
