@@ -204,13 +204,13 @@
                   "id": 3,
                   "name": "Level 3",
                   "cid": "EA2GS3.json",
-                  "isFree": false
+                  "isFree": true
                 },
                 {
                   "id": 4,
                   "name": "Level 4",
                   "cid": "EA2GS4.json",
-                  "isFree": false
+                  "isFree": true
                 }
               ]
             },
@@ -353,13 +353,13 @@
                   "id": 3,
                   "name": "Level 3",
                   "cid": "EB1GS3.json",
-                  "isFree": false
+                  "isFree": true
                 },
                 {
                   "id": 4,
                   "name": "Level 4",
                   "cid": "EB1GS4.json",
-                  "isFree": false
+                  "isFree": true
                 }
               ]
             },
@@ -502,13 +502,13 @@
                   "id": 3,
                   "name": "Level 3",
                   "cid": "EB2GS3.json",
-                  "isFree": false
+                  "isFree": true
                 },
                 {
                   "id": 4,
                   "name": "Level 4",
                   "cid": "EB2GS4.json",
-                  "isFree": false
+                  "isFree": true
                 }
               ]
             },
