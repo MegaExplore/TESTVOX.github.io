@@ -1,4 +1,4 @@
- {
+{
   "category": "Vox-MegaLiberta",
   "version": "1.0.0",
   "languages": {
@@ -595,6 +595,304 @@
                   "id": 4,
                   "name": "Level 4",
                   "cid": "EB2SS4.json",
+                  "isFree": false
+                }
+              ]
+            }
+          ]
+        },
+        "C1": {
+          "sections": [
+            {
+              "title": "VOCABULARY",
+              "stages": [
+                {
+                  "id": 1,
+                  "name": "Level 1",
+                  "cid": "EC1VS1.json",
+                  "isFree": true
+                },
+                {
+                  "id": 2,
+                  "name": "Level 2",
+                  "cid": "EC1VS2.json",
+                  "isFree": true
+                },
+                {
+                  "id": 3,
+                  "name": "Level 3",
+                  "cid": "EC1VS3.json",
+                  "isFree": true
+                },
+                {
+                  "id": 4,
+                  "name": "Level 4",
+                  "cid": "EC1VS4.json",
+                  "isFree": true
+                }
+              ]
+            },
+            {
+              "title": "GRAMMAR",
+              "stages": [
+                {
+                  "id": 1,
+                  "name": "Level 1",
+                  "cid": "EC1GS1.json",
+                  "isFree": true
+                },
+                {
+                  "id": 2,
+                  "name": "Level 2",
+                  "cid": "EC1GS2.json",
+                  "isFree": true
+                },
+                {
+                  "id": 3,
+                  "name": "Level 3",
+                  "cid": "EC1GS3.json",
+                  "isFree": true
+                },
+                {
+                  "id": 4,
+                  "name": "Level 4",
+                  "cid": "EC1GS4.json",
+                  "isFree": true
+                }
+              ]
+            },
+            {
+              "title": "READING",
+              "stages": [
+                {
+                  "id": 1,
+                  "name": "Level 1",
+                  "cid": "EC1RS1.json",
+                  "isFree": true
+                },
+                {
+                  "id": 2,
+                  "name": "Level 2",
+                  "cid": "EC1RS2.json",
+                  "isFree": true
+                },
+                {
+                  "id": 3,
+                  "name": "Level 3",
+                  "cid": "EC1RS3.json",
+                  "isFree": false
+                },
+                {
+                  "id": 4,
+                  "name": "Level 4",
+                  "cid": "EC1RS4.json",
+                  "isFree": false
+                }
+              ]
+            },
+            {
+              "title": "LISTENING",
+              "stages": [
+                {
+                  "id": 1,
+                  "name": "Level 1",
+                  "cid": "EC1LS1.json",
+                  "isFree": true
+                },
+                {
+                  "id": 2,
+                  "name": "Level 2",
+                  "cid": "EC1LS2.json",
+                  "isFree": true
+                },
+                {
+                  "id": 3,
+                  "name": "Level 3",
+                  "cid": "EC1LS3.json",
+                  "isFree": false
+                },
+                {
+                  "id": 4,
+                  "name": "Level 4",
+                  "cid": "EC1LS4.json",
+                  "isFree": false
+                }
+              ]
+            },
+            {
+              "title": "SPEAKING",
+              "stages": [
+                {
+                  "id": 1,
+                  "name": "Level 1",
+                  "cid": "EC1SS1.json",
+                  "isFree": true
+                },
+                {
+                  "id": 2,
+                  "name": "Level 2",
+                  "cid": "EC1SS2.json",
+                  "isFree": true
+                },
+                {
+                  "id": 3,
+                  "name": "Level 3",
+                  "cid": "EC1SS3.json",
+                  "isFree": false
+                },
+                {
+                  "id": 4,
+                  "name": "Level 4",
+                  "cid": "EC1SS4.json",
+                  "isFree": false
+                }
+              ]
+            }
+          ]
+        },
+        "C2": {
+          "sections": [
+            {
+              "title": "VOCABULARY",
+              "stages": [
+                {
+                  "id": 1,
+                  "name": "Level 1",
+                  "cid": "EC2VS1.json",
+                  "isFree": true
+                },
+                {
+                  "id": 2,
+                  "name": "Level 2",
+                  "cid": "EC2VS2.json",
+                  "isFree": true
+                },
+                {
+                  "id": 3,
+                  "name": "Level 3",
+                  "cid": "EC2VS3.json",
+                  "isFree": true
+                },
+                {
+                  "id": 4,
+                  "name": "Level 4",
+                  "cid": "EC2VS4.json",
+                  "isFree": true
+                }
+              ]
+            },
+            {
+              "title": "GRAMMAR",
+              "stages": [
+                {
+                  "id": 1,
+                  "name": "Level 1",
+                  "cid": "EC2GS1.json",
+                  "isFree": true
+                },
+                {
+                  "id": 2,
+                  "name": "Level 2",
+                  "cid": "EC2GS2.json",
+                  "isFree": true
+                },
+                {
+                  "id": 3,
+                  "name": "Level 3",
+                  "cid": "EC2GS3.json",
+                  "isFree": true
+                },
+                {
+                  "id": 4,
+                  "name": "Level 4",
+                  "cid": "EC2GS4.json",
+                  "isFree": true
+                }
+              ]
+            },
+            {
+              "title": "READING",
+              "stages": [
+                {
+                  "id": 1,
+                  "name": "Level 1",
+                  "cid": "EC2RS1.json",
+                  "isFree": true
+                },
+                {
+                  "id": 2,
+                  "name": "Level 2",
+                  "cid": "EC2RS2.json",
+                  "isFree": true
+                },
+                {
+                  "id": 3,
+                  "name": "Level 3",
+                  "cid": "EC2RS3.json",
+                  "isFree": false
+                },
+                {
+                  "id": 4,
+                  "name": "Level 4",
+                  "cid": "EC2RS4.json",
+                  "isFree": false
+                }
+              ]
+            },
+            {
+              "title": "LISTENING",
+              "stages": [
+                {
+                  "id": 1,
+                  "name": "Level 1",
+                  "cid": "EC2LS1.json",
+                  "isFree": true
+                },
+                {
+                  "id": 2,
+                  "name": "Level 2",
+                  "cid": "EC2LS2.json",
+                  "isFree": true
+                },
+                {
+                  "id": 3,
+                  "name": "Level 3",
+                  "cid": "EC2LS3.json",
+                  "isFree": false
+                },
+                {
+                  "id": 4,
+                  "name": "Level 4",
+                  "cid": "EC2LS4.json",
+                  "isFree": false
+                }
+              ]
+            },
+            {
+              "title": "SPEAKING",
+              "stages": [
+                {
+                  "id": 1,
+                  "name": "Level 1",
+                  "cid": "EC2SS1.json",
+                  "isFree": true
+                },
+                {
+                  "id": 2,
+                  "name": "Level 2",
+                  "cid": "EC2SS2.json",
+                  "isFree": true
+                },
+                {
+                  "id": 3,
+                  "name": "Level 3",
+                  "cid": "EC2SS3.json",
+                  "isFree": false
+                },
+                {
+                  "id": 4,
+                  "name": "Level 4",
+                  "cid": "EC2SS4.json",
                   "isFree": false
                 }
               ]
