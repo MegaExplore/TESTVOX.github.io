@@ -1,0 +1,3968 @@
+{
+    "exercises": [
+        {
+            "id": "EB2GS2_001",
+            "type": "tap_fill",
+            "question": "By this time next year, I ___ my master's degree in engineering.",
+            "options": [
+                "will have finished",
+                "will be finishing",
+                "will finish",
+                "have finished"
+            ],
+            "answer": "will have finished",
+            "hint": "Action completed before a future point.",
+            "voice_input": false,
+            "example_sentence": "By this time next year, I will have finished my master's degree in engineering.",
+            "media": {}
+        },
+        {
+            "id": "EB2GS2_002",
+            "type": "multiple_choice",
+            "question": "Which sentence describes an action in progress at a specific future time?",
+            "options": [
+                "This time tomorrow, I will be flying to New York.",
+                "This time tomorrow, I will fly to New York.",
+                "This time tomorrow, I will have flown to New York."
+            ],
+            "answer": "This time tomorrow, I will be flying to New York.",
+            "hint": "Future Continuous (will be + -ing).",
+            "voice_input": false,
+            "example_sentence": "This time tomorrow, I will be flying to New York for a business conference.",
+            "media": {}
+        },
+        {
+            "id": "EB2GS2_003",
+            "type": "sentence_ordering",
+            "words": [
+                "I",
+                "finally",
+                "got",
+                "my",
+                "to",
+                "brother",
+                "help",
+                "me",
+                "move"
+            ],
+            "question": "Reorder the words to use the causative 'get'.",
+            "answer": "I finally got my brother to help me move",
+            "hint": "Get + person + to + infinitive.",
+            "voice_input": false,
+            "example_sentence": "I finally got my brother to help me move into my new apartment.",
+            "media": {}
+        },
+        {
+            "id": "EB2GS2_004",
+            "type": "matching",
+            "question": "Match the causative verbs with their grammatical patterns.",
+            "pairs": [
+                {
+                    "left": "Let",
+                    "right": "someone do something."
+                },
+                {
+                    "left": "Get",
+                    "right": "someone to do something."
+                },
+                {
+                    "left": "Have",
+                    "right": "someone do something."
+                },
+                {
+                    "left": "Make",
+                    "right": "someone do something."
+                }
+            ],
+            "answer": [
+                {
+                    "left": "Let",
+                    "right": "someone do something."
+                },
+                {
+                    "left": "Get",
+                    "right": "someone to do something."
+                },
+                {
+                    "left": "Have",
+                    "right": "someone do something."
+                },
+                {
+                    "left": "Make",
+                    "right": "someone do something."
+                }
+            ],
+            "hint": "Watch for the use of 'to'.",
+            "voice_input": false,
+            "example_sentence": "My parents let me stay out late on weekends.",
+            "media": {}
+        },
+        {
+            "id": "EB2GS2_005",
+            "type": "pronunciation",
+            "question": "Pronounce: 'We will have been living here for ten years by the end of the month.'",
+            "answer": "We will have been living here for ten years by the end of the month.",
+            "hint": "Future Perfect Continuous flow.",
+            "voice_input": true,
+            "example_sentence": "We will have been living here for ten years by the end of the month.",
+            "media": {}
+        },
+        {
+            "id": "EB2GS2_006",
+            "type": "tap_fill",
+            "question": "My boss made me ___ the entire report because of a few small errors.",
+            "options": [
+                "rewrite",
+                "to rewrite",
+                "rewriting",
+                "rewrote"
+            ],
+            "answer": "rewrite",
+            "hint": "Make + object + base form.",
+            "voice_input": false,
+            "example_sentence": "My boss made me rewrite the entire report because of a few small errors.",
+            "media": {}
+        },
+        {
+            "id": "EB2GS2_007",
+            "type": "multiple_choice",
+            "question": "Which form suggests a scheduled future event?",
+            "options": [
+                "The train leaves at 9:00 PM tonight.",
+                "The train will leave at 9:00 PM tonight.",
+                "The train is leaving at 9:00 PM tonight."
+            ],
+            "answer": "The train leaves at 9:00 PM tonight.",
+            "hint": "Present simple for timetables.",
+            "voice_input": false,
+            "example_sentence": "The train leaves at 9:00 PM tonight, so don't be late.",
+            "media": {}
+        },
+        {
+            "id": "EB2GS2_008",
+            "type": "sentence_ordering",
+            "words": [
+                "the",
+                "won't",
+                "They",
+                "work",
+                "finished",
+                "have",
+                "by",
+                "Friday"
+            ],
+            "question": "Reorder the words for a future perfect sentence.",
+            "answer": "They won't have finished the work by Friday",
+            "hint": "Negative future perfect.",
+            "voice_input": false,
+            "example_sentence": "They won't have finished the work by Friday, given the current progress.",
+            "media": {}
+        },
+        {
+            "id": "EB2GS2_009",
+            "type": "matching",
+            "question": "Match the future time markers with the appropriate tense.",
+            "pairs": [
+                {
+                    "left": "By next week",
+                    "right": "Future Perfect."
+                },
+                {
+                    "left": "This time Monday",
+                    "right": "Future Continuous."
+                },
+                {
+                    "left": "In two days",
+                    "right": "Future Simple / Going to."
+                },
+                {
+                    "left": "By the time you arrive",
+                    "right": "Future Perfect."
+                }
+            ],
+            "answer": [
+                {
+                    "left": "By next week",
+                    "right": "Future Perfect."
+                },
+                {
+                    "left": "This time Monday",
+                    "right": "Future Continuous."
+                },
+                {
+                    "left": "In two days",
+                    "right": "Future Simple / Going to."
+                },
+                {
+                    "left": "By the time you arrive",
+                    "right": "Future Perfect."
+                }
+            ],
+            "hint": "Think about deadlines vs duration.",
+            "voice_input": false,
+            "example_sentence": "By next week, I will have submitted my application.",
+            "media": {}
+        },
+        {
+            "id": "EB2GS2_010",
+            "type": "pronunciation",
+            "question": "Pronounce: 'Will you be using your car this evening, or can I borrow it?'",
+            "answer": "Will you be using your car this evening, or can I borrow it?",
+            "hint": "Polite inquiry using Future Continuous.",
+            "voice_input": true,
+            "example_sentence": "Will you be using your car this evening, or can I borrow it for a few hours?",
+            "media": {}
+        },
+        {
+            "id": "EB2GS2_011",
+            "type": "tap_fill",
+            "question": "Please don't call me between 2 and 4; I ___ a meeting then.",
+            "options": [
+                "will be having",
+                "will have",
+                "will have had",
+                "have"
+            ],
+            "answer": "will be having",
+            "hint": "Duration in the future.",
+            "voice_input": false,
+            "example_sentence": "Please don't call me between 2 and 4; I will be having a meeting then.",
+            "media": {}
+        },
+        {
+            "id": "EB2GS2_012",
+            "type": "multiple_choice",
+            "question": "Which causative indicates 'persuasion'?",
+            "options": [
+                "I got him to check the data.",
+                "I had him check the data.",
+                "I made him check the data."
+            ],
+            "answer": "I got him to check the data.",
+            "hint": "Get = convince/persuade.",
+            "voice_input": false,
+            "example_sentence": "I finally got him to check the data after explaining its importance.",
+            "media": {}
+        },
+        {
+            "id": "EB2GS2_013",
+            "type": "sentence_ordering",
+            "words": [
+                "Will",
+                "joining",
+                "be",
+                "dinner",
+                "you",
+                "us",
+                "for",
+                "tonight"
+            ],
+            "question": "Reorder the words to form a polite future question.",
+            "answer": "Will you be joining us for dinner tonight",
+            "hint": "Future Continuous for politeness.",
+            "voice_input": false,
+            "example_sentence": "Will you be joining us for dinner tonight at the new Italian restaurant?",
+            "media": {}
+        },
+        {
+            "id": "EB2GS2_014",
+            "type": "matching",
+            "question": "Match the situation to the causative verb.",
+            "pairs": [
+                {
+                    "left": "Strict teacher",
+                    "right": "Makes students study."
+                },
+                {
+                    "left": "Kind parent",
+                    "right": "Lets children play."
+                },
+                {
+                    "left": "Professional client",
+                    "right": "Has the lawyer sign."
+                },
+                {
+                    "left": "Motivated coach",
+                    "right": "Gets the team to win."
+                }
+            ],
+            "answer": [
+                {
+                    "left": "Strict teacher",
+                    "right": "Makes students study."
+                },
+                {
+                    "left": "Kind parent",
+                    "right": "Lets children play."
+                },
+                {
+                    "left": "Professional client",
+                    "right": "Has the lawyer sign."
+                },
+                {
+                    "left": "Motivated coach",
+                    "right": "Gets the team to win."
+                }
+            ],
+            "hint": "Authority vs. Permission.",
+            "voice_input": false,
+            "example_sentence": "The strict teacher makes her students study for an hour every day.",
+            "media": {}
+        },
+        {
+            "id": "EB2GS2_015",
+            "type": "pronunciation",
+            "question": "Pronounce: 'I had the mechanic look at the engine because of the noise.'",
+            "answer": "I had the mechanic look at the engine because of the noise.",
+            "hint": "Stress 'had' and 'mechanic'.",
+            "voice_input": true,
+            "example_sentence": "I had the mechanic look at the engine because of the strange noise it was making.",
+            "media": {}
+        },
+        {
+            "id": "EB2GS2_016",
+            "type": "tap_fill",
+            "question": "Don't worry, the film ___ by the time you get home.",
+            "options": [
+                "won't have started",
+                "won't be starting",
+                "doesn't start",
+                "isn't starting"
+            ],
+            "answer": "won't have started",
+            "hint": "Negative future perfect.",
+            "voice_input": false,
+            "example_sentence": "Don't worry, the film won't have started by the time you get home.",
+            "media": {}
+        },
+        {
+            "id": "EB2GS2_017",
+            "type": "multiple_choice",
+            "question": "Which sentence is correct for 'permission'?",
+            "options": [
+                "My boss let me leave early today.",
+                "My boss let me to leave early today.",
+                "My boss lets me leaving early today."
+            ],
+            "answer": "My boss let me leave early today.",
+            "hint": "Let + object + base form.",
+            "voice_input": false,
+            "example_sentence": "My boss let me leave early today since I had finished all my tasks.",
+            "media": {}
+        },
+        {
+            "id": "EB2GS2_018",
+            "type": "sentence_ordering",
+            "words": [
+                "been",
+                "will",
+                "She",
+                "working",
+                "for",
+                "have",
+                "here",
+                "years",
+                "five"
+            ],
+            "question": "Reorder the words to use the Future Perfect Continuous.",
+            "answer": "She will have been working here for five years",
+            "hint": "Ongoing action up to a future point.",
+            "voice_input": false,
+            "example_sentence": "Next month, she will have been working here for five years.",
+            "media": {}
+        },
+        {
+            "id": "EB2GS2_019",
+            "type": "tap_fill",
+            "question": "I'll ___ the assistant send you the documents right away.",
+            "options": [
+                "have",
+                "get",
+                "make",
+                "let"
+            ],
+            "answer": "have",
+            "hint": "Assigning a task to someone.",
+            "voice_input": false,
+            "example_sentence": "I'll have the assistant send you the documents right away.",
+            "media": {}
+        },
+        {
+            "id": "EB2GS2_020",
+            "type": "pronunciation",
+            "question": "Pronounce: 'They'll have finished the construction by the end of 2027.'",
+            "answer": "They'll have finished the construction by the end of 2027.",
+            "hint": "Future Perfect with a deadline.",
+            "voice_input": true,
+            "example_sentence": "They'll have finished the construction by the end of 2027.",
+            "media": {}
+        },
+        {
+            "id": "EB2GS2_021",
+            "type": "tap_fill",
+            "question": "The company developed a new system ___ employees can track their progress in real-time.",
+            "options": [
+                "whereby",
+                "which",
+                "whose",
+                "whom"
+            ],
+            "answer": "whereby",
+            "hint": "Meaning 'by which' or 'through which'.",
+            "voice_input": false,
+            "example_sentence": "The company developed a new system whereby employees can track their progress in real-time.",
+            "media": {}
+        },
+        {
+            "id": "EB2GS2_022",
+            "type": "multiple_choice",
+            "question": "Choose the correct sentence using a formal prepositional relative clause.",
+            "options": [
+                "The candidate with whom I spoke was very impressive.",
+                "The candidate who I spoke with him was very impressive.",
+                "The candidate whose I spoke to was very impressive."
+            ],
+            "answer": "The candidate with whom I spoke was very impressive.",
+            "hint": "Formal 'preposition + whom'.",
+            "voice_input": false,
+            "example_sentence": "The candidate with whom I spoke during the interview was very impressive.",
+            "media": {}
+        },
+        {
+            "id": "EB2GS2_023",
+            "type": "sentence_ordering",
+            "words": [
+                "What",
+                "surprised",
+                "his",
+                "most",
+                "me",
+                "was",
+                "honesty",
+                "total"
+            ],
+            "question": "Reorder the words to form a sentence with a noun clause as a subject.",
+            "answer": "What surprised me most was his total honesty",
+            "hint": "The 'What' clause acts as the subject.",
+            "voice_input": false,
+            "example_sentence": "What surprised me most was his total honesty about the mistake.",
+            "media": {}
+        },
+        {
+            "id": "EB2GS2_024",
+            "type": "matching",
+            "question": "Match the relative pronouns with their specific functions.",
+            "pairs": [
+                {
+                    "left": "Whose",
+                    "right": "To show possession."
+                },
+                {
+                    "left": "Whom",
+                    "right": "Object of a preposition."
+                },
+                {
+                    "left": "Whereby",
+                    "right": "Method or process."
+                },
+                {
+                    "left": "Which",
+                    "right": "Referring to a whole clause."
+                }
+            ],
+            "answer": [
+                {
+                    "left": "Whose",
+                    "right": "To show possession."
+                },
+                {
+                    "left": "Whom",
+                    "right": "Object of a preposition."
+                },
+                {
+                    "left": "Whereby",
+                    "right": "Method or process."
+                },
+                {
+                    "left": "Which",
+                    "right": "Referring to a whole clause."
+                }
+            ],
+            "hint": "Think about the relationship between clauses.",
+            "voice_input": false,
+            "example_sentence": "He arrived late, which annoyed everyone in the office.",
+            "media": {}
+        },
+        {
+            "id": "EB2GS2_025",
+            "type": "pronunciation",
+            "question": "Pronounce: 'The woman whose car was stolen has already contacted the police.'",
+            "answer": "The woman whose car was stolen has already contacted the police.",
+            "hint": "Stress 'whose' and 'stolen'.",
+            "voice_input": true,
+            "example_sentence": "The woman whose car was stolen has already contacted the police.",
+            "media": {}
+        },
+        {
+            "id": "EB2GS2_026",
+            "type": "tap_fill",
+            "question": "The reason ___ I am calling is to confirm our appointment for tomorrow.",
+            "options": [
+                "why",
+                "which",
+                "what",
+                "whom"
+            ],
+            "answer": "why",
+            "hint": "Relative adverb for cause.",
+            "voice_input": false,
+            "example_sentence": "The reason why I am calling is to confirm our appointment for tomorrow morning.",
+            "media": {}
+        },
+        {
+            "id": "EB2GS2_027",
+            "type": "multiple_choice",
+            "question": "Which sentence correctly uses 'which' to refer to a previous idea?",
+            "options": [
+                "She passed all her exams, which was a huge relief.",
+                "She passed all her exams, that was a huge relief.",
+                "She passed all her exams, what was a huge relief."
+            ],
+            "answer": "She passed all her exams, which was a huge relief.",
+            "hint": "Use 'which' for whole-sentence comments.",
+            "voice_input": false,
+            "example_sentence": "She passed all her exams with honors, which was a huge relief to her parents.",
+            "media": {}
+        },
+        {
+            "id": "EB2GS2_028",
+            "type": "sentence_ordering",
+            "words": [
+                "is",
+                "The",
+                "hotel",
+                "in",
+                "we",
+                "stayed",
+                "which",
+                "very",
+                "old",
+                "was"
+            ],
+            "question": "Reorder the words for a sentence with 'in which'.",
+            "answer": "The hotel in which we stayed was very old",
+            "hint": "More formal than 'The hotel we stayed in'.",
+            "voice_input": false,
+            "example_sentence": "The hotel in which we stayed was very old but charming.",
+            "media": {}
+        },
+        {
+            "id": "EB2GS2_029",
+            "type": "matching",
+            "question": "Match the noun clause beginnings with the logical ends.",
+            "pairs": [
+                {
+                    "left": "Whether he comes",
+                    "right": "depends on the weather."
+                },
+                {
+                    "left": "How they did it",
+                    "right": "is still a mystery."
+                },
+                {
+                    "left": "That she failed",
+                    "right": "shocked everyone."
+                },
+                {
+                    "left": "Where they live",
+                    "right": "is none of my business."
+                }
+            ],
+            "answer": [
+                {
+                    "left": "Whether he comes",
+                    "right": "depends on the weather."
+                },
+                {
+                    "left": "How they did it",
+                    "right": "is still a mystery."
+                },
+                {
+                    "left": "That she failed",
+                    "right": "shocked everyone."
+                },
+                {
+                    "left": "Where they live",
+                    "right": "is none of my business."
+                }
+            ],
+            "hint": "Subject clauses.",
+            "voice_input": false,
+            "example_sentence": "Whether he comes to the party or not depends on his work schedule.",
+            "media": {}
+        },
+        {
+            "id": "EB2GS2_030",
+            "type": "pronunciation",
+            "question": "Pronounce: 'I don't know what you are talking about, but it sounds interesting.'",
+            "answer": "I don't know what you are talking about, but it sounds interesting.",
+            "hint": "Stress 'what' and 'interesting'.",
+            "voice_input": true,
+            "example_sentence": "I don't know what you are talking about, but it sounds interesting.",
+            "media": {}
+        },
+        {
+            "id": "EB2GS2_031",
+            "type": "tap_fill",
+            "question": "The project, ___ was completed ahead of schedule, was a great success.",
+            "options": [
+                "which",
+                "that",
+                "what",
+                "where"
+            ],
+            "answer": "which",
+            "hint": "Non-defining relative clause.",
+            "voice_input": false,
+            "example_sentence": "The project, which was completed ahead of schedule, was a great success.",
+            "media": {}
+        },
+        {
+            "id": "EB2GS2_032",
+            "type": "multiple_choice",
+            "question": "Choose the most formal option: 'The house...'",
+            "options": [
+                "The house in which I grew up has been demolished.",
+                "The house where I grew up in has been demolished.",
+                "The house which I grew up has been demolished."
+            ],
+            "answer": "The house in which I grew up has been demolished.",
+            "hint": "Formal place reference.",
+            "voice_input": false,
+            "example_sentence": "The house in which I grew up has unfortunately been demolished.",
+            "media": {}
+        },
+        {
+            "id": "EB2GS2_033",
+            "type": "sentence_ordering",
+            "words": [
+                "is",
+                "The",
+                "author",
+                "book",
+                "best-seller",
+                "a",
+                "whose",
+                "here",
+                "is"
+            ],
+            "question": "Reorder the words for a sentence with 'whose'.",
+            "answer": "The author whose book is a best-seller is here",
+            "hint": "Identify the owner.",
+            "voice_input": false,
+            "example_sentence": "The author whose book is a best-seller is here for the signing.",
+            "media": {}
+        },
+        {
+            "id": "EB2GS2_034",
+            "type": "matching",
+            "question": "Match the relative structures with their level of formality.",
+            "pairs": [
+                {
+                    "left": "The man I met",
+                    "right": "Informal."
+                },
+                {
+                    "left": "The man who I met",
+                    "right": "Neutral."
+                },
+                {
+                    "left": "The man whom I met",
+                    "right": "Formal."
+                },
+                {
+                    "left": "The man to whom I spoke",
+                    "right": "Very Formal."
+                }
+            ],
+            "answer": [
+                {
+                    "left": "The man I met",
+                    "right": "Informal."
+                },
+                {
+                    "left": "The man who I met",
+                    "right": "Neutral."
+                },
+                {
+                    "left": "The man whom I met",
+                    "right": "Formal."
+                },
+                {
+                    "left": "The man to whom I spoke",
+                    "right": "Very Formal."
+                }
+            ],
+            "hint": "Presence of 'whom' or prepositions.",
+            "voice_input": false,
+            "example_sentence": "The man to whom I spoke was extremely helpful.",
+            "media": {}
+        },
+        {
+            "id": "EB2GS2_035",
+            "type": "pronunciation",
+            "question": "Pronounce: 'Whoever made this mess needs to clean it up immediately.'",
+            "answer": "Whoever made this mess needs to clean it up immediately.",
+            "hint": "Stress 'Whoever' and 'immediately'.",
+            "voice_input": true,
+            "example_sentence": "Whoever made this mess needs to clean it up immediately.",
+            "media": {}
+        },
+        {
+            "id": "EB2GS2_036",
+            "type": "tap_fill",
+            "question": "They are looking for a candidate ___ primary language is Spanish.",
+            "options": [
+                "whose",
+                "whom",
+                "who",
+                "which"
+            ],
+            "answer": "whose",
+            "hint": "Possessive relationship.",
+            "voice_input": false,
+            "example_sentence": "They are looking for a candidate whose primary language is Spanish.",
+            "media": {}
+        },
+        {
+            "id": "EB2GS2_037",
+            "type": "multiple_choice",
+            "question": "Choose the correct noun clause: 'I am not sure...'",
+            "options": [
+                "I am not sure how much it costs.",
+                "I am not sure how much does it cost.",
+                "I am not sure how much it costed."
+            ],
+            "answer": "I am not sure how much it costs.",
+            "hint": "Embedded questions use statement order.",
+            "voice_input": false,
+            "example_sentence": "I am not sure how much it costs, so I'll check the price tag.",
+            "media": {}
+        },
+        {
+            "id": "EB2GS2_038",
+            "type": "sentence_ordering",
+            "words": [
+                "is",
+                "This",
+                "the",
+                "process",
+                "by",
+                "is",
+                "which",
+                "made",
+                "steel"
+            ],
+            "question": "Reorder the words to use 'by which'.",
+            "answer": "This is the process by which steel is made",
+            "hint": "Description of a method.",
+            "voice_input": false,
+            "example_sentence": "This is the process by which steel is made in this factory.",
+            "media": {}
+        },
+        {
+            "id": "EB2GS2_039",
+            "type": "tap_fill",
+            "question": "___ you do, don't forget to lock the door when you leave.",
+            "options": [
+                "Whatever",
+                "Whenever",
+                "However",
+                "Whoever"
+            ],
+            "answer": "Whatever",
+            "hint": "Meaning 'no matter what'.",
+            "voice_input": false,
+            "example_sentence": "Whatever you do, don't forget to lock the door when you leave.",
+            "media": {}
+        },
+        {
+            "id": "EB2GS2_040",
+            "type": "pronunciation",
+            "question": "Pronounce: 'The town in which I was born has changed beyond recognition.'",
+            "answer": "The town in which I was born has changed beyond recognition.",
+            "hint": "Stress 'born' and 'recognition'.",
+            "voice_input": true,
+            "example_sentence": "The town in which I was born has changed beyond recognition.",
+            "media": {}
+        },
+        {
+            "id": "EB2GS2_041",
+            "type": "tap_fill",
+            "question": "The ___ you practice speaking, the more confident you will become.",
+            "options": [
+                "more",
+                "better",
+                "higher",
+                "longer"
+            ],
+            "answer": "more",
+            "hint": "Double comparative structure.",
+            "voice_input": false,
+            "example_sentence": "The more you practice speaking, the more confident you will become.",
+            "media": {}
+        },
+        {
+            "id": "EB2GS2_042",
+            "type": "multiple_choice",
+            "question": "Choose the most emphatic sentence: 'I just want a cup of coffee.'",
+            "options": [
+                "All I want is a cup of coffee.",
+                "It is a cup of coffee I want.",
+                "A cup of coffee is what I want."
+            ],
+            "answer": "All I want is a cup of coffee.",
+            "hint": "Cleft sentence using 'All'.",
+            "voice_input": false,
+            "example_sentence": "All I want is a cup of coffee and a few minutes of peace.",
+            "media": {}
+        },
+        {
+            "id": "EB2GS2_043",
+            "type": "sentence_ordering",
+            "words": [
+                "is",
+                "What",
+                "need",
+                "we",
+                "holiday",
+                "a",
+                "good"
+            ],
+            "question": "Reorder the words to form a 'What' cleft sentence.",
+            "answer": "What we need is a good holiday",
+            "hint": "Starts with 'What' + clause + is/was.",
+            "voice_input": false,
+            "example_sentence": "What we need is a good holiday to recharge our batteries.",
+            "media": {}
+        },
+        {
+            "id": "EB2GS2_044",
+            "type": "matching",
+            "question": "Match the comparative structures with their meanings.",
+            "pairs": [
+                {
+                    "left": "The sooner, the better.",
+                    "right": "Speed is the priority."
+                },
+                {
+                    "left": "Nowhere near as good.",
+                    "right": "Much worse than expected."
+                },
+                {
+                    "left": "By far the most.",
+                    "right": "A very large difference."
+                },
+                {
+                    "left": "More and more.",
+                    "right": "A continuous increase."
+                }
+            ],
+            "answer": [
+                {
+                    "left": "The sooner, the better.",
+                    "right": "Speed is the priority."
+                },
+                {
+                    "left": "Nowhere near as good.",
+                    "right": "Much worse than expected."
+                },
+                {
+                    "left": "By far the most.",
+                    "right": "A very large difference."
+                },
+                {
+                    "left": "More and more.",
+                    "right": "A continuous increase."
+                }
+            ],
+            "hint": "Nuances of degree.",
+            "voice_input": false,
+            "example_sentence": "This laptop is by far the most expensive one in the store.",
+            "media": {}
+        },
+        {
+            "id": "EB2GS2_045",
+            "type": "pronunciation",
+            "question": "Pronounce: 'It was the manager herself who authorized the refund.'",
+            "answer": "It was the manager herself who authorized the refund.",
+            "hint": "Stress 'manager' and 'herself'.",
+            "voice_input": true,
+            "example_sentence": "It was the manager herself who authorized the refund.",
+            "media": {}
+        },
+        {
+            "id": "EB2GS2_046",
+            "type": "tap_fill",
+            "question": "The movie was ___ as exciting as the book I read last summer.",
+            "options": [
+                "nowhere near",
+                "not quite",
+                "nothing",
+                "slightly"
+            ],
+            "answer": "nowhere near",
+            "hint": "Indicates a huge difference.",
+            "voice_input": false,
+            "example_sentence": "The movie was nowhere near as exciting as the book I read last summer.",
+            "media": {}
+        },
+        {
+            "id": "EB2GS2_047",
+            "type": "multiple_choice",
+            "question": "Choose the correct cleft sentence to emphasize the time: 'We met on Friday.'",
+            "options": [
+                "It was on Friday that we met.",
+                "It was Friday when we met.",
+                "What was Friday was when we met."
+            ],
+            "answer": "It was on Friday that we met.",
+            "hint": "It + be + [time phrase] + that.",
+            "voice_input": false,
+            "example_sentence": "It was on Friday that we met to discuss the new project.",
+            "media": {}
+        },
+        {
+            "id": "EB2GS2_048",
+            "type": "sentence_ordering",
+            "words": [
+                "The",
+                "the",
+                "colder",
+                "it",
+                "gets",
+                "higher",
+                "heating",
+                "bill",
+                "is"
+            ],
+            "question": "Reorder the words for a double comparative.",
+            "answer": "The colder it gets the higher the heating bill is",
+            "hint": "Relationship between temperature and cost.",
+            "voice_input": false,
+            "example_sentence": "The colder it gets, the higher the heating bill is during winter.",
+            "media": {}
+        },
+        {
+            "id": "EB2GS2_049",
+            "type": "matching",
+            "question": "Match the emphasis structure to the part emphasized.",
+            "pairs": [
+                {
+                    "left": "It was Tom who...",
+                    "right": "The person."
+                },
+                {
+                    "left": "What I love is...",
+                    "right": "The activity."
+                },
+                {
+                    "left": "It was in Paris that...",
+                    "right": "The place."
+                },
+                {
+                    "left": "The thing that bothers me is...",
+                    "right": "The problem."
+                }
+            ],
+            "answer": [
+                {
+                    "left": "It was Tom who...",
+                    "right": "The person."
+                },
+                {
+                    "left": "What I love is...",
+                    "right": "The activity."
+                },
+                {
+                    "left": "It was in Paris that...",
+                    "right": "The place."
+                },
+                {
+                    "left": "The thing that bothers me is...",
+                    "right": "The problem."
+                }
+            ],
+            "hint": "Identifying focus.",
+            "voice_input": false,
+            "example_sentence": "The thing that bothers me is the lack of communication.",
+            "media": {}
+        },
+        {
+            "id": "EB2GS2_050",
+            "type": "pronunciation",
+            "question": "Pronounce: 'The harder you work, the luckier you get.'",
+            "answer": "The harder you work, the luckier you get.",
+            "hint": "Maintain a rhythmic balance.",
+            "voice_input": true,
+            "example_sentence": "As the saying goes, the harder you work, the luckier you get.",
+            "media": {}
+        },
+        {
+            "id": "EB2GS2_051",
+            "type": "tap_fill",
+            "question": "This is ___ the best performance the actor has ever given.",
+            "options": [
+                "easily",
+                "hardly",
+                "slightly",
+                "nearly"
+            ],
+            "answer": "easily",
+            "hint": "Emphasizing a superlative.",
+            "voice_input": false,
+            "example_sentence": "This is easily the best performance the actor has ever given.",
+            "media": {}
+        },
+        {
+            "id": "EB2GS2_052",
+            "type": "multiple_choice",
+            "question": "Identify the 'Pseudo-cleft' sentence.",
+            "options": [
+                "What she needs is a long break.",
+                "She really needs a long break.",
+                "It is a break that she needs."
+            ],
+            "answer": "What she needs is a long break.",
+            "hint": "Starts with a 'What' clause.",
+            "voice_input": false,
+            "example_sentence": "What she needs is a long break after finishing the semester.",
+            "media": {}
+        },
+        {
+            "id": "EB2GS2_053",
+            "type": "sentence_ordering",
+            "words": [
+                "What",
+                "did",
+                "he",
+                "was",
+                "slam",
+                "the",
+                "door",
+                "and",
+                "leave"
+            ],
+            "question": "Reorder the words to emphasize an action.",
+            "answer": "What he did was slam the door and leave",
+            "hint": "Focus on 'he did'.",
+            "voice_input": false,
+            "example_sentence": "What he did was slam the door and leave the meeting in a hurry.",
+            "media": {}
+        },
+        {
+            "id": "EB2GS2_054",
+            "type": "matching",
+            "question": "Match the modifiers with the adjectives.",
+            "pairs": [
+                {
+                    "left": "Absolutely",
+                    "right": "exhausted."
+                },
+                {
+                    "left": "Extremely",
+                    "right": "tired."
+                },
+                {
+                    "left": "Bit",
+                    "right": "surprised."
+                },
+                {
+                    "left": "Totally",
+                    "right": "unacceptable."
+                }
+            ],
+            "answer": [
+                {
+                    "left": "Absolutely",
+                    "right": "exhausted."
+                },
+                {
+                    "left": "Extremely",
+                    "right": "tired."
+                },
+                {
+                    "left": "Bit",
+                    "right": "surprised."
+                },
+                {
+                    "left": "Totally",
+                    "right": "unacceptable."
+                }
+            ],
+            "hint": "Gradable vs. Ungradable.",
+            "voice_input": false,
+            "example_sentence": "His behavior during the presentation was totally unacceptable.",
+            "media": {}
+        },
+        {
+            "id": "EB2GS2_055",
+            "type": "pronunciation",
+            "question": "Pronounce: 'The more information we have, the better our decision will be.'",
+            "answer": "The more information we have, the better our decision will be.",
+            "hint": "Pause slightly after 'have'.",
+            "voice_input": true,
+            "example_sentence": "The more information we have, the better our decision will be.",
+            "media": {}
+        },
+        {
+            "id": "EB2GS2_056",
+            "type": "tap_fill",
+            "question": "I'm not ___ as talented as my sister when it comes to painting.",
+            "options": [
+                "half",
+                "double",
+                "twice",
+                "much"
+            ],
+            "answer": "half",
+            "hint": "Comparative of inferiority.",
+            "voice_input": false,
+            "example_sentence": "I'm not half as talented as my sister when it comes to painting.",
+            "media": {}
+        },
+        {
+            "id": "EB2GS2_057",
+            "type": "multiple_choice",
+            "question": "Choose the correct sentence to emphasize 'the money'.",
+            "options": [
+                "It's the money that I'm worried about, not the time.",
+                "The money is what I'm worried about, not the time.",
+                "What I'm worried about is the money, not the time."
+            ],
+            "answer": "It's the money that I'm worried about, not the time.",
+            "hint": "Focus on the specific object using 'It'.",
+            "voice_input": false,
+            "example_sentence": "It's the money that I'm worried about, not the time it will take.",
+            "media": {}
+        },
+        {
+            "id": "EB2GS2_058",
+            "type": "sentence_ordering",
+            "words": [
+                "English",
+                "is",
+                "becoming",
+                "easier",
+                "and",
+                "easier",
+                "for",
+                "her"
+            ],
+            "question": "Reorder the words for a sentence about continuous change.",
+            "answer": "English is becoming easier and easier for her",
+            "hint": "Repetition of comparative.",
+            "voice_input": false,
+            "example_sentence": "English is becoming easier and easier for her to understand every day.",
+            "media": {}
+        },
+        {
+            "id": "EB2GS2_059",
+            "type": "tap_fill",
+            "question": "The ___ you wait, the more difficult it will be to find a seat.",
+            "options": [
+                "longer",
+                "more",
+                "better",
+                "sooner"
+            ],
+            "answer": "longer",
+            "hint": "Time-based comparative.",
+            "voice_input": false,
+            "example_sentence": "The longer you wait, the more difficult it will be to find a seat.",
+            "media": {}
+        },
+        {
+            "id": "EB2GS2_060",
+            "type": "pronunciation",
+            "question": "Pronounce: 'All they ever do is complain about the weather.'",
+            "answer": "All they ever do is complain about the weather.",
+            "hint": "Stress 'All' and 'complain'.",
+            "voice_input": true,
+            "example_sentence": "All they ever do is complain about the weather instead of enjoying the day.",
+            "media": {}
+        },
+        {
+            "id": "EB2GS2_061",
+            "type": "tap_fill",
+            "question": "Never ___ such a beautiful sunset in my entire life.",
+            "options": [
+                "have I seen",
+                "I have seen",
+                "I saw",
+                "did I saw"
+            ],
+            "answer": "have I seen",
+            "hint": "Negative adverbial at the start requires question order.",
+            "voice_input": false,
+            "example_sentence": "Never have I seen such a beautiful sunset in my entire life.",
+            "media": {}
+        },
+        {
+            "id": "EB2GS2_062",
+            "type": "multiple_choice",
+            "question": "Choose the correct perfect gerund: 'He was proud of...'",
+            "options": [
+                "He was proud of having finished the marathon.",
+                "He was proud of to have finished the marathon.",
+                "He was proud of finish the marathon."
+            ],
+            "answer": "He was proud of having finished the marathon.",
+            "hint": "Preposition + having + V3.",
+            "voice_input": false,
+            "example_sentence": "He was proud of having finished the marathon despite his injury.",
+            "media": {}
+        },
+        {
+            "id": "EB2GS2_063",
+            "type": "sentence_ordering",
+            "words": [
+                "did",
+                "know",
+                "Little",
+                "that",
+                "he",
+                "was",
+                "watching",
+                "him",
+                "someone"
+            ],
+            "question": "Reorder the words to form a sentence with inversion.",
+            "answer": "Little did he know that someone was watching him",
+            "hint": "Used for dramatic effect.",
+            "voice_input": false,
+            "example_sentence": "Little did he know that someone was watching him from the shadows.",
+            "media": {}
+        },
+        {
+            "id": "EB2GS2_064",
+            "type": "matching",
+            "question": "Match the inversion triggers with their meanings.",
+            "pairs": [
+                {
+                    "left": "Not only... but also",
+                    "right": "Two related points."
+                },
+                {
+                    "left": "No sooner... than",
+                    "right": "One event follows another immediately."
+                },
+                {
+                    "left": "Under no circumstances",
+                    "right": "Strict prohibition."
+                },
+                {
+                    "left": "Rarely / Seldom",
+                    "right": "Infrequent actions."
+                }
+            ],
+            "answer": [
+                {
+                    "left": "Not only... but also",
+                    "right": "Two related points."
+                },
+                {
+                    "left": "No sooner... than",
+                    "right": "One event follows another immediately."
+                },
+                {
+                    "left": "Under no circumstances",
+                    "right": "Strict prohibition."
+                },
+                {
+                    "left": "Rarely / Seldom",
+                    "right": "Infrequent actions."
+                }
+            ],
+            "hint": "Formal emphasis.",
+            "voice_input": false,
+            "example_sentence": "Rarely do we see such talent in someone so young.",
+            "media": {}
+        },
+        {
+            "id": "EB2GS2_065",
+            "type": "pronunciation",
+            "question": "Pronounce: 'No sooner had we sat down than the phone rang.'",
+            "answer": "No sooner had we sat down than the phone rang.",
+            "hint": "Stress 'No sooner' and 'phone'.",
+            "voice_input": true,
+            "example_sentence": "No sooner had we sat down than the phone rang.",
+            "media": {}
+        },
+        {
+            "id": "EB2GS2_066",
+            "type": "tap_fill",
+            "question": "The suspect claimed ___ at the time of the robbery.",
+            "options": [
+                "to have been sleeping",
+                "to be sleeping",
+                "to sleep",
+                "having slept"
+            ],
+            "answer": "to have been sleeping",
+            "hint": "Perfect continuous infinitive (past action in progress).",
+            "voice_input": false,
+            "example_sentence": "The suspect claimed to have been sleeping at the time of the robbery.",
+            "media": {}
+        },
+        {
+            "id": "EB2GS2_067",
+            "type": "multiple_choice",
+            "question": "Which sentence uses 'not only' inversion correctly?",
+            "options": [
+                "Not only did he arrive late, but he also forgot his notes.",
+                "Not only he arrived late, but he also forgot his notes.",
+                "Not only he did arrive late, but he also forgot his notes."
+            ],
+            "answer": "Not only did he arrive late, but he also forgot his notes.",
+            "hint": "Subject-auxiliary inversion after 'Not only'.",
+            "voice_input": false,
+            "example_sentence": "Not only did he arrive late, but he also forgot his notes for the presentation.",
+            "media": {}
+        },
+        {
+            "id": "EB2GS2_068",
+            "type": "sentence_ordering",
+            "words": [
+                "hates",
+                "being",
+                "He",
+                "told",
+                "what",
+                "to",
+                "do",
+                "by",
+                "others"
+            ],
+            "question": "Reorder the words for a passive gerund.",
+            "answer": "He hates being told what to do by others",
+            "hint": "Passive meaning with -ing.",
+            "voice_input": false,
+            "example_sentence": "He hates being told what to do by others, especially his peers.",
+            "media": {}
+        },
+        {
+            "id": "EB2GS2_069",
+            "type": "matching",
+            "question": "Match the infinitive forms with their examples.",
+            "pairs": [
+                {
+                    "left": "Present Passive",
+                    "right": "To be seen."
+                },
+                {
+                    "left": "Perfect Active",
+                    "right": "To have seen."
+                },
+                {
+                    "left": "Continuous",
+                    "right": "To be seeing."
+                },
+                {
+                    "left": "Perfect Passive",
+                    "right": "To have been seen."
+                }
+            ],
+            "answer": [
+                {
+                    "left": "Present Passive",
+                    "right": "To be seen."
+                },
+                {
+                    "left": "Perfect Active",
+                    "right": "To have seen."
+                },
+                {
+                    "left": "Continuous",
+                    "right": "To be seeing."
+                },
+                {
+                    "left": "Perfect Passive",
+                    "right": "To have been seen."
+                }
+            ],
+            "hint": "Complex infinitive structures.",
+            "voice_input": false,
+            "example_sentence": "He was lucky to have been seen by a doctor so quickly.",
+            "media": {}
+        },
+        {
+            "id": "EB2GS2_070",
+            "type": "pronunciation",
+            "question": "Pronounce: 'Only after the meeting did I realize my mistake.'",
+            "answer": "Only after the meeting did I realize my mistake.",
+            "hint": "Inversion after 'Only after'.",
+            "voice_input": true,
+            "example_sentence": "Only after the meeting did I realize my mistake.",
+            "media": {}
+        },
+        {
+            "id": "EB2GS2_071",
+            "type": "tap_fill",
+            "question": "___ should you share your password with anyone.",
+            "options": [
+                "Under no circumstances",
+                "On no account",
+                "In no way",
+                "Not only"
+            ],
+            "answer": "Under no circumstances",
+            "hint": "Very formal prohibition.",
+            "voice_input": false,
+            "example_sentence": "Under no circumstances should you share your password with anyone.",
+            "media": {}
+        },
+        {
+            "id": "EB2GS2_072",
+            "type": "multiple_choice",
+            "question": "Which sentence expresses regret about a past action using a gerund?",
+            "options": [
+                "I regret having said that to her.",
+                "I regret to say that to her.",
+                "I regret to have said that to her."
+            ],
+            "answer": "I regret having said that to her.",
+            "hint": "Regret + gerund (for the past).",
+            "voice_input": false,
+            "example_sentence": "I deeply regret having said that to her during our argument.",
+            "media": {}
+        },
+        {
+            "id": "EB2GS2_073",
+            "type": "sentence_ordering",
+            "words": [
+                "is",
+                "He",
+                "likely",
+                "to",
+                "be",
+                "waiting",
+                "for",
+                "us",
+                "outside"
+            ],
+            "question": "Reorder the words to use the continuous infinitive.",
+            "answer": "He is likely to be waiting for us outside",
+            "hint": "Action happening at the same time as the main verb.",
+            "voice_input": false,
+            "example_sentence": "He is likely to be waiting for us outside the terminal.",
+            "media": {}
+        },
+        {
+            "id": "EB2GS2_074",
+            "type": "matching",
+            "question": "Match the verb to its required pattern.",
+            "pairs": [
+                {
+                    "left": "Avoid",
+                    "right": "+ Gerund (making mistakes)."
+                },
+                {
+                    "left": "Manage",
+                    "right": "+ Infinitive (to finish)."
+                },
+                {
+                    "left": "Involve",
+                    "right": "+ Gerund (working late)."
+                },
+                {
+                    "left": "Attempt",
+                    "right": "+ Infinitive (to climb)."
+                }
+            ],
+            "answer": [
+                {
+                    "left": "Avoid",
+                    "right": "+ Gerund (making mistakes)."
+                },
+                {
+                    "left": "Manage",
+                    "right": "+ Infinitive (to finish)."
+                },
+                {
+                    "left": "Involve",
+                    "right": "+ Gerund (working late)."
+                },
+                {
+                    "left": "Attempt",
+                    "right": "+ Infinitive (to climb)."
+                }
+            ],
+            "hint": "Gerund vs Infinitive patterns.",
+            "voice_input": false,
+            "example_sentence": "We managed to finish the project on time.",
+            "media": {}
+        },
+        {
+            "id": "EB2GS2_075",
+            "type": "pronunciation",
+            "question": "Pronounce: 'Seldom does it snow in this part of the country.'",
+            "answer": "Seldom does it snow in this part of the country.",
+            "hint": "Stress 'Seldom'.",
+            "voice_input": true,
+            "example_sentence": "Seldom does it snow in this part of the country.",
+            "media": {}
+        },
+        {
+            "id": "EB2GS2_076",
+            "type": "tap_fill",
+            "question": "I would like ___ to the party, but I was busy working.",
+            "options": [
+                "to have gone",
+                "to go",
+                "going",
+                "having gone"
+            ],
+            "answer": "to have gone",
+            "hint": "Unfulfilled past wish.",
+            "voice_input": false,
+            "example_sentence": "I would like to have gone to the party, but I was busy working.",
+            "media": {}
+        },
+        {
+            "id": "EB2GS2_077",
+            "type": "multiple_choice",
+            "question": "Choose the correct inversion: 'I had hardly arrived...'",
+            "options": [
+                "Hardly had I arrived when the phone rang.",
+                "Hardly I had arrived when the phone rang.",
+                "Hardly did I arrive when the phone rang."
+            ],
+            "answer": "Hardly had I arrived when the phone rang.",
+            "hint": "Hardly + past perfect inversion.",
+            "voice_input": false,
+            "example_sentence": "Hardly had I arrived when the phone rang, interrupting my lunch.",
+            "media": {}
+        },
+        {
+            "id": "EB2GS2_078",
+            "type": "sentence_ordering",
+            "words": [
+                "He",
+                "the",
+                "enjoyed",
+                "being",
+                "at",
+                "center",
+                "attention",
+                "of"
+            ],
+            "question": "Reorder the words for a sentence about being recognized.",
+            "answer": "He enjoyed being the center of attention",
+            "hint": "Enjoy + being + noun.",
+            "voice_input": false,
+            "example_sentence": "He enjoyed being the center of attention at the gala.",
+            "media": {}
+        },
+        {
+            "id": "EB2GS2_079",
+            "type": "tap_fill",
+            "question": "Scarcely ___ started the presentation when the power went out.",
+            "options": [
+                "had she",
+                "she had",
+                "did she",
+                "she"
+            ],
+            "answer": "had she",
+            "hint": "Scarcely + past perfect inversion.",
+            "voice_input": false,
+            "example_sentence": "Scarcely had she started the presentation when the power went out.",
+            "media": {}
+        },
+        {
+            "id": "EB2GS2_080",
+            "type": "pronunciation",
+            "question": "Pronounce: 'They were reported to have been living in poverty for years.'",
+            "answer": "They were reported to have been living in poverty for years.",
+            "hint": "Complex reporting structure.",
+            "voice_input": true,
+            "example_sentence": "They were reported to have been living in poverty for years.",
+            "media": {}
+        },
+        {
+            "id": "EB2GS2_081",
+            "type": "tap_fill",
+            "question": "It is essential that every applicant ___ a valid passport for the visa process.",
+            "options": [
+                "have",
+                "has",
+                "had",
+                "having"
+            ],
+            "answer": "have",
+            "hint": "Subjunctive mood after 'essential'.",
+            "voice_input": false,
+            "example_sentence": "It is essential that every applicant have a valid passport for the visa process.",
+            "media": {}
+        },
+        {
+            "id": "EB2GS2_082",
+            "type": "multiple_choice",
+            "question": "Choose the correct substitution: 'Will it rain today?'",
+            "options": [
+                "I hope not.",
+                "I hope no.",
+                "I don't hope so."
+            ],
+            "answer": "I hope not.",
+            "hint": "Substitution for negative hope.",
+            "voice_input": false,
+            "example_sentence": "I hope not, as I have planned a picnic at the park.",
+            "media": {}
+        },
+        {
+            "id": "EB2GS2_083",
+            "type": "sentence_ordering",
+            "words": [
+                "Be",
+                "may",
+                "it",
+                "as",
+                "that",
+                "that",
+                "must",
+                "we",
+                "continue"
+            ],
+            "question": "Reorder the words for a formal fixed expression.",
+            "answer": "Be that as it may we must continue",
+            "hint": "Meaning: 'Even if that is true'.",
+            "voice_input": false,
+            "example_sentence": "Be that as it may, we must continue with the project as planned.",
+            "media": {}
+        },
+        {
+            "id": "EB2GS2_084",
+            "type": "matching",
+            "question": "Match the subjunctive triggers with the correct base form completion.",
+            "pairs": [
+                {
+                    "left": "I suggest that he",
+                    "right": "arrive on time."
+                },
+                {
+                    "left": "It is vital that she",
+                    "right": "be informed."
+                },
+                {
+                    "left": "They insist that we",
+                    "right": "stay for dinner."
+                },
+                {
+                    "left": "I propose that they",
+                    "right": "reconsider."
+                }
+            ],
+            "answer": [
+                {
+                    "left": "I suggest that he",
+                    "right": "arrive on time."
+                },
+                {
+                    "left": "It is vital that she",
+                    "right": "be informed."
+                },
+                {
+                    "left": "They insist that we",
+                    "right": "stay for dinner."
+                },
+                {
+                    "left": "I propose that they",
+                    "right": "reconsider."
+                }
+            ],
+            "hint": "The verb remains in base form regardless of person.",
+            "voice_input": false,
+            "example_sentence": "I suggest that he arrive on time for the meeting tomorrow.",
+            "media": {}
+        },
+        {
+            "id": "EB2GS2_085",
+            "type": "pronunciation",
+            "question": "Pronounce: 'He hasn't finished his homework, but he really ought to have.'",
+            "answer": "He hasn't finished his homework, but he really ought to have.",
+            "hint": "Ellipsis at the end of the sentence.",
+            "voice_input": true,
+            "example_sentence": "He hasn't finished his homework, but he really ought to have.",
+            "media": {}
+        },
+        {
+            "id": "EB2GS2_086",
+            "type": "tap_fill",
+            "question": "If you need help, please ask; if ___ , I will leave you to work.",
+            "options": [
+                "not",
+                "no",
+                "don't",
+                "neither"
+            ],
+            "answer": "not",
+            "hint": "Conditional ellipsis.",
+            "voice_input": false,
+            "example_sentence": "If you need help, please ask; if not, I will leave you to work in peace.",
+            "media": {}
+        },
+        {
+            "id": "EB2GS2_087",
+            "type": "multiple_choice",
+            "question": "Which sentence uses 'so' as a substitute correctly?",
+            "options": [
+                "I believe so.",
+                "I believe it so.",
+                "I believe that so."
+            ],
+            "answer": "I believe so.",
+            "hint": "Substitute for a previous clause.",
+            "voice_input": false,
+            "example_sentence": "'Is the deadline today?' 'I believe so.'",
+            "media": {}
+        },
+        {
+            "id": "EB2GS2_088",
+            "type": "sentence_ordering",
+            "words": [
+                "demand",
+                "They",
+                "the",
+                "be",
+                "that",
+                "immediately",
+                "released",
+                "prisoner"
+            ],
+            "question": "Reorder the words for a formal requirement.",
+            "answer": "They demand that the prisoner be released immediately",
+            "hint": "Subjunctive passive (be + V3).",
+            "voice_input": false,
+            "example_sentence": "They demand that the prisoner be released immediately.",
+            "media": {}
+        },
+        {
+            "id": "EB2GS2_089",
+            "type": "matching",
+            "question": "Match the sentences to their omitted words (Ellipsis).",
+            "pairs": [
+                {
+                    "left": "See you later.",
+                    "right": "[I will] see you later."
+                },
+                {
+                    "left": "Sound good?",
+                    "right": "[Does that] sound good?"
+                },
+                {
+                    "left": "Ready yet?",
+                    "right": "[Are you] ready yet?"
+                },
+                {
+                    "left": "Told you so.",
+                    "right": "[I] told you so."
+                }
+            ],
+            "answer": [
+                {
+                    "left": "See you later.",
+                    "right": "[I will] see you later."
+                },
+                {
+                    "left": "Sound good?",
+                    "right": "[Does that] sound good?"
+                },
+                {
+                    "left": "Ready yet?",
+                    "right": "[Are you] ready yet?"
+                },
+                {
+                    "left": "Told you so.",
+                    "right": "[I] told you so."
+                }
+            ],
+            "hint": "Common conversational shortcuts.",
+            "voice_input": false,
+            "example_sentence": "Ready yet? We need to leave in five minutes.",
+            "media": {}
+        },
+        {
+            "id": "EB2GS2_090",
+            "type": "pronunciation",
+            "question": "Pronounce: 'I don't think he will come, but if he should, let me know.'",
+            "answer": "I don't think he will come, but if he should, let me know.",
+            "hint": "Inversion/Subjunctive 'should' for unlikely events.",
+            "voice_input": true,
+            "example_sentence": "I don't think he will come, but if he should, let me know immediately.",
+            "media": {}
+        },
+        {
+            "id": "EB2GS2_091",
+            "type": "tap_fill",
+            "question": "I'm not sure if they won, but I ___.",
+            "options": [
+                "suppose so",
+                "suppose not",
+                "suppose yes",
+                "suppose"
+            ],
+            "answer": "suppose so",
+            "hint": "Substitution for an affirmative idea.",
+            "voice_input": false,
+            "example_sentence": "I'm not sure if they won, but I suppose so given the cheering.",
+            "media": {}
+        },
+        {
+            "id": "EB2GS2_092",
+            "type": "multiple_choice",
+            "question": "Choose the formal structure: 'Long...'",
+            "options": [
+                "Long live the King!",
+                "Long lives the King!",
+                "Long living the King!"
+            ],
+            "answer": "Long live the King!",
+            "hint": "A fixed subjunctive expression.",
+            "voice_input": false,
+            "example_sentence": "Long live the King!",
+            "media": {}
+        },
+        {
+            "id": "EB2GS2_093",
+            "type": "sentence_ordering",
+            "words": [
+                "asked",
+                "She",
+                "to",
+                "him",
+                "leave",
+                "did",
+                "he",
+                "and",
+                "so"
+            ],
+            "question": "Reorder the words to use 'do so' as substitution.",
+            "answer": "She asked him to leave and he did so",
+            "hint": "Do so = leave.",
+            "voice_input": false,
+            "example_sentence": "She asked him to leave and he did so without any argument.",
+            "media": {}
+        },
+        {
+            "id": "EB2GS2_094",
+            "type": "matching",
+            "question": "Match the substitution phrase with its purpose.",
+            "pairs": [
+                {
+                    "left": "I'm afraid so.",
+                    "right": "Confirming bad news."
+                },
+                {
+                    "left": "I guess not.",
+                    "right": "Negative assumption."
+                },
+                {
+                    "left": "If so,",
+                    "right": "In that case..."
+                },
+                {
+                    "left": "Or so.",
+                    "right": "Approximately."
+                }
+            ],
+            "answer": [
+                {
+                    "left": "I'm afraid so.",
+                    "right": "Confirming bad news."
+                },
+                {
+                    "left": "I guess not.",
+                    "right": "Negative assumption."
+                },
+                {
+                    "left": "If so,",
+                    "right": "In that case..."
+                },
+                {
+                    "left": "Or so.",
+                    "right": "Approximately."
+                }
+            ],
+            "hint": "Abstract substitution phrases.",
+            "voice_input": false,
+            "example_sentence": "'Is the flight cancelled?' 'I'm afraid so.'",
+            "media": {}
+        },
+        {
+            "id": "EB2GS2_095",
+            "type": "pronunciation",
+            "question": "Pronounce: 'Heaven forbid that we should ever have to do this again.'",
+            "answer": "Heaven forbid that we should ever have to do this again.",
+            "hint": "Fixed formulaic subjunctive.",
+            "voice_input": true,
+            "example_sentence": "Heaven forbid that we should ever have to do this again.",
+            "media": {}
+        },
+        {
+            "id": "EB2GS2_096",
+            "type": "tap_fill",
+            "question": "The judge recommended that the defendant ___ a fine.",
+            "options": [
+                "pay",
+                "pays",
+                "paid",
+                "paying"
+            ],
+            "answer": "pay",
+            "hint": "Subjunctive after 'recommended'.",
+            "voice_input": false,
+            "example_sentence": "The judge recommended that the defendant pay a fine instead of going to prison.",
+            "media": {}
+        },
+        {
+            "id": "EB2GS2_097",
+            "type": "multiple_choice",
+            "question": "Choose the correct negative substitution: 'I think it's closed.'",
+            "options": [
+                "I don't think so.",
+                "I think no.",
+                "I think not so."
+            ],
+            "answer": "I don't think so.",
+            "hint": "Standard negative substitution for 'think'.",
+            "voice_input": false,
+            "example_sentence": "I don't think so, because the lights are still on.",
+            "media": {}
+        },
+        {
+            "id": "EB2GS2_098",
+            "type": "sentence_ordering",
+            "words": [
+                "can",
+                "help",
+                "I",
+                "will",
+                "if",
+                "I"
+            ],
+            "question": "Reorder the words for a sentence with auxiliary ellipsis.",
+            "answer": "I will help if I can",
+            "hint": "Shortening the second clause.",
+            "voice_input": false,
+            "example_sentence": "I will help if I can, but I am very busy today.",
+            "media": {}
+        },
+        {
+            "id": "EB2GS2_099",
+            "type": "tap_fill",
+            "question": "Come what ___ , I will always stand by you.",
+            "options": [
+                "may",
+                "will",
+                "can",
+                "might"
+            ],
+            "answer": "may",
+            "hint": "Meaning 'no matter what happens'.",
+            "voice_input": false,
+            "example_sentence": "Come what may, I will always stand by you through thick and thin.",
+            "media": {}
+        },
+        {
+            "id": "EB2GS2_100",
+            "type": "pronunciation",
+            "question": "Pronounce: 'Do you need a lift?' 'If you wouldn't mind.'",
+            "answer": "Do you need a lift? If you wouldn't mind.",
+            "hint": "Polite ellipsis.",
+            "voice_input": true,
+            "example_sentence": "Do you need a lift home? If you wouldn't mind, that would be great.",
+            "media": {}
+        },
+        {
+            "id": "EB2GS2_101",
+            "type": "tap_fill",
+            "question": "The lights are off and their car is gone. They ___ out.",
+            "options": [
+                "must have gone",
+                "should have gone",
+                "can't go",
+                "might go"
+            ],
+            "answer": "must have gone",
+            "hint": "Strong deduction about a past action.",
+            "voice_input": false,
+            "example_sentence": "The lights are off and their car is gone; they must have gone out for dinner.",
+            "media": {}
+        },
+        {
+            "id": "EB2GS2_102",
+            "type": "multiple_choice",
+            "question": "Choose the correct marker for adding a surprising point: '___, the project was finished under budget.'",
+            "options": [
+                "Against all odds",
+                "In addition",
+                "To summarize"
+            ],
+            "answer": "Against all odds",
+            "hint": "Expresses overcoming difficulty.",
+            "voice_input": false,
+            "example_sentence": "Against all odds, the project was finished under budget and ahead of schedule.",
+            "media": {}
+        },
+        {
+            "id": "EB2GS2_103",
+            "type": "sentence_ordering",
+            "words": [
+                "He",
+                "could",
+                "have",
+                "won",
+                "race",
+                "the",
+                "if",
+                "hadn't",
+                "he",
+                "fallen"
+            ],
+            "question": "Reorder the words to express a past possibility that didn't happen.",
+            "answer": "He could have won the race if he hadn't fallen",
+            "hint": "Could have + V3.",
+            "voice_input": false,
+            "example_sentence": "He could have won the race if he hadn't fallen near the finish line.",
+            "media": {}
+        },
+        {
+            "id": "EB2GS2_104",
+            "type": "matching",
+            "question": "Match the discourse markers with their functions.",
+            "pairs": [
+                {
+                    "left": "Furthermore",
+                    "right": "Adding more information."
+                },
+                {
+                    "left": "Nevertheless",
+                    "right": "Introducing a contrast."
+                },
+                {
+                    "left": "Consequently",
+                    "right": "Showing a result."
+                },
+                {
+                    "left": "To put it simply",
+                    "right": "Clarifying a point."
+                }
+            ],
+            "answer": [
+                {
+                    "left": "Furthermore",
+                    "right": "Adding more information."
+                },
+                {
+                    "left": "Nevertheless",
+                    "right": "Introducing a contrast."
+                },
+                {
+                    "left": "Consequently",
+                    "right": "Showing a result."
+                },
+                {
+                    "left": "To put it simply",
+                    "right": "Clarifying a point."
+                }
+            ],
+            "hint": "Connectives for logical flow.",
+            "voice_input": false,
+            "example_sentence": "The cost of living is rising; nevertheless, people continue to spend on luxuries.",
+            "media": {}
+        },
+        {
+            "id": "EB2GS2_105",
+            "type": "pronunciation",
+            "question": "Pronounce: 'She can't have forgotten the meeting; I reminded her this morning.'",
+            "answer": "She can't have forgotten the meeting; I reminded her this morning.",
+            "hint": "Stress 'can't' and 'forgotten'.",
+            "voice_input": true,
+            "example_sentence": "She can't have forgotten the meeting; I reminded her twice this morning.",
+            "media": {}
+        },
+        {
+            "id": "EB2GS2_106",
+            "type": "tap_fill",
+            "question": "He's been working for 12 hours straight. He ___ be exhausted.",
+            "options": [
+                "must",
+                "can't",
+                "might",
+                "should"
+            ],
+            "answer": "must",
+            "hint": "Strong present deduction.",
+            "voice_input": false,
+            "example_sentence": "He's been working for 12 hours straight; he must be exhausted by now.",
+            "media": {}
+        },
+        {
+            "id": "EB2GS2_107",
+            "type": "multiple_choice",
+            "question": "Which modal expresses 'it was a bad idea to do that'?",
+            "options": [
+                "You shouldn't have told him.",
+                "You couldn't have told him.",
+                "You mustn't have told him."
+            ],
+            "answer": "You shouldn't have told him.",
+            "hint": "Past criticism / regret.",
+            "voice_input": false,
+            "example_sentence": "You shouldn't have told him the secret; now everyone knows.",
+            "media": {}
+        },
+        {
+            "id": "EB2GS2_108",
+            "type": "sentence_ordering",
+            "words": [
+                "As",
+                "as",
+                "is",
+                "finance",
+                "concerned",
+                "far",
+                "stable",
+                "everything"
+            ],
+            "question": "Reorder the words to introduce a new topic.",
+            "answer": "As far as finance is concerned everything stable",
+            "hint": "Topic-introducing phrase.",
+            "voice_input": false,
+            "example_sentence": "As far as finance is concerned, everything is currently stable.",
+            "media": {}
+        },
+        {
+            "id": "EB2GS2_109",
+            "type": "matching",
+            "question": "Match the modal deduction with the level of certainty.",
+            "pairs": [
+                {
+                    "left": "It might have been...",
+                    "right": "50% certain (possibility)."
+                },
+                {
+                    "left": "It must have been...",
+                    "right": "95% certain (positive)."
+                },
+                {
+                    "left": "It can't have been...",
+                    "right": "95% certain (negative)."
+                },
+                {
+                    "left": "It should have been...",
+                    "right": "Expectation (unfulfilled)."
+                }
+            ],
+            "answer": [
+                {
+                    "left": "It might have been...",
+                    "right": "50% certain (possibility)."
+                },
+                {
+                    "left": "It must have been...",
+                    "right": "95% certain (positive)."
+                },
+                {
+                    "left": "It can't have been...",
+                    "right": "95% certain (negative)."
+                },
+                {
+                    "left": "It should have been...",
+                    "right": "Expectation (unfulfilled)."
+                }
+            ],
+            "hint": "Degree of probability.",
+            "voice_input": false,
+            "example_sentence": "It can't have been John you saw; he's in Italy this week.",
+            "media": {}
+        },
+        {
+            "id": "EB2GS2_110",
+            "type": "pronunciation",
+            "question": "Pronounce: 'In a nutshell, we need to increase our sales by ten percent.'",
+            "answer": "In a nutshell, we need to increase our sales by ten percent.",
+            "hint": "Idiomatic discourse marker for summarizing.",
+            "voice_input": true,
+            "example_sentence": "In a nutshell, we need to increase our sales by ten percent to meet our targets.",
+            "media": {}
+        },
+        {
+            "id": "EB2GS2_111",
+            "type": "tap_fill",
+            "question": "___ of the bad weather, the festival was a huge success.",
+            "options": [
+                "Regardless",
+                "In spite",
+                "Instead",
+                "Because"
+            ],
+            "answer": "Regardless",
+            "hint": "Often followed by 'of'.",
+            "voice_input": false,
+            "example_sentence": "Regardless of the bad weather, the festival was a huge success.",
+            "media": {}
+        },
+        {
+            "id": "EB2GS2_112",
+            "type": "multiple_choice",
+            "question": "Choose the correct phrase: 'He didn't answer his phone.'",
+            "options": [
+                "He might have been sleeping.",
+                "He must be sleep.",
+                "He can't to have heard."
+            ],
+            "answer": "He might have been sleeping.",
+            "hint": "Past continuous deduction.",
+            "voice_input": false,
+            "example_sentence": "He didn't answer his phone; he might have been sleeping.",
+            "media": {}
+        },
+        {
+            "id": "EB2GS2_113",
+            "type": "sentence_ordering",
+            "words": [
+                "and",
+                "is",
+                "project",
+                "By",
+                "large",
+                "the",
+                "successful",
+                "been",
+                "has"
+            ],
+            "question": "Reorder the words to use 'by and large'.",
+            "answer": "By and large the project has been successful",
+            "hint": "Meaning: 'Generally speaking'.",
+            "voice_input": false,
+            "example_sentence": "By and large, the project has been successful despite initial delays.",
+            "media": {}
+        },
+        {
+            "id": "EB2GS2_114",
+            "type": "matching",
+            "question": "Match the sequence markers to their logical order.",
+            "pairs": [
+                {
+                    "left": "First and foremost",
+                    "right": "The most important point."
+                },
+                {
+                    "left": "Moving on to",
+                    "right": "Changing the topic."
+                },
+                {
+                    "left": "Last but not least",
+                    "right": "The final point."
+                },
+                {
+                    "left": "Furthermore",
+                    "right": "Adding a similar point."
+                }
+            ],
+            "answer": [
+                {
+                    "left": "First and foremost",
+                    "right": "The most important point."
+                },
+                {
+                    "left": "Moving on to",
+                    "right": "Changing the topic."
+                },
+                {
+                    "left": "Last but not least",
+                    "right": "The final point."
+                },
+                {
+                    "left": "Furthermore",
+                    "right": "Adding a similar point."
+                }
+            ],
+            "hint": "Presentation structure.",
+            "voice_input": false,
+            "example_sentence": "First and foremost, we must ensure safety in the workplace.",
+            "media": {}
+        },
+        {
+            "id": "EB2GS2_115",
+            "type": "pronunciation",
+            "question": "Pronounce: 'I may have made a mistake, but I am willing to fix it.'",
+            "answer": "I may have made a mistake, but I am willing to fix it.",
+            "hint": "Stress 'may' and 'willing'.",
+            "voice_input": true,
+            "example_sentence": "I may have made a mistake, but I am willing to fix it immediately.",
+            "media": {}
+        },
+        {
+            "id": "EB2GS2_116",
+            "type": "tap_fill",
+            "question": "You ___ seen Mark at the gym; he's been abroad for months.",
+            "options": [
+                "can't have",
+                "mustn't have",
+                "couldn't",
+                "might not have"
+            ],
+            "answer": "can't have",
+            "hint": "Strong negative deduction about the past.",
+            "voice_input": false,
+            "example_sentence": "You can't have seen Mark at the gym; he's been abroad for months.",
+            "media": {}
+        },
+        {
+            "id": "EB2GS2_117",
+            "type": "multiple_choice",
+            "question": "Which marker is used to correct yourself? 'It will take two hours, ___ three.'",
+            "options": [
+                "or rather",
+                "moreover",
+                "alternatively"
+            ],
+            "answer": "or rather",
+            "hint": "Used for refining a statement.",
+            "voice_input": false,
+            "example_sentence": "It will take two hours, or rather three, to finish this task.",
+            "media": {}
+        },
+        {
+            "id": "EB2GS2_118",
+            "type": "sentence_ordering",
+            "words": [
+                "have",
+                "You",
+                "ought",
+                "told",
+                "to",
+                "me",
+                "truth",
+                "the"
+            ],
+            "question": "Reorder the words for a sentence about unfulfilled obligation.",
+            "answer": "You ought to have told me the truth",
+            "hint": "Ought to have + V3.",
+            "voice_input": false,
+            "example_sentence": "You ought to have told me the truth from the beginning.",
+            "media": {}
+        },
+        {
+            "id": "EB2GS2_119",
+            "type": "tap_fill",
+            "question": "The software is expensive; ___, it is essential for our work.",
+            "options": [
+                "nonetheless",
+                "so",
+                "because",
+                "similarly"
+            ],
+            "answer": "nonetheless",
+            "hint": "Meaning 'despite that'.",
+            "voice_input": false,
+            "example_sentence": "The software is expensive; nonetheless, it is essential for our daily work.",
+            "media": {}
+        },
+        {
+            "id": "EB2GS2_120",
+            "type": "pronunciation",
+            "question": "Pronounce: 'They might have been delayed by the heavy traffic on the M1.'",
+            "answer": "They might have been delayed by the heavy traffic on the M1.",
+            "hint": "Deduction using 'might have been' + passive.",
+            "voice_input": true,
+            "example_sentence": "They might have been delayed by the heavy traffic on the M1.",
+            "media": {}
+        },
+        {
+            "id": "EB2GS2_121",
+            "type": "tap_fill",
+            "question": "The suspect is believed ___ the country several days ago.",
+            "options": [
+                "to have left",
+                "to leave",
+                "having left",
+                "to be leaving"
+            ],
+            "answer": "to have left",
+            "hint": "Personal passive referring to the past.",
+            "voice_input": false,
+            "example_sentence": "The suspect is believed to have left the country several days ago.",
+            "media": {}
+        },
+        {
+            "id": "EB2GS2_122",
+            "type": "multiple_choice",
+            "question": "Which sentence expresses a regret about a current situation?",
+            "options": [
+                "I wish I lived in a warmer climate.",
+                "I wish I had lived in a warmer climate.",
+                "I wish I would live in a warmer climate."
+            ],
+            "answer": "I wish I lived in a warmer climate.",
+            "hint": "Wish + past simple for present regret.",
+            "voice_input": false,
+            "example_sentence": "I wish I lived in a warmer climate, especially during the winter months.",
+            "media": {}
+        },
+        {
+            "id": "EB2GS2_123",
+            "type": "sentence_ordering",
+            "words": [
+                "It",
+                "that",
+                "is",
+                "inflation",
+                "thought",
+                "will",
+                "continue",
+                "rise",
+                "to"
+            ],
+            "question": "Reorder the words to form an impersonal passive structure.",
+            "answer": "It is thought that inflation will continue to rise",
+            "hint": "Common in news reporting.",
+            "voice_input": false,
+            "example_sentence": "It is thought that inflation will continue to rise throughout the next quarter.",
+            "media": {}
+        },
+        {
+            "id": "EB2GS2_124",
+            "type": "matching",
+            "question": "Match the 'wish' structures with their specific meanings.",
+            "pairs": [
+                {
+                    "left": "Wish + Past Simple",
+                    "right": "Regret about the present."
+                },
+                {
+                    "left": "Wish + Past Perfect",
+                    "right": "Regret about the past."
+                },
+                {
+                    "left": "Wish + Would",
+                    "right": "Annoyance with someone's habit."
+                },
+                {
+                    "left": "Wish + Could",
+                    "right": "Regret about lack of ability."
+                }
+            ],
+            "answer": [
+                {
+                    "left": "Wish + Past Simple",
+                    "right": "Regret about the present."
+                },
+                {
+                    "left": "Wish + Past Perfect",
+                    "right": "Regret about the past."
+                },
+                {
+                    "left": "Wish + Would",
+                    "right": "Annoyance with someone's habit."
+                },
+                {
+                    "left": "Wish + Could",
+                    "right": "Regret about lack of ability."
+                }
+            ],
+            "hint": "Focus on the time and emotion.",
+            "voice_input": false,
+            "example_sentence": "I wish you would stop whistling; it's very distracting.",
+            "media": {}
+        },
+        {
+            "id": "EB2GS2_125",
+            "type": "pronunciation",
+            "question": "Pronounce: 'He is reported to have been working on a secret project.'",
+            "answer": "He is reported to have been working on a secret project.",
+            "hint": "Passive + perfect continuous infinitive.",
+            "voice_input": true,
+            "example_sentence": "He is reported to have been working on a secret project for over a year.",
+            "media": {}
+        },
+        {
+            "id": "EB2GS2_126",
+            "type": "tap_fill",
+            "question": "If only I ___ that job offer when I had the chance!",
+            "options": [
+                "had accepted",
+                "accepted",
+                "would accept",
+                "accept"
+            ],
+            "answer": "had accepted",
+            "hint": "Strong regret about the past.",
+            "voice_input": false,
+            "example_sentence": "If only I had accepted that job offer when I had the chance!",
+            "media": {}
+        },
+        {
+            "id": "EB2GS2_127",
+            "type": "multiple_choice",
+            "question": "Choose the correct reporting structure: 'They say he is a genius.'",
+            "options": [
+                "He is said to be a genius.",
+                "He says to be a genius.",
+                "It says that he is a genius."
+            ],
+            "answer": "He is said to be a genius.",
+            "hint": "Personal passive (Subject + be + V3 + to infinitive).",
+            "voice_input": false,
+            "example_sentence": "He is said to be a genius in the field of quantum physics.",
+            "media": {}
+        },
+        {
+            "id": "EB2GS2_128",
+            "type": "sentence_ordering",
+            "words": [
+                "wish",
+                "you",
+                "I",
+                "wouldn't",
+                "interrupting",
+                "keep",
+                "me"
+            ],
+            "question": "Reorder the words to express frustration with a habit.",
+            "answer": "I wish you wouldn't keep interrupting me",
+            "hint": "Wish + would for behavior.",
+            "voice_input": false,
+            "example_sentence": "I wish you wouldn't keep interrupting me while I'm on the phone.",
+            "media": {}
+        },
+        {
+            "id": "EB2GS2_129",
+            "type": "matching",
+            "question": "Match the passive verbs with their typical reporting contexts.",
+            "pairs": [
+                {
+                    "left": "Alleged",
+                    "right": "In legal/crime reports."
+                },
+                {
+                    "left": "Estimated",
+                    "right": "In financial/data reports."
+                },
+                {
+                    "left": "Rumored",
+                    "right": "In social/gossip contexts."
+                },
+                {
+                    "left": "Considered",
+                    "right": "In academic/opinion contexts."
+                }
+            ],
+            "answer": [
+                {
+                    "left": "Alleged",
+                    "right": "In legal/crime reports."
+                },
+                {
+                    "left": "Estimated",
+                    "right": "In financial/data reports."
+                },
+                {
+                    "left": "Rumored",
+                    "right": "In social/gossip contexts."
+                },
+                {
+                    "left": "Considered",
+                    "right": "In academic/opinion contexts."
+                }
+            ],
+            "hint": "Vocabulary nuances.",
+            "voice_input": false,
+            "example_sentence": "The cost of the damage is estimated to be over a million dollars.",
+            "media": {}
+        },
+        {
+            "id": "EB2GS2_130",
+            "type": "pronunciation",
+            "question": "Pronounce: 'If only we had more time to finish the presentation.'",
+            "answer": "If only we had more time to finish the presentation.",
+            "hint": "Expressing a current lack of something.",
+            "voice_input": true,
+            "example_sentence": "If only we had more time to finish the presentation, it would be perfect.",
+            "media": {}
+        },
+        {
+            "id": "EB2GS2_131",
+            "type": "tap_fill",
+            "question": "The ruins are understood ___ back to the 12th century.",
+            "options": [
+                "to date",
+                "dating",
+                "to have dated",
+                "dated"
+            ],
+            "answer": "to date",
+            "hint": "Present fact about the subject.",
+            "voice_input": false,
+            "example_sentence": "The ruins are understood to date back to the 12th century.",
+            "media": {}
+        },
+        {
+            "id": "EB2GS2_132",
+            "type": "multiple_choice",
+            "question": "Which sentence indicates that something was expected but didn't happen?",
+            "options": [
+                "The meeting was to have started at ten.",
+                "The meeting was starting at ten.",
+                "The meeting had started at ten."
+            ],
+            "answer": "The meeting was to have started at ten.",
+            "hint": "Was/were + to have + V3.",
+            "voice_input": false,
+            "example_sentence": "The meeting was to have started at ten, but the CEO was delayed.",
+            "media": {}
+        },
+        {
+            "id": "EB2GS2_133",
+            "type": "sentence_ordering",
+            "words": [
+                "I",
+                "wish",
+                "hadn't",
+                "I",
+                "spent",
+                "so",
+                "money",
+                "much",
+                "yesterday"
+            ],
+            "question": "Reorder the words to express a past regret.",
+            "answer": "I wish I hadn't spent so much money yesterday",
+            "hint": "Wish + past perfect.",
+            "voice_input": false,
+            "example_sentence": "I wish I hadn't spent so much money yesterday at the mall.",
+            "media": {}
+        },
+        {
+            "id": "EB2GS2_134",
+            "type": "matching",
+            "question": "Match the passive structure to the timeframe it describes.",
+            "pairs": [
+                {
+                    "left": "He is said to live...",
+                    "right": "Current state."
+                },
+                {
+                    "left": "He is said to be living...",
+                    "right": "Action in progress now."
+                },
+                {
+                    "left": "He is said to have lived...",
+                    "right": "Past state/action."
+                },
+                {
+                    "left": "He is said to have been living...",
+                    "right": "Past ongoing action."
+                }
+            ],
+            "answer": [
+                {
+                    "left": "He is said to live...",
+                    "right": "Current state."
+                },
+                {
+                    "left": "He is said to be living...",
+                    "right": "Action in progress now."
+                },
+                {
+                    "left": "He is said to have lived...",
+                    "right": "Past state/action."
+                },
+                {
+                    "left": "He is said to have been living...",
+                    "right": "Past ongoing action."
+                }
+            ],
+            "hint": "Infinitive variety.",
+            "voice_input": false,
+            "example_sentence": "He is said to have been living in Paris before he moved here.",
+            "media": {}
+        },
+        {
+            "id": "EB2GS2_135",
+            "type": "pronunciation",
+            "question": "Pronounce: 'I wish I could help you, but I'm swamped with work.'",
+            "answer": "I wish I could help you, but I'm swamped with work.",
+            "hint": "Stress 'wish', 'could', and 'swamped'.",
+            "voice_input": true,
+            "example_sentence": "I wish I could help you with the move, but I'm swamped with work.",
+            "media": {}
+        },
+        {
+            "id": "EB2GS2_136",
+            "type": "tap_fill",
+            "question": "It ___ that the new highway will be completed by next year.",
+            "options": [
+                "is expected",
+                "is expecting",
+                "expects",
+                "is been expected"
+            ],
+            "answer": "is expected",
+            "hint": "Impersonal passive with 'It'.",
+            "voice_input": false,
+            "example_sentence": "It is expected that the new highway will be completed by next year.",
+            "media": {}
+        },
+        {
+            "id": "EB2GS2_137",
+            "type": "multiple_choice",
+            "question": "Choose the correct form for an impossible wish: 'I wish I ___ fly.'",
+            "options": [
+                "could",
+                "can",
+                "would"
+            ],
+            "answer": "could",
+            "hint": "Ability wish.",
+            "voice_input": false,
+            "example_sentence": "I wish I could fly so I could avoid the morning traffic.",
+            "media": {}
+        },
+        {
+            "id": "EB2GS2_138",
+            "type": "sentence_ordering",
+            "words": [
+                "The",
+                "is",
+                "company",
+                "alleged",
+                "to",
+                "tax",
+                "evaded",
+                "have"
+            ],
+            "question": "Reorder the words to use the 'alleged' passive.",
+            "answer": "The company is alleged to have evaded tax",
+            "hint": "Serious accusation.",
+            "voice_input": false,
+            "example_sentence": "The company is alleged to have evaded tax for several years.",
+            "media": {}
+        },
+        {
+            "id": "EB2GS2_139",
+            "type": "tap_fill",
+            "question": "I wish you ___ stop checking your phone during dinner.",
+            "options": [
+                "would",
+                "could",
+                "had",
+                "will"
+            ],
+            "answer": "would",
+            "hint": "Expressing annoyance.",
+            "voice_input": false,
+            "example_sentence": "I wish you would stop checking your phone during dinner; it's quite rude.",
+            "media": {}
+        },
+        {
+            "id": "EB2GS2_140",
+            "type": "pronunciation",
+            "question": "Pronounce: 'The painting is thought to be a genuine Van Gogh.'",
+            "answer": "The painting is thought to be a genuine Van Gogh.",
+            "hint": "Stress 'thought' and 'genuine'.",
+            "voice_input": true,
+            "example_sentence": "The painting is thought to be a genuine Van Gogh and is worth millions.",
+            "media": {}
+        },
+        {
+            "id": "EB2GS2_141",
+            "type": "tap_fill",
+            "question": "I have two sisters, but ___ of them live in this city.",
+            "options": [
+                "neither",
+                "none",
+                "either",
+                "no one"
+            ],
+            "answer": "neither",
+            "hint": "Used for two people/things.",
+            "voice_input": false,
+            "example_sentence": "I have two sisters, but neither of them live in this city anymore.",
+            "media": {}
+        },
+        {
+            "id": "EB2GS2_142",
+            "type": "multiple_choice",
+            "question": "Which sentence correctly uses 'every' to mean 'all in a group'?",
+            "options": [
+                "Every student has their own locker.",
+                "Each students have their own locker.",
+                "Every students has their own locker."
+            ],
+            "answer": "Every student has their own locker.",
+            "hint": "Every + singular noun + singular verb.",
+            "voice_input": false,
+            "example_sentence": "Every student has their own locker in the hallway.",
+            "media": {}
+        },
+        {
+            "id": "EB2GS2_143",
+            "type": "sentence_ordering",
+            "words": [
+                "You",
+                "can",
+                "either",
+                "take",
+                "the",
+                "bus",
+                "walk",
+                "home",
+                "or"
+            ],
+            "question": "Reorder the words to use 'either... or'.",
+            "answer": "You can either take the bus or walk home",
+            "hint": "Offering two choices.",
+            "voice_input": false,
+            "example_sentence": "You can either take the bus or walk home; it's up to you.",
+            "media": {}
+        },
+        {
+            "id": "EB2GS2_144",
+            "type": "matching",
+            "question": "Match the quantifiers with their correct usage.",
+            "pairs": [
+                {
+                    "left": "None of",
+                    "right": "Zero out of three or more."
+                },
+                {
+                    "left": "Neither of",
+                    "right": "Zero out of two."
+                },
+                {
+                    "left": "Both of",
+                    "right": "Two out of two."
+                },
+                {
+                    "left": "All of",
+                    "right": "The total group."
+                }
+            ],
+            "answer": [
+                {
+                    "left": "None of",
+                    "right": "Zero out of three or more."
+                },
+                {
+                    "left": "Neither of",
+                    "right": "Zero out of two."
+                },
+                {
+                    "left": "Both of",
+                    "right": "Two out of two."
+                },
+                {
+                    "left": "All of",
+                    "right": "The total group."
+                }
+            ],
+            "hint": "Focus on the number of items.",
+            "voice_input": false,
+            "example_sentence": "None of the applicants met the specific requirements.",
+            "media": {}
+        },
+        {
+            "id": "EB2GS2_145",
+            "type": "pronunciation",
+            "question": "Pronounce: 'Neither the manager nor the employees were happy with the new policy.'",
+            "answer": "Neither the manager nor the employees were happy with the new policy.",
+            "hint": "Stress 'Neither', 'nor', and 'happy'.",
+            "voice_input": true,
+            "example_sentence": "Neither the manager nor the employees were happy with the new policy.",
+            "media": {}
+        },
+        {
+            "id": "EB2GS2_146",
+            "type": "tap_fill",
+            "question": "___ of the five candidates was suitable for the position.",
+            "options": [
+                "None",
+                "Neither",
+                "No",
+                "Either"
+            ],
+            "answer": "None",
+            "hint": "Use for a group of more than two.",
+            "voice_input": false,
+            "example_sentence": "None of the five candidates was suitable for the senior position.",
+            "media": {}
+        },
+        {
+            "id": "EB2GS2_147",
+            "type": "multiple_choice",
+            "question": "Choose the correct article use for a general class: '___ computer has changed the world.'",
+            "options": [
+                "The",
+                "A",
+                "An"
+            ],
+            "answer": "The",
+            "hint": "'The' + singular noun can represent a whole invention/species.",
+            "voice_input": false,
+            "example_sentence": "The computer has changed the world more than any other invention.",
+            "media": {}
+        },
+        {
+            "id": "EB2GS2_148",
+            "type": "sentence_ordering",
+            "words": [
+                "was",
+                "Each",
+                "given",
+                "participant",
+                "folder",
+                "a",
+                "of",
+                "documents"
+            ],
+            "question": "Reorder the words to use 'each' for individual focus.",
+            "answer": "Each participant was given a folder of documents",
+            "hint": "Focusing on members one by one.",
+            "voice_input": false,
+            "example_sentence": "Each participant was given a folder of documents at the start.",
+            "media": {}
+        },
+        {
+            "id": "EB2GS2_149",
+            "type": "matching",
+            "question": "Match the article scenarios with the correct rule.",
+            "pairs": [
+                {
+                    "left": "The blind",
+                    "right": "A specific group of people."
+                },
+                {
+                    "left": "The life",
+                    "right": "Specific (e.g., the life of a bird)."
+                },
+                {
+                    "left": "Life",
+                    "right": "Abstract/General (e.g., Life is hard)."
+                },
+                {
+                    "left": "The Nile",
+                    "right": "Names of rivers."
+                }
+            ],
+            "answer": [
+                {
+                    "left": "The blind",
+                    "right": "A specific group of people."
+                },
+                {
+                    "left": "The life",
+                    "right": "Specific (e.g., the life of a bird)."
+                },
+                {
+                    "left": "Life",
+                    "right": "Abstract/General (e.g., Life is hard)."
+                },
+                {
+                    "left": "The Nile",
+                    "right": "Names of rivers."
+                }
+            ],
+            "hint": "Zero article vs. Definite article.",
+            "voice_input": false,
+            "example_sentence": "The government is trying to help the unemployed.",
+            "media": {}
+        },
+        {
+            "id": "EB2GS2_150",
+            "type": "pronunciation",
+            "question": "Pronounce: 'I don't like either of these options, to be honest.'",
+            "answer": "I don't like either of these options, to be honest.",
+            "hint": "Either can be pronounced 'ee-ther' or 'eye-ther'.",
+            "voice_input": true,
+            "example_sentence": "I don't like either of these options, to be honest with you.",
+            "media": {}
+        },
+        {
+            "id": "EB2GS2_151",
+            "type": "tap_fill",
+            "question": "___ day I spend here, I like the city more.",
+            "options": [
+                "Each",
+                "All",
+                "Whole",
+                "Every"
+            ],
+            "answer": "Each",
+            "hint": "Often used for a series of individual days.",
+            "voice_input": false,
+            "example_sentence": "Each day I spend here, I like the city more and more.",
+            "media": {}
+        },
+        {
+            "id": "EB2GS2_152",
+            "type": "multiple_choice",
+            "question": "Choose the correct sentence for 'neither' used as a conjunction.",
+            "options": [
+                "Neither he nor I could believe it.",
+                "Neither he or I could believe it.",
+                "Either he nor I could believe it."
+            ],
+            "answer": "Neither he nor I could believe it.",
+            "hint": "Neither goes with nor.",
+            "voice_input": false,
+            "example_sentence": "Neither he nor I could believe what had happened.",
+            "media": {}
+        },
+        {
+            "id": "EB2GS2_153",
+            "type": "sentence_ordering",
+            "words": [
+                "Happiness",
+                "than",
+                "is",
+                "important",
+                "more",
+                "money"
+            ],
+            "question": "Reorder the words to discuss a general concept.",
+            "answer": "Happiness is more important than money",
+            "hint": "Abstract nouns usually have no article.",
+            "voice_input": false,
+            "example_sentence": "Happiness is more important than money for most people.",
+            "media": {}
+        },
+        {
+            "id": "EB2GS2_154",
+            "type": "matching",
+            "question": "Match the quantifiers to their verb agreement.",
+            "pairs": [
+                {
+                    "left": "Neither of them",
+                    "right": "Singular verb (is/has)."
+                },
+                {
+                    "left": "Both of them",
+                    "right": "Plural verb (are/have)."
+                },
+                {
+                    "left": "Every one of us",
+                    "right": "Singular verb (is/has)."
+                },
+                {
+                    "left": "All of them",
+                    "right": "Plural verb (are/have)."
+                }
+            ],
+            "answer": [
+                {
+                    "left": "Neither of them",
+                    "right": "Singular verb (is/has)."
+                },
+                {
+                    "left": "Both of them",
+                    "right": "Plural verb (are/have)."
+                },
+                {
+                    "left": "Every one of us",
+                    "right": "Singular verb (is/has)."
+                },
+                {
+                    "left": "All of them",
+                    "right": "Plural verb (are/have)."
+                }
+            ],
+            "hint": "Formal grammar rules.",
+            "voice_input": false,
+            "example_sentence": "Every one of us has a responsibility to help.",
+            "media": {}
+        },
+        {
+            "id": "EB2GS2_155",
+            "type": "pronunciation",
+            "question": "Pronounce: 'The rich should do more to help the poor in our society.'",
+            "answer": "The rich should do more to help the poor in our society.",
+            "hint": "Article + adjective to describe a group.",
+            "voice_input": true,
+            "example_sentence": "The rich should do more to help the poor in our society.",
+            "media": {}
+        },
+        {
+            "id": "EB2GS2_156",
+            "type": "tap_fill",
+            "question": "I've read ___ book on this shelf over the last year.",
+            "options": [
+                "every",
+                "all",
+                "each",
+                "whole"
+            ],
+            "answer": "every",
+            "hint": "Used for a large, indefinite number.",
+            "voice_input": false,
+            "example_sentence": "I've read every book on this shelf over the last year.",
+            "media": {}
+        },
+        {
+            "id": "EB2GS2_157",
+            "type": "multiple_choice",
+            "question": "Identify the error: 'None of the two options is good.'",
+            "options": [
+                "Use 'Neither' instead of 'None'.",
+                "Use 'No' instead of 'None'.",
+                "Use 'Either' instead of 'None'."
+            ],
+            "answer": "Use 'Neither' instead of 'None'.",
+            "hint": "When there are only two, 'neither' is the correct choice.",
+            "voice_input": false,
+            "example_sentence": "Neither of the two options is good for our budget.",
+            "media": {}
+        },
+        {
+            "id": "EB2GS2_158",
+            "type": "sentence_ordering",
+            "words": [
+                "Internet",
+                "The",
+                "how",
+                "communicate",
+                "changed",
+                "has",
+                "we"
+            ],
+            "question": "Reorder the words for a sentence about technology.",
+            "answer": "The Internet has changed how we communicate",
+            "hint": "The + Internet.",
+            "voice_input": false,
+            "example_sentence": "The Internet has fundamentally changed how we communicate.",
+            "media": {}
+        },
+        {
+            "id": "EB2GS2_159",
+            "type": "tap_fill",
+            "question": "You can have ___ tea or coffee; we have both.",
+            "options": [
+                "either",
+                "neither",
+                "both",
+                "none"
+            ],
+            "answer": "either",
+            "hint": "Choice between two.",
+            "voice_input": false,
+            "example_sentence": "You can have either tea or coffee; we have both in the kitchen.",
+            "media": {}
+        },
+        {
+            "id": "EB2GS2_160",
+            "type": "pronunciation",
+            "question": "Pronounce: 'Each of the students has to submit the assignment by Friday.'",
+            "answer": "Each of the students has to submit the assignment by Friday.",
+            "hint": "Careful with the singular verb 'has'.",
+            "voice_input": true,
+            "example_sentence": "Each of the students has to submit the assignment by Friday.",
+            "media": {}
+        },
+        {
+            "id": "EB2GS2_161",
+            "type": "tap_fill",
+            "question": "I'll lend you the money ___ you pay me back by next month.",
+            "options": [
+                "provided that",
+                "unless",
+                "in case",
+                "as if"
+            ],
+            "answer": "provided that",
+            "hint": "Expresses a specific condition.",
+            "voice_input": false,
+            "example_sentence": "I'll lend you the money provided that you pay me back by next month.",
+            "media": {}
+        },
+        {
+            "id": "EB2GS2_162",
+            "type": "multiple_choice",
+            "question": "Which participial clause correctly replaces: 'Because he had finished his work, he went home'?",
+            "options": [
+                "Having finished his work, he went home.",
+                "Finished his work, he went home.",
+                "To have finished his work, he went home."
+            ],
+            "answer": "Having finished his work, he went home.",
+            "hint": "Perfect participle for completed actions.",
+            "voice_input": false,
+            "example_sentence": "Having finished his work, he went home earlier than usual.",
+            "media": {}
+        },
+        {
+            "id": "EB2GS2_163",
+            "type": "sentence_ordering",
+            "words": [
+                "We",
+                "be",
+                "won't",
+                "able",
+                "to",
+                "go",
+                "unless",
+                "stops",
+                "it",
+                "raining"
+            ],
+            "question": "Reorder the words for a condition using 'unless'.",
+            "answer": "We won't be able to go unless it stops raining",
+            "hint": "Unless = if not.",
+            "voice_input": false,
+            "example_sentence": "We won't be able to go for a hike unless it stops raining soon.",
+            "media": {}
+        },
+        {
+            "id": "EB2GS2_164",
+            "type": "matching",
+            "question": "Match the conditional linkers with their meanings.",
+            "pairs": [
+                {
+                    "left": "In case",
+                    "right": "Preparation for a possibility."
+                },
+                {
+                    "left": "As long as",
+                    "right": "A continuing condition."
+                },
+                {
+                    "left": "Unless",
+                    "right": "Except if."
+                },
+                {
+                    "left": "Even if",
+                    "right": "Whether or not the condition is met."
+                }
+            ],
+            "answer": [
+                {
+                    "left": "In case",
+                    "right": "Preparation for a possibility."
+                },
+                {
+                    "left": "As long as",
+                    "right": "A continuing condition."
+                },
+                {
+                    "left": "Unless",
+                    "right": "Except if."
+                },
+                {
+                    "left": "Even if",
+                    "right": "Whether or not the condition is met."
+                }
+            ],
+            "hint": "Logical connections.",
+            "voice_input": false,
+            "example_sentence": "Take an umbrella in case it rains later.",
+            "media": {}
+        },
+        {
+            "id": "EB2GS2_165",
+            "type": "pronunciation",
+            "question": "Pronounce: 'Not wanting to wake the baby, she tiptoed out of the room.'",
+            "answer": "Not wanting to wake the baby, she tiptoed out of the room.",
+            "hint": "Negative present participle clause.",
+            "voice_input": true,
+            "example_sentence": "Not wanting to wake the baby, she tiptoed out of the room.",
+            "media": {}
+        },
+        {
+            "id": "EB2GS2_166",
+            "type": "tap_fill",
+            "question": "___ you are careful, you can use my camera.",
+            "options": [
+                "As long as",
+                "Unless",
+                "In case",
+                "Otherwise"
+            ],
+            "answer": "As long as",
+            "hint": "Similar to 'on the condition that'.",
+            "voice_input": false,
+            "example_sentence": "As long as you are careful, you can use my camera for your project.",
+            "media": {}
+        },
+        {
+            "id": "EB2GS2_167",
+            "type": "multiple_choice",
+            "question": "Choose the correct sentence for a 'precaution'.",
+            "options": [
+                "I'll take a coat in case it gets cold.",
+                "I'll take a coat if it gets cold.",
+                "I'll take a coat unless it gets cold."
+            ],
+            "answer": "I'll take a coat in case it gets cold.",
+            "hint": "You take the coat before it gets cold.",
+            "voice_input": false,
+            "example_sentence": "I'll take a coat in case it gets cold in the evening.",
+            "media": {}
+        },
+        {
+            "id": "EB2GS2_168",
+            "type": "sentence_ordering",
+            "words": [
+                "Built",
+                "in",
+                "the",
+                "19th",
+                "century",
+                "the",
+                "house",
+                "needs",
+                "repairs"
+            ],
+            "question": "Reorder the words for a passive participial clause.",
+            "answer": "Built in the 19th century the house needs repairs",
+            "hint": "Past participle for passive meaning.",
+            "voice_input": false,
+            "example_sentence": "Built in the 19th century, the house now needs extensive repairs.",
+            "media": {}
+        },
+        {
+            "id": "EB2GS2_169",
+            "type": "matching",
+            "question": "Match the participle types to their function.",
+            "pairs": [
+                {
+                    "left": "Present (-ing)",
+                    "right": "Active/Simultaneous action."
+                },
+                {
+                    "left": "Past (-ed/V3)",
+                    "right": "Passive state/result."
+                },
+                {
+                    "left": "Perfect (Having + V3)",
+                    "right": "Action completed before another."
+                },
+                {
+                    "left": "Being + V3",
+                    "right": "Continuous passive."
+                }
+            ],
+            "answer": [
+                {
+                    "left": "Present (-ing)",
+                    "right": "Active/Simultaneous action."
+                },
+                {
+                    "left": "Past (-ed/V3)",
+                    "right": "Passive state/result."
+                },
+                {
+                    "left": "Perfect (Having + V3)",
+                    "right": "Action completed before another."
+                },
+                {
+                    "left": "Being + V3",
+                    "right": "Continuous passive."
+                }
+            ],
+            "hint": "Timing and voice.",
+            "voice_input": false,
+            "example_sentence": "Being watched by the crowd, the athlete felt nervous.",
+            "media": {}
+        },
+        {
+            "id": "EB2GS2_170",
+            "type": "pronunciation",
+            "question": "Pronounce: 'Provided that everyone agrees, we will move the deadline to next Monday.'",
+            "answer": "Provided that everyone agrees, we will move the deadline to next Monday.",
+            "hint": "Stress 'Provided' and 'agrees'.",
+            "voice_input": true,
+            "example_sentence": "Provided that everyone agrees, we will move the deadline to next Monday.",
+            "media": {}
+        },
+        {
+            "id": "EB2GS2_171",
+            "type": "tap_fill",
+            "question": "___ by the news, she couldn't speak for a moment.",
+            "options": [
+                "Shocked",
+                "Shocking",
+                "Having shocked",
+                "Being shocking"
+            ],
+            "answer": "Shocked",
+            "hint": "Passive/State participle.",
+            "voice_input": false,
+            "example_sentence": "Shocked by the news, she couldn't speak for a moment.",
+            "media": {}
+        },
+        {
+            "id": "EB2GS2_172",
+            "type": "multiple_choice",
+            "question": "Which sentence is more formal? 'Because I didn't know the way...'",
+            "options": [
+                "Not knowing the way, I got lost.",
+                "I didn't know the way so I got lost.",
+                "I got lost because I didn't know the way."
+            ],
+            "answer": "Not knowing the way, I got lost.",
+            "hint": "Participial clauses are common in formal writing.",
+            "voice_input": false,
+            "example_sentence": "Not knowing the way, I got lost in the city center.",
+            "media": {}
+        },
+        {
+            "id": "EB2GS2_173",
+            "type": "sentence_ordering",
+            "words": [
+                "Leave",
+                "now",
+                "otherwise",
+                "you",
+                "will",
+                "miss",
+                "the",
+                "train"
+            ],
+            "question": "Reorder the words to use 'otherwise'.",
+            "answer": "Leave now otherwise you will miss the train",
+            "hint": "Otherwise = or else.",
+            "voice_input": false,
+            "example_sentence": "Leave now; otherwise, you will miss the last train home.",
+            "media": {}
+        },
+        {
+            "id": "EB2GS2_174",
+            "type": "matching",
+            "question": "Match the linker to the correct grammatical structure.",
+            "pairs": [
+                {
+                    "left": "Supposing",
+                    "right": "Used in questions (Supposing he says no?)."
+                },
+                {
+                    "left": "But for",
+                    "right": "+ Noun (But for your help...)."
+                },
+                {
+                    "left": "In case of",
+                    "right": "+ Noun (In case of emergency...)."
+                },
+                {
+                    "left": "Only if",
+                    "right": "Often triggers inversion (Only if... will I)."
+                }
+            ],
+            "answer": [
+                {
+                    "left": "Supposing",
+                    "right": "Used in questions (Supposing he says no?)."
+                },
+                {
+                    "left": "But for",
+                    "right": "+ Noun (But for your help...)."
+                },
+                {
+                    "left": "In case of",
+                    "right": "+ Noun (In case of emergency...)."
+                },
+                {
+                    "left": "Only if",
+                    "right": "Often triggers inversion (Only if... will I)."
+                }
+            ],
+            "hint": "Advanced conditional variations.",
+            "voice_input": false,
+            "example_sentence": "But for your help, I wouldn't have finished the project.",
+            "media": {}
+        },
+        {
+            "id": "EB2GS2_175",
+            "type": "pronunciation",
+            "question": "Pronounce: 'Having been warned about the traffic, we left early.'",
+            "answer": "Having been warned about the traffic, we left early.",
+            "hint": "Perfect passive participle.",
+            "voice_input": true,
+            "example_sentence": "Having been warned about the traffic, we left early for the airport.",
+            "media": {}
+        },
+        {
+            "id": "EB2GS2_176",
+            "type": "tap_fill",
+            "question": "___ down the street, I ran into an old friend.",
+            "options": [
+                "Walking",
+                "Walked",
+                "To walk",
+                "Having walked"
+            ],
+            "answer": "Walking",
+            "hint": "Action happening at the same time as the main verb.",
+            "voice_input": false,
+            "example_sentence": "Walking down the street, I ran into an old friend from high school.",
+            "media": {}
+        },
+        {
+            "id": "EB2GS2_177",
+            "type": "multiple_choice",
+            "question": "Which sentence correctly uses 'as long as' for a promise?",
+            "options": [
+                "I'll help you as long as you promise to try your best.",
+                "I'll help you in case you promise to try your best.",
+                "I'll help you unless you promise to try your best."
+            ],
+            "answer": "I'll help you as long as you promise to try your best.",
+            "hint": "Condition for the future action.",
+            "voice_input": false,
+            "example_sentence": "I'll help you as long as you promise to try your best.",
+            "media": {}
+        },
+        {
+            "id": "EB2GS2_178",
+            "type": "sentence_ordering",
+            "words": [
+                "found",
+                "Having",
+                "key",
+                "the",
+                "he",
+                "the",
+                "opened",
+                "door"
+            ],
+            "question": "Reorder the words to form a 'perfect participle' clause.",
+            "answer": "Having found the key he opened the door",
+            "hint": "Sequence of events.",
+            "voice_input": false,
+            "example_sentence": "Having found the key, he opened the door and went inside.",
+            "media": {}
+        },
+        {
+            "id": "EB2GS2_179",
+            "type": "tap_fill",
+            "question": "You should bring your passport ___ they ask for ID at the gate.",
+            "options": [
+                "in case",
+                "unless",
+                "but for",
+                "supposing"
+            ],
+            "answer": "in case",
+            "hint": "Preparation for a possible request.",
+            "voice_input": false,
+            "example_sentence": "You should bring your passport in case they ask for ID at the gate.",
+            "media": {}
+        },
+        {
+            "id": "EB2GS2_180",
+            "type": "pronunciation",
+            "question": "Pronounce: 'Supposing you won the lottery, what would you do first?'",
+            "answer": "Supposing you won the lottery, what would you do first?",
+            "hint": "Hypothetical question tone.",
+            "voice_input": true,
+            "example_sentence": "Supposing you won the lottery, what would you do first with the money?",
+            "media": {}
+        },
+        {
+            "id": "EB2GS2_181",
+            "type": "tap_fill",
+            "question": "The ___ actor signed autographs for hours after the show.",
+            "options": [
+                "well-known",
+                "good-known",
+                "best-known",
+                "well-knowing"
+            ],
+            "answer": "well-known",
+            "hint": "Compound adjective: Adverb + Past Participle.",
+            "voice_input": false,
+            "example_sentence": "The well-known actor signed autographs for hours after the show.",
+            "media": {}
+        },
+        {
+            "id": "EB2GS2_182",
+            "type": "multiple_choice",
+            "question": "Choose the correct order of adverbs: 'He...'",
+            "options": [
+                "He spoke quite well in the interview yesterday.",
+                "He spoke yesterday quite well in the interview.",
+                "He spoke in the interview yesterday quite well."
+            ],
+            "answer": "He spoke quite well in the interview yesterday.",
+            "hint": "Standard order: Manner, Place, Time.",
+            "voice_input": false,
+            "example_sentence": "He spoke quite well in the interview yesterday afternoon.",
+            "media": {}
+        },
+        {
+            "id": "EB2GS2_183",
+            "type": "sentence_ordering",
+            "words": [
+                "It",
+                "was",
+                "a",
+                "three-hour",
+                "that",
+                "meeting",
+                "exhausted",
+                "everyone"
+            ],
+            "question": "Reorder the words to describe a duration using a compound adjective.",
+            "answer": "It was a three-hour meeting that exhausted everyone",
+            "hint": "Compound adjectives of measurement are singular (not 'three-hours').",
+            "voice_input": false,
+            "example_sentence": "It was a three-hour meeting that exhausted everyone in the office.",
+            "media": {}
+        },
+        {
+            "id": "EB2GS2_184",
+            "type": "matching",
+            "question": "Match the gradable adjectives with their extreme (ungradable) counterparts.",
+            "pairs": [
+                {
+                    "left": "Funny",
+                    "right": "Hilarious."
+                },
+                {
+                    "left": "Dirty",
+                    "right": "Filthy."
+                },
+                {
+                    "left": "Surprised",
+                    "right": "Astonished."
+                },
+                {
+                    "left": "Small",
+                    "right": "Tiny."
+                }
+            ],
+            "answer": [
+                {
+                    "left": "Funny",
+                    "right": "Hilarious."
+                },
+                {
+                    "left": "Dirty",
+                    "right": "Filthy."
+                },
+                {
+                    "left": "Surprised",
+                    "right": "Astonished."
+                },
+                {
+                    "left": "Small",
+                    "right": "Tiny."
+                }
+            ],
+            "hint": "Extreme adjectives often use 'absolutely' instead of 'very'.",
+            "voice_input": false,
+            "example_sentence": "The movie wasn't just funny; it was hilarious!",
+            "media": {}
+        },
+        {
+            "id": "EB2GS2_185",
+            "type": "pronunciation",
+            "question": "Pronounce: 'I was absolutely terrified when the lights went out.'",
+            "answer": "I was absolutely terrified when the lights went out.",
+            "hint": "Stress 'absolutely' and 'terrified'.",
+            "voice_input": true,
+            "example_sentence": "I was absolutely terrified when the lights suddenly went out.",
+            "media": {}
+        },
+        {
+            "id": "EB2GS2_186",
+            "type": "tap_fill",
+            "question": "We went on a ___ hike through the mountains.",
+            "options": [
+                "ten-mile",
+                "ten-miles",
+                "tenth-mile",
+                "ten-miler"
+            ],
+            "answer": "ten-mile",
+            "hint": "Hyphenated numbers acting as adjectives lose the 's'.",
+            "voice_input": false,
+            "example_sentence": "We went on a ten-mile hike through the mountains yesterday.",
+            "media": {}
+        },
+        {
+            "id": "EB2GS2_187",
+            "type": "multiple_choice",
+            "question": "Which sentence uses 'hardly' correctly?",
+            "options": [
+                "I could hardly breathe in the crowded room.",
+                "I worked hardly on my final project.",
+                "He hardly works so he is very successful."
+            ],
+            "answer": "I could hardly breathe in the crowded room.",
+            "hint": "Hardly = almost not. (Hardly vs Hard).",
+            "voice_input": false,
+            "example_sentence": "I could hardly breathe in the crowded room because it was so hot.",
+            "media": {}
+        },
+        {
+            "id": "EB2GS2_188",
+            "type": "sentence_ordering",
+            "words": [
+                "The",
+                "was",
+                "bitterly",
+                "cold",
+                "morning",
+                "and",
+                "windy"
+            ],
+            "question": "Reorder the words to use an intensifying adverb.",
+            "answer": "The morning was bitterly cold and windy",
+            "hint": "Bitterly + cold is a common collocation.",
+            "voice_input": false,
+            "example_sentence": "The morning was bitterly cold and windy, so we stayed inside.",
+            "media": {}
+        },
+        {
+            "id": "EB2GS2_189",
+            "type": "matching",
+            "question": "Match the adverbs with the verbs they typically modify.",
+            "pairs": [
+                {
+                    "left": "Deeply",
+                    "right": "regret."
+                },
+                {
+                    "left": "Distinctly",
+                    "right": "remember."
+                },
+                {
+                    "left": "Widely",
+                    "right": "accepted."
+                },
+                {
+                    "left": "Flatly",
+                    "right": "refuse."
+                }
+            ],
+            "answer": [
+                {
+                    "left": "Deeply",
+                    "right": "regret."
+                },
+                {
+                    "left": "Distinctly",
+                    "right": "remember."
+                },
+                {
+                    "left": "Widely",
+                    "right": "accepted."
+                },
+                {
+                    "left": "Flatly",
+                    "right": "refuse."
+                }
+            ],
+            "hint": "Strong collocations (Adverb + Verb).",
+            "voice_input": false,
+            "example_sentence": "I distinctly remember locking the door before I left.",
+            "media": {}
+        },
+        {
+            "id": "EB2GS2_190",
+            "type": "pronunciation",
+            "question": "Pronounce: 'The long-awaited news finally arrived this morning.'",
+            "answer": "The long-awaited news finally arrived this morning.",
+            "hint": "Compound adjective stress pattern.",
+            "voice_input": true,
+            "example_sentence": "The long-awaited news finally arrived this morning.",
+            "media": {}
+        },
+        {
+            "id": "EB2GS2_191",
+            "type": "tap_fill",
+            "question": "It's ___ impossible to finish all this work by 5 PM.",
+            "options": [
+                "virtually",
+                "very",
+                "extremely",
+                "slightly"
+            ],
+            "answer": "virtually",
+            "hint": "Used with ungradable adjectives like 'impossible'.",
+            "voice_input": false,
+            "example_sentence": "It's virtually impossible to finish all this work by 5 PM.",
+            "media": {}
+        },
+        {
+            "id": "EB2GS2_192",
+            "type": "multiple_choice",
+            "question": "Choose the correct compound adjective: 'a...'",
+            "options": [
+                "a never-ending story",
+                "a never-ended story",
+                "a story never-ending"
+            ],
+            "answer": "a never-ending story",
+            "hint": "Adverb + Present Participle (-ing).",
+            "voice_input": false,
+            "example_sentence": "Cleaning the house with kids around is a never-ending story.",
+            "media": {}
+        },
+        {
+            "id": "EB2GS2_193",
+            "type": "sentence_ordering",
+            "words": [
+                "We",
+                "seldom",
+                "go",
+                "out",
+                "during",
+                "the",
+                "week",
+                "to",
+                "dinner"
+            ],
+            "question": "Reorder the words to place the adverb 'seldom' correctly.",
+            "answer": "We seldom go out to dinner during the week",
+            "hint": "Adverbs of frequency go before the main verb.",
+            "voice_input": false,
+            "example_sentence": "We seldom go out to dinner during the week because we are tired.",
+            "media": {}
+        },
+        {
+            "id": "EB2GS2_194",
+            "type": "matching",
+            "question": "Match the modifiers to their adjective types.",
+            "pairs": [
+                {
+                    "left": "Very / Quite",
+                    "right": "Gradable (cold, happy)."
+                },
+                {
+                    "left": "Totally / Utterly",
+                    "right": "Ungradable (exhausted, empty)."
+                },
+                {
+                    "left": "Slightly / A bit",
+                    "right": "Gradable (late, expensive)."
+                },
+                {
+                    "left": "Perfectly",
+                    "right": "Ungradable (clear, normal)."
+                }
+            ],
+            "answer": [
+                {
+                    "left": "Very / Quite",
+                    "right": "Gradable (cold, happy)."
+                },
+                {
+                    "left": "Totally / Utterly",
+                    "right": "Ungradable (exhausted, empty)."
+                },
+                {
+                    "left": "Slightly / A bit",
+                    "right": "Gradable (late, expensive)."
+                },
+                {
+                    "left": "Perfectly",
+                    "right": "Ungradable (clear, normal)."
+                }
+            ],
+            "hint": "Matching intensity with the right adjective category.",
+            "voice_input": false,
+            "example_sentence": "His explanation was perfectly clear to everyone.",
+            "media": {}
+        },
+        {
+            "id": "EB2GS2_195",
+            "type": "pronunciation",
+            "question": "Pronounce: 'She is a highly-qualified professional with years of experience.'",
+            "answer": "She is a highly-qualified professional with years of experience.",
+            "hint": "Stress 'highly' and 'qualified'.",
+            "voice_input": true,
+            "example_sentence": "She is a highly-qualified professional with years of experience.",
+            "media": {}
+        },
+        {
+            "id": "EB2GS2_196",
+            "type": "tap_fill",
+            "question": "The room was ___ empty when I arrived.",
+            "options": [
+                "completely",
+                "very",
+                "slightly",
+                "extremely"
+            ],
+            "answer": "completely",
+            "hint": "Empty is an ungradable adjective.",
+            "voice_input": false,
+            "example_sentence": "The room was completely empty when I arrived for the meeting.",
+            "media": {}
+        },
+        {
+            "id": "EB2GS2_197",
+            "type": "multiple_choice",
+            "question": "Choose the correctly hyphenated age adjective.",
+            "options": [
+                "A five-year-old child.",
+                "A five-years-old child.",
+                "A five year old child."
+            ],
+            "answer": "A five-year-old child.",
+            "hint": "Compound adjectives describing age need hyphens.",
+            "voice_input": false,
+            "example_sentence": "A five-year-old child can usually count to twenty.",
+            "media": {}
+        },
+        {
+            "id": "EB2GS2_198",
+            "type": "sentence_ordering",
+            "words": [
+                "I",
+                "haven't",
+                "seen",
+                "movies",
+                "good",
+                "any",
+                "lately"
+            ],
+            "question": "Reorder the words for a sentence with 'lately'.",
+            "answer": "I haven't seen any good movies lately",
+            "hint": "'Lately' often goes at the end.",
+            "voice_input": false,
+            "example_sentence": "I haven't seen any good movies lately, have you?",
+            "media": {}
+        },
+        {
+            "id": "EB2GS2_199",
+            "type": "tap_fill",
+            "question": "He was ___ sorry for the misunderstanding.",
+            "options": [
+                "genuinely",
+                "totally",
+                "virtually",
+                "hardly"
+            ],
+            "answer": "genuinely",
+            "hint": "Expresses sincere emotion.",
+            "voice_input": false,
+            "example_sentence": "He was genuinely sorry for the misunderstanding that occurred.",
+            "media": {}
+        },
+        {
+            "id": "EB2GS2_200",
+            "type": "pronunciation",
+            "question": "Pronounce: 'It was a fast-paced thriller that kept me on the edge of my seat.'",
+            "answer": "It was a fast-paced thriller that kept me on the edge of my seat.",
+            "hint": "Stress 'fast-paced' and 'seat'.",
+            "voice_input": true,
+            "example_sentence": "It was a fast-paced thriller that kept me on the edge of my seat.",
+            "media": {}
+        }
+    ]
+}
