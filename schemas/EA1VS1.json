@@ -1,9 +1,9 @@
 {
     "exercises":[
   {
-    "id": "a1_reading_v2_q01",
+    "id": "a1_reading_v3_q01",
     "type": "tap_fill",
-    "question": "TEXT: My name is Marco. I live in a small house. Every morning, I wake up at 7:00. I drink coffee and eat bread. Then, I go to work by bus. I am a teacher. I love my students because they are very kind. In the evening, I cook dinner and watch TV. I go to bed at 10:00. I am happy.\n\nQuestion: Marco lives in a ___ house.",
+    "question": "TEXT: My name is Marco. I live in a small house. Every morning, I wake up at 7:00. I drink a cup of coffee and eat bread. Then, I go to work by bus. I am a teacher. I love my students because they are very kind. In the evening, I cook dinner and watch TV. I go to bed at 10:00. I am happy with my life.\n\nEXERCISE: Marco lives in a ___ house.",
     "options": ["small", "big", "large", "new"],
     "answer": "small",
     "hint": "Check the second sentence of the story.",
@@ -12,20 +12,20 @@
     "media": {}
   },
   {
-    "id": "a1_reading_v2_q02",
+    "id": "a1_reading_v3_q02",
     "type": "multiple_choice",
-    "question": "What time does Marco wake up?",
+    "question": "TEXT: My name is Marco. I live in a small house. Every morning, I wake up at 7:00. I drink a cup of coffee and eat bread. Then, I go to work by bus. I am a teacher. I love my students because they are very kind. In the evening, I cook dinner and watch TV. I go to bed at 10:00. I am happy with my life.\n\nEXERCISE: What time does Marco wake up?",
     "options": ["At 7:00", "At 8:00", "At 10:00", "At 6:00"],
     "answer": "At 7:00",
-    "hint": "He does this 'every morning'.",
+    "hint": "Look for the sentence about the morning.",
     "voice_input": false,
-    "example_sentence": "I wake up at 7:00 to go to school.",
+    "example_sentence": "I wake up at 7:00 every day.",
     "media": {}
   },
   {
-    "id": "a1_reading_v2_q03",
+    "id": "a1_reading_v3_q03",
     "type": "matching",
-    "question": "Match the verbs from the text with their objects.",
+    "question": "TEXT: My name is Marco. I live in a small house. Every morning, I wake up at 7:00. I drink a cup of coffee and eat bread. Then, I go to work by bus. I am a teacher. I love my students because they are very kind. In the evening, I cook dinner and watch TV. I go to bed at 10:00. I am happy with my life.\n\nEXERCISE: Match the actions with the correct objects.",
     "words": ["Drink", "Eat", "Watch", "Cook"],
     "pairs": [
       {"left": "Drink", "right": "Coffee"},
@@ -34,230 +34,230 @@
       {"left": "Cook", "right": "Dinner"}
     ],
     "answer": [
+      {"left": "Eat", "right": "Bread"},
       {"left": "Watch", "right": "TV"},
       {"left": "Cook", "right": "Dinner"},
-      {"left": "Drink", "right": "Coffee"},
-      {"left": "Eat", "right": "Bread"}
+      {"left": "Drink", "right": "Coffee"}
     ],
-    "hint": "The text says he drinks coffee and eats bread.",
+    "hint": "Marco drinks coffee and eats bread.",
     "voice_input": false,
-    "example_sentence": "I cook dinner for my family.",
+    "example_sentence": "I cook dinner at home.",
     "media": {}
   },
   {
-    "id": "a1_reading_v2_q04",
+    "id": "a1_reading_v3_q04",
     "type": "sentence_ordering",
-    "question": "Reorder the words to describe how Marco goes to work.",
+    "question": "TEXT: My name is Marco. I live in a small house. Every morning, I wake up at 7:00. I drink a cup of coffee and eat bread. Then, I go to work by bus. I am a teacher. I love my students because they are very kind. In the evening, I cook dinner and watch TV. I go to bed at 10:00. I am happy with my life.\n\nEXERCISE: Reorder the words to describe how Marco travels.",
     "words": ["He", "goes", "to", "work", "by", "bus"],
     "answer": "He goes to work by bus",
-    "hint": "Look for the sentence after 'bread'.",
+    "hint": "Look for the sentence about going to work.",
     "voice_input": false,
     "example_sentence": "She goes to work by car.",
     "media": {}
   },
   {
-    "id": "a1_reading_v2_q05",
+    "id": "a1_reading_v3_q05",
     "type": "pronunciation",
-    "question": "Read the following sentence aloud: 'I love my students because they are very kind.'",
+    "question": "TEXT: My name is Marco. I live in a small house. Every morning, I wake up at 7:00. I drink a cup of coffee and eat bread. Then, I go to work by bus. I am a teacher. I love my students because they are very kind. In the evening, I cook dinner and watch TV. I go to bed at 10:00. I am happy with my life.\n\nEXERCISE: Read aloud: 'I love my students because they are very kind.'",
     "voice_input": true,
     "example_sentence": "My teacher is very kind.",
-    "hint": "Focus on 'Students' (STOO-dents).",
+    "hint": "Focus on the word 'Students'.",
     "media": {}
   },
   {
-    "id": "a1_reading_v2_q06",
+    "id": "a1_reading_v3_q06",
     "type": "tap_fill",
-    "question": "Marco is a ___, and he works with students.",
-    "options": ["teacher", "doctor", "pilot", "chef"],
+    "question": "TEXT: My name is Marco. I live in a small house. Every morning, I wake up at 7:00. I drink a cup of coffee and eat bread. Then, I go to work by bus. I am a teacher. I love my students because they are very kind. In the evening, I cook dinner and watch TV. I go to bed at 10:00. I am happy with my life.\n\nEXERCISE: Marco is a ___.",
+    "options": ["teacher", "doctor", "driver", "pilot"],
     "answer": "teacher",
-    "hint": "This is his job.",
+    "hint": "He loves his students.",
     "voice_input": false,
     "example_sentence": "The teacher is in the classroom.",
     "media": {}
   },
   {
-    "id": "a1_reading_v2_q07",
+    "id": "a1_reading_v3_q07",
     "type": "multiple_choice",
-    "question": "Why does Marco love his students?",
-    "options": ["Because they are kind", "Because they are quiet", "Because they are tall", "Because they are funny"],
-    "answer": "Because they are kind",
-    "hint": "Check the sentence about his students.",
+    "question": "TEXT: My name is Marco. I live in a small house. Every morning, I wake up at 7:00. I drink a cup of coffee and eat bread. Then, I go to work by bus. I am a teacher. I love my students because they are very kind. In the evening, I cook dinner and watch TV. I go to bed at 10:00. I am happy with my life.\n\nEXERCISE: What does Marco do in the evening?",
+    "options": ["Cooks dinner and watches TV", "Drinks coffee and eats bread", "Goes to work by bus", "Wakes up at 7:00"],
+    "answer": "Cooks dinner and watches TV",
+    "hint": "Look for the sentence starting with 'In the evening'.",
     "voice_input": false,
-    "example_sentence": "I love my cat because he is cute.",
+    "example_sentence": "In the evening, I relax.",
     "media": {}
   },
   {
-    "id": "a1_reading_v2_q08",
+    "id": "a1_reading_v3_q08",
     "type": "matching",
-    "question": "Match the times with the activities.",
+    "question": "TEXT: My name is Marco. I live in a small house. Every morning, I wake up at 7:00. I drink a cup of coffee and eat bread. Then, I go to work by bus. I am a teacher. I love my students because they are very kind. In the evening, I cook dinner and watch TV. I go to bed at 10:00. I am happy with my life.\n\nEXERCISE: Match the items with the correct times.",
     "words": ["7:00", "Morning", "Evening", "10:00"],
     "pairs": [
       {"left": "7:00", "right": "Wake up"},
-      {"left": "Morning", "right": "Drink coffee"},
+      {"left": "Morning", "right": "Coffee and bread"},
       {"left": "Evening", "right": "Watch TV"},
       {"left": "10:00", "right": "Go to bed"}
     ],
     "answer": [
-      {"left": "Evening", "right": "Watch TV"},
       {"left": "10:00", "right": "Go to bed"},
       {"left": "7:00", "right": "Wake up"},
-      {"left": "Morning", "right": "Drink coffee"}
+      {"left": "Morning", "right": "Coffee and bread"},
+      {"left": "Evening", "right": "Watch TV"}
     ],
-    "hint": "The text follows a timeline from morning to night.",
+    "hint": "Check the sequence of Marco's day.",
     "voice_input": false,
-    "example_sentence": "I go to bed early.",
+    "example_sentence": "I go to bed late.",
     "media": {}
   },
   {
-    "id": "a1_reading_v2_q09",
+    "id": "a1_reading_v3_q09",
     "type": "sentence_ordering",
-    "question": "Reorder the words to describe Marco's feelings.",
-    "words": ["I", "am", "happy", "with", "my", "life"],
-    "answer": "I am happy with my life",
-    "hint": "This is the final sentence of the text.",
+    "question": "TEXT: My name is Marco. I live in a small house. Every morning, I wake up at 7:00. I drink a cup of coffee and eat bread. Then, I go to work by bus. I am a teacher. I love my students because they are very kind. In the evening, I cook dinner and watch TV. I go to bed at 10:00. I am happy with my life.\n\nEXERCISE: Reorder the words to show Marco's feelings.",
+    "words": ["He", "is", "happy", "with", "his", "life"],
+    "answer": "He is happy with his life",
+    "hint": "Look at the very last sentence.",
     "voice_input": false,
     "example_sentence": "I am happy today.",
     "media": {}
   },
   {
-    "id": "a1_reading_v2_q10",
+    "id": "a1_reading_v3_q10",
     "type": "tap_fill",
-    "question": "In the ___ Marco watches TV.",
-    "options": ["evening", "morning", "afternoon", "night"],
-    "answer": "evening",
-    "hint": "He does this before going to bed.",
-    "voice_input": false,
-    "example_sentence": "I watch movies in the evening.",
-    "media": {}
-  },
-  {
-    "id": "a1_reading_v2_q11",
-    "type": "multiple_choice",
-    "question": "How does Marco go to work?",
-    "options": ["By bus", "By train", "By car", "By bike"],
-    "answer": "By bus",
-    "hint": "It is a public vehicle.",
-    "voice_input": false,
-    "example_sentence": "He takes the bus at 8:00.",
-    "media": {}
-  },
-  {
-    "id": "a1_reading_v2_q12",
-    "type": "matching",
-    "question": "Match the adjectives with the nouns they describe.",
-    "words": ["Small", "Every", "Kind", "Happy"],
-    "pairs": [
-      {"left": "Small", "right": "House"},
-      {"left": "Every", "right": "Morning"},
-      {"left": "Kind", "right": "Students"},
-      {"left": "Happy", "right": "Marco"}
-    ],
-    "answer": [
-      {"left": "Happy", "right": "Marco"},
-      {"left": "Kind", "right": "Students"},
-      {"left": "Every", "right": "Morning"},
-      {"left": "Small", "right": "House"}
-    ],
-    "hint": "Look at how the text describes people and things.",
-    "voice_input": false,
-    "example_sentence": "Marco is a happy man.",
-    "media": {}
-  },
-  {
-    "id": "a1_reading_v2_q13",
-    "type": "tap_fill",
-    "question": "Marco goes to ___ at 10:00.",
+    "question": "TEXT: My name is Marco. I live in a small house. Every morning, I wake up at 7:00. I drink a cup of coffee and eat bread. Then, I go to work by bus. I am a teacher. I love my students because they are very kind. In the evening, I cook dinner and watch TV. I go to bed at 10:00. I am happy with my life.\n\nEXERCISE: Marco goes to ___ at 10:00.",
     "options": ["bed", "work", "school", "shop"],
     "answer": "bed",
-    "hint": "He does this when he is tired at night.",
+    "hint": "This is what people do at night.",
     "voice_input": false,
     "example_sentence": "I go to bed at night.",
     "media": {}
   },
   {
-    "id": "a1_reading_v2_q14",
+    "id": "a1_reading_v3_q11",
+    "type": "multiple_choice",
+    "question": "TEXT: My name is Marco. I live in a small house. Every morning, I wake up at 7:00. I drink a cup of coffee and eat bread. Then, I go to work by bus. I am a teacher. I love my students because they are very kind. In the evening, I cook dinner and watch TV. I go to bed at 10:00. I am happy with my life.\n\nEXERCISE: Why does Marco love his students?",
+    "options": ["They are kind", "They are funny", "They are fast", "They are big"],
+    "answer": "They are kind",
+    "hint": "The text explains the reason after the word 'because'.",
+    "voice_input": false,
+    "example_sentence": "I love my dog.",
+    "media": {}
+  },
+  {
+    "id": "a1_reading_v3_q12",
+    "type": "matching",
+    "question": "TEXT: My name is Marco. I live in a small house. Every morning, I wake up at 7:00. I drink a cup of coffee and eat bread. Then, I go to work by bus. I am a teacher. I love my students because they are very kind. In the evening, I cook dinner and watch TV. I go to bed at 10:00. I am happy with my life.\n\nEXERCISE: Match the descriptions with the nouns.",
+    "words": ["Small", "Kind", "Happy", "Every"],
+    "pairs": [
+      {"left": "Small", "right": "House"},
+      {"left": "Kind", "right": "Students"},
+      {"left": "Happy", "right": "Life"},
+      {"left": "Every", "right": "Morning"}
+    ],
+    "answer": [
+      {"left": "Every", "right": "Morning"},
+      {"left": "Happy", "right": "Life"},
+      {"left": "Kind", "right": "Students"},
+      {"left": "Small", "right": "House"}
+    ],
+    "hint": "Check how the author describes these items.",
+    "voice_input": false,
+    "example_sentence": "She has a happy life.",
+    "media": {}
+  },
+  {
+    "id": "a1_reading_v3_q13",
+    "type": "tap_fill",
+    "question": "TEXT: My name is Marco. I live in a small house. Every morning, I wake up at 7:00. I drink a cup of coffee and eat bread. Then, I go to work by bus. I am a teacher. I love my students because they are very kind. In the evening, I cook dinner and watch TV. I go to bed at 10:00. I am happy with my life.\n\nEXERCISE: Marco travels by ___ to get to work.",
+    "options": ["bus", "car", "train", "bike"],
+    "answer": "bus",
+    "hint": "It's a large public vehicle.",
+    "voice_input": false,
+    "example_sentence": "I take the bus.",
+    "media": {}
+  },
+  {
+    "id": "a1_reading_v3_q14",
     "type": "sentence_ordering",
-    "question": "Reorder the words to show Marco's name.",
+    "question": "TEXT: My name is Marco. I live in a small house. Every morning, I wake up at 7:00. I drink a cup of coffee and eat bread. Then, I go to work by bus. I am a teacher. I love my students because they are very kind. In the evening, I cook dinner and watch TV. I go to bed at 10:00. I am happy with my life.\n\nEXERCISE: Reorder the words to say Marco's name.",
     "words": ["My", "name", "is", "Marco"],
     "answer": "My name is Marco",
-    "hint": "This is the first sentence.",
+    "hint": "This is the very first sentence.",
     "voice_input": false,
-    "example_sentence": "My name is John.",
+    "example_sentence": "My name is Jane.",
     "media": {}
   },
   {
-    "id": "a1_reading_v2_q15",
+    "id": "a1_reading_v3_q15",
     "type": "pronunciation",
-    "question": "Read aloud: 'Every morning, I wake up at 7:00.'",
+    "question": "TEXT: My name is Marco. I live in a small house. Every morning, I wake up at 7:00. I drink a cup of coffee and eat bread. Then, I go to work by bus. I am a teacher. I love my students because they are very kind. In the evening, I cook dinner and watch TV. I go to bed at 10:00. I am happy with my life.\n\nEXERCISE: Read aloud: 'Every morning, I wake up at 7:00.'",
     "voice_input": true,
     "example_sentence": "Every morning I drink tea.",
-    "hint": "Focus on 'Morning' (MOR-ning).",
+    "hint": "Focus on 'Morning'.",
     "media": {}
   },
   {
-    "id": "a1_reading_v2_q16",
+    "id": "a1_reading_v3_q16",
     "type": "tap_fill",
-    "question": "Marco eats ___ for breakfast.",
+    "question": "TEXT: My name is Marco. I live in a small house. Every morning, I wake up at 7:00. I drink a cup of coffee and eat bread. Then, I go to work by bus. I am a teacher. I love my students because they are very kind. In the evening, I cook dinner and watch TV. I go to bed at 10:00. I am happy with my life.\n\nEXERCISE: In the morning, Marco eats ___.",
     "options": ["bread", "pizza", "apple", "fish"],
     "answer": "bread",
     "hint": "He eats this with his coffee.",
     "voice_input": false,
-    "example_sentence": "I like fresh bread.",
+    "example_sentence": "I like bread with butter.",
     "media": {}
   },
   {
-    "id": "a1_reading_v2_q17",
+    "id": "a1_reading_v3_q17",
     "type": "multiple_choice",
-    "question": "What is the text about?",
-    "options": ["Marco's day", "Marco's car", "Marco's food", "Marco's cat"],
-    "answer": "Marco's day",
-    "hint": "The text describes his routine.",
+    "question": "TEXT: My name is Marco. I live in a small house. Every morning, I wake up at 7:00. I drink a cup of coffee and eat bread. Then, I go to work by bus. I am a teacher. I love my students because they are very kind. In the evening, I cook dinner and watch TV. I go to bed at 10:00. I am happy with my life.\n\nEXERCISE: Where does Marco live?",
+    "options": ["In a small house", "In a big school", "In a city bus", "In a bread shop"],
+    "answer": "In a small house",
+    "hint": "Look at the second sentence.",
     "voice_input": false,
-    "example_sentence": "Tell me about your day.",
+    "example_sentence": "My house is small.",
     "media": {}
   },
   {
-    "id": "a1_reading_v2_q18",
+    "id": "a1_reading_v3_q18",
     "type": "matching",
-    "question": "Match the opposites based on common knowledge (A1).",
-    "words": ["Small", "Happy", "Wake up", "Morning"],
+    "question": "TEXT: My name is Marco. I live in a small house. Every morning, I wake up at 7:00. I drink a cup of coffee and eat bread. Then, I go to work by bus. I am a teacher. I love my students because they are very kind. In the evening, I cook dinner and watch TV. I go to bed at 10:00. I am happy with my life.\n\nEXERCISE: Match the opposites (A1 vocabulary).",
+    "words": ["Small", "Happy", "Wake up", "Evening"],
     "pairs": [
       {"left": "Small", "right": "Big"},
       {"left": "Happy", "right": "Sad"},
       {"left": "Wake up", "right": "Go to sleep"},
-      {"left": "Morning", "right": "Evening"}
+      {"left": "Evening", "right": "Morning"}
     ],
     "answer": [
-      {"left": "Morning", "right": "Evening"},
-      {"left": "Wake up", "right": "Go to sleep"},
       {"left": "Happy", "right": "Sad"},
-      {"left": "Small", "right": "Big"}
+      {"left": "Small", "right": "Big"},
+      {"left": "Evening", "right": "Morning"},
+      {"left": "Wake up", "right": "Go to sleep"}
     ],
     "hint": "These words are used in the text.",
     "voice_input": false,
-    "example_sentence": "The house is big, not small.",
+    "example_sentence": "The dog is big.",
     "media": {}
   },
   {
-    "id": "a1_reading_v2_q19",
+    "id": "a1_reading_v3_q19",
     "type": "sentence_ordering",
-    "question": "Reorder the words to show what Marco drinks.",
-    "words": ["He", "drinks", "a", "cup", "of", "coffee"],
-    "answer": "He drinks a cup of coffee",
-    "hint": "He does this at 7:00.",
+    "question": "TEXT: My name is Marco. I live in a small house. Every morning, I wake up at 7:00. I drink a cup of coffee and eat bread. Then, I go to work by bus. I am a teacher. I love my students because they are very kind. In the evening, I cook dinner and watch TV. I go to bed at 10:00. I am happy with my life.\n\nEXERCISE: Reorder the words to describe what Marco drinks.",
+    "words": ["I", "drink", "a", "cup", "of", "coffee"],
+    "answer": "I drink a cup of coffee",
+    "hint": "Look at the sentence about bread.",
     "voice_input": false,
-    "example_sentence": "I want a cup of water.",
+    "example_sentence": "I drink a cup of tea.",
     "media": {}
   },
   {
-    "id": "a1_reading_v2_q20",
-    "type": "tap_fill",
-    "question": "Marco says: 'I love my ___ because they are very kind.'",
-    "options": ["students", "parents", "friends", "doctors"],
-    "answer": "students",
-    "hint": "He is a teacher, so he works with them.",
+    "id": "a1_reading_v3_q20",
+    "type": "multiple_choice",
+    "question": "TEXT: My name is Marco. I live in a small house. Every morning, I wake up at 7:00. I drink a cup of coffee and eat bread. Then, I go to work by bus. I am a teacher. I love my students because they are very kind. In the evening, I cook dinner and watch TV. I go to bed at 10:00. I am happy with my life.\n\nEXERCISE: What is the text mainly about?",
+    "options": ["Marco's daily routine", "How to be a teacher", "Buying a new house", "A bus schedule"],
+    "answer": "Marco's daily routine",
+    "hint": "The text tells us what Marco does all day.",
     "voice_input": false,
-    "example_sentence": "The students are in the library.",
+    "example_sentence": "My routine is simple.",
     "media": {}
   }
 ]
