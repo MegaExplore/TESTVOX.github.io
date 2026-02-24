@@ -1,0 +1,2883 @@
+{
+    "exercises": [
+        {
+            "id": "EC1GS4_001",
+            "type": "tap_fill",
+            "question": "Not until the late 19th century ___ the full extent of the discovery realized.",
+            "options": [
+                "was",
+                "did",
+                "had",
+                "has"
+            ],
+            "answer": "was",
+            "hint": "Negative inversion with 'Not until' requires an auxiliary; here, the passive voice is needed.",
+            "voice_input": false,
+            "example_sentence": "Not until the late 19th century was the full extent of the discovery realized.",
+            "media": {}
+        },
+        {
+            "id": "EC1GS4_002",
+            "type": "multiple_choice",
+            "question": "Which sentence correctly uses the subjunctive mood for a formal recommendation?",
+            "options": [
+                "It is imperative that the CEO be informed of these developments immediately.",
+                "It is imperative that the CEO is informed of these developments immediately.",
+                "It is imperative that the CEO will be informed of these developments immediately."
+            ],
+            "answer": "It is imperative that the CEO be informed of these developments immediately.",
+            "hint": "The subjunctive 'be' is used after adjectives like 'imperative' or 'essential'.",
+            "voice_input": false,
+            "example_sentence": "It is imperative that the CEO be informed of these developments immediately.",
+            "media": {}
+        },
+        {
+            "id": "EC1GS4_003",
+            "type": "sentence_ordering",
+            "question": "Reorder the words to form a sentence expressing a past regret using 'wish'.",
+            "words": [
+                "I",
+                "wish",
+                "I",
+                "had",
+                "had",
+                "the",
+                "courage",
+                "to",
+                "speak",
+                "up",
+                "sooner"
+            ],
+            "answer": "I wish I had had the courage to speak up sooner",
+            "hint": "Use 'had had' for a past perfect regret about the past.",
+            "voice_input": false,
+            "example_sentence": "I wish I had had the courage to speak up sooner.",
+            "media": {}
+        },
+        {
+            "id": "EC1GS4_004",
+            "type": "matching",
+            "question": "Match the C1 connectors with their logical function in a text.",
+            "pairs": [
+                {
+                    "left": "Inasmuch as",
+                    "right": "Explaining a reason or extent"
+                },
+                {
+                    "left": "Albeit",
+                    "right": "Introducing a concession (even though)"
+                },
+                {
+                    "left": "Furthermore",
+                    "right": "Adding supporting information"
+                },
+                {
+                    "left": "Thereupon",
+                    "right": "Describing an immediate sequence"
+                }
+            ],
+            "hint": "These are high-level formal linkers.",
+            "voice_input": false,
+            "example_sentence": "The project was successful, albeit slightly over budget.",
+            "media": {}
+        },
+        {
+            "id": "EC1GS4_005",
+            "type": "pronunciation",
+            "question": "Pronounce the emphatic cleft: 'What I found most striking was the sheer scale of the operation.'",
+            "answer": "What I found most striking was the sheer scale of the operation.",
+            "hint": "Stress 'striking' and 'sheer'.",
+            "voice_input": true,
+            "example_sentence": "What I found most striking was the sheer scale of the operation.",
+            "media": {}
+        },
+        {
+            "id": "EC1GS4_006",
+            "type": "tap_fill",
+            "question": "The new policy is designed to ___ the transition to renewable energy.",
+            "options": [
+                "facilitate",
+                "make",
+                "help",
+                "do"
+            ],
+            "answer": "facilitate",
+            "hint": "C1 Formal Vocabulary: Choose the word that means 'to make a process easier'.",
+            "voice_input": false,
+            "example_sentence": "The new policy is designed to facilitate the transition to renewable energy.",
+            "media": {}
+        },
+        {
+            "id": "EC1GS4_007",
+            "type": "multiple_choice",
+            "question": "Select the correct use of 'needn't have' vs 'didn't need to'.",
+            "options": [
+                "We needn't have rushed to the station, as the train was delayed by an hour.",
+                "We didn't need to rushed to the station, as the train was delayed by an hour.",
+                "We needn't have rush to the station, as the train was delayed by an hour."
+            ],
+            "answer": "We needn't have rushed to the station, as the train was delayed by an hour.",
+            "hint": "Use 'needn't have + past participle' for an action that was done but unnecessary.",
+            "voice_input": false,
+            "example_sentence": "We needn't have rushed to the station, as the train was delayed by an hour.",
+            "media": {}
+        },
+        {
+            "id": "EC1GS4_008",
+            "type": "sentence_ordering",
+            "question": "Reorder the words to form a formal inversion with 'Rarely'.",
+            "words": [
+                "Rarely",
+                "has",
+                "the",
+                "need",
+                "for",
+                "reform",
+                "been",
+                "more",
+                "pressing",
+                "than",
+                "it",
+                "is",
+                "today"
+            ],
+            "answer": "Rarely has the need for reform been more pressing than it is today",
+            "hint": "Start with 'Rarely' and follow with the auxiliary 'has'.",
+            "voice_input": false,
+            "example_sentence": "Rarely has the need for reform been more pressing than it is today.",
+            "media": {}
+        },
+        {
+            "id": "EC1GS4_009",
+            "type": "matching",
+            "question": "Match the phrasal verbs with their more formal C1 single-word equivalents.",
+            "pairs": [
+                {
+                    "left": "Call off",
+                    "right": "Cancel"
+                },
+                {
+                    "left": "Look into",
+                    "right": "Investigate"
+                },
+                {
+                    "left": "Put off",
+                    "right": "Postpone"
+                },
+                {
+                    "left": "Set up",
+                    "right": "Establish"
+                }
+            ],
+            "hint": "C1 writing favors Latinate verbs over phrasal verbs.",
+            "voice_input": false,
+            "example_sentence": "The authorities have decided to investigate the allegations.",
+            "media": {}
+        },
+        {
+            "id": "EC1GS4_010",
+            "type": "pronunciation",
+            "question": "Pronounce: 'In the final analysis, the benefits far outweigh the costs.'",
+            "answer": "In the final analysis, the benefits far outweigh the costs.",
+            "hint": "Stress 'analysis' and 'outweigh'.",
+            "voice_input": true,
+            "example_sentence": "In the final analysis, the benefits far outweigh the costs.",
+            "media": {}
+        },
+        {
+            "id": "EC1GS4_011",
+            "type": "tap_fill",
+            "question": "Should you ___ any help, do not hesitate to contact our customer support team.",
+            "options": [
+                "require",
+                "need",
+                "want",
+                "ask"
+            ],
+            "answer": "require",
+            "hint": "Formal inverted conditional: Should + subject + base verb.",
+            "voice_input": false,
+            "example_sentence": "Should you require any help, do not hesitate to contact our team.",
+            "media": {}
+        },
+        {
+            "id": "EC1GS4_012",
+            "type": "multiple_choice",
+            "question": "Which sentence correctly expresses a future arrangement with 'due'?",
+            "options": [
+                "The contract is due to be signed by the end of the week.",
+                "The contract is due for be signed by the end of the week.",
+                "The contract is due to being signed by the end of the week."
+            ],
+            "answer": "The contract is due to be signed by the end of the week.",
+            "hint": "'Be due to' + base verb expresses a scheduled or expected event.",
+            "voice_input": false,
+            "example_sentence": "The contract is due to be signed by the end of the week.",
+            "media": {}
+        },
+        {
+            "id": "EC1GS4_013",
+            "type": "sentence_ordering",
+            "question": "Reorder the words to form a sentence using a participle clause.",
+            "words": [
+                "Having",
+                "considered",
+                "all",
+                "the",
+                "options",
+                "we",
+                "decided",
+                "to",
+                "proceed",
+                "with",
+                "the",
+                "merger"
+            ],
+            "answer": "Having considered all the options we decided to proceed with the merger",
+            "hint": "Start with the perfect participle 'Having considered'.",
+            "voice_input": false,
+            "example_sentence": "Having considered all the options, we decided to proceed with the merger.",
+            "media": {}
+        },
+        {
+            "id": "EC1GS4_014",
+            "type": "matching",
+            "question": "Match the C1 adjectives to the nouns they typically collocate with.",
+            "pairs": [
+                {
+                    "left": "Stark",
+                    "right": "contrast"
+                },
+                {
+                    "left": "Heated",
+                    "right": "debate"
+                },
+                {
+                    "left": "Uphill",
+                    "right": "struggle"
+                },
+                {
+                    "left": "Vested",
+                    "right": "interest"
+                }
+            ],
+            "hint": "Focus on common pairings in analytical English.",
+            "voice_input": false,
+            "example_sentence": "There is a stark contrast between the two proposals.",
+            "media": {}
+        },
+        {
+            "id": "EC1GS4_015",
+            "type": "pronunciation",
+            "question": "Pronounce the concession: 'Much as I admire his work, I find his personality difficult.'",
+            "answer": "Much as I admire his work, I find his personality difficult.",
+            "hint": "Stress 'Much' and 'difficult'.",
+            "voice_input": true,
+            "example_sentence": "Much as I admire his work, I find his personality difficult.",
+            "media": {}
+        },
+        {
+            "id": "EC1GS4_016",
+            "type": "tap_fill",
+            "question": "The company’s decision was ___ with the new environmental regulations.",
+            "options": [
+                "consistent",
+                "same",
+                "followed",
+                "obeyed"
+            ],
+            "answer": "consistent",
+            "hint": "Adjective + preposition: 'consistent with'.",
+            "voice_input": false,
+            "example_sentence": "The company’s decision was consistent with the new regulations.",
+            "media": {}
+        },
+        {
+            "id": "EC1GS4_017",
+            "type": "multiple_choice",
+            "question": "Select the correct use of 'no sooner' for chronological events.",
+            "options": [
+                "No sooner had the meeting started than the fire alarm went off.",
+                "No sooner had the meeting started when the fire alarm went off.",
+                "No sooner the meeting had started than the fire alarm went off."
+            ],
+            "answer": "No sooner had the meeting started than the fire alarm went off.",
+            "hint": "Structure: 'No sooner + had + subject + past participle + than'.",
+            "voice_input": false,
+            "example_sentence": "No sooner had the meeting started than the fire alarm went off.",
+            "media": {}
+        },
+        {
+            "id": "EC1GS4_018",
+            "type": "sentence_ordering",
+            "question": "Reorder the words to form a sentence about a widespread opinion.",
+            "words": [
+                "It",
+                "is",
+                "widely",
+                "assumed",
+                "that",
+                "the",
+                "interest",
+                "rates",
+                "will",
+                "rise",
+                "next",
+                "month"
+            ],
+            "answer": "It is widely assumed that the interest rates will rise next month",
+            "hint": "Passive reporting structure: 'It is widely assumed that...'.",
+            "voice_input": false,
+            "example_sentence": "It is widely assumed that the interest rates will rise next month.",
+            "media": {}
+        },
+        {
+            "id": "EC1GS4_019",
+            "type": "matching",
+            "question": "Match the idiomatic expressions to their meanings.",
+            "pairs": [
+                {
+                    "left": "In a nutshell",
+                    "right": "In a few words"
+                },
+                {
+                    "left": "By and large",
+                    "right": "Generally speaking"
+                },
+                {
+                    "left": "On the whole",
+                    "right": "Considering everything"
+                },
+                {
+                    "left": "As a rule",
+                    "right": "Usually"
+                }
+            ],
+            "hint": "These are 'softeners' or generalizers for formal speech.",
+            "voice_input": false,
+            "example_sentence": "By and large, the experiment was a success.",
+            "media": {}
+        },
+        {
+            "id": "EC1GS4_020",
+            "type": "pronunciation",
+            "question": "Pronounce the finality: 'Under no circumstances should you press this button.'",
+            "answer": "Under no circumstances should you press this button.",
+            "hint": "Stress 'no' and 'this'.",
+            "voice_input": true,
+            "example_sentence": "Under no circumstances should you press this button.",
+            "media": {}
+        },
+        {
+            "id": "EC1GS4_021",
+            "type": "tap_fill",
+            "question": "___ it been for the quick thinking of the pilot, the outcome could have been tragic.",
+            "options": [
+                "Had",
+                "Were",
+                "Should",
+                "Was"
+            ],
+            "answer": "Had",
+            "hint": "Third conditional inversion: 'Had it (not) been for...' used for past hypothetical situations.",
+            "voice_input": false,
+            "example_sentence": "Had it been for the quick thinking of the pilot, the outcome could have been tragic.",
+            "media": {}
+        },
+        {
+            "id": "EC1GS4_022",
+            "type": "multiple_choice",
+            "question": "Which sentence correctly uses 'scarcely' for emphatic inversion?",
+            "options": [
+                "Scarcely had we stepped outside when it began to snow.",
+                "Scarcely we had stepped outside when it began to snow.",
+                "Scarcely had we stepped outside than it began to snow."
+            ],
+            "answer": "Scarcely had we stepped outside when it began to snow.",
+            "hint": "Inversion: Scarcely + auxiliary + subject + verb + when.",
+            "voice_input": false,
+            "example_sentence": "Scarcely had we stepped outside when it began to snow.",
+            "media": {}
+        },
+        {
+            "id": "EC1GS4_023",
+            "type": "sentence_ordering",
+            "question": "Reorder the words to form a sentence about a necessary requirement.",
+            "words": [
+                "It",
+                "is",
+                "essential",
+                "that",
+                "every",
+                "member",
+                "of",
+                "staff",
+                "be",
+                "fully",
+                "trained"
+            ],
+            "answer": "It is essential that every member of staff be fully trained",
+            "hint": "Use the subjunctive 'be' after 'It is essential that'.",
+            "voice_input": false,
+            "example_sentence": "It is essential that every member of staff be fully trained.",
+            "media": {}
+        },
+        {
+            "id": "EC1GS4_024",
+            "type": "matching",
+            "question": "Match the C1 compound adjectives with their meanings.",
+            "pairs": [
+                {
+                    "left": "Far-reaching",
+                    "right": "Having significant effects"
+                },
+                {
+                    "left": "Long-winded",
+                    "right": "Using too many words"
+                },
+                {
+                    "left": "Narrow-minded",
+                    "right": "Unwilling to accept new ideas"
+                },
+                {
+                    "left": "Self-explanatory",
+                    "right": "Easy to understand without help"
+                }
+            ],
+            "hint": "These are common hyphenated adjectives in formal English.",
+            "voice_input": false,
+            "example_sentence": "The decision will have far-reaching consequences for the industry.",
+            "media": {}
+        },
+        {
+            "id": "EC1GS4_025",
+            "type": "pronunciation",
+            "question": "Pronounce the correlative: 'The more we invest in education, the more prosperous the nation becomes.'",
+            "answer": "The more we invest in education, the more prosperous the nation becomes.",
+            "hint": "Stress 'invest', 'education', and 'prosperous'.",
+            "voice_input": true,
+            "example_sentence": "The more we invest in education, the more prosperous the nation becomes.",
+            "media": {}
+        },
+        {
+            "id": "EC1GS4_026",
+            "type": "tap_fill",
+            "question": "The findings were ___ through with errors that rendered the report useless.",
+            "options": [
+                "shot",
+                "riddled",
+                "poked",
+                "filled"
+            ],
+            "answer": "shot",
+            "hint": "Advanced idiom: 'shot through with' means pervaded by a particular quality.",
+            "voice_input": false,
+            "example_sentence": "The findings were shot through with errors that rendered the report useless.",
+            "media": {}
+        },
+        {
+            "id": "EC1GS4_027",
+            "type": "multiple_choice",
+            "question": "Select the correct way to express an action despite a problem.",
+            "options": [
+                "In spite of the fact that it was raining, the event was a success.",
+                "In spite the fact that it was raining, the event was a success.",
+                "In spite of the fact it was raining, the event was a success."
+            ],
+            "answer": "In spite of the fact that it was raining, the event was a success.",
+            "hint": "Phrase: 'In spite of the fact that' + clause.",
+            "voice_input": false,
+            "example_sentence": "In spite of the fact that it was raining, the event was a success.",
+            "media": {}
+        },
+        {
+            "id": "EC1GS4_028",
+            "type": "sentence_ordering",
+            "question": "Reorder the words to form a sentence about a rare event.",
+            "words": [
+                "Seldom",
+                "do",
+                "we",
+                "witness",
+                "such",
+                "an",
+                "extraordinary",
+                "display",
+                "of",
+                "talent"
+            ],
+            "answer": "Seldom do we witness such an extraordinary display of talent",
+            "hint": "Start with 'Seldom' and use auxiliary 'do'.",
+            "voice_input": false,
+            "example_sentence": "Seldom do we witness such an extraordinary display of talent.",
+            "media": {}
+        },
+        {
+            "id": "EC1GS4_029",
+            "type": "matching",
+            "question": "Match the discourse markers with their use in a debate.",
+            "pairs": [
+                {
+                    "left": "By the same token",
+                    "right": "Introducing a parallel point"
+                },
+                {
+                    "left": "Mind you",
+                    "right": "Adding a contrasting or qualifying point"
+                },
+                {
+                    "left": "What's more",
+                    "right": "Adding further information"
+                },
+                {
+                    "left": "In any event",
+                    "right": "Returning to the main point regardless"
+                }
+            ],
+            "hint": "These markers help manage the flow of an argument.",
+            "voice_input": false,
+            "example_sentence": "Mind you, the price is quite high, even for a luxury item.",
+            "media": {}
+        },
+        {
+            "id": "EC1GS4_030",
+            "type": "pronunciation",
+            "question": "Pronounce the emphatic result: 'So loud was the noise that it could be heard for miles.'",
+            "answer": "So loud was the noise that it could be heard for miles.",
+            "hint": "Stress 'So loud' and 'miles'.",
+            "voice_input": true,
+            "example_sentence": "So loud was the noise that it could be heard for miles.",
+            "media": {}
+        },
+        {
+            "id": "EC1GS4_031",
+            "type": "tap_fill",
+            "question": "It is high time the government ___ action to address the housing crisis.",
+            "options": [
+                "took",
+                "takes",
+                "should take",
+                "had taken"
+            ],
+            "answer": "took",
+            "hint": "Unreal past: 'It is high time' + subject + past simple.",
+            "voice_input": false,
+            "example_sentence": "It is high time the government took action to address the housing crisis.",
+            "media": {}
+        },
+        {
+            "id": "EC1GS4_032",
+            "type": "multiple_choice",
+            "question": "Identify the correct structure for a past hypothetical preference.",
+            "options": [
+                "I would rather have traveled by train than by bus.",
+                "I would rather traveled by train than by bus.",
+                "I would rather had traveled by train than by bus."
+            ],
+            "answer": "I would rather have traveled by train than by bus.",
+            "hint": "Would rather + perfect infinitive (have + past participle).",
+            "voice_input": false,
+            "example_sentence": "I would rather have traveled by train than by bus.",
+            "media": {}
+        },
+        {
+            "id": "EC1GS4_033",
+            "type": "sentence_ordering",
+            "question": "Reorder the words to form a sentence about a future arrangement.",
+            "words": [
+                "The",
+                "new",
+                "law",
+                "is",
+                "scheduled",
+                "to",
+                "come",
+                "into",
+                "force",
+                "next",
+                "year"
+            ],
+            "answer": "The new law is scheduled to come into force next year",
+            "hint": "Start with 'The new law'.",
+            "voice_input": false,
+            "example_sentence": "The new law is scheduled to come into force next year.",
+            "media": {}
+        },
+        {
+            "id": "EC1GS4_034",
+            "type": "matching",
+            "question": "Match the formal verbs with their typical objects.",
+            "pairs": [
+                {
+                    "left": "Implement",
+                    "right": "a strategy"
+                },
+                {
+                    "left": "Acknowledge",
+                    "right": "a mistake"
+                },
+                {
+                    "left": "Devise",
+                    "right": "a plan"
+                },
+                {
+                    "left": "Undertake",
+                    "right": "a task"
+                }
+            ],
+            "hint": "Professional and academic collocations.",
+            "voice_input": false,
+            "example_sentence": "We need to devise a plan to increase efficiency.",
+            "media": {}
+        },
+        {
+            "id": "EC1GS4_035",
+            "type": "pronunciation",
+            "question": "Pronounce the double cleft: 'It wasn't until I arrived that I realized what had happened.'",
+            "answer": "It wasn't until I arrived that I realized what had happened.",
+            "hint": "Stress 'until', 'arrived', and 'realized'.",
+            "voice_input": true,
+            "example_sentence": "It wasn't until I arrived that I realized what had happened.",
+            "media": {}
+        },
+        {
+            "id": "EC1GS4_036",
+            "type": "tap_fill",
+            "question": "The decision was made at the ___ of the committee members.",
+            "options": [
+                "behest",
+                "request",
+                "order",
+                "demand"
+            ],
+            "answer": "behest",
+            "hint": "Formal idiom: 'at the behest of' (because of someone's request/command).",
+            "voice_input": false,
+            "example_sentence": "The decision was made at the behest of the committee members.",
+            "media": {}
+        },
+        {
+            "id": "EC1GS4_037",
+            "type": "multiple_choice",
+            "question": "Choose the correct preposition to complete the idiomatic expression.",
+            "options": [
+                "The news came as a total shock to everyone.",
+                "The news came for a total shock to everyone.",
+                "The news came at a total shock to everyone."
+            ],
+            "answer": "The news came as a total shock to everyone.",
+            "hint": "Fixed phrase: 'to come as a shock/surprise'.",
+            "voice_input": false,
+            "example_sentence": "The news came as a total shock to everyone.",
+            "media": {}
+        },
+        {
+            "id": "EC1GS4_038",
+            "type": "sentence_ordering",
+            "question": "Reorder the words to form a sentence about a necessary condition.",
+            "words": [
+                "Only",
+                "by",
+                "working",
+                "together",
+                "can",
+                "we",
+                "hope",
+                "to",
+                "achieve",
+                "success"
+            ],
+            "answer": "Only by working together can we hope to achieve success",
+            "hint": "Start with 'Only by' and use auxiliary 'can' for inversion.",
+            "voice_input": false,
+            "example_sentence": "Only by working together can we hope to achieve success.",
+            "media": {}
+        },
+        {
+            "id": "EC1GS4_039",
+            "type": "matching",
+            "question": "Match the C1 words to their synonyms in formal writing.",
+            "pairs": [
+                {
+                    "left": "Substantial",
+                    "right": "Considerable"
+                },
+                {
+                    "left": "Ostensibly",
+                    "right": "Apparently"
+                },
+                {
+                    "left": "Erroneous",
+                    "right": "Inaccurate"
+                },
+                {
+                    "left": "Uniform",
+                    "right": "Consistent"
+                }
+            ],
+            "hint": "Academic vocabulary often used in reports.",
+            "voice_input": false,
+            "example_sentence": "The report was based on ostensibly credible sources.",
+            "media": {}
+        },
+        {
+            "id": "EC1GS4_040",
+            "type": "pronunciation",
+            "question": "Pronounce: 'Broadly speaking, the results are in line with our hypothesis.'",
+            "answer": "Broadly speaking, the results are in line with our hypothesis.",
+            "hint": "Stress 'Broadly' and 'hypothesis'.",
+            "voice_input": true,
+            "example_sentence": "Broadly speaking, the results are in line with our hypothesis.",
+            "media": {}
+        },
+        {
+            "id": "EC1GS4_041",
+            "type": "tap_fill",
+            "question": "If you ___ help, please do not hesitate to ask.",
+            "options": [
+                "should need",
+                "would need",
+                "had needed",
+                "will need"
+            ],
+            "answer": "should need",
+            "hint": "This is a formal conditional structure (First conditional with 'should' for extra politeness).",
+            "voice_input": false,
+            "example_sentence": "If you should need help, please do not hesitate to ask.",
+            "media": {}
+        },
+        {
+            "id": "EC1GS4_042",
+            "type": "multiple_choice",
+            "question": "Which sentence correctly uses nominalization to sound more professional?",
+            "options": [
+                "The rapid expansion of the city has led to increased traffic congestion.",
+                "The city expanded rapidly and that led to more traffic congestion.",
+                "Because the city expanded rapidly, traffic congestion increased."
+            ],
+            "answer": "The rapid expansion of the city has led to increased traffic congestion.",
+            "hint": "Nominalization turns the verb 'expand' into the noun 'expansion' to create an objective tone.",
+            "voice_input": false,
+            "example_sentence": "The rapid expansion of the city has led to increased traffic congestion.",
+            "media": {}
+        },
+        {
+            "id": "EC1GS4_043",
+            "type": "sentence_ordering",
+            "question": "Reorder the words to form a sentence about a past regret affecting the present.",
+            "words": [
+                "If",
+                "I",
+                "had",
+                "taken",
+                "that",
+                "job",
+                "I",
+                "would",
+                "be",
+                "living",
+                "in",
+                "London",
+                "now"
+            ],
+            "answer": "If I had taken that job I would be living in London now",
+            "hint": "Mixed Conditional: Past action (If I had taken) with a present result (I would be living).",
+            "voice_input": false,
+            "example_sentence": "If I had taken that job, I would be living in London now.",
+            "media": {}
+        },
+        {
+            "id": "EC1GS4_044",
+            "type": "matching",
+            "question": "Match the C1 level prefixes to their meanings in academic contexts.",
+            "pairs": [
+                {
+                    "left": "Inter-",
+                    "right": "Between or among different groups"
+                },
+                {
+                    "left": "Intra-",
+                    "right": "Inside or within a single group"
+                },
+                {
+                    "left": "Counter-",
+                    "right": "In opposition or response to"
+                },
+                {
+                    "left": "Hyper-",
+                    "right": "Excessive or beyond the normal"
+                }
+            ],
+            "hint": "Focus on how these prefixes change the scope of the base word.",
+            "voice_input": false,
+            "example_sentence": "The department is focusing on intra-departmental communication.",
+            "media": {}
+        },
+        {
+            "id": "EC1GS4_045",
+            "type": "pronunciation",
+            "question": "Pronounce the formal concession: 'Notwithstanding the difficulties, the project was a resounding success.'",
+            "answer": "Notwithstanding the difficulties, the project was a resounding success.",
+            "hint": "Stress 'Notwithstanding' and 'resounding'.",
+            "voice_input": true,
+            "example_sentence": "Notwithstanding the difficulties, the project was a resounding success.",
+            "media": {}
+        },
+        {
+            "id": "EC1GS4_046",
+            "type": "tap_fill",
+            "question": "I'd rather you ___ the secret to anyone until we've confirmed the news.",
+            "options": [
+                "didn't tell",
+                "don't tell",
+                "not tell",
+                "haven't told"
+            ],
+            "answer": "didn't tell",
+            "hint": "Preference with a different subject: 'would rather' + subject + past simple (for present/future).",
+            "voice_input": false,
+            "example_sentence": "I'd rather you didn't tell the secret to anyone.",
+            "media": {}
+        },
+        {
+            "id": "EC1GS4_047",
+            "type": "multiple_choice",
+            "question": "Identify the correct use of the perfect participle for sequencing events.",
+            "options": [
+                "Having completed the marathon, she felt a great sense of achievement.",
+                "Completing the marathon, she felt a great sense of achievement.",
+                "To have completed the marathon, she felt a great sense of achievement."
+            ],
+            "answer": "Having completed the marathon, she felt a great sense of achievement.",
+            "hint": "'Having + past participle' shows that one action was finished before the next one began.",
+            "voice_input": false,
+            "example_sentence": "Having completed the marathon, she felt a great sense of achievement.",
+            "media": {}
+        },
+        {
+            "id": "EC1GS4_048",
+            "type": "sentence_ordering",
+            "question": "Reorder the words to form a sentence about an unlikely future event.",
+            "words": [
+                "Were",
+                "they",
+                "to",
+                "increase",
+                "prices",
+                "they",
+                "would",
+                "risk",
+                "losing",
+                "market",
+                "share"
+            ],
+            "answer": "Were they to increase prices they would risk losing market share",
+            "hint": "Start with 'Were' for a formal hypothetical future.",
+            "voice_input": false,
+            "example_sentence": "Were they to increase prices, they would risk losing market share.",
+            "media": {}
+        },
+        {
+            "id": "EC1GS4_049",
+            "type": "matching",
+            "question": "Match the C1 intensifiers with the adjectives they collocate with.",
+            "pairs": [
+                {
+                    "left": "Diametrically",
+                    "right": "opposed"
+                },
+                {
+                    "left": "Widely",
+                    "right": "acknowledged"
+                },
+                {
+                    "left": "Painfully",
+                    "right": "obvious"
+                },
+                {
+                    "left": "Deeply",
+                    "right": "offensive"
+                }
+            ],
+            "hint": "Focus on fixed adverb-adjective pairings used in critiques.",
+            "voice_input": false,
+            "example_sentence": "The two candidates hold diametrically opposed views.",
+            "media": {}
+        },
+        {
+            "id": "EC1GS4_050",
+            "type": "pronunciation",
+            "question": "Pronounce the emphasis: 'It was only then that I understood the gravity of the situation.'",
+            "answer": "It was only then that I understood the gravity of the situation.",
+            "hint": "Stress 'only then' and 'gravity'.",
+            "voice_input": true,
+            "example_sentence": "It was only then that I understood the gravity of the situation.",
+            "media": {}
+        },
+        {
+            "id": "EC1GS4_051",
+            "type": "tap_fill",
+            "question": "The evidence point ___ the fact that the company has been hiding its losses.",
+            "options": [
+                "towards",
+                "at",
+                "for",
+                "on"
+            ],
+            "answer": "towards",
+            "hint": "Verb + preposition: 'point towards' (suggesting a direction or conclusion).",
+            "voice_input": false,
+            "example_sentence": "The evidence points towards the fact that they have been hiding losses.",
+            "media": {}
+        },
+        {
+            "id": "EC1GS4_052",
+            "type": "multiple_choice",
+            "question": "Which sentence uses the most formal way to express 'about'?",
+            "options": [
+                "The report contains specific information pertaining to the new regulations.",
+                "The report contains specific information about the new regulations.",
+                "The report contains specific information as for the new regulations."
+            ],
+            "answer": "The report contains specific information pertaining to the new regulations.",
+            "hint": "'Pertaining to' is a high-level formal synonym for 'about' or 'related to'.",
+            "voice_input": false,
+            "example_sentence": "The report contains specific information pertaining to the new regulations.",
+            "media": {}
+        },
+        {
+            "id": "EC1GS4_053",
+            "type": "sentence_ordering",
+            "question": "Reorder the words to form a sentence about a condition for success.",
+            "words": [
+                "Provided",
+                "that",
+                "all",
+                "criteria",
+                "are",
+                "met",
+                "the",
+                "funding",
+                "will",
+                "be",
+                "released"
+            ],
+            "answer": "Provided that all criteria are met the funding will be released",
+            "hint": "Start with 'Provided that' to set the condition.",
+            "voice_input": false,
+            "example_sentence": "Provided that all criteria are met, the funding will be released.",
+            "media": {}
+        },
+        {
+            "id": "EC1GS4_054",
+            "type": "matching",
+            "question": "Match the C1 verbs with their legal or professional meanings.",
+            "pairs": [
+                {
+                    "left": "Abrogate",
+                    "right": "To repeal or do away with a law"
+                },
+                {
+                    "left": "Exonerate",
+                    "right": "To absolve from blame for a fault"
+                },
+                {
+                    "left": "Stipulate",
+                    "right": "To demand or specify a requirement"
+                },
+                {
+                    "left": "Disseminate",
+                    "right": "To spread information widely"
+                }
+            ],
+            "hint": "These are precise verbs used in policy and law.",
+            "voice_input": false,
+            "example_sentence": "The contract stipulates that the work must be finished by May.",
+            "media": {}
+        },
+        {
+            "id": "EC1GS4_055",
+            "type": "pronunciation",
+            "question": "Pronounce the negative inversion: 'No sooner had we arrived than we were asked to leave.'",
+            "answer": "No sooner had we arrived than we were asked to leave.",
+            "hint": "Stress 'arrived' and 'leave'.",
+            "voice_input": true,
+            "example_sentence": "No sooner had we arrived than we were asked to leave.",
+            "media": {}
+        },
+        {
+            "id": "EC1GS4_056",
+            "type": "tap_fill",
+            "question": "The manager took ___ with the employee's unprofessional behavior.",
+            "options": [
+                "issue",
+                "problem",
+                "exception",
+                "fault"
+            ],
+            "answer": "issue",
+            "hint": "Idiom: 'to take issue with' (to disagree or be annoyed with).",
+            "voice_input": false,
+            "example_sentence": "The manager took issue with the employee's behavior.",
+            "media": {}
+        },
+        {
+            "id": "EC1GS4_057",
+            "type": "multiple_choice",
+            "question": "Select the correct use of 'in the wake of'.",
+            "options": [
+                "In the wake of the scandal, several executives resigned.",
+                "At the wake of the scandal, several executives resigned.",
+                "By the wake of the scandal, several executives resigned."
+            ],
+            "answer": "In the wake of the scandal, several executives resigned.",
+            "hint": "'In the wake of' means 'following as a consequence of'.",
+            "voice_input": false,
+            "example_sentence": "In the wake of the scandal, several executives resigned.",
+            "media": {}
+        },
+        {
+            "id": "EC1GS4_058",
+            "type": "sentence_ordering",
+            "question": "Reorder the words to form an elliptical sentence.",
+            "words": [
+                "The",
+                "more",
+                "you",
+                "practice",
+                "the",
+                "better",
+                "you",
+                "get"
+            ],
+            "answer": "The more you practice the better you get",
+            "hint": "A correlative comparative structure (The more... the better...).",
+            "voice_input": false,
+            "example_sentence": "The more you practice, the better you get.",
+            "media": {}
+        },
+        {
+            "id": "EC1GS4_059",
+            "type": "matching",
+            "question": "Match the C1 words to their antonyms.",
+            "pairs": [
+                {
+                    "left": "Incisive",
+                    "right": "Vague"
+                },
+                {
+                    "left": "Coherent",
+                    "right": "Muddled"
+                },
+                {
+                    "left": "Robust",
+                    "right": "Fragile"
+                },
+                {
+                    "left": "Exuberant",
+                    "right": "Somber"
+                }
+            ],
+            "hint": "Focus on words used to describe styles of communication.",
+            "voice_input": false,
+            "example_sentence": "His analysis was incisive and well-received.",
+            "media": {}
+        },
+        {
+            "id": "EC1GS4_060",
+            "type": "pronunciation",
+            "question": "Pronounce the finality: 'Suffice it to say, the project has been cancelled.'",
+            "answer": "Suffice it to say, the project has been cancelled.",
+            "hint": "Stress 'Suffice' and 'cancelled'.",
+            "voice_input": true,
+            "example_sentence": "Suffice it to say, the project has been cancelled.",
+            "media": {}
+        },
+        {
+            "id": "EC1GS4_061",
+            "type": "tap_fill",
+            "question": "Only by addresssing the root causes ___ we hope to find a lasting solution.",
+            "options": [
+                "can",
+                "did",
+                "do",
+                "will"
+            ],
+            "answer": "can",
+            "hint": "Inversion after 'Only by...': Only by + gerund + auxiliary + subject + verb.",
+            "voice_input": false,
+            "example_sentence": "Only by addressing the root causes can we hope to find a lasting solution.",
+            "media": {}
+        },
+        {
+            "id": "EC1GS4_062",
+            "type": "multiple_choice",
+            "question": "Which sentence correctly uses a participle clause to describe a simultaneous action?",
+            "options": [
+                "Walking down the street, I ran into an old friend from university.",
+                "Walked down the street, I ran into an old friend from university.",
+                "Having walking down the street, I ran into an old friend from university."
+            ],
+            "answer": "Walking down the street, I ran into an old friend from university.",
+            "hint": "The present participle (-ing) is used for actions happening at the same time as the main verb.",
+            "voice_input": false,
+            "example_sentence": "Walking down the street, I ran into an old friend from university.",
+            "media": {}
+        },
+        {
+            "id": "EC1GS4_063",
+            "type": "sentence_ordering",
+            "question": "Reorder the words to form a sentence about a formal obligation.",
+            "words": [
+                "It",
+                "is",
+                "incumbent",
+                "upon",
+                "us",
+                "to",
+                "ensure",
+                "the",
+                "safety",
+                "of",
+                "the",
+                "public"
+            ],
+            "answer": "It is incumbent upon us to ensure the safety of the public",
+            "hint": "Phrase: 'It is incumbent upon (someone) to (do something)' meaning it is one's duty.",
+            "voice_input": false,
+            "example_sentence": "It is incumbent upon us to ensure the safety of the public.",
+            "media": {}
+        },
+        {
+            "id": "EC1GS4_064",
+            "type": "matching",
+            "question": "Match the C1 level verbs with their specific formal contexts.",
+            "pairs": [
+                {
+                    "left": "Eradicate",
+                    "right": "To completely destroy a disease or social problem"
+                },
+                {
+                    "left": "Exacerbate",
+                    "right": "To make a bad situation even worse"
+                },
+                {
+                    "left": "Extrapolate",
+                    "right": "To infer unknown data from known information"
+                },
+                {
+                    "left": "Envisage",
+                    "right": "To form a mental picture of a future possibility"
+                }
+            ],
+            "hint": "These verbs are essential for precise academic and professional reporting.",
+            "voice_input": false,
+            "example_sentence": "We need to extrapolate the current trends to predict next year's sales.",
+            "media": {}
+        },
+        {
+            "id": "EC1GS4_065",
+            "type": "pronunciation",
+            "question": "Pronounce the formal concession: 'Admittedly, the project faced significant setbacks in its early stages.'",
+            "answer": "Admittedly, the project faced significant setbacks in its early stages.",
+            "hint": "Stress 'Admittedly' and 'significant'.",
+            "voice_input": true,
+            "example_sentence": "Admittedly, the project faced significant setbacks in its early stages.",
+            "media": {}
+        },
+        {
+            "id": "EC1GS4_066",
+            "type": "tap_fill",
+            "question": "The candidate was chosen ___ the strength of her previous experience.",
+            "options": [
+                "on",
+                "by",
+                "with",
+                "at"
+            ],
+            "answer": "on",
+            "hint": "Fixed phrase: 'on the strength of something' (because of/on the basis of).",
+            "voice_input": false,
+            "example_sentence": "The candidate was chosen on the strength of her previous experience.",
+            "media": {}
+        },
+        {
+            "id": "EC1GS4_067",
+            "type": "multiple_choice",
+            "question": "Which sentence uses 'as though' correctly for a hypothetical comparison?",
+            "options": [
+                "He spoke as though he were the only person who understood the problem.",
+                "He spoke as though he is the only person who understood the problem.",
+                "He spoke as though he will be the only person who understood the problem."
+            ],
+            "answer": "He spoke as though he were the only person who understood the problem.",
+            "hint": "Use 'were' (the subjunctive) after 'as though/as if' for hypothetical or untrue situations.",
+            "voice_input": false,
+            "example_sentence": "He spoke as though he were the only person who understood the problem.",
+            "media": {}
+        },
+        {
+            "id": "EC1GS4_068",
+            "type": "sentence_ordering",
+            "question": "Reorder the words to form a sentence about an unexpected occurrence.",
+            "words": [
+                "Much",
+                "to",
+                "everyone's",
+                "surprise",
+                "the",
+                "underdog",
+                "won",
+                "the",
+                "championship"
+            ],
+            "answer": "Much to everyone's surprise the underdog won the championship",
+            "hint": "Start with 'Much to' to express a strong reaction.",
+            "voice_input": false,
+            "example_sentence": "Much to everyone's surprise, the underdog won the championship.",
+            "media": {}
+        },
+        {
+            "id": "EC1GS4_069",
+            "type": "matching",
+            "question": "Match the transition words with their specific C1 rhetorical purposes.",
+            "pairs": [
+                {
+                    "left": "By the same token",
+                    "right": "Introducing a parallel or logically similar point"
+                },
+                {
+                    "left": "In the final analysis",
+                    "right": "Summarizing the most important factor"
+                },
+                {
+                    "left": "Be that as it may",
+                    "right": "Acknowledging a point but moving past it"
+                },
+                {
+                    "left": "For that matter",
+                    "right": "Adding a related and often more extreme point"
+                }
+            ],
+            "hint": "Think about how these words connect complex ideas in an essay.",
+            "voice_input": false,
+            "example_sentence": "I don't trust him; for that matter, I don't trust his partners either.",
+            "media": {}
+        },
+        {
+            "id": "EC1GS4_070",
+            "type": "pronunciation",
+            "question": "Pronounce the emphatic focus: 'It is not the cost but the timing that is the main issue.'",
+            "answer": "It is not the cost but the timing that is the main issue.",
+            "hint": "Stress 'cost', 'timing', and 'main'.",
+            "voice_input": true,
+            "example_sentence": "It is not the cost but the timing that is the main issue.",
+            "media": {}
+        },
+        {
+            "id": "EC1GS4_071",
+            "type": "tap_fill",
+            "question": "We had to postpone the meeting ___ account of the inclement weather.",
+            "options": [
+                "on",
+                "by",
+                "for",
+                "with"
+            ],
+            "answer": "on",
+            "hint": "Fixed phrase: 'on account of' (because of).",
+            "voice_input": false,
+            "example_sentence": "We had to postpone the meeting on account of the inclement weather.",
+            "media": {}
+        },
+        {
+            "id": "EC1GS4_072",
+            "type": "multiple_choice",
+            "question": "Select the correct way to express a future intent using 'set'.",
+            "options": [
+                "The government is set to introduce new tax laws next month.",
+                "The government is set for introduce new tax laws next month.",
+                "The government is set introducing new tax laws next month."
+            ],
+            "answer": "The government is set to introduce new tax laws next month.",
+            "hint": "'Be set to' + base verb indicates readiness or a planned future action.",
+            "voice_input": false,
+            "example_sentence": "The government is set to introduce new tax laws next month.",
+            "media": {}
+        },
+        {
+            "id": "EC1GS4_073",
+            "type": "sentence_ordering",
+            "question": "Reorder the words to form a sentence about a necessary standard.",
+            "words": [
+                "The",
+                "report",
+                "must",
+                "be",
+                "written",
+                "in",
+                "accordance",
+                "with",
+                "the",
+                "official",
+                "guidelines"
+            ],
+            "answer": "The report must be written in accordance with the official guidelines",
+            "hint": "Start with 'The report' and use the phrase 'in accordance with'.",
+            "voice_input": false,
+            "example_sentence": "The report must be written in accordance with the official guidelines.",
+            "media": {}
+        },
+        {
+            "id": "EC1GS4_074",
+            "type": "matching",
+            "question": "Match the C1 verbs with their synonyms used in formal analysis.",
+            "pairs": [
+                {
+                    "left": "Substantiate",
+                    "right": "Corroborate"
+                },
+                {
+                    "left": "Curtail",
+                    "right": "Restrict"
+                },
+                {
+                    "left": "Relegate",
+                    "right": "Downgrade"
+                },
+                {
+                    "left": "Ameliorate",
+                    "right": "Improve"
+                }
+            ],
+            "hint": "These are 'high-register' synonyms for common actions.",
+            "voice_input": false,
+            "example_sentence": "The new policy is intended to ameliorate the working conditions.",
+            "media": {}
+        },
+        {
+            "id": "EC1GS4_075",
+            "type": "pronunciation",
+            "question": "Pronounce the conditional: 'Had I known about the changes, I would have acted differently.'",
+            "answer": "Had I known about the changes, I would have acted differently.",
+            "hint": "Stress 'known' and 'differently'.",
+            "voice_input": true,
+            "example_sentence": "Had I known about the changes, I would have acted differently.",
+            "media": {}
+        },
+        {
+            "id": "EC1GS4_076",
+            "type": "tap_fill",
+            "question": "The decision was made in the ___ of the recent findings.",
+            "options": [
+                "light",
+                "face",
+                "wake",
+                "view"
+            ],
+            "answer": "light",
+            "hint": "Fixed phrase: 'in the light of' (considering or because of).",
+            "voice_input": false,
+            "example_sentence": "The decision was made in the light of the recent findings.",
+            "media": {}
+        },
+        {
+            "id": "EC1GS4_077",
+            "type": "multiple_choice",
+            "question": "Choose the correct preposition to describe something that is just about to happen.",
+            "options": [
+                "The company is on the verge of signing a major deal.",
+                "The company is at the verge of signing a major deal.",
+                "The company is in the verge of signing a major deal."
+            ],
+            "answer": "The company is on the verge of signing a major deal.",
+            "hint": "Fixed phrase: 'on the verge of' + -ing.",
+            "voice_input": false,
+            "example_sentence": "The company is on the verge of signing a major deal.",
+            "media": {}
+        },
+        {
+            "id": "EC1GS4_078",
+            "type": "sentence_ordering",
+            "question": "Reorder the words to form a sentence about a logical conclusion.",
+            "words": [
+                "It",
+                "stands",
+                "to",
+                "reason",
+                "that",
+                "investing",
+                "in",
+                "technology",
+                "will",
+                "increase",
+                "efficiency"
+            ],
+            "answer": "It stands to reason that investing in technology will increase efficiency",
+            "hint": "Phrase: 'It stands to reason that...' (it is logical/obvious).",
+            "voice_input": false,
+            "example_sentence": "It stands to reason that investing in technology will increase efficiency.",
+            "media": {}
+        },
+        {
+            "id": "EC1GS4_079",
+            "type": "matching",
+            "question": "Match the C1 words to their antonyms regarding clarity and certainty.",
+            "pairs": [
+                {
+                    "left": "Equivocal",
+                    "right": "Unambiguous"
+                },
+                {
+                    "left": "Tentative",
+                    "right": "Definitive"
+                },
+                {
+                    "left": "Obscure",
+                    "right": "Manifest"
+                },
+                {
+                    "left": "Plausible",
+                    "right": "Improbable"
+                }
+            ],
+            "hint": "Focus on terms used to describe arguments and data.",
+            "voice_input": false,
+            "example_sentence": "The evidence against the suspect was manifest.",
+            "media": {}
+        },
+        {
+            "id": "EC1GS4_080",
+            "type": "pronunciation",
+            "question": "Pronounce: 'In a nutshell, we need to completely overhaul our marketing strategy.'",
+            "answer": "In a nutshell, we need to completely overhaul our marketing strategy.",
+            "hint": "Stress 'nutshell' and 'overhaul'.",
+            "voice_input": true,
+            "example_sentence": "In a nutshell, we need to completely overhaul our marketing strategy.",
+            "media": {}
+        },
+        {
+            "id": "EC1GS4_081",
+            "type": "tap_fill",
+            "question": "Only after months of rigorous testing ___ the vaccine finally approved for public use.",
+            "options": [
+                "was",
+                "did",
+                "had",
+                "has"
+            ],
+            "answer": "was",
+            "hint": "Inversion after 'Only after...': The main clause requires an auxiliary verb; here, the passive 'was approved'.",
+            "voice_input": false,
+            "example_sentence": "Only after months of rigorous testing was the vaccine finally approved for public use.",
+            "media": {}
+        },
+        {
+            "id": "EC1GS4_082",
+            "type": "multiple_choice",
+            "question": "Which sentence correctly uses a double comparative for logical progression?",
+            "options": [
+                "The more we understand the brain, the more complex it appears.",
+                "The more we understand the brain, it appears more complex.",
+                "The more we understand the brain, so more complex it appears."
+            ],
+            "answer": "The more we understand the brain, the more complex it appears.",
+            "hint": "Structure: The + comparative + clause, the + comparative + clause.",
+            "voice_input": false,
+            "example_sentence": "The more we understand the brain, the more complex it appears.",
+            "media": {}
+        },
+        {
+            "id": "EC1GS4_083",
+            "type": "sentence_ordering",
+            "question": "Reorder the words to form a sentence about a past hypothetical regret.",
+            "words": [
+                "If",
+                "it",
+                "hadn't",
+                "been",
+                "for",
+                "the",
+                "GPS",
+                "we",
+                "would",
+                "be",
+                "completely",
+                "lost"
+            ],
+            "answer": "If it hadn't been for the GPS we would be completely lost",
+            "hint": "Mixed conditional: 'If it hadn't been for' (past cause) 'we would be' (present result).",
+            "voice_input": false,
+            "example_sentence": "If it hadn't been for the GPS, we would be completely lost.",
+            "media": {}
+        },
+        {
+            "id": "EC1GS4_084",
+            "type": "matching",
+            "question": "Match the C1 focusing adverbs to their specific usage.",
+            "pairs": [
+                {
+                    "left": "Solely",
+                    "right": "Excluding all other things or people"
+                },
+                {
+                    "left": "Merely",
+                    "right": "Emphasizing that something is small or unimportant"
+                },
+                {
+                    "left": "Purely",
+                    "right": "Entirely or only; used to describe a reason"
+                },
+                {
+                    "left": "Literally",
+                    "right": "In a literal manner or sense; used for emphasis"
+                }
+            ],
+            "hint": "Focus on how these adverbs restrict the meaning of a sentence.",
+            "voice_input": false,
+            "example_sentence": "The decision was purely a matter of personal preference.",
+            "media": {}
+        },
+        {
+            "id": "EC1GS4_085",
+            "type": "pronunciation",
+            "question": "Pronounce the formal demand: 'It is vital that the witness remain anonymous for their own safety.'",
+            "answer": "It is vital that the witness remain anonymous for their own safety.",
+            "hint": "Note the subjunctive 'remain' (not 'remains') after 'vital'.",
+            "voice_input": true,
+            "example_sentence": "It is vital that the witness remain anonymous for their own safety.",
+            "media": {}
+        },
+        {
+            "id": "EC1GS4_086",
+            "type": "tap_fill",
+            "question": "The CEO's resignation came ___ as a surprise to the industry.",
+            "options": [
+                "much",
+                "very",
+                "great",
+                "highly"
+            ],
+            "answer": "much",
+            "hint": "Adverbial usage: 'much as a surprise' is a common formal collocation.",
+            "voice_input": false,
+            "example_sentence": "The CEO's resignation came much as a surprise to the industry.",
+            "media": {}
+        },
+        {
+            "id": "EC1GS4_087",
+            "type": "multiple_choice",
+            "question": "Identify the correct formal alternative for 'because of'.",
+            "options": [
+                "By virtue of his position, he was entitled to a private office.",
+                "At virtue of his position, he was entitled to a private office.",
+                "With virtue of his position, he was entitled to a private office."
+            ],
+            "answer": "By virtue of his position, he was entitled to a private office.",
+            "hint": "'By virtue of' means 'because of' or 'as a result of'.",
+            "voice_input": false,
+            "example_sentence": "By virtue of his position, he was entitled to a private office.",
+            "media": {}
+        },
+        {
+            "id": "EC1GS4_088",
+            "type": "sentence_ordering",
+            "question": "Reorder the words to form an inverted sentence with 'Little'.",
+            "words": [
+                "Little",
+                "did",
+                "they",
+                "suspect",
+                "that",
+                "the",
+                "system",
+                "had",
+                "been",
+                "compromised"
+            ],
+            "answer": "Little did they suspect that the system had been compromised",
+            "hint": "Start with 'Little' to emphasize their lack of knowledge.",
+            "voice_input": false,
+            "example_sentence": "Little did they suspect that the system had been compromised.",
+            "media": {}
+        },
+        {
+            "id": "EC1GS4_089",
+            "type": "matching",
+            "question": "Match the C1 abstract nouns to their formal collocations.",
+            "pairs": [
+                {
+                    "left": "Deep-seated",
+                    "right": "prejudice"
+                },
+                {
+                    "left": "Abject",
+                    "right": "poverty"
+                },
+                {
+                    "left": "Tenuous",
+                    "right": "link"
+                },
+                {
+                    "left": "Blatant",
+                    "right": "disregard"
+                }
+            ],
+            "hint": "These adjective-noun pairings are frequent in advanced social commentary.",
+            "voice_input": false,
+            "example_sentence": "The report showed a blatant disregard for safety regulations.",
+            "media": {}
+        },
+        {
+            "id": "EC1GS4_090",
+            "type": "pronunciation",
+            "question": "Pronounce the complex transition: 'Broadly speaking, the economic outlook remains cautiously optimistic.'",
+            "answer": "Broadly speaking, the economic outlook remains cautiously optimistic.",
+            "hint": "Stress 'Broadly', 'economic', and 'optimistic'.",
+            "voice_input": true,
+            "example_sentence": "Broadly speaking, the economic outlook remains cautiously optimistic.",
+            "media": {}
+        },
+        {
+            "id": "EC1GS4_091",
+            "type": "tap_fill",
+            "question": "The city is ___ with historical landmarks that attract millions of tourists.",
+            "options": [
+                "replete",
+                "full",
+                "packed",
+                "heaving"
+            ],
+            "answer": "replete",
+            "hint": "Formal C1 Vocabulary: 'Replete with' means well-supplied or filled with something.",
+            "voice_input": false,
+            "example_sentence": "The city is replete with historical landmarks.",
+            "media": {}
+        },
+        {
+            "id": "EC1GS4_092",
+            "type": "multiple_choice",
+            "question": "Which sentence uses an elliptical structure to avoid repetition correctly?",
+            "options": [
+                "She has never been to Paris, nor does she intend to.",
+                "She has never been to Paris, nor she intends to.",
+                "She has never been to Paris, nor she does intend to."
+            ],
+            "answer": "She has never been to Paris, nor does she intend to.",
+            "hint": "Inversion is required after the negative conjunction 'nor'.",
+            "voice_input": false,
+            "example_sentence": "She has never been to Paris, nor does she intend to.",
+            "media": {}
+        },
+        {
+            "id": "EC1GS4_093",
+            "type": "sentence_ordering",
+            "question": "Reorder the words to form a sentence about a necessary consequence.",
+            "words": [
+                "Any",
+                "breach",
+                "of",
+                "contract",
+                "will",
+                "inevitably",
+                "result",
+                "in",
+                "legal",
+                "action"
+            ],
+            "answer": "Any breach of contract will inevitably result in legal action",
+            "hint": "Start with 'Any breach'.",
+            "voice_input": false,
+            "example_sentence": "Any breach of contract will inevitably result in legal action.",
+            "media": {}
+        },
+        {
+            "id": "EC1GS4_094",
+            "type": "matching",
+            "question": "Match the C1 verbs to their synonyms in a professional setting.",
+            "pairs": [
+                {
+                    "left": "Ascertain",
+                    "right": "Determine"
+                },
+                {
+                    "left": "Circumvent",
+                    "right": "Avoid"
+                },
+                {
+                    "left": "Consolidate",
+                    "right": "Strengthen"
+                },
+                {
+                    "left": "Devise",
+                    "right": "Formulate"
+                }
+            ],
+            "hint": "These verbs are used to describe high-level management actions.",
+            "voice_input": false,
+            "example_sentence": "We need to ascertain the cause of the technical failure.",
+            "media": {}
+        },
+        {
+            "id": "EC1GS4_095",
+            "type": "pronunciation",
+            "question": "Pronounce the emphatic focus: 'It is the attention to detail that sets this product apart.'",
+            "answer": "It is the attention to detail that sets this product apart.",
+            "hint": "Stress 'attention' and 'apart'.",
+            "voice_input": true,
+            "example_sentence": "It is the attention to detail that sets this product apart.",
+            "media": {}
+        },
+        {
+            "id": "EC1GS4_096",
+            "type": "tap_fill",
+            "question": "In the ___ of further information, we will postpone the meeting.",
+            "options": [
+                "absence",
+                "lack",
+                "want",
+                "miss"
+            ],
+            "answer": "absence",
+            "hint": "Formal phrase: 'In the absence of' (without).",
+            "voice_input": false,
+            "example_sentence": "In the absence of further information, we will postpone the meeting.",
+            "media": {}
+        },
+        {
+            "id": "EC1GS4_097",
+            "type": "multiple_choice",
+            "question": "Select the correct way to express an unlikely hypothetical using 'but for'.",
+            "options": [
+                "But for the rain, the outdoor concert would have been a triumph.",
+                "But for the rain, the outdoor concert would have been a triumph not.",
+                "But for the rain, the outdoor concert should have a triumph."
+            ],
+            "answer": "But for the rain, the outdoor concert would have been a triumph.",
+            "hint": "'But for' + noun means 'If it hadn't been for'.",
+            "voice_input": false,
+            "example_sentence": "But for the rain, the outdoor concert would have been a triumph.",
+            "media": {}
+        },
+        {
+            "id": "EC1GS4_098",
+            "type": "sentence_ordering",
+            "question": "Reorder the words to form a sentence about a logical condition.",
+            "words": [
+                "Should",
+                "you",
+                "find",
+                "the",
+                "instructions",
+                "unclear",
+                "please",
+                "consult",
+                "the",
+                "manual"
+            ],
+            "answer": "Should you find the instructions unclear please consult the manual",
+            "hint": "Start with 'Should' for a polite, formal conditional.",
+            "voice_input": false,
+            "example_sentence": "Should you find the instructions unclear, please consult the manual.",
+            "media": {}
+        },
+        {
+            "id": "EC1GS4_099",
+            "voice_input": false,
+            "media": {},
+            "left": "Inquisitive",
+            "right": "Curious"
+        },
+        {
+            "id": "EC1GS4_100",
+            "voice_input": false,
+            "media": {},
+            "left": "Meticulous",
+            "right": "Precise"
+        },
+        {
+            "id": "EC1GS4_101",
+            "voice_input": false,
+            "media": {},
+            "left": "Resilient",
+            "right": "Strong"
+        },
+        {
+            "id": "EC1GS4_102",
+            "voice_input": false,
+            "media": {},
+            "left": "Versatile",
+            "right": "Adaptable"
+        },
+        {
+            "id": "EC1GS4_103",
+            "voice_input": false,
+            "media": {}
+        },
+        {
+            "id": "EC1GS4_104",
+            "voice_input": false,
+            "media": {}
+        },
+        {
+            "id": "EC1GS4_105",
+            "voice_input": false,
+            "media": {}
+        },
+        {
+            "id": "EC1GS4_106",
+            "voice_input": false,
+            "media": {}
+        },
+        {
+            "id": "EC1GS4_107",
+            "voice_input": false,
+            "media": {}
+        },
+        {
+            "id": "EC1GS4_108",
+            "voice_input": false,
+            "media": {},
+            "left": "At the discretion of",
+            "right": "According to the decision of"
+        },
+        {
+            "id": "EC1GS4_109",
+            "voice_input": false,
+            "media": {},
+            "left": "In conjunction with",
+            "right": "Together with"
+        },
+        {
+            "id": "EC1GS4_110",
+            "voice_input": false,
+            "media": {},
+            "left": "With a view to",
+            "right": "With the intention of"
+        },
+        {
+            "id": "EC1GS4_111",
+            "voice_input": false,
+            "media": {},
+            "left": "By means of",
+            "right": "Using a particular method"
+        },
+        {
+            "id": "EC1GS4_112",
+            "voice_input": false,
+            "media": {}
+        },
+        {
+            "id": "EC1GS4_113",
+            "voice_input": false,
+            "media": {}
+        },
+        {
+            "id": "EC1GS4_114",
+            "voice_input": false,
+            "media": {}
+        },
+        {
+            "id": "EC1GS4_115",
+            "voice_input": false,
+            "media": {}
+        },
+        {
+            "id": "EC1GS4_116",
+            "voice_input": false,
+            "media": {}
+        },
+        {
+            "id": "EC1GS4_117",
+            "voice_input": false,
+            "media": {},
+            "left": "Vast",
+            "right": "Minuscule"
+        },
+        {
+            "id": "EC1GS4_118",
+            "voice_input": false,
+            "media": {},
+            "left": "Substantial",
+            "right": "Negligible"
+        },
+        {
+            "id": "EC1GS4_119",
+            "voice_input": false,
+            "media": {},
+            "left": "Prolific",
+            "right": "Barren"
+        },
+        {
+            "id": "EC1GS4_120",
+            "voice_input": false,
+            "media": {},
+            "left": "Abundant",
+            "right": "Scarce"
+        },
+        {
+            "id": "EC1GS4_121",
+            "voice_input": false,
+            "media": {}
+        },
+        {
+            "id": "EC1GS4_122",
+            "voice_input": false,
+            "media": {}
+        },
+        {
+            "id": "EC1GS4_123",
+            "voice_input": false,
+            "media": {}
+        },
+        {
+            "id": "EC1GS4_124",
+            "voice_input": false,
+            "media": {}
+        },
+        {
+            "id": "EC1GS4_125",
+            "voice_input": false,
+            "media": {}
+        },
+        {
+            "id": "EC1GS4_126",
+            "voice_input": false,
+            "media": {},
+            "left": "Convene",
+            "right": "Assemble"
+        },
+        {
+            "id": "EC1GS4_127",
+            "voice_input": false,
+            "media": {},
+            "left": "Mediate",
+            "right": "Arbitrate"
+        },
+        {
+            "id": "EC1GS4_128",
+            "voice_input": false,
+            "media": {},
+            "left": "Nullify",
+            "right": "Invalidate"
+        },
+        {
+            "id": "EC1GS4_129",
+            "voice_input": false,
+            "media": {},
+            "left": "Allocate",
+            "right": "Distribute"
+        },
+        {
+            "id": "EC1GS4_130",
+            "voice_input": false,
+            "media": {}
+        },
+        {
+            "id": "EC1GS4_131",
+            "voice_input": false,
+            "media": {}
+        },
+        {
+            "id": "EC1GS4_132",
+            "voice_input": false,
+            "media": {}
+        },
+        {
+            "id": "EC1GS4_133",
+            "voice_input": false,
+            "media": {}
+        },
+        {
+            "id": "EC1GS4_134",
+            "voice_input": false,
+            "media": {}
+        },
+        {
+            "id": "EC1GS4_135",
+            "voice_input": false,
+            "media": {},
+            "left": "Upheaval",
+            "right": "A violent or sudden change"
+        },
+        {
+            "id": "EC1GS4_136",
+            "voice_input": false,
+            "media": {},
+            "left": "Stagnation",
+            "right": "A state of no growth or movement"
+        },
+        {
+            "id": "EC1GS4_137",
+            "voice_input": false,
+            "media": {},
+            "left": "Resilience",
+            "right": "The capacity to recover quickly from difficulties"
+        },
+        {
+            "id": "EC1GS4_138",
+            "voice_input": false,
+            "media": {},
+            "left": "Disparity",
+            "right": "A great difference or inequality"
+        },
+        {
+            "id": "EC1GS4_139",
+            "voice_input": false,
+            "media": {}
+        },
+        {
+            "id": "EC1GS4_140",
+            "voice_input": false,
+            "media": {}
+        },
+        {
+            "id": "EC1GS4_141",
+            "voice_input": false,
+            "media": {}
+        },
+        {
+            "id": "EC1GS4_142",
+            "voice_input": false,
+            "media": {}
+        },
+        {
+            "id": "EC1GS4_143",
+            "voice_input": false,
+            "media": {}
+        },
+        {
+            "id": "EC1GS4_144",
+            "voice_input": false,
+            "media": {},
+            "left": "Henceforth",
+            "right": "From this time forward"
+        },
+        {
+            "id": "EC1GS4_145",
+            "voice_input": false,
+            "media": {},
+            "left": "Hitherto",
+            "right": "Until now or until the point in time under discussion"
+        },
+        {
+            "id": "EC1GS4_146",
+            "voice_input": false,
+            "media": {},
+            "left": "Whereby",
+            "right": "By which or through which"
+        },
+        {
+            "id": "EC1GS4_147",
+            "voice_input": false,
+            "media": {},
+            "left": "Notwithstanding",
+            "right": "In spite of"
+        },
+        {
+            "id": "EC1GS4_148",
+            "voice_input": false,
+            "media": {}
+        },
+        {
+            "id": "EC1GS4_149",
+            "voice_input": false,
+            "media": {}
+        },
+        {
+            "id": "EC1GS4_150",
+            "voice_input": false,
+            "media": {}
+        },
+        {
+            "id": "EC1GS4_151",
+            "voice_input": false,
+            "media": {}
+        },
+        {
+            "id": "EC1GS4_152",
+            "voice_input": false,
+            "media": {}
+        },
+        {
+            "id": "EC1GS4_153",
+            "voice_input": false,
+            "media": {},
+            "left": "Pseudo-",
+            "right": "science"
+        },
+        {
+            "id": "EC1GS4_154",
+            "voice_input": false,
+            "media": {},
+            "left": "Retro-",
+            "right": "active"
+        },
+        {
+            "id": "EC1GS4_155",
+            "voice_input": false,
+            "media": {},
+            "left": "Multi-",
+            "right": "faceted"
+        },
+        {
+            "id": "EC1GS4_156",
+            "voice_input": false,
+            "media": {},
+            "left": "Semi-",
+            "right": "autonomous"
+        },
+        {
+            "id": "EC1GS4_157",
+            "voice_input": false,
+            "media": {}
+        },
+        {
+            "id": "EC1GS4_158",
+            "voice_input": false,
+            "media": {}
+        },
+        {
+            "id": "EC1GS4_159",
+            "voice_input": false,
+            "media": {}
+        },
+        {
+            "id": "EC1GS4_160",
+            "voice_input": false,
+            "media": {}
+        },
+        {
+            "id": "EC1GS4_161",
+            "voice_input": false,
+            "media": {}
+        },
+        {
+            "id": "EC1GS4_162",
+            "voice_input": false,
+            "media": {},
+            "left": "Admit",
+            "right": "to having made a mistake"
+        },
+        {
+            "id": "EC1GS4_163",
+            "voice_input": false,
+            "media": {},
+            "left": "Suggest",
+            "right": "that we should leave"
+        },
+        {
+            "id": "EC1GS4_164",
+            "voice_input": false,
+            "media": {},
+            "left": "Threaten",
+            "right": "to take legal action"
+        },
+        {
+            "id": "EC1GS4_165",
+            "voice_input": false,
+            "media": {},
+            "left": "Inquire",
+            "right": "whether the office is open"
+        },
+        {
+            "id": "EC1GS4_166",
+            "voice_input": false,
+            "media": {}
+        },
+        {
+            "id": "EC1GS4_167",
+            "voice_input": false,
+            "media": {}
+        },
+        {
+            "id": "EC1GS4_168",
+            "voice_input": false,
+            "media": {}
+        },
+        {
+            "id": "EC1GS4_169",
+            "voice_input": false,
+            "media": {}
+        },
+        {
+            "id": "EC1GS4_170",
+            "voice_input": false,
+            "media": {}
+        },
+        {
+            "id": "EC1GS4_171",
+            "voice_input": false,
+            "media": {},
+            "left": "Turmoil",
+            "right": "Tranquility"
+        },
+        {
+            "id": "EC1GS4_172",
+            "voice_input": false,
+            "media": {},
+            "left": "Cohesion",
+            "right": "Fragmentation"
+        },
+        {
+            "id": "EC1GS4_173",
+            "voice_input": false,
+            "media": {},
+            "left": "Prosperity",
+            "right": "Destitution"
+        },
+        {
+            "id": "EC1GS4_174",
+            "voice_input": false,
+            "media": {},
+            "left": "Autonomy",
+            "right": "Dependency"
+        },
+        {
+            "id": "EC1GS4_175",
+            "voice_input": false,
+            "media": {}
+        },
+        {
+            "id": "EC1GS4_176",
+            "voice_input": false,
+            "media": {}
+        },
+        {
+            "id": "EC1GS4_177",
+            "voice_input": false,
+            "media": {}
+        },
+        {
+            "id": "EC1GS4_178",
+            "voice_input": false,
+            "media": {}
+        },
+        {
+            "id": "EC1GS4_179",
+            "voice_input": false,
+            "media": {}
+        },
+        {
+            "id": "EC1GS4_180",
+            "voice_input": false,
+            "media": {},
+            "left": "In stark contrast to",
+            "right": "Highlighting a very obvious difference"
+        },
+        {
+            "id": "EC1GS4_181",
+            "voice_input": false,
+            "media": {},
+            "left": "Notwithstanding",
+            "right": "Introducing a fact that doesn't prevent another"
+        },
+        {
+            "id": "EC1GS4_182",
+            "voice_input": false,
+            "media": {},
+            "left": "Conversely",
+            "right": "Introducing a statement that is the opposite"
+        },
+        {
+            "id": "EC1GS4_183",
+            "voice_input": false,
+            "media": {},
+            "left": "Even so",
+            "right": "Introducing a fact that is true despite what was just said"
+        },
+        {
+            "id": "EC1GS4_184",
+            "voice_input": false,
+            "media": {}
+        },
+        {
+            "id": "EC1GS4_185",
+            "voice_input": false,
+            "media": {}
+        },
+        {
+            "id": "EC1GS4_186",
+            "voice_input": false,
+            "media": {}
+        },
+        {
+            "id": "EC1GS4_187",
+            "voice_input": false,
+            "media": {}
+        },
+        {
+            "id": "EC1GS4_188",
+            "voice_input": false,
+            "media": {}
+        },
+        {
+            "id": "EC1GS4_189",
+            "voice_input": false,
+            "media": {},
+            "left": "Postulate",
+            "right": "Hypothesize"
+        },
+        {
+            "id": "EC1GS4_190",
+            "voice_input": false,
+            "media": {},
+            "left": "Validate",
+            "right": "Verify"
+        },
+        {
+            "id": "EC1GS4_191",
+            "voice_input": false,
+            "media": {},
+            "left": "Replicate",
+            "right": "Duplicate"
+        },
+        {
+            "id": "EC1GS4_192",
+            "voice_input": false,
+            "media": {},
+            "left": "Synthesize",
+            "right": "Combine"
+        },
+        {
+            "id": "EC1GS4_193",
+            "voice_input": false,
+            "media": {}
+        },
+        {
+            "id": "EC1GS4_194",
+            "voice_input": false,
+            "media": {}
+        },
+        {
+            "id": "EC1GS4_195",
+            "voice_input": false,
+            "media": {}
+        },
+        {
+            "id": "EC1GS4_196",
+            "voice_input": false,
+            "media": {}
+        },
+        {
+            "id": "EC1GS4_197",
+            "voice_input": false,
+            "media": {}
+        },
+        {
+            "id": "EC1GS4_198",
+            "voice_input": false,
+            "media": {},
+            "left": "Stringent",
+            "right": "measures"
+        },
+        {
+            "id": "EC1GS4_199",
+            "voice_input": false,
+            "media": {},
+            "left": "Bipartisan",
+            "right": "support"
+        },
+        {
+            "id": "EC1GS4_200",
+            "voice_input": false,
+            "media": {},
+            "left": "Landslide",
+            "right": "victory"
+        },
+        {
+            "id": "EC1GS4_201",
+            "voice_input": false,
+            "media": {},
+            "left": "Vested",
+            "right": "interests"
+        },
+        {
+            "id": "EC1GS4_202",
+            "voice_input": false,
+            "media": {}
+        },
+        {
+            "id": "EC1GS4_203",
+            "voice_input": false,
+            "media": {}
+        },
+        {
+            "id": "EC1GS4_204",
+            "voice_input": false,
+            "media": {}
+        },
+        {
+            "id": "EC1GS4_205",
+            "voice_input": false,
+            "media": {}
+        },
+        {
+            "id": "EC1GS4_206",
+            "voice_input": false,
+            "media": {}
+        },
+        {
+            "id": "EC1GS4_207",
+            "voice_input": false,
+            "media": {},
+            "left": "Affluent",
+            "right": "Impoverished"
+        },
+        {
+            "id": "EC1GS4_208",
+            "voice_input": false,
+            "media": {},
+            "left": "Prominent",
+            "right": "Obscure"
+        },
+        {
+            "id": "EC1GS4_209",
+            "voice_input": false,
+            "media": {},
+            "left": "Urban",
+            "right": "Rural"
+        },
+        {
+            "id": "EC1GS4_210",
+            "voice_input": false,
+            "media": {},
+            "left": "Modern",
+            "right": "Archaic"
+        },
+        {
+            "id": "EC1GS4_211",
+            "voice_input": false,
+            "media": {}
+        },
+        {
+            "id": "EC1GS4_212",
+            "voice_input": false,
+            "media": {}
+        },
+        {
+            "id": "EC1GS4_213",
+            "voice_input": false,
+            "media": {}
+        },
+        {
+            "id": "EC1GS4_214",
+            "voice_input": false,
+            "media": {}
+        },
+        {
+            "id": "EC1GS4_215",
+            "voice_input": false,
+            "media": {}
+        },
+        {
+            "id": "EC1GS4_216",
+            "voice_input": false,
+            "media": {},
+            "left": "In the event of",
+            "right": "If a particular thing happens"
+        },
+        {
+            "id": "EC1GS4_217",
+            "voice_input": false,
+            "media": {},
+            "left": "For the sake of",
+            "right": "For the benefit or good of"
+        },
+        {
+            "id": "EC1GS4_218",
+            "voice_input": false,
+            "media": {},
+            "left": "By dint of",
+            "right": "By means of or because of"
+        },
+        {
+            "id": "EC1GS4_219",
+            "voice_input": false,
+            "media": {},
+            "left": "In light of",
+            "right": "Because of or considering new information"
+        },
+        {
+            "id": "EC1GS4_220",
+            "voice_input": false,
+            "media": {}
+        },
+        {
+            "id": "EC1GS4_221",
+            "voice_input": false,
+            "media": {}
+        },
+        {
+            "id": "EC1GS4_222",
+            "voice_input": false,
+            "media": {}
+        },
+        {
+            "id": "EC1GS4_223",
+            "voice_input": false,
+            "media": {}
+        },
+        {
+            "id": "EC1GS4_224",
+            "voice_input": false,
+            "media": {}
+        },
+        {
+            "id": "EC1GS4_225",
+            "voice_input": false,
+            "media": {},
+            "left": "Breath-taking",
+            "right": "Extremely exciting or beautiful"
+        },
+        {
+            "id": "EC1GS4_226",
+            "voice_input": false,
+            "media": {},
+            "left": "High-strung",
+            "right": "Very nervous and easily upset"
+        },
+        {
+            "id": "EC1GS4_227",
+            "voice_input": false,
+            "media": {},
+            "left": "Light-headed",
+            "right": "Feeling dizzy or slightly faint"
+        },
+        {
+            "id": "EC1GS4_228",
+            "voice_input": false,
+            "media": {},
+            "left": "Clear-cut",
+            "right": "Easy to see or understand; obvious"
+        },
+        {
+            "id": "EC1GS4_229",
+            "voice_input": false,
+            "media": {}
+        },
+        {
+            "id": "EC1GS4_230",
+            "voice_input": false,
+            "media": {}
+        },
+        {
+            "id": "EC1GS4_231",
+            "voice_input": false,
+            "media": {}
+        },
+        {
+            "id": "EC1GS4_232",
+            "voice_input": false,
+            "media": {}
+        },
+        {
+            "id": "EC1GS4_233",
+            "voice_input": false,
+            "media": {}
+        },
+        {
+            "id": "EC1GS4_234",
+            "voice_input": false,
+            "media": {},
+            "left": "Insofar as",
+            "right": "To the extent that"
+        },
+        {
+            "id": "EC1GS4_235",
+            "voice_input": false,
+            "media": {},
+            "left": "Albeit",
+            "right": "Even though / although"
+        },
+        {
+            "id": "EC1GS4_236",
+            "voice_input": false,
+            "media": {},
+            "left": "Whereupon",
+            "right": "Immediately after which"
+        },
+        {
+            "id": "EC1GS4_237",
+            "voice_input": false,
+            "media": {},
+            "left": "Notwithstanding",
+            "right": "Despite this / in spite of"
+        },
+        {
+            "id": "EC1GS4_238",
+            "voice_input": false,
+            "media": {}
+        },
+        {
+            "id": "EC1GS4_239",
+            "voice_input": false,
+            "media": {}
+        },
+        {
+            "id": "EC1GS4_240",
+            "voice_input": false,
+            "media": {}
+        },
+        {
+            "id": "EC1GS4_241",
+            "voice_input": false,
+            "media": {}
+        },
+        {
+            "id": "EC1GS4_242",
+            "voice_input": false,
+            "media": {}
+        },
+        {
+            "id": "EC1GS4_243",
+            "voice_input": false,
+            "media": {},
+            "left": "Ambiguous",
+            "right": "Unambiguous"
+        },
+        {
+            "id": "EC1GS4_244",
+            "voice_input": false,
+            "media": {},
+            "left": "Vague",
+            "right": "Explicit"
+        },
+        {
+            "id": "EC1GS4_245",
+            "voice_input": false,
+            "media": {},
+            "left": "Obscure",
+            "right": "Well-known"
+        },
+        {
+            "id": "EC1GS4_246",
+            "voice_input": false,
+            "media": {},
+            "left": "Enigmatic",
+            "right": "Straightforward"
+        },
+        {
+            "id": "EC1GS4_247",
+            "voice_input": false,
+            "media": {}
+        },
+        {
+            "id": "EC1GS4_248",
+            "voice_input": false,
+            "media": {}
+        },
+        {
+            "id": "EC1GS4_249",
+            "voice_input": false,
+            "media": {}
+        },
+        {
+            "id": "EC1GS4_250",
+            "voice_input": false,
+            "media": {}
+        },
+        {
+            "id": "EC1GS4_251",
+            "voice_input": false,
+            "media": {}
+        },
+        {
+            "id": "EC1GS4_252",
+            "voice_input": false,
+            "media": {},
+            "left": "Iterate",
+            "right": "To perform or utter repeatedly"
+        },
+        {
+            "id": "EC1GS4_253",
+            "voice_input": false,
+            "media": {},
+            "left": "Capitulate",
+            "right": "To cease to resist an opponent"
+        },
+        {
+            "id": "EC1GS4_254",
+            "voice_input": false,
+            "media": {},
+            "left": "Exacerbate",
+            "right": "To make a problem or situation worse"
+        },
+        {
+            "id": "EC1GS4_255",
+            "voice_input": false,
+            "media": {},
+            "left": "Ameliorate",
+            "right": "To make something bad better"
+        },
+        {
+            "id": "EC1GS4_256",
+            "voice_input": false,
+            "media": {}
+        },
+        {
+            "id": "EC1GS4_257",
+            "voice_input": false,
+            "media": {}
+        },
+        {
+            "id": "EC1GS4_258",
+            "voice_input": false,
+            "media": {}
+        },
+        {
+            "id": "EC1GS4_259",
+            "voice_input": false,
+            "media": {}
+        },
+        {
+            "id": "EC1GS4_260",
+            "voice_input": false,
+            "media": {}
+        },
+        {
+            "id": "EC1GS4_261",
+            "voice_input": false,
+            "media": {},
+            "left": "By the same token",
+            "right": "Introducing a parallel point"
+        },
+        {
+            "id": "EC1GS4_262",
+            "voice_input": false,
+            "media": {},
+            "left": "In light of this",
+            "right": "Drawing a conclusion from facts"
+        },
+        {
+            "id": "EC1GS4_263",
+            "voice_input": false,
+            "media": {},
+            "left": "Notwithstanding",
+            "right": "Acknowledging a counter-point"
+        },
+        {
+            "id": "EC1GS4_264",
+            "voice_input": false,
+            "media": {},
+            "left": "Furthermore",
+            "right": "Adding more weight to an argument"
+        },
+        {
+            "id": "EC1GS4_265",
+            "voice_input": false,
+            "media": {}
+        },
+        {
+            "id": "EC1GS4_266",
+            "voice_input": false,
+            "media": {}
+        },
+        {
+            "id": "EC1GS4_267",
+            "voice_input": false,
+            "media": {}
+        },
+        {
+            "id": "EC1GS4_268",
+            "voice_input": false,
+            "media": {}
+        },
+        {
+            "id": "EC1GS4_269",
+            "voice_input": false,
+            "media": {}
+        },
+        {
+            "id": "EC1GS4_270",
+            "voice_input": false,
+            "media": {},
+            "left": "Paramount",
+            "right": "Of supreme importance"
+        },
+        {
+            "id": "EC1GS4_271",
+            "voice_input": false,
+            "media": {},
+            "left": "Negligible",
+            "right": "Of very little importance"
+        },
+        {
+            "id": "EC1GS4_272",
+            "voice_input": false,
+            "media": {},
+            "left": "Trivial",
+            "right": "Unimportant or insignificant"
+        },
+        {
+            "id": "EC1GS4_273",
+            "voice_input": false,
+            "media": {},
+            "left": "Pivotal",
+            "right": "Crucial to success"
+        },
+        {
+            "id": "EC1GS4_274",
+            "voice_input": false,
+            "media": {}
+        },
+        {
+            "id": "EC1GS4_275",
+            "voice_input": false,
+            "media": {}
+        },
+        {
+            "id": "EC1GS4_276",
+            "voice_input": false,
+            "media": {}
+        },
+        {
+            "id": "EC1GS4_277",
+            "voice_input": false,
+            "media": {}
+        },
+        {
+            "id": "EC1GS4_278",
+            "voice_input": false,
+            "media": {}
+        },
+        {
+            "id": "EC1GS4_279",
+            "voice_input": false,
+            "media": {},
+            "left": "Unified",
+            "right": "Fragmented"
+        },
+        {
+            "id": "EC1GS4_280",
+            "voice_input": false,
+            "media": {},
+            "left": "Homogeneous",
+            "right": "Diverse"
+        },
+        {
+            "id": "EC1GS4_281",
+            "voice_input": false,
+            "media": {},
+            "left": "Harmonious",
+            "right": "Discordant"
+        },
+        {
+            "id": "EC1GS4_282",
+            "voice_input": false,
+            "media": {},
+            "left": "Stable",
+            "right": "Volatile"
+        },
+        {
+            "id": "EC1GS4_283",
+            "voice_input": false,
+            "media": {}
+        },
+        {
+            "id": "EC1GS4_284",
+            "voice_input": false,
+            "media": {}
+        }
+    ]
+}
