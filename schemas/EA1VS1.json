@@ -1,264 +1,304 @@
 {
     "exercises":[
   {
-    "id": "a1_reading_v3_q01",
+    "id": "a1_listening_v2_q01",
     "type": "tap_fill",
-    "question": "TEXT: My name is Marco. I live in a small house. Every morning, I wake up at 7:00. I drink a cup of coffee and eat bread. Then, I go to work by bus. I am a teacher. I love my students because they are very kind. In the evening, I cook dinner and watch TV. I go to bed at 10:00. I am happy with my life.\n\nEXERCISE: Marco lives in a ___ house.",
-    "options": ["small", "big", "large", "new"],
-    "answer": "small",
-    "hint": "Check the second sentence of the story.",
+    "question": "The sun is ___ today.",
+    "options": ["shining", "raining", "sleeping", "cold"],
+    "answer": "shining",
+    "hint": "Listen for how the weather is described at the start.",
     "voice_input": false,
-    "example_sentence": "I live in a small house in the city.",
-    "media": {}
+    "example_sentence": "The sun is shining in the sky.",
+    "media": {
+      "text": "The sun is shining today. Tom goes to the park with his dog, Rex. The park is very big and green. Tom sits on a bench and reads a book. Rex runs on the grass and plays with a ball. There are many children and flowers. Tom is very relaxed. They go home at five o'clock."
+    }
   },
   {
-    "id": "a1_reading_v3_q02",
+    "id": "a1_listening_v2_q02",
     "type": "multiple_choice",
-    "question": "TEXT: My name is Marco. I live in a small house. Every morning, I wake up at 7:00. I drink a cup of coffee and eat bread. Then, I go to work by bus. I am a teacher. I love my students because they are very kind. In the evening, I cook dinner and watch TV. I go to bed at 10:00. I am happy with my life.\n\nEXERCISE: What time does Marco wake up?",
-    "options": ["At 7:00", "At 8:00", "At 10:00", "At 6:00"],
-    "answer": "At 7:00",
-    "hint": "Look for the sentence about the morning.",
+    "question": "Who does Tom go to the park with?",
+    "options": ["His dog, Rex", "His friend, Sam", "His sister, Anna", "His cat, Mimi"],
+    "answer": "His dog, Rex",
+    "hint": "Listen for the name of his pet.",
     "voice_input": false,
-    "example_sentence": "I wake up at 7:00 every day.",
-    "media": {}
+    "example_sentence": "I walk with my dog every day.",
+    "media": {
+      "text": "The sun is shining today. Tom goes to the park with his dog, Rex. The park is very big and green. Tom sits on a bench and reads a book. Rex runs on the grass and plays with a ball. There are many children and flowers. Tom is very relaxed. They go home at five o'clock."
+    }
   },
   {
-    "id": "a1_reading_v3_q03",
+    "id": "a1_listening_v2_q03",
     "type": "matching",
-    "question": "TEXT: My name is Marco. I live in a small house. Every morning, I wake up at 7:00. I drink a cup of coffee and eat bread. Then, I go to work by bus. I am a teacher. I love my students because they are very kind. In the evening, I cook dinner and watch TV. I go to bed at 10:00. I am happy with my life.\n\nEXERCISE: Match the actions with the correct objects.",
-    "words": ["Drink", "Eat", "Watch", "Cook"],
+    "question": "Match the characters with their actions.",
+    "words": ["Tom", "Rex", "Children", "The Sun"],
     "pairs": [
-      {"left": "Drink", "right": "Coffee"},
-      {"left": "Eat", "right": "Bread"},
-      {"left": "Watch", "right": "TV"},
-      {"left": "Cook", "right": "Dinner"}
+      {"left": "Tom", "right": "Sits on a bench"},
+      {"left": "Rex", "right": "Plays with a ball"},
+      {"left": "Children", "right": "Are in the park"},
+      {"left": "The Sun", "right": "Is shining"}
     ],
     "answer": [
-      {"left": "Eat", "right": "Bread"},
-      {"left": "Watch", "right": "TV"},
-      {"left": "Cook", "right": "Dinner"},
-      {"left": "Drink", "right": "Coffee"}
+      {"left": "The Sun", "right": "Is shining"},
+      {"left": "Children", "right": "Are in the park"},
+      {"left": "Tom", "right": "Sits on a bench"},
+      {"left": "Rex", "right": "Plays with a ball"}
     ],
-    "hint": "Marco drinks coffee and eats bread.",
+    "hint": "Listen for what Tom and Rex are doing specifically.",
     "voice_input": false,
-    "example_sentence": "I cook dinner at home.",
-    "media": {}
+    "example_sentence": "The children play in the garden.",
+    "media": {
+      "text": "The sun is shining today. Tom goes to the park with his dog, Rex. The park is very big and green. Tom sits on a bench and reads a book. Rex runs on the grass and plays with a ball. There are many children and flowers. Tom is very relaxed. They go home at five o'clock."
+    }
   },
   {
-    "id": "a1_reading_v3_q04",
+    "id": "a1_listening_v2_q04",
     "type": "sentence_ordering",
-    "question": "TEXT: My name is Marco. I live in a small house. Every morning, I wake up at 7:00. I drink a cup of coffee and eat bread. Then, I go to work by bus. I am a teacher. I love my students because they are very kind. In the evening, I cook dinner and watch TV. I go to bed at 10:00. I am happy with my life.\n\nEXERCISE: Reorder the words to describe how Marco travels.",
-    "words": ["He", "goes", "to", "work", "by", "bus"],
-    "answer": "He goes to work by bus",
-    "hint": "Look for the sentence about going to work.",
+    "question": "Reorder the words to show where Tom sits.",
+    "words": ["He", "sits", "on", "a", "wooden", "bench"],
+    "answer": "He sits on a wooden bench",
+    "hint": "Listen for the word 'bench'.",
     "voice_input": false,
-    "example_sentence": "She goes to work by car.",
-    "media": {}
+    "example_sentence": "I sit on a bench to rest.",
+    "media": {
+      "text": "The sun is shining today. Tom goes to the park with his dog, Rex. The park is very big and green. Tom sits on a bench and reads a book. Rex runs on the grass and plays with a ball. There are many children and flowers. Tom is very relaxed. They go home at five o'clock."
+    }
   },
   {
-    "id": "a1_reading_v3_q05",
+    "id": "a1_listening_v2_q05",
     "type": "pronunciation",
-    "question": "TEXT: My name is Marco. I live in a small house. Every morning, I wake up at 7:00. I drink a cup of coffee and eat bread. Then, I go to work by bus. I am a teacher. I love my students because they are very kind. In the evening, I cook dinner and watch TV. I go to bed at 10:00. I am happy with my life.\n\nEXERCISE: Read aloud: 'I love my students because they are very kind.'",
+    "question": "Read aloud: 'The park is very big and green.'",
     "voice_input": true,
-    "example_sentence": "My teacher is very kind.",
-    "hint": "Focus on the word 'Students'.",
-    "media": {}
+    "example_sentence": "The forest is green.",
+    "hint": "Focus on 'Green' (GREE-n).",
+    "media": {
+      "text": "The sun is shining today. Tom goes to the park with his dog, Rex. The park is very big and green. Tom sits on a bench and reads a book. Rex runs on the grass and plays with a ball. There are many children and flowers. Tom is very relaxed. They go home at five o'clock."
+    }
   },
   {
-    "id": "a1_reading_v3_q06",
+    "id": "a1_listening_v2_q06",
     "type": "tap_fill",
-    "question": "TEXT: My name is Marco. I live in a small house. Every morning, I wake up at 7:00. I drink a cup of coffee and eat bread. Then, I go to work by bus. I am a teacher. I love my students because they are very kind. In the evening, I cook dinner and watch TV. I go to bed at 10:00. I am happy with my life.\n\nEXERCISE: Marco is a ___.",
-    "options": ["teacher", "doctor", "driver", "pilot"],
-    "answer": "teacher",
-    "hint": "He loves his students.",
+    "question": "Rex runs on the ___.",
+    "options": ["grass", "water", "road", "table"],
+    "answer": "grass",
+    "hint": "It is the green part of the park.",
     "voice_input": false,
-    "example_sentence": "The teacher is in the classroom.",
-    "media": {}
+    "example_sentence": "Do not walk on the grass.",
+    "media": {
+      "text": "The sun is shining today. Tom goes to the park with his dog, Rex. The park is very big and green. Tom sits on a bench and reads a book. Rex runs on the grass and plays with a ball. There are many children and flowers. Tom is very relaxed. They go home at five o'clock."
+    }
   },
   {
-    "id": "a1_reading_v3_q07",
+    "id": "a1_listening_v2_q07",
     "type": "multiple_choice",
-    "question": "TEXT: My name is Marco. I live in a small house. Every morning, I wake up at 7:00. I drink a cup of coffee and eat bread. Then, I go to work by bus. I am a teacher. I love my students because they are very kind. In the evening, I cook dinner and watch TV. I go to bed at 10:00. I am happy with my life.\n\nEXERCISE: What does Marco do in the evening?",
-    "options": ["Cooks dinner and watches TV", "Drinks coffee and eats bread", "Goes to work by bus", "Wakes up at 7:00"],
-    "answer": "Cooks dinner and watches TV",
-    "hint": "Look for the sentence starting with 'In the evening'.",
+    "question": "What is Tom doing on the bench?",
+    "options": ["Reading a book", "Sleeping", "Eating lunch", "Talking on the phone"],
+    "answer": "Reading a book",
+    "hint": "Listen for the activity he does while sitting.",
     "voice_input": false,
-    "example_sentence": "In the evening, I relax.",
-    "media": {}
+    "example_sentence": "I like reading a book at night.",
+    "media": {
+      "text": "The sun is shining today. Tom goes to the park with his dog, Rex. The park is very big and green. Tom sits on a bench and reads a book. Rex runs on the grass and plays with a ball. There are many children and flowers. Tom is very relaxed. They go home at five o'clock."
+    }
   },
   {
-    "id": "a1_reading_v3_q08",
+    "id": "a1_listening_v2_q08",
     "type": "matching",
-    "question": "TEXT: My name is Marco. I live in a small house. Every morning, I wake up at 7:00. I drink a cup of coffee and eat bread. Then, I go to work by bus. I am a teacher. I love my students because they are very kind. In the evening, I cook dinner and watch TV. I go to bed at 10:00. I am happy with my life.\n\nEXERCISE: Match the items with the correct times.",
-    "words": ["7:00", "Morning", "Evening", "10:00"],
+    "question": "Match the objects with their descriptions.",
+    "words": ["Park", "Ball", "Rex", "Book"],
     "pairs": [
-      {"left": "7:00", "right": "Wake up"},
-      {"left": "Morning", "right": "Coffee and bread"},
-      {"left": "Evening", "right": "Watch TV"},
-      {"left": "10:00", "right": "Go to bed"}
+      {"left": "Park", "right": "Big and green"},
+      {"left": "Ball", "right": "For Rex to play"},
+      {"left": "Rex", "right": "The dog"},
+      {"left": "Book", "right": "For Tom to read"}
     ],
     "answer": [
-      {"left": "10:00", "right": "Go to bed"},
-      {"left": "7:00", "right": "Wake up"},
-      {"left": "Morning", "right": "Coffee and bread"},
-      {"left": "Evening", "right": "Watch TV"}
+      {"left": "Rex", "right": "The dog"},
+      {"left": "Park", "right": "Big and green"},
+      {"left": "Book", "right": "For Tom to read"},
+      {"left": "Ball", "right": "For Rex to play"}
     ],
-    "hint": "Check the sequence of Marco's day.",
+    "hint": "Listen for how the park and the activities are linked.",
     "voice_input": false,
-    "example_sentence": "I go to bed late.",
-    "media": {}
+    "example_sentence": "This is a good book.",
+    "media": {
+      "text": "The sun is shining today. Tom goes to the park with his dog, Rex. The park is very big and green. Tom sits on a bench and reads a book. Rex runs on the grass and plays with a ball. There are many children and flowers. Tom is very relaxed. They go home at five o'clock."
+    }
   },
   {
-    "id": "a1_reading_v3_q09",
+    "id": "a1_listening_v2_q09",
     "type": "sentence_ordering",
-    "question": "TEXT: My name is Marco. I live in a small house. Every morning, I wake up at 7:00. I drink a cup of coffee and eat bread. Then, I go to work by bus. I am a teacher. I love my students because they are very kind. In the evening, I cook dinner and watch TV. I go to bed at 10:00. I am happy with my life.\n\nEXERCISE: Reorder the words to show Marco's feelings.",
-    "words": ["He", "is", "happy", "with", "his", "life"],
-    "answer": "He is happy with his life",
-    "hint": "Look at the very last sentence.",
+    "question": "Reorder the words to show what time they go home.",
+    "words": ["They", "go", "home", "at", "five", "o'clock"],
+    "answer": "They go home at five o'clock",
+    "hint": "Listen for the time at the end of the story.",
     "voice_input": false,
-    "example_sentence": "I am happy today.",
-    "media": {}
+    "example_sentence": "I go home at six o'clock.",
+    "media": {
+      "text": "The sun is shining today. Tom goes to the park with his dog, Rex. The park is very big and green. Tom sits on a bench and reads a book. Rex runs on the grass and plays with a ball. There are many children and flowers. Tom is very relaxed. They go home at five o'clock."
+    }
   },
   {
-    "id": "a1_reading_v3_q10",
+    "id": "a1_listening_v2_q10",
     "type": "tap_fill",
-    "question": "TEXT: My name is Marco. I live in a small house. Every morning, I wake up at 7:00. I drink a cup of coffee and eat bread. Then, I go to work by bus. I am a teacher. I love my students because they are very kind. In the evening, I cook dinner and watch TV. I go to bed at 10:00. I am happy with my life.\n\nEXERCISE: Marco goes to ___ at 10:00.",
-    "options": ["bed", "work", "school", "shop"],
-    "answer": "bed",
-    "hint": "This is what people do at night.",
+    "question": "There are many ___ and flowers in the park.",
+    "options": ["children", "cars", "planes", "offices"],
+    "answer": "children",
+    "hint": "Listen for the people in the park.",
     "voice_input": false,
-    "example_sentence": "I go to bed at night.",
-    "media": {}
+    "example_sentence": "The children are happy.",
+    "media": {
+      "text": "The sun is shining today. Tom goes to the park with his dog, Rex. The park is very big and green. Tom sits on a bench and reads a book. Rex runs on the grass and plays with a ball. There are many children and flowers. Tom is very relaxed. They go home at five o'clock."
+    }
   },
   {
-    "id": "a1_reading_v3_q11",
+    "id": "a1_listening_v2_q11",
     "type": "multiple_choice",
-    "question": "TEXT: My name is Marco. I live in a small house. Every morning, I wake up at 7:00. I drink a cup of coffee and eat bread. Then, I go to work by bus. I am a teacher. I love my students because they are very kind. In the evening, I cook dinner and watch TV. I go to bed at 10:00. I am happy with my life.\n\nEXERCISE: Why does Marco love his students?",
-    "options": ["They are kind", "They are funny", "They are fast", "They are big"],
-    "answer": "They are kind",
-    "hint": "The text explains the reason after the word 'because'.",
+    "question": "How does Tom feel in the park?",
+    "options": ["Relaxed", "Angry", "Sad", "Busy"],
+    "answer": "Relaxed",
+    "hint": "Listen for his emotion while he reads.",
     "voice_input": false,
-    "example_sentence": "I love my dog.",
-    "media": {}
+    "example_sentence": "I feel relaxed after a bath.",
+    "media": {
+      "text": "The sun is shining today. Tom goes to the park with his dog, Rex. The park is very big and green. Tom sits on a bench and reads a book. Rex runs on the grass and plays with a ball. There are many children and flowers. Tom is very relaxed. They go home at five o'clock."
+    }
   },
   {
-    "id": "a1_reading_v3_q12",
+    "id": "a1_listening_v2_q12",
     "type": "matching",
-    "question": "TEXT: My name is Marco. I live in a small house. Every morning, I wake up at 7:00. I drink a cup of coffee and eat bread. Then, I go to work by bus. I am a teacher. I love my students because they are very kind. In the evening, I cook dinner and watch TV. I go to bed at 10:00. I am happy with my life.\n\nEXERCISE: Match the descriptions with the nouns.",
-    "words": ["Small", "Kind", "Happy", "Every"],
+    "question": "Match the times and states.",
+    "words": ["Today", "Five o'clock", "Green", "Rex"],
     "pairs": [
-      {"left": "Small", "right": "House"},
-      {"left": "Kind", "right": "Students"},
-      {"left": "Happy", "right": "Life"},
-      {"left": "Every", "right": "Morning"}
+      {"left": "Today", "right": "Sun is shining"},
+      {"left": "Five o'clock", "right": "Go home"},
+      {"left": "Green", "right": "The park"},
+      {"left": "Rex", "right": "Plays with a ball"}
     ],
     "answer": [
-      {"left": "Every", "right": "Morning"},
-      {"left": "Happy", "right": "Life"},
-      {"left": "Kind", "right": "Students"},
-      {"left": "Small", "right": "House"}
+      {"left": "Five o'clock", "right": "Go home"},
+      {"left": "Today", "right": "Sun is shining"},
+      {"left": "Rex", "right": "Plays with a ball"},
+      {"left": "Green", "right": "The park"}
     ],
-    "hint": "Check how the author describes these items.",
+    "hint": "Connect the time to the action.",
     "voice_input": false,
-    "example_sentence": "She has a happy life.",
-    "media": {}
+    "example_sentence": "The grass is green.",
+    "media": {
+      "text": "The sun is shining today. Tom goes to the park with his dog, Rex. The park is very big and green. Tom sits on a bench and reads a book. Rex runs on the grass and plays with a ball. There are many children and flowers. Tom is very relaxed. They go home at five o'clock."
+    }
   },
   {
-    "id": "a1_reading_v3_q13",
+    "id": "a1_listening_v2_q13",
     "type": "tap_fill",
-    "question": "TEXT: My name is Marco. I live in a small house. Every morning, I wake up at 7:00. I drink a cup of coffee and eat bread. Then, I go to work by bus. I am a teacher. I love my students because they are very kind. In the evening, I cook dinner and watch TV. I go to bed at 10:00. I am happy with my life.\n\nEXERCISE: Marco travels by ___ to get to work.",
-    "options": ["bus", "car", "train", "bike"],
-    "answer": "bus",
-    "hint": "It's a large public vehicle.",
+    "question": "Rex plays with a ___.",
+    "options": ["ball", "cat", "shoe", "stick"],
+    "answer": "ball",
+    "hint": "It is a round toy.",
     "voice_input": false,
-    "example_sentence": "I take the bus.",
-    "media": {}
+    "example_sentence": "Throw the ball to the dog.",
+    "media": {
+      "text": "The sun is shining today. Tom goes to the park with his dog, Rex. The park is very big and green. Tom sits on a bench and reads a book. Rex runs on the grass and plays with a ball. There are many children and flowers. Tom is very relaxed. They go home at five o'clock."
+    }
   },
   {
-    "id": "a1_reading_v3_q14",
+    "id": "a1_listening_v2_q14",
     "type": "sentence_ordering",
-    "question": "TEXT: My name is Marco. I live in a small house. Every morning, I wake up at 7:00. I drink a cup of coffee and eat bread. Then, I go to work by bus. I am a teacher. I love my students because they are very kind. In the evening, I cook dinner and watch TV. I go to bed at 10:00. I am happy with my life.\n\nEXERCISE: Reorder the words to say Marco's name.",
-    "words": ["My", "name", "is", "Marco"],
-    "answer": "My name is Marco",
-    "hint": "This is the very first sentence.",
+    "question": "Reorder the words to describe the park.",
+    "words": ["The", "park", "is", "very", "big"],
+    "answer": "The park is very big",
+    "hint": "Listen for the size of the park.",
     "voice_input": false,
-    "example_sentence": "My name is Jane.",
-    "media": {}
+    "example_sentence": "My school is very big.",
+    "media": {
+      "text": "The sun is shining today. Tom goes to the park with his dog, Rex. The park is very big and green. Tom sits on a bench and reads a book. Rex runs on the grass and plays with a ball. There are many children and flowers. Tom is very relaxed. They go home at five o'clock."
+    }
   },
   {
-    "id": "a1_reading_v3_q15",
+    "id": "a1_listening_v2_q15",
     "type": "pronunciation",
-    "question": "TEXT: My name is Marco. I live in a small house. Every morning, I wake up at 7:00. I drink a cup of coffee and eat bread. Then, I go to work by bus. I am a teacher. I love my students because they are very kind. In the evening, I cook dinner and watch TV. I go to bed at 10:00. I am happy with my life.\n\nEXERCISE: Read aloud: 'Every morning, I wake up at 7:00.'",
+    "question": "Read aloud: 'Rex runs on the grass.'",
     "voice_input": true,
-    "example_sentence": "Every morning I drink tea.",
-    "hint": "Focus on 'Morning'.",
-    "media": {}
+    "example_sentence": "He runs fast.",
+    "hint": "Focus on 'Runs' (RUN-z).",
+    "media": {
+      "text": "The sun is shining today. Tom goes to the park with his dog, Rex. The park is very big and green. Tom sits on a bench and reads a book. Rex runs on the grass and plays with a ball. There are many children and flowers. Tom is very relaxed. They go home at five o'clock."
+    }
   },
   {
-    "id": "a1_reading_v3_q16",
+    "id": "a1_listening_v2_q16",
     "type": "tap_fill",
-    "question": "TEXT: My name is Marco. I live in a small house. Every morning, I wake up at 7:00. I drink a cup of coffee and eat bread. Then, I go to work by bus. I am a teacher. I love my students because they are very kind. In the evening, I cook dinner and watch TV. I go to bed at 10:00. I am happy with my life.\n\nEXERCISE: In the morning, Marco eats ___.",
-    "options": ["bread", "pizza", "apple", "fish"],
-    "answer": "bread",
-    "hint": "He eats this with his coffee.",
+    "question": "Tom sitting on a bench and ___ a book.",
+    "options": ["reads", "writes", "sells", "paints"],
+    "answer": "reads",
+    "hint": "He is looking at the words in the book.",
     "voice_input": false,
-    "example_sentence": "I like bread with butter.",
-    "media": {}
+    "example_sentence": "She reads a book every night.",
+    "media": {
+      "text": "The sun is shining today. Tom goes to the park with his dog, Rex. The park is very big and green. Tom sits on a bench and reads a book. Rex runs on the grass and plays with a ball. There are many children and flowers. Tom is very relaxed. They go home at five o'clock."
+    }
   },
   {
-    "id": "a1_reading_v3_q17",
+    "id": "a1_listening_v2_q17",
     "type": "multiple_choice",
-    "question": "TEXT: My name is Marco. I live in a small house. Every morning, I wake up at 7:00. I drink a cup of coffee and eat bread. Then, I go to work by bus. I am a teacher. I love my students because they are very kind. In the evening, I cook dinner and watch TV. I go to bed at 10:00. I am happy with my life.\n\nEXERCISE: Where does Marco live?",
-    "options": ["In a small house", "In a big school", "In a city bus", "In a bread shop"],
-    "answer": "In a small house",
-    "hint": "Look at the second sentence.",
+    "question": "What is in the park besides children?",
+    "options": ["Flowers", "Trains", "Buses", "Computers"],
+    "answer": "Flowers",
+    "hint": "Listen for the colorful plants.",
     "voice_input": false,
-    "example_sentence": "My house is small.",
-    "media": {}
+    "example_sentence": "I like the red flowers.",
+    "media": {
+      "text": "The sun is shining today. Tom goes to the park with his dog, Rex. The park is very big and green. Tom sits on a bench and reads a book. Rex runs on the grass and plays with a ball. There are many children and flowers. Tom is very relaxed. They go home at five o'clock."
+    }
   },
   {
-    "id": "a1_reading_v3_q18",
+    "id": "a1_listening_v2_q18",
     "type": "matching",
-    "question": "TEXT: My name is Marco. I live in a small house. Every morning, I wake up at 7:00. I drink a cup of coffee and eat bread. Then, I go to work by bus. I am a teacher. I love my students because they are very kind. In the evening, I cook dinner and watch TV. I go to bed at 10:00. I am happy with my life.\n\nEXERCISE: Match the opposites (A1 vocabulary).",
-    "words": ["Small", "Happy", "Wake up", "Evening"],
+    "question": "Match the characters with the setting.",
+    "words": ["Tom", "Rex", "Sun", "Park"],
     "pairs": [
-      {"left": "Small", "right": "Big"},
-      {"left": "Happy", "right": "Sad"},
-      {"left": "Wake up", "right": "Go to sleep"},
-      {"left": "Evening", "right": "Morning"}
+      {"left": "Tom", "right": "Person"},
+      {"left": "Rex", "right": "Animal"},
+      {"left": "Sun", "right": "Sky"},
+      {"left": "Park", "right": "Place"}
     ],
     "answer": [
-      {"left": "Happy", "right": "Sad"},
-      {"left": "Small", "right": "Big"},
-      {"left": "Evening", "right": "Morning"},
-      {"left": "Wake up", "right": "Go to sleep"}
+      {"left": "Park", "right": "Place"},
+      {"left": "Rex", "right": "Animal"},
+      {"left": "Tom", "right": "Person"},
+      {"left": "Sun", "right": "Sky"}
     ],
-    "hint": "These words are used in the text.",
+    "hint": "Think about what these things are.",
     "voice_input": false,
-    "example_sentence": "The dog is big.",
-    "media": {}
+    "example_sentence": "The park is a nice place.",
+    "media": {
+      "text": "The sun is shining today. Tom goes to the park with his dog, Rex. The park is very big and green. Tom sits on a bench and reads a book. Rex runs on the grass and plays with a ball. There are many children and flowers. Tom is very relaxed. They go home at five o'clock."
+    }
   },
   {
-    "id": "a1_reading_v3_q19",
+    "id": "a1_listening_v2_q19",
     "type": "sentence_ordering",
-    "question": "TEXT: My name is Marco. I live in a small house. Every morning, I wake up at 7:00. I drink a cup of coffee and eat bread. Then, I go to work by bus. I am a teacher. I love my students because they are very kind. In the evening, I cook dinner and watch TV. I go to bed at 10:00. I am happy with my life.\n\nEXERCISE: Reorder the words to describe what Marco drinks.",
-    "words": ["I", "drink", "a", "cup", "of", "coffee"],
-    "answer": "I drink a cup of coffee",
-    "hint": "Look at the sentence about bread.",
+    "question": "Reorder the words to show when the sun shines.",
+    "words": ["The", "sun", "is", "shining", "today"],
+    "answer": "The sun is shining today",
+    "hint": "Listen to the first sentence.",
     "voice_input": false,
-    "example_sentence": "I drink a cup of tea.",
-    "media": {}
+    "example_sentence": "The sun is bright.",
+    "media": {
+      "text": "The sun is shining today. Tom goes to the park with his dog, Rex. The park is very big and green. Tom sits on a bench and reads a book. Rex runs on the grass and plays with a ball. There are many children and flowers. Tom is very relaxed. They go home at five o'clock."
+    }
   },
   {
-    "id": "a1_reading_v3_q20",
+    "id": "a1_listening_v2_q20",
     "type": "multiple_choice",
-    "question": "TEXT: My name is Marco. I live in a small house. Every morning, I wake up at 7:00. I drink a cup of coffee and eat bread. Then, I go to work by bus. I am a teacher. I love my students because they are very kind. In the evening, I cook dinner and watch TV. I go to bed at 10:00. I am happy with my life.\n\nEXERCISE: What is the text mainly about?",
-    "options": ["Marco's daily routine", "How to be a teacher", "Buying a new house", "A bus schedule"],
-    "answer": "Marco's daily routine",
-    "hint": "The text tells us what Marco does all day.",
+    "question": "Where is the grass?",
+    "options": ["In the park", "In the car", "In the house", "In the sky"],
+    "answer": "In the park",
+    "hint": "The dog runs on it.",
     "voice_input": false,
-    "example_sentence": "My routine is simple.",
-    "media": {}
+    "example_sentence": "We play on the grass.",
+    "media": {
+      "text": "The sun is shining today. Tom goes to the park with his dog, Rex. The park is very big and green. Tom sits on a bench and reads a book. Rex runs on the grass and plays with a ball. There are many children and flowers. Tom is very relaxed. They go home at five o'clock."
+    }
   }
 ]
 }
