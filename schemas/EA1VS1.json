@@ -1,266 +1,324 @@
 {
     "exercises":[
   {
-    "id": "a1_loudspeaker_v1_q01",
+    "id": "a1_audio_party_q01",
     "type": "tap_fill",
-    "question": "Today is the first day of ___.",
-    "options": ["school", "summer", "work", "winter"],
-    "answer": "school",
-    "hint": "Tap the loudspeaker to hear the first sentence.",
+    "question": "The party is for my ___.",
+    "options": ["sister", "brother", "mother", "father"],
+    "answer": "sister",
+    "hint": "Listen to the very first sentence to hear who the party is for.",
     "voice_input": false,
-    "example_sentence": "I go to school every morning.",
+    "example_sentence": "I have a younger sister.",
     "media": {
-      "url": "Today is the first day of school. Anna is a new student. She sits next to a boy named Leo. Leo is very friendly. He shows Anna the classroom and the library. They eat lunch together in the canteen. Anna is not nervous anymore. She has a new friend."
+      "type": "audio",
+      "content": "Tomorrow is my sister's birthday. I am planning a surprise party. I need to buy a big chocolate cake and ten balloons. The party starts at six o'clock in the evening. My friends are coming to help. We are making sandwiches and playing music. It will be a great day!"
     }
   },
   {
-    "id": "a1_loudspeaker_v1_q02",
+    "id": "a1_audio_party_q02",
     "type": "multiple_choice",
-    "question": "Who is the new student?",
-    "options": ["Anna", "Leo", "The teacher", "The principal"],
-    "answer": "Anna",
-    "hint": "Listen for the girl's name.",
+    "question": "What kind of cake does the speaker need?",
+    "options": ["Chocolate cake", "Vanilla cake", "Fruit cake", "Cheese cake"],
+    "answer": "Chocolate cake",
+    "hint": "Listen for the flavor of the cake.",
     "voice_input": false,
-    "example_sentence": "Anna is my sister.",
+    "example_sentence": "I want a chocolate cake for my birthday.",
     "media": {
-      "url": "Today is the first day of school. Anna is a new student. She sits next to a boy named Leo. Leo is very friendly. He shows Anna the classroom and the library. They eat lunch together in the canteen. Anna is not nervous anymore. She has a new friend."
+      "type": "audio",
+      "content": "Tomorrow is my sister's birthday. I am planning a surprise party. I need to buy a big chocolate cake and ten balloons. The party starts at six o'clock in the evening. My friends are coming to help. We are making sandwiches and playing music. It will be a great day!"
     }
   },
   {
-    "id": "a1_loudspeaker_v1_q03",
+    "id": "a1_audio_party_q03",
     "type": "matching",
-    "question": "Match the people with their descriptions.",
-    "words": ["Anna", "Leo", "School", "Lunch"],
+    "question": "Match the items with the numbers or descriptions.",
+    "words": ["Balloons", "Cake", "Party", "Friends"],
     "pairs": [
-      {"left": "Anna", "right": "New student"},
-      {"left": "Leo", "right": "Friendly boy"},
-      {"left": "School", "right": "First day"},
-      {"left": "Lunch", "right": "In the canteen"}
+      {"left": "Balloons", "right": "Ten"},
+      {"left": "Cake", "right": "Big and chocolate"},
+      {"left": "Party", "right": "Surprise"},
+      {"left": "Friends", "right": "Coming to help"}
     ],
     "answer": [
-      {"left": "Lunch", "right": "In the canteen"},
-      {"left": "School", "right": "First day"},
-      {"left": "Leo", "right": "Friendly boy"},
-      {"left": "Anna", "right": "New student"}
+      {"left": "Friends", "right": "Coming to help"},
+      {"left": "Balloons", "right": "Ten"},
+      {"left": "Party", "right": "Surprise"},
+      {"left": "Cake", "right": "Big and chocolate"}
     ],
-    "hint": "Listen to where they eat and who they are.",
+    "hint": "Listen for the number of balloons mentioned.",
     "voice_input": false,
-    "example_sentence": "We eat lunch at noon.",
+    "example_sentence": "We have ten balloons for the room.",
     "media": {
-      "url": "Today is the first day of school. Anna is a new student. She sits next to a boy named Leo. Leo is very friendly. He shows Anna the classroom and the library. They eat lunch together in the canteen. Anna is not nervous anymore. She has a new friend."
+      "type": "audio",
+      "content": "Tomorrow is my sister's birthday. I am planning a surprise party. I need to buy a big chocolate cake and ten balloons. The party starts at six o'clock in the evening. My friends are coming to help. We are making sandwiches and playing music. It will be a great day!"
     }
   },
   {
-    "id": "a1_loudspeaker_v1_q04",
+    "id": "a1_audio_party_q04",
     "type": "sentence_ordering",
-    "question": "Reorder the words to show where they eat.",
-    "words": ["They", "eat", "lunch", "in", "the", "canteen"],
-    "answer": "They eat lunch in the canteen",
-    "hint": "Listen for the word 'canteen'.",
+    "question": "Reorder the words to show when the party starts.",
+    "words": ["The", "party", "starts", "at", "six", "o'clock"],
+    "answer": "The party starts at six o'clock",
+    "hint": "Listen for the time in the middle of the audio.",
     "voice_input": false,
-    "example_sentence": "The canteen is very big.",
+    "example_sentence": "The movie starts at six o'clock.",
     "media": {
-      "url": "Today is the first day of school. Anna is a new student. She sits next to a boy named Leo. Leo is very friendly. He shows Anna the classroom and the library. They eat lunch together in the canteen. Anna is not nervous anymore. She has a new friend."
+      "type": "audio",
+      "content": "Tomorrow is my sister's birthday. I am planning a surprise party. I need to buy a big chocolate cake and ten balloons. The party starts at six o'clock in the evening. My friends are coming to help. We are making sandwiches and playing music. It will be a great day!"
     }
   },
   {
-    "id": "a1_loudspeaker_v1_q05",
+    "id": "a1_audio_party_q05",
     "type": "pronunciation",
-    "question": "Read aloud: 'Anna is not nervous anymore.'",
+    "question": "Read aloud: 'I am planning a surprise party.'",
     "voice_input": true,
-    "example_sentence": "I am nervous for the test.",
-    "hint": "Focus on 'Nervous' (NER-vuhs).",
+    "example_sentence": "Surprise! Happy birthday!",
+    "hint": "Focus on 'Surprise' (ser-PRYZ).",
     "media": {
-      "url": "Today is the first day of school. Anna is a new student. She sits next to a boy named Leo. Leo is very friendly. He shows Anna the classroom and the library. They eat lunch together in the canteen. Anna is not nervous anymore. She has a new friend."
+      "type": "audio",
+      "content": "Tomorrow is my sister's birthday. I am planning a surprise party. I need to buy a big chocolate cake and ten balloons. The party starts at six o'clock in the evening. My friends are coming to help. We are making sandwiches and playing music. It will be a great day!"
     }
   },
   {
-    "id": "a1_loudspeaker_v1_q06",
+    "id": "a1_audio_party_q06",
     "type": "tap_fill",
-    "question": "Leo is very ___ and helps Anna.",
-    "options": ["friendly", "angry", "small", "old"],
-    "answer": "friendly",
-    "hint": "Listen for how Leo behaves.",
+    "question": "The party is a ___ for the sister.",
+    "options": ["surprise", "secret", "gift", "lesson"],
+    "answer": "surprise",
+    "hint": "Listen for the word that means she doesn't know about it.",
     "voice_input": false,
-    "example_sentence": "My neighbor is very friendly.",
+    "example_sentence": "It is a surprise party.",
     "media": {
-      "url": "Today is the first day of school. Anna is a new student. She sits next to a boy named Leo. Leo is very friendly. He shows Anna the classroom and the library. They eat lunch together in the canteen. Anna is not nervous anymore. She has a new friend."
+      "type": "audio",
+      "content": "Tomorrow is my sister's birthday. I am planning a surprise party. I need to buy a big chocolate cake and ten balloons. The party starts at six o'clock in the evening. My friends are coming to help. We are making sandwiches and playing music. It will be a great day!"
     }
   },
   {
-    "id": "a1_loudspeaker_v1_q07",
+    "id": "a1_audio_party_q07",
     "type": "multiple_choice",
-    "question": "Where does Anna sit?",
-    "options": ["Next to Leo", "In the library", "Under the table", "Near the window"],
-    "answer": "Next to Leo",
-    "hint": "Listen for the word 'next'.",
+    "question": "What are they making for the party?",
+    "options": ["Sandwiches", "Pizza", "Pasta", "Soup"],
+    "answer": "Sandwiches",
+    "hint": "Listen for the food they are preparing with friends.",
     "voice_input": false,
-    "example_sentence": "I sit next to my best friend.",
+    "example_sentence": "I like cheese sandwiches.",
     "media": {
-      "url": "Today is the first day of school. Anna is a new student. She sits next to a boy named Leo. Leo is very friendly. He shows Anna the classroom and the library. They eat lunch together in the canteen. Anna is not nervous anymore. She has a new friend."
+      "type": "audio",
+      "content": "Tomorrow is my sister's birthday. I am planning a surprise party. I need to buy a big chocolate cake and ten balloons. The party starts at six o'clock in the evening. My friends are coming to help. We are making sandwiches and playing music. It will be a great day!"
     }
   },
   {
-    "id": "a1_loudspeaker_v1_q08",
+    "id": "a1_audio_party_q08",
     "type": "matching",
-    "question": "Match the places with what happens there.",
-    "words": ["Classroom", "Library", "Canteen", "School"],
+    "question": "Match the verbs with the party activities.",
+    "words": ["Planning", "Buy", "Help", "Playing"],
     "pairs": [
-      {"left": "Classroom", "right": "Leo shows it to Anna"},
-      {"left": "Library", "right": "A place for books"},
-      {"left": "Canteen", "right": "Where they eat"},
-      {"left": "School", "right": "Anna's first day"}
+      {"left": "Planning", "right": "A surprise party"},
+      {"left": "Buy", "right": "Cake and balloons"},
+      {"left": "Help", "right": "The friends"},
+      {"left": "Playing", "right": "Music"}
     ],
     "answer": [
-      {"left": "Library", "right": "A place for books"},
-      {"left": "Canteen", "right": "Where they eat"},
-      {"left": "Classroom", "right": "Leo shows it to Anna"},
-      {"left": "School", "right": "Anna's first day"}
+      {"left": "Buy", "right": "Cake and balloons"},
+      {"left": "Planning", "right": "A surprise party"},
+      {"left": "Playing", "right": "Music"},
+      {"left": "Help", "right": "The friends"}
     ],
-    "hint": "Listen to the places Leo shows Anna.",
+    "hint": "Listen for what they are doing with the music.",
     "voice_input": false,
-    "example_sentence": "The library is quiet.",
+    "example_sentence": "We are playing music now.",
     "media": {
-      "url": "Today is the first day of school. Anna is a new student. She sits next to a boy named Leo. Leo is very friendly. He shows Anna the classroom and the library. They eat lunch together in the canteen. Anna is not nervous anymore. She has a new friend."
+      "type": "audio",
+      "content": "Tomorrow is my sister's birthday. I am planning a surprise party. I need to buy a big chocolate cake and ten balloons. The party starts at six o'clock in the evening. My friends are coming to help. We are making sandwiches and playing music. It will be a great day!"
     }
   },
   {
-    "id": "a1_loudspeaker_v1_q09",
-    "type": "sentence_ordering",
-    "question": "Reorder the words to show Leo's personality.",
-    "words": ["Leo", "is", "a", "very", "friendly", "boy"],
-    "answer": "Leo is a very friendly boy",
-    "hint": "Listen for the description of Leo.",
-    "voice_input": false,
-    "example_sentence": "He is a friendly person.",
-    "media": {
-      "url": "Today is the first day of school. Anna is a new student. She sits next to a boy named Leo. Leo is very friendly. He shows Anna the classroom and the library. They eat lunch together in the canteen. Anna is not nervous anymore. She has a new friend."
-    }
-  },
-  {
-    "id": "a1_loudspeaker_v1_q10",
-    "type": "tap_fill",
-    "question": "Anna has a new ___ at school.",
-    "options": ["friend", "car", "pet", "brother"],
-    "answer": "friend",
-    "hint": "Listen to the final sentence.",
-    "voice_input": false,
-    "example_sentence": "I have a new friend from France.",
-    "media": {
-      "url": "Today is the first day of school. Anna is a new student. She sits next to a boy named Leo. Leo is very friendly. He shows Anna the classroom and the library. They eat lunch together in the canteen. Anna is not nervous anymore. She has a new friend."
-    }
-  },
-  {
-    "id": "a1_loudspeaker_v1_q11",
-    "type": "multiple_choice",
-    "question": "How does Anna feel at the end?",
-    "options": ["Not nervous anymore", "Very scared", "Angry", "Sleepy"],
-    "answer": "Not nervous anymore",
-    "hint": "Listen for how her feelings changed.",
-    "voice_input": false,
-    "example_sentence": "I am not tired anymore.",
-    "media": {
-      "url": "Today is the first day of school. Anna is a new student. She sits next to a boy named Leo. Leo is very friendly. He shows Anna the classroom and the library. They eat lunch together in the canteen. Anna is not nervous anymore. She has a new friend."
-    }
-  },
-  {
-    "id": "a1_loudspeaker_v1_q12",
-    "type": "matching",
-    "question": "Match the actions with the people.",
-    "words": ["Anna", "Leo", "They", "Anna (again)"],
-    "pairs": [
-      {"left": "Anna", "right": "Sits next to Leo"},
-      {"left": "Leo", "right": "Shows the classroom"},
-      {"left": "They", "right": "Eat lunch together"},
-      {"left": "Anna (again)", "right": "Is a new student"}
-    ],
-    "answer": [
-      {"left": "Anna", "right": "Sits next to Leo"},
-      {"left": "They", "right": "Eat lunch together"},
-      {"left": "Anna (again)", "right": "Is a new student"},
-      {"left": "Leo", "right": "Shows the classroom"}
-    ],
-    "hint": "Listen to who does what.",
-    "voice_input": false,
-    "example_sentence": "We sit together in class.",
-    "media": {
-      "url": "Today is the first day of school. Anna is a new student. She sits next to a boy named Leo. Leo is very friendly. He shows Anna the classroom and the library. They eat lunch together in the canteen. Anna is not nervous anymore. She has a new friend."
-    }
-  },
-  {
-    "id": "a1_loudspeaker_v1_q13",
-    "type": "tap_fill",
-    "question": "They eat lunch in the ___.",
-    "options": ["canteen", "garden", "bus", "park"],
-    "answer": "canteen",
-    "hint": "It is the place where students eat.",
-    "voice_input": false,
-    "example_sentence": "The food in the canteen is good.",
-    "media": {
-      "url": "Today is the first day of school. Anna is a new student. She sits next to a boy named Leo. Leo is very friendly. He shows Anna the classroom and the library. They eat lunch together in the canteen. Anna is not nervous anymore. She has a new friend."
-    }
-  },
-  {
-    "id": "a1_loudspeaker_v1_q14",
+    "id": "a1_audio_party_q09",
     "type": "sentence_ordering",
     "question": "Reorder the words to describe the day.",
-    "words": ["It", "is", "the", "first", "day", "of", "school"],
-    "answer": "It is the first day of school",
-    "hint": "Listen to the start of the audio.",
+    "words": ["It", "will", "be", "a", "great", "day"],
+    "answer": "It will be a great day",
+    "hint": "Listen to the final sentence.",
     "voice_input": false,
-    "example_sentence": "Today is my first day.",
+    "example_sentence": "Tomorrow will be a great day.",
     "media": {
-      "url": "Today is the first day of school. Anna is a new student. She sits next to a boy named Leo. Leo is very friendly. He shows Anna the classroom and the library. They eat lunch together in the canteen. Anna is not nervous anymore. She has a new friend."
+      "type": "audio",
+      "content": "Tomorrow is my sister's birthday. I am planning a surprise party. I need to buy a big chocolate cake and ten balloons. The party starts at six o'clock in the evening. My friends are coming to help. We are making sandwiches and playing music. It will be a great day!"
     }
   },
   {
-    "id": "a1_loudspeaker_v1_q15",
-    "type": "pronunciation",
-    "question": "Read aloud: 'Leo is very friendly.'",
-    "voice_input": true,
-    "example_sentence": "Be friendly to everyone.",
-    "hint": "Focus on 'Friendly' (FREND-lee).",
-    "media": {
-      "url": "Today is the first day of school. Anna is a new student. She sits next to a boy named Leo. Leo is very friendly. He shows Anna the classroom and the library. They eat lunch together in the canteen. Anna is not nervous anymore. She has a new friend."
-    }
-  },
-  {
-    "id": "a1_loudspeaker_v1_q16",
+    "id": "a1_audio_party_q10",
     "type": "tap_fill",
-    "question": "Leo shows Anna the classroom and the ___.",
-    "options": ["library", "pool", "market", "shop"],
-    "answer": "library",
-    "hint": "It is a place with many books.",
+    "question": "I need to buy ___ balloons.",
+    "options": ["ten", "five", "twenty", "two"],
+    "answer": "ten",
+    "hint": "Listen for the number of balloons.",
     "voice_input": false,
-    "example_sentence": "I study in the library.",
+    "example_sentence": "She has ten balloons.",
     "media": {
-      "url": "Today is the first day of school. Anna is a new student. She sits next to a boy named Leo. Leo is very friendly. He shows Anna the classroom and the library. They eat lunch together in the canteen. Anna is not nervous anymore. She has a new friend."
+      "type": "audio",
+      "content": "Tomorrow is my sister's birthday. I am planning a surprise party. I need to buy a big chocolate cake and ten balloons. The party starts at six o'clock in the evening. My friends are coming to help. We are making sandwiches and playing music. It will be a great day!"
     }
   },
   {
-    "id": "a1_loudspeaker_v1_q17",
+    "id": "a1_audio_party_q11",
     "type": "multiple_choice",
-    "question": "Who is Leo?",
-    "options": ["A friendly boy", "A new teacher", "Anna's father", "A librarian"],
-    "answer": "A friendly boy",
-    "hint": "Listen to the description of the boy sitting next to Anna.",
+    "question": "Who is coming to help?",
+    "options": ["My friends", "My teachers", "My neighbors", "My cousins"],
+    "answer": "My friends",
+    "hint": "Listen for who is helping the speaker.",
     "voice_input": false,
-    "example_sentence": "Leo is a good boy.",
+    "example_sentence": "My friends help me with the party.",
     "media": {
-      "url": "Today is the first day of school. Anna is a new student. She sits next to a boy named Leo. Leo is very friendly. He shows Anna the classroom and the library. They eat lunch together in the canteen. Anna is not nervous anymore. She has a new friend."
+      "type": "audio",
+      "content": "Tomorrow is my sister's birthday. I am planning a surprise party. I need to buy a big chocolate cake and ten balloons. The party starts at six o'clock in the evening. My friends are coming to help. We are making sandwiches and playing music. It will be a great day!"
     }
   },
   {
-    "id": "a1_loudspeaker_v1_q18",
+    "id": "a1_audio_party_q12",
     "type": "matching",
-    "question": "Match the feelings and situations.",
-    "words": ["New student", "Friendly", "Canteen", "No longer nervous"],
+    "question": "Match the times with the events.",
+    "words": ["Tomorrow", "Six o'clock", "Evening", "Birthday"],
     "pairs": [
-      {"left": "New student", "right": "Anna"},
-      {"left": "Friendly", "right": "Leo"},
-      {"left": "Canteen", "right": "Eating lunch"},
-      {"left": "No longer nervous", "right": "Anna's feeling"}
+      {"left": "Tomorrow", "right": "The birthday"},
+      {"left": "Six o'clock", "right": "The party starts"},
+      {"left": "Evening", "right": "Time of the party"},
+      {"left": "Birthday", "right": "For the sister"}
     ],
     "answer": [
-      {"
+      {"left": "Birthday", "right": "For the sister"},
+      {"left": "Evening", "right": "Time of the party"},
+      {"left": "Tomorrow", "right": "The birthday"},
+      {"left": "Six o'clock", "right": "The party starts"}
+    ],
+    "hint": "Listen for when the party happens.",
+    "voice_input": false,
+    "example_sentence": "The birthday is tomorrow.",
+    "media": {
+      "type": "audio",
+      "content": "Tomorrow is my sister's birthday. I am planning a surprise party. I need to buy a big chocolate cake and ten balloons. The party starts at six o'clock in the evening. My friends are coming to help. We are making sandwiches and playing music. It will be a great day!"
+    }
+  },
+  {
+    "id": "a1_audio_party_q13",
+    "type": "tap_fill",
+    "question": "The party is in the ___.",
+    "options": ["evening", "morning", "afternoon", "night"],
+    "answer": "evening",
+    "hint": "Listen for the part of the day.",
+    "voice_input": false,
+    "example_sentence": "We watch movies in the evening.",
+    "media": {
+      "type": "audio",
+      "content": "Tomorrow is my sister's birthday. I am planning a surprise party. I need to buy a big chocolate cake and ten balloons. The party starts at six o'clock in the evening. My friends are coming to help. We are making sandwiches and playing music. It will be a great day!"
+    }
+  },
+  {
+    "id": "a1_audio_party_q14",
+    "type": "sentence_ordering",
+    "question": "Reorder the words to show what they are playing.",
+    "words": ["We", "are", "playing", "loud", "music"],
+    "answer": "We are playing loud music",
+    "hint": "Listen for the word 'music'.",
+    "voice_input": false,
+    "example_sentence": "I love playing music.",
+    "media": {
+      "type": "audio",
+      "content": "Tomorrow is my sister's birthday. I am planning a surprise party. I need to buy a big chocolate cake and ten balloons. The party starts at six o'clock in the evening. My friends are coming to help. We are making sandwiches and playing music. It will be a great day!"
+    }
+  },
+  {
+    "id": "a1_audio_party_q15",
+    "type": "pronunciation",
+    "question": "Read aloud: 'Tomorrow is my sister's birthday.'",
+    "voice_input": true,
+    "example_sentence": "Happy birthday to you.",
+    "hint": "Focus on 'Birthday' (BERTH-day).",
+    "media": {
+      "type": "audio",
+      "content": "Tomorrow is my sister's birthday. I am planning a surprise party. I need to buy a big chocolate cake and ten balloons. The party starts at six o'clock in the evening. My friends are coming to help. We are making sandwiches and playing music. It will be a great day!"
+    }
+  },
+  {
+    "id": "a1_audio_party_q16",
+    "type": "tap_fill",
+    "question": "The cake is big and ___.",
+    "options": ["chocolate", "small", "white", "old"],
+    "answer": "chocolate",
+    "hint": "Listen for the description of the cake.",
+    "voice_input": false,
+    "example_sentence": "This chocolate is sweet.",
+    "media": {
+      "type": "audio",
+      "content": "Tomorrow is my sister's birthday. I am planning a surprise party. I need to buy a big chocolate cake and ten balloons. The party starts at six o'clock in the evening. My friends are coming to help. We are making sandwiches and playing music. It will be a great day!"
+    }
+  },
+  {
+    "id": "a1_audio_party_q17",
+    "type": "multiple_choice",
+    "question": "When is the birthday?",
+    "options": ["Tomorrow", "Today", "Next week", "Yesterday"],
+    "answer": "Tomorrow",
+    "hint": "Listen to the very first word.",
+    "voice_input": false,
+    "example_sentence": "I will go to the park tomorrow.",
+    "media": {
+      "type": "audio",
+      "content": "Tomorrow is my sister's birthday. I am planning a surprise party. I need to buy a big chocolate cake and ten balloons. The party starts at six o'clock in the evening. My friends are coming to help. We are making sandwiches and playing music. It will be a great day!"
+    }
+  },
+  {
+    "id": "a1_audio_party_q18",
+    "type": "matching",
+    "question": "Match the objects with their places or quantities.",
+    "words": ["Balloons", "Cake", "Sandwiches", "Music"],
+    "pairs": [
+      {"left": "Balloons", "right": "Ten items"},
+      {"left": "Cake", "right": "One big chocolate"},
+      {"left": "Sandwiches", "right": "Making them"},
+      {"left": "Music", "right": "Playing it"}
+    ],
+    "answer": [
+      {"left": "Sandwiches", "right": "Making them"},
+      {"left": "Music", "right": "Playing it"},
+      {"left": "Cake", "right": "One big chocolate"},
+      {"left": "Balloons", "right": "Ten items"}
+    ],
+    "hint": "Listen for what they are doing with the sandwiches.",
+    "voice_input": false,
+    "example_sentence": "I am making a sandwich.",
+    "media": {
+      "type": "audio",
+      "content": "Tomorrow is my sister's birthday. I am planning a surprise party. I need to buy a big chocolate cake and ten balloons. The party starts at six o'clock in the evening. My friends are coming to help. We are making sandwiches and playing music. It will be a great day!"
+    }
+  },
+  {
+    "id": "a1_audio_party_q19",
+    "type": "sentence_ordering",
+    "question": "Reorder the words to show who is planning the party.",
+    "words": ["I", "am", "planning", "a", "surprise", "party"],
+    "answer": "I am planning a surprise party",
+    "hint": "Listen for the speaker's action.",
+    "voice_input": false,
+    "example_sentence": "I am planning my trip.",
+    "media": {
+      "type": "audio",
+      "content": "Tomorrow is my sister's birthday. I am planning a surprise party. I need to buy a big chocolate cake and ten balloons. The party starts at six o'clock in the evening. My friends are coming to help. We are making sandwiches and playing music. It will be a great day!"
+    }
+  },
+  {
+    "id": "a1_audio_party_q20",
+    "type": "multiple_choice",
+    "question": "What is the speaker's mood about the day?",
+    "options": ["Positive/Great", "Sad", "Angry", "Tired"],
+    "answer": "Positive/Great",
+    "hint": "Listen to the last sentence of the audio.",
+    "voice_input": false,
+    "example_sentence": "Have a great day!",
+    "media": {
+      "type": "audio",
+      "content": "Tomorrow is my sister's birthday. I am planning a surprise party. I need to buy a big chocolate cake and ten balloons. The party starts at six o'clock in the evening. My friends are coming to help. We are making sandwiches and playing music. It will be a great day!"
+    }
+  }
+]
 }
