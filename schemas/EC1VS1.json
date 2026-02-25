@@ -1,0 +1,3975 @@
+{
+    "exercises": [
+        {
+            "id": "EC1VS1_001",
+            "type": "multiple_choice",
+            "question": "Which phrasal verb describes becoming exhausted and unable to work due to excessive stress or overwork?",
+            "options": [
+                "burn out",
+                "burn up",
+                "burn down"
+            ],
+            "answer": "burn out",
+            "hint": "Think of a candle that has used up all its wax and can no longer produce a flame.",
+            "voice_input": false,
+            "example_sentence": "The engineers will likely burn out unless the management reduces the current overtime requirements.",
+            "media": {}
+        },
+        {
+            "id": "EC1VS1_002",
+            "type": "tap_fill",
+            "question": "The laboratory technician must ___ the experiments precisely; therefore, the final data will be reliable for the publication.",
+            "options": [
+                "carry out",
+                "carry on",
+                "carry off",
+                "carry over"
+            ],
+            "answer": "carry out",
+            "hint": "Choose the phrasal verb that means to perform or complete a task, instruction, or research.",
+            "voice_input": false,
+            "example_sentence": "The laboratory technician must carry out the experiments precisely; therefore, the final data will be reliable for the publication.",
+            "media": {}
+        },
+        {
+            "id": "EC1VS1_003",
+            "type": "matching",
+            "question": "Match the work-related phrasal verbs with their closer descriptive academic or formal synonyms.",
+            "pairs": [
+                {
+                    "left": "knuckle down",
+                    "right": "focus"
+                },
+                {
+                    "left": "take over",
+                    "right": "assume control"
+                }
+            ],
+            "answer": [
+                {
+                    "left": "knuckle down",
+                    "right": "focus"
+                },
+                {
+                    "left": "take over",
+                    "right": "assume control"
+                }
+            ],
+            "hint": "One pair is about starting to work hard; the other is about gaining responsibility for a department or role.",
+            "voice_input": false,
+            "example_sentence": "We need to knuckle down on this report before the new manager arrives to take over the department.",
+            "media": {}
+        },
+        {
+            "id": "EC1VS1_004",
+            "type": "sentence_ordering",
+            "question": "Order the sentence regarding a temporary work substitution.",
+            "words": [
+                "The",
+                "assistant",
+                "will",
+                "fill",
+                "in",
+                "for",
+                "the",
+                "director",
+                "unless",
+                "an",
+                "interim",
+                "replacement",
+                "is",
+                "hired",
+                "before",
+                "the",
+                "conference"
+            ],
+            "answer": "The assistant will fill in for the director unless an interim replacement is hired before the conference",
+            "hint": "Start with 'The assistant' and use 'unless' to define the condition that would stop the substitution.",
+            "voice_input": false,
+            "example_sentence": "The assistant will fill in for the director unless an interim replacement is hired before the conference.",
+            "media": {}
+        },
+        {
+            "id": "EC1VS1_005",
+            "type": "pronunciation",
+            "question": "Say 'productivity'.",
+            "answer": "productivity",
+            "hint": "Stress the fourth syllable: pro-duc-TIV-i-ty. This refers to the efficiency of individual or collective work.",
+            "voice_input": true,
+            "example_sentence": "Company productivity has increased significantly although the total number of staff remained constant.",
+            "media": {}
+        },
+        {
+            "id": "EC1VS1_006",
+            "type": "multiple_choice",
+            "question": "Which phrasal verb means to cancel an event or an agreement that was previously planned?",
+            "options": [
+                "call off",
+                "call up",
+                "call out"
+            ],
+            "answer": "call off",
+            "hint": "Think of stopping a search or a meeting because it is no longer possible or necessary.",
+            "voice_input": false,
+            "example_sentence": "They had to call off the merger although the initial negotiations had been very positive.",
+            "media": {}
+        },
+        {
+            "id": "EC1VS1_007",
+            "type": "tap_fill",
+            "question": "She worked through the weekend to ___ in her career; whereas, her peers preferred to maintain a strict work-life balance.",
+            "options": [
+                "get ahead",
+                "get along",
+                "get across",
+                "get away"
+            ],
+            "answer": "get ahead",
+            "hint": "Choose the phrasal verb that means to be successful or to make more progress than others.",
+            "voice_input": false,
+            "example_sentence": "She worked through the weekend to get ahead in her career; whereas, her peers preferred to maintain a strict work-life balance.",
+            "media": {}
+        },
+        {
+            "id": "EC1VS1_008",
+            "type": "matching",
+            "question": "Match the phrasal verbs with their closer descriptive formal synonyms.",
+            "pairs": [
+                {
+                    "left": "draw up",
+                    "right": "prepare"
+                },
+                {
+                    "left": "wind down",
+                    "right": "conclude"
+                }
+            ],
+            "answer": [
+                {
+                    "left": "draw up",
+                    "right": "prepare"
+                },
+                {
+                    "left": "wind down",
+                    "right": "conclude"
+                }
+            ],
+            "hint": "One pair is about writing a formal document; the other is about gradually ending an activity or operation.",
+            "voice_input": false,
+            "example_sentence": "The lawyers will draw up the contract as the current project begins to wind down next month.",
+            "media": {}
+        },
+        {
+            "id": "EC1VS1_009",
+            "type": "sentence_ordering",
+            "question": "Order the sentence for a project debrief report.",
+            "words": [
+                "Notwithstanding",
+                "the",
+                "immense",
+                "pressure",
+                "the",
+                "team",
+                "did",
+                "not",
+                "burn",
+                "out",
+                "although",
+                "the",
+                "project",
+                "lasted",
+                "eight",
+                "months"
+            ],
+            "answer": "Notwithstanding the immense pressure the team did not burn out although the project lasted eight months",
+            "hint": "Start with 'Notwithstanding' and use 'although' to contrast the duration of the project with the team's resilience.",
+            "voice_input": false,
+            "example_sentence": "Notwithstanding the immense pressure, the team did not burn out although the project lasted eight months.",
+            "media": {}
+        },
+        {
+            "id": "EC1VS1_010",
+            "type": "pronunciation",
+            "question": "Say 'efficiency'.",
+            "answer": "efficiency",
+            "hint": "Stress the second syllable: ef-FI-cien-cy. This refers to the state of achieving maximum productivity with minimum wasted effort.",
+            "voice_input": true,
+            "example_sentence": "The new software will improve operational efficiency unless the hardware is too outdated to run it.",
+            "media": {}
+        },
+        {
+            "id": "EC1VS1_011",
+            "type": "multiple_choice",
+            "question": "Which phrasal verb means to submit a piece of work or a document to someone in authority?",
+            "options": [
+                "hand in",
+                "hand out",
+                "hand over"
+            ],
+            "answer": "hand in",
+            "hint": "Think of giving your homework to a teacher or a resignation letter to a boss.",
+            "voice_input": false,
+            "example_sentence": "You must hand in your expense reports by Friday although the finance office is closed on weekends.",
+            "media": {}
+        },
+        {
+            "id": "EC1VS1_012",
+            "type": "tap_fill",
+            "question": "We should not ___ the decision any longer; therefore, we will hold a vote during the emergency meeting tonight.",
+            "options": [
+                "put off",
+                "put on",
+                "put away",
+                "put out"
+            ],
+            "answer": "put off",
+            "hint": "Choose the phrasal verb that means to delay or postpone doing something.",
+            "voice_input": false,
+            "example_sentence": "We should not put off the decision any longer; therefore, we will hold a vote during the emergency meeting tonight.",
+            "media": {}
+        },
+        {
+            "id": "EC1VS1_013",
+            "type": "matching",
+            "question": "Match the phrasal verbs with their closer descriptive academic synonyms.",
+            "pairs": [
+                {
+                    "left": "keep up with",
+                    "right": "maintain"
+                },
+                {
+                    "left": "fall behind",
+                    "right": "lag"
+                }
+            ],
+            "answer": [
+                {
+                    "left": "keep up with",
+                    "right": "maintain"
+                },
+                {
+                    "left": "fall behind",
+                    "right": "lag"
+                }
+            ],
+            "hint": "One pair is about moving at the same speed as others; the other is about failing to stay on schedule.",
+            "voice_input": false,
+            "example_sentence": "If we don't keep up with technology trends, we will eventually fall behind our competitors.",
+            "media": {}
+        },
+        {
+            "id": "EC1VS1_014",
+            "type": "sentence_ordering",
+            "question": "Order the sentence regarding company expansion limits.",
+            "words": [
+                "The",
+                "department",
+                "will",
+                "not",
+                "take",
+                "on",
+                "new",
+                "clients",
+                "unless",
+                "the",
+                "current",
+                "backlog",
+                "is",
+                "fully",
+                "resolved",
+                "by",
+                "July"
+            ],
+            "answer": "The department will not take on new clients unless the current backlog is fully resolved by July",
+            "hint": "Start with 'The department' and use 'unless' to set a condition for accepting more work.",
+            "voice_input": false,
+            "example_sentence": "The department will not take on new clients unless the current backlog is fully resolved by July.",
+            "media": {}
+        },
+        {
+            "id": "EC1VS1_015",
+            "type": "pronunciation",
+            "question": "Say 'implementation'.",
+            "answer": "implementation",
+            "hint": "Stress the fourth syllable: im-ple-men-TA-tion. This is the process of putting a decision or plan into effect.",
+            "voice_input": true,
+            "example_sentence": "The implementation of the new policy was seamless whereas the previous transition had been chaotic.",
+            "media": {}
+        },
+        {
+            "id": "EC1VS1_016",
+            "type": "multiple_choice",
+            "question": "Which phrasal verb means to resign from a high position or a job?",
+            "options": [
+                "step down",
+                "step up",
+                "step aside"
+            ],
+            "answer": "step down",
+            "hint": "Think of a leader 'descending' from their platform to let someone else lead.",
+            "voice_input": false,
+            "example_sentence": "The CEO decided to step down although the company's stock price was at an all-time high.",
+            "media": {}
+        },
+        {
+            "id": "EC1VS1_017",
+            "type": "tap_fill",
+            "question": "They were able to ___ a new branch in London; therefore, the firm's presence in Europe has doubled this year.",
+            "options": [
+                "set up",
+                "set out",
+                "set off",
+                "set back"
+            ],
+            "answer": "set up",
+            "hint": "Choose the phrasal verb that means to establish or start a business, organization, or system.",
+            "voice_input": false,
+            "example_sentence": "They were able to set up a new branch in London; therefore, the firm's presence in Europe has doubled this year.",
+            "media": {}
+        },
+        {
+            "id": "EC1VS1_018",
+            "type": "matching",
+            "question": "Match the phrasal verbs with their closer descriptive meanings.",
+            "pairs": [
+                {
+                    "left": "slack off",
+                    "right": "work less"
+                },
+                {
+                    "left": "catch up",
+                    "right": "reach the same level"
+                }
+            ],
+            "answer": [
+                {
+                    "left": "slack off",
+                    "right": "work less"
+                },
+                {
+                    "left": "catch up",
+                    "right": "reach the same level"
+                }
+            ],
+            "hint": "One pair is about being lazy or working with less effort; the other is about doing work you missed to get back on schedule.",
+            "voice_input": false,
+            "example_sentence": "If you slack off now, you will have to work through the night to catch up with the rest of the team.",
+            "media": {}
+        },
+        {
+            "id": "EC1VS1_019",
+            "type": "sentence_ordering",
+            "question": "Order the sentence for a software release summary.",
+            "words": [
+                "Notwithstanding",
+                "the",
+                "technical",
+                "glitches",
+                "the",
+                "developer",
+                "managed",
+                "to",
+                "follow",
+                "through",
+                "with",
+                "the",
+                "deployment",
+                "successfully"
+            ],
+            "answer": "Notwithstanding the technical glitches the developer managed to follow through with the deployment successfully",
+            "hint": "Start with 'Notwithstanding' and use 'follow through' to mean completing the task despite the obstacles.",
+            "voice_input": false,
+            "example_sentence": "Notwithstanding the technical glitches, the developer managed to follow through with the deployment successfully.",
+            "media": {}
+        },
+        {
+            "id": "EC1VS1_020",
+            "type": "pronunciation",
+            "question": "Say 'specialization'.",
+            "answer": "specialization",
+            "hint": "Stress the fifth syllable: spe-cial-i-ZA-tion. This refers to the process of concentrating on and becoming expert in a particular subject or skill.",
+            "voice_input": true,
+            "example_sentence": "Increased specialization within the workforce is necessary unless we want to remain a general service provider.",
+            "media": {}
+        },
+        {
+            "id": "EC1VS1_021",
+            "type": "multiple_choice",
+            "question": "Which phrasal verb means to change or develop into something different?",
+            "options": [
+                "turn into",
+                "turn out",
+                "turn up"
+            ],
+            "answer": "turn into",
+            "hint": "Think of a caterpillar becoming a butterfly or a small startup becoming a global corporation.",
+            "voice_input": false,
+            "example_sentence": "The small pilot project could turn into a major revenue stream although the initial investment was quite modest.",
+            "media": {}
+        },
+        {
+            "id": "EC1VS1_022",
+            "type": "tap_fill",
+            "question": "The company decided to ___ the older machinery over the next two years; therefore, we must begin training staff on the new digital systems immediately.",
+            "options": [
+                "phase out",
+                "phase in",
+                "phase through",
+                "phase over"
+            ],
+            "answer": "phase out",
+            "hint": "Choose the phrasal verb that means to gradually stop using something or to bring something to an end in stages.",
+            "voice_input": false,
+            "example_sentence": "The company decided to phase out the older machinery over the next two years; therefore, we must begin training staff on the new digital systems immediately.",
+            "media": {}
+        },
+        {
+            "id": "EC1VS1_023",
+            "type": "matching",
+            "question": "Match the phrasal verbs related to change with their closer descriptive academic synonyms.",
+            "pairs": [
+                {
+                    "left": "set up",
+                    "right": "establish"
+                },
+                {
+                    "left": "bring about",
+                    "right": "cause"
+                }
+            ],
+            "answer": [
+                {
+                    "left": "set up",
+                    "right": "establish"
+                },
+                {
+                    "left": "bring about",
+                    "right": "cause"
+                }
+            ],
+            "hint": "One pair is about starting an organization or system; the other is about making something happen.",
+            "voice_input": false,
+            "example_sentence": "The new legislation will bring about significant changes once the government helps set up the regulatory body.",
+            "media": {}
+        },
+        {
+            "id": "EC1VS1_024",
+            "type": "sentence_ordering",
+            "question": "Order the sentence to describe a natural process of development.",
+            "words": [
+                "The",
+                "caterpillar",
+                "will",
+                "not",
+                "transform",
+                "into",
+                "a",
+                "butterfly",
+                "unless",
+                "it",
+                "undergoes",
+                "a",
+                "complete",
+                "metamorphosis",
+                "inside",
+                "the",
+                "chrysalis"
+            ],
+            "answer": "The caterpillar will not transform into a butterfly unless it undergoes a complete metamorphosis inside the chrysalis",
+            "hint": "Start with 'The caterpillar' and use 'unless' to indicate the required condition for change.",
+            "voice_input": false,
+            "example_sentence": "The caterpillar will not transform into a butterfly unless it undergoes a complete metamorphosis inside the chrysalis.",
+            "media": {}
+        },
+        {
+            "id": "EC1VS1_025",
+            "type": "pronunciation",
+            "question": "Say 'modernization'.",
+            "answer": "modernization",
+            "hint": "Stress the fourth syllable: mod-ern-i-ZA-tion. This refers to the process of adapting something to modern needs or habits.",
+            "voice_input": true,
+            "example_sentence": "The modernization of the factory is essential although the costs involved are quite substantial for a medium-sized enterprise.",
+            "media": {}
+        },
+        {
+            "id": "EC1VS1_026",
+            "type": "multiple_choice",
+            "question": "Which phrasal verb means to start to like something or someone more than you did at first?",
+            "options": [
+                "grow on",
+                "grow up",
+                "grow out"
+            ],
+            "answer": "grow on",
+            "hint": "Think of a song or a new office layout that you disliked initially but now enjoy.",
+            "voice_input": false,
+            "example_sentence": "The new software interface will grow on you over time although the layout seems counterintuitive at first glance.",
+            "media": {}
+        },
+        {
+            "id": "EC1VS1_027",
+            "type": "tap_fill",
+            "question": "We must ___ our previous successes; therefore, we are launching an even more ambitious campaign this quarter.",
+            "options": [
+                "build on",
+                "build up",
+                "build out",
+                "build over"
+            ],
+            "answer": "build on",
+            "hint": "Choose the phrasal verb that means to use something as a base for further development.",
+            "voice_input": false,
+            "example_sentence": "We must build on our previous successes; therefore, we are launching an even more ambitious campaign this quarter.",
+            "media": {}
+        },
+        {
+            "id": "EC1VS1_028",
+            "type": "matching",
+            "question": "Match the phrasal verbs describing development states with their formal synonyms.",
+            "pairs": [
+                {
+                    "left": "break through",
+                    "right": "advance"
+                },
+                {
+                    "left": "dry up",
+                    "right": "cease"
+                }
+            ],
+            "answer": [
+                {
+                    "left": "break through",
+                    "right": "advance"
+                },
+                {
+                    "left": "dry up",
+                    "right": "cease"
+                }
+            ],
+            "hint": "One pair is about making a sudden discovery or progress; the other is about resources or ideas coming to an end.",
+            "voice_input": false,
+            "example_sentence": "Funding might dry up quickly unless the researchers manage to break through the current technical barriers.",
+            "media": {}
+        },
+        {
+            "id": "EC1VS1_029",
+            "type": "sentence_ordering",
+            "question": "Order the sentence to describe a company expanding its focus.",
+            "words": [
+                "Notwithstanding",
+                "the",
+                "economic",
+                "downturn",
+                "the",
+                "industry",
+                "is",
+                "branching",
+                "out",
+                "into",
+                "renewable",
+                "energy",
+                "solutions",
+                "aggressively"
+            ],
+            "answer": "Notwithstanding the economic downturn the industry is branching out into renewable energy solutions aggressively",
+            "hint": "Start with 'Notwithstanding' to contrast the bad economy with the industry's expansion.",
+            "voice_input": false,
+            "example_sentence": "Notwithstanding the economic downturn, the industry is branching out into renewable energy solutions aggressively.",
+            "media": {}
+        },
+        {
+            "id": "EC1VS1_030",
+            "type": "pronunciation",
+            "question": "Say 'diversification'.",
+            "answer": "diversification",
+            "hint": "Stress the fifth syllable: di-ver-si-fi-CA-tion. This refers to the process of a business enlarging or varying its range of products or field of operation.",
+            "voice_input": true,
+            "example_sentence": "Market diversification is a sound strategy whereas relying on a single product often leads to financial instability.",
+            "media": {}
+        },
+        {
+            "id": "EC1VS1_031",
+            "type": "multiple_choice",
+            "question": "Which phrasal verb means to fail to happen, typically used for plans, deals, or arrangements?",
+            "options": [
+                "fall through",
+                "fall out",
+                "fall behind"
+            ],
+            "answer": "fall through",
+            "hint": "Think of a contract that 'drops' between the cracks and disappears.",
+            "voice_input": false,
+            "example_sentence": "The real estate deal is likely to fall through unless the buyer secures a loan by the end of the business day.",
+            "media": {}
+        },
+        {
+            "id": "EC1VS1_032",
+            "type": "tap_fill",
+            "question": "We expect the prototype to ___ a fully functional consumer product; whereas, the current version is strictly for internal testing.",
+            "options": [
+                "evolve into",
+                "evolve from",
+                "evolve with",
+                "evolve out"
+            ],
+            "answer": "evolve into",
+            "hint": "Choose the phrasal verb that means to develop gradually into a more complex or advanced state.",
+            "voice_input": false,
+            "example_sentence": "We expect the prototype to evolve into a fully functional consumer product; whereas, the current version is strictly for internal testing.",
+            "media": {}
+        },
+        {
+            "id": "EC1VS1_033",
+            "type": "matching",
+            "question": "Match the phrasal verbs related to stages of development with their descriptive meanings.",
+            "pairs": [
+                {
+                    "left": "catch on",
+                    "right": "become popular"
+                },
+                {
+                    "left": "wind up",
+                    "right": "finish"
+                }
+            ],
+            "answer": [
+                {
+                    "left": "catch on",
+                    "right": "become popular"
+                },
+                {
+                    "left": "wind up",
+                    "right": "finish"
+                }
+            ],
+            "hint": "One pair is about a trend starting to be accepted; the other is about bringing an activity or a speech to an end.",
+            "voice_input": false,
+            "example_sentence": "The new payment method took months to catch on, but we finally managed to wind up the marketing campaign successfully.",
+            "media": {}
+        },
+        {
+            "id": "EC1VS1_034",
+            "type": "sentence_ordering",
+            "question": "Order the sentence regarding urban development.",
+            "words": [
+                "The",
+                "city",
+                "will",
+                "tear",
+                "down",
+                "the",
+                "old",
+                "stadium",
+                "unless",
+                "the",
+                "historical",
+                "society",
+                "can",
+                "prove",
+                "its",
+                "architectural",
+                "significance"
+            ],
+            "answer": "The city will tear down the old stadium unless the historical society can prove its architectural significance",
+            "hint": "Start with 'The city' and use 'unless' to describe the condition to stop the demolition.",
+            "voice_input": false,
+            "example_sentence": "The city will tear down the old stadium unless the historical society can prove its architectural significance.",
+            "media": {}
+        },
+        {
+            "id": "EC1VS1_035",
+            "type": "pronunciation",
+            "question": "Say 'industrialization'.",
+            "answer": "industrialization",
+            "hint": "Stress the sixth syllable: in-dus-tri-al-i-ZA-tion. This is the development of industries in a country or region on a wide scale.",
+            "voice_input": true,
+            "example_sentence": "Rapid industrialization brought economic growth although it also caused significant environmental degradation in the surrounding areas.",
+            "media": {}
+        },
+        {
+            "id": "EC1VS1_036",
+            "type": "multiple_choice",
+            "question": "Which phrasal verb means to suddenly become very successful or popular?",
+            "options": [
+                "take off",
+                "take in",
+                "take after"
+            ],
+            "answer": "take off",
+            "hint": "Think of an airplane leaving the ground or a viral video getting millions of views in an hour.",
+            "voice_input": false,
+            "example_sentence": "The startup's sales began to take off although they had almost no budget for traditional advertising.",
+            "media": {}
+        },
+        {
+            "id": "EC1VS1_037",
+            "type": "tap_fill",
+            "question": "It is time for the committee to ___ to the next agenda item; therefore, we must conclude this discussion on personnel immediately.",
+            "options": [
+                "move on",
+                "move in",
+                "move out",
+                "move over"
+            ],
+            "answer": "move on",
+            "hint": "Choose the phrasal verb that means to start doing or discussing something new after finishing something else.",
+            "voice_input": false,
+            "example_sentence": "It is time for the committee to move on to the next agenda item; therefore, we must conclude this discussion on personnel immediately.",
+            "media": {}
+        },
+        {
+            "id": "EC1VS1_038",
+            "type": "matching",
+            "question": "Match the phrasal verbs describing changes in project scope with their closer formal synonyms.",
+            "pairs": [
+                {
+                    "left": "kick off",
+                    "right": "start"
+                },
+                {
+                    "left": "scale back",
+                    "right": "reduce"
+                }
+            ],
+            "answer": [
+                {
+                    "left": "kick off",
+                    "right": "start"
+                },
+                {
+                    "left": "scale back",
+                    "right": "reduce"
+                }
+            ],
+            "hint": "One pair is about starting an event or project; the other is about making a plan smaller or less expensive than originally intended.",
+            "voice_input": false,
+            "example_sentence": "We will kick off the meeting at noon, but we might have to scale back our ambitions for the final project.",
+            "media": {}
+        },
+        {
+            "id": "EC1VS1_039",
+            "type": "sentence_ordering",
+            "question": "Order the sentence for a corporate progress report.",
+            "words": [
+                "Notwithstanding",
+                "the",
+                "slow",
+                "start",
+                "the",
+                "new",
+                "policy",
+                "is",
+                "beginning",
+                "to",
+                "pay",
+                "off",
+                "as",
+                "evidenced",
+                "by",
+                "the",
+                "recent",
+                "increase",
+                "in",
+                "efficiency"
+            ],
+            "answer": "Notwithstanding the slow start the new policy is beginning to pay off as evidenced by the recent increase in efficiency",
+            "hint": "Start with 'Notwithstanding' and use 'pay off' to mean that the strategy is finally producing good results.",
+            "voice_input": false,
+            "example_sentence": "Notwithstanding the slow start, the new policy is beginning to pay off as evidenced by the recent increase in efficiency.",
+            "media": {}
+        },
+        {
+            "id": "EC1VS1_040",
+            "type": "pronunciation",
+            "question": "Say 'transformation'.",
+            "answer": "transformation",
+            "hint": "Stress the third syllable: trans-for-MA-tion. This refers to a thorough or dramatic change in form or appearance.",
+            "voice_input": true,
+            "example_sentence": "The digital transformation of the industry is inevitable unless we choose to become obsolete in the modern marketplace.",
+            "media": {}
+        },
+        {
+            "id": "EC1VS1_041",
+            "type": "multiple_choice",
+            "question": "Which phrasal verb means to leave the ground and begin to fly, or to become suddenly successful?",
+            "options": [
+                "take off",
+                "take on",
+                "take out"
+            ],
+            "answer": "take off",
+            "hint": "Think of an aircraft departing or a new business venture becoming an overnight sensation.",
+            "voice_input": false,
+            "example_sentence": "The new product line is expected to take off although the marketing budget was significantly reduced this quarter.",
+            "media": {}
+        },
+        {
+            "id": "EC1VS1_042",
+            "type": "tap_fill",
+            "question": "Sales figures usually ___ during the holiday season; therefore, we must prepare the warehouse for increased inventory levels.",
+            "options": [
+                "pick up",
+                "pick out",
+                "pick off",
+                "pick through"
+            ],
+            "answer": "pick up",
+            "hint": "Choose the phrasal verb that means to increase or improve after a slow period.",
+            "voice_input": false,
+            "example_sentence": "Sales figures usually pick up during the holiday season; therefore, we must prepare the warehouse for increased inventory levels.",
+            "media": {}
+        },
+        {
+            "id": "EC1VS1_043",
+            "type": "matching",
+            "question": "Match the phrasal verbs involving movement/discovery with their academic synonyms.",
+            "pairs": [
+                {
+                    "left": "go over",
+                    "right": "review"
+                },
+                {
+                    "left": "come across",
+                    "right": "encounter"
+                }
+            ],
+            "answer": [
+                {
+                    "left": "go over",
+                    "right": "review"
+                },
+                {
+                    "left": "come across",
+                    "right": "encounter"
+                }
+            ],
+            "hint": "One pair is about examining something carefully; the other is about finding something by chance.",
+            "voice_input": false,
+            "example_sentence": "We should go over the files again in case we come across the missing invoice from last month.",
+            "media": {}
+        },
+        {
+            "id": "EC1VS1_044",
+            "type": "sentence_ordering",
+            "question": "Order the sentence to describe a public transport condition.",
+            "words": [
+                "The",
+                "commuters",
+                "will",
+                "get",
+                "on",
+                "the",
+                "train",
+                "unless",
+                "the",
+                "platform",
+                "becomes",
+                "dangerously",
+                "overcrowded",
+                "during",
+                "the",
+                "rush",
+                "hour"
+            ],
+            "answer": "The commuters will get on the train unless the platform becomes dangerously overcrowded during the rush hour",
+            "hint": "Start with 'The commuters' and use 'unless' to show the condition that would stop them from boarding.",
+            "voice_input": false,
+            "example_sentence": "The commuters will get on the train unless the platform becomes dangerously overcrowded during the rush hour.",
+            "media": {}
+        },
+        {
+            "id": "EC1VS1_045",
+            "type": "pronunciation",
+            "question": "Say 'acceleration'.",
+            "answer": "acceleration",
+            "hint": "Stress the fourth syllable: ac-cel-er-A-tion. This refers to the rate of increase in speed or velocity.",
+            "voice_input": true,
+            "example_sentence": "The acceleration of the digital economy is undeniable although many traditional sectors are struggling to adapt.",
+            "media": {}
+        },
+        {
+            "id": "EC1VS1_046",
+            "type": "multiple_choice",
+            "question": "Which phrasal verb means to stop functioning (for a machine) or to lose emotional control?",
+            "options": [
+                "break down",
+                "break up",
+                "break through"
+            ],
+            "answer": "break down",
+            "hint": "Think of a car engine failing on a highway or a complex negotiation failing due to lack of trust.",
+            "voice_input": false,
+            "example_sentence": "The old delivery truck will likely break down unless it receives a comprehensive mechanical inspection soon.",
+            "media": {}
+        },
+        {
+            "id": "EC1VS1_047",
+            "type": "tap_fill",
+            "question": "The hikers were forced to ___ due to the blizzard; whereas, the original plan was to reach the summit by noon.",
+            "options": [
+                "turn away",
+                "turn back",
+                "turn down",
+                "turn over"
+            ],
+            "answer": "turn back",
+            "hint": "Choose the phrasal verb that means to return in the direction you came from because of an obstacle.",
+            "voice_input": false,
+            "example_sentence": "The hikers were forced to turn back due to the blizzard; whereas, the original plan was to reach the summit by noon.",
+            "media": {}
+        },
+        {
+            "id": "EC1VS1_048",
+            "type": "matching",
+            "question": "Match the movement phrasal verbs with their descriptive meanings.",
+            "pairs": [
+                {
+                    "left": "run into",
+                    "right": "meet unexpectedly"
+                },
+                {
+                    "left": "set off",
+                    "right": "depart"
+                }
+            ],
+            "answer": [
+                {
+                    "left": "run into",
+                    "right": "meet unexpectedly"
+                },
+                {
+                    "left": "set off",
+                    "right": "depart"
+                }
+            ],
+            "hint": "One pair is about starting a journey; the other is about meeting someone by accident.",
+            "voice_input": false,
+            "example_sentence": "We plan to set off early so that we don't run into heavy traffic on the main motorway.",
+            "media": {}
+        },
+        {
+            "id": "EC1VS1_049",
+            "type": "sentence_ordering",
+            "question": "Order the sentence for a flight safety report.",
+            "words": [
+                "Notwithstanding",
+                "the",
+                "mechanical",
+                "failure",
+                "the",
+                "pilot",
+                "brought",
+                "the",
+                "plane",
+                "down",
+                "safely",
+                "although",
+                "the",
+                "landing",
+                "was",
+                "extremely",
+                "turbulent"
+            ],
+            "answer": "Notwithstanding the mechanical failure the pilot brought the plane down safely although the landing was extremely turbulent",
+            "hint": "Start with 'Notwithstanding' and use 'although' to contrast the safe result with the scary process.",
+            "voice_input": false,
+            "example_sentence": "Notwithstanding the mechanical failure, the pilot brought the plane down safely although the landing was extremely turbulent.",
+            "media": {}
+        },
+        {
+            "id": "EC1VS1_050",
+            "type": "pronunciation",
+            "question": "Say 'orientation'.",
+            "answer": "orientation",
+            "hint": "Stress the fourth syllable: o-ri-en-TA-tion. This refers to the relative position or direction of something.",
+            "voice_input": true,
+            "example_sentence": "The orientation of the building allows for maximum sunlight whereas the previous design was far less efficient.",
+            "media": {}
+        },
+        {
+            "id": "EC1VS1_051",
+            "type": "multiple_choice",
+            "question": "Which phrasal verb means to escape or leave a place, especially for a holiday?",
+            "options": [
+                "get away",
+                "get by",
+                "get along"
+            ],
+            "answer": "get away",
+            "hint": "Think of leaving the city for a quiet weekend in the mountains.",
+            "voice_input": false,
+            "example_sentence": "We hope to get away for a few days although the current project requires our constant supervision.",
+            "media": {}
+        },
+        {
+            "id": "EC1VS1_052",
+            "type": "tap_fill",
+            "question": "The vessel will ___ the harbor at dawn; therefore, the crew must complete all safety checks before midnight.",
+            "options": [
+                "head for",
+                "head up",
+                "head out",
+                "head off"
+            ],
+            "answer": "head for",
+            "hint": "Choose the phrasal verb that means to move in a particular direction.",
+            "voice_input": false,
+            "example_sentence": "The vessel will head for the harbor at dawn; therefore, the crew must complete all safety checks before midnight.",
+            "media": {}
+        },
+        {
+            "id": "EC1VS1_053",
+            "type": "matching",
+            "question": "Match the driving-related phrasal verbs with their descriptive meanings.",
+            "pairs": [
+                {
+                    "left": "pull over",
+                    "right": "stop at the roadside"
+                },
+                {
+                    "left": "speed up",
+                    "right": "accelerate"
+                }
+            ],
+            "answer": [
+                {
+                    "left": "pull over",
+                    "right": "stop at the roadside"
+                },
+                {
+                    "left": "speed up",
+                    "right": "accelerate"
+                }
+            ],
+            "hint": "One pair is about going faster; the other is about moving to the side of the road to stop.",
+            "voice_input": false,
+            "example_sentence": "The police asked him to pull over because he did not speed up sufficiently when merging onto the highway.",
+            "media": {}
+        },
+        {
+            "id": "EC1VS1_054",
+            "type": "sentence_ordering",
+            "question": "Order the sentence regarding logistics.",
+            "words": [
+                "The",
+                "delivery",
+                "will",
+                "not",
+                "show",
+                "up",
+                "on",
+                "time",
+                "unless",
+                "the",
+                "courier",
+                "finds",
+                "a",
+                "faster",
+                "route",
+                "through",
+                "the",
+                "city",
+                "center"
+            ],
+            "answer": "The delivery will not show up on time unless the courier finds a faster route through the city center",
+            "hint": "Start with 'The delivery' and use 'unless' to specify the condition for on-time arrival.",
+            "voice_input": false,
+            "example_sentence": "The delivery will not show up on time unless the courier finds a faster route through the city center.",
+            "media": {}
+        },
+        {
+            "id": "EC1VS1_055",
+            "type": "pronunciation",
+            "question": "Say 'fluctuation'.",
+            "answer": "fluctuation",
+            "hint": "Stress the third syllable: fluc-tu-A-tion. This refers to an irregular rising and falling in number or amount.",
+            "voice_input": true,
+            "example_sentence": "The fluctuation in fuel prices is constant although the global demand remains relatively stable.",
+            "media": {}
+        },
+        {
+            "id": "EC1VS1_056",
+            "type": "multiple_choice",
+            "question": "Which phrasal verb means to visit a place and look at the things in it?",
+            "options": [
+                "look around",
+                "look for",
+                "look into"
+            ],
+            "answer": "look around",
+            "hint": "Think of a tourist exploring a museum or a potential buyer inspecting a house.",
+            "voice_input": false,
+            "example_sentence": "We had some time to look around the factory although the official tour was not scheduled until later.",
+            "media": {}
+        },
+        {
+            "id": "EC1VS1_057",
+            "type": "tap_fill",
+            "question": "The old bridge is starting to ___; therefore, the local council has prohibited heavy vehicles from crossing it.",
+            "options": [
+                "fall through",
+                "fall behind",
+                "fall apart",
+                "fall off"
+            ],
+            "answer": "fall apart",
+            "hint": "Choose the phrasal verb that means to break into pieces because of being old or badly made.",
+            "voice_input": false,
+            "example_sentence": "The old bridge is starting to fall apart; therefore, the local council has prohibited heavy vehicles from crossing it.",
+            "media": {}
+        },
+        {
+            "id": "EC1VS1_058",
+            "type": "matching",
+            "question": "Match the logistical phrasal verbs with their descriptive academic synonyms.",
+            "pairs": [
+                {
+                    "left": "drop off",
+                    "right": "deliver"
+                },
+                {
+                    "left": "pick up",
+                    "right": "collect"
+                }
+            ],
+            "answer": [
+                {
+                    "left": "drop off",
+                    "right": "deliver"
+                },
+                {
+                    "left": "pick up",
+                    "right": "collect"
+                }
+            ],
+            "hint": "One pair is about bringing something to a destination; the other is about going to get something.",
+            "voice_input": false,
+            "example_sentence": "I need to drop off the reports at the office before I pick up the clients from the airport.",
+            "media": {}
+        },
+        {
+            "id": "EC1VS1_059",
+            "type": "sentence_ordering",
+            "question": "Order the sentence to describe a difficult mission.",
+            "words": [
+                "Notwithstanding",
+                "the",
+                "heavy",
+                "snowfall",
+                "the",
+                "rescue",
+                "team",
+                "pushed",
+                "on",
+                "towards",
+                "the",
+                "stranded",
+                "climbers",
+                "successfully"
+            ],
+            "answer": "Notwithstanding the heavy snowfall the rescue team pushed on towards the stranded climbers successfully",
+            "hint": "Start with 'Notwithstanding' and use 'pushed on' to show they continued despite the weather.",
+            "voice_input": false,
+            "example_sentence": "Notwithstanding the heavy snowfall, the rescue team pushed on towards the stranded climbers successfully.",
+            "media": {}
+        },
+        {
+            "id": "EC1VS1_060",
+            "type": "pronunciation",
+            "question": "Say 'transportation'.",
+            "answer": "transportation",
+            "hint": "Stress the fourth syllable: trans-por-TA-tion. This is the action of transporting someone or something or the process of being transported.",
+            "voice_input": true,
+            "example_sentence": "Public transportation is efficient in the capital whereas rural areas suffer from a complete lack of connectivity.",
+            "media": {}
+        },
+        {
+            "id": "EC1VS1_061",
+            "type": "multiple_choice",
+            "question": "Which adjective describes a method of using resources so that they are not permanently damaged or depleted?",
+            "options": [
+                "sustainable",
+                "substantial",
+                "substitute"
+            ],
+            "answer": "sustainable",
+            "hint": "Think of 'green' energy or agricultural practices that can continue indefinitely without harming the planet.",
+            "voice_input": false,
+            "example_sentence": "The government must invest in sustainable energy sources although the initial costs of infrastructure are quite high.",
+            "media": {}
+        },
+        {
+            "id": "EC1VS1_062",
+            "type": "tap_fill",
+            "question": "The loss of ___ in the rainforest is a global concern; therefore, international organizations are working to protect endangered species.",
+            "options": [
+                "biodiversity",
+                "biography",
+                "biochemical",
+                "biophysics"
+            ],
+            "answer": "biodiversity",
+            "hint": "Choose the noun that refers to the variety of plant and animal life in a particular habitat.",
+            "voice_input": false,
+            "example_sentence": "The loss of biodiversity in the rainforest is a global concern; therefore, international organizations are working to protect endangered species.",
+            "media": {}
+        },
+        {
+            "id": "EC1VS1_063",
+            "type": "matching",
+            "question": "Match the environmental verbs with their academic synonyms.",
+            "pairs": [
+                {
+                    "left": "contaminate",
+                    "right": "pollute"
+                },
+                {
+                    "left": "conserve",
+                    "right": "protect"
+                }
+            ],
+            "answer": [
+                {
+                    "left": "contaminate",
+                    "right": "pollute"
+                },
+                {
+                    "left": "conserve",
+                    "right": "protect"
+                }
+            ],
+            "hint": "One pair is about making something dirty or poisonous; the other is about saving or protecting natural resources.",
+            "voice_input": false,
+            "example_sentence": "Industrial waste can quickly contaminate the local water supply unless we take active steps to conserve our natural springs.",
+            "media": {}
+        },
+        {
+            "id": "EC1VS1_064",
+            "type": "sentence_ordering",
+            "question": "Order the sentence regarding environmental recovery.",
+            "words": [
+                "The",
+                "ecosystem",
+                "will",
+                "not",
+                "recover",
+                "unless",
+                "the",
+                "illegal",
+                "logging",
+                "is",
+                "permanently",
+                "halted",
+                "by",
+                "the",
+                "local",
+                "authorities"
+            ],
+            "answer": "The ecosystem will not recover unless the illegal logging is permanently halted by the local authorities",
+            "hint": "Start with 'The ecosystem' and use 'unless' to define the critical condition for nature to heal.",
+            "voice_input": false,
+            "example_sentence": "The ecosystem will not recover unless the illegal logging is permanently halted by the local authorities.",
+            "media": {}
+        },
+        {
+            "id": "EC1VS1_065",
+            "type": "pronunciation",
+            "question": "Say 'deforestation'.",
+            "answer": "deforestation",
+            "hint": "Stress the fourth syllable: de-for-es-TA-tion. This refers to the action of clearing a wide area of trees.",
+            "voice_input": true,
+            "example_sentence": "The rate of deforestation has increased significantly although global awareness of climate change is at an all-time high.",
+            "media": {}
+        },
+        {
+            "id": "EC1VS1_066",
+            "type": "multiple_choice",
+            "question": "Which noun refers to the production and discharge of something, especially gas or radiation?",
+            "options": [
+                "emissions",
+                "omissions",
+                "admissions"
+            ],
+            "answer": "emissions",
+            "hint": "Think of carbon dioxide coming from cars or factories.",
+            "voice_input": false,
+            "example_sentence": "The city aims to reduce carbon emissions by fifty percent whereas neighboring regions have not yet set clear targets.",
+            "media": {}
+        },
+        {
+            "id": "EC1VS1_067",
+            "type": "tap_fill",
+            "question": "We must transition toward ___ energy sources; therefore, the dependency on fossil fuels will gradually decrease over time.",
+            "options": [
+                "renewable",
+                "reusable",
+                "remarkable",
+                "reliable"
+            ],
+            "answer": "renewable",
+            "hint": "Choose the adjective for energy from a source that is not depleted when used, such as wind or solar power.",
+            "voice_input": false,
+            "example_sentence": "We must transition toward renewable energy sources; therefore, the dependency on fossil fuels will gradually decrease over time.",
+            "media": {}
+        },
+        {
+            "id": "EC1VS1_068",
+            "type": "matching",
+            "question": "Match the nouns describing environmental changes with their academic synonyms.",
+            "pairs": [
+                {
+                    "left": "depletion",
+                    "right": "reduction"
+                },
+                {
+                    "left": "accumulation",
+                    "right": "buildup"
+                }
+            ],
+            "answer": [
+                {
+                    "left": "depletion",
+                    "right": "reduction"
+                },
+                {
+                    "left": "accumulation",
+                    "right": "buildup"
+                }
+            ],
+            "hint": "One pair is about a resource becoming less or empty; the other is about something increasing or gathering over time.",
+            "voice_input": false,
+            "example_sentence": "The depletion of the ozone layer is linked to the accumulation of certain chemicals in the upper atmosphere.",
+            "media": {}
+        },
+        {
+            "id": "EC1VS1_069",
+            "type": "sentence_ordering",
+            "question": "Order the sentence for a report on environmental policy.",
+            "words": [
+                "Notwithstanding",
+                "the",
+                "scientific",
+                "consensus",
+                "the",
+                "proposed",
+                "environmental",
+                "regulations",
+                "were",
+                "met",
+                "with",
+                "fierce",
+                "opposition",
+                "from",
+                "the",
+                "industrial",
+                "lobby"
+            ],
+            "answer": "Notwithstanding the scientific consensus the proposed environmental regulations were met with fierce opposition from the industrial lobby",
+            "hint": "Start with 'Notwithstanding' to contrast the facts (consensus) with the political reaction (opposition).",
+            "voice_input": false,
+            "example_sentence": "Notwithstanding the scientific consensus, the proposed environmental regulations were met with fierce opposition from the industrial lobby.",
+            "media": {}
+        },
+        {
+            "id": "EC1VS1_070",
+            "type": "pronunciation",
+            "question": "Say 'contaminant'.",
+            "answer": "contaminant",
+            "hint": "Stress the second syllable: con-TAM-i-nant. This refers to a polluting or poisonous substance that makes something impure.",
+            "voice_input": true,
+            "example_sentence": "The researchers found a dangerous contaminant in the soil although the site had been closed for decades.",
+            "media": {}
+        },
+        {
+            "id": "EC1VS1_071",
+            "type": "multiple_choice",
+            "question": "Which adjective describes something that causes great and sudden damage or suffering?",
+            "options": [
+                "catastrophic",
+                "categorized",
+                "catalytic"
+            ],
+            "answer": "catastrophic",
+            "hint": "Often used to describe the effects of floods, earthquakes, or severe climate change.",
+            "voice_input": false,
+            "example_sentence": "The impact of the flood was catastrophic although the community had attempted to build temporary defenses.",
+            "media": {}
+        },
+        {
+            "id": "EC1VS1_072",
+            "type": "tap_fill",
+            "question": "Coastal cities are highly ___ to rising sea levels; whereas, inland regions are primarily concerned with drought and heatwaves.",
+            "options": [
+                "vulnerable",
+                "valuable",
+                "variable",
+                "verifiable"
+            ],
+            "answer": "vulnerable",
+            "hint": "Choose the adjective that means susceptible to physical or emotional attack or harm.",
+            "voice_input": false,
+            "example_sentence": "Coastal cities are highly vulnerable to rising sea levels; whereas, inland regions are primarily concerned with drought and heatwaves.",
+            "media": {}
+        },
+        {
+            "id": "EC1VS1_073",
+            "type": "matching",
+            "question": "Match the scientific verbs with their descriptive academic synonyms.",
+            "pairs": [
+                {
+                    "left": "mitigate",
+                    "right": "lessen"
+                },
+                {
+                    "left": "exacerbate",
+                    "right": "worsen"
+                }
+            ],
+            "answer": [
+                {
+                    "left": "mitigate",
+                    "right": "lessen"
+                },
+                {
+                    "left": "exacerbate",
+                    "right": "worsen"
+                }
+            ],
+            "hint": "One pair is about making a bad situation better; the other is about making a bad situation even worse.",
+            "voice_input": false,
+            "example_sentence": "New irrigation techniques can mitigate the effects of drought, but over-farming might exacerbate the soil erosion.",
+            "media": {}
+        },
+        {
+            "id": "EC1VS1_074",
+            "type": "sentence_ordering",
+            "question": "Order the sentence for a conservation strategy document.",
+            "words": [
+                "The",
+                "wildlife",
+                "population",
+                "will",
+                "decline",
+                "unless",
+                "we",
+                "establish",
+                "a",
+                "protected",
+                "corridor",
+                "between",
+                "the",
+                "two",
+                "national",
+                "parks"
+            ],
+            "answer": "The wildlife population will decline unless we establish a protected corridor between the two national parks",
+            "hint": "Start with 'The wildlife' and use 'unless' to show what must be done to prevent the decline.",
+            "voice_input": false,
+            "example_sentence": "The wildlife population will decline unless we establish a protected corridor between the two national parks.",
+            "media": {}
+        },
+        {
+            "id": "EC1VS1_075",
+            "type": "pronunciation",
+            "question": "Say 'sustainability'.",
+            "answer": "sustainability",
+            "hint": "Stress the fifth syllable: sus-tain-a-BIL-i-ty. This is the ability to be maintained at a certain rate or level.",
+            "voice_input": true,
+            "example_sentence": "Long-term environmental sustainability is impossible unless we reduce our global consumption of plastic.",
+            "media": {}
+        },
+        {
+            "id": "EC1VS1_076",
+            "type": "multiple_choice",
+            "question": "Which noun refers to the natural home or environment of an animal, plant, or other organism?",
+            "options": [
+                "habitat",
+                "habitation",
+                "habitual"
+            ],
+            "answer": "habitat",
+            "hint": "Think of the ocean for a whale or the forest for a bear.",
+            "voice_input": false,
+            "example_sentence": "Urban expansion is destroying the natural habitat of many birds although local parks provide some refuge.",
+            "media": {}
+        },
+        {
+            "id": "EC1VS1_077",
+            "type": "tap_fill",
+            "question": "The factory must dispose of ___ waste properly; therefore, a specialized disposal unit has been hired to manage the process.",
+            "options": [
+                "hazardous",
+                "haphazard",
+                "hardened",
+                "harmless"
+            ],
+            "answer": "hazardous",
+            "hint": "Choose the adjective that means risky or dangerous, especially to health or safety.",
+            "voice_input": false,
+            "example_sentence": "The factory must dispose of hazardous waste properly; therefore, a specialized disposal unit has been hired to manage the process.",
+            "media": {}
+        },
+        {
+            "id": "EC1VS1_078",
+            "type": "matching",
+            "question": "Match the landscape adjectives with their descriptive meanings.",
+            "pairs": [
+                {
+                    "left": "arid",
+                    "right": "dry"
+                },
+                {
+                    "left": "fertile",
+                    "right": "productive"
+                }
+            ],
+            "answer": [
+                {
+                    "left": "arid",
+                    "right": "dry"
+                },
+                {
+                    "left": "fertile",
+                    "right": "productive"
+                }
+            ],
+            "hint": "One pair is about a land that has little or no rain; the other is about land that is capable of producing abundant vegetation or crops.",
+            "voice_input": false,
+            "example_sentence": "It is difficult to farm in arid regions, but the valley remains fertile due to its proximity to the river.",
+            "media": {}
+        },
+        {
+            "id": "EC1VS1_079",
+            "type": "sentence_ordering",
+            "question": "Order the sentence for a scientific observation report.",
+            "words": [
+                "Notwithstanding",
+                "the",
+                "record",
+                "temperatures",
+                "the",
+                "glacier",
+                "is",
+                "melting",
+                "faster",
+                "than",
+                "predicted",
+                "although",
+                "some",
+                "areas",
+                "remain",
+                "permanently",
+                "frozen"
+            ],
+            "answer": "Notwithstanding the record temperatures the glacier is melting faster than predicted although some areas remain permanently frozen",
+            "hint": "Start with 'Notwithstanding' and use 'although' to contrast the fast melting with the few frozen spots.",
+            "voice_input": false,
+            "example_sentence": "Notwithstanding the record temperatures, the glacier is melting faster than predicted although some areas remain permanently frozen.",
+            "media": {}
+        },
+        {
+            "id": "EC1VS1_080",
+            "type": "pronunciation",
+            "question": "Say 'environmentalist'.",
+            "answer": "environmentalist",
+            "hint": "Stress the fifth syllable: en-vi-ron-men-TAL-ist. This is a person who is concerned with or advocates for the protection of the environment.",
+            "voice_input": true,
+            "example_sentence": "She became a prominent environmentalist after witnessing the damage caused by the oil spill in the gulf.",
+            "media": {}
+        },
+        {
+            "id": "EC1VS1_081",
+            "type": "multiple_choice",
+            "question": "Which noun refers to the suppression or prohibition of any parts of books, films, or news that are considered obscene or politically unacceptable?",
+            "options": [
+                "censorship",
+                "citizenship",
+                "censorship"
+            ],
+            "answer": "censorship",
+            "hint": "Think of a government or organization preventing certain information from being shared with the public.",
+            "voice_input": false,
+            "example_sentence": "The government faced international criticism for its strict censorship although it claimed the measures were for national security.",
+            "media": {}
+        },
+        {
+            "id": "EC1VS1_082",
+            "type": "tap_fill",
+            "question": "There is ___ concern regarding the rise of fake news; therefore, social media platforms are implementing stricter verification processes.",
+            "options": [
+                "widespread",
+                "wasteful",
+                "wavering",
+                "withdrawn"
+            ],
+            "answer": "widespread",
+            "hint": "Choose the adjective that means found or distributed over a large area or among many people.",
+            "voice_input": false,
+            "example_sentence": "There is widespread concern regarding the rise of fake news; therefore, social media platforms are implementing stricter verification processes.",
+            "media": {}
+        },
+        {
+            "id": "EC1VS1_083",
+            "type": "matching",
+            "question": "Match the media and ethics terms with their closer academic synonyms.",
+            "pairs": [
+                {
+                    "left": "bias",
+                    "right": "prejudice"
+                },
+                {
+                    "left": "objective",
+                    "right": "impartial"
+                }
+            ],
+            "answer": [
+                {
+                    "left": "bias",
+                    "right": "prejudice"
+                },
+                {
+                    "left": "objective",
+                    "right": "impartial"
+                }
+            ],
+            "hint": "One pair is about having an unfair preference for something; the other is about remaining neutral and fair.",
+            "voice_input": false,
+            "example_sentence": "Journalists must remain objective unless they are writing an opinion piece where a certain amount of bias is expected.",
+            "media": {}
+        },
+        {
+            "id": "EC1VS1_084",
+            "type": "sentence_ordering",
+            "question": "Order the sentence regarding journalistic ethics.",
+            "words": [
+                "The",
+                "editor",
+                "will",
+                "not",
+                "publish",
+                "the",
+                "story",
+                "unless",
+                "the",
+                "journalist",
+                "can",
+                "provide",
+                "two",
+                "independent",
+                "sources",
+                "to",
+                "verify",
+                "the",
+                "claims"
+            ],
+            "answer": "The editor will not publish the story unless the journalist can provide two independent sources to verify the claims",
+            "hint": "Start with 'The editor' and use 'unless' to define the ethical requirement for publication.",
+            "voice_input": false,
+            "example_sentence": "The editor will not publish the story unless the journalist can provide two independent sources to verify the claims.",
+            "media": {}
+        },
+        {
+            "id": "EC1VS1_085",
+            "type": "pronunciation",
+            "question": "Say 'investigative'.",
+            "answer": "investigative",
+            "hint": "Stress the second syllable: in-VES-ti-ga-tive. This refers to journalism that uncovers facts the public didn't know about.",
+            "voice_input": true,
+            "example_sentence": "High-quality investigative journalism is essential for a healthy democracy although it requires significant time and resources.",
+            "media": {}
+        },
+        {
+            "id": "EC1VS1_086",
+            "type": "multiple_choice",
+            "question": "Which noun refers to the fact or condition of being required or expected to justify actions or decisions?",
+            "options": [
+                "accountability",
+                "accessibility",
+                "adaptability"
+            ],
+            "answer": "accountability",
+            "hint": "Think of politicians or public figures being held responsible for their actions.",
+            "voice_input": false,
+            "example_sentence": "Public demand for accountability has grown whereas many corporations still prioritize profit over transparency.",
+            "media": {}
+        },
+        {
+            "id": "EC1VS1_087",
+            "type": "tap_fill",
+            "question": "The senator made a ___ statement about immigration policy; consequently, the debate in the media became extremely heated.",
+            "options": [
+                "controversial",
+                "conventional",
+                "conditional",
+                "confidential"
+            ],
+            "answer": "controversial",
+            "hint": "Choose the adjective that describes something likely to give rise to public disagreement.",
+            "voice_input": false,
+            "example_sentence": "The senator made a controversial statement about immigration policy; consequently, the debate in the media became extremely heated.",
+            "media": {}
+        },
+        {
+            "id": "EC1VS1_088",
+            "type": "matching",
+            "question": "Match the ethical and media terms with their descriptive meanings.",
+            "pairs": [
+                {
+                    "left": "integrity",
+                    "right": "honesty"
+                },
+                {
+                    "left": "propaganda",
+                    "right": "misinformation"
+                }
+            ],
+            "answer": [
+                {
+                    "left": "integrity",
+                    "right": "honesty"
+                },
+                {
+                    "left": "propaganda",
+                    "right": "misinformation"
+                }
+            ],
+            "hint": "One pair is about high moral principles; the other is about biased information used to promote a political cause.",
+            "voice_input": false,
+            "example_sentence": "A news outlet must maintain its integrity so as to avoid being labeled as a source of propaganda.",
+            "media": {}
+        },
+        {
+            "id": "EC1VS1_089",
+            "type": "sentence_ordering",
+            "question": "Order the sentence for a media industry report.",
+            "words": [
+                "Notwithstanding",
+                "the",
+                "vocal",
+                "protests",
+                "the",
+                "network",
+                "broadcast",
+                "the",
+                "documentary",
+                "although",
+                "it",
+                "had",
+                "been",
+                "heavily",
+                "edited",
+                "to",
+                "avoid",
+                "legal",
+                "action"
+            ],
+            "answer": "Notwithstanding the vocal protests the network broadcast the documentary although it had been heavily edited to avoid legal action",
+            "hint": "Start with 'Notwithstanding' to contrast the protests with the fact that the show aired anyway.",
+            "voice_input": false,
+            "example_sentence": "Notwithstanding the vocal protests, the network broadcast the documentary although it had been heavily edited to avoid legal action.",
+            "media": {}
+        },
+        {
+            "id": "EC1VS1_090",
+            "type": "pronunciation",
+            "question": "Say 'transparency'.",
+            "answer": "transparency",
+            "hint": "Stress the second syllable: trans-PAR-en-cy. This refers to the quality of being open and without secrets.",
+            "voice_input": true,
+            "example_sentence": "The public demands more transparency in government spending unless the information is deemed top-secret for safety.",
+            "media": {}
+        },
+        {
+            "id": "EC1VS1_091",
+            "type": "multiple_choice",
+            "question": "Which noun refers to the use of exciting or shocking stories or language at the expense of accuracy, in order to provoke public interest?",
+            "options": [
+                "sensationalism",
+                "sentimentality",
+                "sensitivity"
+            ],
+            "answer": "sensationalism",
+            "hint": "Think of clickbait headlines or exaggerated news reports designed to get more viewers.",
+            "voice_input": false,
+            "example_sentence": "The tabloids are often criticized for their sensationalism although they remain the most widely read newspapers in the country.",
+            "media": {}
+        },
+        {
+            "id": "EC1VS1_092",
+            "type": "tap_fill",
+            "question": "It is not ___ for a reporter to accept gifts from a source; whereas, building a professional relationship is generally encouraged.",
+            "options": [
+                "ethical",
+                "ethnic",
+                "esthetic",
+                "eccentric"
+            ],
+            "answer": "ethical",
+            "hint": "Choose the adjective relating to moral principles or the branch of knowledge dealing with these.",
+            "voice_input": false,
+            "example_sentence": "It is not ethical for a reporter to accept gifts from a source; whereas, building a professional relationship is generally encouraged.",
+            "media": {}
+        },
+        {
+            "id": "EC1VS1_093",
+            "type": "matching",
+            "question": "Match the social verbs with their academic synonyms.",
+            "pairs": [
+                {
+                    "left": "scrutinize",
+                    "right": "examine"
+                },
+                {
+                    "left": "advocate",
+                    "right": "support"
+                }
+            ],
+            "answer": [
+                {
+                    "left": "scrutinize",
+                    "right": "examine"
+                },
+                {
+                    "left": "advocate",
+                    "right": "support"
+                }
+            ],
+            "hint": "One pair is about looking at something very carefully to find mistakes; the other is about publicly recommending a cause or policy.",
+            "voice_input": false,
+            "example_sentence": "The public will scrutinize the new laws while many groups continue to advocate for human rights.",
+            "media": {}
+        },
+        {
+            "id": "EC1VS1_094",
+            "type": "sentence_ordering",
+            "question": "Order the sentence regarding legal and ethical liability.",
+            "words": [
+                "The",
+                "company",
+                "will",
+                "be",
+                "held",
+                "liable",
+                "unless",
+                "it",
+                "can",
+                "prove",
+                "that",
+                "the",
+                "data",
+                "breach",
+                "was",
+                "the",
+                "result",
+                "of",
+                "an",
+                "unforeseeable",
+                "cyber",
+                "attack"
+            ],
+            "answer": "The company will be held liable unless it can prove that the data breach was the result of an unforeseeable cyber attack",
+            "hint": "Start with 'The company' and use 'unless' to indicate the only condition that would excuse them from responsibility.",
+            "voice_input": false,
+            "example_sentence": "The company will be held liable unless it can prove that the data breach was the result of an unforeseeable cyber attack.",
+            "media": {}
+        },
+        {
+            "id": "EC1VS1_095",
+            "type": "pronunciation",
+            "question": "Say 'globalization'.",
+            "answer": "globalization",
+            "hint": "Stress the fifth syllable: glob-al-i-ZA-tion. This refers to the process of international integration arising from the interchange of world views.",
+            "voice_input": true,
+            "example_sentence": "Rapid globalization has led to cultural exchange although it has also caused the decline of some local traditions.",
+            "media": {}
+        },
+        {
+            "id": "EC1VS1_096",
+            "type": "multiple_choice",
+            "question": "Which noun refers to laws, considered collectively?",
+            "options": [
+                "legislation",
+                "negotiation",
+                "delegation"
+            ],
+            "answer": "legislation",
+            "hint": "Think of the rules made by a parliament or a governing body.",
+            "voice_input": false,
+            "example_sentence": "New legislation is required to protect digital privacy whereas current laws are outdated and insufficient.",
+            "media": {}
+        },
+        {
+            "id": "EC1VS1_097",
+            "type": "tap_fill",
+            "question": "Cynicism toward mainstream media is becoming more ___ among younger generations; therefore, alternative news sources are thriving.",
+            "options": [
+                "prevalent",
+                "preventive",
+                "proactive",
+                "productive"
+            ],
+            "answer": "prevalent",
+            "hint": "Choose the adjective that means widespread in a particular area or at a particular time.",
+            "voice_input": false,
+            "example_sentence": "Cynicism toward mainstream media is becoming more prevalent among younger generations; therefore, alternative news sources are thriving.",
+            "media": {}
+        },
+        {
+            "id": "EC1VS1_098",
+            "type": "matching",
+            "question": "Match the social and media verbs with their closer descriptive meanings.",
+            "pairs": [
+                {
+                    "left": "disclose",
+                    "right": "reveal"
+                },
+                {
+                    "left": "manipulate",
+                    "right": "influence"
+                }
+            ],
+            "answer": [
+                {
+                    "left": "disclose",
+                    "right": "reveal"
+                },
+                {
+                    "left": "manipulate",
+                    "right": "influence"
+                }
+            ],
+            "hint": "One pair is about making secret information known; the other is about controlling or influencing a person or situation cleverly or unfairly.",
+            "voice_input": false,
+            "example_sentence": "The journalist refused to disclose her sources, fearing that the government would try to manipulate the public narrative.",
+            "media": {}
+        },
+        {
+            "id": "EC1VS1_099",
+            "type": "sentence_ordering",
+            "question": "Order the sentence for a television industry update.",
+            "words": [
+                "Notwithstanding",
+                "the",
+                "high",
+                "ratings",
+                "the",
+                "show",
+                "was",
+                "canceled",
+                "due",
+                "to",
+                "ethical",
+                "concerns",
+                "about",
+                "the",
+                "treatment",
+                "of",
+                "its",
+                "participants"
+            ],
+            "answer": "Notwithstanding the high ratings the show was canceled due to ethical concerns about the treatment of its participants",
+            "hint": "Start with 'Notwithstanding' to contrast the popularity of the show with the reason it was stopped.",
+            "voice_input": false,
+            "example_sentence": "Notwithstanding the high ratings, the show was canceled due to ethical concerns about the treatment of its participants.",
+            "media": {}
+        },
+        {
+            "id": "EC1VS1_100",
+            "type": "pronunciation",
+            "question": "Say 'discrimination'.",
+            "answer": "discrimination",
+            "hint": "Stress the fourth syllable: dis-crim-i-NA-tion. This refers to the unjust or prejudicial treatment of different categories of people.",
+            "voice_input": true,
+            "example_sentence": "The new policy aims to eliminate discrimination in the workplace although cultural biases still persist.",
+            "media": {}
+        },
+        {
+            "id": "EC1VS1_101",
+            "type": "multiple_choice",
+            "question": "Which adjective describes the most advanced and newest stage in the development of a particular technology?",
+            "options": [
+                "cutting-edge",
+                "obsolete",
+                "conventional"
+            ],
+            "answer": "cutting-edge",
+            "hint": "Think of the very latest smartphone or a breakthrough in medical science.",
+            "voice_input": false,
+            "example_sentence": "The laboratory uses cutting-edge equipment although the funding for new research has been limited this year.",
+            "media": {}
+        },
+        {
+            "id": "EC1VS1_102",
+            "type": "tap_fill",
+            "question": "The factory introduced ___ to increase production speed; therefore, the need for manual labor has decreased by forty percent.",
+            "options": [
+                "automation",
+                "authentication",
+                "authorization",
+                "alteration"
+            ],
+            "answer": "automation",
+            "hint": "Choose the noun that refers to the use of largely automatic equipment in a system of manufacturing or other production process.",
+            "voice_input": false,
+            "example_sentence": "The factory introduced automation to increase production speed; therefore, the need for manual labor has decreased by forty percent.",
+            "media": {}
+        },
+        {
+            "id": "EC1VS1_103",
+            "type": "matching",
+            "question": "Match the technology-related adjectives with their closer academic synonyms.",
+            "pairs": [
+                {
+                    "left": "innovative",
+                    "right": "revolutionary"
+                },
+                {
+                    "left": "obsolete",
+                    "right": "outdated"
+                }
+            ],
+            "answer": [
+                {
+                    "left": "innovative",
+                    "right": "revolutionary"
+                },
+                {
+                    "left": "obsolete",
+                    "right": "outdated"
+                }
+            ],
+            "hint": "One pair is about something that is no longer useful; the other is about a new idea that changes everything.",
+            "voice_input": false,
+            "example_sentence": "We must replace the obsolete software unless we want to fall behind our more innovative competitors.",
+            "media": {}
+        },
+        {
+            "id": "EC1VS1_104",
+            "type": "sentence_ordering",
+            "question": "Order the sentence regarding IT maintenance.",
+            "words": [
+                "The",
+                "system",
+                "will",
+                "not",
+                "function",
+                "correctly",
+                "unless",
+                "the",
+                "latest",
+                "security",
+                "patches",
+                "are",
+                "installed",
+                "by",
+                "the",
+                "administrator"
+            ],
+            "answer": "The system will not function correctly unless the latest security patches are installed by the administrator",
+            "hint": "Start with 'The system' and use 'unless' to define the technical requirement for functionality.",
+            "voice_input": false,
+            "example_sentence": "The system will not function correctly unless the latest security patches are installed by the administrator.",
+            "media": {}
+        },
+        {
+            "id": "EC1VS1_105",
+            "type": "pronunciation",
+            "question": "Say 'infrastructure'.",
+            "answer": "infrastructure",
+            "hint": "Stress the first syllable: IN-fra-struc-ture. This refers to the basic physical and organizational structures needed for the operation of a society or enterprise.",
+            "voice_input": true,
+            "example_sentence": "Investing in digital infrastructure is a priority whereas the physical roads still require significant repairs.",
+            "media": {}
+        },
+        {
+            "id": "EC1VS1_106",
+            "type": "multiple_choice",
+            "question": "Which noun refers to a sudden, dramatic, and important discovery or development?",
+            "options": [
+                "breakthrough",
+                "breakdown",
+                "breakout"
+            ],
+            "answer": "breakthrough",
+            "hint": "Often used in science or medicine when a major problem is finally solved.",
+            "voice_input": false,
+            "example_sentence": "The recent breakthrough in battery technology could double the range of electric vehicles although testing is still ongoing.",
+            "media": {}
+        },
+        {
+            "id": "EC1VS1_107",
+            "type": "tap_fill",
+            "question": "The new algorithm improved the processing ___ of the server; consequently, energy consumption was reduced by fifteen percent.",
+            "options": [
+                "efficiency",
+                "efficacy",
+                "elasticity",
+                "eccentricity"
+            ],
+            "answer": "efficiency",
+            "hint": "Choose the noun that refers to achieving maximum productivity with minimum wasted effort or expense.",
+            "voice_input": false,
+            "example_sentence": "The new algorithm improved the processing efficiency of the server; consequently, energy consumption was reduced by fifteen percent.",
+            "media": {}
+        },
+        {
+            "id": "EC1VS1_108",
+            "type": "matching",
+            "question": "Match the technical verbs with their descriptive meanings.",
+            "pairs": [
+                {
+                    "left": "deploy",
+                    "right": "implement"
+                },
+                {
+                    "left": "modify",
+                    "right": "adjust"
+                }
+            ],
+            "answer": [
+                {
+                    "left": "deploy",
+                    "right": "implement"
+                },
+                {
+                    "left": "modify",
+                    "right": "adjust"
+                }
+            ],
+            "hint": "One pair is about putting a system or software into effective action; the other is about making small changes to improve something.",
+            "voice_input": false,
+            "example_sentence": "The developers need to modify the code before they can safely deploy the update to the public server.",
+            "media": {}
+        },
+        {
+            "id": "EC1VS1_109",
+            "type": "sentence_ordering",
+            "question": "Order the sentence for a tech industry report.",
+            "words": [
+                "Notwithstanding",
+                "the",
+                "initial",
+                "software",
+                "bugs",
+                "the",
+                "platform",
+                "has",
+                "become",
+                "the",
+                "industry",
+                "standard",
+                "for",
+                "online",
+                "collaboration"
+            ],
+            "answer": "Notwithstanding the initial software bugs the platform has become the industry standard for online collaboration",
+            "hint": "Start with 'Notwithstanding' to contrast the early technical problems with the current success of the tool.",
+            "voice_input": false,
+            "example_sentence": "Notwithstanding the initial software bugs, the platform has become the industry standard for online collaboration.",
+            "media": {}
+        },
+        {
+            "id": "EC1VS1_110",
+            "type": "pronunciation",
+            "question": "Say 'versatility'.",
+            "answer": "versatility",
+            "hint": "Stress the fourth syllable: ver-sa-TIL-i-ty. This refers to the ability to adapt or be adapted to many different functions or activities.",
+            "voice_input": true,
+            "example_sentence": "The versatility of the new tablet makes it ideal for both designers and office workers although it is quite expensive.",
+            "media": {}
+        },
+        {
+            "id": "EC1VS1_111",
+            "type": "multiple_choice",
+            "question": "Which noun refers to the action or process of combining two or more things so that they work together effectively?",
+            "options": [
+                "integration",
+                "interrogation",
+                "impersonation"
+            ],
+            "answer": "integration",
+            "hint": "Think of connecting different software systems or incorporating new technology into an old factory.",
+            "voice_input": false,
+            "example_sentence": "The integration of AI into the workflow has improved accuracy whereas it has also raised concerns about job security.",
+            "media": {}
+        },
+        {
+            "id": "EC1VS1_112",
+            "type": "tap_fill",
+            "question": "The company is seeking ___ growth through innovation; whereas, its rivals are focused on short-term profits.",
+            "options": [
+                "sustainable",
+                "susceptible",
+                "substantial",
+                "superficial"
+            ],
+            "answer": "sustainable",
+            "hint": "Choose the adjective that describes something able to be maintained at a certain rate or level without depleting resources.",
+            "voice_input": false,
+            "example_sentence": "The company is seeking sustainable growth through innovation; whereas, its rivals are focused on short-term profits.",
+            "media": {}
+        },
+        {
+            "id": "EC1VS1_113",
+            "type": "matching",
+            "question": "Match the technology adjectives with their descriptive synonyms.",
+            "pairs": [
+                {
+                    "left": "virtual",
+                    "right": "simulated"
+                },
+                {
+                    "left": "tangible",
+                    "right": "physical"
+                }
+            ],
+            "answer": [
+                {
+                    "left": "virtual",
+                    "right": "simulated"
+                },
+                {
+                    "left": "tangible",
+                    "right": "physical"
+                }
+            ],
+            "hint": "One pair is about things that exist in software but not in the real world; the other is about things you can touch.",
+            "voice_input": false,
+            "example_sentence": "Cloud storage provides a virtual space for files, but we still need tangible hardware to access the internet.",
+            "media": {}
+        },
+        {
+            "id": "EC1VS1_114",
+            "type": "sentence_ordering",
+            "question": "Order the sentence regarding modern energy technology.",
+            "words": [
+                "The",
+                "smart",
+                "grid",
+                "will",
+                "optimize",
+                "energy",
+                "distribution",
+                "unless",
+                "the",
+                "software",
+                "fails",
+                "to",
+                "balance",
+                "the",
+                "load",
+                "during",
+                "peak",
+                "hours"
+            ],
+            "answer": "The smart grid will optimize energy distribution unless the software fails to balance the load during peak hours",
+            "hint": "Start with 'The smart grid' and use 'unless' to indicate the risk that could prevent optimization.",
+            "voice_input": false,
+            "example_sentence": "The smart grid will optimize energy distribution unless the software fails to balance the load during peak hours.",
+            "media": {}
+        },
+        {
+            "id": "EC1VS1_115",
+            "type": "pronunciation",
+            "question": "Say 'encryption'.",
+            "answer": "encryption",
+            "hint": "Stress the second syllable: en-CRYP-tion. This refers to the process of converting information or data into a code, especially to prevent unauthorized access.",
+            "voice_input": true,
+            "example_sentence": "Robust data encryption is mandatory unless the information is intended for public consumption.",
+            "media": {}
+        },
+        {
+            "id": "EC1VS1_116",
+            "type": "multiple_choice",
+            "question": "Which noun refers to the capacity of a system to be changed in size or scale to handle a growing amount of work?",
+            "options": [
+                "scalability",
+                "stability",
+                "suitability"
+            ],
+            "answer": "scalability",
+            "hint": "Think of a website that can handle 100 users or 1,000,000 users without crashing.",
+            "voice_input": false,
+            "example_sentence": "The primary advantage of cloud computing is its scalability although it can become expensive as usage grows.",
+            "media": {}
+        },
+        {
+            "id": "EC1VS1_117",
+            "type": "tap_fill",
+            "question": "Streaming services have been a ___ force in the entertainment industry; consequently, many traditional cinemas have closed.",
+            "options": [
+                "disruptive",
+                "descriptive",
+                "decorative",
+                "derivative"
+            ],
+            "answer": "disruptive",
+            "hint": "Choose the adjective that describes an innovation that creates a new market and value network, eventually displacing established firms.",
+            "voice_input": false,
+            "example_sentence": "Streaming services have been a disruptive force in the entertainment industry; consequently, many traditional cinemas have closed.",
+            "media": {}
+        },
+        {
+            "id": "EC1VS1_118",
+            "type": "matching",
+            "question": "Match the technical terms with their descriptive meanings.",
+            "pairs": [
+                {
+                    "left": "compatible",
+                    "right": "consistent"
+                },
+                {
+                    "left": "synchronize",
+                    "right": "coordinate"
+                }
+            ],
+            "answer": [
+                {
+                    "left": "compatible",
+                    "right": "consistent"
+                },
+                {
+                    "left": "synchronize",
+                    "right": "coordinate"
+                }
+            ],
+            "hint": "One pair is about two things being able to work together without problems; the other is about making two things happen at the same time or speed.",
+            "voice_input": false,
+            "example_sentence": "You should synchronize your devices to ensure the data is compatible across all platforms.",
+            "media": {}
+        },
+        {
+            "id": "EC1VS1_119",
+            "type": "sentence_ordering",
+            "question": "Order the sentence for a software design review.",
+            "words": [
+                "Notwithstanding",
+                "the",
+                "high",
+                "complexity",
+                "the",
+                "team",
+                "successfully",
+                "developed",
+                "a",
+                "user",
+                "friendly",
+                "interface",
+                "that",
+                "anyone",
+                "can",
+                "navigate",
+                "easily"
+            ],
+            "answer": "Notwithstanding the high complexity the team successfully developed a user friendly interface that anyone can navigate easily",
+            "hint": "Start with 'Notwithstanding' to contrast the difficult technical side with the simple result for the user.",
+            "voice_input": false,
+            "example_sentence": "Notwithstanding the high complexity, the team successfully developed a user-friendly interface that anyone can navigate easily.",
+            "media": {}
+        },
+        {
+            "id": "EC1VS1_120",
+            "type": "pronunciation",
+            "question": "Say 'obsolescence'.",
+            "answer": "obsolescence",
+            "hint": "Stress the third syllable: ob-so-LES-cence. This refers to the process of becoming obsolete or outdated and no longer used.",
+            "voice_input": true,
+            "example_sentence": "Planned obsolescence is a controversial practice in manufacturing although it drives continuous consumer demand.",
+            "media": {}
+        },
+        {
+            "id": "EC1VS1_121",
+            "type": "multiple_choice",
+            "question": "Which adjective describes a person who is no longer needed at a job because the job itself no longer exists?",
+            "options": [
+                "redundant",
+                "reluctant",
+                "relevant"
+            ],
+            "answer": "redundant",
+            "hint": "Think of what happens to workers when a factory closes or a department is automated.",
+            "voice_input": false,
+            "example_sentence": "Many staff members were made redundant although the company had reported record profits earlier in the fiscal year.",
+            "media": {}
+        },
+        {
+            "id": "EC1VS1_122",
+            "type": "tap_fill",
+            "question": "The young ___ started her business in a small garage; therefore, her story has become an inspiration for many aspiring tech leaders.",
+            "options": [
+                "entrepreneur",
+                "employee",
+                "employer",
+                "executive"
+            ],
+            "answer": "entrepreneur",
+            "hint": "Choose the noun for a person who sets up a business or businesses, taking on financial risks in the hope of profit.",
+            "voice_input": false,
+            "example_sentence": "The young entrepreneur started her business in a small garage; therefore, her story has become an inspiration for many aspiring tech leaders.",
+            "media": {}
+        },
+        {
+            "id": "EC1VS1_123",
+            "type": "matching",
+            "question": "Match the corporate growth terms with their closer academic synonyms.",
+            "pairs": [
+                {
+                    "left": "merger",
+                    "right": "combination"
+                },
+                {
+                    "left": "acquisition",
+                    "right": "purchase"
+                }
+            ],
+            "answer": [
+                {
+                    "left": "merger",
+                    "right": "combination"
+                },
+                {
+                    "left": "acquisition",
+                    "right": "purchase"
+                }
+            ],
+            "hint": "One pair is about two companies joining to become one; the other is about one company buying another.",
+            "voice_input": false,
+            "example_sentence": "The acquisition of the smaller firm was finalized yesterday whereas the merger between the two giants is still pending approval.",
+            "media": {}
+        },
+        {
+            "id": "EC1VS1_124",
+            "type": "sentence_ordering",
+            "question": "Order the sentence regarding industrial relations.",
+            "words": [
+                "The",
+                "labor",
+                "union",
+                "will",
+                "call",
+                "a",
+                "strike",
+                "unless",
+                "the",
+                "management",
+                "agrees",
+                "to",
+                "a",
+                "significant",
+                "increase",
+                "in",
+                "the",
+                "minimum",
+                "wage"
+            ],
+            "answer": "The labor union will call a strike unless the management agrees to a significant increase in the minimum wage",
+            "hint": "Start with 'The labor union' and use 'unless' to describe the condition to avoid industrial action.",
+            "voice_input": false,
+            "example_sentence": "The labor union will call a strike unless the management agrees to a significant increase in the minimum wage.",
+            "media": {}
+        },
+        {
+            "id": "EC1VS1_125",
+            "type": "pronunciation",
+            "question": "Say 'negotiation'.",
+            "answer": "negotiation",
+            "hint": "Stress the fourth syllable: ne-go-ti-A-tion. This is a discussion aimed at reaching an agreement.",
+            "voice_input": true,
+            "example_sentence": "The salary negotiation was successful although both parties had to make significant concessions.",
+            "media": {}
+        },
+        {
+            "id": "EC1VS1_126",
+            "type": "multiple_choice",
+            "question": "Which noun refers to the exclusive possession or control of the supply or trade in a commodity or service?",
+            "options": [
+                "monopoly",
+                "monologue",
+                "monotony"
+            ],
+            "answer": "monopoly",
+            "hint": "Think of a market where there is only one seller and no competition.",
+            "voice_input": false,
+            "example_sentence": "The tech giant was accused of creating a monopoly whereas its competitors argued for a more open marketplace.",
+            "media": {}
+        },
+        {
+            "id": "EC1VS1_127",
+            "type": "tap_fill",
+            "question": "The country entered a deep ___ last winter; consequently, unemployment rates reached an all-time high in several provinces.",
+            "options": [
+                "recession",
+                "reception",
+                "recession",
+                "regression"
+            ],
+            "answer": "recession",
+            "hint": "Choose the noun for a period of temporary economic decline during which trade and industrial activity are reduced.",
+            "voice_input": false,
+            "example_sentence": "The country entered a deep recession last winter; consequently, unemployment rates reached an all-time high in several provinces.",
+            "media": {}
+        },
+        {
+            "id": "EC1VS1_128",
+            "type": "matching",
+            "question": "Match the economic terms with their closer descriptive meanings.",
+            "pairs": [
+                {
+                    "left": "deficit",
+                    "right": "shortfall"
+                },
+                {
+                    "left": "surplus",
+                    "right": "excess"
+                }
+            ],
+            "answer": [
+                {
+                    "left": "deficit",
+                    "right": "shortfall"
+                },
+                {
+                    "left": "surplus",
+                    "right": "excess"
+                }
+            ],
+            "hint": "One pair is about having too little money or resources; the other is about having more than what is needed.",
+            "voice_input": false,
+            "example_sentence": "The budget surplus allowed for new social programs notwithstanding the previous year's massive deficit.",
+            "media": {}
+        },
+        {
+            "id": "EC1VS1_129",
+            "type": "sentence_ordering",
+            "question": "Order the sentence for an annual business review.",
+            "words": [
+                "Notwithstanding",
+                "the",
+                "challenging",
+                "market",
+                "conditions",
+                "the",
+                "corporation",
+                "maintained",
+                "its",
+                "market",
+                "share",
+                "although",
+                "profit",
+                "margins",
+                "were",
+                "slightly",
+                "lower"
+            ],
+            "answer": "Notwithstanding the challenging market conditions the corporation maintained its market share although profit margins were slightly lower",
+            "hint": "Start with 'Notwithstanding' to contrast the bad market with the stable position of the company.",
+            "voice_input": false,
+            "example_sentence": "Notwithstanding the challenging market conditions, the corporation maintained its market share although profit margins were slightly lower.",
+            "media": {}
+        },
+        {
+            "id": "EC1VS1_130",
+            "type": "pronunciation",
+            "question": "Say 'profitability'.",
+            "answer": "profitability",
+            "hint": "Stress the fifth syllable: prof-it-a-BIL-i-ty. This is the degree to which a business or activity yields profit.",
+            "voice_input": true,
+            "example_sentence": "The long-term profitability of the venture is uncertain unless the company reduces its operational overhead.",
+            "media": {}
+        },
+        {
+            "id": "EC1VS1_131",
+            "type": "multiple_choice",
+            "question": "Which noun refers to obtaining goods or a service from an outside or foreign supplier, especially in place of an internal source?",
+            "options": [
+                "outsourcing",
+                "outpouring",
+                "outgrowing"
+            ],
+            "answer": "outsourcing",
+            "hint": "Think of a US company hiring a call center in India to handle customer service.",
+            "voice_input": false,
+            "example_sentence": "The outsourcing of IT services saved costs although it led to some communication difficulties with the offshore team.",
+            "media": {}
+        },
+        {
+            "id": "EC1VS1_132",
+            "type": "tap_fill",
+            "question": "Portfolio ___ is essential for minimizing risk; whereas, investing all your capital in one stock is extremely dangerous.",
+            "options": [
+                "diversification",
+                "duplication",
+                "distribution",
+                "devaluation"
+            ],
+            "answer": "diversification",
+            "hint": "Choose the noun that refers to the process of allocating capital in a way that reduces the exposure to any one particular asset.",
+            "voice_input": false,
+            "example_sentence": "Portfolio diversification is essential for minimizing risk; whereas, investing all your capital in one stock is extremely dangerous.",
+            "media": {}
+        },
+        {
+            "id": "EC1VS1_133",
+            "type": "matching",
+            "question": "Match the financial terms with their descriptive academic synonyms.",
+            "pairs": [
+                {
+                    "left": "revenue",
+                    "right": "income"
+                },
+                {
+                    "left": "expenditure",
+                    "right": "spending"
+                }
+            ],
+            "answer": [
+                {
+                    "left": "revenue",
+                    "right": "income"
+                },
+                {
+                    "left": "expenditure",
+                    "right": "spending"
+                }
+            ],
+            "hint": "One pair is about money coming in; the other is about money going out.",
+            "voice_input": false,
+            "example_sentence": "Total revenue increased this quarter, but the high expenditure on new equipment limited the net profit.",
+            "media": {}
+        },
+        {
+            "id": "EC1VS1_134",
+            "type": "sentence_ordering",
+            "question": "Order the sentence regarding monetary policy.",
+            "words": [
+                "The",
+                "central",
+                "bank",
+                "will",
+                "not",
+                "lower",
+                "interest",
+                "rates",
+                "unless",
+                "inflation",
+                "falls",
+                "below",
+                "the",
+                "two",
+                "percent",
+                "target",
+                "threshold"
+            ],
+            "answer": "The central bank will not lower interest rates unless inflation falls below the two percent target threshold",
+            "hint": "Start with 'The central bank' and use 'unless' to state the specific economic condition required for a rate cut.",
+            "voice_input": false,
+            "example_sentence": "The central bank will not lower interest rates unless inflation falls below the two percent target threshold.",
+            "media": {}
+        },
+        {
+            "id": "EC1VS1_135",
+            "type": "pronunciation",
+            "question": "Say 'globalization'.",
+            "answer": "globalization",
+            "hint": "Stress the fifth syllable: glob-al-i-ZA-tion. This refers to the process by which businesses or other organizations develop international influence.",
+            "voice_input": true,
+            "example_sentence": "Globalization has opened new markets for local artisans although it has also increased competition from large multinationals.",
+            "media": {}
+        },
+        {
+            "id": "EC1VS1_136",
+            "type": "multiple_choice",
+            "question": "Which noun refers to a sum of money granted by the state or a public body to help an industry or business keep the price of a commodity or service low?",
+            "options": [
+                "subsidy",
+                "substance",
+                "substitute"
+            ],
+            "answer": "subsidy",
+            "hint": "Think of government support for farmers or renewable energy companies.",
+            "voice_input": false,
+            "example_sentence": "The government provided a massive subsidy to the airline industry although environmental groups protested the decision.",
+            "media": {}
+        },
+        {
+            "id": "EC1VS1_137",
+            "type": "tap_fill",
+            "question": "A ___ is anyone who has an interest in or is affected by the activities of a business; therefore, this includes employees, customers, and the local community.",
+            "options": [
+                "stakeholder",
+                "shareholder",
+                "placeholder",
+                "upholder"
+            ],
+            "answer": "stakeholder",
+            "hint": "Choose the noun for a person or group that has an investment, share, or interest in something, as a business or industry.",
+            "voice_input": false,
+            "example_sentence": "A stakeholder is anyone who has an interest in or is affected by the activities of a business; therefore, this includes employees, customers, and the local community.",
+            "media": {}
+        },
+        {
+            "id": "EC1VS1_138",
+            "type": "matching",
+            "question": "Match the economic adjectives with their descriptive meanings.",
+            "pairs": [
+                {
+                    "left": "volatile",
+                    "right": "unstable"
+                },
+                {
+                    "left": "stagnant",
+                    "right": "motionless"
+                }
+            ],
+            "answer": [
+                {
+                    "left": "volatile",
+                    "right": "unstable"
+                },
+                {
+                    "left": "stagnant",
+                    "right": "motionless"
+                }
+            ],
+            "hint": "One pair is about a market that changes quickly and unpredictably; the other is about an economy that is not growing or showing activity.",
+            "voice_input": false,
+            "example_sentence": "The stock market remains highly volatile, but the local housing market has been stagnant for nearly three years.",
+            "media": {}
+        },
+        {
+            "id": "EC1VS1_139",
+            "type": "sentence_ordering",
+            "question": "Order the sentence for a labor market analysis.",
+            "words": [
+                "Notwithstanding",
+                "the",
+                "low",
+                "unemployment",
+                "wages",
+                "have",
+                "remained",
+                "largely",
+                "unchanged",
+                "over",
+                " the",
+                "last",
+                "decade",
+                "as",
+                "evidenced",
+                "by",
+                "the",
+                "latest",
+                "economic",
+                "data"
+            ],
+            "answer": "Notwithstanding the low unemployment wages have remained largely unchanged over the last decade as evidenced by the latest economic data",
+            "hint": "Start with 'Notwithstanding' to contrast the good employment numbers with the lack of wage growth.",
+            "voice_input": false,
+            "example_sentence": "Notwithstanding the low unemployment, wages have remained largely unchanged over the last decade as evidenced by the latest economic data.",
+            "media": {}
+        },
+        {
+            "id": "EC1VS1_140",
+            "type": "pronunciation",
+            "question": "Say 'infrastructure'.",
+            "answer": "infrastructure",
+            "hint": "Stress the first syllable: IN-fra-struc-ture. This refers to the basic physical and organizational structures needed for the operation of a society.",
+            "voice_input": true,
+            "example_sentence": "Modernizing the country's transportation infrastructure is vital for economic growth whereas the current system is outdated.",
+            "media": {}
+        },
+        {
+            "id": "EC1VS1_141",
+            "type": "multiple_choice",
+            "question": "Which adjective describes an illness or condition that persists for a long time or constantly recurs?",
+            "options": [
+                "chronic",
+                "acute",
+                "vibrant"
+            ],
+            "answer": "chronic",
+            "hint": "Think of conditions like asthma or arthritis that require long-term management.",
+            "voice_input": false,
+            "example_sentence": "The patient suffers from chronic back pain although physical therapy has helped improve his mobility significantly.",
+            "media": {}
+        },
+        {
+            "id": "EC1VS1_142",
+            "type": "tap_fill",
+            "question": "Early detection of ___ is crucial for effective treatment; therefore, regular check-ups are recommended for high-risk groups.",
+            "options": [
+                "symptoms",
+                "syndromes",
+                "systems",
+                "symbols"
+            ],
+            "answer": "symptoms",
+            "hint": "Choose the noun for physical or mental features that indicate a condition or disease.",
+            "voice_input": false,
+            "example_sentence": "Early detection of symptoms is crucial for effective treatment; therefore, regular check-ups are recommended for high-risk groups.",
+            "media": {}
+        },
+        {
+            "id": "EC1VS1_143",
+            "type": "matching",
+            "question": "Match the medical verbs with their closer academic synonyms.",
+            "pairs": [
+                {
+                    "left": "alleviate",
+                    "right": "ease"
+                },
+                {
+                    "left": "deteriorate",
+                    "right": "worsen"
+                }
+            ],
+            "answer": [
+                {
+                    "left": "alleviate",
+                    "right": "ease"
+                },
+                {
+                    "left": "deteriorate",
+                    "right": "worsen"
+                }
+            ],
+            "hint": "One pair is about making pain or a problem less severe; the other is about a condition getting progressively worse.",
+            "voice_input": false,
+            "example_sentence": "The medication helped alleviate the initial discomfort, but the patient's condition began to deteriorate shortly after.",
+            "media": {}
+        },
+        {
+            "id": "EC1VS1_144",
+            "type": "sentence_ordering",
+            "question": "Order the sentence regarding medical ethics.",
+            "words": [
+                "The",
+                "surgery",
+                "will",
+                "not",
+                "be",
+                "performed",
+                "unless",
+                "the",
+                "patient",
+                "provides",
+                "explicit",
+                "written",
+                "consent",
+                "after",
+                "the",
+                "consultation"
+            ],
+            "answer": "The surgery will not be performed unless the patient provides explicit written consent after the consultation",
+            "hint": "Start with 'The surgery' and use 'unless' to describe the necessary legal and ethical condition.",
+            "voice_input": false,
+            "example_sentence": "The surgery will not be performed unless the patient provides explicit written consent after the consultation.",
+            "media": {}
+        },
+        {
+            "id": "EC1VS1_145",
+            "type": "pronunciation",
+            "question": "Say 'pharmaceutical'.",
+            "answer": "pharmaceutical",
+            "hint": "Stress the fourth syllable: phar-ma-CEU-ti-cal. This relates to medicinal drugs or their preparation.",
+            "voice_input": true,
+            "example_sentence": "The pharmaceutical industry is heavily regulated although many companies still invest billions in research and development.",
+            "media": {}
+        },
+        {
+            "id": "EC1VS1_146",
+            "type": "multiple_choice",
+            "question": "Which noun refers to a widespread occurrence of an infectious disease in a community at a particular time?",
+            "options": [
+                "epidemic",
+                "episode",
+                "epithet"
+            ],
+            "answer": "epidemic",
+            "hint": "Think of a sudden outbreak that affects many people in a specific region.",
+            "voice_input": false,
+            "example_sentence": "The health department struggled to contain the flu epidemic whereas the previous year’s numbers were much lower.",
+            "media": {}
+        },
+        {
+            "id": "EC1VS1_147",
+            "type": "tap_fill",
+            "question": "Psychological ___ helps individuals cope with stress; consequently, it is a key focus in modern mental health therapy.",
+            "options": [
+                "resilience",
+                "resistance",
+                "reluctance",
+                "reliance"
+            ],
+            "answer": "resilience",
+            "hint": "Choose the noun for the capacity to recover quickly from difficulties; toughness.",
+            "voice_input": false,
+            "example_sentence": "Psychological resilience helps individuals cope with stress; consequently, it is a key focus in modern mental health therapy.",
+            "media": {}
+        },
+        {
+            "id": "EC1VS1_148",
+            "type": "matching",
+            "question": "Match the medical adjectives with their closer descriptive meanings.",
+            "pairs": [
+                {
+                    "left": "hereditary",
+                    "right": "genetic"
+                },
+                {
+                    "left": "contagious",
+                    "right": "infectious"
+                }
+            ],
+            "answer": [
+                {
+                    "left": "hereditary",
+                    "right": "genetic"
+                },
+                {
+                    "left": "contagious",
+                    "right": "infectious"
+                }
+            ],
+            "hint": "One pair is about traits passed from parents to children; the other is about diseases spread by contact or germs.",
+            "voice_input": false,
+            "example_sentence": "Color blindness is often hereditary, while the common cold is highly contagious.",
+            "media": {}
+        },
+        {
+            "id": "EC1VS1_149",
+            "type": "sentence_ordering",
+            "question": "Order the sentence for a medical research report.",
+            "words": [
+                "Notwithstanding",
+                "the",
+                "minor",
+                "side",
+                "effects",
+                "the",
+                "clinical",
+                "trial",
+                "was",
+                "considered",
+                "a",
+                "success",
+                "due",
+                "to",
+                "the",
+                "high",
+                "recovery",
+                "rate"
+            ],
+            "answer": "Notwithstanding the minor side effects the clinical trial was considered a success due to the high recovery rate",
+            "hint": "Start with 'Notwithstanding' to contrast the small problems with the overall positive result.",
+            "voice_input": false,
+            "example_sentence": "Notwithstanding the minor side effects, the clinical trial was considered a success due to the high recovery rate.",
+            "media": {}
+        },
+        {
+            "id": "EC1VS1_150",
+            "type": "pronunciation",
+            "question": "Say 'rehabilitation'.",
+            "answer": "rehabilitation",
+            "hint": "Stress the fifth syllable: re-ha-bil-i-TA-tion. This is the action of restoring someone to health or normal life through training and therapy.",
+            "voice_input": true,
+            "example_sentence": "The athlete underwent intensive rehabilitation whereas many feared the injury would end his career.",
+            "media": {}
+        },
+        {
+            "id": "EC1VS1_151",
+            "type": "multiple_choice",
+            "question": "Which noun refers to a harmless pill, medicine, or procedure prescribed more for the psychological benefit to the patient than for any physiological effect?",
+            "options": [
+                "placebo",
+                "panacea",
+                "plateau"
+            ],
+            "answer": "placebo",
+            "hint": "Used often in clinical trials to compare the effectiveness of a real drug against a 'fake' one.",
+            "voice_input": false,
+            "example_sentence": "Half of the participants received the active drug while the other group was given a placebo.",
+            "media": {}
+        },
+        {
+            "id": "EC1VS1_152",
+            "type": "tap_fill",
+            "question": "A ___ lifestyle is a major contributor to cardiovascular disease; whereas, regular exercise significantly lowers the risk.",
+            "options": [
+                "sedentary",
+                "secondary",
+                "solitary",
+                "sensory"
+            ],
+            "answer": "sedentary",
+            "hint": "Choose the adjective describing a way of life that involves little physical activity.",
+            "voice_input": false,
+            "example_sentence": "A sedentary lifestyle is a major contributor to cardiovascular disease; whereas, regular exercise significantly lowers the risk.",
+            "media": {}
+        },
+        {
+            "id": "EC1VS1_153",
+            "type": "matching",
+            "question": "Match the medical analysis terms with their descriptive meanings.",
+            "pairs": [
+                {
+                    "left": "diagnosis",
+                    "right": "identification"
+                },
+                {
+                    "left": "prognosis",
+                    "right": "prediction"
+                }
+            ],
+            "answer": [
+                {
+                    "left": "diagnosis",
+                    "right": "identification"
+                },
+                {
+                    "left": "prognosis",
+                    "right": "prediction"
+                }
+            ],
+            "hint": "One pair is about figuring out what the illness is; the other is about predicting the likely course of the illness.",
+            "voice_input": false,
+            "example_sentence": "The doctor confirmed the diagnosis today, but the long-term prognosis remains uncertain.",
+            "media": {}
+        },
+        {
+            "id": "EC1VS1_154",
+            "type": "sentence_ordering",
+            "question": "Order the sentence regarding public health policy.",
+            "words": [
+                "The",
+                "health",
+                "crisis",
+                "will",
+                "not",
+                "be",
+                "resolved",
+                "unless",
+                "the",
+                "government",
+                "allocates",
+                "more",
+                "funding",
+                "to",
+                "primary",
+                "healthcare",
+                "facilities"
+            ],
+            "answer": "The health crisis will not be resolved unless the government allocates more funding to primary healthcare facilities",
+            "hint": "Start with 'The health crisis' and use 'unless' to state the required action.",
+            "voice_input": false,
+            "example_sentence": "The health crisis will not be resolved unless the government allocates more funding to primary healthcare facilities.",
+            "media": {}
+        },
+        {
+            "id": "EC1VS1_155",
+            "type": "pronunciation",
+            "question": "Say 'anesthesiologist'.",
+            "answer": "anesthesiologist",
+            "hint": "Stress the sixth syllable: an-es-the-si-OL-o-gist. This is a doctor who specializes in giving drugs to make patients unconscious for surgery.",
+            "voice_input": true,
+            "example_sentence": "The anesthesiologist monitored the patient’s vitals closely throughout the entire four-hour procedure.",
+            "media": {}
+        },
+        {
+            "id": "EC1VS1_156",
+            "type": "multiple_choice",
+            "question": "Which noun refers to a deeply distressing or disturbing experience, or physical injury?",
+            "options": [
+                "trauma",
+                "triumph",
+                "tremor"
+            ],
+            "answer": "trauma",
+            "hint": "Can be used for both emotional shock and physical bodily harm.",
+            "voice_input": false,
+            "example_sentence": "The victim suffered severe psychological trauma although the physical wounds healed relatively quickly.",
+            "media": {}
+        },
+        {
+            "id": "EC1VS1_157",
+            "type": "tap_fill",
+            "question": "The study focuses on ___ development in early childhood; consequently, researchers are observing how children solve complex puzzles.",
+            "options": [
+                "cognitive",
+                "creative",
+                "competitive",
+                "consecutive"
+            ],
+            "answer": "cognitive",
+            "hint": "Choose the adjective relating to the mental action or process of acquiring knowledge and understanding through thought, experience, and the senses.",
+            "voice_input": false,
+            "example_sentence": "The study focuses on cognitive development in early childhood; consequently, researchers are observing how children solve complex puzzles.",
+            "media": {}
+        },
+        {
+            "id": "EC1VS1_158",
+            "type": "matching",
+            "question": "Match the health status adjectives with their descriptive meanings.",
+            "pairs": [
+                {
+                    "left": "susceptible",
+                    "right": "vulnerable"
+                },
+                {
+                    "left": "immune",
+                    "right": "protected"
+                }
+            ],
+            "answer": [
+                {
+                    "left": "susceptible",
+                    "right": "vulnerable"
+                },
+                {
+                    "left": "immune",
+                    "right": "protected"
+                }
+            ],
+            "hint": "One pair is about being easily affected or harmed by something; the other is about being resistant to a particular infection or toxin.",
+            "voice_input": false,
+            "example_sentence": "Older adults are more susceptible to the virus, while those who have been vaccinated are largely immune.",
+            "media": {}
+        },
+        {
+            "id": "EC1VS1_159",
+            "type": "sentence_ordering",
+            "question": "Order the sentence for a psychiatric study summary.",
+            "words": [
+                "Notwithstanding",
+                "the",
+                "initial",
+                "skepticism",
+                "the",
+                "new",
+                "therapy",
+                "has",
+                "shown",
+                "remarkable",
+                "results",
+                "in",
+                "treating",
+                "patients",
+                "with",
+                "severe",
+                "depression"
+            ],
+            "answer": "Notwithstanding the initial skepticism the new therapy has shown remarkable results in treating patients with severe depression",
+            "hint": "Start with 'Notwithstanding' to contrast the early doubts with the impressive current results.",
+            "voice_input": false,
+            "example_sentence": "Notwithstanding the initial skepticism, the new therapy has shown remarkable results in treating patients with severe depression.",
+            "media": {}
+        },
+        {
+            "id": "EC1VS1_160",
+            "type": "pronunciation",
+            "question": "Say 'cardiovascular'.",
+            "answer": "cardiovascular",
+            "hint": "Stress the fourth syllable: car-di-o-VAS-cu-lar. This relates to the heart and blood vessels.",
+            "voice_input": true,
+            "example_sentence": "Cardiovascular diseases remain the leading cause of death globally although many are preventable through lifestyle changes.",
+            "media": {}
+        },
+        {
+            "id": "EC1VS1_161",
+            "type": "multiple_choice",
+            "question": "Which noun refers to laws, considered collectively, or the process of making laws?",
+            "options": [
+                "legislation",
+                "negotiation",
+                "delegation"
+            ],
+            "answer": "legislation",
+            "hint": "Think of the work done by a parliament or congress.",
+            "voice_input": false,
+            "example_sentence": "New legislation is required to protect digital privacy whereas current laws are outdated and insufficient.",
+            "media": {}
+        },
+        {
+            "id": "EC1VS1_162",
+            "type": "tap_fill",
+            "question": "The government has called for a national ___ on the new constitution; therefore, every citizen will have the opportunity to vote on the changes.",
+            "options": [
+                "referendum",
+                "reference",
+                "refinement",
+                "reflection"
+            ],
+            "answer": "referendum",
+            "hint": "Choose the noun for a general vote by the electorate on a single political question which has been referred to them for a direct decision.",
+            "voice_input": false,
+            "example_sentence": "The government has called for a national referendum on the new constitution; therefore, every citizen will have the opportunity to vote on the changes.",
+            "media": {}
+        },
+        {
+            "id": "EC1VS1_163",
+            "type": "matching",
+            "question": "Match the legal verbs with their closer academic synonyms.",
+            "pairs": [
+                {
+                    "left": "prosecute",
+                    "right": "indict"
+                },
+                {
+                    "left": "acquit",
+                    "right": "exonerate"
+                }
+            ],
+            "answer": [
+                {
+                    "left": "prosecute",
+                    "right": "indict"
+                },
+                {
+                    "left": "acquit",
+                    "right": "exonerate"
+                }
+            ],
+            "hint": "One pair is about charging someone with a crime; the other is about declaring someone not guilty.",
+            "voice_input": false,
+            "example_sentence": "The state decided to prosecute the suspect, but the jury eventually chose to acquit him due to lack of evidence.",
+            "media": {}
+        },
+        {
+            "id": "EC1VS1_164",
+            "type": "sentence_ordering",
+            "question": "Order the sentence regarding the legislative process.",
+            "words": [
+                "The",
+                "bill",
+                "will",
+                "not",
+                "become",
+                "law",
+                "unless",
+                "it",
+                "is",
+                "signed",
+                "by",
+                "the",
+                "President",
+                "after",
+                "passing",
+                "through",
+                "both",
+                "houses",
+                "of",
+                "parliament"
+            ],
+            "answer": "The bill will not become law unless it is signed by the President after passing through both houses of parliament",
+            "hint": "Start with 'The bill' and use 'unless' to indicate the final requirement for a law to be enacted.",
+            "voice_input": false,
+            "example_sentence": "The bill will not become law unless it is signed by the President after passing through both houses of parliament.",
+            "media": {}
+        },
+        {
+            "id": "EC1VS1_165",
+            "type": "pronunciation",
+            "question": "Say 'jurisdiction'.",
+            "answer": "jurisdiction",
+            "hint": "Stress the third syllable: ju-ris-DIC-tion. This is the official power to make legal decisions and judgments.",
+            "voice_input": true,
+            "example_sentence": "The local court does not have jurisdiction over this case although the crime occurred within the city limits.",
+            "media": {}
+        },
+        {
+            "id": "EC1VS1_166",
+            "type": "multiple_choice",
+            "question": "Which noun refers to the authority of a state to govern itself or another state?",
+            "options": [
+                "sovereignty",
+                "solidarity",
+                "solitary"
+            ],
+            "answer": "sovereignty",
+            "hint": "Think of a country's right to make its own laws without outside interference.",
+            "voice_input": false,
+            "example_sentence": "The treaty was designed to protect national sovereignty whereas critics argued it gave too much power to international bodies.",
+            "media": {}
+        },
+        {
+            "id": "EC1VS1_167",
+            "type": "tap_fill",
+            "question": "The congress proposed a constitutional ___ to protect freedom of speech; consequently, a long debate broke out in the senate.",
+            "options": [
+                "amendment",
+                "adjustment",
+                "amusement",
+                "amazement"
+            ],
+            "answer": "amendment",
+            "hint": "Choose the noun for a minor change or addition designed to improve a text, piece of legislation, etc.",
+            "voice_input": false,
+            "example_sentence": "The congress proposed a constitutional amendment to protect freedom of speech; consequently, a long debate broke out in the senate.",
+            "media": {}
+        },
+        {
+            "id": "EC1VS1_168",
+            "type": "matching",
+            "question": "Match the political and legal terms with their closer descriptive meanings.",
+            "pairs": [
+                {
+                    "left": "sanction",
+                    "right": "penalty"
+                },
+                {
+                    "left": "ratify",
+                    "right": "approve"
+                }
+            ],
+            "answer": [
+                {
+                    "left": "sanction",
+                    "right": "penalty"
+                },
+                {
+                    "left": "ratify",
+                    "right": "approve"
+                }
+            ],
+            "hint": "One pair is about a punishment for breaking a law or rule; the other is about making an agreement official.",
+            "voice_input": false,
+            "example_sentence": "The UN may impose a sanction, but all member states must first ratify the resolution.",
+            "media": {}
+        },
+        {
+            "id": "EC1VS1_169",
+            "type": "sentence_ordering",
+            "question": "Order the sentence for a political news summary.",
+            "words": [
+                "Notwithstanding",
+                "the",
+                "strong",
+                "public",
+                "opposition",
+                "the",
+                "government",
+                "pushed",
+                "through",
+                " the",
+                "new",
+                "tax",
+                "reform",
+                "although",
+                "it",
+                "delayed",
+                "the",
+                "implementation",
+                "date"
+            ],
+            "answer": "Notwithstanding the strong public opposition the government pushed through the new tax reform although it delayed the implementation date",
+            "hint": "Start with 'Notwithstanding' to contrast the people's feelings with the government's final action.",
+            "voice_input": false,
+            "example_sentence": "Notwithstanding the strong public opposition, the government pushed through the new tax reform although it delayed the implementation date.",
+            "media": {}
+        },
+        {
+            "id": "EC1VS1_170",
+            "type": "pronunciation",
+            "question": "Say 'accountability'.",
+            "answer": "accountability",
+            "hint": "Stress the fifth syllable: ac-count-a-BIL-i-ty. This is the obligation of an individual or organization to account for its activities.",
+            "voice_input": true,
+            "example_sentence": "Political accountability is essential in a democracy unless the system allows for widespread corruption.",
+            "media": {}
+        },
+        {
+            "id": "EC1VS1_171",
+            "type": "multiple_choice",
+            "question": "Which noun refers to a body of voters in a specified area who elect a representative to a legislative body?",
+            "options": [
+                "constituency",
+                "consistency",
+                "contingency"
+            ],
+            "answer": "constituency",
+            "hint": "Think of the group of people an MP or a Senator represents.",
+            "voice_input": false,
+            "example_sentence": "The politician returned to his constituency to hear their concerns although he spent most of his time in the capital.",
+            "media": {}
+        },
+        {
+            "id": "EC1VS1_172",
+            "type": "tap_fill",
+            "question": "International ___ is required to avoid armed conflict; whereas, aggressive rhetoric only increases tension between nations.",
+            "options": [
+                "diplomacy",
+                "democracy",
+                "duplicity",
+                "dormancy"
+            ],
+            "answer": "diplomacy",
+            "hint": "Choose the noun for the profession, activity, or skill of managing international relations.",
+            "voice_input": false,
+            "example_sentence": "International diplomacy is required to avoid armed conflict; whereas, aggressive rhetoric only increases tension between nations.",
+            "media": {}
+        },
+        {
+            "id": "EC1VS1_173",
+            "type": "matching",
+            "question": "Match the legal process terms with their descriptive meanings.",
+            "pairs": [
+                {
+                    "left": "litigation",
+                    "right": "lawsuit"
+                },
+                {
+                    "left": "arbitration",
+                    "right": "mediation"
+                }
+            ],
+            "answer": [
+                {
+                    "left": "litigation",
+                    "right": "lawsuit"
+                },
+                {
+                    "left": "arbitration",
+                    "right": "mediation"
+                }
+            ],
+            "hint": "One pair is about taking legal action in court; the other is about resolving a dispute outside of court with a neutral third party.",
+            "voice_input": false,
+            "example_sentence": "The companies chose arbitration to save time, but the unresolved issues eventually led to full-scale litigation.",
+            "media": {}
+        },
+        {
+            "id": "EC1VS1_174",
+            "type": "sentence_ordering",
+            "question": "Order the sentence regarding a legal appeal.",
+            "words": [
+                "The",
+                "court",
+                "will",
+                "overturn",
+                " the",
+                "conviction",
+                "unless",
+                "new",
+                "forensic",
+                "evidence",
+                "can",
+                "be",
+                "produced",
+                "before",
+                " the",
+                "appeal",
+                "deadline"
+            ],
+            "answer": "The court will overturn the conviction unless new forensic evidence can be produced before the appeal deadline",
+            "hint": "Start with 'The court' and use 'unless' to describe the condition needed to keep the guilty verdict.",
+            "voice_input": false,
+            "example_sentence": "The court will overturn the conviction unless new forensic evidence can be produced before the appeal deadline.",
+            "media": {}
+        },
+        {
+            "id": "EC1VS1_175",
+            "type": "pronunciation",
+            "question": "Say 'totalitarian'.",
+            "answer": "totalitarian",
+            "hint": "Stress the fourth syllable: to-tal-i-TAR-i-an. This refers to a system of government that is centralized and dictatorial.",
+            "voice_input": true,
+            "example_sentence": "The rise of totalitarian regimes was a major theme of 20th-century history although many countries have since transitioned to democracy.",
+            "media": {}
+        },
+        {
+            "id": "EC1VS1_176",
+            "type": "multiple_choice",
+            "question": "Which noun refers to a system of government in which most of the important decisions are taken by state officials rather than by elected representatives?",
+            "options": [
+                "bureaucracy",
+                "autocracy",
+                "aristocracy"
+            ],
+            "answer": "bureaucracy",
+            "hint": "Often used to describe a system with complex rules and procedures that slow down progress.",
+            "voice_input": false,
+            "example_sentence": "Small businesses often struggle with excessive bureaucracy whereas large corporations have legal departments to handle it.",
+            "media": {}
+        },
+        {
+            "id": "EC1VS1_177",
+            "type": "tap_fill",
+            "question": "Employers have a ___ duty to provide a safe working environment; therefore, they can be sued if they neglect safety regulations.",
+            "options": [
+                "statutory",
+                "stationary",
+                "secondary",
+                "solitary"
+            ],
+            "answer": "statutory",
+            "hint": "Choose the adjective that means required, permitted, or enacted by statute (law).",
+            "voice_input": false,
+            "example_sentence": "Employers have a statutory duty to provide a safe working environment; therefore, they can be sued if they neglect safety regulations.",
+            "media": {}
+        },
+        {
+            "id": "EC1VS1_178",
+            "type": "matching",
+            "question": "Match the political ideals with their closer descriptive meanings.",
+            "pairs": [
+                {
+                    "left": "liberty",
+                    "right": "freedom"
+                },
+                {
+                    "left": "justice",
+                    "right": "fairness"
+                }
+            ],
+            "answer": [
+                {
+                    "left": "liberty",
+                    "right": "freedom"
+                },
+                {
+                    "left": "justice",
+                    "right": "fairness"
+                }
+            ],
+            "hint": "One pair is about the state of being free within society; the other is about the quality of being just and impartial.",
+            "voice_input": false,
+            "example_sentence": "The constitution was designed to ensure liberty and justice for all citizens notwithstanding their background.",
+            "media": {}
+        },
+        {
+            "id": "EC1VS1_179",
+            "type": "sentence_ordering",
+            "question": "Order the sentence for a history of international relations.",
+            "words": [
+                "Notwithstanding",
+                "the",
+                "diplomatic",
+                "efforts",
+                "the",
+                "two",
+                "nations",
+                "remained",
+                "at",
+                "odds",
+                "over",
+                "the",
+                "disputed",
+                "border",
+                "territory",
+                "for",
+                "many",
+                "years"
+            ],
+            "answer": "Notwithstanding the diplomatic efforts the two nations remained at odds over the disputed border territory for many years",
+            "hint": "Start with 'Notwithstanding' to contrast the attempts at peace with the ongoing conflict.",
+            "voice_input": false,
+            "example_sentence": "Notwithstanding the diplomatic efforts, the two nations remained at odds over the disputed border territory for many years.",
+            "media": {}
+        },
+        {
+            "id": "EC1VS1_180",
+            "type": "pronunciation",
+            "question": "Say 'constitutionality'.",
+            "answer": "constitutionality",
+            "hint": "Stress the sixth syllable: con-sti-tu-tion-AL-i-ty. This is the quality of being in accordance with a political constitution.",
+            "voice_input": true,
+            "example_sentence": "The Supreme Court must decide on the constitutionality of the law unless the government decides to withdraw it voluntarily.",
+            "media": {}
+        },
+        {
+            "id": "EC1VS1_181",
+            "type": "multiple_choice",
+            "question": "Choose the correct word to complete the inversion: ___ have I witnessed such a remarkable display of technological innovation in such a short period.",
+            "options": [
+                "Seldom",
+                "Often",
+                "Always"
+            ],
+            "answer": "Seldom",
+            "hint": "Inversion often follows negative or restrictive adverbs to add emphasis.",
+            "voice_input": false,
+            "example_sentence": "Seldom have I witnessed such a remarkable display of technological innovation in such a short period.",
+            "media": {}
+        },
+        {
+            "id": "EC1VS1_182",
+            "type": "tap_fill",
+            "question": "___ the company to fail in its obligation to protect user data, the legal consequences would be catastrophic.",
+            "options": [
+                "Had",
+                "Should",
+                "Were",
+                "Could"
+            ],
+            "answer": "Were",
+            "hint": "Use the subjunctive 'Were' for a hypothetical 'if' condition in formal English.",
+            "voice_input": false,
+            "example_sentence": "Were the company to fail in its obligation to protect user data, the legal consequences would be catastrophic.",
+            "media": {}
+        },
+        {
+            "id": "EC1VS1_183",
+            "type": "matching",
+            "question": "Match these nuanced adverbs with their academic synonyms.",
+            "pairs": [
+                {
+                    "left": "adversely",
+                    "right": "negatively"
+                },
+                {
+                    "left": "precisely",
+                    "right": "exactly"
+                }
+            ],
+            "answer": [
+                {
+                    "left": "adversely",
+                    "right": "negatively"
+                },
+                {
+                    "left": "precisely",
+                    "right": "exactly"
+                }
+            ],
+            "hint": "One pair describes a harmful effect; the other describes high accuracy.",
+            "voice_input": false,
+            "example_sentence": "The new regulations might adversely affect small businesses unless they are precisely implemented.",
+            "media": {}
+        },
+        {
+            "id": "EC1VS1_184",
+            "type": "sentence_ordering",
+            "question": "Order the sentence using negative inversion.",
+            "words": [
+                "Hardly",
+                "had",
+                "the",
+                "new",
+                "legislation",
+                "been",
+                "introduced",
+                "when",
+                "it",
+                "was",
+                "met",
+                "with",
+                "widespread",
+                "public",
+                "scrutiny",
+                "and",
+                "debate"
+            ],
+            "answer": "Hardly had the new legislation been introduced when it was met with widespread public scrutiny and debate",
+            "hint": "Start with 'Hardly' followed by the auxiliary verb 'had' to show one action following another immediately.",
+            "voice_input": false,
+            "example_sentence": "Hardly had the new legislation been introduced when it was met with widespread public scrutiny and debate.",
+            "media": {}
+        },
+        {
+            "id": "EC1VS1_185",
+            "type": "pronunciation",
+            "question": "Say 'unprecedented'.",
+            "answer": "unprecedented",
+            "hint": "Stress the second syllable: un-PREC-e-dent-ed. This means never done or known before.",
+            "voice_input": true,
+            "example_sentence": "The scale of the disaster was unprecedented notwithstanding the region's history of environmental challenges.",
+            "media": {}
+        },
+        {
+            "id": "EC1VS1_186",
+            "type": "multiple_choice",
+            "question": "Which connector indicates that two things are happening at the exactly the same time?",
+            "options": [
+                "consequently",
+                "nevertheless",
+                "simultaneously"
+            ],
+            "answer": "simultaneously",
+            "hint": "Think of 'sync' or 'at once'.",
+            "voice_input": false,
+            "example_sentence": "The data was uploaded and encrypted simultaneously; whereas, previous systems handled these tasks separately.",
+            "media": {}
+        },
+        {
+            "id": "EC1VS1_187",
+            "type": "tap_fill",
+            "question": "___ as the evidence suggests, the policy has been successful; therefore, we should consider expanding it next year.",
+            "options": [
+                "Insofar",
+                "Instead",
+                "Indeed",
+                "Inward"
+            ],
+            "answer": "Insofar",
+            "hint": "Choose the connector that means 'to the extent that'.",
+            "voice_input": false,
+            "example_sentence": "Insofar as the evidence suggests, the policy has been successful; therefore, we should consider expanding it next year.",
+            "media": {}
+        },
+        {
+            "id": "EC1VS1_188",
+            "type": "matching",
+            "question": "Match the nuanced adverbs with their meanings.",
+            "pairs": [
+                {
+                    "left": "implicitly",
+                    "right": "indirectly"
+                },
+                {
+                    "left": "explicitly",
+                    "right": "clearly"
+                }
+            ],
+            "answer": [
+                {
+                    "left": "implicitly",
+                    "right": "indirectly"
+                },
+                {
+                    "left": "explicitly",
+                    "right": "clearly"
+                }
+            ],
+            "hint": "One pair describes something stated plainly; the other describes something suggested without being stated.",
+            "voice_input": false,
+            "example_sentence": "The contract explicitly forbids sharing data, although it implicitly suggests a duty of care.",
+            "media": {}
+        },
+        {
+            "id": "EC1VS1_189",
+            "type": "sentence_ordering",
+            "question": "Order the sentence for a scientific summary using 'Not only'.",
+            "words": [
+                "Not",
+                "only",
+                "did",
+                "the",
+                "study",
+                "confirm",
+                "the",
+                "initial",
+                "hypothesis",
+                "but",
+                "it",
+                "also",
+                "revealed",
+                "several",
+                "unforeseen",
+                "long",
+                "term",
+                "benefits"
+            ],
+            "answer": "Not only did the study confirm the initial hypothesis but it also revealed several unforeseen long term benefits",
+            "hint": "Start with 'Not only did' and remember the 'but also' structure for the second half.",
+            "voice_input": false,
+            "example_sentence": "Not only did the study confirm the initial hypothesis, but it also revealed several unforeseen long-term benefits.",
+            "media": {}
+        },
+        {
+            "id": "EC1VS1_190",
+            "type": "pronunciation",
+            "question": "Say 'subsequently'.",
+            "answer": "subsequently",
+            "hint": "Stress the first syllable: SUB-se-quent-ly. This means 'after a particular thing has happened'.",
+            "voice_input": true,
+            "example_sentence": "The error was found early and subsequently corrected before the report was published.",
+            "media": {}
+        },
+        {
+            "id": "EC1VS1_191",
+            "type": "multiple_choice",
+            "question": "Choose the word for a conditional requirement: ___ that all safety protocols are followed, the experiment may proceed as scheduled.",
+            "options": [
+                "Provided",
+                "Despite",
+                "Whether"
+            ],
+            "answer": "Provided",
+            "hint": "This is a more formal way of saying 'on the condition that'.",
+            "voice_input": false,
+            "example_sentence": "Provided that all safety protocols are followed, the experiment may proceed as scheduled.",
+            "media": {}
+        },
+        {
+            "id": "EC1VS1_192",
+            "type": "tap_fill",
+            "question": "The project was completed on time, ___ at a much higher cost than originally anticipated.",
+            "options": [
+                "albeit",
+                "although",
+                "among",
+                "along"
+            ],
+            "answer": "albeit",
+            "hint": "Use this formal word meaning 'though' or 'even though' followed by a phrase.",
+            "voice_input": false,
+            "example_sentence": "The project was completed on time, albeit at a much higher cost than originally anticipated.",
+            "media": {}
+        },
+        {
+            "id": "EC1VS1_193",
+            "type": "matching",
+            "question": "Match the connectors with their functional synonyms.",
+            "pairs": [
+                {
+                    "left": "consequently",
+                    "right": "therefore"
+                },
+                {
+                    "left": "nonetheless",
+                    "right": "however"
+                }
+            ],
+            "answer": [
+                {
+                    "left": "consequently",
+                    "right": "therefore"
+                },
+                {
+                    "left": "nonetheless",
+                    "right": "however"
+                }
+            ],
+            "hint": "One pair indicates a result; the other indicates a contrast.",
+            "voice_input": false,
+            "example_sentence": "The weather was poor; nonetheless, the event continued. Consequently, we were all very cold.",
+            "media": {}
+        },
+        {
+            "id": "EC1VS1_194",
+            "type": "sentence_ordering",
+            "question": "Order the sentence using negative inversion for emphasis.",
+            "words": [
+                "Under",
+                "no",
+                "circumstances",
+                "should",
+                "the",
+                "laboratory",
+                "be",
+                "left",
+                "unattended",
+                "while",
+                "the",
+                "hazardous",
+                "chemical",
+                "reaction",
+                "is",
+                "taking",
+                "place"
+            ],
+            "answer": "Under no circumstances should the laboratory be left unattended while the hazardous chemical reaction is taking place",
+            "hint": "Start with the strong restriction 'Under no circumstances'.",
+            "voice_input": false,
+            "example_sentence": "Under no circumstances should the laboratory be left unattended while the hazardous chemical reaction is taking place.",
+            "media": {}
+        },
+        {
+            "id": "EC1VS1_195",
+            "type": "pronunciation",
+            "question": "Say 'fundamentally'.",
+            "answer": "fundamentally",
+            "hint": "Stress the third syllable: fun-da-MEN-tal-ly. This means in central or primary respects.",
+            "voice_input": true,
+            "example_sentence": "The two theories are fundamentally different notwithstanding their shared history.",
+            "media": {}
+        },
+        {
+            "id": "EC1VS1_196",
+            "type": "multiple_choice",
+            "question": "Choose the formal inversion for a past conditional: ___ the researchers known about the risks, they would have modified the protocol.",
+            "options": [
+                "Had",
+                "Should",
+                "If"
+            ],
+            "answer": "Had",
+            "hint": "This replaces 'If the researchers had known...'",
+            "voice_input": false,
+            "example_sentence": "Had the researchers known about the risks, they would have modified the protocol.",
+            "media": {}
+        },
+        {
+            "id": "EC1VS1_197",
+            "type": "tap_fill",
+            "question": "The region is ___ agricultural; therefore, any fluctuation in crop prices significantly impacts the local economy.",
+            "options": [
+                "predominantly",
+                "periodically",
+                "precariously",
+                "permanently"
+            ],
+            "answer": "predominantly",
+            "hint": "Choose the adverb that means 'mainly' or 'for the most part'.",
+            "voice_input": false,
+            "example_sentence": "The region is predominantly agricultural; therefore, any fluctuation in crop prices significantly impacts the local economy.",
+            "media": {}
+        },
+        {
+            "id": "EC1VS1_198",
+            "type": "matching",
+            "question": "Match these viewpoint adverbs with their academic meanings.",
+            "pairs": [
+                {
+                    "left": "allegedly",
+                    "right": "supposedly"
+                },
+                {
+                    "left": "inevitably",
+                    "right": "unavoidably"
+                }
+            ],
+            "answer": [
+                {
+                    "left": "allegedly",
+                    "right": "supposedly"
+                },
+                {
+                    "left": "inevitably",
+                    "right": "unavoidably"
+                }
+            ],
+            "hint": "One pair is about something that is claimed but not proven; the other is about something that will definitely happen.",
+            "voice_input": false,
+            "example_sentence": "The suspect allegedly stole the files, and litigation will inevitably follow.",
+            "media": {}
+        },
+        {
+            "id": "EC1VS1_199",
+            "type": "sentence_ordering",
+            "question": "Order the sentence using formal inversion.",
+            "words": [
+                "Scarcely",
+                "had",
+                "the",
+                "news",
+                "reached",
+                "the",
+                "public",
+                "when",
+                "the",
+                "company",
+                "stocks",
+                "began",
+                "to",
+                "plummet",
+                "dramatically"
+            ],
+            "answer": "Scarcely had the news reached the public when the company stocks began to plummet dramatically",
+            "hint": "Start with 'Scarcely' and remember to follow with 'had' and the subject.",
+            "voice_input": false,
+            "example_sentence": "Scarcely had the news reached the public when the company stocks began to plummet dramatically.",
+            "media": {}
+        },
+        {
+            "id": "EC1VS1_200",
+            "type": "pronunciation",
+            "question": "Say 'simultaneously'.",
+            "answer": "simultaneously",
+            "hint": "Stress the fourth syllable: si-mul-TA-ne-ous-ly. This means at the same time.",
+            "voice_input": true,
+            "example_sentence": "The program allows multiple users to edit the document simultaneously.",
+            "media": {}
+        }
+    ]
+}

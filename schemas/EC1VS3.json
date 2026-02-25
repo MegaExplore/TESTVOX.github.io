@@ -1,0 +1,4544 @@
+{
+    "exercises": [
+        {
+            "id": "EC1VS3_001",
+            "type": "tap_fill",
+            "question": "The sudden rise of generative artificial intelligence has sent ___ through the traditional creative industries, forcing a total rethink of copyright law.",
+            "options": [
+                "shockwaves",
+                "ripples",
+                "currents",
+                "vibes"
+            ],
+            "answer": "shockwaves",
+            "hint": "Sudden, impactful reaction",
+            "voice_input": false,
+            "example_sentence": "The sudden rise of generative artificial intelligence has sent shockwaves through the traditional creative industries, forcing a total rethink of copyright law.",
+            "media": {}
+        },
+        {
+            "id": "EC1VS3_002",
+            "type": "multiple_choice",
+            "question": "Which term describes the process of converting complex data into a simplified, user-friendly interface?",
+            "options": [
+                "Abstraction",
+                "Encryption",
+                "Obsolescence"
+            ],
+            "answer": "Abstraction",
+            "hint": "Reducing complexity",
+            "voice_input": false,
+            "example_sentence": "Modern software design relies on high-level abstraction to ensure that users are not overwhelmed by the underlying code.",
+            "media": {}
+        },
+        {
+            "id": "EC1VS3_003",
+            "type": "matching",
+            "question": "Match the tech-centric terms with their definitions.",
+            "pairs": [
+                {
+                    "left": "Algorithmic bias",
+                    "right": "Systematic and repeatable errors that create unfair outcomes"
+                },
+                {
+                    "left": "Interoperability",
+                    "right": "The ability of different systems to exchange information"
+                },
+                {
+                    "left": "Scalability",
+                    "right": "The capacity to handle a growing amount of work"
+                },
+                {
+                    "left": "Data Sovereignty",
+                    "right": "The idea that data is subject to the laws of the country it is located in"
+                }
+            ],
+            "answer": [
+                {
+                    "left": "Algorithmic bias",
+                    "right": "Systematic and repeatable errors that create unfair outcomes"
+                },
+                {
+                    "left": "Interoperability",
+                    "right": "The ability of different systems to exchange information"
+                },
+                {
+                    "left": "Scalability",
+                    "right": "The capacity to handle a growing amount of work"
+                },
+                {
+                    "left": "Data Sovereignty",
+                    "right": "The idea that data is subject to the laws of the country it is located in"
+                }
+            ],
+            "hint": "Digital era concepts",
+            "voice_input": false,
+            "example_sentence": "Ensuring interoperability between different healthcare databases is essential for improving patient outcomes through scalable AI solutions.",
+            "media": {}
+        },
+        {
+            "id": "EC1VS3_004",
+            "type": "sentence_ordering",
+            "question": "Reorder the words to form a complex sentence about technological change.",
+            "words": [
+                "incumbent",
+                "Disruptive",
+                "technologies",
+                "often",
+                "render",
+                "models",
+                "business",
+                "obsolete",
+                "overnight",
+                "market"
+            ],
+            "answer": "Disruptive technologies often render incumbent market business models obsolete overnight",
+            "hint": "Replacing the old",
+            "voice_input": false,
+            "example_sentence": "Disruptive technologies often render incumbent market business models obsolete overnight.",
+            "media": {}
+        },
+        {
+            "id": "EC1VS3_005",
+            "type": "pronunciation",
+            "question": "Read the following sentence aloud: 'The proliferation of ubiquitous computing has inadvertently compromised individual privacy on a global scale.'",
+            "answer": "",
+            "hint": "Focus on 'Ubiquitous'",
+            "voice_input": true,
+            "example_sentence": "The proliferation of ubiquitous computing has inadvertently compromised individual privacy on a global scale.",
+            "media": {}
+        },
+        {
+            "id": "EC1VS3_006",
+            "type": "tap_fill",
+            "question": "Tech giants are often criticized for creating ___ gardens that prevent users from easily switching to a competitor's ecosystem.",
+            "options": [
+                "walled",
+                "fenced",
+                "closed",
+                "locked"
+            ],
+            "answer": "walled",
+            "hint": "Restricted digital ecosystem",
+            "voice_input": false,
+            "example_sentence": "Tech giants are often criticized for creating walled gardens that prevent users from easily switching to a competitor's ecosystem.",
+            "media": {}
+        },
+        {
+            "id": "EC1VS3_007",
+            "type": "multiple_choice",
+            "question": "What is the meaning of the word 'obviate' in a technical context?",
+            "options": [
+                "To make unnecessary",
+                "To simplify",
+                "To accelerate"
+            ],
+            "answer": "To make unnecessary",
+            "hint": "Removing the need",
+            "voice_input": false,
+            "example_sentence": "The implementation of automated security protocols will obviate the need for manual oversight in most routine tasks.",
+            "media": {}
+        },
+        {
+            "id": "EC1VS3_008",
+            "type": "matching",
+            "question": "Match the phrasal verbs used in technology with their meanings.",
+            "pairs": [
+                {
+                    "left": "Phase out",
+                    "right": "To gradually stop using something"
+                },
+                {
+                    "left": "Roll out",
+                    "right": "To officially launch a new product"
+                },
+                {
+                    "left": "Hack into",
+                    "right": "To gain unauthorized access"
+                },
+                {
+                    "left": "Backup",
+                    "right": "To create a copy of data"
+                }
+            ],
+            "answer": [
+                {
+                    "left": "Phase out",
+                    "right": "To gradually stop using something"
+                },
+                {
+                    "left": "Roll out",
+                    "right": "To officially launch a new product"
+                },
+                {
+                    "left": "Hack into",
+                    "right": "To gain unauthorized access"
+                },
+                {
+                    "left": "Backup",
+                    "right": "To create a copy of data"
+                }
+            ],
+            "hint": "Tech action verbs",
+            "voice_input": false,
+            "example_sentence": "The company decided to phase out legacy software while they simultaneously roll out the new cloud-based platform.",
+            "media": {}
+        },
+        {
+            "id": "EC1VS3_009",
+            "type": "tap_fill",
+            "question": "Legislators are struggling to keep ___ of the rapid advancements in biotechnological engineering.",
+            "options": [
+                "abreast",
+                "ahead",
+                "afloat",
+                "aligned"
+            ],
+            "answer": "abreast",
+            "hint": "Staying informed/up-to-date",
+            "voice_input": false,
+            "example_sentence": "Legislators are struggling to keep abreast of the rapid advancements in biotechnological engineering.",
+            "media": {}
+        },
+        {
+            "id": "EC1VS3_010",
+            "type": "sentence_ordering",
+            "question": "Reorder the words to discuss the ethical implications of automation.",
+            "words": [
+                "automation",
+                "The",
+                "dehumanize",
+                "threatens",
+                "to",
+                "process",
+                "recruitment",
+                "if",
+                "not",
+                "overseen",
+                "by",
+                "personnel",
+                "human"
+            ],
+            "answer": "The automation threatens to dehumanize the recruitment process if not overseen by human personnel",
+            "hint": "Losing the human touch",
+            "voice_input": false,
+            "example_sentence": "The automation threatens to dehumanize the recruitment process if not overseen by human personnel.",
+            "media": {}
+        },
+        {
+            "id": "EC1VS3_011",
+            "type": "multiple_choice",
+            "question": "If a system is described as 'robust', what does it imply?",
+            "options": [
+                "Strong and unlikely to fail",
+                "Slow but very secure",
+                "Brand new and untested"
+            ],
+            "answer": "Strong and unlikely to fail",
+            "hint": "Reliability and strength",
+            "voice_input": false,
+            "example_sentence": "A robust encryption framework is the first line of defense against sophisticated cyber-attacks.",
+            "media": {}
+        },
+        {
+            "id": "EC1VS3_012",
+            "type": "tap_fill",
+            "question": "The software update was intended to ___ the security flaws that had been exploited by hackers.",
+            "options": [
+                "rectify",
+                "reconcile",
+                "redact",
+                "refute"
+            ],
+            "answer": "rectify",
+            "hint": "To put right/correct",
+            "voice_input": false,
+            "example_sentence": "The software update was intended to rectify the security flaws that had been exploited by hackers.",
+            "media": {}
+        },
+        {
+            "id": "EC1VS3_013",
+            "type": "matching",
+            "question": "Match the collocations related to the digital economy.",
+            "pairs": [
+                {
+                    "left": "Gig",
+                    "right": "Economy"
+                },
+                {
+                    "left": "Disruptive",
+                    "right": "Innovation"
+                },
+                {
+                    "left": "Early",
+                    "right": "Adopter"
+                },
+                {
+                    "left": "Venture",
+                    "right": "Capitalist"
+                }
+            ],
+            "answer": [
+                {
+                    "left": "Gig",
+                    "right": "Economy"
+                },
+                {
+                    "left": "Disruptive",
+                    "right": "Innovation"
+                },
+                {
+                    "left": "Early",
+                    "right": "Adopter"
+                },
+                {
+                    "left": "Venture",
+                    "right": "Capitalist"
+                }
+            ],
+            "hint": "Common tech pairings",
+            "voice_input": false,
+            "example_sentence": "Being an early adopter of disruptive innovation often requires significant investment from a venture capitalist.",
+            "media": {}
+        },
+        {
+            "id": "EC1VS3_014",
+            "type": "tap_fill",
+            "question": "The advent of 5G technology is expected to be a(n) ___ for the Internet of Things (IoT) industry.",
+            "options": [
+                "catalyst",
+                "impediment",
+                "deterrent",
+                "anomaly"
+            ],
+            "answer": "catalyst",
+            "hint": "Something that causes change",
+            "voice_input": false,
+            "example_sentence": "The advent of 5G technology is expected to be a catalyst for the Internet of Things (IoT) industry.",
+            "media": {}
+        },
+        {
+            "id": "EC1VS3_015",
+            "type": "pronunciation",
+            "question": "Read the following sentence aloud: 'Cryptographic protocols are indispensable for ensuring the integrity and confidentiality of sensitive financial transmissions.'",
+            "answer": "",
+            "hint": "Focus on 'Indispensable'",
+            "voice_input": true,
+            "example_sentence": "Cryptographic protocols are indispensable for ensuring the integrity and confidentiality of sensitive financial transmissions.",
+            "media": {}
+        },
+        {
+            "id": "EC1VS3_016",
+            "type": "tap_fill",
+            "question": "Critics of smart-city technology fear that increased surveillance will inevitably lead to the ___ of civil liberties.",
+            "options": [
+                "erosion",
+                "corrosion",
+                "abrasion",
+                "friction"
+            ],
+            "answer": "erosion",
+            "hint": "Gradual destruction",
+            "voice_input": false,
+            "example_sentence": "Critics of smart-city technology fear that increased surveillance will inevitably lead to the erosion of civil liberties.",
+            "media": {}
+        },
+        {
+            "id": "EC1VS3_017",
+            "type": "multiple_choice",
+            "question": "What is the primary function of a 'sandbox' environment in software development?",
+            "options": [
+                "Testing code in isolation",
+                "Archiving old user data",
+                "Improving internet speed"
+            ],
+            "answer": "Testing code in isolation",
+            "hint": "Safe testing space",
+            "voice_input": false,
+            "example_sentence": "Developers often use a sandbox to experiment with new features without risking the stability of the live application.",
+            "media": {}
+        },
+        {
+            "id": "EC1VS3_018",
+            "type": "sentence_ordering",
+            "question": "Reorder the words to explain a data-driven strategy.",
+            "words": [
+                "leveraging",
+                "By",
+                "big",
+                "data",
+                "companies",
+                "can",
+                "personalize",
+                "user",
+                "experiences",
+                "to",
+                "unprecedented",
+                "levels"
+            ],
+            "answer": "By leveraging big data companies can personalize user experiences to unprecedented levels",
+            "hint": "Using data effectively",
+            "voice_input": false,
+            "example_sentence": "By leveraging big data, companies can personalize user experiences to unprecedented levels.",
+            "media": {}
+        },
+        {
+            "id": "EC1VS3_019",
+            "type": "matching",
+            "question": "Match the abstract technology concepts with their descriptions.",
+            "pairs": [
+                {
+                    "left": "Latency",
+                    "right": "The delay before a transfer of data begins"
+                },
+                {
+                    "left": "Redundancy",
+                    "right": "The inclusion of extra components to prevent failure"
+                },
+                {
+                    "left": "Throughput",
+                    "right": "The amount of data moved successfully in a time period"
+                },
+                {
+                    "left": "Encryption",
+                    "right": "The process of encoding information"
+                }
+            ],
+            "answer": [
+                {
+                    "left": "Latency",
+                    "right": "The delay before a transfer of data begins"
+                },
+                {
+                    "left": "Redundancy",
+                    "right": "The inclusion of extra components to prevent failure"
+                },
+                {
+                    "left": "Throughput",
+                    "right": "The amount of data moved successfully in a time period"
+                },
+                {
+                    "left": "Encryption",
+                    "right": "The process of encoding information"
+                }
+            ],
+            "hint": "System performance terms",
+            "voice_input": false,
+            "example_sentence": "High latency can render a system unusable, even if the encryption protocols and redundancy measures are top-tier.",
+            "media": {}
+        },
+        {
+            "id": "EC1VS3_020",
+            "type": "tap_fill",
+            "question": "The tech industry's reliance on rare-earth minerals has raised significant ___ concerns regarding sustainable sourcing.",
+            "options": [
+                "ethical",
+                "logical",
+                "technical",
+                "rhetorical"
+            ],
+            "answer": "ethical",
+            "hint": "Related to moral principles",
+            "voice_input": false,
+            "example_sentence": "The tech industry's reliance on rare-earth minerals has raised significant ethical concerns regarding sustainable sourcing.",
+            "media": {}
+        },
+        {
+            "id": "EC1VS3_021",
+            "type": "tap_fill",
+            "question": "The government’s refusal to sign the international treaty was seen as a major ___ to global efforts to curb carbon emissions.",
+            "options": [
+                "setback",
+                "drawback",
+                "fallout",
+                "letdown"
+            ],
+            "answer": "setback",
+            "hint": "A reversal in progress",
+            "voice_input": false,
+            "example_sentence": "The government’s refusal to sign the international treaty was seen as a major setback to global efforts to curb carbon emissions.",
+            "media": {}
+        },
+        {
+            "id": "EC1VS3_022",
+            "type": "multiple_choice",
+            "question": "What does the term 'biodiversity' specifically refer to in an ecological context?",
+            "options": [
+                "The variety of plant and animal life in a habitat",
+                "The total number of trees in a protected forest",
+                "The chemical composition of fertile topsoil"
+            ],
+            "answer": "The variety of plant and animal life in a habitat",
+            "hint": "Variety of life",
+            "voice_input": false,
+            "example_sentence": "Maintaining high levels of biodiversity is crucial for the resilience of ecosystems against climate-related disturbances.",
+            "media": {}
+        },
+        {
+            "id": "EC1VS3_023",
+            "type": "matching",
+            "question": "Match the environmental terms with their precise definitions.",
+            "pairs": [
+                {
+                    "left": "Reforestation",
+                    "right": "The process of replanting an area with trees"
+                },
+                {
+                    "left": "Sustainability",
+                    "right": "Meeting current needs without compromising future generations"
+                },
+                {
+                    "left": "Effluent",
+                    "right": "Liquid waste or sewage discharged into a river"
+                },
+                {
+                    "left": "Carbon Sequestration",
+                    "right": "Capturing and storing atmospheric carbon dioxide"
+                }
+            ],
+            "answer": [
+                {
+                    "left": "Reforestation",
+                    "right": "The process of replanting an area with trees"
+                },
+                {
+                    "left": "Sustainability",
+                    "right": "Meeting current needs without compromising future generations"
+                },
+                {
+                    "left": "Effluent",
+                    "right": "Liquid waste or sewage discharged into a river"
+                },
+                {
+                    "left": "Carbon Sequestration",
+                    "right": "Capturing and storing atmospheric carbon dioxide"
+                }
+            ],
+            "hint": "Ecological processes and waste",
+            "voice_input": false,
+            "example_sentence": "Effective carbon sequestration and aggressive reforestation are both vital components of a comprehensive sustainability strategy.",
+            "media": {}
+        },
+        {
+            "id": "EC1VS3_024",
+            "type": "sentence_ordering",
+            "question": "Reorder the words to form a formal statement regarding environmental degradation.",
+            "words": [
+                "of",
+                "The",
+                "deforestation",
+                "relentless",
+                "pursuit",
+                "has",
+                "led",
+                "to",
+                "the",
+                "irreversible",
+                "destruction",
+                "of",
+                "countless",
+                "indigenous",
+                "habitats"
+            ],
+            "answer": "The relentless pursuit of deforestation has led to the irreversible destruction of countless indigenous habitats",
+            "hint": "Unstoppable habitat loss",
+            "voice_input": false,
+            "example_sentence": "The relentless pursuit of deforestation has led to the irreversible destruction of countless indigenous habitats.",
+            "media": {}
+        },
+        {
+            "id": "EC1VS3_025",
+            "type": "pronunciation",
+            "question": "Read the following sentence aloud: 'Anthropogenic climate change represents an existential threat that necessitates immediate and unprecedented global cooperation.'",
+            "answer": "",
+            "hint": "Focus on 'Anthropogenic'",
+            "voice_input": true,
+            "example_sentence": "Anthropogenic climate change represents an existential threat that necessitates immediate and unprecedented global cooperation.",
+            "media": {}
+        },
+        {
+            "id": "EC1VS3_026",
+            "type": "tap_fill",
+            "question": "Agricultural runoff is the primary ___ of the nitrogen pollution currently suffocating the local estuary.",
+            "options": [
+                "source",
+                "origin",
+                "spring",
+                "well"
+            ],
+            "answer": "source",
+            "hint": "Where something originates",
+            "voice_input": false,
+            "example_sentence": "Agricultural runoff is the primary source of the nitrogen pollution currently suffocating the local estuary.",
+            "media": {}
+        },
+        {
+            "id": "EC1VS3_027",
+            "type": "multiple_choice",
+            "question": "Which word best describes a situation where an ecosystem has reached its maximum population size for a specific species?",
+            "options": [
+                "Carrying capacity",
+                "Saturated density",
+                "Biotic ceiling"
+            ],
+            "answer": "Carrying capacity",
+            "hint": "Limit of resources",
+            "voice_input": false,
+            "example_sentence": "If the deer population exceeds the habitat's carrying capacity, the resulting overgrazing will deplete the local flora.",
+            "media": {}
+        },
+        {
+            "id": "EC1VS3_028",
+            "type": "matching",
+            "question": "Match the verbs with their environmental collocations.",
+            "pairs": [
+                {
+                    "left": "Deplete",
+                    "right": "natural resources"
+                },
+                {
+                    "left": "Mitigate",
+                    "right": "the effects of drought"
+                },
+                {
+                    "left": "Pollute",
+                    "right": "groundwater supplies"
+                },
+                {
+                    "left": "Enact",
+                    "right": "stringent environmental laws"
+                }
+            ],
+            "answer": [
+                {
+                    "left": "Deplete",
+                    "right": "natural resources"
+                },
+                {
+                    "left": "Mitigate",
+                    "right": "the effects of drought"
+                },
+                {
+                    "left": "Pollute",
+                    "right": "groundwater supplies"
+                },
+                {
+                    "left": "Enact",
+                    "right": "stringent environmental laws"
+                }
+            ],
+            "hint": "Environmental action verbs",
+            "voice_input": false,
+            "example_sentence": "Governments must enact stringent laws to mitigate the rate at which we deplete our finite natural resources.",
+            "media": {}
+        },
+        {
+            "id": "EC1VS3_029",
+            "type": "tap_fill",
+            "question": "The melting of Arctic permafrost could release vast amounts of methane, creating a dangerous positive ___ loop.",
+            "options": [
+                "feedback",
+                "response",
+                "cycle",
+                "return"
+            ],
+            "answer": "feedback",
+            "hint": "Self-reinforcing process",
+            "voice_input": false,
+            "example_sentence": "The melting of Arctic permafrost could release vast amounts of methane, creating a dangerous positive feedback loop.",
+            "media": {}
+        },
+        {
+            "id": "EC1VS3_030",
+            "type": "sentence_ordering",
+            "question": "Reorder the words to form a complex sentence about renewable energy.",
+            "words": [
+                "transitioning",
+                "to",
+                "requires",
+                "Renewable",
+                "energy",
+                "substantial",
+                "investment",
+                "in",
+                "the",
+                "modernization",
+                "of",
+                "existing",
+                "power",
+                "grids"
+            ],
+            "answer": "Renewable energy transitioning requires substantial investment in the modernization of existing power grids",
+            "hint": "Infrastructure for green power",
+            "voice_input": false,
+            "example_sentence": "Renewable energy transitioning requires substantial investment in the modernization of existing power grids.",
+            "media": {}
+        },
+        {
+            "id": "EC1VS3_031",
+            "type": "multiple_choice",
+            "question": "What does it mean if a material is 'biodegradable'?",
+            "options": [
+                "Capable of being decomposed by bacteria",
+                "Resistant to sunlight and water damage",
+                "Able to be recycled into high-grade fuel"
+            ],
+            "answer": "Capable of being decomposed by bacteria",
+            "hint": "Natural breakdown",
+            "voice_input": false,
+            "example_sentence": "The company has committed to replacing all plastic packaging with biodegradable alternatives within the next five years.",
+            "media": {}
+        },
+        {
+            "id": "EC1VS3_032",
+            "type": "tap_fill",
+            "question": "Many species are currently on the ___ of extinction due to the rapid loss of their natural habitats.",
+            "options": [
+                "brink",
+                "edge",
+                "verge",
+                "border"
+            ],
+            "answer": "brink",
+            "hint": "The extreme point/verge",
+            "voice_input": false,
+            "example_sentence": "Many species are currently on the brink of extinction due to the rapid loss of their natural habitats.",
+            "media": {}
+        },
+        {
+            "id": "EC1VS3_033",
+            "type": "matching",
+            "question": "Match the environmental concepts with their descriptions.",
+            "pairs": [
+                {
+                    "left": "Eutrophication",
+                    "right": "Excessive richness of nutrients in a body of water"
+                },
+                {
+                    "left": "Apex predator",
+                    "right": "An animal at the top of the food chain"
+                },
+                {
+                    "left": "Carbon footprint",
+                    "right": "Total greenhouse gas emissions caused by an entity"
+                },
+                {
+                    "left": "Monoculture",
+                    "right": "The cultivation of a single crop in a given area"
+                }
+            ],
+            "answer": [
+                {
+                    "left": "Eutrophication",
+                    "right": "Excessive richness of nutrients in a body of water"
+                },
+                {
+                    "left": "Apex predator",
+                    "right": "An animal at the top of the food chain"
+                },
+                {
+                    "left": "Carbon footprint",
+                    "right": "Total greenhouse gas emissions caused by an entity"
+                },
+                {
+                    "left": "Monoculture",
+                    "right": "The cultivation of a single crop in a given area"
+                }
+            ],
+            "hint": "Advanced ecology terms",
+            "voice_input": false,
+            "example_sentence": "The practice of monoculture often leads to a higher carbon footprint due to the need for synthetic fertilizers that cause eutrophication.",
+            "media": {}
+        },
+        {
+            "id": "EC1VS3_034",
+            "type": "tap_fill",
+            "question": "Urban sprawl continues to ___ upon the surrounding countryside, destroying valuable greenbelt land.",
+            "options": [
+                "encroach",
+                "invade",
+                "intrude",
+                "trespass"
+            ],
+            "answer": "encroach",
+            "hint": "To advance beyond limits",
+            "voice_input": false,
+            "example_sentence": "Urban sprawl continues to encroach upon the surrounding countryside, destroying valuable greenbelt land.",
+            "media": {}
+        },
+        {
+            "id": "EC1VS3_035",
+            "type": "pronunciation",
+            "question": "Read the following sentence aloud: 'The unprecedented desertification of sub-Saharan regions is driving mass migration and exacerbating regional geopolitical tensions.'",
+            "answer": "",
+            "hint": "Focus on 'Desertification'",
+            "voice_input": true,
+            "example_sentence": "The unprecedented desertification of sub-Saharan regions is driving mass migration and exacerbating regional geopolitical tensions.",
+            "media": {}
+        },
+        {
+            "id": "EC1VS3_036",
+            "type": "tap_fill",
+            "question": "Environmentalists are calling for a ___ shift in the way we perceive the relationship between economic growth and nature.",
+            "options": [
+                "paradigm",
+                "standard",
+                "model",
+                "pattern"
+            ],
+            "answer": "paradigm",
+            "hint": "A fundamental change",
+            "voice_input": false,
+            "example_sentence": "Environmentalists are calling for a paradigm shift in the way we perceive the relationship between economic growth and nature.",
+            "media": {}
+        },
+        {
+            "id": "EC1VS3_037",
+            "type": "multiple_choice",
+            "question": "What does it mean to 'decommission' a power plant?",
+            "options": [
+                "To formally take it out of service",
+                "To upgrade it to renewable standards",
+                "To build a secondary unit nearby"
+            ],
+            "answer": "To formally take it out of service",
+            "hint": "Permanent closure",
+            "voice_input": false,
+            "example_sentence": "The government has announced plans to decommission all remaining coal-fired power plants by the end of the decade.",
+            "media": {}
+        },
+        {
+            "id": "EC1VS3_038",
+            "type": "sentence_ordering",
+            "question": "Reorder the words to discuss sustainable agriculture.",
+            "words": [
+                "Regenerative",
+                "farming",
+                "seeks",
+                "to",
+                "restore",
+                "soil",
+                "health",
+                "while",
+                "minimizing",
+                "the",
+                "need",
+                "for",
+                "synthetic",
+                "pesticides"
+            ],
+            "answer": "Regenerative farming seeks to restore soil health while minimizing the need for synthetic pesticides",
+            "hint": "Restorative land use",
+            "voice_input": false,
+            "example_sentence": "Regenerative farming seeks to restore soil health while minimizing the need for synthetic pesticides.",
+            "media": {}
+        },
+        {
+            "id": "EC1VS3_039",
+            "type": "matching",
+            "question": "Match the environmental binomials with their meanings.",
+            "pairs": [
+                {
+                    "left": "Ebb and flow",
+                    "right": "A recurrent pattern of coming and going"
+                },
+                {
+                    "left": "Fair and square",
+                    "right": "Within the rules and without cheating"
+                },
+                {
+                    "left": "Pros and cons",
+                    "right": "Advantages and disadvantages"
+                },
+                {
+                    "left": "First and foremost",
+                    "right": "Most importantly; as the primary concern"
+                }
+            ],
+            "answer": [
+                {
+                    "left": "Ebb and flow",
+                    "right": "A recurrent pattern of coming and going"
+                },
+                {
+                    "left": "Fair and square",
+                    "right": "Within the rules and without cheating"
+                },
+                {
+                    "left": "Pros and cons",
+                    "right": "Advantages and disadvantages"
+                },
+                {
+                    "left": "First and foremost",
+                    "right": "Most importantly; as the primary concern"
+                }
+            ],
+            "hint": "Common English binomials",
+            "voice_input": false,
+            "example_sentence": "First and foremost, we must analyze the pros and cons of implementing a nationwide carbon tax.",
+            "media": {}
+        },
+        {
+            "id": "EC1VS3_040",
+            "type": "tap_fill",
+            "question": "The newly discovered species of orchid is ___ to this specific valley and found nowhere else on Earth.",
+            "options": [
+                "endemic",
+                "indigenous",
+                "native",
+                "localized"
+            ],
+            "answer": "endemic",
+            "hint": "Native to a specific area",
+            "voice_input": false,
+            "example_sentence": "The newly discovered species of orchid is endemic to this specific valley and found nowhere else on Earth.",
+            "media": {}
+        },
+        {
+            "id": "EC1VS3_041",
+            "type": "tap_fill",
+            "question": "The defendant was granted a stay of ___ while his legal team prepared a final appeal to the Supreme Court.",
+            "options": [
+                "execution",
+                "action",
+                "penalty",
+                "punishment"
+            ],
+            "answer": "execution",
+            "hint": "Delay of legal sentence",
+            "voice_input": false,
+            "example_sentence": "The defendant was granted a stay of execution while his legal team prepared a final appeal to the Supreme Court.",
+            "media": {}
+        },
+        {
+            "id": "EC1VS3_042",
+            "type": "multiple_choice",
+            "question": "What does the term 'acquittal' signify in a criminal trial?",
+            "options": [
+                "A judgment that a person is not guilty",
+                "A formal accusation of a serious crime",
+                "The process of selecting a neutral jury"
+            ],
+            "answer": "A judgment that a person is not guilty",
+            "hint": "Verdict of innocence",
+            "voice_input": false,
+            "example_sentence": "Despite the prosecutor's best efforts, the lack of forensic evidence led to a swift acquittal by the jury.",
+            "media": {}
+        },
+        {
+            "id": "EC1VS3_043",
+            "type": "matching",
+            "question": "Match the legal Latinisms with their English meanings.",
+            "pairs": [
+                {
+                    "left": "Ad hoc",
+                    "right": "Formed for a particular purpose only"
+                },
+                {
+                    "left": "Bona fide",
+                    "right": "Genuine; real; in good faith"
+                },
+                {
+                    "left": "De facto",
+                    "right": "Existing in fact, whether with lawful authority or not"
+                },
+                {
+                    "left": "Pro bono",
+                    "right": "Work undertaken without charge for the public good"
+                }
+            ],
+            "answer": [
+                {
+                    "left": "Ad hoc",
+                    "right": "Formed for a particular purpose only"
+                },
+                {
+                    "left": "Bona fide",
+                    "right": "Genuine; real; in good faith"
+                },
+                {
+                    "left": "De facto",
+                    "right": "Existing in fact, whether with lawful authority or not"
+                },
+                {
+                    "left": "Pro bono",
+                    "right": "Work undertaken without charge for the public good"
+                }
+            ],
+            "hint": "Common legal Latin phrases",
+            "voice_input": false,
+            "example_sentence": "The firm took on the case pro bono to ensure the de facto leader of the community received a bona fide hearing.",
+            "media": {}
+        },
+        {
+            "id": "EC1VS3_044",
+            "type": "sentence_ordering",
+            "question": "Reorder the words to form a statement about constitutional law.",
+            "words": [
+                "The",
+                "was",
+                "unconstitutional",
+                "legislation",
+                "deemed",
+                "because",
+                "it",
+                "infringed",
+                "upon",
+                "the",
+                "fundamental",
+                "rights",
+                "of",
+                "minority",
+                "groups"
+            ],
+            "answer": "The legislation was deemed unconstitutional because it infringed upon the fundamental rights of minority groups",
+            "hint": "Violation of basic rights",
+            "voice_input": false,
+            "example_sentence": "The legislation was deemed unconstitutional because it infringed upon the fundamental rights of minority groups.",
+            "media": {}
+        },
+        {
+            "id": "EC1VS3_045",
+            "type": "pronunciation",
+            "question": "Read the following sentence aloud: 'The prosecution's case rested primarily on circumstantial evidence and the testimony of a questionable whistleblower.'",
+            "answer": "",
+            "hint": "Focus on 'Circumstantial'",
+            "voice_input": true,
+            "example_sentence": "The prosecution's case rested primarily on circumstantial evidence and the testimony of a questionable whistleblower.",
+            "media": {}
+        },
+        {
+            "id": "EC1VS3_046",
+            "type": "tap_fill",
+            "question": "During the cross-examination, the attorney attempted to ___ the witness’s credibility by highlighting previous inconsistencies in her statement.",
+            "options": [
+                "undermine",
+                "underestimate",
+                "understate",
+                "underline"
+            ],
+            "answer": "undermine",
+            "hint": "To weaken or damage",
+            "voice_input": false,
+            "example_sentence": "During the cross-examination, the attorney attempted to undermine the witness’s credibility by highlighting previous inconsistencies in her statement.",
+            "media": {}
+        },
+        {
+            "id": "EC1VS3_047",
+            "type": "multiple_choice",
+            "question": "If a judge decides to 'recuse' themselves from a case, what are they doing?",
+            "options": [
+                "Removing themselves due to a conflict of interest",
+                "Overturning a previous decision made by a lower court",
+                "Demanding more evidence before proceeding to trial"
+            ],
+            "answer": "Removing themselves due to a conflict of interest",
+            "hint": "Self-removal from case",
+            "voice_input": false,
+            "example_sentence": "The judge chose to recuse herself because she had a personal connection to one of the major shareholders in the company.",
+            "media": {}
+        },
+        {
+            "id": "EC1VS3_048",
+            "type": "matching",
+            "question": "Match the legal verbs with their definitions.",
+            "pairs": [
+                {
+                    "left": "Indict",
+                    "right": "To formally charge with a serious crime"
+                },
+                {
+                    "left": "Subpoena",
+                    "right": "To order someone to attend court"
+                },
+                {
+                    "left": "Extradite",
+                    "right": "To hand over a person to the jurisdiction of another state"
+                },
+                {
+                    "left": "Commute",
+                    "right": "To reduce a judicial sentence to a less severe one"
+                }
+            ],
+            "answer": [
+                {
+                    "left": "Indict",
+                    "right": "To formally charge with a serious crime"
+                },
+                {
+                    "left": "Subpoena",
+                    "right": "To order someone to attend court"
+                },
+                {
+                    "left": "Extradite",
+                    "right": "To hand over a person to the jurisdiction of another state"
+                },
+                {
+                    "left": "Commute",
+                    "right": "To reduce a judicial sentence to a less severe one"
+                }
+            ],
+            "hint": "Court and criminal procedure",
+            "voice_input": false,
+            "example_sentence": "The governor decided to commute the prisoner's sentence after new evidence emerged following a subpoena of internal documents.",
+            "media": {}
+        },
+        {
+            "id": "EC1VS3_049",
+            "type": "tap_fill",
+            "question": "The corporate merger is currently under ___ by the antitrust commission to ensure it does not violate competition laws.",
+            "options": [
+                "scrutiny",
+                "surveillance",
+                "inspection",
+                "audit"
+            ],
+            "answer": "scrutiny",
+            "hint": "Close and critical examination",
+            "voice_input": false,
+            "example_sentence": "The corporate merger is currently under scrutiny by the antitrust commission to ensure it does not violate competition laws.",
+            "media": {}
+        },
+        {
+            "id": "EC1VS3_050",
+            "type": "sentence_ordering",
+            "question": "Reorder the words to form a complex sentence about international law.",
+            "words": [
+                "States",
+                "that",
+                "sovereignty",
+                "violate",
+                "territorial",
+                "often",
+                "face",
+                "severe",
+                "economic",
+                "sanctions",
+                "from",
+                "the",
+                "international",
+                "community"
+            ],
+            "answer": "States that violate territorial sovereignty often face severe economic sanctions from the international community",
+            "hint": "Global legal consequences",
+            "voice_input": false,
+            "example_sentence": "States that violate territorial sovereignty often face severe economic sanctions from the international community.",
+            "media": {}
+        },
+        {
+            "id": "EC1VS3_051",
+            "type": "multiple_choice",
+            "question": "What is the primary purpose of a 'precedent' in a common law system?",
+            "options": [
+                "To provide a legal example for future cases",
+                "To ensure that all trials are broadcast publicly",
+                "To limit the number of lawyers allowed in court"
+            ],
+            "answer": "To provide a legal example for future cases",
+            "hint": "Earlier legal decision",
+            "voice_input": false,
+            "example_sentence": "The ruling set a vital precedent that will influence how digital privacy cases are handled for decades to come.",
+            "media": {}
+        },
+        {
+            "id": "EC1VS3_052",
+            "type": "tap_fill",
+            "question": "The contract was declared null and ___ because it had been signed under duress.",
+            "options": [
+                "void",
+                "blank",
+                "empty",
+                "invalid"
+            ],
+            "answer": "void",
+            "hint": "Legal binomial meaning invalid",
+            "voice_input": false,
+            "example_sentence": "The contract was declared null and void because it had been signed under duress.",
+            "media": {}
+        },
+        {
+            "id": "EC1VS3_053",
+            "type": "matching",
+            "question": "Match the phrasal verbs with their legal contexts.",
+            "pairs": [
+                {
+                    "left": "Abide by",
+                    "right": "To comply with a law or decision"
+                },
+                {
+                    "left": "Set forth",
+                    "right": "To state or outline facts/arguments"
+                },
+                {
+                    "left": "Rule out",
+                    "right": "To exclude a possibility"
+                },
+                {
+                    "left": "Bring forward",
+                    "right": "To present evidence or an argument"
+                }
+            ],
+            "answer": [
+                {
+                    "left": "Abide by",
+                    "right": "To comply with a law or decision"
+                },
+                {
+                    "left": "Set forth",
+                    "right": "To state or outline facts/arguments"
+                },
+                {
+                    "left": "Rule out",
+                    "right": "To exclude a possibility"
+                },
+                {
+                    "left": "Bring forward",
+                    "right": "To present evidence or an argument"
+                }
+            ],
+            "hint": "Verbs in legal discourse",
+            "voice_input": false,
+            "example_sentence": "The defense attempted to bring forward new witnesses to rule out the possibility of the defendant's presence at the crime scene.",
+            "media": {}
+        },
+        {
+            "id": "EC1VS3_054",
+            "type": "tap_fill",
+            "question": "The plaintiff is seeking ___ for the emotional distress caused by the defendant's defamatory remarks.",
+            "options": [
+                "damages",
+                "repairs",
+                "refunds",
+                "finances"
+            ],
+            "answer": "damages",
+            "hint": "Financial compensation",
+            "voice_input": false,
+            "example_sentence": "The plaintiff is seeking damages for the emotional distress caused by the defendant's defamatory remarks.",
+            "media": {}
+        },
+        {
+            "id": "EC1VS3_055",
+            "type": "pronunciation",
+            "question": "Read the following sentence aloud: 'The jurisdictional ambiguities within the maritime treaty led to a protracted legal stalemate between the two nations.'",
+            "answer": "",
+            "hint": "Focus on 'Jurisdictional'",
+            "voice_input": true,
+            "example_sentence": "The jurisdictional ambiguities within the maritime treaty led to a protracted legal stalemate between the two nations.",
+            "media": {}
+        },
+        {
+            "id": "EC1VS3_056",
+            "type": "tap_fill",
+            "question": "Freedom of speech is considered an ___ right that cannot be taken away by any government.",
+            "options": [
+                "inalienable",
+                "unmovable",
+                "inflexible",
+                "insurmountable"
+            ],
+            "answer": "inalienable",
+            "hint": "Cannot be removed/given away",
+            "voice_input": false,
+            "example_sentence": "Freedom of speech is considered an inalienable right that cannot be taken away by any government.",
+            "media": {}
+        },
+        {
+            "id": "EC1VS3_057",
+            "type": "multiple_choice",
+            "question": "What is the difference between 'slander' and 'libel'?",
+            "options": [
+                "Slander is spoken; libel is written",
+                "Slander is unintentional; libel is malicious",
+                "Slander is civil; libel is always criminal"
+            ],
+            "answer": "Slander is spoken; libel is written",
+            "hint": "Defamation types",
+            "voice_input": false,
+            "example_sentence": "While the politician ignored the slanderous comments at the rally, he sued the newspaper for libel following their front-page article.",
+            "media": {}
+        },
+        {
+            "id": "EC1VS3_058",
+            "type": "sentence_ordering",
+            "question": "Reorder the words to describe a legal procedure.",
+            "words": [
+                "The",
+                "jury",
+                "deliberated",
+                "for",
+                "forty-eight",
+                "hours",
+                "before",
+                "returning",
+                "a",
+                "verdict",
+                "of",
+                "guilty",
+                "on",
+                "all",
+                "counts"
+            ],
+            "answer": "The jury deliberated for forty-eight hours before returning a verdict of guilty on all counts",
+            "hint": "Reaching a court decision",
+            "voice_input": false,
+            "example_sentence": "The jury deliberated for forty-eight hours before returning a verdict of guilty on all counts.",
+            "media": {}
+        },
+        {
+            "id": "EC1VS3_059",
+            "type": "matching",
+            "question": "Match the legal roles with their primary functions.",
+            "pairs": [
+                {
+                    "left": "Litigant",
+                    "right": "A person involved in a lawsuit"
+                },
+                {
+                    "left": "Solicitor",
+                    "right": "A legal practitioner who deals with most legal matters"
+                },
+                {
+                    "left": "Magistrate",
+                    "right": "A civil officer who administers the law in a minor court"
+                },
+                {
+                    "left": "Bailiff",
+                    "right": "An official who keeps order in the court"
+                }
+            ],
+            "answer": [
+                {
+                    "left": "Litigant",
+                    "right": "A person involved in a lawsuit"
+                },
+                {
+                    "left": "Solicitor",
+                    "right": "A legal practitioner who deals with most legal matters"
+                },
+                {
+                    "left": "Magistrate",
+                    "right": "A civil officer who administers the law in a minor court"
+                },
+                {
+                    "left": "Bailiff",
+                    "right": "An official who keeps order in the court"
+                }
+            ],
+            "hint": "Legal professions and parties",
+            "voice_input": false,
+            "example_sentence": "The bailiff called the court to order as the magistrate prepared to hear the opening statements from the lead litigant.",
+            "media": {}
+        },
+        {
+            "id": "EC1VS3_060",
+            "type": "tap_fill",
+            "question": "A key tenet of justice is that a person is ___ innocent until proven guilty in a court of law.",
+            "options": [
+                "presumed",
+                "assumed",
+                "supposed",
+                "believed"
+            ],
+            "answer": "presumed",
+            "hint": "Legally accepted as true",
+            "voice_input": false,
+            "example_sentence": "A key tenet of justice is that a person is presumed innocent until proven guilty in a court of law.",
+            "media": {}
+        },
+        {
+            "id": "EC1VS3_061",
+            "type": "tap_fill",
+            "question": "The researcher’s findings are ___ on the assumption that the participants provided entirely honest responses during the initial interview phase.",
+            "options": [
+                "premised",
+                "established",
+                "rooted",
+                "located"
+            ],
+            "answer": "premised",
+            "hint": "Based on a theory",
+            "voice_input": false,
+            "example_sentence": "The researcher’s findings are premised on the assumption that the participants provided entirely honest responses during the initial interview phase.",
+            "media": {}
+        },
+        {
+            "id": "EC1VS3_062",
+            "type": "multiple_choice",
+            "question": "What does it mean to 'extrapolate' data in a scientific or academic report?",
+            "options": [
+                "To infer unknown values by extending known trends",
+                "To remove irrelevant information from a data set",
+                "To translate research into a different language"
+            ],
+            "answer": "To infer unknown values by extending known trends",
+            "hint": "Estimate beyond facts",
+            "voice_input": false,
+            "example_sentence": "Based on the current growth rates, we can extrapolate that the population will double by the end of the century.",
+            "media": {}
+        },
+        {
+            "id": "EC1VS3_063",
+            "type": "matching",
+            "question": "Match the academic verbs with their conceptual meanings.",
+            "pairs": [
+                {
+                    "left": "Elucidate",
+                    "right": "To make something clear or explain"
+                },
+                {
+                    "left": "Corroborate",
+                    "right": "To confirm or give support to a theory"
+                },
+                {
+                    "left": "Refute",
+                    "right": "To prove a statement or theory to be wrong"
+                },
+                {
+                    "left": "Synthesize",
+                    "right": "To combine elements into a connected whole"
+                }
+            ],
+            "answer": [
+                {
+                    "left": "Elucidate",
+                    "right": "To make something clear or explain"
+                },
+                {
+                    "left": "Corroborate",
+                    "right": "To confirm or give support to a theory"
+                },
+                {
+                    "left": "Refute",
+                    "right": "To prove a statement or theory to be wrong"
+                },
+                {
+                    "left": "Synthesize",
+                    "right": "To combine elements into a connected whole"
+                }
+            ],
+            "hint": "Research and analysis verbs",
+            "voice_input": false,
+            "example_sentence": "The scientist attempted to synthesize various studies to corroborate her hypothesis, while simultaneously trying to refute opposing claims.",
+            "media": {}
+        },
+        {
+            "id": "EC1VS3_064",
+            "type": "sentence_ordering",
+            "question": "Reorder the words to form a statement about logical reasoning.",
+            "words": [
+                "A",
+                "fallacy",
+                "logical",
+                "occurs",
+                "when",
+                "the",
+                "conclusion",
+                "does",
+                "not",
+                "follow",
+                "necessarily",
+                "from",
+                "the",
+                "premises",
+                "provided"
+            ],
+            "answer": "A logical fallacy occurs when the conclusion does not follow necessarily from the premises provided",
+            "hint": "Error in reasoning",
+            "voice_input": false,
+            "example_sentence": "A logical fallacy occurs when the conclusion does not follow necessarily from the premises provided.",
+            "media": {}
+        },
+        {
+            "id": "EC1VS3_065",
+            "type": "pronunciation",
+            "question": "Read the following sentence aloud: 'Epistemological skepticism challenges our ability to distinguish between objective reality and purely subjective perception.'",
+            "answer": "",
+            "hint": "Focus on 'Epistemological'",
+            "voice_input": true,
+            "example_sentence": "Epistemological skepticism challenges our ability to distinguish between objective reality and purely subjective perception.",
+            "media": {}
+        },
+        {
+            "id": "EC1VS3_066",
+            "type": "tap_fill",
+            "question": "The author provides a ___ analysis of the socio-economic factors that contributed to the decline of the Roman Empire.",
+            "options": [
+                "trenchant",
+                "sharp",
+                "cutting",
+                "biting"
+            ],
+            "answer": "trenchant",
+            "hint": "Incisive and vigorous expression",
+            "voice_input": false,
+            "example_sentence": "The author provides a trenchant analysis of the socio-economic factors that contributed to the decline of the Roman Empire.",
+            "media": {}
+        },
+        {
+            "id": "EC1VS3_067",
+            "type": "multiple_choice",
+            "question": "If a concept is described as 'nebulous', what does it imply?",
+            "options": [
+                "Vague, ill-defined, or unclear",
+                "Highly complex and mathematical",
+                "Extremely controversial or debated"
+            ],
+            "answer": "Vague, ill-defined, or unclear",
+            "hint": "Cloud-like lack of form",
+            "voice_input": false,
+            "example_sentence": "The candidate's platform was criticized for being too nebulous, lacking any specific policy proposals or timelines.",
+            "media": {}
+        },
+        {
+            "id": "EC1VS3_068",
+            "type": "matching",
+            "question": "Match the academic nouns with their descriptions.",
+            "pairs": [
+                {
+                    "left": "Paradigm",
+                    "right": "A typical example or pattern of something"
+                },
+                {
+                    "left": "Postulate",
+                    "right": "A thing suggested as true as a basis for reasoning"
+                },
+                {
+                    "left": "Dichotomy",
+                    "right": "A contrast between two entirely different things"
+                },
+                {
+                    "left": "Nuance",
+                    "right": "A subtle difference in meaning or expression"
+                }
+            ],
+            "answer": [
+                {
+                    "left": "Paradigm",
+                    "right": "A typical example or pattern of something"
+                },
+                {
+                    "left": "Postulate",
+                    "right": "A thing suggested as true as a basis for reasoning"
+                },
+                {
+                    "left": "Dichotomy",
+                    "right": "A contrast between two entirely different things"
+                },
+                {
+                    "left": "Nuance",
+                    "right": "A subtle difference in meaning or expression"
+                }
+            ],
+            "hint": "High-level cognitive terms",
+            "voice_input": false,
+            "example_sentence": "To understand the nuance of the debate, one must first recognize the dichotomy between the two competing scientific paradigms.",
+            "media": {}
+        },
+        {
+            "id": "EC1VS3_069",
+            "type": "tap_fill",
+            "question": "The university decided to ___ the honorary degree after it was discovered that the recipient had plagiarized his thesis.",
+            "options": [
+                "rescind",
+                "repeal",
+                "retract",
+                "revoke"
+            ],
+            "answer": "rescind",
+            "hint": "To cancel or withdraw officially",
+            "voice_input": false,
+            "example_sentence": "The university decided to rescind the honorary degree after it was discovered that the recipient had plagiarized his thesis.",
+            "media": {}
+        },
+        {
+            "id": "EC1VS3_070",
+            "type": "sentence_ordering",
+            "question": "Reorder the words to form a statement about academic integrity.",
+            "words": [
+                "Scholars",
+                "must",
+                "strictly",
+                "adhere",
+                "to",
+                "citation",
+                "standards",
+                "to",
+                "avoid",
+                "the",
+                "inadvertent",
+                "appropriation",
+                "of",
+                "others",
+                "intellectual",
+                "property"
+            ],
+            "answer": "Scholars must strictly adhere to citation standards to avoid the inadvertent appropriation of others intellectual property",
+            "hint": "Respecting original work",
+            "voice_input": false,
+            "example_sentence": "Scholars must strictly adhere to citation standards to avoid the inadvertent appropriation of others' intellectual property.",
+            "media": {}
+        },
+        {
+            "id": "EC1VS3_071",
+            "type": "multiple_choice",
+            "question": "What is an 'empirical' study based on?",
+            "options": [
+                "Observation and experience rather than theory",
+                "Ancient philosophical texts and traditions",
+                "Hypothetical scenarios and thought experiments"
+            ],
+            "answer": "Observation and experience rather than theory",
+            "hint": "Evidence-based",
+            "voice_input": false,
+            "example_sentence": "The researcher insisted on an empirical approach, collecting data from over five hundred participants before reaching a conclusion.",
+            "media": {}
+        },
+        {
+            "id": "EC1VS3_072",
+            "type": "tap_fill",
+            "question": "The speech was full of ___ rhetoric, but it lacked any substantive solutions to the country's economic problems.",
+            "options": [
+                "flowery",
+                "heavy",
+                "dense",
+                "thick"
+            ],
+            "answer": "flowery",
+            "hint": "Overly decorated language",
+            "voice_input": false,
+            "example_sentence": "The speech was full of flowery rhetoric, but it lacked any substantive solutions to the country's economic problems.",
+            "media": {}
+        },
+        {
+            "id": "EC1VS3_073",
+            "type": "matching",
+            "question": "Match the analytical prefixes/suffixes with their meanings.",
+            "pairs": [
+                {
+                    "left": "Pseudo-",
+                    "right": "False or deceptive"
+                },
+                {
+                    "left": "Anthrop-",
+                    "right": "Relating to humankind"
+                },
+                {
+                    "left": "Meta-",
+                    "right": "Referring to itself or its own category"
+                },
+                {
+                    "left": "Metric",
+                    "right": "Centred on a specific group or idea"
+                }
+            ],
+            "answer": [
+                {
+                    "left": "Pseudo-",
+                    "right": "False or deceptive"
+                },
+                {
+                    "left": "Anthrop-",
+                    "right": "Relating to humankind"
+                },
+                {
+                    "left": "Meta-",
+                    "right": "Referring to itself or its own category"
+                },
+                {
+                    "left": "Metric",
+                    "right": "Centred on a specific group or idea"
+                }
+            ],
+            "hint": "Building blocks of academic words",
+            "voice_input": false,
+            "example_sentence": "The study was criticized for its anthropocentric bias, failing to consider the environmental impact beyond human interests.",
+            "media": {}
+        },
+        {
+            "id": "EC1VS3_074",
+            "type": "tap_fill",
+            "question": "Her argument was so ___ that even the most skeptical members of the committee were eventually won over.",
+            "options": [
+                "cogent",
+                "heavy",
+                "solid",
+                "vocal"
+            ],
+            "answer": "cogent",
+            "hint": "Clear, logical, and convincing",
+            "voice_input": false,
+            "example_sentence": "Her argument was so cogent that even the most skeptical members of the committee were eventually won over.",
+            "media": {}
+        },
+        {
+            "id": "EC1VS3_075",
+            "type": "pronunciation",
+            "question": "Read the following sentence aloud: 'The ubiquitous nature of digital surveillance necessitates a comprehensive re-evaluation of the social contract.'",
+            "answer": "",
+            "hint": "Focus on 'Necessitates'",
+            "voice_input": true,
+            "example_sentence": "The ubiquitous nature of digital surveillance necessitates a comprehensive re-evaluation of the social contract.",
+            "media": {}
+        },
+        {
+            "id": "EC1VS3_076",
+            "type": "tap_fill",
+            "question": "The professor’s lecture was a bit ___ , jumping from 18th-century poetry to modern quantum mechanics without warning.",
+            "options": [
+                "discursive",
+                "running",
+                "moving",
+                "shifting"
+            ],
+            "answer": "discursive",
+            "hint": "Digressing from subject to subject",
+            "voice_input": false,
+            "example_sentence": "The professor’s lecture was a bit discursive, jumping from 18th-century poetry to modern quantum mechanics without warning.",
+            "media": {}
+        },
+        {
+            "id": "EC1VS3_077",
+            "type": "multiple_choice",
+            "question": "What does it mean to 'substantiate' a claim?",
+            "options": [
+                "To provide evidence to support it",
+                "To summarize it for a general audience",
+                "To translate it into a formal equation"
+            ],
+            "answer": "To provide evidence to support it",
+            "hint": "To back up with proof",
+            "voice_input": false,
+            "example_sentence": "Without further data, it is impossible to substantiate the theory that the two events are causally linked.",
+            "media": {}
+        },
+        {
+            "id": "EC1VS3_078",
+            "type": "sentence_ordering",
+            "question": "Reorder the words to form an academic conclusion.",
+            "words": [
+                "Consequently",
+                "it",
+                "can",
+                "be",
+                "inferred",
+                "that",
+                "the",
+                "initial",
+                "hypothesis",
+                "was",
+                "incorrect",
+                "due",
+                "to",
+                "unforeseen",
+                "variable",
+                "interference"
+            ],
+            "answer": "Consequently it can be inferred that the initial hypothesis was incorrect due to unforeseen variable interference",
+            "hint": "Deductive summary",
+            "voice_input": false,
+            "example_sentence": "Consequently, it can be inferred that the initial hypothesis was incorrect due to unforeseen variable interference.",
+            "media": {}
+        },
+        {
+            "id": "EC1VS3_079",
+            "type": "matching",
+            "question": "Match the phrasal verbs with their academic synonyms.",
+            "pairs": [
+                {
+                    "left": "Bear out",
+                    "right": "To confirm or support"
+                },
+                {
+                    "left": "Account for",
+                    "right": "To explain the cause of something"
+                },
+                {
+                    "left": "Point toward",
+                    "right": "To suggest a certain conclusion"
+                },
+                {
+                    "left": "Set out",
+                    "right": "To present or outline an idea"
+                }
+            ],
+            "answer": [
+                {
+                    "left": "Bear out",
+                    "right": "To confirm or support"
+                },
+                {
+                    "left": "Account for",
+                    "right": "To explain the cause of something"
+                },
+                {
+                    "left": "Point toward",
+                    "right": "To suggest a certain conclusion"
+                },
+                {
+                    "left": "Set out",
+                    "right": "To present or outline an idea"
+                }
+            ],
+            "hint": "Analytical phrasal verbs",
+            "voice_input": false,
+            "example_sentence": "The latest results bear out our theory and set out a clear path for future experimentation.",
+            "media": {}
+        },
+        {
+            "id": "EC1VS3_080",
+            "type": "tap_fill",
+            "question": "The distinction between these two chemical compounds is so ___ that only an expert could identify them correctly.",
+            "options": [
+                "subtle",
+                "thin",
+                "light",
+                "faint"
+            ],
+            "answer": "subtle",
+            "hint": "So delicate as to be difficult to analyze",
+            "voice_input": false,
+            "example_sentence": "The distinction between these two chemical compounds is so subtle that only an expert could identify them correctly.",
+            "media": {}
+        },
+        {
+            "id": "EC1VS3_081",
+            "type": "tap_fill",
+            "question": "After years of high-pressure corporate life, he felt a(n) ___ sense of weariness that no amount of vacation time could truly alleviate.",
+            "options": [
+                "pervasive",
+                "invasive",
+                "evasive",
+                "abrasive"
+            ],
+            "answer": "pervasive",
+            "hint": "Spreading widely throughout",
+            "voice_input": false,
+            "example_sentence": "After years of high-pressure corporate life, he felt a pervasive sense of weariness that no amount of vacation time could truly alleviate.",
+            "media": {}
+        },
+        {
+            "id": "EC1VS3_082",
+            "type": "multiple_choice",
+            "question": "What does it mean to feel 'disillusioned' with a particular ideology or person?",
+            "options": [
+                "Losing faith after discovering the truth",
+                "Becoming intensely angry and vengeful",
+                "Feeling confused by complex information"
+            ],
+            "answer": "Losing faith after discovering the truth",
+            "hint": "Disappointment from reality",
+            "voice_input": false,
+            "example_sentence": "Many young voters became disillusioned with the candidate after he failed to fulfill his most ambitious campaign promises.",
+            "media": {}
+        },
+        {
+            "id": "EC1VS3_083",
+            "type": "matching",
+            "question": "Match the psychological adjectives with their synonymous descriptions.",
+            "pairs": [
+                {
+                    "left": "Stoic",
+                    "right": "Enduring pain without complaining"
+                },
+                {
+                    "left": "Volatile",
+                    "right": "Liable to change rapidly and unpredictably"
+                },
+                {
+                    "left": "Resilient",
+                    "right": "Able to recoil or spring back into shape"
+                },
+                {
+                    "left": "Apathetic",
+                    "right": "Showing or feeling no interest or concern"
+                }
+            ],
+            "answer": [
+                {
+                    "left": "Stoic",
+                    "right": "Enduring pain without complaining"
+                },
+                {
+                    "left": "Volatile",
+                    "right": "Liable to change rapidly and unpredictably"
+                },
+                {
+                    "left": "Resilient",
+                    "right": "Able to recoil or spring back into shape"
+                },
+                {
+                    "left": "Apathetic",
+                    "right": "Showing or feeling no interest or concern"
+                }
+            ],
+            "hint": "Describing human character",
+            "voice_input": false,
+            "example_sentence": "Despite the volatile market, the investor remained stoic, displaying a resilient nature that his peers deeply admired.",
+            "media": {}
+        },
+        {
+            "id": "EC1VS3_084",
+            "type": "sentence_ordering",
+            "question": "Reorder the words to describe a common human emotional response.",
+            "words": [
+                "The",
+                "survivor",
+                "guilt",
+                "he",
+                "experienced",
+                "was",
+                "exacerbated",
+                "by",
+                "the",
+                "profound",
+                "sense",
+                "of",
+                "isolation",
+                "in",
+                "the",
+                "aftermath"
+            ],
+            "answer": "The survivor guilt he experienced was exacerbated by the profound sense of isolation in the aftermath",
+            "hint": "Post-traumatic emotional state",
+            "voice_input": false,
+            "example_sentence": "The survivor guilt he experienced was exacerbated by the profound sense of isolation in the aftermath.",
+            "media": {}
+        },
+        {
+            "id": "EC1VS3_085",
+            "type": "pronunciation",
+            "question": "Read the following sentence aloud: 'Her magnanimous gesture toward her former rival effectively neutralized years of deep-seated animosity within the department.'",
+            "answer": "",
+            "hint": "Focus on 'Magnanimous'",
+            "voice_input": true,
+            "example_sentence": "Her magnanimous gesture toward her former rival effectively neutralized years of deep-seated animosity within the department.",
+            "media": {}
+        },
+        {
+            "id": "EC1VS3_086",
+            "type": "tap_fill",
+            "question": "The therapist noted that the patient tended to ___ his true feelings behind a mask of cynical humor.",
+            "options": [
+                "conceal",
+                "cancel",
+                "confide",
+                "concede"
+            ],
+            "answer": "conceal",
+            "hint": "To hide or keep secret",
+            "voice_input": false,
+            "example_sentence": "The therapist noted that the patient tended to conceal his true feelings behind a mask of cynical humor.",
+            "media": {}
+        },
+        {
+            "id": "EC1VS3_087",
+            "type": "multiple_choice",
+            "question": "If someone is described as 'aloof', how are they behaving?",
+            "options": [
+                "Cool and distant in manner",
+                "Extremely helpful and friendly",
+                "Aggressive and prone to conflict"
+            ],
+            "answer": "Cool and distant in manner",
+            "hint": "Emotionally detached",
+            "voice_input": false,
+            "example_sentence": "Although he was highly respected for his intellect, many colleagues found his aloof demeanor difficult to connect with.",
+            "media": {}
+        },
+        {
+            "id": "EC1VS3_088",
+            "type": "matching",
+            "question": "Match the phrasal verbs of emotion with their meanings.",
+            "pairs": [
+                {
+                    "left": "Bottle up",
+                    "right": "To repress emotions over time"
+                },
+                {
+                    "left": "Flare up",
+                    "right": "To suddenly become angry"
+                },
+                {
+                    "left": "Lash out",
+                    "right": "To attack someone verbally or physically"
+                },
+                {
+                    "left": "Dwell on",
+                    "right": "To think about something unpleasant for too long"
+                }
+            ],
+            "answer": [
+                {
+                    "left": "Bottle up",
+                    "right": "To repress emotions over time"
+                },
+                {
+                    "left": "Flare up",
+                    "right": "To suddenly become angry"
+                },
+                {
+                    "left": "Lash out",
+                    "right": "To attack someone verbally or physically"
+                },
+                {
+                    "left": "Dwell on",
+                    "right": "To think about something unpleasant for too long"
+                }
+            ],
+            "hint": "Managing and expressing feelings",
+            "voice_input": false,
+            "example_sentence": "If you continue to bottle up your frustration, you are more likely to lash out at the wrong person when your temper finally flares up.",
+            "media": {}
+        },
+        {
+            "id": "EC1VS3_089",
+            "type": "tap_fill",
+            "question": "The news of the tragedy left the entire community in a state of ___ shock and disbelief.",
+            "options": [
+                "profound",
+                "prolific",
+                "profuse",
+                "protracted"
+            ],
+            "answer": "profound",
+            "hint": "Very great or intense",
+            "voice_input": false,
+            "example_sentence": "The news of the tragedy left the entire community in a state of profound shock and disbelief.",
+            "media": {}
+        },
+        {
+            "id": "EC1VS3_090",
+            "type": "sentence_ordering",
+            "question": "Reorder the words to form a statement about social psychology.",
+            "words": [
+                "Individuals",
+                "often",
+                "subconsciously",
+                "mimic",
+                "the",
+                "behavior",
+                "of",
+                "their",
+                "peers",
+                "to",
+                "gain",
+                "a",
+                "sense",
+                "of",
+                "social",
+                "validation"
+            ],
+            "answer": "Individuals often subconsciously mimic the behavior of their peers to gain a sense of social validation",
+            "hint": "Fitting in with others",
+            "voice_input": false,
+            "example_sentence": "Individuals often subconsciously mimic the behavior of their peers to gain a sense of social validation.",
+            "media": {}
+        },
+        {
+            "id": "EC1VS3_091",
+            "type": "multiple_choice",
+            "question": "What is the meaning of 'empathy' as opposed to 'sympathy'?",
+            "options": [
+                "Understanding and sharing another's feelings",
+                "Feeling pity for someone else's misfortune",
+                "A complete lack of emotional response"
+            ],
+            "answer": "Understanding and sharing another's feelings",
+            "hint": "Walking in their shoes",
+            "voice_input": false,
+            "example_sentence": "Effective leadership requires a high degree of empathy to understand the diverse perspectives of a multi-generational workforce.",
+            "media": {}
+        },
+        {
+            "id": "EC1VS3_092",
+            "type": "tap_fill",
+            "question": "Her apology felt ___ , as if she were merely reading from a script prepared by her public relations team.",
+            "options": [
+                "hollow",
+                "shallow",
+                "narrow",
+                "mellow"
+            ],
+            "answer": "hollow",
+            "hint": "Lacking sincerity or value",
+            "voice_input": false,
+            "example_sentence": "Her apology felt hollow, as if she were merely reading from a script prepared by her public relations team.",
+            "media": {}
+        },
+        {
+            "id": "EC1VS3_093",
+            "type": "matching",
+            "question": "Match the emotional binomials with their definitions.",
+            "pairs": [
+                {
+                    "left": "Peace and quiet",
+                    "right": "Tranquility and freedom from disturbance"
+                },
+                {
+                    "left": "Sick and tired",
+                    "right": "Thoroughly weary or discouraged"
+                },
+                {
+                    "left": "Leaps and bounds",
+                    "right": "Rapid and significant progress"
+                },
+                {
+                    "left": "Short and sweet",
+                    "right": "Brief but pleasant"
+                }
+            ],
+            "answer": [
+                {
+                    "left": "Peace and quiet",
+                    "right": "Tranquility and freedom from disturbance"
+                },
+                {
+                    "left": "Sick and tired",
+                    "right": "Thoroughly weary or discouraged"
+                },
+                {
+                    "left": "Leaps and bounds",
+                    "right": "Rapid and significant progress"
+                },
+                {
+                    "left": "Short and sweet",
+                    "right": "Brief but pleasant"
+                }
+            ],
+            "hint": "Common emotional expressions",
+            "voice_input": false,
+            "example_sentence": "After being sick and tired of the noisy city, she moved to the countryside to find some peace and quiet.",
+            "media": {}
+        },
+        {
+            "id": "EC1VS3_094",
+            "type": "tap_fill",
+            "question": "There was a(n) ___ tension in the room as the two rivals waited for the final results to be announced.",
+            "options": [
+                "palpable",
+                "audible",
+                "tangible",
+                "feasible"
+            ],
+            "answer": "palpable",
+            "hint": "So intense as to seem tangible",
+            "voice_input": false,
+            "example_sentence": "There was a palpable tension in the room as the two rivals waited for the final results to be announced.",
+            "media": {}
+        },
+        {
+            "id": "EC1VS3_095",
+            "type": "pronunciation",
+            "question": "Read the following sentence aloud: 'The existential angst of the protagonist is a recurring theme that resonates with modern audiences facing an uncertain future.'",
+            "answer": "",
+            "hint": "Focus on 'Existential angst'",
+            "voice_input": true,
+            "example_sentence": "The existential angst of the protagonist is a recurring theme that resonates with modern audiences facing an uncertain future.",
+            "media": {}
+        },
+        {
+            "id": "EC1VS3_096",
+            "type": "tap_fill",
+            "question": "He gave a ___ smile, suggesting that he knew more about the situation than he was willing to admit.",
+            "options": [
+                "knowing",
+                "smart",
+                "wise",
+                "bright"
+            ],
+            "answer": "knowing",
+            "hint": "Suggesting secret knowledge",
+            "voice_input": false,
+            "example_sentence": "He gave a knowing smile, suggesting that he knew more about the situation than he was willing to admit.",
+            "media": {}
+        },
+        {
+            "id": "EC1VS3_097",
+            "type": "multiple_choice",
+            "question": "What does the adjective 'mercurial' imply about a person's temperament?",
+            "options": [
+                "Subject to sudden or unpredictable changes",
+                "Steadfast and reliable in all circumstances",
+                "Extremely slow and methodical in decision making"
+            ],
+            "answer": "Subject to sudden or unpredictable changes",
+            "hint": "Changeable like mercury",
+            "voice_input": false,
+            "example_sentence": "The director was famous for his mercurial temperament, often switching from elation to rage within minutes.",
+            "media": {}
+        },
+        {
+            "id": "EC1VS3_098",
+            "type": "sentence_ordering",
+            "question": "Reorder the words to form a statement about emotional intelligence.",
+            "words": [
+                "Emotional",
+                "intelligence",
+                "encompasses",
+                "the",
+                "ability",
+                "to",
+                "regulate",
+                "one's",
+                "own",
+                "emotions",
+                "while",
+                "navigating",
+                "the",
+                "complexities",
+                "of",
+                "social",
+                "interaction"
+            ],
+            "answer": "Emotional intelligence encompasses the ability to regulate one's own emotions while navigating the complexities of social interaction",
+            "hint": "Managing internal and external states",
+            "voice_input": false,
+            "example_sentence": "Emotional intelligence encompasses the ability to regulate one's own emotions while navigating the complexities of social interaction.",
+            "media": {}
+        },
+        {
+            "id": "EC1VS3_099",
+            "type": "matching",
+            "question": "Match the emotional states with their nuanced descriptions.",
+            "pairs": [
+                {
+                    "left": "Euphoria",
+                    "right": "A feeling of intense excitement and happiness"
+                },
+                {
+                    "left": "Melancholy",
+                    "right": "A deep, pensive, and long-lasting sadness"
+                },
+                {
+                    "left": "Ambivalence",
+                    "right": "Having mixed feelings or contradictory ideas"
+                },
+                {
+                    "left": "Ennui",
+                    "right": "A feeling of listlessness and dissatisfaction from lack of excitement"
+                }
+            ],
+            "answer": [
+                {
+                    "left": "Euphoria",
+                    "right": "A feeling of intense excitement and happiness"
+                },
+                {
+                    "left": "Melancholy",
+                    "right": "A deep, pensive, and long-lasting sadness"
+                },
+                {
+                    "left": "Ambivalence",
+                    "right": "Having mixed feelings or contradictory ideas"
+                },
+                {
+                    "left": "Ennui",
+                    "right": "A feeling of listlessness and dissatisfaction from lack of excitement"
+                }
+            ],
+            "hint": "Nuanced emotional vocabulary",
+            "voice_input": false,
+            "example_sentence": "The initial euphoria of the promotion was soon replaced by an underlying ambivalence about the increased workload and constant ennui of administrative tasks.",
+            "media": {}
+        },
+        {
+            "id": "EC1VS3_100",
+            "type": "tap_fill",
+            "question": "It is often said that time is a great ___, capable of softening even the harshest of memories.",
+            "options": [
+                "healer",
+                "fixer",
+                "mender",
+                "curer"
+            ],
+            "answer": "healer",
+            "hint": "Person or thing that restores health/peace",
+            "voice_input": false,
+            "example_sentence": "It is often said that time is a great healer, capable of softening even the harshest of memories.",
+            "media": {}
+        },
+        {
+            "id": "EC1VS3_101",
+            "type": "tap_fill",
+            "question": "The rise of populist movements has significantly ___ the traditional political landscape, challenging the hegemony of established centrist parties.",
+            "options": [
+                "upended",
+                "upturned",
+                "upgraded",
+                "uprooted"
+            ],
+            "answer": "upended",
+            "hint": "Overturned or disrupted completely",
+            "voice_input": false,
+            "example_sentence": "The rise of populist movements has significantly upended the traditional political landscape, challenging the hegemony of established centrist parties.",
+            "media": {}
+        },
+        {
+            "id": "EC1VS3_102",
+            "type": "multiple_choice",
+            "question": "What does the term 'gerrymandering' refer to in a political context?",
+            "options": [
+                "Manipulating electoral boundaries for political advantage",
+                "The process of counting votes in a remote district",
+                "A formal agreement between two opposing political factions"
+            ],
+            "answer": "Manipulating electoral boundaries for political advantage",
+            "hint": "Unfair district reshaping",
+            "voice_input": false,
+            "example_sentence": "Critics argue that gerrymandering undermines the democratic process by creating safe seats that discourage genuine competition.",
+            "media": {}
+        },
+        {
+            "id": "EC1VS3_103",
+            "type": "matching",
+            "question": "Match the political systems with their defining characteristics.",
+            "pairs": [
+                {
+                    "left": "Meritocracy",
+                    "right": "Power held by people selected on the basis of their ability"
+                },
+                {
+                    "left": "Oligarchy",
+                    "right": "A small group of people having control of a country"
+                },
+                {
+                    "left": "Theocracy",
+                    "right": "A system of government in which priests rule in the name of God"
+                },
+                {
+                    "left": "Technocracy",
+                    "right": "Management of a country by technical experts"
+                }
+            ],
+            "answer": [
+                {
+                    "left": "Meritocracy",
+                    "right": "Power held by people selected on the basis of their ability"
+                },
+                {
+                    "left": "Oligarchy",
+                    "right": "A small group of people having control of a country"
+                },
+                {
+                    "left": "Theocracy",
+                    "right": "A system of government in which priests rule in the name of God"
+                },
+                {
+                    "left": "Technocracy",
+                    "right": "Management of a country by technical experts"
+                }
+            ],
+            "hint": "Types of governance",
+            "voice_input": false,
+            "example_sentence": "While the nation claims to be a meritocracy, many citizens believe it has devolved into an oligarchy controlled by a few wealthy families.",
+            "media": {}
+        },
+        {
+            "id": "EC1VS3_104",
+            "type": "sentence_ordering",
+            "question": "Reorder the words to form a complex statement about international diplomacy.",
+            "words": [
+                "Diplomatic",
+                "efforts",
+                "to",
+                "resolve",
+                "the",
+                "conflict",
+                "were",
+                "thwarted",
+                "by",
+                "the",
+                "unwavering",
+                "intransigence",
+                "of",
+                "the",
+                "warring",
+                "factions"
+            ],
+            "answer": "Diplomatic efforts to resolve the conflict were thwarted by the unwavering intransigence of the warring factions",
+            "hint": "Refusal to compromise",
+            "voice_input": false,
+            "example_sentence": "Diplomatic efforts to resolve the conflict were thwarted by the unwavering intransigence of the warring factions.",
+            "media": {}
+        },
+        {
+            "id": "EC1VS3_105",
+            "type": "pronunciation",
+            "question": "Read the following sentence aloud: 'The surreptitious implementation of protectionist policies has significantly strained the bilateral trade agreement between the two neighboring superpowers.'",
+            "answer": "",
+            "hint": "Focus on 'Surreptitious'",
+            "voice_input": true,
+            "example_sentence": "The surreptitious implementation of protectionist policies has significantly strained the bilateral trade agreement between the two neighboring superpowers.",
+            "media": {}
+        },
+        {
+            "id": "EC1VS3_106",
+            "type": "tap_fill",
+            "question": "The treaty was intended to ensure the ___ of the region, but minor border skirmishes continue to threaten the fragile peace.",
+            "options": [
+                "stability",
+                "ability",
+                "viability",
+                "pliability"
+            ],
+            "answer": "stability",
+            "hint": "The state of being steady",
+            "voice_input": false,
+            "example_sentence": "The treaty was intended to ensure the stability of the region, but minor border skirmishes continue to threaten the fragile peace.",
+            "media": {}
+        },
+        {
+            "id": "EC1VS3_107",
+            "type": "multiple_choice",
+            "question": "What is the primary implication of a 'sovereign' nation?",
+            "options": [
+                "It possesses full power and authority over its own affairs",
+                "It is economically dependent on a larger neighboring state",
+                "It follows a specific religious doctrine as its primary law"
+            ],
+            "answer": "It possesses full power and authority over its own affairs",
+            "hint": "Self-governing independence",
+            "voice_input": false,
+            "example_sentence": "Respect for sovereign borders is a fundamental principle of international law, yet it is frequently challenged during geopolitical crises.",
+            "media": {}
+        },
+        {
+            "id": "EC1VS3_108",
+            "type": "matching",
+            "question": "Match the sociopolitical nouns with their synonyms or near-synonyms.",
+            "pairs": [
+                {
+                    "left": "Amnesty",
+                    "right": "An official pardon for people convicted of political offenses"
+                },
+                {
+                    "left": "Censure",
+                    "right": "The formal expression of severe disapproval"
+                },
+                {
+                    "left": "Manifesto",
+                    "right": "A public declaration of policy and aims"
+                },
+                {
+                    "left": "Coalition",
+                    "right": "A temporary alliance for combined action"
+                }
+            ],
+            "answer": [
+                {
+                    "left": "Amnesty",
+                    "right": "An official pardon for people convicted of political offenses"
+                },
+                {
+                    "left": "Censure",
+                    "right": "The formal expression of severe disapproval"
+                },
+                {
+                    "left": "Manifesto",
+                    "right": "A public declaration of policy and aims"
+                },
+                {
+                    "left": "Coalition",
+                    "right": "A temporary alliance for combined action"
+                }
+            ],
+            "hint": "Political actions and groups",
+            "voice_input": false,
+            "example_sentence": "The party's radical manifesto made it difficult to form a stable coalition, eventually leading to a formal censure of its leadership.",
+            "media": {}
+        },
+        {
+            "id": "EC1VS3_109",
+            "type": "tap_fill",
+            "question": "The ambassador's comments were widely seen as a(n) ___ to the sovereignty of the host nation, sparking a diplomatic row.",
+            "options": [
+                "affront",
+                "effort",
+                "offset",
+                "aspect"
+            ],
+            "answer": "affront",
+            "hint": "An action that causes outrage",
+            "voice_input": false,
+            "example_sentence": "The ambassador's comments were widely seen as an affront to the sovereignty of the host nation, sparking a diplomatic row.",
+            "media": {}
+        },
+        {
+            "id": "EC1VS3_110",
+            "type": "sentence_ordering",
+            "question": "Reorder the words to form a complex sentence regarding social welfare.",
+            "words": [
+                "Universal",
+                "basic",
+                "income",
+                "is",
+                "often",
+                "touted",
+                "as",
+                "a",
+                "remedy",
+                "for",
+                "the",
+                "systemic",
+                "inequality",
+                "exacerbated",
+                "by",
+                "rapid",
+                "technological",
+                "advancement"
+            ],
+            "answer": "Universal basic income is often touted as a remedy for the systemic inequality exacerbated by rapid technological advancement",
+            "hint": "Solution for societal imbalance",
+            "voice_input": false,
+            "example_sentence": "Universal basic income is often touted as a remedy for the systemic inequality exacerbated by rapid technological advancement.",
+            "media": {}
+        },
+        {
+            "id": "EC1VS3_111",
+            "type": "multiple_choice",
+            "question": "If a government is described as 'autocratic', what does it mean?",
+            "options": [
+                "One person possesses absolute power",
+                "Power is divided equally among three branches",
+                "All decisions are made through direct public voting"
+            ],
+            "answer": "One person possesses absolute power",
+            "hint": "Rule by one",
+            "voice_input": false,
+            "example_sentence": "The transition from an autocratic regime to a functional democracy is often a long and volatile process.",
+            "media": {}
+        },
+        {
+            "id": "EC1VS3_112",
+            "type": "tap_fill",
+            "question": "The political candidate tried to ___ favor with the youth vote by promising to cancel all student debt.",
+            "options": [
+                "curry",
+                "carry",
+                "hurry",
+                "marry"
+            ],
+            "answer": "curry",
+            "hint": "Fixed idiom: ___ favor",
+            "voice_input": false,
+            "example_sentence": "The political candidate tried to curry favor with the youth vote by promising to cancel all student debt.",
+            "media": {}
+        },
+        {
+            "id": "EC1VS3_113",
+            "type": "matching",
+            "question": "Match the binomials used in political discourse.",
+            "pairs": [
+                {
+                    "left": "Law and",
+                    "right": "Order"
+                },
+                {
+                    "left": "Checks and",
+                    "right": "Balances"
+                },
+                {
+                    "left": "Win or",
+                    "right": "Lose"
+                },
+                {
+                    "left": "By and",
+                    "right": "Large"
+                }
+            ],
+            "answer": [
+                {
+                    "left": "Law and",
+                    "right": "Order"
+                },
+                {
+                    "left": "Checks and",
+                    "right": "Balances"
+                },
+                {
+                    "left": "Win or",
+                    "right": "Lose"
+                },
+                {
+                    "left": "By and",
+                    "right": "Large"
+                }
+            ],
+            "hint": "Common political pairs",
+            "voice_input": false,
+            "example_sentence": "By and large, the system of checks and balances prevents any single branch of government from becoming too powerful.",
+            "media": {}
+        },
+        {
+            "id": "EC1VS3_114",
+            "type": "tap_fill",
+            "question": "The government was forced to ___ a state of emergency following the catastrophic floods that devastated the coastal provinces.",
+            "options": [
+                "declare",
+                "claim",
+                "announce",
+                "remark"
+            ],
+            "answer": "declare",
+            "hint": "To formally state something",
+            "voice_input": false,
+            "example_sentence": "The government was forced to declare a state of emergency following the catastrophic floods that devastated the coastal provinces.",
+            "media": {}
+        },
+        {
+            "id": "EC1VS3_115",
+            "type": "pronunciation",
+            "question": "Read the following sentence aloud: 'The disenfranchisement of rural populations remains a significant impediment to achieving equitable socio-economic development across the continent.'",
+            "answer": "",
+            "hint": "Focus on 'Disenfranchisement'",
+            "voice_input": true,
+            "example_sentence": "The disenfranchisement of rural populations remains a significant impediment to achieving equitable socio-economic development across the continent.",
+            "media": {}
+        },
+        {
+            "id": "EC1VS3_116",
+            "type": "tap_fill",
+            "question": "The opposition party has been accused of ___ the public with misinformation regarding the new tax legislation.",
+            "options": [
+                "inciting",
+                "inviting",
+                "igniting",
+                "incising"
+            ],
+            "answer": "inciting",
+            "hint": "Stirring up or provoking",
+            "voice_input": false,
+            "example_sentence": "The opposition party has been accused of inciting the public with misinformation regarding the new tax legislation.",
+            "media": {}
+        },
+        {
+            "id": "EC1VS3_117",
+            "type": "multiple_choice",
+            "question": "What is the meaning of 'realpolitik'?",
+            "options": [
+                "Practical politics based on power rather than ideals",
+                "A political system based entirely on social media trends",
+                "The theoretical study of ancient Greek city-states"
+            ],
+            "answer": "Practical politics based on power rather than ideals",
+            "hint": "Pragmatic power politics",
+            "voice_input": false,
+            "example_sentence": "His approach to foreign policy was a masterclass in realpolitik, prioritizing national security over abstract moral concerns.",
+            "media": {}
+        },
+        {
+            "id": "EC1VS3_118",
+            "type": "sentence_ordering",
+            "question": "Reorder the words to form a complex statement about civil unrest.",
+            "words": [
+                "The",
+                "prolonged",
+                "economic",
+                "stagnation",
+                "served",
+                "as",
+                "a",
+                "catalyst",
+                "for",
+                "widespread",
+                "civil",
+                "unrest",
+                "and",
+                "demands",
+                "for",
+                "regime",
+                "change"
+            ],
+            "answer": "The prolonged economic stagnation served as a catalyst for widespread civil unrest and demands for regime change",
+            "hint": "Sparking a revolution",
+            "voice_input": false,
+            "example_sentence": "The prolonged economic stagnation served as a catalyst for widespread civil unrest and demands for regime change.",
+            "media": {}
+        },
+        {
+            "id": "EC1VS3_119",
+            "type": "matching",
+            "question": "Match the geopolitical phrasal verbs with their synonyms.",
+            "pairs": [
+                {
+                    "left": "Clamp down on",
+                    "right": "To suppress or restrict strictly"
+                },
+                {
+                    "left": "Break away from",
+                    "right": "To become separate from a larger group"
+                },
+                {
+                    "left": "Bow out of",
+                    "right": "To withdraw from a commitment or role"
+                },
+                {
+                    "left": "Build up",
+                    "right": "To increase or strengthen over time"
+                }
+            ],
+            "answer": [
+                {
+                    "left": "Clamp down on",
+                    "right": "To suppress or restrict strictly"
+                },
+                {
+                    "left": "Break away from",
+                    "right": "To become separate from a larger group"
+                },
+                {
+                    "left": "Bow out of",
+                    "right": "To withdraw from a commitment or role"
+                },
+                {
+                    "left": "Build up",
+                    "right": "To increase or strengthen over time"
+                }
+            ],
+            "hint": "Verbs of political movement",
+            "voice_input": false,
+            "example_sentence": "The government decided to clamp down on protests after several regions attempted to break away from the central union.",
+            "media": {}
+        },
+        {
+            "id": "EC1VS3_120",
+            "type": "tap_fill",
+            "question": "Corruption is so ___ in the local administration that it has become nearly impossible for small businesses to operate legally.",
+            "options": [
+                "entrenched",
+                "enclosed",
+                "enchanted",
+                "enhanced"
+            ],
+            "answer": "entrenched",
+            "hint": "Firmly established and difficult to change",
+            "voice_input": false,
+            "example_sentence": "Corruption is so entrenched in the local administration that it has become nearly impossible for small businesses to operate legally.",
+            "media": {}
+        },
+        {
+            "id": "EC1VS3_121",
+            "type": "tap_fill",
+            "question": "The central bank decided to ___ interest rates in a desperate attempt to curb the runaway inflation threatening the national currency.",
+            "options": [
+                "hike",
+                "hoist",
+                "lift",
+                "climb"
+            ],
+            "answer": "hike",
+            "hint": "A sharp increase",
+            "voice_input": false,
+            "example_sentence": "The central bank decided to hike interest rates in a desperate attempt to curb the runaway inflation threatening the national currency.",
+            "media": {}
+        },
+        {
+            "id": "EC1VS3_122",
+            "type": "multiple_choice",
+            "question": "What does 'liquidity' refer to in a financial market context?",
+            "options": [
+                "The ease with which assets can be converted into cash",
+                "The total amount of debt owed by a government",
+                "The physical movement of gold between international banks"
+            ],
+            "answer": "The ease with which assets can be converted into cash",
+            "hint": "Availability of cash",
+            "voice_input": false,
+            "example_sentence": "During the credit crunch, many firms went bankrupt not because they lacked assets, but because they lacked sufficient liquidity.",
+            "media": {}
+        },
+        {
+            "id": "EC1VS3_123",
+            "type": "matching",
+            "question": "Match the economic indicators with their definitions.",
+            "pairs": [
+                {
+                    "left": "GDP",
+                    "right": "Total value of goods and services produced in a country"
+                },
+                {
+                    "left": "Fiscal Deficit",
+                    "right": "When a government's spending exceeds its revenue"
+                },
+                {
+                    "left": "Trade Surplus",
+                    "right": "When a country exports more than it imports"
+                },
+                {
+                    "left": "CPI",
+                    "right": "A measure of the average change in prices over time"
+                }
+            ],
+            "answer": [
+                {
+                    "left": "GDP",
+                    "right": "Total value of goods and services produced in a country"
+                },
+                {
+                    "left": "Fiscal Deficit",
+                    "right": "When a government's spending exceeds its revenue"
+                },
+                {
+                    "left": "Trade Surplus",
+                    "right": "When a country exports more than it imports"
+                },
+                {
+                    "left": "CPI",
+                    "right": "A measure of the average change in prices over time"
+                }
+            ],
+            "hint": "Macroeconomic measurement tools",
+            "voice_input": false,
+            "example_sentence": "The rising CPI suggests that inflation is becoming entrenched, despite the healthy growth in the annual GDP.",
+            "media": {}
+        },
+        {
+            "id": "EC1VS3_124",
+            "type": "sentence_ordering",
+            "question": "Reorder the words to form a statement about market volatility.",
+            "words": [
+                "Investors",
+                "are",
+                "bracing",
+                "themselves",
+                "for",
+                "a",
+                "period",
+                "of",
+                "unprecedented",
+                "volatility",
+                "following",
+                "the",
+                "collapse",
+                "of",
+                "the",
+                "banking",
+                "sector"
+            ],
+            "answer": "Investors are bracing themselves for a period of unprecedented volatility following the collapse of the banking sector",
+            "hint": "Preparing for instability",
+            "voice_input": false,
+            "example_sentence": "Investors are bracing themselves for a period of unprecedented volatility following the collapse of the banking sector.",
+            "media": {}
+        },
+        {
+            "id": "EC1VS3_125",
+            "type": "pronunciation",
+            "question": "Read the following sentence aloud: 'Quantitative easing was implemented to stimulate the economy by injecting liquidity directly into the financial system.'",
+            "answer": "",
+            "hint": "Focus on 'Quantitative'",
+            "voice_input": true,
+            "example_sentence": "Quantitative easing was implemented to stimulate the economy by injecting liquidity directly into the financial system.",
+            "media": {}
+        },
+        {
+            "id": "EC1VS3_126",
+            "type": "tap_fill",
+            "question": "Economists fear that the current housing bubble is about to ___, which would lead to a significant decline in middle-class wealth.",
+            "options": [
+                "burst",
+                "pop",
+                "crack",
+                "snap"
+            ],
+            "answer": "burst",
+            "hint": "Sudden economic collapse",
+            "voice_input": false,
+            "example_sentence": "Economists fear that the current housing bubble is about to burst, which would lead to a significant decline in middle-class wealth.",
+            "media": {}
+        },
+        {
+            "id": "EC1VS3_127",
+            "type": "multiple_choice",
+            "question": "What is the primary characteristic of a 'bear market'?",
+            "options": [
+                "A period of falling stock prices and widespread pessimism",
+                "A surge in high-risk technology startup investments",
+                "A stable environment with low inflation and high employment"
+            ],
+            "answer": "A period of falling stock prices and widespread pessimism",
+            "hint": "Downward market trend",
+            "voice_input": false,
+            "example_sentence": "While the bull market of the last decade made many rich, the current bear market is testing the nerves of even seasoned investors.",
+            "media": {}
+        },
+        {
+            "id": "EC1VS3_128",
+            "type": "matching",
+            "question": "Match the verbs with their financial collocations.",
+            "pairs": [
+                {
+                    "left": "Default",
+                    "right": "on a sovereign loan"
+                },
+                {
+                    "left": "Diversify",
+                    "right": "your investment portfolio"
+                },
+                {
+                    "left": "Incur",
+                    "right": "substantial financial losses"
+                },
+                {
+                    "left": "Hedge",
+                    "right": "against market fluctuations"
+                }
+            ],
+            "answer": [
+                {
+                    "left": "Default",
+                    "right": "on a sovereign loan"
+                },
+                {
+                    "left": "Diversify",
+                    "right": "your investment portfolio"
+                },
+                {
+                    "left": "Incur",
+                    "right": "substantial financial losses"
+                },
+                {
+                    "left": "Hedge",
+                    "right": "against market fluctuations"
+                }
+            ],
+            "hint": "Risk management verbs",
+            "voice_input": false,
+            "example_sentence": "To minimize risk, it is essential to diversify your portfolio and find ways to hedge against currency devaluation.",
+            "media": {}
+        },
+        {
+            "id": "EC1VS3_129",
+            "type": "tap_fill",
+            "question": "The government announced a series of ___ measures, including deep cuts to public services, to address the mounting debt.",
+            "options": [
+                "austerity",
+                "severity",
+                "integrity",
+                "adversity"
+            ],
+            "answer": "austerity",
+            "hint": "Difficult economic conditions/cuts",
+            "voice_input": false,
+            "example_sentence": "The government announced a series of austerity measures, including deep cuts to public services, to address the mounting debt.",
+            "media": {}
+        },
+        {
+            "id": "EC1VS3_130",
+            "type": "sentence_ordering",
+            "question": "Reorder the words to describe a corporate strategy.",
+            "words": [
+                "The",
+                "company",
+                "plans",
+                "to",
+                "leverage",
+                "its",
+                "assets",
+                "to",
+                "finance",
+                "the",
+                "acquisition",
+                "of",
+                "its",
+                "main",
+                "competitor"
+            ],
+            "answer": "The company plans to leverage its assets to finance the acquisition of its main competitor",
+            "hint": "Using debt for growth",
+            "voice_input": false,
+            "example_sentence": "The company plans to leverage its assets to finance the acquisition of its main competitor.",
+            "media": {}
+        },
+        {
+            "id": "EC1VS3_131",
+            "type": "multiple_choice",
+            "question": "If an economy is 'stagnating', what is happening to it?",
+            "options": [
+                "It is showing little to no growth",
+                "It is growing at an uncontrollably fast rate",
+                "It is transitioning from industry to services"
+            ],
+            "answer": "It is showing little to no growth",
+            "hint": "Stuck in place",
+            "voice_input": false,
+            "example_sentence": "Despite the tech boom, the manufacturing sector has been stagnating for over a decade.",
+            "media": {}
+        },
+        {
+            "id": "EC1VS3_132",
+            "type": "tap_fill",
+            "question": "After the scandal, the value of the firm's shares ___ overnight, wiping out millions in shareholder value.",
+            "options": [
+                "plummeted",
+                "plunged",
+                "lowered",
+                "dropped"
+            ],
+            "answer": "plummeted",
+            "hint": "To fall straight down very quickly",
+            "voice_input": false,
+            "example_sentence": "After the scandal, the value of the firm's shares plummeted overnight, wiping out millions in shareholder value.",
+            "media": {}
+        },
+        {
+            "id": "EC1VS3_133",
+            "type": "matching",
+            "question": "Match the financial binomials with their meanings.",
+            "pairs": [
+                {
+                    "left": "Boom and bust",
+                    "right": "A period of great prosperity followed by a depression"
+                },
+                {
+                    "left": "Profit and loss",
+                    "right": "An account showing the net profit or loss of a business"
+                },
+                {
+                    "left": "Supply and demand",
+                    "right": "The forces that determine market prices"
+                },
+                {
+                    "left": "Risk and reward",
+                    "right": "The relationship between potential loss and gain"
+                }
+            ],
+            "answer": [
+                {
+                    "left": "Boom and bust",
+                    "right": "A period of great prosperity followed by a depression"
+                },
+                {
+                    "left": "Profit and loss",
+                    "right": "An account showing the net profit or loss of a business"
+                },
+                {
+                    "left": "Supply and demand",
+                    "right": "The forces that determine market prices"
+                },
+                {
+                    "left": "Risk and reward",
+                    "right": "The relationship between potential loss and gain"
+                }
+            ],
+            "hint": "Fundamental economic pairs",
+            "voice_input": false,
+            "example_sentence": "The cyclical nature of the tech industry often leads to a boom and bust pattern that investors must navigate carefully.",
+            "media": {}
+        },
+        {
+            "id": "EC1VS3_134",
+            "type": "tap_fill",
+            "question": "The newly proposed tax law is designed to close the ___ that allowed corporations to avoid paying their fair share.",
+            "options": [
+                "loopholes",
+                "gateways",
+                "entries",
+                "windows"
+            ],
+            "answer": "loopholes",
+            "hint": "Ambiguities used to avoid rules",
+            "voice_input": false,
+            "example_sentence": "The newly proposed tax law is designed to close the loopholes that allowed corporations to avoid paying their fair share.",
+            "media": {}
+        },
+        {
+            "id": "EC1VS3_135",
+            "type": "pronunciation",
+            "question": "Read the following sentence aloud: 'The fiduciary responsibilities of investment managers are paramount in maintaining the integrity of the pension fund.'",
+            "answer": "",
+            "hint": "Focus on 'Paramount'",
+            "voice_input": true,
+            "example_sentence": "The fiduciary responsibilities of investment managers are paramount in maintaining the integrity of the pension fund.",
+            "media": {}
+        },
+        {
+            "id": "EC1VS3_136",
+            "type": "tap_fill",
+            "question": "The currency has been ___ against the dollar due to political instability in the region.",
+            "options": [
+                "depreciating",
+                "declining",
+                "decreasing",
+                "descending"
+            ],
+            "answer": "depreciating",
+            "hint": "Diminishing in value over time",
+            "voice_input": false,
+            "example_sentence": "The currency has been depreciating against the dollar due to political instability in the region.",
+            "media": {}
+        },
+        {
+            "id": "EC1VS3_137",
+            "type": "multiple_choice",
+            "question": "What is 'arbitrage'?",
+            "options": [
+                "Simultaneously buying and selling in different markets to profit from price differences",
+                "The process of settling a legal dispute outside of a courtroom",
+                "The total valuation of a company's outstanding shares"
+            ],
+            "answer": "Simultaneously buying and selling in different markets to profit from price differences",
+            "hint": "Profiting from price gaps",
+            "voice_input": false,
+            "example_sentence": "High-frequency traders use complex algorithms to exploit tiny arbitrage opportunities in milliseconds.",
+            "media": {}
+        },
+        {
+            "id": "EC1VS3_138",
+            "type": "sentence_ordering",
+            "question": "Reorder the words to form a statement about fiscal policy.",
+            "words": [
+                "The",
+                "government",
+                "is",
+                "considering",
+                "a",
+                "stimulus",
+                "package",
+                "to",
+                "bolster",
+                "consumer",
+                "spending",
+                "and",
+                "prevent",
+                "a",
+                "recession"
+            ],
+            "answer": "The government is considering a stimulus package to bolster consumer spending and prevent a recession",
+            "hint": "Boosting the economy",
+            "voice_input": false,
+            "example_sentence": "The government is considering a stimulus package to bolster consumer spending and prevent a recession.",
+            "media": {}
+        },
+        {
+            "id": "EC1VS3_139",
+            "type": "matching",
+            "question": "Match the financial phrasal verbs with their synonyms.",
+            "pairs": [
+                {
+                    "left": "Bail out",
+                    "right": "To rescue a business from financial collapse"
+                },
+                {
+                    "left": "Write down",
+                    "right": "To reduce the recorded value of an asset"
+                },
+                {
+                    "left": "Pay off",
+                    "right": "To settle a debt in full"
+                },
+                {
+                    "left": "Siphon off",
+                    "right": "To illegally take money from an organization"
+                }
+            ],
+            "answer": [
+                {
+                    "left": "Bail out",
+                    "right": "To rescue a business from financial collapse"
+                },
+                {
+                    "left": "Write down",
+                    "right": "To reduce the recorded value of an asset"
+                },
+                {
+                    "left": "Pay off",
+                    "right": "To settle a debt in full"
+                },
+                {
+                    "left": "Siphon off",
+                    "right": "To illegally take money from an organization"
+                }
+            ],
+            "hint": "Money management verbs",
+            "voice_input": false,
+            "example_sentence": "The bank had to write down its assets after it was discovered that executives had been siphoning off funds for years.",
+            "media": {}
+        },
+        {
+            "id": "EC1VS3_140",
+            "type": "tap_fill",
+            "question": "The IMF warned that the country's debt-to-GDP ratio has reached a(n) ___ level, necessitating urgent restructuring.",
+            "options": [
+                "unsustainable",
+                "unattainable",
+                "unreliable",
+                "unpredictable"
+            ],
+            "answer": "unsustainable",
+            "hint": "Not able to be maintained",
+            "voice_input": false,
+            "example_sentence": "The IMF warned that the country's debt-to-GDP ratio has reached an unsustainable level, necessitating urgent restructuring.",
+            "media": {}
+        },
+        {
+            "id": "EC1VS3_141",
+            "type": "tap_fill",
+            "question": "The director’s latest film is a(n) ___ to the golden age of Hollywood, blending nostalgic visuals with a modern narrative structure.",
+            "options": [
+                "homage",
+                "image",
+                "mirage",
+                "pillage"
+            ],
+            "answer": "homage",
+            "hint": "A tribute or special honor shown publicly",
+            "voice_input": false,
+            "example_sentence": "The director’s latest film is a homage to the golden age of Hollywood, blending nostalgic visuals with a modern narrative structure.",
+            "media": {}
+        },
+        {
+            "id": "EC1VS3_142",
+            "type": "multiple_choice",
+            "question": "What does it mean if a work of art is described as 'avant-garde'?",
+            "options": [
+                "It is experimental, radical, or unorthodox",
+                "It is strictly traditional and follows classical rules",
+                "It was created by an anonymous artist for the public"
+            ],
+            "answer": "It is experimental, radical, or unorthodox",
+            "hint": "Cutting edge or innovative",
+            "voice_input": false,
+            "example_sentence": "The gallery specializes in avant-garde installations that challenge the viewer's perception of space and time.",
+            "media": {}
+        },
+        {
+            "id": "EC1VS3_143",
+            "type": "matching",
+            "question": "Match the literary terms with their precise definitions.",
+            "pairs": [
+                {
+                    "left": "Allegory",
+                    "right": "A story that can be interpreted to reveal a hidden meaning"
+                },
+                {
+                    "left": "Juxtaposition",
+                    "right": "Placing two things close together for contrasting effect"
+                },
+                {
+                    "left": "Motif",
+                    "right": "A recurring element that has symbolic significance"
+                },
+                {
+                    "left": "Euphemism",
+                    "right": "A mild word substituted for one considered too harsh"
+                }
+            ],
+            "answer": [
+                {
+                    "left": "Allegory",
+                    "right": "A story that can be interpreted to reveal a hidden meaning"
+                },
+                {
+                    "left": "Juxtaposition",
+                    "right": "Placing two things close together for contrasting effect"
+                },
+                {
+                    "left": "Motif",
+                    "right": "A recurring element that has symbolic significance"
+                },
+                {
+                    "left": "Euphemism",
+                    "right": "A mild word substituted for one considered too harsh"
+                }
+            ],
+            "hint": "Elements of style and narrative",
+            "voice_input": false,
+            "example_sentence": "Through the juxtaposition of light and shadow, the author strengthens the central motif of moral ambiguity in this political allegory.",
+            "media": {}
+        },
+        {
+            "id": "EC1VS3_144",
+            "type": "sentence_ordering",
+            "question": "Reorder the words to form a critique of a literary work.",
+            "words": [
+                "The",
+                "protagonist",
+                "is",
+                "a",
+                "deeply",
+                "flawed",
+                "yet",
+                "compelling",
+                "character",
+                "whose",
+                "actions",
+                "defy",
+                "conventional",
+                "moral",
+                "categorization"
+            ],
+            "answer": "The protagonist is a deeply flawed yet compelling character whose actions defy conventional moral categorization",
+            "hint": "Complex character analysis",
+            "voice_input": false,
+            "example_sentence": "The protagonist is a deeply flawed yet compelling character whose actions defy conventional moral categorization.",
+            "media": {}
+        },
+        {
+            "id": "EC1VS3_145",
+            "type": "pronunciation",
+            "question": "Read the following sentence aloud: 'The ethereal quality of the score perfectly complements the cinematography, creating a truly immersive aesthetic experience.'",
+            "answer": "",
+            "hint": "Focus on 'Ethereal'",
+            "voice_input": true,
+            "example_sentence": "The ethereal quality of the score perfectly complements the cinematography, creating a truly immersive aesthetic experience.",
+            "media": {}
+        },
+        {
+            "id": "EC1VS3_146",
+            "type": "tap_fill",
+            "question": "Critics praised the novel for its ___ prose, noting that every word seemed carefully chosen for maximum emotional impact.",
+            "options": [
+                "exquisite",
+                "expansive",
+                "expensive",
+                "excessive"
+            ],
+            "answer": "exquisite",
+            "hint": "Extremely beautiful and delicate",
+            "voice_input": false,
+            "example_sentence": "Critics praised the novel for its exquisite prose, noting that every word seemed carefully chosen for maximum emotional impact.",
+            "media": {}
+        },
+        {
+            "id": "EC1VS3_147",
+            "type": "multiple_choice",
+            "question": "If a play is described as 'poignant', what emotion does it typically evoke?",
+            "options": [
+                "A keen sense of sadness or regret",
+                "Uncontrollable laughter and joy",
+                "Boredom due to a repetitive plot"
+            ],
+            "answer": "A keen sense of sadness or regret",
+            "hint": "Touchingly sad",
+            "voice_input": false,
+            "example_sentence": "The documentary offered a poignant look at the lives of refugees, leaving the audience in contemplative silence.",
+            "media": {}
+        },
+        {
+            "id": "EC1VS3_148",
+            "type": "matching",
+            "question": "Match the artistic movements with their core philosophies.",
+            "pairs": [
+                {
+                    "left": "Surrealism",
+                    "right": "Focusing on the unconscious mind and dreamlike imagery"
+                },
+                {
+                    "left": "Minimalism",
+                    "right": "Using simple forms and avoiding decorative excess"
+                },
+                {
+                    "left": "Expressionism",
+                    "right": "Distorting reality to express emotional experience"
+                },
+                {
+                    "left": "Naturalism",
+                    "right": "Depicting life with scientific detached precision"
+                }
+            ],
+            "answer": [
+                {
+                    "left": "Surrealism",
+                    "right": "Focusing on the unconscious mind and dreamlike imagery"
+                },
+                {
+                    "left": "Minimalism",
+                    "right": "Using simple forms and avoiding decorative excess"
+                },
+                {
+                    "left": "Expressionism",
+                    "right": "Distorting reality to express emotional experience"
+                },
+                {
+                    "left": "Naturalism",
+                    "right": "Depicting life with scientific detached precision"
+                }
+            ],
+            "hint": "Art history and theory",
+            "voice_input": false,
+            "example_sentence": "The artist transitioned from the starkness of minimalism to the vivid, distorted emotionality of expressionism.",
+            "media": {}
+        },
+        {
+            "id": "EC1VS3_149",
+            "type": "tap_fill",
+            "question": "The exhibit was designed to ___ the boundaries between the digital and the physical world.",
+            "options": [
+                "blur",
+                "break",
+                "bend",
+                "bind"
+            ],
+            "answer": "blur",
+            "hint": "To make less distinct",
+            "voice_input": false,
+            "example_sentence": "The exhibit was designed to blur the boundaries between the digital and the physical world.",
+            "media": {}
+        },
+        {
+            "id": "EC1VS3_150",
+            "type": "sentence_ordering",
+            "question": "Reorder the words to discuss cultural heritage.",
+            "words": [
+                "The",
+                "restoration",
+                "project",
+                "aims",
+                "to",
+                "preserve",
+                "the",
+                "architectural",
+                "integrity",
+                "of",
+                "the",
+                "cathedral",
+                "for",
+                "future",
+                "generations"
+            ],
+            "answer": "The restoration project aims to preserve the architectural integrity of the cathedral for future generations",
+            "hint": "Saving historical buildings",
+            "voice_input": false,
+            "example_sentence": "The restoration project aims to preserve the architectural integrity of the cathedral for future generations.",
+            "media": {}
+        },
+        {
+            "id": "EC1VS3_151",
+            "type": "multiple_choice",
+            "question": "What is 'cultural appropriation'?",
+            "options": [
+                "Taking elements from a culture that is not one's own without permission",
+                "The process of moving to a new country and learning the language",
+                "The government funding of local art galleries and museums"
+            ],
+            "answer": "Taking elements from a culture that is not one's own without permission",
+            "hint": "Controversial cultural borrowing",
+            "voice_input": false,
+            "example_sentence": "The fashion brand was accused of cultural appropriation after using traditional indigenous patterns without credit.",
+            "media": {}
+        },
+        {
+            "id": "EC1VS3_152",
+            "type": "tap_fill",
+            "question": "The actor gave a(n) ___ performance that is almost certain to win him an Academy Award.",
+            "options": [
+                "riveting",
+                "pivoting",
+                "drifting",
+                "shifting"
+            ],
+            "answer": "riveting",
+            "hint": "Completely engrossing; compelling",
+            "voice_input": false,
+            "example_sentence": "The actor gave a riveting performance that is almost certain to win him an Academy Award.",
+            "media": {}
+        },
+        {
+            "id": "EC1VS3_153",
+            "type": "matching",
+            "question": "Match the artistic binomials with their meanings.",
+            "pairs": [
+                {
+                    "left": "Trial and error",
+                    "right": "Experimenting until a solution is found"
+                },
+                {
+                    "left": "Touch and go",
+                    "right": "In a precarious or uncertain state"
+                },
+                {
+                    "left": "Part and parcel",
+                    "right": "An essential or integral component"
+                },
+                {
+                    "left": "Far and wide",
+                    "right": "Over a large area or distance"
+                }
+            ],
+            "answer": [
+                {
+                    "left": "Trial and error",
+                    "right": "Experimenting until a solution is found"
+                },
+                {
+                    "left": "Touch and go",
+                    "right": "In a precarious or uncertain state"
+                },
+                {
+                    "left": "Part and parcel",
+                    "right": "An essential or integral component"
+                },
+                {
+                    "left": "Far and wide",
+                    "right": "Over a large area or distance"
+                }
+            ],
+            "hint": "Common English pairings",
+            "voice_input": false,
+            "example_sentence": "The creative process involves a great deal of trial and error, which is part and parcel of being an artist.",
+            "media": {}
+        },
+        {
+            "id": "EC1VS3_154",
+            "type": "tap_fill",
+            "question": "The author’s use of satire is a(n) ___ tool for exposing the absurdities of modern bureaucracy.",
+            "options": [
+                "potent",
+                "patient",
+                "patent",
+                "pliant"
+            ],
+            "answer": "potent",
+            "hint": "Having great power, influence, or effect",
+            "voice_input": false,
+            "example_sentence": "The author’s use of satire is a potent tool for exposing the absurdities of modern bureaucracy.",
+            "media": {}
+        },
+        {
+            "id": "EC1VS3_155",
+            "type": "pronunciation",
+            "question": "Read the following sentence aloud: 'The visceral reaction of the audience to the final scene proved that the play had successfully navigated its complex moral themes.'",
+            "answer": "",
+            "hint": "Focus on 'Visceral'",
+            "voice_input": true,
+            "example_sentence": "The visceral reaction of the audience to the final scene proved that the play had successfully navigated its complex moral themes.",
+            "media": {}
+        },
+        {
+            "id": "EC1VS3_156",
+            "type": "tap_fill",
+            "question": "Her work is characterized by a ___ attention to detail that sets her apart from her contemporaries.",
+            "options": [
+                "meticulous",
+                "ridiculous",
+                "conspicuous",
+                "ambiguous"
+            ],
+            "answer": "meticulous",
+            "hint": "Showing great attention to detail",
+            "voice_input": false,
+            "example_sentence": "Her work is characterized by a meticulous attention to detail that sets her apart from her contemporaries.",
+            "media": {}
+        },
+        {
+            "id": "EC1VS3_157",
+            "type": "multiple_choice",
+            "question": "What is the meaning of 'pastiche' in art or literature?",
+            "options": [
+                "A work that imitates the style of another artist or period",
+                "A type of glue used in historical oil painting",
+                "A harsh critique that aims to destroy an artist's reputation"
+            ],
+            "answer": "A work that imitates the style of another artist or period",
+            "hint": "Imitative artistic work",
+            "voice_input": false,
+            "example_sentence": "The building is a clever pastiche of Victorian and Art Deco styles, somehow managing to look both old and new.",
+            "media": {}
+        },
+        {
+            "id": "EC1VS3_158",
+            "type": "sentence_ordering",
+            "question": "Reorder the words to form a statement about literary impact.",
+            "words": [
+                "Great",
+                "literature",
+                "has",
+                "the",
+                "power",
+                "to",
+                "transcend",
+                "cultural",
+                "boundaries",
+                "and",
+                "speak",
+                "to",
+                "the",
+                "universal",
+                "human",
+                "condition"
+            ],
+            "answer": "Great literature has the power to transcend cultural boundaries and speak to the universal human condition",
+            "hint": "Universal appeal of art",
+            "voice_input": false,
+            "example_sentence": "Great literature has the power to transcend cultural boundaries and speak to the universal human condition.",
+            "media": {}
+        },
+        {
+            "id": "EC1VS3_159",
+            "type": "matching",
+            "question": "Match the analytical phrasal verbs with their synonyms.",
+            "pairs": [
+                {
+                    "left": "Draw on",
+                    "right": "To use something as a source of information"
+                },
+                {
+                    "left": "Sketch out",
+                    "right": "To give a brief description or outline"
+                },
+                {
+                    "left": "Read into",
+                    "right": "To find a meaning that may not be there"
+                },
+                {
+                    "left": "Bring out",
+                    "right": "To make a particular quality more noticeable"
+                }
+            ],
+            "answer": [
+                {
+                    "left": "Draw on",
+                    "right": "To use something as a source of information"
+                },
+                {
+                    "left": "Sketch out",
+                    "right": "To give a brief description or outline"
+                },
+                {
+                    "left": "Read into",
+                    "right": "To find a meaning that may not be there"
+                },
+                {
+                    "left": "Bring out",
+                    "right": "To make a particular quality more noticeable"
+                }
+            ],
+            "hint": "Verbs of artistic analysis",
+            "voice_input": false,
+            "example_sentence": "The novelist tends to draw on her childhood experiences to bring out the themes of loss and resilience in her work.",
+            "media": {}
+        },
+        {
+            "id": "EC1VS3_160",
+            "type": "tap_fill",
+            "question": "The installation was meant to be ___, lasting only for the duration of the three-day festival.",
+            "options": [
+                "ephemeral",
+                "eternal",
+                "internal",
+                "maternal"
+            ],
+            "answer": "ephemeral",
+            "hint": "Lasting for a very short time",
+            "voice_input": false,
+            "example_sentence": "The installation was meant to be ephemeral, lasting only for the duration of the three-day festival.",
+            "media": {}
+        },
+        {
+            "id": "EC1VS3_161",
+            "type": "tap_fill",
+            "question": "The research team is on the ___ of a major medical breakthrough that could potentially cure several autoimmune disorders.",
+            "options": [
+                "threshold",
+                "corridor",
+                "boundary",
+                "gateway"
+            ],
+            "answer": "threshold",
+            "hint": "The point of entering or beginning",
+            "voice_input": false,
+            "example_sentence": "The research team is on the threshold of a major medical breakthrough that could potentially cure several autoimmune disorders.",
+            "media": {}
+        },
+        {
+            "id": "EC1VS3_162",
+            "type": "multiple_choice",
+            "question": "What does the term 'genetic engineering' specifically involve?",
+            "options": [
+                "The deliberate modification of an organism's DNA",
+                "The study of how environment affects natural selection",
+                "The classification of species based on physical traits"
+            ],
+            "answer": "The deliberate modification of an organism's DNA",
+            "hint": "Direct manipulation of genes",
+            "voice_input": false,
+            "example_sentence": "Genetic engineering has paved the way for crops that are resistant to both pests and extreme weather conditions.",
+            "media": {}
+        },
+        {
+            "id": "EC1VS3_163",
+            "type": "matching",
+            "question": "Match the advanced scientific terms with their definitions.",
+            "pairs": [
+                {
+                    "left": "Bioethics",
+                    "right": "The study of ethical issues emerging from advances in biology"
+                },
+                {
+                    "left": "Nanotechnology",
+                    "right": "The manipulation of matter on an atomic or molecular scale"
+                },
+                {
+                    "left": "Cryogenics",
+                    "right": "The branch of physics dealing with very low temperatures"
+                },
+                {
+                    "left": "Thermodynamics",
+                    "right": "The study of the relations between heat and other forms of energy"
+                }
+            ],
+            "answer": [
+                {
+                    "left": "Bioethics",
+                    "right": "The study of ethical issues emerging from advances in biology"
+                },
+                {
+                    "left": "Nanotechnology",
+                    "right": "The manipulation of matter on an atomic or molecular scale"
+                },
+                {
+                    "left": "Cryogenics",
+                    "right": "The branch of physics dealing with very low temperatures"
+                },
+                {
+                    "left": "Thermodynamics",
+                    "right": "The study of the relations between heat and other forms of energy"
+                }
+            ],
+            "hint": "Specialized scientific branches",
+            "voice_input": false,
+            "example_sentence": "Advances in nanotechnology have forced the field of bioethics to reconsider our definitions of physical enhancement.",
+            "media": {}
+        },
+        {
+            "id": "EC1VS3_164",
+            "type": "sentence_ordering",
+            "question": "Reorder the words to form a complex sentence about scientific methodology.",
+            "words": [
+                "Rigorous",
+                "peer",
+                "review",
+                "is",
+                "essential",
+                "to",
+                "uphold",
+                "the",
+                "veracity",
+                "of",
+                "findings",
+                "published",
+                "in",
+                "reputable",
+                "scientific",
+                "journals"
+            ],
+            "answer": "Rigorous peer review is essential to uphold the veracity of findings published in reputable scientific journals",
+            "hint": "Ensuring truth in research",
+            "voice_input": false,
+            "example_sentence": "Rigorous peer review is essential to uphold the veracity of findings published in reputable scientific journals.",
+            "media": {}
+        },
+        {
+            "id": "EC1VS3_165",
+            "type": "pronunciation",
+            "question": "Read the following sentence aloud: 'The synergistic effect of combining these two chemical compounds resulted in a reaction of unprecedented volatility.'",
+            "answer": "",
+            "hint": "Focus on 'Synergistic'",
+            "voice_input": true,
+            "example_sentence": "The synergistic effect of combining these two chemical compounds resulted in a reaction of unprecedented volatility.",
+            "media": {}
+        },
+        {
+            "id": "EC1VS3_166",
+            "type": "tap_fill",
+            "question": "The patient's condition began to ___ rapidly after the initial treatment failed to stop the spread of the infection.",
+            "options": [
+                "deteriorate",
+                "deviate",
+                "denigrate",
+                "demonstrate"
+            ],
+            "answer": "deteriorate",
+            "hint": "To become progressively worse",
+            "voice_input": false,
+            "example_sentence": "The patient's condition began to deteriorate rapidly after the initial treatment failed to stop the spread of the infection.",
+            "media": {}
+        },
+        {
+            "id": "EC1VS3_167",
+            "type": "multiple_choice",
+            "question": "What is meant by the term 'clinical trial'?",
+            "options": [
+                "Research studies performed in people to evaluate medical interventions",
+                "A legal proceeding to determine if a doctor was negligent",
+                "The final exam taken by students in their last year of medical school"
+            ],
+            "answer": "Research studies performed in people to evaluate medical interventions",
+            "hint": "Testing new medicine",
+            "voice_input": false,
+            "example_sentence": "The drug showed promise in the lab, but it must now undergo a rigorous clinical trial to ensure its safety for humans.",
+            "media": {}
+        },
+        {
+            "id": "EC1VS3_168",
+            "type": "matching",
+            "question": "Match the prefixes used in science with their meanings.",
+            "pairs": [
+                {
+                    "left": "Neuro-",
+                    "right": "Relating to nerves or the nervous system"
+                },
+                {
+                    "left": "Geno-",
+                    "right": "Relating to genes or heredity"
+                },
+                {
+                    "left": "Patho-",
+                    "right": "Relating to disease"
+                },
+                {
+                    "left": "Hypo-",
+                    "right": "Under, below, or less than normal"
+                }
+            ],
+            "answer": [
+                {
+                    "left": "Neuro-",
+                    "right": "Relating to nerves or the nervous system"
+                },
+                {
+                    "left": "Geno-",
+                    "right": "Relating to genes or heredity"
+                },
+                {
+                    "left": "Patho-",
+                    "right": "Relating to disease"
+                },
+                {
+                    "left": "Hypo-",
+                    "right": "Under, below, or less than normal"
+                }
+            ],
+            "hint": "Scientific linguistic roots",
+            "voice_input": false,
+            "example_sentence": "The neurobiologist studied the pathogen to see if it could cross the blood-brain barrier.",
+            "media": {}
+        },
+        {
+            "id": "EC1VS3_169",
+            "type": "tap_fill",
+            "question": "Scientific progress is often ___ by a lack of funding for high-risk, high-reward experimental research.",
+            "options": [
+                "stifled",
+                "staffed",
+                "staged",
+                "stayed"
+            ],
+            "answer": "stifled",
+            "hint": "Restrained or stopped from growing",
+            "voice_input": false,
+            "example_sentence": "Scientific progress is often stifled by a lack of funding for high-risk, high-reward experimental research.",
+            "media": {}
+        },
+        {
+            "id": "EC1VS3_170",
+            "type": "sentence_ordering",
+            "question": "Reorder the words to form a statement about ethical dilemmas.",
+            "words": [
+                "The",
+                "ability",
+                "to",
+                "edit",
+                "human",
+                "embryos",
+                "raises",
+                "profound",
+                "ethical",
+                "questions",
+                "regarding",
+                "the",
+                "potential",
+                "for",
+                "designer",
+                "babies"
+            ],
+            "answer": "The ability to edit human embryos raises profound ethical questions regarding the potential for designer babies",
+            "hint": "Genetic modification morals",
+            "voice_input": false,
+            "example_sentence": "The ability to edit human embryos raises profound ethical questions regarding the potential for designer babies.",
+            "media": {}
+        },
+        {
+            "id": "EC1VS3_171",
+            "type": "multiple_choice",
+            "question": "What is the 'placebo effect'?",
+            "options": [
+                "A beneficial effect produced by a harmless pill which the patient believes is real",
+                "The side effects experienced after taking an overdose of medicine",
+                "The process of a body rejecting a transplanted organ"
+            ],
+            "answer": "A beneficial effect produced by a harmless pill which the patient believes is real",
+            "hint": "Psychological healing response",
+            "voice_input": false,
+            "example_sentence": "In many drug trials, the placebo effect is so strong that it becomes difficult to measure the actual efficacy of the medication.",
+            "media": {}
+        },
+        {
+            "id": "EC1VS3_172",
+            "type": "tap_fill",
+            "question": "The results of the study were ___ , meaning that no firm conclusions could be drawn regarding the drug's effectiveness.",
+            "options": [
+                "inconclusive",
+                "exclusive",
+                "obtrusive",
+                "reclusive"
+            ],
+            "answer": "inconclusive",
+            "hint": "Not leading to a firm conclusion",
+            "voice_input": false,
+            "example_sentence": "The results of the study were inconclusive, meaning that no firm conclusions could be drawn regarding the drug's effectiveness.",
+            "media": {}
+        },
+        {
+            "id": "EC1VS3_173",
+            "type": "matching",
+            "question": "Match the phrasal verbs with their scientific applications.",
+            "pairs": [
+                {
+                    "left": "Carry out",
+                    "right": "To perform an experiment or task"
+                },
+                {
+                    "left": "Break down",
+                    "right": "To decompose or separate into parts"
+                },
+                {
+                    "left": "Rule out",
+                    "right": "To eliminate a possibility"
+                },
+                {
+                    "left": "Stem from",
+                    "right": "To originate from a specific cause"
+                }
+            ],
+            "answer": [
+                {
+                    "left": "Carry out",
+                    "right": "To perform an experiment or task"
+                },
+                {
+                    "left": "Break down",
+                    "right": "To decompose or separate into parts"
+                },
+                {
+                    "left": "Rule out",
+                    "right": "To eliminate a possibility"
+                },
+                {
+                    "left": "Stem from",
+                    "right": "To originate from a specific cause"
+                }
+            ],
+            "hint": "Action verbs in research",
+            "voice_input": false,
+            "example_sentence": "Scientists must carry out multiple tests to rule out any external variables that might stem from environmental contamination.",
+            "media": {}
+        },
+        {
+            "id": "EC1VS3_174",
+            "type": "tap_fill",
+            "question": "The robot’s movements were so fluid that they almost ___ those of a living creature.",
+            "options": [
+                "mimicked",
+                "mined",
+                "mended",
+                "mocked"
+            ],
+            "answer": "mimicked",
+            "hint": "To imitate or copy",
+            "voice_input": false,
+            "example_sentence": "The robot’s movements were so fluid that they almost mimicked those of a living creature.",
+            "media": {}
+        },
+        {
+            "id": "EC1VS3_175",
+            "type": "pronunciation",
+            "question": "Read the following sentence aloud: 'The pharmaceutical industry faces constant scrutiny regarding the exorbitant costs of life-saving medications.'",
+            "answer": "",
+            "hint": "Focus on 'Exorbitant'",
+            "voice_input": true,
+            "example_sentence": "The pharmaceutical industry faces constant scrutiny regarding the exorbitant costs of life-saving medications.",
+            "media": {}
+        },
+        {
+            "id": "EC1VS3_176",
+            "type": "tap_fill",
+            "question": "Some philosophers argue that the merging of man and machine is not only inevitable but ___ for the survival of the species.",
+            "options": [
+                "imperative",
+                "operative",
+                "relative",
+                "figurative"
+            ],
+            "answer": "imperative",
+            "hint": "Crucial or of vital importance",
+            "voice_input": false,
+            "example_sentence": "Some philosophers argue that the merging of man and machine is not only inevitable but imperative for the survival of the species.",
+            "media": {}
+        },
+        {
+            "id": "EC1VS3_177",
+            "type": "multiple_choice",
+            "question": "What is 'entropy' in a physical and metaphorical sense?",
+            "options": [
+                "A measure of disorder or randomness in a system",
+                "The speed at which light travels through a vacuum",
+                "The ability of a material to conduct electricity"
+            ],
+            "answer": "A measure of disorder or randomness in a system",
+            "hint": "Gradual decline into disorder",
+            "voice_input": false,
+            "example_sentence": "In any closed system, entropy is always increasing, leading to a state of total equilibrium.",
+            "media": {}
+        },
+        {
+            "id": "EC1VS3_178",
+            "type": "sentence_ordering",
+            "question": "Reorder the words to form a statement about environmental science.",
+            "words": [
+                "The",
+                "ocean",
+                "serves",
+                "as",
+                "a",
+                "vast",
+                "carbon",
+                "sink",
+                "absorbing",
+                "significant",
+                "amounts",
+                "of",
+                "greenhouse",
+                "gases",
+                "from",
+                "the",
+                "atmosphere"
+            ],
+            "answer": "The ocean serves as a vast carbon sink absorbing significant amounts of greenhouse gases from the atmosphere",
+            "hint": "Natural carbon management",
+            "voice_input": false,
+            "example_sentence": "The ocean serves as a vast carbon sink, absorbing significant amounts of greenhouse gases from the atmosphere.",
+            "media": {}
+        },
+        {
+            "id": "EC1VS3_179",
+            "type": "matching",
+            "question": "Match the scientific binomials with their meanings.",
+            "pairs": [
+                {
+                    "left": "Cause and effect",
+                    "right": "The relationship between an action and its result"
+                },
+                {
+                    "left": "Observation and",
+                    "right": "Inference"
+                },
+                {
+                    "left": "Fact and",
+                    "right": "Fiction"
+                },
+                {
+                    "left": "Hypothesis and",
+                    "right": "Experimentation"
+                }
+            ],
+            "answer": [
+                {
+                    "left": "Cause and effect",
+                    "right": "The relationship between an action and its result"
+                },
+                {
+                    "left": "Observation and",
+                    "right": "Inference"
+                },
+                {
+                    "left": "Fact and",
+                    "right": "Fiction"
+                },
+                {
+                    "left": "Hypothesis and",
+                    "right": "Experimentation"
+                }
+            ],
+            "hint": "Standard scientific pairings",
+            "voice_input": false,
+            "example_sentence": "The fundamental goal of research is to establish a clear link of cause and effect through observation and inference.",
+            "media": {}
+        },
+        {
+            "id": "EC1VS3_180",
+            "type": "tap_fill",
+            "question": "The findings were based on a(n) ___ study that followed participants over a span of thirty years.",
+            "options": [
+                "longitudinal",
+                "latitudinal",
+                "attitudinal",
+                "multitudinal"
+            ],
+            "answer": "longitudinal",
+            "hint": "Conducted over a long period of time",
+            "voice_input": false,
+            "example_sentence": "The findings were based on a longitudinal study that followed participants over a span of thirty years.",
+            "media": {}
+        },
+        {
+            "id": "EC1VS3_181",
+            "type": "tap_fill",
+            "question": "The company’s decision to move production overseas was ___ driven by a desire to reduce labor costs, despite their claims of seeking 'global synergy.'",
+            "options": [
+                "ostensibly",
+                "clandestinely",
+                "inadvertently",
+                "seemingly"
+            ],
+            "answer": "ostensibly",
+            "hint": "Appearing as such but perhaps not really",
+            "voice_input": false,
+            "example_sentence": "The company’s decision to move production overseas was ostensibly driven by a desire to reduce labor costs.",
+            "media": {}
+        },
+        {
+            "id": "EC1VS3_182",
+            "type": "multiple_choice",
+            "question": "If something is happening 'inexorably', how is it progressing?",
+            "options": [
+                "In a way that is impossible to stop or prevent",
+                "With great enthusiasm and speed",
+                "In a manner that is difficult to notice"
+            ],
+            "answer": "In a way that is impossible to stop or prevent",
+            "hint": "Relentless progress",
+            "voice_input": false,
+            "example_sentence": "The aging process continues inexorably, regardless of the various anti-aging treatments available.",
+            "media": {}
+        },
+        {
+            "id": "EC1VS3_183",
+            "type": "matching",
+            "question": "Match the formal Latinate verbs with their informal Germanic counterparts.",
+            "pairs": [
+                {
+                    "left": "Commence",
+                    "right": "Start"
+                },
+                {
+                    "left": "Terminate",
+                    "right": "End"
+                },
+                {
+                    "left": "Ascertain",
+                    "right": "Find out"
+                },
+                {
+                    "left": "Relinquish",
+                    "right": "Give up"
+                }
+            ],
+            "answer": [
+                {
+                    "left": "Commence",
+                    "right": "Start"
+                },
+                {
+                    "left": "Terminate",
+                    "right": "End"
+                },
+                {
+                    "left": "Ascertain",
+                    "right": "Find out"
+                },
+                {
+                    "left": "Relinquish",
+                    "right": "Give up"
+                }
+            ],
+            "hint": "Formal vs. Informal register",
+            "voice_input": false,
+            "example_sentence": "Once we ascertain the cause of the leak, we must terminate the project and relinquish our claim to the land.",
+            "media": {}
+        },
+        {
+            "id": "EC1VS3_184",
+            "type": "sentence_ordering",
+            "question": "Reorder the words to form a statement about perceived truth.",
+            "words": [
+                "The",
+                "document",
+                "was",
+                "purportedly",
+                "signed",
+                "by",
+                "the",
+                "CEO",
+                "but",
+                "forensic",
+                "analysis",
+                "suggests",
+                "it",
+                "is",
+                "a",
+                "forgery"
+            ],
+            "answer": "The document was purportedly signed by the CEO but forensic analysis suggests it is a forgery",
+            "hint": "Claimed but not proven",
+            "voice_input": false,
+            "example_sentence": "The document was purportedly signed by the CEO, but forensic analysis suggests it is a forgery.",
+            "media": {}
+        },
+        {
+            "id": "EC1VS3_185",
+            "type": "pronunciation",
+            "question": "Read the following sentence aloud: 'His clandestine meetings with the opposition leaders were eventually exposed by a persistent investigative journalist.'",
+            "answer": "",
+            "hint": "Focus on 'Clandestine'",
+            "voice_input": true,
+            "example_sentence": "His clandestine meetings with the opposition leaders were eventually exposed by a persistent investigative journalist.",
+            "media": {}
+        },
+        {
+            "id": "EC1VS3_186",
+            "type": "tap_fill",
+            "question": "The new legislation is intended to ___ the tide of illegal wildlife trafficking in the region.",
+            "options": [
+                "stem",
+                "stop",
+                "hold",
+                "back"
+            ],
+            "answer": "stem",
+            "hint": "Idiom: to ___ the tide",
+            "voice_input": false,
+            "example_sentence": "The new legislation is intended to stem the tide of illegal wildlife trafficking in the region.",
+            "media": {}
+        },
+        {
+            "id": "EC1VS3_187",
+            "type": "multiple_choice",
+            "question": "What does it mean if someone 'takes umbrage' at a comment?",
+            "options": [
+                "They feel offended or insulted",
+                "They find the comment humorous",
+                "They ignore the comment entirely"
+            ],
+            "answer": "They feel offended or insulted",
+            "hint": "To take offense",
+            "voice_input": false,
+            "example_sentence": "She took umbrage at the suggestion that her success was due to luck rather than hard work.",
+            "media": {}
+        },
+        {
+            "id": "EC1VS3_188",
+            "type": "matching",
+            "question": "Match the abstract adverbs with their meanings.",
+            "pairs": [
+                {
+                    "left": "Invariably",
+                    "right": "In every case or on every occasion"
+                },
+                {
+                    "left": "Scrupulously",
+                    "right": "In a very careful and thorough way"
+                },
+                {
+                    "left": "Profoundly",
+                    "right": "In a very great or intense way"
+                },
+                {
+                    "left": "Superficially",
+                    "right": "Only on the surface; not deeply"
+                }
+            ],
+            "answer": [
+                {
+                    "left": "Invariably",
+                    "right": "In every case or on every occasion"
+                },
+                {
+                    "left": "Scrupulously",
+                    "right": "In a very careful and thorough way"
+                },
+                {
+                    "left": "Profoundly",
+                    "right": "In a very great or intense way"
+                },
+                {
+                    "left": "Superficially",
+                    "right": "Only on the surface; not deeply"
+                }
+            ],
+            "hint": "Adverbs for nuance",
+            "voice_input": false,
+            "example_sentence": "He scrupulously checked the data, but invariably, a few errors still slipped through.",
+            "media": {}
+        },
+        {
+            "id": "EC1VS3_189",
+            "type": "tap_fill",
+            "question": "After the scandal, the politician’s reputation was in ___ , and few believed he could win another election.",
+            "options": [
+                "tatters",
+                "pieces",
+                "bits",
+                "shreds"
+            ],
+            "answer": "tatters",
+            "hint": "Idiom: in ___ (ruined)",
+            "voice_input": false,
+            "example_sentence": "After the scandal, the politician’s reputation was in tatters.",
+            "media": {}
+        },
+        {
+            "id": "EC1VS3_190",
+            "type": "sentence_ordering",
+            "question": "Reorder the words to form a complex sentence about historical impact.",
+            "words": [
+                "The",
+                "industrial",
+                "revolution",
+                "profoundly",
+                "altered",
+                "the",
+                "socio-economic",
+                "fabric",
+                "of",
+                "modern",
+                "society",
+                "in",
+                "ways",
+                "that",
+                "are",
+                "still",
+                "felt",
+                "today"
+            ],
+            "answer": "The industrial revolution profoundly altered the socio-economic fabric of modern society in ways that are still felt today",
+            "hint": "Deep societal change",
+            "voice_input": false,
+            "example_sentence": "The industrial revolution profoundly altered the socio-economic fabric of modern society in ways that are still felt today.",
+            "media": {}
+        },
+        {
+            "id": "EC1VS3_191",
+            "type": "multiple_choice",
+            "question": "If a situation is described as 'tenuous', what is its nature?",
+            "options": [
+                "Very weak or slight",
+                "Extremely tense and aggressive",
+                "Highly organized and efficient"
+            ],
+            "answer": "Very weak or slight",
+            "hint": "Fragile or thin",
+            "voice_input": false,
+            "example_sentence": "The peace agreement is tenuous at best, with both sides accusing each other of minor violations.",
+            "media": {}
+        },
+        {
+            "id": "EC1VS3_192",
+            "type": "tap_fill",
+            "question": "The CEO tried to ___ the severity of the crisis to prevent a panic among the shareholders.",
+            "options": [
+                "downplay",
+                "downfall",
+                "downcast",
+                "downsize"
+            ],
+            "answer": "downplay",
+            "hint": "To make something seem less important",
+            "voice_input": false,
+            "example_sentence": "The CEO tried to downplay the severity of the crisis to prevent a panic among the shareholders.",
+            "media": {}
+        },
+        {
+            "id": "EC1VS3_193",
+            "type": "matching",
+            "question": "Match the idiom fragments to complete the common phrases.",
+            "pairs": [
+                {
+                    "left": "The last",
+                    "right": "straw"
+                },
+                {
+                    "left": "A blessing in",
+                    "right": "disguise"
+                },
+                {
+                    "left": "Cut to",
+                    "right": "the chase"
+                },
+                {
+                    "left": "The best of",
+                    "right": "both worlds"
+                }
+            ],
+            "answer": [
+                {
+                    "left": "The last",
+                    "right": "straw"
+                },
+                {
+                    "left": "A blessing in",
+                    "right": "disguise"
+                },
+                {
+                    "left": "Cut to",
+                    "right": "the chase"
+                },
+                {
+                    "left": "The best of",
+                    "right": "both worlds"
+                }
+            ],
+            "hint": "C1 common idioms",
+            "voice_input": false,
+            "example_sentence": "Losing my job was a blessing in disguise as it allowed me to pursue my dream of being an artist.",
+            "media": {}
+        },
+        {
+            "id": "EC1VS3_194",
+            "type": "tap_fill",
+            "question": "The evidence against the suspect was ___ circumstantial, lacking any direct DNA or forensic links.",
+            "options": [
+                "entirely",
+                "largely",
+                "mainly",
+                "mostly"
+            ],
+            "answer": "entirely",
+            "hint": "Completely; solely",
+            "voice_input": false,
+            "example_sentence": "The evidence against the suspect was entirely circumstantial.",
+            "media": {}
+        },
+        {
+            "id": "EC1VS3_195",
+            "type": "pronunciation",
+            "question": "Read the following sentence aloud: 'The ubiquitous nature of smartphones has fundamentally reshaped our cognitive habits and attention spans.'",
+            "answer": "",
+            "hint": "Focus on 'Ubiquitous'",
+            "voice_input": true,
+            "example_sentence": "The ubiquitous nature of smartphones has fundamentally reshaped our cognitive habits and attention spans.",
+            "media": {}
+        },
+        {
+            "id": "EC1VS3_196",
+            "type": "tap_fill",
+            "question": "He is a ___ supporter of the green energy initiative, having invested heavily in wind farm technology.",
+            "options": [
+                "staunch",
+                "stern",
+                "stark",
+                "stiff"
+            ],
+            "answer": "staunch",
+            "hint": "Loyal and committed in attitude",
+            "voice_input": false,
+            "example_sentence": "He is a staunch supporter of the green energy initiative.",
+            "media": {}
+        },
+        {
+            "id": "EC1VS3_197",
+            "type": "multiple_choice",
+            "question": "What does the phrase 'to play devil's advocate' mean?",
+            "options": [
+                "To argue against an idea to test its validity",
+                "To support a controversial or evil cause",
+                "To act as a legal representative for a criminal"
+            ],
+            "answer": "To argue against an idea to test its validity",
+            "hint": "Testing an argument",
+            "voice_input": false,
+            "example_sentence": "I'm just playing devil's advocate to make sure we've considered all the potential risks of this merger.",
+            "media": {}
+        },
+        {
+            "id": "EC1VS3_198",
+            "type": "sentence_ordering",
+            "question": "Reorder the words to form a statement about unforeseen consequences.",
+            "words": [
+                "The",
+                "new",
+                "policy",
+                "had",
+                "several",
+                "unintended",
+                "consequences",
+                "that",
+                "undermined",
+                "the",
+                "original",
+                "goals",
+                "of",
+                "the",
+                "reform"
+            ],
+            "answer": "The new policy had several unintended consequences that undermined the original goals of the reform",
+            "hint": "Accidental negative results",
+            "voice_input": false,
+            "example_sentence": "The new policy had several unintended consequences that undermined the original goals of the reform.",
+            "media": {}
+        },
+        {
+            "id": "EC1VS3_199",
+            "type": "matching",
+            "question": "Match the C1 phrasal verbs with their definitions.",
+            "pairs": [
+                {
+                    "left": "Phase out",
+                    "right": "To gradually stop using something"
+                },
+                {
+                    "left": "Back down",
+                    "right": "To admit defeat or stop a claim"
+                },
+                {
+                    "left": "Brush up on",
+                    "right": "To improve existing knowledge"
+                },
+                {
+                    "left": "Come across as",
+                    "right": "To give a certain impression"
+                }
+            ],
+            "answer": [
+                {
+                    "left": "Phase out",
+                    "right": "To gradually stop using something"
+                },
+                {
+                    "left": "Back down",
+                    "right": "To admit defeat or stop a claim"
+                },
+                {
+                    "left": "Brush up on",
+                    "right": "To improve existing knowledge"
+                },
+                {
+                    "left": "Come across as",
+                    "right": "To give a certain impression"
+                }
+            ],
+            "hint": "Everyday advanced phrasal verbs",
+            "voice_input": false,
+            "example_sentence": "The government plans to phase out fossil fuels, but they often back down when faced with industry pressure.",
+            "media": {}
+        },
+        {
+            "id": "EC1VS3_200",
+            "type": "tap_fill",
+            "question": "The results of the experiment were ___ flawed due to a calibration error in the sensor equipment.",
+            "options": [
+                "fundamentally",
+                "incidentally",
+                "marginally",
+                "partially"
+            ],
+            "answer": "fundamentally",
+            "hint": "In central or primary ways",
+            "voice_input": false,
+            "example_sentence": "The results of the experiment were fundamentally flawed.",
+            "media": {}
+        }
+    ]
+}
